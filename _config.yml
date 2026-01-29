@@ -1,0 +1,63 @@
+title: SB60 Intel
+email: jtest0979@gmail.com
+description: >-
+  Your source for everything Super Bowl 60.
+  Coverage from The Insider, The Analyst, and The Local.
+  Levi's Stadium. February 2026.
+
+baseurl: ""
+url: "https://jackwallnerdvc.github.io/ralph-sb60"
+
+twitter_username: sb60intel
+github_username: sb60-intel
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Collections
+collections:
+  authors:
+    output: true
+    permalink: /:collection/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "authors"
+    values:
+      layout: "author"
+
+# Pagination
+paginate: 10
+paginate_path: "/page/:num/"
+
+# Exclude from processing
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - .aider*
+  - .ralph/
+  - specs/
+  - "*.sh"
+  - kickstart_ralph.sh
+  - ralph_loop.sh
+
+# Custom settings
+show_excerpts: true

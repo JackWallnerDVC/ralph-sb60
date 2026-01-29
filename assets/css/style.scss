@@ -1,0 +1,188 @@
+---
+---
+
+@import "minima";
+
+/* SB60 Intel Custom Styles */
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 3rem 1rem;
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+  color: white;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+}
+
+.hero h1 {
+  color: #ffd700;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.1rem;
+  opacity: 0.9;
+}
+
+.countdown {
+  font-size: 1.5rem;
+  color: #ffd700;
+  font-weight: bold;
+  margin-top: 1rem;
+}
+
+/* Persona Cards */
+.persona-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.persona-card {
+  background: #f8f9fa;
+  border-radius: 8px;
+  padding: 1.5rem;
+  text-align: center;
+  border: 1px solid #e9ecef;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.persona-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.persona-avatar {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+}
+
+.persona-card h3 {
+  color: #1a1a2e;
+  margin-bottom: 0.5rem;
+}
+
+/* Post List */
+.post-list {
+  list-style: none;
+  padding: 0;
+}
+
+.post-list li {
+  padding: 1.5rem 0;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.post-list li:last-child {
+  border-bottom: none;
+}
+
+.post-meta {
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.post-author-inline {
+  color: #888;
+  font-size: 0.85rem;
+}
+
+/* Post Header */
+.post-header {
+  margin-bottom: 2rem;
+}
+
+.post-title {
+  color: #1a1a2e;
+  margin-bottom: 0.5rem;
+}
+
+.post-author {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  margin-right: 1rem;
+}
+
+.post-tags {
+  margin-left: 1rem;
+}
+
+.tag {
+  background: #e9ecef;
+  color: #495057;
+  padding: 0.2rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.8rem;
+  margin-right: 0.3rem;
+}
+
+/* Post Navigation */
+.post-nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid #e9ecef;
+}
+
+.post-nav a {
+  color: #0066cc;
+}
+
+.post-nav .prev::before {
+  content: "← ";
+}
+
+.post-nav .next::after {
+  content: " →";
+}
+
+/* Footer */
+.site-footer {
+  background: #f8f9fa;
+  padding: 2rem 0;
+  margin-top: 3rem;
+  border-top: 1px solid #e9ecef;
+}
+
+.rss-subscribe {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+/* Header */
+.site-header {
+  background: #1a1a2e;
+  border-bottom: 3px solid #ffd700;
+}
+
+.site-title {
+  color: #ffd700 !important;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.site-nav a {
+  color: white !important;
+  margin-left: 1.5rem;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .hero h1 {
+    font-size: 1.8rem;
+  }
+  
+  .persona-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .post-nav {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}

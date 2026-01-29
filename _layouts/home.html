@@ -1,0 +1,72 @@
+---
+layout: default
+---
+<div class="home">
+  <section class="hero">
+    <h1>Super Bowl 60 Intelligence</h1>
+    <p>Everything you need to know about the Big Game at Levi's Stadium.<br>
+    Coverage from The Insider, The Analyst, and The Local.</p>
+    <p class="countdown" id="sb60-countdown">Loading countdown...</p>
+  </section>
+
+  <section class="personas">
+    <h2>Our Team</h2>
+    <div class="persona-grid">
+      {% for persona in site.data.personas %}
+        <div class="persona-card">
+          <div class="persona-avatar">{{ persona[1].avatar }}</div>
+          <h3>{{ persona[1].name }}</h3>
+          <p>{{ persona[1].bio }}</p>
+          <a href="/authors/{{ persona[0] }}">Read more &rarr;</a>
+        </div>
+      {% endfor %}
+    </div>
+  </section>
+
+  <section class="posts">
+    <h2>Latest Updates</h2>
+    {% if site.posts.size > 0 %}
+      <ul class="post-list">
+        {% for post in site.posts limit:10 %}
+          <li>
+            <span class="post-meta">{{ post.date | date: "%b %d, %Y" }}</span>
+            <h3>
+              <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            </h3>
+            {% if post.excerpt %}
+              <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+            {% endif %}
+            <span class="post-author-inline">
+              {% assign author = site.data.personas[post.author] %}
+              {% if author %}{{ author.avatar }} {{ author.name }}{% else %}{{ post.author }}{% endif %}
+            </span>
+          </li>
+        {% endfor %}
+      </ul>
+      {% if site.posts.size > 10 %}
+        <p class="all-posts"><a href="/archive">View all posts &rarr;</a></p>
+      {% endif %}
+    {% else %}
+      <p>No posts yet. Check back soon!</p>
+    {% endif %}
+  </section>
+</div>
+
+<script>
+  // Countdown to Super Bowl 60 (Feb 8, 2026 - estimated)
+  const sb60Date = new Date('2026-02-08T18:30:00-08:00');
+  function updateCountdown() {
+    const now = new Date();
+    const diff = sb60Date - now;
+    if (diff > 0) {
+      const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+      const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      document.getElementById('sb60-countdown').textContent = 
+        `${days} days, ${hours} hours until kickoff`;
+    } else {
+      document.getElementById('sb60-countdown').textContent = 'Super Bowl 60 is here!';
+    }
+  }
+  updateCountdown();
+  setInterval(updateCountdown, 60000);
+</script>
