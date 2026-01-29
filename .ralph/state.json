@@ -1,14 +1,16 @@
 {
-  "mode": "continuous",
-  "lastActivity": "2026-01-29T19:27:15+0000",
+  "mode": "viral",
+  "lastActivity": "2026-01-29T22:57:29+0000",
   "draftsInQueue": 0,
-  "lastPublish": "2026-01-29T18:30:00+00:00",
-  "nextPublish": "2026-01-29T18:00:00+00:00",
+  "drafts": [],
+  "lastPublish": "2026-01-29T22:57:29.560032+00:00",
+  "targetQueueSize": 5,
   "currentPersona": "insider",
   "researchTopics": [
-    "Levi's Stadium renovations",
-    "Team matchup predictions",
-    "SF Bay Area events"
+    "SB60 MVP odds and predictions",
+    "X/Twitter trending SB60 topics",
+    "Betting line movements",
+    "Player news and injuries"
   ],
   "intelligence": {
     "trending": [],
@@ -20,5 +22,6 @@
       "levisstadium.com"
     ],
     "lastCheck": null
-  }
+  },
+  "nextPublish": "2026-01-29T18:00:00+00:00"
 }

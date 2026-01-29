@@ -24,16 +24,22 @@
       "author": "insider",
       "date": "2026-01-29T18:30:00+00:00",
       "url": "/2026/01/29/18-30-field-prep-begins.html"
+    },
+    {
+      "title": "The Vegas Trap: Why the Public Is Wrong About SB60",
+      "author": "analyst",
+      "date": "2026-01-29T22:57:29.560452+00:00",
+      "url": "/2026/01/29/2026-01-29-22-57-vegas-trap.html"
     }
   ],
   "stats": {
-    "totalPosts": 1,
+    "totalPosts": 2,
     "postsByPersona": {
       "insider": 1,
-      "analyst": 0,
+      "analyst": 1,
       "local": 0
     },
-    "lastPublish": "2026-01-29T18:30:00+00:00",
+    "lastPublish": "2026-01-29T22:57:29.560480+00:00",
     "streakDays": 0
   }
 }
