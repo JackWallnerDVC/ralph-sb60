@@ -762,14 +762,14 @@
   
   <header class="site-header">
     <div class="header-inner">
-      <a href="#" class="logo">
+      <a href="{{ '/' | relative_url }}" class="logo">
         <img src="https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=100&h=100&fit=crop" alt="Football" class="logo-icon">
         <span>SB60 Intel</span>
       </a>
       <nav class="site-nav">
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Authors</a>
+        <a href="{{ '/' | relative_url }}">Home</a>
+        <a href="{{ '/about' | relative_url }}">About</a>
+        <a href="{{ '/authors' | relative_url }}">Authors</a>
       </nav>
     </div>
   </header>
@@ -938,10 +938,10 @@
       </div>
       <p class="footer-desc">Your source for everything Super Bowl 60. Coverage from The Insider, The Analyst, and The Local.</p>
       <div class="footer-links">
-        <a href="#">RSS Feed</a>
-        <a href="#">Twitter/X</a>
-        <a href="#">About</a>
-        <a href="#">Authors</a>
+        <a href="{{ '/feed.xml' | relative_url }}">RSS Feed</a>
+        <a href="https://twitter.com/sb60intel">Twitter/X</a>
+        <a href="{{ '/about' | relative_url }}">About</a>
+        <a href="{{ '/authors' | relative_url }}">Authors</a>
       </div>
       <p class="footer-copy">© 2026 SB60 Intel. All rights reserved.</p>
     </div>
