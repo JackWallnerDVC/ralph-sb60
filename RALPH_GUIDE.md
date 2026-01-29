@@ -2,222 +2,239 @@
 
 ## Overview
 
-**Ralph** is the autonomous content engine for the SB60 Blog. It operates at two levels:
-1. **Development Mode**: The `ralph_loop.sh` script for building/updating the blog
-2. **Production Mode**: The `sb60-blog` skill within clawdbot for 4x daily publishing
+**Ralph** is the autonomous content engine for the SB60 Blog. It now runs in **Continuous Mode** - always researching and drafting in the background - with scheduled publishes every 6 hours.
+
+**Live Site:** https://jackwallnerdvc.github.io/ralph-sb60/
 
 ---
 
-## Architecture
+## New Architecture (Continuous Mode)
 
 ```
 ┌─────────────────────────────────────────────────────────────────┐
-│                        RALPH SYSTEM                              │
+│                    RALPH CONTINUOUS MODE                         │
 ├─────────────────────────────────────────────────────────────────┤
 │                                                                  │
-│  ┌──────────────┐     ┌──────────────┐     ┌──────────────┐    │
-│  │  Ralph Loop  │     │  Clawdbot    │     │   GitHub     │    │
-│  │  (aider)     │────▶│   Skill      │────▶│   Actions    │    │
-│  │              │     │              │     │              │    │
-│  └──────────────┘     └──────────────┘     └──────────────┘    │
-│         │                    │                    │            │
-│         ▼                    ▼                    ▼            │
-│  ┌──────────────┐     ┌──────────────┐     ┌──────────────┐    │
-│  │   Source     │     │    _posts/   │     │   Live Site  │    │
-│  │   (planning) │     │   (content)  │     │ (Pages)      │    │
-│  └──────────────┘     └──────────────┘     └──────────────┘    │
+│   ┌─────────────────────┐      ┌─────────────────────┐         │
+│   │  Ralph Continuous   │      │  Scheduled Publish  │         │
+│   │  (Always Running)   │─────▶│  (Every 6 Hours)    │         │
+│   │                     │      │                     │         │
+│   │ • Researches SB60   │      │ • Selects best draft│         │
+│   │ • Drafts posts      │      │ • Polishes & moves  │         │
+│   │ • Maintains queue   │      │ • Commits & pushes  │         │
+│   │   (3-5 ready)       │      │ • Triggers deploy   │         │
+│   └─────────────────────┘      └─────────────────────┘         │
+│            │                              │                     │
+│            ▼                              ▼                     │
+│   ┌─────────────────────┐      ┌─────────────────────┐         │
+│   │  .ralph/drafts/     │      │   _posts/*.md       │         │
+│   │  (draft queue)      │      │   (published)       │         │
+│   └─────────────────────┘      └─────────────────────┘         │
+│                                                                  │
+│   Kickstart: Every 5 min via cron (ensures Ralph stays running) │
+│   Publish:   Every 6 hours via cron (00:00, 06:00, 12:00, 18:00)│
 │                                                                  │
 └─────────────────────────────────────────────────────────────────┘
 ```
 
+### Why Continuous Mode?
+
+Instead of generating content at publish time (rushed, lower quality), Ralph now:
+1. **Continuously researches** SB60 news and developments
+2. **Drafts posts** throughout the day when inspiration strikes
+3. **Maintains a queue** of 3-5 publication-ready drafts
+4. **Publishes the best draft** at scheduled times
+
+Result: Higher quality, more thoughtful content that feels timely and well-researched.
+
 ---
 
-## Mode 1: Ralph Loop (Development)
+## Quick Start
 
-### What It Does
-- Runs aider with Gemini 3 Pro via Vertex AI
-- Performs planning, gap analysis, and updates
-- Iterates until `STATUS: COMPLETE` is found in IMPLEMENTATION_PLAN.md
+### 1. Ensure GitHub Access is Configured
 
-### How to Run
+The push is failing due to auth. You need to set up GitHub credentials:
+
+**Option A: SSH Key (Recommended)**
+```bash
+# Check if you have an SSH key
+ls ~/.ssh/id_rsa.pub ~/.ssh/id_ed25519.pub 2>/dev/null
+
+# If not, generate one
+ssh-keygen -t ed25519 -C "your-email@example.com"
+cat ~/.ssh/id_ed25519.pub
+# Copy the output and add to GitHub → Settings → SSH Keys
+
+# Update remote to use SSH
+cd /Users/jackwallner/clawd/ralph-sb60
+git remote set-url origin git@github.com:JackWallnerDVC/ralph-sb60.git
+```
+
+**Option B: GitHub CLI**
+```bash
+# Install gh if not already
+brew install gh
+
+# Authenticate
+gh auth login
+
+# Then push will work
+cd /Users/jackwallner/clawd/ralph-sb60
+git push origin main
+```
+
+**Option C: HTTPS with Token**
+```bash
+# Create token at https://github.com/settings/tokens
+# Use token as password when prompted
+git push origin main
+# Username: JackWallnerDVC
+# Password: ghp_xxxxxxxxxxxx (your token)
+```
+
+### 2. Install Cron Jobs
+
+```bash
+cd /Users/jackwallner/clawd/skills/sb60-blog/scripts
+./setup_cron.sh
+```
+
+This installs:
+- **Every 5 minutes**: Checks if Ralph continuous is running, restarts if needed
+- **Every 6 hours**: Publishes the best draft from queue
+
+### 3. Start Ralph Continuous (First Time)
 
 ```bash
 cd /Users/jackwallner/clawd/ralph-sb60
-./ralph_loop.sh
+./ralph_continuous.sh &
 ```
 
-### How It Works
+Or let the kickstart cron handle it (runs every 5 min).
 
-1. **Sets Environment Variables**
-   - `VERTEXAI_PROJECT` and `VERTEXAI_LOCATION` for Vertex AI access
-   - Git identity for aider commits
-
-2. **Builds File Context**
-   - Automatically includes relevant files:
-     - `IMPLEMENTATION_PLAN.md` - The master plan
-     - `PROMPT.md` - Current task instructions
-     - `personas.json` - Content personas
-     - `_config.yml` - Jekyll configuration
-     - `specs/` - Specifications directory
-     - `_layouts/` - Template files
-     - `_posts/` - Existing posts
-
-3. **Runs Aider Loop**
-   - Up to 10 iterations
-   - Each iteration sends context + prompt to Gemini 3 Pro
-   - Checks for completion sentinel
-
-### Configuration
-
-Edit `ralph_loop.sh` to adjust:
-
-| Variable | Default | Purpose |
-|----------|---------|---------|
-| `MAX_ITERS` | 10 | Maximum planning iterations |
-| `PLAN_SENTINEL` | `STATUS: COMPLETE` | Completion trigger text |
-| `VERTEXAI_PROJECT` | `project-f1f026e2-b264-4c46-9e1` | GCP project ID |
-| `VERTEXAI_LOCATION` | `global` | Vertex AI region |
-
----
-
-## Mode 2: Clawdbot Skill (Production)
-
-### What It Does
-- Runs 4x daily via cron (00:00, 06:00, 12:00, 18:00 UTC)
-- Generates new blog posts using rotating personas
-- Commits and pushes to trigger GitHub Pages deploy
-
-### How to Enable
+### 4. Verify Everything Works
 
 ```bash
-# Install the cron job
-cd /Users/jackwallner/clawd/skills/sb60-blog/scripts
-./setup_cron.sh
+# Check Ralph is running
+pgrep -f "ralph_continuous" && echo "✅ Running" || echo "❌ Down"
 
-# Verify it's installed
-crontab -l | grep sb60-blog
-```
+# Check cron jobs
+crontab -l | grep -E "ralph|sb60"
 
-### Persona Rotation
+# Check draft queue
+ls -la /Users/jackwallner/clawd/ralph-sb60/.ralph/drafts/
 
-| Time (UTC) | Persona | Voice |
-|------------|---------|-------|
-| 00:00 | Insider | Behind-the-scenes, exclusive |
-| 06:00 | Analyst | Data-driven, objective |
-| 12:00 | Local | Enthusiastic, experiential |
-| 18:00 | Rotating | Cycles through all three |
-
-### Manual Trigger
-
-```bash
-# Generate a post right now
-cd /Users/jackwallner/clawd/skills/sb60-blog/scripts
-./run_now.sh
-
-# Or use clawdbot directly
-cd /Users/jackwallner/clawd
-echo "Run the sb60-blog skill." | clawdbot skill --local sb60-blog
+# Check Ralph's state
+cat /Users/jackwallner/clawd/ralph-sb60/.ralph/state.json
 ```
 
 ---
 
-## GitHub Actions (Auto-Deploy)
+## How It Works
 
-### Workflow
+### Ralph Continuous (`ralph_continuous.sh`)
 
-Located at: `.github/workflows/pages.yml`
+Runs indefinitely (restarted every 5 min by cron if it crashes):
 
-**Triggers:**
-- Push to `main` branch
-- Manual dispatch (via GitHub UI)
+**Loop:**
+1. Checks draft queue count
+2. If < 3 drafts, generates a new one:
+   - Reads current state and personas
+   - Reviews existing posts to avoid duplicates
+   - Creates draft in `.ralph/drafts/`
+   - Updates state.json
+3. Sleeps 15 minutes
+4. Repeats
+
+**Draft Filename Format:**
+```
+draft-YYYYMMDD-HHMM-{persona}-{slug}.md
+```
+
+**Draft Contents:**
+```yaml
+---
+layout: post
+title: "Post Title"
+author: "Persona Name"
+date: PLACEHOLDER
+tags: [tag1, tag2]
+excerpt: "Brief excerpt..."
+---
+
+Full content here (300-500 words)...
+```
+
+### Scheduled Publisher (`publish_scheduled.sh`)
+
+Triggered every 6 hours by cron:
 
 **Process:**
-1. Checkout code
-2. Setup Ruby 3.2 + Bundler
-3. Configure GitHub Pages
-4. Build Jekyll site
-5. Deploy to Pages
+1. Pulls latest from git
+2. Determines current persona from UTC hour
+3. Selects best matching draft from queue
+4. Updates date to current timestamp
+5. Moves to `_posts/YYYY-MM-DD-HH-MM-{slug}.md`
+6. Builds Jekyll locally to verify
+7. Commits and pushes
+8. Updates `data/published.json`
 
-### Status Check
+**Persona Schedule:**
+| UTC | Persona | Content Style |
+|-----|---------|---------------|
+| 00:00 | **Insider** | "Sources say..." behind-the-scenes |
+| 06:00 | **Analyst** | Stats, odds, predictions |
+| 12:00 | **Local** | "You gotta check out..." SF tips |
+| 18:00 | **Rotating** | Cycles through all three |
 
-```bash
-# Check recent runs
-cd ralph-sb60
-gh run list --workflow=pages.yml
+### Kickstart (`kickstart_ralph.sh`)
 
-# Or visit: https://github.com/jackwallner/ralph-sb60/actions
-```
+Run every 5 minutes via cron:
+- Checks if `ralph_continuous.sh` is running
+- If not, starts it in background
+- Logs activity to `.ralph/kickstart.log`
 
 ---
 
-## How Ralph Works Within Clawdbot
-
-### Component Flow
+## File Structure
 
 ```
-Cron (every 6h)
-    │
-    ▼
-┌──────────────────┐
-│  clawdbot skill  │── Loads: skills/sb60-blog/SKILL.md
-│  sb60-blog       │
-└──────────────────┘
-    │
-    ▼
-┌──────────────────┐
-│  Agent Loader    │── Loads: agents/sb60-blog-agent/AGENT.md
-│  (get_agent.py)  │
-└──────────────────┘
-    │
-    ▼
-┌──────────────────┐
-│  Ralph Agent     │── Generates content as persona
-│  (Gemini 3 Pro)  │── Writes to: _posts/YYYY-MM-DD-*.md
-└──────────────────┘
-    │
-    ▼
-┌──────────────────┐
-│  Git Operations  │── Commits + pushes to main
-│  (publish.sh)    │
-└──────────────────┘
-    │
-    ▼
-┌──────────────────┐
-│  GitHub Actions  │── Builds + deploys Jekyll
-│  (pages.yml)     │── Publishes to: sb60-intel.github.io
-└──────────────────┘
+ralph-sb60/
+├── ralph_continuous.sh       # Main always-on engine
+├── kickstart_ralph.sh        # Cron watchdog (every 5 min)
+├── ralph_loop.sh            # Old planning loop (deprecated)
+├── .ralph/
+│   ├── drafts/              # Draft queue (3-5 posts)
+│   │   ├── draft-20260129-1100-insider-stadium-prep.md
+│   │   └── ...
+│   ├── state.json           # Ralph's current status
+│   ├── continuous.log       # Ralph continuous output
+│   ├── publish.log          # Scheduled publish output
+│   └── kickstart.log        # Kickstart cron log
+├── _posts/                  # Published posts
+├── data/
+│   └── published.json       # Published history
+└── .github/workflows/
+    └── pages.yml            # Auto-deploy to Pages
 ```
-
-### State Tracking
-
-```bash
-# Check what's been published
-cat /Users/jackwallner/clawd/ralph-sb60/data/published.json
-```
-
-Contains:
-- `rotation`: Order of personas
-- `currentIndex`: Next persona to publish
-- `posts`: Array of published posts
-- `stats`: Publishing statistics
 
 ---
 
 ## Adjusting Ralph
 
-### 1. Change Publishing Frequency
+### Change Publishing Frequency
 
 Edit `skills/sb60-blog/scripts/setup_cron.sh`:
 
 ```bash
-# Current: Every 6 hours (4x daily)
-CRON_SCHEDULE="0 */6 * * *"
+# Current: Every 6 hours
+PUBLISH_LINE="0 */6 * * * $PUBLISH_CMD"
 
-# Change to: Every 12 hours (2x daily)
-CRON_SCHEDULE="0 */12 * * *"
+# Change to: Every 12 hours
+PUBLISH_LINE="0 */12 * * * $PUBLISH_CMD"
 
-# Change to: Daily at 9am
-CRON_SCHEDULE="0 9 * * *"
+# Change to: Daily at 9am UTC
+PUBLISH_LINE="0 9 * * * $PUBLISH_CMD"
 ```
 
 Then reinstall:
@@ -225,142 +242,188 @@ Then reinstall:
 ./setup_cron.sh
 ```
 
-### 2. Add/Change Personas
+### Change Draft Generation Frequency
 
-Edit `ralph-sb60/personas.json`:
-
-```json
-{
-  "personas": [
-    {
-      "id": "new-persona",
-      "name": "The Historian",
-      "style": "Long-form, contextual, retrospective",
-      "topics": [
-        "Super Bowl history",
-        "Levi's Stadium legacy",
-        "Bay Area sports moments"
-      ]
-    }
-  ]
-}
-```
-
-Update rotation in `data/published.json`:
-```json
-{
-  "rotation": ["insider", "analyst", "local", "historian"]
-}
-```
-
-### 3. Change Model/AI Settings
-
-Edit `ralph_loop.sh` for development:
-```bash
-# Current
-CLI_CMD="aider --model vertex_ai/gemini-3-pro-preview ..."
-
-# Change to Claude
-CLI_CMD="aider --model anthropic/claude-3-5-sonnet-20241022 ..."
-```
-
-For production (clawdbot skill), edit the agent config or set via environment.
-
-### 4. Modify Content Rules
-
-Edit `agents/sb60-blog-agent/AGENT.md`:
-- Update persona descriptions
-- Change content rules
-- Adjust word count or style guidelines
-
-### 5. Add New File Types to Context
-
-Edit `ralph_loop.sh` and add to `FILES_TO_ADD`:
+Edit `ralph_continuous.sh`:
 
 ```bash
-[[ -f new-file.md ]] && FILES_TO_ADD="$FILES_TO_ADD new-file.md"
-[[ -d new-directory ]] && FILES_TO_ADD="$FILES_TO_ADD new-directory/"
+# Current: Every 15 minutes
+sleep 900
+
+# Change to: Every 30 minutes
+sleep 1800
+
+# Change to: Every hour
+sleep 3600
 ```
 
-### 6. Change Completion Criteria
+### Change Kickstart Check Frequency
 
-Edit `ralph_loop.sh`:
+Edit crontab directly:
+
 ```bash
-# Current
-PLAN_SENTINEL='STATUS: COMPLETE'
+crontab -e
 
-# Custom
-PLAN_SENTINEL='READY FOR DEPLOYMENT'
+# Current: Every 5 minutes
+*/5 * * * * cd /Users/jackwallner/clawd/ralph-sb60 && ./kickstart_ralph.sh
+
+# Change to: Every 10 minutes
+*/10 * * * * cd /Users/jackwallner/clawd/ralph-sb60 && ./kickstart_ralph.sh
+```
+
+### Add/Change Personas
+
+1. Edit `ralph-sb60/personas.json`
+2. Update rotation in `data/published.json`
+3. Update `agents/sb60-blog-agent/AGENT.md`
+4. Restart Ralph continuous:
+   ```bash
+   pkill -f ralph_continuous
+   ./ralph_continuous.sh &
+   ```
+
+### Change Draft Queue Size
+
+Edit `ralph_continuous.sh`:
+
+```bash
+# Current: Maintain 3-5 drafts
+if [ "$drafts_count" -lt 3 ]; then
+
+# Change to: Maintain 5-8 drafts
+if [ "$drafts_count" -lt 5 ]; then
+```
+
+### Emergency Manual Publish
+
+If Ralph is down and you need a post NOW:
+
+```bash
+cd /Users/jackwallner/clawd/ralph-sb60
+
+# Option 1: Run scheduled publisher manually
+../skills/sb60-blog/scripts/publish_scheduled.sh
+
+# Option 2: Generate emergency post
+cd ../skills/sb60-blog/scripts
+python3 generate_post.py analyst  # or insider, local
+
+# Then commit manually
+cd ../../ralph-sb60
+git add _posts/
+git commit -m "[Emergency] Title - $(date -u +%H:%M)"
+git push origin main
 ```
 
 ---
 
 ## Troubleshooting
 
-### Ralph Loop Issues
-
-| Symptom | Fix |
-|---------|-----|
-| "Please add files to chat" | Check that FILES_TO_ADD includes relevant files |
-| Vertex AI 404 errors | Verify `VERTEXAI_PROJECT` and model access |
-| Git identity errors | Script now auto-sets identity, or run manually: `git config user.name "..."` |
-| Max iterations reached | Check IMPLEMENTATION_PLAN.md for completion status |
-
-### Publishing Issues
-
-| Symptom | Fix |
-|---------|-----|
-| Cron not running | Check `crontab -l`, verify clawdbot path |
-| Posts not deploying | Check GitHub Actions status |
-| Jekyll build fails | Run locally: `bundle exec jekyll build` |
-| Rate limit errors | Wait 5 min, check Discord #errors channel |
-
-### Useful Commands
+### Ralph Not Running
 
 ```bash
-# Check Ralph log
-tail -f ralph-sb60/.ralph/ralph.log
+# Check if running
+pgrep -f "ralph_continuous" || echo "Not running"
 
-# Check publish log
-tail -f ralph-sb60/.ralph/publish.log
+# Start manually
+cd /Users/jackwallner/clawd/ralph-sb60
+./ralph_continuous.sh &
 
-# Check cron log
-tail -f skills/sb60-blog/cron.log
+# Or wait for kickstart cron (runs every 5 min)
+```
 
-# Verify Jekyll builds
-cd ralph-sb60 && bundle exec jekyll build
+### No Drafts in Queue
 
-# Check what's scheduled
-crontab -l
+```bash
+# Check Ralph's status
+cat /Users/jackwallner/clawd/ralph-sb60/.ralph/state.json
+
+# Check continuous log for errors
+tail -f /Users/jackwallner/clawd/ralph-sb60/.ralph/continuous.log
+
+# Check if Vertex AI is working
+echo $VERTEXAI_PROJECT
+echo $VERTEXAI_LOCATION
+```
+
+### Git Push Failing
+
+```bash
+# Check remote
+cd /Users/jackwallner/clawd/ralph-sb60
+git remote -v
+
+# Test auth
+git push origin main
+
+# If fails, see "Quick Start → GitHub Access" section above
+```
+
+### Jekyll Build Failing
+
+```bash
+cd /Users/jackwallner/clawd/ralph-sb60
+
+# Check for syntax errors
+bundle exec jekyll build 2>&1 | head -50
+
+# Check draft that failed
+cat .ralph/drafts/draft-*.md | head -20
+```
+
+### Cron Jobs Not Running
+
+```bash
+# Check crontab
+crontab -l | grep -E "ralph|sb60"
+
+# Check cron service
+sudo launchctl list | grep cron
+
+# Check logs
+ tail -f /Users/jackwallner/clawd/skills/sb60-blog/cron.log
 ```
 
 ---
 
-## Files Reference
+## Useful Commands
 
-| File | Purpose |
-|------|---------|
-| `ralph_loop.sh` | Development planning loop |
-| `kickstart_ralph.sh` | Cron watchdog (restarts loop if dead) |
-| `PROMPT.md` | Current task for Ralph loop |
-| `IMPLEMENTATION_PLAN.md` | Master project plan |
-| `personas.json` | Content persona definitions |
-| `data/published.json` | Publishing state |
-| `skills/sb60-blog/SKILL.md` | Clawdbot skill instructions |
-| `agents/sb60-blog-agent/AGENT.md` | Ralph agent instructions |
-| `.github/workflows/pages.yml` | Auto-deploy workflow |
+```bash
+# Quick status check
+echo "=== Ralph Status ===" && pgrep -f "ralph_continuous" > /dev/null && echo "✅ Running" || echo "❌ Down"
+echo "=== Draft Queue ===" && ls -1 /Users/jackwallner/clawd/ralph-sb60/.ralph/drafts/*.md 2>/dev/null | wc -l | xargs echo "Drafts:"
+echo "=== Last Publish ===" && cat /Users/jackwallner/clawd/ralph-sb60/data/published.json | grep -A2 "lastPublish"
+echo "=== Next Publish ===" && cat /Users/jackwallner/clawd/ralph-sb60/.ralph/state.json | grep "nextPublish"
+
+# View logs
+tail -f /Users/jackwallner/clawd/ralph-sb60/.ralph/continuous.log
+tail -f /Users/jackwallner/clawd/ralph-sb60/.ralph/publish.log
+tail -f /Users/jackwallner/clawd/ralph-sb60/.ralph/kickstart.log
+
+# Stop Ralph
+pkill -f "ralph_continuous"
+
+# Start Ralph
+cd /Users/jackwallner/clawd/ralph-sb60 && ./ralph_continuous.sh &
+
+# Force publish now
+/Users/jackwallner/clawd/skills/sb60-blog/scripts/publish_scheduled.sh
+```
 
 ---
 
 ## Launch Checklist
 
-- [ ] GitHub repo created as `sb60-intel.github.io`
+- [ ] GitHub repo created as `ralph-sb60` under `JackWallnerDVC`
 - [ ] GitHub Pages enabled in repo settings
-- [ ] Local changes committed and pushed
-- [ ] Cron job installed: `./skills/sb60-blog/scripts/setup_cron.sh`
-- [ ] First post tested: `./skills/sb60-blog/scripts/run_now.sh`
-- [ ] Site live at: https://sb60-intel.github.io
+- [ ] Local commits pushed to GitHub (fix auth first)
+- [ ] Cron jobs installed: `./skills/sb60-blog/scripts/setup_cron.sh`
+- [ ] Ralph continuous started (or wait for kickstart)
+- [ ] First draft generated in `.ralph/drafts/`
+- [ ] Test publish: `./skills/sb60-blog/scripts/publish_scheduled.sh`
+- [ ] Site live at: https://jackwallnerdvc.github.io/ralph-sb60/
+- [ ] Monitor for 24 hours
 
 ---
 
-*Ralph is ready when you are.*
+*Ralph is always working so your content is always ready.*
