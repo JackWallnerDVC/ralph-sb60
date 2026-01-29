@@ -1,23 +1,28 @@
 ---
 layout: default
 ---
+
+{% assign author = site.data.personas.personas | where: "slug", page.author | first %}
+
 <article class="post">
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
     <div class="post-meta">
-      {% assign author = site.data.personas[page.author] %}
-      <span class="post-author">
-        {% if author %}
-          {{ author.avatar }} <a href="/authors/{{ page.author }}">{{ author.name }}</a>
-        {% else %}
-          {{ page.author }}
-        {% endif %}
-      </span>
-      <span class="post-date">{{ page.date | date: "%B %d, %Y at %H:%M" }}</span>
+      {% if author %}
+        <span class="author-badge">
+          <img src="{{ author.avatar }}" alt="{{ author.name }}" class="author-avatar">
+          <span class="author-name">{{ author.name }}</span>
+        </span>
+      {% else %}
+        <span>{{ page.author }}</span>
+      {% endif %}
+      <span>·</span>
+      <span>{{ page.date | date: "%B %d, %Y" }}</span>
       {% if page.tags %}
-        <span class="post-tags">
+        <span>·</span>
+        <span class="featured-tags" style="display: inline-flex;">
           {% for tag in page.tags %}
-            <span class="tag">#{{ tag }}</span>
+            <span class="tag">{{ tag }}</span>
           {% endfor %}
         </span>
       {% endif %}
@@ -28,13 +33,15 @@ layout: default
     {{ content }}
   </div>
 
-  <footer class="post-footer">
-    <nav class="post-nav">
+  <footer class="post-footer" style="max-width: 800px; margin: var(--space-xl) auto; padding: 0 var(--space-md);">
+    <nav class="post-nav" style="display: flex; justify-content: space-between; padding-top: var(--space-md); border-top: 1px solid var(--border-light);">
       {% if page.previous.url %}
-        <a class="prev" href="{{ page.previous.url | relative_url }}">&larr; {{ page.previous.title }}</a>
+        <a href="{{ page.previous.url | relative_url }}" style="color: var(--accent-green); text-decoration: none; font-weight: 500;">← {{ page.previous.title }}</a>
+      {% else %}
+        <span></span>
       {% endif %}
       {% if page.next.url %}
-        <a class="next" href="{{ page.next.url | relative_url }}">{{ page.next.title }} &rarr;</a>
+        <a href="{{ page.next.url | relative_url }}" style="color: var(--accent-green); text-decoration: none; font-weight: 500;">{{ page.next.title }} →</a>
       {% endif %}
     </nav>
   </footer>

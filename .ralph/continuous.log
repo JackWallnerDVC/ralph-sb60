@@ -1,0 +1,15 @@
+=== Ralph Continuous Mode Started ===
+Timestamp: 2026-01-29T19:27:15Z
+Drafts dir: /Users/jackwallner/clawd/ralph-sb60/.ralph/drafts
+
+--- Iteration 1 (19:27:15 UTC) ---
+Drafts in queue:        0
+0
+Current persona: insider
+Next publish: 2026-01-29T18:00:00+00:00
+/Users/jackwallner/clawd/ralph-sb60/ralph_continuous.sh: line 102: [:        0
+0: integer expression expected
+Draft queue healthy (       0
+0 drafts). Monitoring...
+Iteration complete. Sleeping...
+

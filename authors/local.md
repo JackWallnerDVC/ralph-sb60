@@ -4,7 +4,9 @@ title: The Local
 permalink: /authors/local/
 ---
 
-# 🌉 The Local
+# The Local
+
+<img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&h=200&fit=crop&crop=face" alt="The Local" style="width: 120px; height: 120px; border-radius: 16px; margin: 1rem 0;">
 
 Born and raised in the Bay. I know the spots, the shortcuts, the vibes.
 

@@ -4,7 +4,9 @@ title: The Analyst
 permalink: /authors/analyst/
 ---
 
-# 📊 The Analyst
+# The Analyst
+
+<img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200&h=200&fit=crop&crop=face" alt="The Analyst" style="width: 120px; height: 120px; border-radius: 16px; margin: 1rem 0;">
 
 Numbers don't lie. The odds, the trends, the matchups—I break it all down.
 
