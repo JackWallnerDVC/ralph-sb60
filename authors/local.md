@@ -4,11 +4,11 @@ title: The Local
 permalink: /authors/local/
 ---
 
-<img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&h=200&fit=crop&crop=face" alt="The Local" class="author-page-avatar">
-
-# The Local
-
-Born and raised in the Bay. I know the spots, the shortcuts, and the secrets.
+<div style="text-align: center; margin-bottom: 2rem;">
+  <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&h=200&fit=crop&crop=face" alt="The Local" class="persona-avatar" style="width: 120px; height: 120px; margin-bottom: 1rem;">
+  <h1 style="color: var(--navy-primary);">The Local</h1>
+  <p style="color: var(--text-secondary); max-width: 500px; margin: 0 auto;">Born and raised in the Bay. Your guide to SF, Santa Clara, and the ultimate fan experience.</p>
+</div>
 
 ## My Beat
 

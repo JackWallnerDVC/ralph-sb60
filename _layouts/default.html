@@ -11,12 +11,15 @@
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | relative_url }}">
 </head>
 <body>
+  <div class="bg-pattern"></div>
+  
   <header class="site-header">
-    <div class="wrapper">
-      <a class="site-title" href="{{ '/' | relative_url }}">
-        <img src="https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=50&h=50&fit=crop" alt="Football" class="logo-icon">
-        {{ site.title }}
+    <div class="header-inner">
+      <a class="logo" href="{{ '/' | relative_url }}">
+        <img src="https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=100&h=100&fit=crop" alt="Football" class="logo-icon">
+        <span>{{ site.title }}</span>
       </a>
+      <button class="mobile-nav-toggle" onclick="document.querySelector('.site-nav').classList.toggle('active')">☰</button>
       <nav class="site-nav">
         <a href="{{ '/' | relative_url }}">Home</a>
         <a href="{{ '/about' | relative_url }}">About</a>
@@ -24,15 +27,25 @@
       </nav>
     </div>
   </header>
-
-  <main class="page-content">
+  
+  <main>
     {{ content }}
   </main>
-
+  
   <footer class="site-footer">
-    <div class="wrapper">
-      <p>{{ site.description }}</p>
-      <p class="rss-subscribe">Subscribe <a href="{{ '/feed.xml' | relative_url }}">via RSS</a></p>
+    <div class="footer-inner">
+      <div class="footer-logo">
+        <img src="https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=100&h=100&fit=crop" alt="Football">
+        {{ site.title }}
+      </div>
+      <p class="footer-desc">{{ site.description }}</p>
+      <div class="footer-links">
+        <a href="{{ '/feed.xml' | relative_url }}">RSS Feed</a>
+        <a href="https://twitter.com/sb60intel">Twitter/X</a>
+        <a href="{{ '/about' | relative_url }}">About</a>
+        <a href="{{ '/authors' | relative_url }}">Authors</a>
+      </div>
+      <p class="footer-copy">© 2026 {{ site.title }}. All rights reserved.</p>
     </div>
   </footer>
 </body>

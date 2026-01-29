@@ -1,86 +1,174 @@
 ---
 layout: default
 ---
-<div class="home">
-  <!-- Hero Section -->
-  <section class="hero">
-    <div class="hero-badge">Live Coverage</div>
-    <h1>
-      <span class="hero-title-line1">Super Bowl 60</span>
-      <span class="hero-title-line2">Intelligence</span>
-    </h1>
-    <p class="hero-subtitle">
-      Your source for everything about the Big Game at Levi's Stadium. 
-      Behind-the-scenes access, data-driven analysis, and Bay Area insights.
-    </p>
-    <p class="countdown" id="sb60-countdown">Loading countdown...</p>
-  </section>
 
-  <!-- Articles Section -->
-  <section class="posts">
-    <h2>Latest Updates</h2>
+<!-- Hero Section -->
+<section class="hero">
+  <div class="hero-badge">Live Coverage</div>
+  <h1>
+    <span class="hero-title-line1">Super Bowl 60</span>
+    <span class="hero-title-line2">Intelligence</span>
+  </h1>
+  <p class="hero-subtitle">
+    Your source for everything about the Big Game at Levi's Stadium. 
+    Behind-the-scenes access, data-driven analysis, and Bay Area insights.
+  </p>
+  
+  <div class="countdown" id="countdown">
+    <div class="countdown-item">
+      <span class="countdown-value" id="days">--</span>
+      <span class="countdown-label">Days</span>
+    </div>
+    <span class="countdown-separator">:</span>
+    <div class="countdown-item">
+      <span class="countdown-value" id="hours">--</span>
+      <span class="countdown-label">Hours</span>
+    </div>
+    <span class="countdown-separator">:</span>
+    <div class="countdown-item">
+      <span class="countdown-value" id="minutes">--</span>
+      <span class="countdown-label">Minutes</span>
+    </div>
+  </div>
+  
+  <div class="hero-ctas">
+    <a href="{{ '/feed.xml' | relative_url }}" class="btn btn-primary">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 11a9 9 0 0 1 9 9"/><path d="M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1"/></svg>
+      Subscribe via RSS
+    </a>
+    <a href="https://twitter.com/sb60intel" class="btn btn-secondary">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+      Follow @sb60intel
+    </a>
+  </div>
+</section>
+
+<!-- Featured Articles Section -->
+<section class="articles-section">
+  <div class="articles-inner">
+    <div class="section-header">
+      <h2 class="section-title">
+        <img src="https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=64&h=64&fit=crop" alt="News" class="section-title-icon">
+        Latest Updates
+      </h2>
+      <a href="#" class="section-link">View all posts →</a>
+    </div>
+    
     {% if site.posts.size > 0 %}
-      <ul class="post-list">
-        {% for post in site.posts limit:10 %}
-          {% assign author = site.data.personas | where: "slug", post.author | first %}
-          <li>
-            <span class="post-meta">{{ post.date | date: "%b %d, %Y" }}</span>
-            <h3>
-              <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-            </h3>
-            {% if post.excerpt %}
-              <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+      <!-- Featured Article -->
+      {% assign featured = site.posts.first %}
+      {% assign author = site.data.personas | where: "slug", featured.author | first %}
+      <article class="featured-article">
+        <div class="featured-image">
+          <img src="https://images.unsplash.com/photo-1577223625816-7546f13df25d?w=800&h=600&fit=crop" alt="{{ featured.title }}">
+        </div>
+        <div class="featured-content">
+          <span class="featured-label">Featured Story</span>
+          <h3 class="featured-title">
+            <a href="{{ featured.url | relative_url }}">{{ featured.title }}</a>
+          </h3>
+          <p class="featured-excerpt">{{ featured.excerpt | strip_html | truncatewords: 35 }}</p>
+          <div class="featured-meta">
+            {% if author %}
+              <span class="author-badge">
+                <img src="{{ author.avatar }}" alt="{{ author.name }}" class="author-avatar">
+                <span class="author-name">{{ author.name }}</span>
+              </span>
             {% endif %}
-            <span class="post-author-inline">
-              {% if author %}
-                <img src="{{ author.avatar }}" alt="{{ author.name }}" class="author-avatar-small">
-                {{ author.name }}
-              {% else %}
-                {{ post.author }}
-              {% endif %}
-            </span>
-          </li>
-        {% endfor %}
-      </ul>
-      {% if site.posts.size > 10 %}
-        <p class="all-posts"><a href="/archive">View all posts &rarr;</a></p>
+            <span>{{ featured.date | date: "%b %d, %Y" }}</span>
+          </div>
+          <div class="featured-tags">
+            {% for tag in featured.tags limit:3 %}
+              <span class="tag">{{ tag }}</span>
+            {% endfor %}
+          </div>
+        </div>
+      </article>
+      
+      <!-- Article Grid -->
+      {% if site.posts.size > 1 %}
+        <div class="articles-grid">
+          {% for post in site.posts offset:1 limit:6 %}
+            {% assign post_author = site.data.personas | where: "slug", post.author | first %}
+            <article class="article-card">
+              <div class="article-image">
+                <img src="https://images.unsplash.com/photo-1566577739112-5180d4bf9390?w=600&h=400&fit=crop" alt="{{ post.title }}">
+              </div>
+              <div class="article-content">
+                <div class="article-meta">
+                  {% if post_author %}
+                    <span class="article-author">
+                      <img src="{{ post_author.avatar }}" alt="{{ post_author.name }}">
+                      {{ post_author.name }}
+                    </span>
+                  {% endif %}
+                  <span>·</span>
+                  <span>{{ post.date | date: "%b %d, %Y" }}</span>
+                </div>
+                <h3 class="article-title">
+                  <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+                </h3>
+                <p class="article-excerpt">{{ post.excerpt | strip_html | truncatewords: 20 }}</p>
+                <div class="article-tags">
+                  {% for tag in post.tags limit:2 %}
+                    <span class="article-tag">{{ tag }}</span>
+                  {% endfor %}
+                </div>
+              </div>
+            </article>
+          {% endfor %}
+        </div>
       {% endif %}
     {% else %}
-      <p>No posts yet. Check back soon!</p>
+      <p style="text-align:center;color:var(--text-muted);">No posts yet. Check back soon!</p>
     {% endif %}
-  </section>
+  </div>
+</section>
 
-  <!-- Personas Section -->
-  <section class="personas">
-    <h2>Our Team</h2>
-    <div class="persona-grid">
-      {% for persona in site.data.personas %}
-        <div class="persona-card">
-          <img src="{{ persona.avatar }}" alt="{{ persona.name }}" class="persona-avatar-img">
-          <h3>{{ persona.name }}</h3>
-          <p>{{ persona.bio }}</p>
-          <a href="/authors/{{ persona.slug }}">Read more &rarr;</a>
+<!-- Personas Section -->
+<section class="section">
+  <div class="section-header">
+    <h2 class="section-title">
+      <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=64&h=64&fit=crop" alt="Team" class="section-title-icon">
+      Meet Our Team
+    </h2>
+    <a href="{{ '/authors' | relative_url }}" class="section-link">View all authors →</a>
+  </div>
+  
+  <div class="persona-grid">
+    {% for persona in site.data.personas %}
+      <article class="persona-card">
+        <img src="{{ persona.avatar }}" alt="{{ persona.name }}" class="persona-avatar">
+        <h3 class="persona-name">{{ persona.name }}</h3>
+        <p class="persona-bio">{{ persona.bio }}</p>
+        <div class="persona-topics">
+          {% for topic in persona.topics limit:3 %}
+            <span class="topic-tag">{{ topic | split: " " | first }}</span>
+          {% endfor %}
         </div>
-      {% endfor %}
-    </div>
-  </section>
-</div>
+      </article>
+    {% endfor %}
+  </div>
+</section>
 
 <script>
-  // Countdown to Super Bowl 60 (Feb 8, 2026 - estimated)
-  const sb60Date = new Date('2026-02-08T18:30:00-08:00');
+  // Countdown Timer
   function updateCountdown() {
+    const sb60Date = new Date('2026-02-08T18:30:00-08:00');
     const now = new Date();
     const diff = sb60Date - now;
+    
     if (diff > 0) {
       const days = Math.floor(diff / (1000 * 60 * 60 * 24));
       const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-      document.getElementById('sb60-countdown').textContent = 
-        `${days} days, ${hours} hours until kickoff`;
-    } else {
-      document.getElementById('sb60-countdown').textContent = 'Super Bowl 60 is here!';
+      const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+      
+      document.getElementById('days').textContent = days;
+      document.getElementById('hours').textContent = hours.toString().padStart(2, '0');
+      document.getElementById('minutes').textContent = minutes.toString().padStart(2, '0');
     }
   }
+  
   updateCountdown();
   setInterval(updateCountdown, 60000);
 </script>

@@ -4,11 +4,11 @@ title: The Analyst
 permalink: /authors/analyst/
 ---
 
-<img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200&h=200&fit=crop&crop=face" alt="The Analyst" class="author-page-avatar">
-
-# The Analyst
-
-Numbers don't lie. I dig into the data so you don't have to.
+<div style="text-align: center; margin-bottom: 2rem;">
+  <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200&h=200&fit=crop&crop=face" alt="The Analyst" class="persona-avatar" style="width: 120px; height: 120px; margin-bottom: 1rem;">
+  <h1 style="color: var(--navy-primary);">The Analyst</h1>
+  <p style="color: var(--text-secondary); max-width: 500px; margin: 0 auto;">Numbers don't lie. Breaking down matchups, odds, and what the data says about SB60.</p>
+</div>
 
 ## My Beat
 

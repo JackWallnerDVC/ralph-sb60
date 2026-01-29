@@ -4,11 +4,11 @@ title: The Insider
 permalink: /authors/insider/
 ---
 
-<img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop&crop=face" alt="The Insider" class="author-page-avatar">
-
-# The Insider
-
-I get the access. The behind-the-scenes, the locker room, the control room.
+<div style="text-align: center; margin-bottom: 2rem;">
+  <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop&crop=face" alt="The Insider" class="persona-avatar" style="width: 120px; height: 120px; margin-bottom: 1rem;">
+  <h1 style="color: var(--navy-primary);">The Insider</h1>
+  <p style="color: var(--text-secondary); max-width: 500px; margin: 0 auto;">Behind-the-scenes access to the NFL machine. Stadium logistics, broadcast details, locker room whispers.</p>
+</div>
 
 ## My Beat
 
