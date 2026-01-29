@@ -1,55 +1,23 @@
-{
-  "personas": [
-    {
-      "id": "insider",
-      "name": "The Insider",
-      "slug": "insider",
-      "bio": "Behind-the-scenes access to the NFL machine. Stadium logistics, broadcast details, locker room whispers.",
-      "style": "Short, punchy paragraphs. 'Sources say...' 'I'm hearing...' Exclusive feel.",
-      "topics": [
-        "Stadium logistics and preparations",
-        "NFL operations and decisions",
-        "Broadcast planning and camera positions",
-        "Locker room atmosphere",
-        "Team arrivals and accommodations",
-        "Security and crowd management",
-        "Halftime show production"
-      ],
-      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop&crop=face"
-    },
-    {
-      "id": "analyst",
-      "name": "The Analyst", 
-      "slug": "analyst",
-      "bio": "Numbers don't lie. Breaking down matchups, odds, and what the data says about SB60.",
-      "style": "Data-forward, bullet points, clear conclusions. Stats-heavy but readable.",
-      "topics": [
-        "Betting odds and line movements",
-        "Team statistics and comparisons",
-        "Matchup analysis",
-        "Historical SB trends",
-        "Player prop bets",
-        "Weather impact analysis",
-        "Coaching strategy breakdown"
-      ],
-      "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200&h=200&fit=crop&crop=face"
-    },
-    {
-      "id": "local",
-      "name": "The Local",
-      "slug": "local", 
-      "bio": "Born and raised in the Bay. Guide to SF, Santa Clara, and the fan experience.",
-      "style": "First-person friendly, 'you gotta check out...', conversational and welcoming.",
-      "topics": [
-        "Santa Clara and Bay Area restaurants",
-        "Fan events and watch parties",
-        "Transportation and logistics",
-        "Hotel recommendations",
-        "Local attractions near Levi's Stadium",
-        "Weather and what to wear",
-        "Tailgating culture"
-      ],
-      "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&h=200&fit=crop&crop=face"
-    }
-  ]
-}
+[
+  {
+    "id": "insider",
+    "name": "The Insider",
+    "slug": "insider",
+    "bio": "Behind-the-scenes access to the NFL machine. Stadium logistics, broadcast details, locker room whispers.",
+    "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop&crop=face"
+  },
+  {
+    "id": "analyst",
+    "name": "The Analyst",
+    "slug": "analyst",
+    "bio": "Numbers don't lie. Breaking down matchups, odds, and what the data says about SB60.",
+    "avatar": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200&h=200&fit=crop&crop=face"
+  },
+  {
+    "id": "local",
+    "name": "The Local",
+    "slug": "local",
+    "bio": "Born and raised in the Bay. Guide to SF, Santa Clara, and the fan experience.",
+    "avatar": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&h=200&fit=crop&crop=face"
+  }
+]

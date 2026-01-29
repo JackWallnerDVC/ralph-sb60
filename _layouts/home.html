@@ -22,6 +22,7 @@ layout: default
     {% if site.posts.size > 0 %}
       <ul class="post-list">
         {% for post in site.posts limit:10 %}
+          {% assign author = site.data.personas | where: "slug", post.author | first %}
           <li>
             <span class="post-meta">{{ post.date | date: "%b %d, %Y" }}</span>
             <h3>
@@ -31,7 +32,6 @@ layout: default
               <p>{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
             {% endif %}
             <span class="post-author-inline">
-              {% assign author = site.data.personas[post.author] %}
               {% if author %}
                 <img src="{{ author.avatar }}" alt="{{ author.name }}" class="author-avatar-small">
                 {{ author.name }}
@@ -56,10 +56,10 @@ layout: default
     <div class="persona-grid">
       {% for persona in site.data.personas %}
         <div class="persona-card">
-          <img src="{{ persona[1].avatar }}" alt="{{ persona[1].name }}" class="persona-avatar-img">
-          <h3>{{ persona[1].name }}</h3>
-          <p>{{ persona[1].bio }}</p>
-          <a href="/authors/{{ persona[0] }}">Read more &rarr;</a>
+          <img src="{{ persona.avatar }}" alt="{{ persona.name }}" class="persona-avatar-img">
+          <h3>{{ persona.name }}</h3>
+          <p>{{ persona.bio }}</p>
+          <a href="/authors/{{ persona.slug }}">Read more &rarr;</a>
         </div>
       {% endfor %}
     </div>

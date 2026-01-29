@@ -1,11 +1,11 @@
 ---
 layout: default
 ---
+{% assign author = site.data.personas | where: "slug", page.author | first %}
 <article class="post">
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
     <div class="post-meta">
-      {% assign author = site.data.personas[page.author] %}
       <span class="post-author">
         {% if author %}
           <img src="{{ author.avatar }}" alt="{{ author.name }}" class="author-avatar-small">

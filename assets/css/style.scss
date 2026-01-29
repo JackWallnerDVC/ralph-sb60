@@ -1,11 +1,16 @@
 ---
 ---
 
-@import "minima";
-
 /* ============================================
    SB60 INTEL - MODERN LIGHT THEME
    ============================================ */
+
+/* Reset and Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 :root {
   /* Primary Colors */
@@ -38,6 +43,17 @@ body {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
   background: var(--bg-primary);
   color: var(--text-primary);
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+a {
+  color: var(--accent-green);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
 }
 
 /* Header */
@@ -45,15 +61,21 @@ body {
   background: #fff;
   border-bottom: 1px solid var(--border-light);
   box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.wrapper {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
 }
 
 .site-header .wrapper {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 1rem;
 }
 
 .site-title {
@@ -83,12 +105,13 @@ body {
 
 .site-nav a:hover {
   color: var(--navy-primary);
+  text-decoration: none;
 }
 
 /* Hero Section */
 .hero {
   text-align: center;
-  padding: 4rem 1rem;
+  padding: 5rem 1rem;
   background: linear-gradient(180deg, var(--bg-secondary) 0%, var(--bg-primary) 100%);
   border-bottom: 1px solid var(--border-light);
 }
@@ -149,6 +172,7 @@ body {
   font-size: 1.75rem;
   color: var(--navy-primary);
   margin-bottom: 2rem;
+  font-weight: 700;
 }
 
 .post-list {
@@ -190,6 +214,7 @@ body {
 
 .post-list h3 a:hover {
   color: var(--accent-green);
+  text-decoration: none;
 }
 
 .post-list p {
@@ -224,6 +249,7 @@ body {
   margin: 0 auto 2rem;
   font-size: 1.75rem;
   color: var(--navy-primary);
+  font-weight: 700;
 }
 
 .persona-grid {
@@ -276,6 +302,10 @@ body {
   font-weight: 600;
 }
 
+.persona-card a:hover {
+  text-decoration: underline;
+}
+
 /* Footer */
 .site-footer {
   background: var(--navy-primary);
@@ -286,6 +316,11 @@ body {
 
 .site-footer a {
   color: rgba(255,255,255,0.9);
+}
+
+/* Page Content */
+.page-content {
+  flex: 1;
 }
 
 /* Author Page */
@@ -350,6 +385,10 @@ body {
   
   .site-nav a {
     margin: 0 0.75rem;
+  }
+  
+  .hero {
+    padding: 3rem 1rem;
   }
   
   .hero h1 {
