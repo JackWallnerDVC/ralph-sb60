@@ -6,6 +6,7 @@ description: >-
   Levi's Stadium. February 2026.
 
 baseurl: "/ralph-sb60"
+# Force rebuild: 2026-01-29 15:05 PST
 url: "https://jackwallnerdvc.github.io/ralph-sb60"
 
 twitter_username: sb60intel
