@@ -7,7 +7,7 @@ tags: [announcement, launch]
 excerpt: "The countdown to Super Bowl 60 begins. Welcome to your dedicated source for everything about the Big Game at Levi's Stadium."
 ---
 
-Welcome to **SB60 Intel**.
+Yo! Welcome to **SB60 Intel**.
 
 We're live and ready to bring you comprehensive coverage of Super Bowl 60, coming February 8, 2026, to Levi's Stadium in Santa Clara.
 

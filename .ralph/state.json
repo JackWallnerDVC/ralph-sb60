@@ -1,9 +1,9 @@
 {
   "mode": "viral",
-  "lastActivity": "2026-01-29T22:57:29+0000",
+  "lastActivity": "2026-01-29T23:15:25+0000",
   "draftsInQueue": 0,
   "drafts": [],
-  "lastPublish": "2026-01-29T22:57:29.560032+00:00",
+  "lastPublish": "2026-01-29T23:24:33.948978+00:00",
   "targetQueueSize": 5,
   "currentPersona": "insider",
   "researchTopics": [
@@ -23,5 +23,5 @@
     ],
     "lastCheck": null
   },
-  "nextPublish": "2026-01-29T18:00:00+00:00"
+  "nextPublish": "2026-01-30T06:00:00+00:00"
 }
