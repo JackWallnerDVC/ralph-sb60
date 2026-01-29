@@ -1,0 +1,1096 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SB60 Intel — Preview</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    /* ============================================
+       SB60 INTEL DESIGN SYSTEM
+       Theme: Clean Light Theme with Sports Energy
+       ============================================ */
+    
+    :root {
+      /* Primary Colors - Clean Light Theme */
+      --navy-deep: #0a1628;
+      --navy-primary: #1a365d;
+      --navy-light: #2c5282;
+      --navy-lighter: #4a6fa5;
+      
+      /* Accents */
+      --accent-green: #2d7d32;
+      --accent-green-light: #4caf50;
+      --accent-green-glow: rgba(45, 125, 50, 0.15);
+      --accent-red: #c53030;
+      --accent-gold: #d69e2e;
+      
+      /* Backgrounds - Light Theme */
+      --bg-primary: #fafbfc;
+      --bg-secondary: #f7fafc;
+      --bg-card: #ffffff;
+      --bg-elevated: #ffffff;
+      
+      /* Borders */
+      --border-light: #e2e8f0;
+      --border-medium: #cbd5e0;
+      --border-hover: #a0aec0;
+      
+      /* Text */
+      --text-primary: #1a202c;
+      --text-secondary: #4a5568;
+      --text-muted: #718096;
+      --text-subtle: #a0aec0;
+      
+      /* Spacing */
+      --space-xs: 0.5rem;
+      --space-sm: 1rem;
+      --space-md: 1.5rem;
+      --space-lg: 2.5rem;
+      --space-xl: 4rem;
+      --space-2xl: 6rem;
+      
+      /* Border Radius */
+      --radius-sm: 8px;
+      --radius-md: 12px;
+      --radius-lg: 16px;
+      --radius-xl: 24px;
+      
+      /* Shadows */
+      --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.08);
+      --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.08);
+      --shadow-lg: 0 10px 25px rgba(0, 0, 0, 0.1);
+      --shadow-xl: 0 20px 40px rgba(0, 0, 0, 0.12);
+    }
+    
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      line-height: 1.6;
+      min-height: 100vh;
+      overflow-x: hidden;
+    }
+    
+    /* Subtle Background Pattern */
+    .bg-pattern {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: -1;
+      background: 
+        radial-gradient(ellipse 80% 50% at 50% 0%, rgba(45, 125, 50, 0.03), transparent),
+        radial-gradient(ellipse 60% 40% at 80% 100%, rgba(26, 54, 93, 0.02), transparent),
+        var(--bg-primary);
+    }
+    
+    /* Header */
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(255, 255, 255, 0.95);
+      backdrop-filter: blur(20px);
+      border-bottom: 1px solid var(--border-light);
+    }
+    
+    .header-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: var(--space-sm) var(--space-md);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: var(--space-xs);
+      font-size: 1.5rem;
+      font-weight: 800;
+      color: var(--text-primary);
+      text-decoration: none;
+      letter-spacing: -0.02em;
+    }
+    
+    .logo-icon {
+      width: 36px;
+      height: 36px;
+      border-radius: var(--radius-sm);
+      object-fit: cover;
+    }
+    
+    .logo span {
+      background: linear-gradient(135deg, var(--navy-primary) 0%, var(--navy-lighter) 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    
+    .site-nav {
+      display: flex;
+      gap: var(--space-lg);
+    }
+    
+    .site-nav a {
+      color: var(--text-secondary);
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 0.9375rem;
+      transition: all 0.2s ease;
+      position: relative;
+    }
+    
+    .site-nav a::after {
+      content: '';
+      position: absolute;
+      bottom: -4px;
+      left: 0;
+      width: 0;
+      height: 2px;
+      background: var(--accent-green);
+      transition: width 0.2s ease;
+    }
+    
+    .site-nav a:hover {
+      color: var(--text-primary);
+    }
+    
+    .site-nav a:hover::after {
+      width: 100%;
+    }
+    
+    /* Hero Section - Compact */
+    .hero {
+      position: relative;
+      padding: var(--space-xl) var(--space-md);
+      text-align: center;
+      overflow: hidden;
+      background: linear-gradient(180deg, var(--bg-secondary) 0%, var(--bg-primary) 100%);
+      border-bottom: 1px solid var(--border-light);
+    }
+    
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: var(--space-xs);
+      padding: var(--space-xs) var(--space-sm);
+      background: var(--accent-green-glow);
+      border: 1px solid rgba(45, 125, 50, 0.2);
+      border-radius: 100px;
+      font-size: 0.875rem;
+      color: var(--accent-green);
+      font-weight: 600;
+      margin-bottom: var(--space-md);
+    }
+    
+    .hero-badge::before {
+      content: '';
+      width: 8px;
+      height: 8px;
+      background: var(--accent-green);
+      border-radius: 50%;
+      animation: pulse 2s ease-in-out infinite;
+    }
+    
+    @keyframes pulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.5; transform: scale(0.8); }
+    }
+    
+    .hero h1 {
+      font-size: clamp(2rem, 6vw, 3.5rem);
+      font-weight: 900;
+      line-height: 1.1;
+      letter-spacing: -0.03em;
+      margin-bottom: var(--space-sm);
+    }
+    
+    .hero-title-line1 {
+      display: block;
+      color: var(--navy-primary);
+    }
+    
+    .hero-title-line2 {
+      display: block;
+      color: var(--accent-green);
+    }
+    
+    .hero-subtitle {
+      font-size: clamp(1rem, 2vw, 1.25rem);
+      color: var(--text-secondary);
+      max-width: 500px;
+      margin: 0 auto var(--space-lg);
+      font-weight: 400;
+    }
+    
+    /* Countdown */
+    .countdown {
+      display: flex;
+      justify-content: center;
+      gap: var(--space-md);
+      margin-bottom: var(--space-lg);
+      flex-wrap: wrap;
+    }
+    
+    .countdown-item {
+      text-align: center;
+      min-width: 70px;
+    }
+    
+    .countdown-value {
+      display: block;
+      font-size: clamp(2rem, 5vw, 3rem);
+      font-weight: 800;
+      line-height: 1;
+      color: var(--navy-primary);
+      font-variant-numeric: tabular-nums;
+    }
+    
+    .countdown-label {
+      display: block;
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--text-muted);
+      margin-top: var(--space-xs);
+      font-weight: 600;
+    }
+    
+    .countdown-separator {
+      font-size: clamp(1.5rem, 4vw, 2.5rem);
+      font-weight: 300;
+      color: var(--border-medium);
+      line-height: 1.2;
+    }
+    
+    /* Hero CTAs */
+    .hero-ctas {
+      display: flex;
+      justify-content: center;
+      gap: var(--space-sm);
+      flex-wrap: wrap;
+    }
+    
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: var(--space-xs);
+      padding: var(--space-sm) var(--space-md);
+      border-radius: var(--radius-md);
+      font-weight: 600;
+      font-size: 0.9375rem;
+      text-decoration: none;
+      transition: all 0.2s ease;
+      cursor: pointer;
+      border: none;
+    }
+    
+    .btn-primary {
+      background: var(--accent-green);
+      color: white;
+      box-shadow: var(--shadow-md);
+    }
+    
+    .btn-primary:hover {
+      background: var(--accent-green-light);
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-lg);
+    }
+    
+    .btn-secondary {
+      background: var(--bg-card);
+      color: var(--text-primary);
+      border: 1px solid var(--border-light);
+      box-shadow: var(--shadow-sm);
+    }
+    
+    .btn-secondary:hover {
+      background: var(--bg-secondary);
+      border-color: var(--border-medium);
+      transform: translateY(-1px);
+    }
+    
+    /* Section Styles */
+    .section {
+      padding: var(--space-2xl) var(--space-md);
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    
+    .section-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: var(--space-lg);
+      flex-wrap: wrap;
+      gap: var(--space-sm);
+    }
+    
+    .section-title {
+      font-size: 1.75rem;
+      font-weight: 700;
+      letter-spacing: -0.02em;
+      display: flex;
+      align-items: center;
+      gap: var(--space-xs);
+      color: var(--navy-primary);
+    }
+    
+    .section-title-icon {
+      width: 32px;
+      height: 32px;
+      border-radius: var(--radius-sm);
+      object-fit: cover;
+    }
+    
+    .section-link {
+      color: var(--accent-green);
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.9375rem;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      transition: gap 0.2s ease;
+    }
+    
+    .section-link:hover {
+      gap: 8px;
+    }
+    
+    /* Articles Section - Featured More Prominently */
+    .articles-section {
+      background: var(--bg-secondary);
+      padding: var(--space-2xl) var(--space-md);
+    }
+    
+    .articles-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    
+    /* Featured Article - Large Hero Style */
+    .featured-article {
+      display: grid;
+      grid-template-columns: 1.2fr 1fr;
+      gap: var(--space-lg);
+      background: var(--bg-card);
+      border-radius: var(--radius-xl);
+      overflow: hidden;
+      box-shadow: var(--shadow-lg);
+      margin-bottom: var(--space-lg);
+      border: 1px solid var(--border-light);
+    }
+    
+    .featured-image {
+      position: relative;
+      min-height: 400px;
+    }
+    
+    .featured-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      position: absolute;
+      inset: 0;
+    }
+    
+    .featured-content {
+      padding: var(--space-xl);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    
+    .featured-label {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      padding: 6px 12px;
+      background: var(--accent-green-glow);
+      border: 1px solid rgba(45, 125, 50, 0.2);
+      border-radius: 100px;
+      font-size: 0.75rem;
+      color: var(--accent-green);
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      margin-bottom: var(--space-sm);
+      align-self: flex-start;
+    }
+    
+    .featured-title {
+      font-size: clamp(1.75rem, 4vw, 2.5rem);
+      font-weight: 800;
+      line-height: 1.2;
+      margin-bottom: var(--space-sm);
+      color: var(--navy-primary);
+      letter-spacing: -0.02em;
+    }
+    
+    .featured-excerpt {
+      font-size: 1.125rem;
+      color: var(--text-secondary);
+      line-height: 1.7;
+      margin-bottom: var(--space-md);
+    }
+    
+    .featured-meta {
+      display: flex;
+      align-items: center;
+      gap: var(--space-sm);
+      font-size: 0.875rem;
+      color: var(--text-muted);
+      margin-bottom: var(--space-md);
+    }
+    
+    .author-badge {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    
+    .author-avatar {
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+    
+    .author-name {
+      font-weight: 600;
+      color: var(--accent-green);
+    }
+    
+    .featured-tags {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+      margin-top: auto;
+    }
+    
+    .tag {
+      font-size: 0.75rem;
+      padding: 6px 12px;
+      background: var(--bg-secondary);
+      border: 1px solid var(--border-light);
+      border-radius: 100px;
+      color: var(--text-secondary);
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    
+    /* Article Grid */
+    .articles-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: var(--space-md);
+    }
+    
+    .article-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-light);
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      transition: all 0.3s ease;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .article-card:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--shadow-xl);
+      border-color: var(--border-medium);
+    }
+    
+    .article-image {
+      aspect-ratio: 16/10;
+      position: relative;
+      overflow: hidden;
+    }
+    
+    .article-image img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.3s ease;
+    }
+    
+    .article-card:hover .article-image img {
+      transform: scale(1.05);
+    }
+    
+    .article-content {
+      padding: var(--space-md);
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+    
+    .article-meta {
+      display: flex;
+      align-items: center;
+      gap: var(--space-xs);
+      font-size: 0.8125rem;
+      color: var(--text-muted);
+      margin-bottom: var(--space-xs);
+    }
+    
+    .article-author {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      color: var(--accent-green);
+      font-weight: 500;
+    }
+    
+    .article-author img {
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+    
+    .article-title {
+      font-size: 1.125rem;
+      font-weight: 700;
+      line-height: 1.4;
+      margin-bottom: var(--space-xs);
+      color: var(--navy-primary);
+    }
+    
+    .article-excerpt {
+      color: var(--text-secondary);
+      font-size: 0.9375rem;
+      line-height: 1.6;
+      flex: 1;
+    }
+    
+    .article-tags {
+      display: flex;
+      gap: 6px;
+      margin-top: var(--space-sm);
+      flex-wrap: wrap;
+    }
+    
+    .article-tag {
+      font-size: 0.6875rem;
+      padding: 4px 10px;
+      background: var(--bg-secondary);
+      border: 1px solid var(--border-light);
+      border-radius: 4px;
+      color: var(--text-muted);
+      font-weight: 500;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    
+    /* Persona Cards */
+    .persona-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: var(--space-md);
+    }
+    
+    .persona-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border-light);
+      border-radius: var(--radius-lg);
+      padding: var(--space-lg);
+      transition: all 0.3s ease;
+      position: relative;
+      overflow: hidden;
+    }
+    
+    .persona-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 3px;
+      background: linear-gradient(90deg, var(--accent-green), var(--accent-gold));
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+    
+    .persona-card:hover {
+      transform: translateY(-4px);
+      box-shadow: var(--shadow-lg);
+      border-color: var(--border-medium);
+    }
+    
+    .persona-card:hover::before {
+      opacity: 1;
+    }
+    
+    .persona-avatar {
+      width: 72px;
+      height: 72px;
+      border-radius: var(--radius-md);
+      object-fit: cover;
+      margin-bottom: var(--space-md);
+      border: 2px solid var(--border-light);
+      transition: all 0.3s ease;
+    }
+    
+    .persona-card:hover .persona-avatar {
+      transform: scale(1.05);
+      border-color: var(--accent-green);
+      box-shadow: 0 0 0 3px var(--accent-green-glow);
+    }
+    
+    .persona-name {
+      font-size: 1.25rem;
+      font-weight: 700;
+      margin-bottom: var(--space-xs);
+      letter-spacing: -0.01em;
+      color: var(--navy-primary);
+    }
+    
+    .persona-bio {
+      color: var(--text-secondary);
+      font-size: 0.9375rem;
+      line-height: 1.6;
+      margin-bottom: var(--space-md);
+    }
+    
+    .persona-topics {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+    }
+    
+    .topic-tag {
+      font-size: 0.75rem;
+      padding: 4px 10px;
+      background: var(--bg-secondary);
+      border: 1px solid var(--border-light);
+      border-radius: 100px;
+      color: var(--text-secondary);
+      font-weight: 500;
+    }
+    
+    /* Footer */
+    .site-footer {
+      background: var(--navy-primary);
+      padding: var(--space-xl) var(--space-md);
+      margin-top: var(--space-xl);
+    }
+    
+    .footer-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    
+    .footer-logo {
+      font-size: 1.5rem;
+      font-weight: 800;
+      margin-bottom: var(--space-sm);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: var(--space-xs);
+      color: white;
+    }
+    
+    .footer-logo img {
+      width: 32px;
+      height: 32px;
+      border-radius: var(--radius-sm);
+      object-fit: cover;
+    }
+    
+    .footer-desc {
+      color: rgba(255, 255, 255, 0.7);
+      font-size: 0.9375rem;
+      max-width: 500px;
+      margin: 0 auto var(--space-md);
+    }
+    
+    .footer-links {
+      display: flex;
+      justify-content: center;
+      gap: var(--space-md);
+      margin-bottom: var(--space-md);
+    }
+    
+    .footer-links a {
+      color: rgba(255, 255, 255, 0.6);
+      text-decoration: none;
+      font-size: 0.875rem;
+      transition: color 0.2s ease;
+    }
+    
+    .footer-links a:hover {
+      color: white;
+    }
+    
+    .footer-copy {
+      color: rgba(255, 255, 255, 0.5);
+      font-size: 0.8125rem;
+    }
+    
+    /* Mobile Nav Toggle */
+    .mobile-nav-toggle {
+      display: none;
+      background: none;
+      border: none;
+      color: var(--text-primary);
+      font-size: 1.5rem;
+      cursor: pointer;
+    }
+    
+    /* Responsive */
+    @media (max-width: 1024px) {
+      .articles-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+      
+      .persona-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+    
+    @media (max-width: 768px) {
+      .mobile-nav-toggle {
+        display: block;
+      }
+      
+      .site-nav {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background: var(--bg-card);
+        border-bottom: 1px solid var(--border-light);
+        flex-direction: column;
+        padding: var(--space-md);
+        gap: var(--space-sm);
+      }
+      
+      .site-nav.active {
+        display: flex;
+      }
+      
+      .featured-article {
+        grid-template-columns: 1fr;
+      }
+      
+      .featured-image {
+        min-height: 250px;
+        aspect-ratio: 16/9;
+      }
+      
+      .featured-content {
+        padding: var(--space-md);
+      }
+      
+      .articles-grid {
+        grid-template-columns: 1fr;
+      }
+      
+      .persona-grid {
+        grid-template-columns: 1fr;
+      }
+      
+      .countdown {
+        gap: var(--space-sm);
+      }
+      
+      .countdown-item {
+        min-width: 60px;
+      }
+      
+      .countdown-separator {
+        display: none;
+      }
+    }
+    
+    /* Reduced Motion */
+    @media (prefers-reduced-motion: reduce) {
+      *,
+      *::before,
+      *::after {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="bg-pattern"></div>
+  
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="#" class="logo">
+        <img src="https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=100&h=100&fit=crop" alt="Football" class="logo-icon">
+        <span>SB60 Intel</span>
+      </a>
+      <button class="mobile-nav-toggle" onclick="document.querySelector('.site-nav').classList.toggle('active')">☰</button>
+      <nav class="site-nav">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Authors</a>
+      </nav>
+    </div>
+  </header>
+  
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="hero-badge">
+        Live Coverage
+      </div>
+      <h1>
+        <span class="hero-title-line1">Super Bowl 60</span>
+        <span class="hero-title-line2">Intelligence</span>
+      </h1>
+      <p class="hero-subtitle">
+        Your source for everything about the Big Game at Levi's Stadium. 
+        Behind-the-scenes access, data-driven analysis, and Bay Area insights.
+      </p>
+      
+      <div class="countdown" id="countdown">
+        <div class="countdown-item">
+          <span class="countdown-value" id="days">372</span>
+          <span class="countdown-label">Days</span>
+        </div>
+        <span class="countdown-separator">:</span>
+        <div class="countdown-item">
+          <span class="countdown-value" id="hours">14</span>
+          <span class="countdown-label">Hours</span>
+        </div>
+        <span class="countdown-separator">:</span>
+        <div class="countdown-item">
+          <span class="countdown-value" id="minutes">33</span>
+          <span class="countdown-label">Minutes</span>
+        </div>
+      </div>
+      
+      <div class="hero-ctas">
+        <a href="#" class="btn btn-primary">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 11a9 9 0 0 1 9 9"/><path d="M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1"/></svg>
+          Subscribe via RSS
+        </a>
+        <a href="#" class="btn btn-secondary">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+          Follow @sb60intel
+        </a>
+      </div>
+    </section>
+    
+    <!-- Featured Articles Section -->
+    <section class="articles-section">
+      <div class="articles-inner">
+        <div class="section-header">
+          <h2 class="section-title">
+            <img src="https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=64&h=64&fit=crop" alt="News" class="section-title-icon">
+            Latest Updates
+          </h2>
+          <a href="#" class="section-link">View all posts →</a>
+        </div>
+        
+        <!-- Featured Article -->
+        <article class="featured-article">
+          <div class="featured-image">
+            <img src="https://images.unsplash.com/photo-1577223625816-7546f13df25d?w=800&h=600&fit=crop" alt="Levi's Stadium">
+          </div>
+          <div class="featured-content">
+            <span class="featured-label">Featured Story</span>
+            <h3 class="featured-title">Field Prep Begins: Inside Levi's Stadium Early Preparations</h3>
+            <p class="featured-excerpt">Sources say crews are already working around the clock to ensure the field is perfect for Super Bowl 60. I'm hearing about special turf treatments and early logistics coordination that started weeks ahead of schedule.</p>
+            <div class="featured-meta">
+              <span class="author-badge">
+                <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop" alt="The Insider" class="author-avatar">
+                <span class="author-name">The Insider</span>
+              </span>
+              <span>Jan 29, 2026</span>
+              <span>·</span>
+              <span>3 min read</span>
+            </div>
+            <div class="featured-tags">
+              <span class="tag">Stadium</span>
+              <span class="tag">Insider</span>
+              <span class="tag">Exclusive</span>
+            </div>
+          </div>
+        </article>
+        
+        <!-- Article Grid -->
+        <div class="articles-grid">
+          <article class="article-card">
+            <div class="article-image">
+              <img src="https://images.unsplash.com/photo-1566577739112-5180d4bf9390?w=600&h=400&fit=crop" alt="Football stadium aerial view">
+            </div>
+            <div class="article-content">
+              <div class="article-meta">
+                <span class="article-author">
+                  <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&h=100&fit=crop" alt="The Insider">
+                  The Insider
+                </span>
+                <span>·</span>
+                <span>Jan 29, 2026</span>
+              </div>
+              <h3 class="article-title">Welcome to SB60 Intel</h3>
+              <p class="article-excerpt">The countdown to Super Bowl 60 begins. Welcome to your dedicated source for everything about the Big Game at Levi's Stadium.</p>
+              <div class="article-tags">
+                <span class="article-tag">Launch</span>
+                <span class="article-tag">Announcement</span>
+              </div>
+            </div>
+          </article>
+          
+          <article class="article-card">
+            <div class="article-image">
+              <img src="https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?w=600&h=400&fit=crop" alt="Sports analytics">
+            </div>
+            <div class="article-content">
+              <div class="article-meta">
+                <span class="article-author">
+                  <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&h=100&fit=crop" alt="The Analyst">
+                  The Analyst
+                </span>
+                <span>·</span>
+                <span>Coming Soon</span>
+              </div>
+              <h3 class="article-title">Early Odds & Predictions</h3>
+              <p class="article-excerpt">Breaking down the betting lines and what the early numbers tell us about potential SB60 matchups.</p>
+              <div class="article-tags">
+                <span class="article-tag">Analytics</span>
+                <span class="article-tag">Odds</span>
+              </div>
+            </div>
+          </article>
+          
+          <article class="article-card">
+            <div class="article-image">
+              <img src="https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=600&h=400&fit=crop" alt="Golden Gate Bridge">
+            </div>
+            <div class="article-content">
+              <div class="article-meta">
+                <span class="article-author">
+                  <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop" alt="The Local">
+                  The Local
+                </span>
+                <span>·</span>
+                <span>Coming Soon</span>
+              </div>
+              <h3 class="article-title">Bay Area Fan Guide 2026</h3>
+              <p class="article-excerpt">Where to eat, stay, and celebrate during Super Bowl week. The ultimate local's guide to the Bay.</p>
+              <div class="article-tags">
+                <span class="article-tag">Guide</span>
+                <span class="article-tag">Bay Area</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Personas Section -->
+    <section class="section">
+      <div class="section-header">
+        <h2 class="section-title">
+          <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=64&h=64&fit=crop" alt="Team" class="section-title-icon">
+          Meet Our Team
+        </h2>
+        <a href="#" class="section-link">View all authors →</a>
+      </div>
+      
+      <div class="persona-grid">
+        <article class="persona-card">
+          <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop" alt="The Insider" class="persona-avatar">
+          <h3 class="persona-name">The Insider</h3>
+          <p class="persona-bio">Behind-the-scenes access to the NFL machine. Stadium logistics, broadcast details, locker room whispers.</p>
+          <div class="persona-topics">
+            <span class="topic-tag">Stadium</span>
+            <span class="topic-tag">Broadcast</span>
+            <span class="topic-tag">Security</span>
+          </div>
+        </article>
+        
+        <article class="persona-card">
+          <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200&h=200&fit=crop" alt="The Analyst" class="persona-avatar">
+          <h3 class="persona-name">The Analyst</h3>
+          <p class="persona-bio">Numbers don't lie. Breaking down matchups, odds, and what the data says about SB60.</p>
+          <div class="persona-topics">
+            <span class="topic-tag">Stats</span>
+            <span class="topic-tag">Odds</span>
+            <span class="topic-tag">History</span>
+          </div>
+        </article>
+        
+        <article class="persona-card">
+          <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&h=200&fit=crop" alt="The Local" class="persona-avatar">
+          <h3 class="persona-name">The Local</h3>
+          <p class="persona-bio">Born and raised in the Bay. Your guide to SF, Santa Clara, and the ultimate fan experience.</p>
+          <div class="persona-topics">
+            <span class="topic-tag">Food</span>
+            <span class="topic-tag">Transit</span>
+            <span class="topic-tag">Events</span>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+  
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-logo">
+        <img src="https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=100&h=100&fit=crop" alt="Football">
+        SB60 Intel
+      </div>
+      <p class="footer-desc">
+        Your source for everything Super Bowl 60. Coverage from The Insider, The Analyst, and The Local.
+        Levi's Stadium. February 2026.
+      </p>
+      <div class="footer-links">
+        <a href="#">RSS Feed</a>
+        <a href="#">Twitter/X</a>
+        <a href="#">About</a>
+        <a href="#">Authors</a>
+      </div>
+      <p class="footer-copy">© 2026 SB60 Intel. All rights reserved.</p>
+    </div>
+  </footer>
+  
+  <script>
+    // Countdown Timer
+    function updateCountdown() {
+      const sb60Date = new Date('2026-02-08T18:30:00-08:00');
+      const now = new Date();
+      const diff = sb60Date - now;
+      
+      if (diff > 0) {
+        const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+        
+        document.getElementById('days').textContent = days;
+        document.getElementById('hours').textContent = hours.toString().padStart(2, '0');
+        document.getElementById('minutes').textContent = minutes.toString().padStart(2, '0');
+      }
+    }
+    
+    updateCountdown();
+    setInterval(updateCountdown, 60000);
+  </script>
+</body>
+</html>
