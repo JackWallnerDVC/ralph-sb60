@@ -57,7 +57,7 @@ layout: default
     {% if site.posts.size > 0 %}
       <!-- Featured Article (first post) -->
       {% assign featured = site.posts.first %}
-      {% assign author = site.data.personas.personas | where: "slug", featured.author | first %}
+      {% assign author = site.data.personas | where: "slug", featured.author | first %}
       
       <article class="featured-article">
         <div class="featured-image">
@@ -96,7 +96,7 @@ layout: default
       {% if site.posts.size > 1 %}
         <div class="articles-grid">
           {% for post in site.posts offset:1 limit:6 %}
-            {% assign post_author = site.data.personas.personas | where: "slug", post.author | first %}
+            {% assign post_author = site.data.personas | where: "slug", post.author | first %}
             <article class="article-card">
               <div class="article-image">
                 {% if post.image %}
@@ -150,7 +150,7 @@ layout: default
   </div>
   
   <div class="persona-grid">
-    {% for persona in site.data.personas.personas %}
+    {% for persona in site.data.personas %}
       <article class="persona-card">
         <img src="{{ persona.avatar }}" alt="{{ persona.name }}" class="persona-avatar">
         <h3 class="persona-name">{{ persona.name }}</h3>
