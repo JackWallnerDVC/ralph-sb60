@@ -8,12 +8,13 @@ layout: default
       {% assign author = site.data.personas[page.author] %}
       <span class="post-author">
         {% if author %}
-          {{ author.avatar }} <a href="/authors/{{ page.author }}">{{ author.name }}</a>
+          <img src="{{ author.avatar }}" alt="{{ author.name }}" class="author-avatar-small">
+          <a href="/authors/{{ page.author }}">{{ author.name }}</a>
         {% else %}
           {{ page.author }}
         {% endif %}
       </span>
-      <span class="post-date">{{ page.date | date: "%B %d, %Y at %H:%M" }}</span>
+      <span class="post-date">{{ page.date | date: "%B %d, %Y" }}</span>
       {% if page.tags %}
         <span class="post-tags">
           {% for tag in page.tags %}

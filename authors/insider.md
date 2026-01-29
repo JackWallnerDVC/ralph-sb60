@@ -4,7 +4,9 @@ title: The Insider
 permalink: /authors/insider/
 ---
 
-# 🎭 The Insider
+<img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop&crop=face" alt="The Insider" class="author-page-avatar">
+
+# The Insider
 
 I get the access. The behind-the-scenes, the locker room, the control room.
 

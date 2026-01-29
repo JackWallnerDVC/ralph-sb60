@@ -2,27 +2,21 @@
 layout: default
 ---
 <div class="home">
+  <!-- Hero Section -->
   <section class="hero">
-    <h1>Super Bowl 60 Intelligence</h1>
-    <p>Everything you need to know about the Big Game at Levi's Stadium.<br>
-    Coverage from The Insider, The Analyst, and The Local.</p>
+    <div class="hero-badge">Live Coverage</div>
+    <h1>
+      <span class="hero-title-line1">Super Bowl 60</span>
+      <span class="hero-title-line2">Intelligence</span>
+    </h1>
+    <p class="hero-subtitle">
+      Your source for everything about the Big Game at Levi's Stadium. 
+      Behind-the-scenes access, data-driven analysis, and Bay Area insights.
+    </p>
     <p class="countdown" id="sb60-countdown">Loading countdown...</p>
   </section>
 
-  <section class="personas">
-    <h2>Our Team</h2>
-    <div class="persona-grid">
-      {% for persona in site.data.personas %}
-        <div class="persona-card">
-          <div class="persona-avatar">{{ persona[1].avatar }}</div>
-          <h3>{{ persona[1].name }}</h3>
-          <p>{{ persona[1].bio }}</p>
-          <a href="/authors/{{ persona[0] }}">Read more &rarr;</a>
-        </div>
-      {% endfor %}
-    </div>
-  </section>
-
+  <!-- Articles Section -->
   <section class="posts">
     <h2>Latest Updates</h2>
     {% if site.posts.size > 0 %}
@@ -38,7 +32,12 @@ layout: default
             {% endif %}
             <span class="post-author-inline">
               {% assign author = site.data.personas[post.author] %}
-              {% if author %}{{ author.avatar }} {{ author.name }}{% else %}{{ post.author }}{% endif %}
+              {% if author %}
+                <img src="{{ author.avatar }}" alt="{{ author.name }}" class="author-avatar-small">
+                {{ author.name }}
+              {% else %}
+                {{ post.author }}
+              {% endif %}
             </span>
           </li>
         {% endfor %}
@@ -49,6 +48,21 @@ layout: default
     {% else %}
       <p>No posts yet. Check back soon!</p>
     {% endif %}
+  </section>
+
+  <!-- Personas Section -->
+  <section class="personas">
+    <h2>Our Team</h2>
+    <div class="persona-grid">
+      {% for persona in site.data.personas %}
+        <div class="persona-card">
+          <img src="{{ persona[1].avatar }}" alt="{{ persona[1].name }}" class="persona-avatar-img">
+          <h3>{{ persona[1].name }}</h3>
+          <p>{{ persona[1].bio }}</p>
+          <a href="/authors/{{ persona[0] }}">Read more &rarr;</a>
+        </div>
+      {% endfor %}
+    </div>
   </section>
 </div>
 

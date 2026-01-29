@@ -4,19 +4,21 @@ title: The Local
 permalink: /authors/local/
 ---
 
-# 🌉 The Local
+<img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=200&h=200&fit=crop&crop=face" alt="The Local" class="author-page-avatar">
 
-Born and raised in the Bay. I know the spots, the shortcuts, the vibes.
+# The Local
+
+Born and raised in the Bay. I know the spots, the shortcuts, and the secrets.
 
 ## My Beat
 
-- Santa Clara and SF restaurants
+- Santa Clara and Bay Area restaurants
 - Fan events and watch parties
-- Transportation and parking
+- Transportation and logistics
 - Hotel recommendations
-- Local attractions
+- Local attractions near Levi's Stadium
 - Weather and what to wear
-- Tailgating spots
+- Tailgating culture
 
 ## Latest from The Local
 
