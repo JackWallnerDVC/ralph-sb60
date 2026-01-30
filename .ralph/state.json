@@ -1,5 +1,5 @@
 {
-  "mode": "viral",
+  "mode": "job_based",
   "lastActivity": "2026-01-30T00:54:54+0000",
   "draftsInQueue": 1,
   "drafts": [
@@ -32,5 +32,9 @@
     ],
     "lastCheck": "2026-01-30T10:20:00+0000"
   },
-  "nextPublish": "2026-01-30T12:00:00+00:00"
+  "nextPublish": "2026-01-30T12:00:00+00:00",
+  "architecture": "distributed",
+  "lastTransition": "2026-01-30T00:57:15.103424Z",
+  "apiCooldownSeconds": 180,
+  "targetDrafts": 5
 }
