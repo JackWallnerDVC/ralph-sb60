@@ -9625,3 +9625,25 @@ Applied edit to .ralph/angle_insider.json
 Applied edit to .ralph/angle_insider.json
 ./ralph_research.sh: line 47: ge: command not found
 ./ralph_research.sh: line 47: ge: command not found
+./ralph_research.sh: line 7: flock: command not found
+Thu Jan 29 18:55:00 PST 2026: Another Ralph process is running. Exiting.
+./ralph_research.sh: line 7: flock: command not found
+Thu Jan 29 19:00:01 PST 2026: Another Ralph process is running. Exiting.
+./ralph_research.sh: line 7: flock: command not found
+Thu Jan 29 19:05:00 PST 2026: Another Ralph process is running. Exiting.
+./ralph_research.sh: line 7: flock: command not found
+Thu Jan 29 19:10:00 PST 2026: Another Ralph process is running. Exiting.
+./ralph_research.sh: line 7: flock: command not found
+Thu Jan 29 19:15:00 PST 2026: Another Ralph process is running. Exiting.
+./ralph_research.sh: line 7: flock: command not found
+Thu Jan 29 19:20:00 PST 2026: Another Ralph process is running. Exiting.
+./ralph_research.sh: line 7: flock: command not found
+Thu Jan 29 19:25:00 PST 2026: Another Ralph process is running. Exiting.
+./ralph_research.sh: line 7: flock: command not found
+Thu Jan 29 19:30:00 PST 2026: Another Ralph process is running. Exiting.
+./ralph_research.sh: line 7: flock: command not found
+Thu Jan 29 19:35:00 PST 2026: Another Ralph process is running. Exiting.
+./ralph_research.sh: line 7: flock: command not found
+Thu Jan 29 19:40:00 PST 2026: Another Ralph process is running. Exiting.
+./ralph_research.sh: line 7: flock: command not found
+Thu Jan 29 19:45:00 PST 2026: Another Ralph process is running. Exiting.
