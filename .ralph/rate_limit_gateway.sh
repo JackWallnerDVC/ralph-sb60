@@ -1,20 +1,18 @@
 #!/usr/bin/env bash
-# Rate Limit Gateway - Prevents API choking
-# Tracks last API call and enforces cooldown
+# Rate Limit Gateway - Spaces API calls for ~7 calls/minute budget
+# Minimum 10 seconds between calls (6 calls/min sustainable)
 
 GATEWAY_FILE="/Users/jackwallner/clawd/ralph-sb60/.ralph/api_gateway.json"
-COOLDOWN_SECONDS=180  # 3 minutes between API calls
+COOLDOWN_SECONDS=10  # 10 seconds between API calls = 6/min, well under 7/min budget
 
 # Initialize gateway file if missing
 init_gateway() {
     if [[ ! -f "$GATEWAY_FILE" ]]; then
-        python3 -c "import json; json.dump({'lastCall': 0, 'callsThisHour': 0, 'hourStart': 0}, open('$GATEWAY_FILE', 'w'))"
+        python3 -c "import json; json.dump({'lastCall': 0, 'callsThisMinute': 0, 'minuteStart': 0}, open('$GATEWAY_FILE', 'w'))"
     fi
 }
 
 # Check if API call is allowed
-# Returns 0 if allowed, 1 if should wait
-# Outputs: "WAIT:<seconds>" or "ALLOW"
 check_rate_limit() {
     init_gateway
     
@@ -26,16 +24,16 @@ try:
     with open('$GATEWAY_FILE', 'r') as f:
         data = json.load(f)
 except:
-    data = {'lastCall': 0, 'callsThisHour': 0, 'hourStart': 0}
+    data = {'lastCall': 0, 'callsThisMinute': 0, 'minuteStart': 0}
 
 now = int(time.time())
 lastCall = data.get('lastCall', 0)
-hourStart = data.get('hourStart', 0)
+minuteStart = data.get('minuteStart', 0)
 
-# Reset hourly counter if hour has passed
-if now - hourStart >= 3600:
-    data['hourStart'] = now
-    data['callsThisHour'] = 0
+# Reset minute counter
+if now - minuteStart >= 60:
+    data['minuteStart'] = now
+    data['callsThisMinute'] = 0
     with open('$GATEWAY_FILE', 'w') as f:
         json.dump(data, f)
 
@@ -47,6 +45,19 @@ if elapsed < $COOLDOWN_SECONDS:
 else:
     print('ALLOW')
 EOF
+}
+
+# Wait for rate limit to clear, then proceed
+wait_for_clear() {
+    while true; do
+        STATUS=$(check_rate_limit)
+        if [[ "$STATUS" == "ALLOW" ]]; then
+            return 0
+        fi
+        WAIT=${STATUS#WAIT:}
+        echo "  ⏱️  Waiting ${WAIT}s for rate limit..." >&2
+        sleep "$WAIT"
+    done
 }
 
 # Record an API call
@@ -61,11 +72,11 @@ try:
     with open('$GATEWAY_FILE', 'r') as f:
         data = json.load(f)
 except:
-    data = {'lastCall': 0, 'callsThisHour': 0, 'hourStart': 0}
+    data = {'lastCall': 0, 'callsThisMinute': 0, 'minuteStart': 0}
 
 now = int(time.time())
 data['lastCall'] = now
-data['callsThisHour'] = data.get('callsThisHour', 0) + 1
+data['callsThisMinute'] = data.get('callsThisMinute', 0) + 1
 
 with open('$GATEWAY_FILE', 'w') as f:
     json.dump(data, f)
@@ -84,18 +95,18 @@ try:
     with open('$GATEWAY_FILE', 'r') as f:
         data = json.load(f)
 except:
-    data = {'lastCall': 0, 'callsThisHour': 0, 'hourStart': 0}
+    data = {'lastCall': 0, 'callsThisMinute': 0, 'minuteStart': 0}
 
 now = int(time.time())
 lastCall = data.get('lastCall', 0)
-callsThisHour = data.get('callsThisHour', 0)
+callsThisMinute = data.get('callsThisMinute', 0)
 elapsed = now - lastCall
 remaining = $COOLDOWN_SECONDS - elapsed
 
 if remaining > 0:
-    print(f'COOLDOWN:{remaining}s|HOUR:{callsThisHour}')
+    print(f'COOLDOWN:{remaining}s|MIN:{callsThisMinute}')
 else:
-    print(f'READY|HOUR:{callsThisHour}')
+    print(f'READY|MIN:{callsThisMinute}')
 EOF
 }
 
@@ -104,6 +115,9 @@ case "${1:-}" in
     check)
         check_rate_limit
         ;;
+    wait)
+        wait_for_clear
+        ;;
     record)
         record_call
         ;;
@@ -111,7 +125,7 @@ case "${1:-}" in
         get_status
         ;;
     *)
-        echo "Usage: $0 {check|record|status}"
+        echo "Usage: $0 {check|wait|record|status}"
         exit 1
         ;;
 esac

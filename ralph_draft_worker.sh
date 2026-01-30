@@ -1,49 +1,35 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-# Ralph Draft Worker - Uses AI to generate ONE draft per invocation
-# This makes 1 AI call per run
-# Runs every 10 minutes via cron (but rate limit enforces 3-min gap)
+# Ralph Draft Worker - MULTI-AI content generation
+# Generates ONE high-quality draft using 3 AI calls (research, outline, write)
 
 REPO_DIR="/Users/jackwallner/clawd/ralph-sb60"
 SCRIPT_DIR="/Users/jackwallner/clawd/skills/sb60-blog/scripts"
 LOG_FILE="$REPO_DIR/.ralph/draft_worker.log"
 GATEWAY="$REPO_DIR/.ralph/rate_limit_gateway.sh"
 DRAFTS_DIR="$REPO_DIR/.ralph/drafts"
-STATE_FILE="$REPO_DIR/.ralph/state.json"
 
-# Export Vertex AI env vars
 export VERTEXAI_PROJECT="${VERTEXAI_PROJECT:-project-f1f026e2-b264-4c46-9e1}"
 export VERTEXAI_LOCATION="${VERTEXAI_LOCATION:-global}"
 
 mkdir -p "$DRAFTS_DIR"
 cd "$REPO_DIR"
 
-echo "=== Ralph Draft Worker ===" | tee -a "$LOG_FILE"
+echo "=== Ralph Draft Worker (Multi-AI) ===" | tee -a "$LOG_FILE"
 echo "Timestamp: $(date -u +"%Y-%m-%dT%H:%M:%SZ")" | tee -a "$LOG_FILE"
 
-# Check rate limit
-RATE_STATUS=$($GATEWAY check)
-echo "Rate limit: $RATE_STATUS" | tee -a "$LOG_FILE"
-
-if [[ "$RATE_STATUS" == WAIT:* ]]; then
-    WAIT_SECONDS=${RATE_STATUS#WAIT:}
-    echo "⏳ Cooldown active (${WAIT_SECONDS}s). Exiting." | tee -a "$LOG_FILE"
-    echo "" | tee -a "$LOG_FILE"
-    exit 0
-fi
-
-# Check draft queue
+# Check queue
 DRAFT_COUNT=$(ls -1 "$DRAFTS_DIR"/draft-*.md 2>/dev/null | wc -l | tr -d '[:space:]' || echo "0")
 echo "Drafts in queue: $DRAFT_COUNT/5" | tee -a "$LOG_FILE"
 
 if [[ "$DRAFT_COUNT" -ge 5 ]]; then
-    echo "✅ Queue full. No work needed." | tee -a "$LOG_FILE"
+    echo "✅ Queue full. Exiting." | tee -a "$LOG_FILE"
     echo "" | tee -a "$LOG_FILE"
     exit 0
 fi
 
-# Determine persona (time-based rotation)
+# Determine persona
 HOUR=$(date -u +"%H")
 case "$HOUR" in
     00|01|02|03|04|05) PERSONA="insider" ;;
@@ -51,67 +37,49 @@ case "$HOUR" in
     12|13|14|15|16|17) PERSONA="local" ;;
     *) PERSONA="insider" ;;
 esac
-echo "📝 Generating draft $((DRAFT_COUNT + 1))/5 as $PERSONA..." | tee -a "$LOG_FILE"
 
-# Record API call
-$GATEWAY record
+echo "📝 Generating draft $((DRAFT_COUNT + 1))/5 as $PERSONA" | tee -a "$LOG_FILE"
 
-# AI Draft Generation
 AIDER_CMD="aider --model vertex_ai/gemini-2.0-flash-exp --no-auto-commits --no-show-model-warnings --yes-always --exit"
-
-cat > /tmp/draft_prompt.txt << 'PROMPT'
-You are Ralph, the SB60 Blog's content engine. Create ONE publication-ready draft.
-
-INPUTS TO READ:
-1. .ralph/research_summary.json - AI-analyzed trends and angles
-2. .ralph/trends.json - Raw trending topics  
-3. .ralph/real_intel.json - Verified news
-4. personas.json - Voice/style for the active persona
-5. _posts/*.md - Recent posts (avoid duplication)
-
-CREATE:
-One draft in .ralph/drafts/ with filename: draft-YYYYMMDD-HHMM-{persona}-{slug}.md
-
-CONTENT REQUIREMENTS:
-- 400-600 words of original analysis
-- Lead with a specific insight from research
-- Reference real data/trends where relevant
-- Use the persona's voice (insider="sources say...", analyst="data shows...", local="you gotta check out...")
-- NO AI words: additionally, moreover, furthermore, landscape, tapestry, delve
-- NO filler phrases
-- NO sign-offs at end
-
-YAML frontmatter:
----
-layout: post
-title: "Specific, compelling headline"
-author: "Persona Name"
-date: PLACEHOLDER
-tags: [relevant, tags, here]
-excerpt: "Hook sentence"
-persona: {persona_slug}
-status: draft
----
-
-Respond: "DRAFT CREATED: {filename}"
-PROMPT
-
-FILES=".ralph/research_summary.json .ralph/trends.json .ralph/real_intel.json personas.json"
+RESEARCH_FILES=".ralph/research_summary.json .ralph/angle_${PERSONA}.json .ralph/trends.json personas.json"
 for f in $(ls -1 _posts/*.md 2>/dev/null | tail -5); do
-    FILES="$FILES $f"
+    RESEARCH_FILES="$RESEARCH_FILES $f"
 done
 
-if $AIDER_CMD $FILES --message "$(cat /tmp/draft_prompt.txt)" 2>&1 | tee -a "$LOG_FILE"; then
-    echo "✅ Draft worker completed" | tee -a "$LOG_FILE"
-    
-    # Update state with new count
-    NEW_COUNT=$(ls -1 "$DRAFTS_DIR"/draft-*.md 2>/dev/null | wc -l | tr -d '[:space:]')
-    python3 << EOF
+# AI Call 1: Deep research on specific angle
+echo "" | tee -a "$LOG_FILE"
+echo "🧠 AI Call 1/3: Deep research..." | tee -a "$LOG_FILE"
+$GATEWAY wait
+$GATEWAY record
+$AIDER_CMD $RESEARCH_FILES --message "Read research_summary.json and angle_${PERSONA}.json. Select the BEST angle for ${PERSONA} persona. Create .ralph/deep_research.json with: specific facts to include, sources to cite (real or 'sources say'), key quotes/stats, counter-arguments to address, related topics for context." 2>&1 | tee -a "$LOG_FILE"
+
+# AI Call 2: Create detailed outline
+echo "" | tee -a "$LOG_FILE"
+echo "🧠 AI Call 2/3: Creating outline..." | tee -a "$LOG_FILE"
+$GATEWAY wait
+$GATEWAY record
+$AIDER_CMD $RESEARCH_FILES .ralph/deep_research.json --message "Using deep_research.json, create .ralph/outline.json with: hook (first sentence), 5 section titles with key points per section, specific stats/facts for each section, transition sentences between sections. Target 500-600 words total." 2>&1 | tee -a "$LOG_FILE"
+
+# AI Call 3: Write the full draft
+echo "" | tee -a "$LOG_FILE"
+echo "🧠 AI Call 3/3: Writing draft..." | tee -a "$LOG_FILE"
+$GATEWAY wait
+$GATEWAY record
+
+TIMESTAMP=$(date -u +"%Y%m%d-%H%M")
+SLUG=$(python3 -c "import json; d=json.load(open('.ralph/deep_research.json')); print(d.get('slug','topic'))" 2>/dev/null || echo "topic")
+FILENAME="draft-${TIMESTAMP}-${PERSONA}-${SLUG}.md"
+
+$AIDER_CMD $RESEARCH_FILES .ralph/deep_research.json .ralph/outline.json --message "Write the complete draft post as ${FILENAME} in .ralph/drafts/. Use outline.json structure. Include YAML frontmatter: layout, title, author (from personas.json), date: PLACEHOLDER, tags, excerpt, persona, status: draft. Write 500-600 words. Use ${PERSONA} voice. NO AI words (additionally, moreover, furthermore, landscape, tapestry, delve). NO sign-offs. Specific details only." 2>&1 | tee -a "$LOG_FILE"
+
+# Update state
+NEW_COUNT=$(ls -1 "$DRAFTS_DIR"/draft-*.md 2>/dev/null | wc -l | tr -d '[:space:]')
+python3 << EOF 2>&1 | tee -a "$LOG_FILE"
 import json
 import datetime
 
 try:
-    with open('$STATE_FILE', 'r') as f:
+    with open('.ralph/state.json', 'r') as f:
         state = json.load(f)
 except:
     state = {}
@@ -119,12 +87,10 @@ except:
 state['draftsInQueue'] = $NEW_COUNT
 state['lastDraftAt'] = datetime.datetime.utcnow().isoformat() + 'Z'
 
-with open('$STATE_FILE', 'w') as f:
+with open('.ralph/state.json', 'w') as f:
     json.dump(state, f, indent=2)
-print(f"State updated: {NEW_COUNT} drafts")
+
+print(f"✅ Draft worker complete: {NEW_COUNT} drafts in queue")
 EOF
-else
-    echo "⚠️ Draft generation had issues" | tee -a "$LOG_FILE"
-fi
 
 echo "" | tee -a "$LOG_FILE"

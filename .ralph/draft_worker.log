@@ -204,3 +204,19 @@ Rate limit status: WAIT:69
 ⏳ Rate limit cooldown active. Wait 69s. Exiting.
 
 
+=== Ralph Draft Worker ===
+=== Ralph Draft Worker ===
+Timestamp: 2026-01-30T01:10:00Z
+Timestamp: 2026-01-30T01:10:00Z
+Rate limit: ALLOW
+Rate limit: ALLOW
+Drafts in queue: 1/5
+Drafts in queue: 1/5
+📝 Generating draft 2/5 as insider...
+📝 Generating draft 2/5 as insider...
+./ralph_draft_worker.sh: line 104: aider: command not found
+./ralph_draft_worker.sh: line 104: aider: command not found
+⚠️ Draft generation had issues
+⚠️ Draft generation had issues
+
+
