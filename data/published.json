@@ -17,7 +17,7 @@
     "local",
     "insider"
   ],
-  "currentIndex": 1,
+  "currentIndex": 2,
   "posts": [
     {
       "title": "Field Prep Begins: Levi's Stadium Crew Starts SB60 Transformation",
@@ -36,16 +36,22 @@
       "author": "insider",
       "date": "2026-01-29T23:24:33.949430+00:00",
       "url": "/2026/01/29/2026-01-29-23-24-hotel-wars.html"
+    },
+    {
+      "title": "The MVP Glitch: Why the Algorithms Love the Running Back",
+      "author": "analyst",
+      "date": "2026-01-30T06:00:00+00:00",
+      "url": "/2026/01/30/06-00-mvp-shift.html"
     }
   ],
   "stats": {
-    "totalPosts": 3,
+    "totalPosts": 4,
     "postsByPersona": {
       "insider": 2,
-      "analyst": 1,
+      "analyst": 2,
       "local": 0
     },
-    "lastPublish": "2026-01-29T23:24:33.949462+00:00",
-    "streakDays": 0
+    "lastPublish": "2026-01-30T06:00:00+00:00",
+    "streakDays": 1
   }
 }

@@ -9,6 +9,21 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | relative_url }}">
+  <style>
+    .logo-box {
+      width: 40px;
+      height: 40px;
+      background: linear-gradient(135deg, #1a365d 0%, #2d7d32 100%);
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 900;
+      border-radius: 12px;
+      font-size: 1.2rem;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+  </style>
 </head>
 <body>
   <div class="bg-pattern"></div>
@@ -16,7 +31,7 @@
   <header class="site-header">
     <div class="header-inner">
       <a class="logo" href="{{ '/' | relative_url }}">
-        <img src="https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=100&h=100&fit=crop" alt="Football" class="logo-icon">
+        <div class="logo-box" style="margin-right: 0.75rem;">SB</div>
         <span>{{ site.title }}</span>
       </a>
       <button class="mobile-nav-toggle" onclick="document.querySelector('.site-nav').classList.toggle('active')">☰</button>
@@ -35,7 +50,7 @@
   <footer class="site-footer">
     <div class="footer-inner">
       <div class="footer-logo">
-        <img src="https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=100&h=100&fit=crop" alt="Football">
+        <div class="logo-box" style="width: 36px; height: 36px; border-radius: 10px; margin-right: 0.75rem;">SB</div>
         {{ site.title }}
       </div>
       <p class="footer-desc">{{ site.description }}</p>

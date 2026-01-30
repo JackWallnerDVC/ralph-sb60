@@ -1,27 +1,36 @@
 {
   "mode": "viral",
-  "lastActivity": "2026-01-29T23:15:25+0000",
-  "draftsInQueue": 0,
-  "drafts": [],
-  "lastPublish": "2026-01-29T23:24:33.948978+00:00",
+  "lastActivity": "2026-01-30T00:54:54+0000",
+  "draftsInQueue": 1,
+  "drafts": [
+    "draft-20260130-insider-manual.md"
+  ],
+  "lastPublish": "2026-01-30T06:00:00+00:00",
   "targetQueueSize": 5,
   "currentPersona": "insider",
   "researchTopics": [
     "SB60 MVP odds and predictions",
     "X/Twitter trending SB60 topics",
     "Betting line movements",
-    "Player news and injuries"
+    "Player news and injuries",
+    "Halftime show rumors"
   ],
   "intelligence": {
-    "trending": [],
+    "trending": [
+      "halftime show surprise",
+      "levis stadium sound check",
+      "sb60 guest rumors",
+      "santa clara food prices"
+    ],
     "sources": [
       "nfl.com",
       "espn.com",
       "twitter.com/sb60",
       "49ers.com",
-      "levisstadium.com"
+      "levisstadium.com",
+      "tmz.com"
     ],
-    "lastCheck": null
+    "lastCheck": "2026-01-30T10:20:00+0000"
   },
-  "nextPublish": "2026-01-30T06:00:00+00:00"
+  "nextPublish": "2026-01-30T12:00:00+00:00"
 }

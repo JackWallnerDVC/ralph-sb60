@@ -103,6 +103,20 @@
       box-shadow: 0 4px 15px rgba(0,0,0,0.1);
     }
 
+    .logo-box {
+      width: 40px;
+      height: 40px;
+      background: linear-gradient(135deg, var(--navy-primary) 0%, var(--accent-green) 100%);
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 900;
+      border-radius: 12px;
+      font-size: 1.2rem;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+
     .logo span {
       background: linear-gradient(135deg, var(--navy-primary) 0%, var(--accent-green) 100%);
       -webkit-background-clip: text;
@@ -763,7 +777,7 @@
   <header class="site-header">
     <div class="header-inner">
       <a href="{{ '/' | relative_url }}" class="logo">
-        <img src="https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=100&h=100&fit=crop" alt="Football" class="logo-icon">
+        <div class="logo-box">SB</div>
         <span>SB60 Intel</span>
       </a>
       <nav class="site-nav">
@@ -932,7 +946,7 @@
   <footer class="site-footer">
     <div class="footer-inner">
       <div class="footer-logo">
-        <img src="https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=100&h=100&fit=crop" alt="Football">
+        <div class="logo-box" style="width: 36px; height: 36px; border-radius: 10px; margin-right: 0.75rem;">SB</div>
         SB60 Intel
       </div>
       <p class="footer-desc">Your source for everything Super Bowl 60. Coverage from The Insider, The Analyst, and The Local.</p>
