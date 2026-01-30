@@ -1,6 +1,16 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+# LOCK FILE: Prevents concurrent execution with other Ralph scripts
+LOCK_FILE="/tmp/ralph.lock"
+exec 200>"$LOCK_FILE"
+if ! flock -n 200; then
+    echo "$(date): Another Ralph process is running. Exiting." >&2
+    exit 1
+fi
+# Hold the lock for the entire script duration
+flock -x 200
+
 # Ensure PATH includes local bin for aider
 export PATH="$HOME/.local/bin:$HOME/.cargo/bin:$PATH:/usr/local/bin:$HOME/.nvm/versions/node/v22.22.0/bin"
 

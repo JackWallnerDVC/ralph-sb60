@@ -7785,3 +7785,674 @@ Applied edit to .ralph/deep_research.json
 🧠 AI Call 2/3: Creating outline...
 🧠 AI Call 2/3: Creating outline...
   ⏱️  Waiting 7s for rate limit...
+Warning: Input is not a terminal (fd=0).
+Warning: Input is not a terminal (fd=0).
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────────────
+Aider v0.86.1
+Aider v0.86.1
+Model: vertex_ai/gemini-2.0-flash-exp with whole edit format
+Model: vertex_ai/gemini-2.0-flash-exp with whole edit format
+Git repo: .git with 82 files
+Git repo: .git with 82 files
+Repo-map: using 4096 tokens, auto refresh
+Repo-map: using 4096 tokens, auto refresh
+Added .ralph/angle_insider.json to the chat.
+Added .ralph/angle_insider.json to the chat.
+Added .ralph/deep_research.json to the chat.
+Added .ralph/deep_research.json to the chat.
+Added .ralph/research_summary.json to the chat.
+Added .ralph/research_summary.json to the chat.
+Added .ralph/trends.json to the chat.
+Added .ralph/trends.json to the chat.
+Added _posts/2026-01-29-welcome-to-sb60-intel.md to the chat.
+Added _posts/2026-01-29-welcome-to-sb60-intel.md to the chat.
+Added _posts/2026-01-30-01-21-draft-20260130-manual.md to the chat.
+Added _posts/2026-01-30-01-21-draft-20260130-manual.md to the chat.
+Added _posts/2026-01-30-02-00-insider-topic.md to the chat.
+Added _posts/2026-01-30-02-00-insider-topic.md to the chat.
+Added _posts/2026-01-30-02-17-topic.md to the chat.
+Added _posts/2026-01-30-02-17-topic.md to the chat.
+Added _posts/2026-01-30-06-00-mvp-shift.md to the chat.
+Added _posts/2026-01-30-06-00-mvp-shift.md to the chat.
+Added personas.json to the chat.
+Added personas.json to the chat.
+
+
+
+
+.ralph/outline.json
+.ralph/outline.json
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 0.2 seconds...
+Retrying in 0.2 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Quota exceeded for 
+aiplatform.googleapis.com/global_generate_content_requests_per_minute_per_projec
+t_per_base_model with base model: gemini-experimental. Please submit a quota 
+increase request. 
+https://cloud.google.com/vertex-ai/docs/generative-ai/quotas-genai.",\n    
+"status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Quota exceeded for 
+aiplatform.googleapis.com/global_generate_content_requests_per_minute_per_projec
+t_per_base_model with base model: gemini-experimental. Please submit a quota 
+increase request. 
+https://cloud.google.com/vertex-ai/docs/generative-ai/quotas-genai.",\n    
+"status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 0.5 seconds...
+Retrying in 0.5 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Quota exceeded for 
+aiplatform.googleapis.com/global_generate_content_requests_per_minute_per_projec
+t_per_base_model with base model: gemini-experimental. Please submit a quota 
+increase request. 
+https://cloud.google.com/vertex-ai/docs/generative-ai/quotas-genai.",\n    
+"status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Quota exceeded for 
+aiplatform.googleapis.com/global_generate_content_requests_per_minute_per_projec
+t_per_base_model with base model: gemini-experimental. Please submit a quota 
+increase request. 
+https://cloud.google.com/vertex-ai/docs/generative-ai/quotas-genai.",\n    
+"status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 1.0 seconds...
+Retrying in 1.0 seconds...
+.ralph/outline.json                                                             
+.ralph/outline.json                                                             
+
+                                                                                
+@@ -1,4 +1,6 @@                                                                 
+ {                                                                              
+-  "hook": "I'm hearing whispers that the expanded security perimeter isn't just
+about physical barriers. New drone detection tech and advanced sensor networks  
+are being deployed to monitor the area.",                                       
++  "hook": "My sources reveal that the expanded security perimeter for Super    
+
+                                                                                
+@@ -1,4 +1,6 @@                                                                 
+ {                                                                              
+-  "hook": "I'm hearing whispers that the expanded security perimeter isn't just
+about physical barriers. New drone detection tech and advanced sensor networks  
+are being deployed to monitor the area.",                                       
++  "hook": "My sources reveal that the expanded security perimeter for Super    
+Bowl LX will incorporate AI-powered monitoring.",                               
+   "sections": [                                                                
+     {                                                                          
+-      "title": "Understanding the Expanded Security Perimeter",                
+Bowl LX will incorporate AI-powered monitoring.",                               
+   "sections": [                                                                
+     {                                                                          
+-      "title": "Understanding the Expanded Security Perimeter",                
++      "title": "Understanding AI-Powered Perimeter Monitoring",                
+       "key_points": [                                                          
+-        "The security perimeter for Super Bowl LX is expanding beyond physical 
+barriers.",                                                                     
+-        "New drone detection technology and advanced sensor networks are being 
+deployed.",                                                                     
+-        "This expansion aims to enhance security and monitor potential threats 
+more effectively."                                                              
++        "The expanded security perimeter for Super Bowl LX will incorporate    
+AI-powered monitoring.",                                                        
++        "Real-time analysis of crowd behavior and automated threat detection   
+will be implemented.",                                                          
++        "This system aims to enhance security and provide faster threat        
+response."                                                                      
++      "title": "Understanding AI-Powered Perimeter Monitoring",                
+       "key_points": [                                                          
+-        "The security perimeter for Super Bowl LX is expanding beyond physical 
+barriers.",                                                                     
+-        "New drone detection technology and advanced sensor networks are being 
+deployed.",                                                                     
+-        "This expansion aims to enhance security and monitor potential threats 
+more effectively."                                                              
++        "The expanded security perimeter for Super Bowl LX will incorporate    
+AI-powered monitoring.",                                                        
++        "Real-time analysis of crowd behavior and automated threat detection   
+will be implemented.",                                                          
++        "This system aims to enhance security and provide faster threat        
+response."                                                                      
+       ],                                                                       
+       "stats_facts": [                                                         
+-        "The perimeter extends to 1500 feet from the stadium's outer walls.",  
+-        "47 businesses are directly affected within the expanded zone.",       
+-        "The perimeter is roughly defined by Tasman Drive, Stars and Stripes   
+Drive, Marie P. DeBartolo Way, and Lafayette Street."                           
++        "AI algorithms will analyze crowd behavior in real-time to detect      
+anomalies.",                                                                    
++        "The system integrates with existing CCTV cameras and sensor networks  
+       ],                                                                       
+       "stats_facts": [                                                         
+-        "The perimeter extends to 1500 feet from the stadium's outer walls.",  
+-        "47 businesses are directly affected within the expanded zone.",       
+-        "The perimeter is roughly defined by Tasman Drive, Stars and Stripes   
+Drive, Marie P. DeBartolo Way, and Lafayette Street."                           
++        "AI algorithms will analyze crowd behavior in real-time to detect      
+anomalies.",                                                                    
++        "The system integrates with existing CCTV cameras and sensor networks  
+for comprehensive coverage.",                                                   
++        "Key Performance Indicators (KPIs) include detection rate and false    
+alarm rate."                                                                    
+       ],                                                                       
+-      "transition": "Now that we understand the scope of the expanded          
+perimeter, let's delve into the specifics of the drone detection technologies   
+being implemented."                                                             
++      "transition": "Now that we understand the basics of the AI-powered       
+monitoring, let's delve into how it integrates with existing security           
+infrastructure."                                                                
+     },                                                                         
+     {                                                                          
+-      "title": "Drone Detection Technology: Capabilities and Deployment",      
+for comprehensive coverage.",                                                   
++        "Key Performance Indicators (KPIs) include detection rate and false    
+alarm rate."                                                                    
+       ],                                                                       
+-      "transition": "Now that we understand the scope of the expanded          
+perimeter, let's delve into the specifics of the drone detection technologies   
+being implemented."                                                             
++      "transition": "Now that we understand the basics of the AI-powered       
+monitoring, let's delve into how it integrates with existing security           
+infrastructure."                                                                
+     },                                                                         
+     {                                                                          
+-      "title": "Drone Detection Technology: Capabilities and Deployment",      
++      "title": "Integration with Existing Security Systems",                   
+       "key_points": [                                                          
+-        "Advanced drone detection systems are being deployed to identify and   
+track unauthorized drones.",                                                    
+-        "These systems utilize radar, acoustic sensors, and RF scanners for    
+comprehensive coverage.",                                                       
+-        "The goal is to provide early warning of potential threats and ensure  
+airspace security."                                                             
++        "AI is integrated with existing security systems like CCTV cameras and 
+sensor networks.",                                                              
++        "The system is designed to detect and respond to specific threats, such
+as suspicious packages and unauthorized access.",                               
++      "title": "Integration with Existing Security Systems",                   
+       "key_points": [                                                          
+-        "Advanced drone detection systems are being deployed to identify and   
+track unauthorized drones.",                                                    
+-        "These systems utilize radar, acoustic sensors, and RF scanners for    
+comprehensive coverage.",                                                       
+-        "The goal is to provide early warning of potential threats and ensure  
+airspace security."                                                             
++        "AI is integrated with existing security systems like CCTV cameras and 
+sensor networks.",                                                              
++        "The system is designed to detect and respond to specific threats, such
+as suspicious packages and unauthorized access.",                               
++        "Data from various sources is analyzed in real-time to provide a       
+comprehensive security overview."                                               
+       ],                                                                       
+       "stats_facts": [                                                         
+-        "Drone detection systems can identify and track drones from miles      
+away.",                                                                         
+-        "The systems have a reported accuracy rate of 95% in identifying drone 
+threats.",                                                                      
+-        "Data from drone detection is integrated and analyzed in real-time."   
++        "The AI system augments security personnel, freeing them up for other  
+tasks.",                                                                        
++        "Data from various sources is analyzed in real-time to provide a       
+comprehensive security overview."                                               
+       ],                                                                       
+       "stats_facts": [                                                         
+-        "Drone detection systems can identify and track drones from miles      
+away.",                                                                         
+-        "The systems have a reported accuracy rate of 95% in identifying drone 
+threats.",                                                                      
+-        "Data from drone detection is integrated and analyzed in real-time."   
++        "The AI system augments security personnel, freeing them up for other  
+tasks.",                                                                        
++        "The AI system is trained using updated data to improve accuracy.",    
++        "The system aims to reduce false alarms compared to traditional        
+security systems."                                                              
+       ],                                                                       
+-      "transition": "With drone detection covered, let's shift our focus to the
+advanced sensor networks and their role in monitoring the security perimeter."  
++      "transition": "With the integration aspects clarified, let's shift our   
+focus to the crucial aspect of data privacy and security protocols."            
+     },                                                                         
+     {                                                                          
+-      "title": "Advanced Sensor Networks: Monitoring and Data Privacy",        
++      "title": "Data Privacy and Security Protocols",                          
+       "key_points": [                                                          
++        "The AI system is trained using updated data to improve accuracy.",    
++        "The system aims to reduce false alarms compared to traditional        
+security systems."                                                              
+       ],                                                                       
+-      "transition": "With drone detection covered, let's shift our focus to the
+advanced sensor networks and their role in monitoring the security perimeter."  
++      "transition": "With the integration aspects clarified, let's shift our   
+focus to the crucial aspect of data privacy and security protocols."            
+     },                                                                         
+     {                                                                          
+-      "title": "Advanced Sensor Networks: Monitoring and Data Privacy",        
++      "title": "Data Privacy and Security Protocols",                          
+       "key_points": [                                                          
+-        "Advanced sensor networks are being used within the perimeter for      
+enhanced monitoring.",                                                          
+-        "These networks include video analytics, facial recognition, and       
+chemical/biological detection capabilities.",                                   
+-        "Data privacy protocols are in place to protect sensitive information  
+and prevent misuse."                                                            
++        "Stringent data protocols are in place to balance security with        
+privacy.",                                                                      
++        "Encryption, access controls, and strict retention policies are        
+implemented.",                                                                  
++        "The system adheres to privacy laws and regulations, such as GDPR and  
+CCPA."                                                                          
+-        "Advanced sensor networks are being used within the perimeter for      
+enhanced monitoring.",                                                          
+-        "These networks include video analytics, facial recognition, and       
+chemical/biological detection capabilities.",                                   
+-        "Data privacy protocols are in place to protect sensitive information  
+and prevent misuse."                                                            
++        "Stringent data protocols are in place to balance security with        
+privacy.",                                                                      
++        "Encryption, access controls, and strict retention policies are        
+implemented.",                                                                  
++        "The system adheres to privacy laws and regulations, such as GDPR and  
+CCPA."                                                                          
+       ],                                                                       
+       "stats_facts": [                                                         
+-        "Over 500 sensors are deployed within the security perimeter.",        
+-        "The sensor network utilizes AES-256 encryption for data               
+transmission.",                                                                 
+-        "Data retention policies limit storage of personally identifiable      
+information to 72 hours unless a threat is detected."                           
++        "AI-powered monitoring system adheres to privacy protocols, especially 
+regarding facial recognition and data retention.",                              
++        "Data retention policies dictate footage is deleted after a set period 
+unless flagged for investigation.",                                             
++        "The system uses updated data to improve accuracy and reduce bias."    
+       ],                                                                       
+-      "transition": "Having examined the sensor networks and data privacy,     
+let's consider the costs associated with deploying these new security           
+technologies."                                                                  
+       ],                                                                       
+       "stats_facts": [                                                         
+-        "Over 500 sensors are deployed within the security perimeter.",        
+-        "The sensor network utilizes AES-256 encryption for data               
+transmission.",                                                                 
+-        "Data retention policies limit storage of personally identifiable      
+information to 72 hours unless a threat is detected."                           
++        "AI-powered monitoring system adheres to privacy protocols, especially 
+regarding facial recognition and data retention.",                              
++        "Data retention policies dictate footage is deleted after a set period 
+unless flagged for investigation.",                                             
++        "The system uses updated data to improve accuracy and reduce bias."    
+       ],                                                                       
+-      "transition": "Having examined the sensor networks and data privacy,     
+let's consider the costs associated with deploying these new security           
+technologies."                                                                  
++      "transition": "Having examined the data privacy measures, let's consider 
+the financial investment required for this advanced security technology."       
+     },                                                                         
+     {                                                                          
+-      "title": "Costs and Funding of New Security Technologies",               
++      "title": "Costs and Funding of AI-Powered Monitoring",                   
+       "key_points": [                                                          
+-        "Implementing these expanded security measures involves a significant  
+financial investment.",                                                         
+-        "Costs include personnel, equipment, and infrastructure upgrades.",    
+-        "Funding is coming from a mix of sources: the NFL, the city, and the   
+state."                                                                         
++        "Implementing the AI-powered monitoring system involves a significant  
+financial investment.",                                                         
++      "transition": "Having examined the data privacy measures, let's consider 
+the financial investment required for this advanced security technology."       
+     },                                                                         
+     {                                                                          
+-      "title": "Costs and Funding of New Security Technologies",               
++      "title": "Costs and Funding of AI-Powered Monitoring",                   
+       "key_points": [                                                          
+-        "Implementing these expanded security measures involves a significant  
+financial investment.",                                                         
+-        "Costs include personnel, equipment, and infrastructure upgrades.",    
+-        "Funding is coming from a mix of sources: the NFL, the city, and the   
+state."                                                                         
++        "Implementing the AI-powered monitoring system involves a significant  
+financial investment.",                                                         
++        "Costs include software, hardware, and personnel.",                    
++        "Funding comes from a mix of sources, including the NFL and city       
+funds."                                                                         
+       ],                                                                       
+       "stats_facts": [                                                         
+-        "The estimated total cost is $3.5 million.",                           
+-        "$1.8 million is allocated for personnel, $1 million for equipment, and
+$700,000 for infrastructure.",                                                  
+-        "The NFL is contributing $1.5 million, the city $1 million, and the    
+state $1 million."                                                              
++        "The cost breakdown includes expenses for software, hardware, and      
+personnel.",                                                                    
++        "The system is being provided by technology vendors specializing in AI 
++        "Costs include software, hardware, and personnel.",                    
++        "Funding comes from a mix of sources, including the NFL and city       
+funds."                                                                         
+       ],                                                                       
+       "stats_facts": [                                                         
+-        "The estimated total cost is $3.5 million.",                           
+-        "$1.8 million is allocated for personnel, $1 million for equipment, and
+$700,000 for infrastructure.",                                                  
+-        "The NFL is contributing $1.5 million, the city $1 million, and the    
+state $1 million."                                                              
++        "The cost breakdown includes expenses for software, hardware, and      
+personnel.",                                                                    
++        "The system is being provided by technology vendors specializing in AI 
+security solutions.",                                                           
++        "The AI-powered monitoring system has been used at other major events  
+with positive results."                                                         
+       ],                                                                       
+-      "transition": "Now that we've addressed the costs, let's consider some   
+counter-arguments and concerns surrounding the use of these technologies."      
++      "transition": "Now that we've addressed the costs, let's consider some   
+counter-arguments and potential limitations of the AI-powered security          
+measures."                                                                      
+     },                                                                         
+security solutions.",                                                           
++        "The AI-powered monitoring system has been used at other major events  
+with positive results."                                                         
+       ],                                                                       
+-      "transition": "Now that we've addressed the costs, let's consider some   
+counter-arguments and concerns surrounding the use of these technologies."      
++      "transition": "Now that we've addressed the costs, let's consider some   
+counter-arguments and potential limitations of the AI-powered security          
+measures."                                                                      
+     },                                                                         
+     {                                                                          
+-      "title": "Addressing Concerns and Counter-Arguments",                    
++      "title": "Addressing Concerns and Limitations",                          
+       "key_points": [                                                          
+-        "Concerns exist about the cost-effectiveness of the new technologies.",
+-        "Measures are being taken to protect data privacy and prevent misuse of
+the sensor networks.",                                                          
+-        "The potential for false alarms and technical glitches in the new      
+systems is acknowledged."                                                       
++        "Concerns exist about the accuracy and reliability of AI-powered       
+security systems.",                                                             
++        "Measures are being taken to protect data privacy and prevent bias in  
+the AI algorithms.",                                                            
++        "The potential for technical glitches and system failures is           
+acknowledged."                                                                  
+     {                                                                          
+-      "title": "Addressing Concerns and Counter-Arguments",                    
++      "title": "Addressing Concerns and Limitations",                          
+       "key_points": [                                                          
+-        "Concerns exist about the cost-effectiveness of the new technologies.",
+-        "Measures are being taken to protect data privacy and prevent misuse of
+the sensor networks.",                                                          
+-        "The potential for false alarms and technical glitches in the new      
+systems is acknowledged."                                                       
++        "Concerns exist about the accuracy and reliability of AI-powered       
+security systems.",                                                             
++        "Measures are being taken to protect data privacy and prevent bias in  
+the AI algorithms.",                                                            
++        "The potential for technical glitches and system failures is           
+acknowledged."                                                                  
+       ],                                                                       
+       "stats_facts": [                                                         
+-        "Independent audits are conducted quarterly to assess the effectiveness
+of the technologies.",                                                          
+-        "The false alarm rate for the drone detection system is less than 1%.",
+-        "Public awareness campaigns are being launched to educate fans about   
+the new security measures."                                                     
++        "Independent audits are conducted to assess the effectiveness of the   
+technologies.",                                                                 
++        "The system has limitations that are being addressed through ongoing   
+development and testing.",                                                      
++        "The potential impact of the AI-powered security measures on the fan   
+       ],                                                                       
+       "stats_facts": [                                                         
+-        "Independent audits are conducted quarterly to assess the effectiveness
+of the technologies.",                                                          
+-        "The false alarm rate for the drone detection system is less than 1%.",
+-        "Public awareness campaigns are being launched to educate fans about   
+the new security measures."                                                     
++        "Independent audits are conducted to assess the effectiveness of the   
+technologies.",                                                                 
++        "The system has limitations that are being addressed through ongoing   
+development and testing.",                                                      
++        "The potential impact of the AI-powered security measures on the fan   
+experience is being considered."                                                
+       ]                                                                        
+     }                                                                          
+   ]                                                                            
+ }                                                                              
+                                                                                
+experience is being considered."                                                
+       ]                                                                        
+     }                                                                          
+   ]                                                                            
+ }                                                                              
+                                                                                
+
+
+Tokens: 10k sent, 810 received. Cost: $0.0020 message, $0.0020 session.
+Tokens: 10k sent, 810 received. Cost: $0.0020 message, $0.0020 session.
+Applied edit to .ralph/outline.json
+Applied edit to .ralph/outline.json
+
+
+🧠 AI Call 3/3: Writing draft...
+🧠 AI Call 3/3: Writing draft...
+  ⏱️  Waiting 5s for rate limit...
+Warning: Input is not a terminal (fd=0).
+Warning: Input is not a terminal (fd=0).
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────────────
+Aider v0.86.1
+Aider v0.86.1
+Model: vertex_ai/gemini-2.0-flash-exp with whole edit format
+Model: vertex_ai/gemini-2.0-flash-exp with whole edit format
+Git repo: .git with 82 files
+Git repo: .git with 82 files
+Repo-map: using 4096 tokens, auto refresh
+Repo-map: using 4096 tokens, auto refresh
+Added .ralph/angle_insider.json to the chat.
+Added .ralph/angle_insider.json to the chat.
+Added .ralph/deep_research.json to the chat.
+Added .ralph/deep_research.json to the chat.
+Added .ralph/outline.json to the chat.
+Added .ralph/outline.json to the chat.
+Added .ralph/research_summary.json to the chat.
+Added .ralph/research_summary.json to the chat.
+Added .ralph/trends.json to the chat.
+Added .ralph/trends.json to the chat.
+Added _posts/2026-01-29-welcome-to-sb60-intel.md to the chat.
+Added _posts/2026-01-29-welcome-to-sb60-intel.md to the chat.
+Added _posts/2026-01-30-01-21-draft-20260130-manual.md to the chat.
+Added _posts/2026-01-30-01-21-draft-20260130-manual.md to the chat.
+Added _posts/2026-01-30-02-00-insider-topic.md to the chat.
+Added _posts/2026-01-30-02-00-insider-topic.md to the chat.
+Added _posts/2026-01-30-02-17-topic.md to the chat.
+Added _posts/2026-01-30-02-17-topic.md to the chat.
+Added _posts/2026-01-30-06-00-mvp-shift.md to the chat.
+Added _posts/2026-01-30-06-00-mvp-shift.md to the chat.
+Added personas.json to the chat.
+Added personas.json to the chat.
+
+
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Quota exceeded for 
+aiplatform.googleapis.com/global_generate_content_requests_per_minute_per_projec
+t_per_base_model with base model: gemini-experimental. Please submit a quota 
+increase request. 
+https://cloud.google.com/vertex-ai/docs/generative-ai/quotas-genai.",\n    
+"status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Quota exceeded for 
+aiplatform.googleapis.com/global_generate_content_requests_per_minute_per_projec
+t_per_base_model with base model: gemini-experimental. Please submit a quota 
+increase request. 
+https://cloud.google.com/vertex-ai/docs/generative-ai/quotas-genai.",\n    
+"status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 0.2 seconds...
+Retrying in 0.2 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Quota exceeded for 
+aiplatform.googleapis.com/global_generate_content_requests_per_minute_per_projec
+t_per_base_model with base model: gemini-experimental. Please submit a quota 
+increase request. 
+https://cloud.google.com/vertex-ai/docs/generative-ai/quotas-genai.",\n    
+"status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Quota exceeded for 
+aiplatform.googleapis.com/global_generate_content_requests_per_minute_per_projec
+t_per_base_model with base model: gemini-experimental. Please submit a quota 
+increase request. 
+https://cloud.google.com/vertex-ai/docs/generative-ai/quotas-genai.",\n    
+"status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 0.5 seconds...
+Retrying in 0.5 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Quota exceeded for 
+aiplatform.googleapis.com/global_generate_content_requests_per_minute_per_projec
+t_per_base_model with base model: gemini-experimental. Please submit a quota 
+increase request. 
+https://cloud.google.com/vertex-ai/docs/generative-ai/quotas-genai.",\n    
+"status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Quota exceeded for 
+aiplatform.googleapis.com/global_generate_content_requests_per_minute_per_projec
+t_per_base_model with base model: gemini-experimental. Please submit a quota 
+increase request. 
+https://cloud.google.com/vertex-ai/docs/generative-ai/quotas-genai.",\n    
+"status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 1.0 seconds...
+Retrying in 1.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Quota exceeded for 
+aiplatform.googleapis.com/global_generate_content_requests_per_minute_per_projec
+t_per_base_model with base model: gemini-experimental. Please submit a quota 
+increase request. 
+https://cloud.google.com/vertex-ai/docs/generative-ai/quotas-genai.",\n    
+"status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Quota exceeded for 
+aiplatform.googleapis.com/global_generate_content_requests_per_minute_per_projec
+t_per_base_model with base model: gemini-experimental. Please submit a quota 
+increase request. 
+https://cloud.google.com/vertex-ai/docs/generative-ai/quotas-genai.",\n    
+"status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 2.0 seconds...
+Retrying in 2.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Quota exceeded for 
+aiplatform.googleapis.com/global_generate_content_requests_per_minute_per_projec
+t_per_base_model with base model: gemini-experimental. Please submit a quota 
+increase request. 
+https://cloud.google.com/vertex-ai/docs/generative-ai/quotas-genai.",\n    
+"status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Quota exceeded for 
+aiplatform.googleapis.com/global_generate_content_requests_per_minute_per_projec
+t_per_base_model with base model: gemini-experimental. Please submit a quota 
+increase request. 
+https://cloud.google.com/vertex-ai/docs/generative-ai/quotas-genai.",\n    
+"status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 4.0 seconds...
+Retrying in 4.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Quota exceeded for 
+aiplatform.googleapis.com/global_generate_content_requests_per_minute_per_projec
+t_per_base_model with base model: gemini-experimental. Please submit a quota 
+increase request. 
+https://cloud.google.com/vertex-ai/docs/generative-ai/quotas-genai.",\n    
+"status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Quota exceeded for 
+aiplatform.googleapis.com/global_generate_content_requests_per_minute_per_projec
+t_per_base_model with base model: gemini-experimental. Please submit a quota 
+increase request. 
+https://cloud.google.com/vertex-ai/docs/generative-ai/quotas-genai.",\n    
+"status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 8.0 seconds...
+Retrying in 8.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Quota exceeded for 
+aiplatform.googleapis.com/global_generate_content_requests_per_minute_per_projec
+t_per_base_model with base model: gemini-experimental. Please submit a quota 
+increase request. 
+https://cloud.google.com/vertex-ai/docs/generative-ai/quotas-genai.",\n    
+"status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Quota exceeded for 
+aiplatform.googleapis.com/global_generate_content_requests_per_minute_per_projec
+t_per_base_model with base model: gemini-experimental. Please submit a quota 
+increase request. 
+https://cloud.google.com/vertex-ai/docs/generative-ai/quotas-genai.",\n    
+"status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 16.0 seconds...
+Retrying in 16.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Quota exceeded for 
+aiplatform.googleapis.com/global_generate_content_requests_per_minute_per_projec
+t_per_base_model with base model: gemini-experimental. Please submit a quota 
+increase request. 
+https://cloud.google.com/vertex-ai/docs/generative-ai/quotas-genai.",\n    
+"status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Quota exceeded for 
+aiplatform.googleapis.com/global_generate_content_requests_per_minute_per_projec
+t_per_base_model with base model: gemini-experimental. Please submit a quota 
+increase request. 
+https://cloud.google.com/vertex-ai/docs/generative-ai/quotas-genai.",\n    
+"status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 32.0 seconds...
+Retrying in 32.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Quota exceeded for 
+aiplatform.googleapis.com/global_generate_content_requests_per_minute_per_projec
+t_per_base_model with base model: gemini-experimental. Please submit a quota 
+increase request. 
+https://cloud.google.com/vertex-ai/docs/generative-ai/quotas-genai.",\n    
+"status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Quota exceeded for 
+aiplatform.googleapis.com/global_generate_content_requests_per_minute_per_projec
+t_per_base_model with base model: gemini-experimental. Please submit a quota 
+increase request. 
+https://cloud.google.com/vertex-ai/docs/generative-ai/quotas-genai.",\n    
+"status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+The API provider has rate limited you. Try again later or check your quotas.
+
+
+https://cloud.google.com/vertex-ai/docs/generative-ai/quotas-genai
+https://cloud.google.com/vertex-ai/docs/generative-ai/quotas-genai
+
+
+State updated: 1 drafts
+State updated: 1 drafts
+
+

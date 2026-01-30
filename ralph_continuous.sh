@@ -2,6 +2,16 @@
 set -euo pipefail
 
 # Ralph Continuous Mode - Viral Edition
+# LOCK FILE: Prevents concurrent execution with other Ralph scripts
+
+LOCK_FILE="/tmp/ralph.lock"
+exec 200>"$LOCK_FILE"
+if ! flock -n 200; then
+    echo "$(date): Another Ralph process is running. Exiting." >&2
+    exit 1
+fi
+# Hold the lock for the entire script duration
+flock -x 200
 # Always-on research, drafting, and publishing engine
 # When drafts hit 5, picks best, humanizes, and publishes immediately
 
@@ -181,6 +191,6 @@ PROMPT
     echo "Iteration complete. Sleeping..." | tee -a "$LOG_FILE"
     echo "" | tee -a "$LOG_FILE"
     
-    # Check every minute
-    sleep 60
+    # Check every 10 minutes (reduced frequency to avoid rate limits)
+    sleep 600
 done
