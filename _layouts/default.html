@@ -23,6 +23,57 @@
       font-size: 1.2rem;
       box-shadow: 0 4px 15px rgba(0,0,0,0.1);
     }
+    
+    /* Countdown styles */
+    .logo-section {
+      display: flex;
+      align-items: center;
+      gap: 1.5rem;
+    }
+    
+    .header-countdown {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      padding: 0.5rem 1rem;
+      background: linear-gradient(135deg, #1a365d, #0a1628);
+      border-radius: 12px;
+      color: white;
+    }
+    
+    .countdown-label {
+      font-size: 0.6875rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      opacity: 0.8;
+      margin-right: 0.5rem;
+    }
+    
+    .countdown-item {
+      text-align: center;
+      min-width: 40px;
+    }
+    
+    .countdown-value {
+      display: block;
+      font-size: 1.25rem;
+      font-weight: 800;
+      line-height: 1;
+      font-variant-numeric: tabular-nums;
+    }
+    
+    .countdown-unit {
+      display: block;
+      font-size: 0.625rem;
+      text-transform: uppercase;
+      opacity: 0.7;
+    }
+    
+    @media (max-width: 768px) {
+      .header-countdown {
+        display: none;
+      }
+    }
   </style>
 </head>
 <body>
@@ -30,10 +81,30 @@
   
   <header class="site-header">
     <div class="header-inner">
-      <a class="logo" href="{{ '/' | relative_url }}">
-        <div class="logo-box" style="margin-right: 0.75rem;">SB</div>
-        <span>{{ site.title }}</span>
-      </a>
+      <div class="logo-section">
+        <a class="logo" href="{{ '/' | relative_url }}">
+          <div class="logo-box" style="margin-right: 0.75rem;">SB</div>
+          <span>{{ site.title }}</span>
+        </a>
+        
+        <!-- Kickoff Countdown in Header -->
+        <div class="header-countdown">
+          <span class="countdown-label">Kickoff</span>
+          <div class="countdown-item">
+            <span class="countdown-value" id="days">--</span>
+            <span class="countdown-unit">Days</span>
+          </div>
+          <div class="countdown-item">
+            <span class="countdown-value" id="hours">--</span>
+            <span class="countdown-unit">Hrs</span>
+          </div>
+          <div class="countdown-item">
+            <span class="countdown-value" id="minutes">--</span>
+            <span class="countdown-unit">Min</span>
+          </div>
+        </div>
+      </div>
+      
       <button class="mobile-nav-toggle" onclick="document.querySelector('.site-nav').classList.toggle('active')">☰</button>
       <nav class="site-nav">
         <a href="{{ '/' | relative_url }}">Home</a>
@@ -61,5 +132,30 @@
       <p class="footer-copy">© 2026 {{ site.title }}. All rights reserved.</p>
     </div>
   </footer>
+  
+  <script>
+    function updateCountdown() {
+      const sb60Date = new Date('2026-02-08T18:30:00-08:00');
+      const now = new Date();
+      const diff = sb60Date - now;
+      
+      if (diff > 0) {
+        const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+        const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+        
+        const daysEl = document.getElementById('days');
+        const hoursEl = document.getElementById('hours');
+        const minutesEl = document.getElementById('minutes');
+        
+        if (daysEl) daysEl.textContent = days;
+        if (hoursEl) hoursEl.textContent = hours.toString().padStart(2, '0');
+        if (minutesEl) minutesEl.textContent = minutes.toString().padStart(2, '0');
+      }
+    }
+    
+    updateCountdown();
+    setInterval(updateCountdown, 60000);
+  </script>
 </body>
 </html>

@@ -176,7 +176,7 @@ permalink: /authors/
         <p class="author-location">📍 {{ persona[1].location }}</p>
         <p class="author-bio">{{ persona[1].bio }}</p>
         <p class="author-full-bio">{{ persona[1].full_bio }}</p>
-        <p class="author-style">Voice: "{{ persona[1].style }}"</p>
+        <p class="author-style"><strong>Writing Style:</strong> {{ persona[1].style }}</p>
         <div class="author-topics">
           {% for topic in persona[1].topics %}
           <span class="topic-pill">{{ topic }}</span>

@@ -2,16 +2,20 @@
 set -euo pipefail
 
 # Ralph Continuous Mode - Viral Edition
-# LOCK FILE: Prevents concurrent execution with other Ralph scripts
+# LOCK FILE: Prevents concurrent execution with other Ralph scripts (macOS compatible)
 
 LOCK_FILE="/tmp/ralph.lock"
-exec 200>"$LOCK_FILE"
-if ! flock -n 200; then
-    echo "$(date): Another Ralph process is running. Exiting." >&2
-    exit 1
+if [ -f "$LOCK_FILE" ]; then
+    LOCK_PID=$(cat "$LOCK_FILE" 2>/dev/null || echo "")
+    if [ -n "$LOCK_PID" ] && ps -p "$LOCK_PID" >/dev/null 2>&1; then
+        echo "$(date): Another Ralph process (PID $LOCK_PID) is running. Exiting." >&2
+        exit 1
+    fi
 fi
-# Hold the lock for the entire script duration
-flock -x 200
+echo $$ > "$LOCK_FILE"
+
+# Cleanup lock on exit
+trap 'rm -f "$LOCK_FILE"' EXIT
 # Always-on research, drafting, and publishing engine
 # When drafts hit 5, picks best, humanizes, and publishes immediately
 

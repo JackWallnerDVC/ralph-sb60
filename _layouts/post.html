@@ -9,7 +9,7 @@ layout: default
     <div class="featured-meta" style="justify-content: center;">
       {% if author %}
         <span class="author-badge">
-          <img src="{{ author.avatar }}" alt="{{ author.name }}" class="author-avatar">
+          <img src="{{ author.avatar | relative_url }}" alt="{{ author.name }}" class="author-avatar">
           <span class="author-name">{{ author.name }}</span>
         </span>
       {% endif %}

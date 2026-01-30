@@ -5,7 +5,7 @@ permalink: /authors/analyst/
 ---
 
 <div style="text-align: center; margin-bottom: 2rem;">
-  <img src="/assets/images/authors/marcus-chen.jpg" alt="Marcus Chen" class="persona-avatar" style="width: 150px; height: 150px; border-radius: 50%; margin-bottom: 1rem; object-fit: cover;">
+  <img src="{{ '/assets/images/authors/marcus-chen.jpg' | relative_url }}" alt="Marcus Chen" class="persona-avatar" style="width: 150px; height: 150px; border-radius: 50%; margin-bottom: 1rem; object-fit: cover;">
   <h1 style="color: var(--navy-primary);">Marcus Chen</h1>
   <p style="color: var(--text-secondary); font-size: 1.125rem; margin-bottom: 0.5rem;">The Analyst</p>
   <p style="color: #718096; font-size: 0.9375rem;">📍 Boston, MA</p>

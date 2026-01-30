@@ -3,7 +3,7 @@
 # Minimum 10 seconds between calls (6 calls/min sustainable)
 
 GATEWAY_FILE="/Users/jackwallner/clawd/ralph-sb60/.ralph/api_gateway.json"
-COOLDOWN_SECONDS=10  # 10 seconds between API calls = 6/min, well under 7/min budget
+COOLDOWN_SECONDS=15  # 15 seconds between API calls = 4/min, conservative for stable model
 
 # Initialize gateway file if missing
 init_gateway() {

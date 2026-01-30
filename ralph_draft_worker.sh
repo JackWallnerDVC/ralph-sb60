@@ -43,7 +43,7 @@ esac
 
 echo "📝 Generating draft $((DRAFT_COUNT + 1))/5 as $PERSONA" | tee -a "$LOG_FILE"
 
-AIDER_CMD="/usr/local/bin/aider --model vertex_ai/gemini-2.0-flash-exp --no-auto-commits --no-show-model-warnings --yes-always --exit"
+AIDER_CMD="/usr/local/bin/aider --model vertex_ai/gemini-2.0-flash-001 --no-auto-commits --no-show-model-warnings --yes-always --exit"
 RESEARCH_FILES=".ralph/research_summary.json .ralph/angle_${PERSONA}.json .ralph/trends.json personas.json"
 for f in $(ls -1 _posts/*.md 2>/dev/null | tail -5); do
     RESEARCH_FILES="$RESEARCH_FILES $f"

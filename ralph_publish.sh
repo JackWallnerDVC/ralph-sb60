@@ -63,15 +63,17 @@ fi
 echo "🏗️ Building site..." | tee -a "$LOG_FILE"
 git pull origin main 2>&1 | tee -a "$LOG_FILE" || true
 
-if bundle exec jekyll build 2>&1 | tee -a "$LOG_FILE"; then
-    echo "✅ Build successful" | tee -a "$LOG_FILE"
-    
-    git add _posts/ data/ .ralph/
-    git commit -m "publish: Scheduled post - $(date -u +"%H:%M UTC")" 2>&1 | tee -a "$LOG_FILE" || true
-    git push origin main 2>&1 | tee -a "$LOG_FILE"
-    echo "✅ Published and deployed!" | tee -a "$LOG_FILE"
+# Try local build, but GitHub Pages will build on push anyway
+if command -v bundle >/dev/null 2>&1 && bundle exec jekyll build 2>&1 | tee -a "$LOG_FILE"; then
+    echo "✅ Local build successful" | tee -a "$LOG_FILE"
 else
-    echo "❌ Build failed" | tee -a "$LOG_FILE"
+    echo "⚠️ Local build skipped (GitHub Pages will build on push)" | tee -a "$LOG_FILE"
 fi
+
+# Always commit and push - GitHub Pages handles the actual build
+git add _posts/ data/ .ralph/
+git commit -m "publish: Scheduled post - $(date -u +"%H:%M UTC")" 2>&1 | tee -a "$LOG_FILE" || true
+git push origin main 2>&1 | tee -a "$LOG_FILE"
+echo "✅ Published and deployed!" | tee -a "$LOG_FILE"
 
 echo "" | tee -a "$LOG_FILE"

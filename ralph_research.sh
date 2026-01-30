@@ -1,15 +1,19 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-# LOCK FILE: Prevents concurrent execution with other Ralph scripts
+# LOCK FILE: Prevents concurrent execution with other Ralph scripts (macOS compatible)
 LOCK_FILE="/tmp/ralph.lock"
-exec 200>"$LOCK_FILE"
-if ! flock -n 200; then
-    echo "$(date): Another Ralph process is running. Exiting." >&2
-    exit 1
+if [ -f "$LOCK_FILE" ]; then
+    LOCK_PID=$(cat "$LOCK_FILE" 2>/dev/null || echo "")
+    if [ -n "$LOCK_PID" ] && ps -p "$LOCK_PID" >/dev/null 2>&1; then
+        echo "$(date): Another Ralph process (PID $LOCK_PID) is running. Exiting." >&2
+        exit 1
+    fi
 fi
-# Hold the lock for the entire script duration
-flock -x 200
+echo $$ > "$LOCK_FILE"
+
+# Cleanup lock on exit
+trap 'rm -f "$LOCK_FILE"' EXIT
 
 # Ensure PATH includes local bin for aider
 export PATH="$HOME/.local/bin:$HOME/.cargo/bin:$PATH:/usr/local/bin:$HOME/.nvm/versions/node/v22.22.0/bin"
@@ -35,7 +39,7 @@ echo "🔍 Fetching raw data..." | tee -a "$LOG_FILE"
 python3 "$SCRIPT_DIR/get_trends.py" --no-ai 2>&1 | tee -a "$LOG_FILE" || true
 python3 "$SCRIPT_DIR/fetch_intel.py" 2>&1 | tee -a "$LOG_FILE" || true
 
-AIDER_CMD="/usr/local/bin/aider --model vertex_ai/gemini-2.0-flash-exp --no-auto-commits --no-show-model-warnings --yes-always --exit"
+AIDER_CMD="/usr/local/bin/aider --model vertex_ai/gemini-2.0-flash-001 --no-auto-commits --no-show-model-warnings --yes-always --exit"
 FILES=".ralph/trends.json .ralph/real_intel.json personas.json"
 for f in $(ls -1 _posts/*.md 2>/dev/null | tail -3); do
     FILES="$FILES $f"

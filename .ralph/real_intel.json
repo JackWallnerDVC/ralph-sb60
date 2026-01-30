@@ -1,6 +1,6 @@
 {
   "intel_count": 6,
-  "last_updated": "2026-01-30T02:50:02.241915",
+  "last_updated": "2026-01-30T16:14:01.492957",
   "items": [
     {
       "source": "Santa Clara City News",
@@ -8,7 +8,7 @@
       "title": "Super Bowl LX Phase II and III Road Closures and Transportation Impacts Starting January 28 - February 13, 2026",
       "summary": "Safety and security associated with Super Bowl LX will require the temporary closure of public infrastructure around Levi\u2019s Stadium.\nJanuary 28 - February 13&nbsp;\nVehicle Detour\nTo support the closure of Tasman Drive between Calle Del Sol and...",
       "url": "https://www.santaclaraca.gov/Home/Components/News/News/45540/",
-      "fetched_at": "2026-01-30T02:50:01.448562"
+      "fetched_at": "2026-01-30T16:14:00.666351"
     },
     {
       "source": "Santa Clara City News",
@@ -16,7 +16,7 @@
       "title": "Bay Area Agencies Unite for Super Bowl LX Emergency Preparedness",
       "summary": "SANTA CLARA, Calif. \u2013 With Super Bowl LX set for Feb. 8, 2026, at Levi\u2019s\u00ae Stadium in Santa Clara, officials from the County of Santa Clara, City of Santa Clara, County of San Mateo, and City and County of San Francisco are joining forces to keep the...",
       "url": "https://www.santaclaraca.gov/Home/Components/News/News/45538/",
-      "fetched_at": "2026-01-30T02:50:01.448592"
+      "fetched_at": "2026-01-30T16:14:00.666376"
     },
     {
       "source": "Santa Clara City News",
@@ -24,15 +24,15 @@
       "title": "News Release: Bay Area Agencies Unite for Super Bowl LX Emergency Preparedness",
       "summary": "FOR IMMEDIATE RELEASE: Tuesday, January 20, 2026\nCONTACTS:\nCity of Santa Clara: Janine De la Vega, City of Santa Clara PIO/Director of Communications, 408-422-6396, jdelavega@santaclaraca.gov\nCounty of Santa Clara: Charles Harris, Senior Public...",
       "url": "https://www.santaclaraca.gov/Home/Components/News/News/45536/",
-      "fetched_at": "2026-01-30T02:50:01.448601"
+      "fetched_at": "2026-01-30T16:14:00.666387"
     },
     {
       "source": "49ers Official News",
       "type": "team",
-      "title": "Morning Report: Best of Quarterbacks, 49ers RedZone Runners \ud83d\uddde\ufe0f",
+      "title": "Morning Report: Top Headlines of Friday\u00a0 \ud83d\uddde\ufe0f",
       "summary": "Catch up on the latest San Francisco 49ers headlines, powered by Cisco.",
       "url": "https://www.49ers.com/news/morning-reports/morning-report-best-of-quarterbacks-49ers-redzone-runners",
-      "fetched_at": "2026-01-30T02:50:02.241793"
+      "fetched_at": "2026-01-30T16:14:01.492700"
     },
     {
       "source": "49ers Official News",
@@ -40,7 +40,7 @@
       "title": "RedZone Runners Spotlight: Stories from the 49ers Run Club",
       "summary": "Members of the San Francisco 49ers share how running has shaped their mindset, built connections across departments, and inspired them to take on races of all distances.",
       "url": "https://www.49ers.com/news/redzone-runners-spotlight-stories-from-the-49ers-run-club",
-      "fetched_at": "2026-01-30T02:50:02.241805"
+      "fetched_at": "2026-01-30T16:14:01.492718"
     },
     {
       "source": "49ers Official News",
@@ -48,7 +48,7 @@
       "title": "Klay Kubiak\u00a0planea quedarse: Continuidad que tambi\u00e9n se construye desde la adversidad",
       "summary": "Miguel Pasquel nos cuenta en su columna de esta semana, la importancia de la permanencia de Klay Kubiak como Coordinador Ofensivo de los San Francisco 49ers.",
       "url": "https://www.49ers.com/news/klay-kubiak-planea-quedarse-continuidad-que-tambien-se-construye-desde-la-adversidad",
-      "fetched_at": "2026-01-30T02:50:02.241810"
+      "fetched_at": "2026-01-30T16:14:01.492727"
     }
   ]
 }

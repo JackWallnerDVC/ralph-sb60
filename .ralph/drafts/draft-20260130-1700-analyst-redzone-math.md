@@ -1,0 +1,32 @@
+---
+layout: post
+title: "The Red Zone Math That Decides Championships"
+author: "Maya Chen"
+date: PLACEHOLDER
+tags: [analyst, red zone, statistics, efficiency]
+excerpt: "The 49ers score touchdowns on 68% of red zone trips. Their opponents? Just 52%. Here's why that 16-point gap is the real SB60 story."
+persona: analyst
+status: draft
+---
+
+Red zone efficiency isn't sexy. It doesn't make highlight reels. But it wins championships.
+
+## The Numbers
+
+San Francisco's offense converts 68% of red zone appearances into touchdowns. League average hovers around 59%. Their Super Bowl opponent sits at 62%.
+
+That 6-10 percentage point advantage doesn't sound dramatic until you realize the average team visits the red zone 3.2 times per game. Over a full game, that's a full possession worth of points.
+
+## Why It Matters for SB60
+
+Levi's Stadium has a shallow end zone. The north end zone measures just 8 yards deep (standard is 10). Kickers hate it. Offensive coordinators love it.
+
+Shorter fields compress the playbook. Vertical routes get squeezed. Play-action becomes harder to sell because safeties creep closer. The team that can run power formations effectively gains an edge.
+
+## The Prop Bet Angle
+
+Look at "team to score first" markets. Teams with superior red zone efficiency tend to score early more often—they capitalize on opening drives when scripts are tightest.
+
+Also watch "total field goals under." Compressed end zones mean more goal-to-go situations and fewer long attempts.
+
+The red zone doesn't get the glory. It gets the wins.
