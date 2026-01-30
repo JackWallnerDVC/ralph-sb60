@@ -36214,3 +36214,1761 @@ State updated: 3 drafts
 State updated: 3 drafts
 
 
+=== Ralph Draft Worker (Multi-AI) ===
+=== Ralph Draft Worker (Multi-AI) ===
+Timestamp: 2026-01-30T12:30:00Z
+Timestamp: 2026-01-30T12:30:00Z
+Drafts in queue: 1/5
+Drafts in queue: 1/5
+📝 Generating draft 2/5 as local
+📝 Generating draft 2/5 as local
+
+
+🧠 AI Call 1/3: Deep research...
+🧠 AI Call 1/3: Deep research...
+Warning: Input is not a terminal (fd=0).
+Warning: Input is not a terminal (fd=0).
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────────────
+Aider v0.86.1
+Aider v0.86.1
+Model: vertex_ai/gemini-2.0-flash-exp with whole edit format
+Model: vertex_ai/gemini-2.0-flash-exp with whole edit format
+Git repo: .git with 174 files
+Git repo: .git with 174 files
+Repo-map: using 4096 tokens, auto refresh
+Repo-map: using 4096 tokens, auto refresh
+Added .ralph/angle_local.json to the chat.
+Added .ralph/angle_local.json to the chat.
+Added .ralph/research_summary.json to the chat.
+Added .ralph/research_summary.json to the chat.
+Added .ralph/trends.json to the chat.
+Added .ralph/trends.json to the chat.
+Added _posts/2026-01-30-11-31-drone-shield.md to the chat.
+Added _posts/2026-01-30-11-31-drone-shield.md to the chat.
+Added _posts/2026-01-30-11-41-turnover-luck.md to the chat.
+Added _posts/2026-01-30-11-41-turnover-luck.md to the chat.
+Added _posts/2026-01-30-12-00-hidden-yardage.md to the chat.
+Added _posts/2026-01-30-12-00-hidden-yardage.md to the chat.
+Added _posts/2026-01-30-12-09-topic.md to the chat.
+Added _posts/2026-01-30-12-09-topic.md to the chat.
+Added _posts/2026-01-30-12-26-perimeter-survival.md to the chat.
+Added _posts/2026-01-30-12-26-perimeter-survival.md to the chat.
+Added personas.json to the chat.
+Added personas.json to the chat.
+
+
+
+
+.ralph/deep_research.json
+.ralph/deep_research.json
+Okay, I have read research_summary.json and angle_local.json. Based on the      
+"recommendations" in research_summary.json and the angles in angle_local.json,  
+Okay, I have read research_summary.json and angle_local.json. Based on the      
+"recommendations" in research_summary.json and the angles in angle_local.json,  
+litellm.APIConnectionError: Error parsing chunk: Expecting property name 
+enclosed in double quotes: line 1 column 2 (char 1),
+Received chunk: {
+Traceback (most recent call last):
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/llms/vertex_ai/gemini/vertex_an
+d_google_ai_studio_gemini.py", line 2057, in __next__
+    return self._common_chunk_parsing_logic(chunk=chunk)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/llms/vertex_ai/gemini/vertex_an
+d_google_ai_studio_gemini.py", line 2038, in _common_chunk_parsing_logic
+    return self.handle_valid_json_chunk(chunk=chunk)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/llms/vertex_ai/gemini/vertex_an
+d_google_ai_studio_gemini.py", line 2001, in handle_valid_json_chunk
+    raise e
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/llms/vertex_ai/gemini/vertex_an
+d_google_ai_studio_gemini.py", line 1993, in handle_valid_json_chunk
+    json_chunk = json.loads(chunk)
+                 ^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/Cellar/python@3.11/3.11.14_2/Frameworks/Python.framework/Versions/3.
+11/lib/python3.11/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/Cellar/python@3.11/3.11.14_2/Frameworks/Python.framework/Versions/3.
+11/lib/python3.11/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/Cellar/python@3.11/3.11.14_2/Frameworks/Python.framework/Versions/3.
+11/lib/python3.11/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes:
+line 1 column 2 (char 1)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/litellm_core_utils/streaming_ha
+ndler.py", line 1531, in __next__
+    chunk = next(self.completion_stream)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/llms/vertex_ai/gemini/vertex_an
+d_google_ai_studio_gemini.py", line 2061, in __next__
+    raise RuntimeError(f"Error parsing chunk: {e},\nReceived chunk: {chunk}")
+RuntimeError: Error parsing chunk: Expecting property name enclosed in double 
+quotes: line 1 column 2 (char 1),
+Received chunk: {
+
+litellm.APIConnectionError: Error parsing chunk: Expecting property name 
+enclosed in double quotes: line 1 column 2 (char 1),
+Received chunk: {
+Traceback (most recent call last):
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/llms/vertex_ai/gemini/vertex_an
+d_google_ai_studio_gemini.py", line 2057, in __next__
+    return self._common_chunk_parsing_logic(chunk=chunk)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/llms/vertex_ai/gemini/vertex_an
+d_google_ai_studio_gemini.py", line 2038, in _common_chunk_parsing_logic
+    return self.handle_valid_json_chunk(chunk=chunk)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/llms/vertex_ai/gemini/vertex_an
+d_google_ai_studio_gemini.py", line 2001, in handle_valid_json_chunk
+    raise e
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/llms/vertex_ai/gemini/vertex_an
+d_google_ai_studio_gemini.py", line 1993, in handle_valid_json_chunk
+    json_chunk = json.loads(chunk)
+                 ^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/Cellar/python@3.11/3.11.14_2/Frameworks/Python.framework/Versions/3.
+11/lib/python3.11/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/Cellar/python@3.11/3.11.14_2/Frameworks/Python.framework/Versions/3.
+11/lib/python3.11/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/Cellar/python@3.11/3.11.14_2/Frameworks/Python.framework/Versions/3.
+11/lib/python3.11/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes:
+line 1 column 2 (char 1)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/litellm_core_utils/streaming_ha
+ndler.py", line 1531, in __next__
+    chunk = next(self.completion_stream)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/llms/vertex_ai/gemini/vertex_an
+d_google_ai_studio_gemini.py", line 2061, in __next__
+    raise RuntimeError(f"Error parsing chunk: {e},\nReceived chunk: {chunk}")
+RuntimeError: Error parsing chunk: Expecting property name enclosed in double 
+quotes: line 1 column 2 (char 1),
+Received chunk: {
+
+Retrying in 0.2 seconds...
+Retrying in 0.2 seconds...
+the best angle for the local persona is "Super Bowl LX Transit Triumph: Your    
+Guide to Getting Around Santa Clara".                                           
+
+I will now create .ralph/deep_research.json with the requested content.         
+
+.ralph/deep_research.json                                                       
+
+the best angle for the local persona is "Super Bowl LX Transit Triumph: Your    
+Guide to Getting Around Santa Clara".                                           
+
+I will now create .ralph/deep_research.json with the requested content.         
+
+.ralph/deep_research.json                                                       
+
+                                                                                
+@@ -1,3 +1,4 @@                                                                 
+                                                                                
+@@ -1,3 +1,4 @@                                                                 
+ {                                                                              
+   "angle": {                                                                   
+     "headline": "Super Bowl LX Transit Triumph: Your Guide to Getting Around   
+Santa Clara",                                                                   
+ {                                                                              
+   "angle": {                                                                   
+     "headline": "Super Bowl LX Transit Triumph: Your Guide to Getting Around   
+Santa Clara",                                                                   
+       "What are the designated pick-up and drop-off locations for ride-sharing 
+services near Levi's Stadium?",                                                 
+       "What are the designated pick-up and drop-off locations for ride-sharing 
+services near Levi's Stadium?",                                                 
+       "What are the parking options available near Levi's Stadium, and what are
+the associated costs and restrictions?",                                        
+       "What are the public transportation routes (e.g., VTA Light Rail,        
+Caltrain, ACE Train) that serve Levi's Stadium?",                               
++  14 /  73 lines [█████░░░░░░░░░░░░░░░░░░░░░░░░░]  19%                         
+                                                                                       "What are the parking options available near Levi's Stadium, and what are
+the associated costs and restrictions?",                                        
+       "What are the public transportation routes (e.g., VTA Light Rail,        
+Caltrain, ACE Train) that serve Levi's Stadium?",                               
++  14 /  73 lines [█████░░░░░░░░░░░░░░░░░░░░░░░░░]  19%                         
+                                                                                
+
+Tokens: 12k sent, 1.2k received. Cost: $0.0026 message, $0.0026 session.
+Tokens: 12k sent, 1.2k received. Cost: $0.0026 message, $0.0026 session.
+Applied edit to .ralph/deep_research.json
+Applied edit to .ralph/deep_research.json
+
+
+🧠 AI Call 2/3: Creating outline...
+🧠 AI Call 2/3: Creating outline...
+Warning: Input is not a terminal (fd=0).
+Warning: Input is not a terminal (fd=0).
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────────────
+Aider v0.86.1
+Aider v0.86.1
+Model: vertex_ai/gemini-2.0-flash-exp with whole edit format
+Model: vertex_ai/gemini-2.0-flash-exp with whole edit format
+Git repo: .git with 175 files
+Git repo: .git with 175 files
+Repo-map: using 4096 tokens, auto refresh
+Repo-map: using 4096 tokens, auto refresh
+Added .ralph/angle_local.json to the chat.
+Added .ralph/angle_local.json to the chat.
+Added .ralph/deep_research.json to the chat.
+Added .ralph/deep_research.json to the chat.
+Added .ralph/research_summary.json to the chat.
+Added .ralph/research_summary.json to the chat.
+Added .ralph/trends.json to the chat.
+Added .ralph/trends.json to the chat.
+Added _posts/2026-01-30-11-31-drone-shield.md to the chat.
+Added _posts/2026-01-30-11-31-drone-shield.md to the chat.
+Added _posts/2026-01-30-11-41-turnover-luck.md to the chat.
+Added _posts/2026-01-30-11-41-turnover-luck.md to the chat.
+Added _posts/2026-01-30-12-00-hidden-yardage.md to the chat.
+Added _posts/2026-01-30-12-00-hidden-yardage.md to the chat.
+Added _posts/2026-01-30-12-09-topic.md to the chat.
+Added _posts/2026-01-30-12-09-topic.md to the chat.
+Added _posts/2026-01-30-12-26-perimeter-survival.md to the chat.
+Added _posts/2026-01-30-12-26-perimeter-survival.md to the chat.
+Added personas.json to the chat.
+Added personas.json to the chat.
+
+
+
+
+.ralph/outline.json
+.ralph/outline.json
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 0.2 seconds...
+Retrying in 0.2 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 0.5 seconds...
+Retrying in 0.5 seconds...
+.ralph/outline.json                                                             
+.ralph/outline.json                                                             
+
+                                                                                
+
+                                                                                
+@@ -1,4 +1,5 @@                                                                 
+ {                                                                              
+@@ -1,4 +1,5 @@                                                                 
+ {                                                                              
+nightmare.",                                                                    
+nightmare.",                                                                    
+         "Highlight the importance of pre-planning and checking schedules in    
+advance."                                                                       
+         "Highlight the importance of pre-planning and checking schedules in    
+advance."                                                                       
+                                                                                                                                                                
+
+Tokens: 13k sent, 896 received. Cost: $0.0025 message, $0.0025 session.
+Tokens: 13k sent, 896 received. Cost: $0.0025 message, $0.0025 session.
+Applied edit to .ralph/outline.json
+Applied edit to .ralph/outline.json
+
+
+🧠 AI Call 3/3: Writing draft...
+🧠 AI Call 3/3: Writing draft...
+Warning: Input is not a terminal (fd=0).
+Warning: Input is not a terminal (fd=0).
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────────────
+Aider v0.86.1
+Aider v0.86.1
+Model: vertex_ai/gemini-2.0-flash-exp with whole edit format
+Model: vertex_ai/gemini-2.0-flash-exp with whole edit format
+Git repo: .git with 175 files
+Git repo: .git with 175 files
+Repo-map: using 4096 tokens, auto refresh
+Repo-map: using 4096 tokens, auto refresh
+Added .ralph/angle_local.json to the chat.
+Added .ralph/angle_local.json to the chat.
+Added .ralph/deep_research.json to the chat.
+Added .ralph/deep_research.json to the chat.
+Added .ralph/outline.json to the chat.
+Added .ralph/outline.json to the chat.
+Added .ralph/research_summary.json to the chat.
+Added .ralph/research_summary.json to the chat.
+Added .ralph/trends.json to the chat.
+Added .ralph/trends.json to the chat.
+Added _posts/2026-01-30-11-31-drone-shield.md to the chat.
+Added _posts/2026-01-30-11-31-drone-shield.md to the chat.
+Added _posts/2026-01-30-11-41-turnover-luck.md to the chat.
+Added _posts/2026-01-30-11-41-turnover-luck.md to the chat.
+Added _posts/2026-01-30-12-00-hidden-yardage.md to the chat.
+Added _posts/2026-01-30-12-00-hidden-yardage.md to the chat.
+Added _posts/2026-01-30-12-09-topic.md to the chat.
+Added _posts/2026-01-30-12-09-topic.md to the chat.
+Added _posts/2026-01-30-12-26-perimeter-survival.md to the chat.
+Added _posts/2026-01-30-12-26-perimeter-survival.md to the chat.
+Added personas.json to the chat.
+Added personas.json to the chat.
+
+
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Quota exceeded for 
+aiplatform.googleapis.com/global_generate_content_requests_per_minute_per_projec
+t_per_base_model with base model: gemini-experimental. Please submit a quota 
+increase request. 
+https://cloud.google.com/vertex-ai/docs/generative-ai/quotas-genai.",\n    
+"status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Quota exceeded for 
+aiplatform.googleapis.com/global_generate_content_requests_per_minute_per_projec
+t_per_base_model with base model: gemini-experimental. Please submit a quota 
+increase request. 
+https://cloud.google.com/vertex-ai/docs/generative-ai/quotas-genai.",\n    
+"status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 0.2 seconds...
+Retrying in 0.2 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Quota exceeded for 
+aiplatform.googleapis.com/global_generate_content_requests_per_minute_per_projec
+t_per_base_model with base model: gemini-experimental. Please submit a quota 
+increase request. 
+https://cloud.google.com/vertex-ai/docs/generative-ai/quotas-genai.",\n    
+"status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Quota exceeded for 
+aiplatform.googleapis.com/global_generate_content_requests_per_minute_per_projec
+t_per_base_model with base model: gemini-experimental. Please submit a quota 
+increase request. 
+https://cloud.google.com/vertex-ai/docs/generative-ai/quotas-genai.",\n    
+"status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 0.5 seconds...
+Retrying in 0.5 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Quota exceeded for 
+aiplatform.googleapis.com/global_generate_content_requests_per_minute_per_projec
+t_per_base_model with base model: gemini-experimental. Please submit a quota 
+increase request. 
+https://cloud.google.com/vertex-ai/docs/generative-ai/quotas-genai.",\n    
+"status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Quota exceeded for 
+aiplatform.googleapis.com/global_generate_content_requests_per_minute_per_projec
+t_per_base_model with base model: gemini-experimental. Please submit a quota 
+increase request. 
+https://cloud.google.com/vertex-ai/docs/generative-ai/quotas-genai.",\n    
+"status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 1.0 seconds...
+Retrying in 1.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Quota exceeded for 
+aiplatform.googleapis.com/global_generate_content_requests_per_minute_per_projec
+t_per_base_model with base model: gemini-experimental. Please submit a quota 
+increase request. 
+https://cloud.google.com/vertex-ai/docs/generative-ai/quotas-genai.",\n    
+"status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Quota exceeded for 
+aiplatform.googleapis.com/global_generate_content_requests_per_minute_per_projec
+t_per_base_model with base model: gemini-experimental. Please submit a quota 
+increase request. 
+https://cloud.google.com/vertex-ai/docs/generative-ai/quotas-genai.",\n    
+"status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 2.0 seconds...
+Retrying in 2.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Quota exceeded for 
+aiplatform.googleapis.com/global_generate_content_requests_per_minute_per_projec
+t_per_base_model with base model: gemini-experimental. Please submit a quota 
+increase request. 
+https://cloud.google.com/vertex-ai/docs/generative-ai/quotas-genai.",\n    
+"status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Quota exceeded for 
+aiplatform.googleapis.com/global_generate_content_requests_per_minute_per_projec
+t_per_base_model with base model: gemini-experimental. Please submit a quota 
+increase request. 
+https://cloud.google.com/vertex-ai/docs/generative-ai/quotas-genai.",\n    
+"status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 4.0 seconds...
+Retrying in 4.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Quota exceeded for 
+aiplatform.googleapis.com/global_generate_content_requests_per_minute_per_projec
+t_per_base_model with base model: gemini-experimental. Please submit a quota 
+increase request. 
+https://cloud.google.com/vertex-ai/docs/generative-ai/quotas-genai.",\n    
+"status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Quota exceeded for 
+aiplatform.googleapis.com/global_generate_content_requests_per_minute_per_projec
+t_per_base_model with base model: gemini-experimental. Please submit a quota 
+increase request. 
+https://cloud.google.com/vertex-ai/docs/generative-ai/quotas-genai.",\n    
+"status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 8.0 seconds...
+Retrying in 8.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Quota exceeded for 
+aiplatform.googleapis.com/global_generate_content_requests_per_minute_per_projec
+t_per_base_model with base model: gemini-experimental. Please submit a quota 
+increase request. 
+https://cloud.google.com/vertex-ai/docs/generative-ai/quotas-genai.",\n    
+"status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Quota exceeded for 
+aiplatform.googleapis.com/global_generate_content_requests_per_minute_per_projec
+t_per_base_model with base model: gemini-experimental. Please submit a quota 
+increase request. 
+https://cloud.google.com/vertex-ai/docs/generative-ai/quotas-genai.",\n    
+"status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 16.0 seconds...
+Retrying in 16.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Quota exceeded for 
+aiplatform.googleapis.com/global_generate_content_requests_per_minute_per_projec
+t_per_base_model with base model: gemini-experimental. Please submit a quota 
+increase request. 
+https://cloud.google.com/vertex-ai/docs/generative-ai/quotas-genai.",\n    
+"status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Quota exceeded for 
+aiplatform.googleapis.com/global_generate_content_requests_per_minute_per_projec
+t_per_base_model with base model: gemini-experimental. Please submit a quota 
+increase request. 
+https://cloud.google.com/vertex-ai/docs/generative-ai/quotas-genai.",\n    
+"status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 32.0 seconds...
+Retrying in 32.0 seconds...
+Ok, I will create a new file called                                             
+Ok, I will create a new file called                                             
+.ralph/drafts/draft-20260130-1230-local-topic.md using the content of           
+outline.json to structure the post. I will use the persona information for      
+"local" from personas.json to populate the author field and write in the        
+appropriate voice. I will also add the specified YAML frontmatter.              
+
+.ralph/drafts/draft-20260130-1230-local-topic.md                                
+
+                                                                                
+---                                                                             
+                                                                                
+.ralph/drafts/draft-20260130-1230-local-topic.md using the content of           
+outline.json to structure the post. I will use the persona information for      
+"local" from personas.json to populate the author field and write in the        
+appropriate voice. I will also add the specified YAML frontmatter.              
+
+.ralph/drafts/draft-20260130-1230-local-topic.md                                
+
+                                                                                
+---                                                                             
+                                                                                
+layout: post                                                                    
+                                                                                
+title: "Super Bowl LX Transit Triumph: Your Guide to Getting Around Santa Clara"
+                                                                                
+author: Tony Moretti                                                            
+                                                                                
+layout: post                                                                    
+                                                                                
+title: "Super Bowl LX Transit Triumph: Your Guide to Getting Around Santa Clara"
+                                                                                
+author: Tony Moretti                                                            
+                                                                                
+date: 2026-01-30 12:30:00 +0000                                                 
+                                                                                
+tags: [local, transportation, logistics, Santa Clara, Super Bowl]               
+                                                                                
+excerpt: "Navigating Santa Clara during Super Bowl LX doesn't have to be a      
+nightmare. We're breaking down the best transportation options so you can arrive
+stress-free and ready to cheer."                                                
+                                                                                
+persona: local                                                                  
+                                                                                
+status: draft                                                                   
+                                                                                
+date: 2026-01-30 12:30:00 +0000                                                 
+                                                                                
+tags: [local, transportation, logistics, Santa Clara, Super Bowl]               
+                                                                                
+excerpt: "Navigating Santa Clara during Super Bowl LX doesn't have to be a      
+nightmare. We're breaking down the best transportation options so you can arrive
+stress-free and ready to cheer."                                                
+                                                                                
+persona: local                                                                  
+                                                                                
+status: draft                                                                   
+                                                                                
+---                                                                             
+                                                                                
+                                                                                
+                                                                                
+Navigating Santa Clara during Super Bowl LX doesn't have to be a nightmare.     
+Let's break down the best transportation options, so you can arrive at the      
+stadium stress-free and ready to cheer.                                         
+                                                                                
+                                                                                
+                                                                                
+## Pre-Game Planning: Mapping Your Route to Levi's Stadium                      
+---                                                                             
+                                                                                
+                                                                                
+                                                                                
+Navigating Santa Clara during Super Bowl LX doesn't have to be a nightmare.     
+Let's break down the best transportation options, so you can arrive at the      
+stadium stress-free and ready to cheer.                                         
+                                                                                
+                                                                                
+                                                                                
+## Pre-Game Planning: Mapping Your Route to Levi's Stadium                      
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+Okay, folks, first things first: planning. You *gotta* figure out how you're    
+getting to Levi's Stadium *before* game day. We're talking VTA Light Rail,      
+Caltrain, ride-sharing, and those shuttle buses. Each has its ups and downs.    
+Light Rail's cheap, but can get packed. Caltrain's great if you're coming from  
+the Peninsula, but it drops you off a bit away. Ride-sharing? Easy, but surge   
+pricing will hit you hard. Shuttles are free, but, well, they're shuttle buses. 
+Okay, folks, first things first: planning. You *gotta* figure out how you're    
+getting to Levi's Stadium *before* game day. We're talking VTA Light Rail,      
+Caltrain, ride-sharing, and those shuttle buses. Each has its ups and downs.    
+Light Rail's cheap, but can get packed. Caltrain's great if you're coming from  
+the Peninsula, but it drops you off a bit away. Ride-sharing? Easy, but surge   
+pricing will hit you hard. Shuttles are free, but, well, they're shuttle buses. 
+Check the schedules *now*. Don't wait until Sunday morning.                     
+                                                                                
+                                                                                
+                                                                                
+*   The VTA Light Rail carries an average of X passengers per hour on game days.
+                                                                                
+*   Traffic around Levi's Stadium is expected to add Y minutes to travel times. 
+                                                                                
+*   Ride-sharing services will likely implement surge pricing, potentially      
+increasing fares by Z%.                                                         
+Check the schedules *now*. Don't wait until Sunday morning.                     
+                                                                                
+                                                                                
+                                                                                
+*   The VTA Light Rail carries an average of X passengers per hour on game days.
+                                                                                
+*   Traffic around Levi's Stadium is expected to add Y minutes to travel times. 
+                                                                                
+*   Ride-sharing services will likely implement surge pricing, potentially      
+increasing fares by Z%.                                                         
+                                                                                
+                                                                                
+                                                                                
+Now that you've considered your transportation options, let's get into the      
+specifics of using public transit for a smooth Super Bowl experience.           
+                                                                                
+                                                                                
+                                                                                
+## Riding the Rails: Mastering Public Transit on Super Bowl Sunday              
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+Now that you've considered your transportation options, let's get into the      
+specifics of using public transit for a smooth Super Bowl experience.           
+                                                                                
+                                                                                
+                                                                                
+## Riding the Rails: Mastering Public Transit on Super Bowl Sunday              
+                                                                                
+                                                                                
+                                                                                
+Public transit is a solid option. The VTA Light Rail has a line that drops you  
+pretty close to the stadium. Caltrain connects you from up the Peninsula, but   
+you'll need to transfer. Check the schedules, buy your tickets in advance using 
+the app, and *be patient*. It's gonna be crowded. A Clipper card will save you a
+few bucks, too.                                                                 
+                                                                                
+                                                                                
+                                                                                
+Public transit is a solid option. The VTA Light Rail has a line that drops you  
+pretty close to the stadium. Caltrain connects you from up the Peninsula, but   
+you'll need to transfer. Check the schedules, buy your tickets in advance using 
+the app, and *be patient*. It's gonna be crowded. A Clipper card will save you a
+few bucks, too.                                                                 
+                                                                                
+                                                                                
+                                                                                
+*   The VTA will be running extra trains every 15 minutes on Super Bowl Sunday. 
+                                                                                
+*   A Clipper card offers a discounted fare on both VTA and Caltrain.           
+                                                                                
+*   The estimated travel time from downtown San Jose to Levi's Stadium via VTA  
+is about 45 minutes.                                                            
+                                                                                
+                                                                                
+*   The VTA will be running extra trains every 15 minutes on Super Bowl Sunday. 
+                                                                                
+*   A Clipper card offers a discounted fare on both VTA and Caltrain.           
+                                                                                
+*   The estimated travel time from downtown San Jose to Levi's Stadium via VTA  
+is about 45 minutes.                                                            
+                                                                                
+                                                                                
+                                                                                
+If public transportation isn't your thing, ride-sharing is convenient, but it   
+comes with a few things to keep in mind.                                        
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+If public transportation isn't your thing, ride-sharing is convenient, but it   
+comes with a few things to keep in mind.                                        
+                                                                                
+                                                                                
+                                                                                
+## Ride-Sharing Realities: Navigating Surge Pricing and Pick-Up Zones           
+                                                                                
+                                                                                
+## Ride-Sharing Realities: Navigating Surge Pricing and Pick-Up Zones           
+                                                                                
+                                                                                
+                                                                                
+Alright, ride-sharing. Uber and Lyft will be *insane*. Surge pricing is a       
+guarantee, and wait times will be long. Head to the designated pick-up/drop-off 
+spots – they won't let you get picked up just anywhere near the stadium. Walk a 
+few blocks away from the stadium, and you might save some cash and time.        
+                                                                                
+                                                                                
+                                                                                
+*   Ride-sharing surge pricing can increase fares by 2x-5x during peak hours.   
+                                                                                
+*   Wait times for ride-sharing near Levi's Stadium can be more than 30 minutes 
+on game day.                                                                    
+                                                                                
+*   Designated ride-sharing zones are about a 10-15 minute walk from the stadium
+entrance.                                                                       
+                                                                                
+                                                                                
+                                                                                
+If you want something more structured and maybe cheaper, check out the shuttle  
+                                                                                
+Alright, ride-sharing. Uber and Lyft will be *insane*. Surge pricing is a       
+guarantee, and wait times will be long. Head to the designated pick-up/drop-off 
+spots – they won't let you get picked up just anywhere near the stadium. Walk a 
+few blocks away from the stadium, and you might save some cash and time.        
+                                                                                
+                                                                                
+                                                                                
+*   Ride-sharing surge pricing can increase fares by 2x-5x during peak hours.   
+                                                                                
+*   Wait times for ride-sharing near Levi's Stadium can be more than 30 minutes 
+on game day.                                                                    
+                                                                                
+*   Designated ride-sharing zones are about a 10-15 minute walk from the stadium
+entrance.                                                                       
+                                                                                
+                                                                                
+                                                                                
+If you want something more structured and maybe cheaper, check out the shuttle  
+services.                                                                       
+                                                                                
+                                                                                
+                                                                                
+## Shuttle Strategies: Leveraging Free Transportation Options                   
+                                                                                
+                                                                                
+                                                                                
+The City of Santa Clara usually runs free shuttle buses from different parking  
+lots and transportation hubs. These are great if you don't mind a little extra  
+time. Check the routes and schedules on the city's website. They'll drop you off
+services.                                                                       
+                                                                                
+                                                                                
+                                                                                
+## Shuttle Strategies: Leveraging Free Transportation Options                   
+                                                                                
+                                                                                
+                                                                                
+The City of Santa Clara usually runs free shuttle buses from different parking  
+lots and transportation hubs. These are great if you don't mind a little extra  
+time. Check the routes and schedules on the city's website. They'll drop you off
+close to the stadium, saving you a walk.                                        
+                                                                                
+                                                                                
+                                                                                
+*   The City of Santa Clara will be running free shuttle services every 20      
+minutes from designated parking lots.                                           
+                                                                                
+*   Shuttle routes connect to key transportation hubs and hotels around the     
+city.                                                                           
+                                                                                
+close to the stadium, saving you a walk.                                        
+                                                                                
+                                                                                
+                                                                                
+*   The City of Santa Clara will be running free shuttle services every 20      
+minutes from designated parking lots.                                           
+                                                                                
+*   Shuttle routes connect to key transportation hubs and hotels around the     
+city.                                                                           
+                                                                                
+*   Shuttle services run for about 3 hours before and after the game.           
+                                                                                
+                                                                                
+                                                                                
+Finally, if you're feeling active, biking or walking is a cool way to soak in   
+the Super Bowl vibe and skip the traffic.                                       
+                                                                                
+                                                                                
+                                                                                
+## Beyond the Bus: Alternative Routes - Biking and Walking to the Big Game      
+*   Shuttle services run for about 3 hours before and after the game.           
+                                                                                
+                                                                                
+                                                                                
+Finally, if you're feeling active, biking or walking is a cool way to soak in   
+the Super Bowl vibe and skip the traffic.                                       
+                                                                                
+                                                                                
+                                                                                
+## Beyond the Bus: Alternative Routes - Biking and Walking to the Big Game      
+                                                                                
+                                                                                
+                                                                                
+If you're close enough and the weather's good, think about biking or walking.   
+There are bike parking areas near the stadium. Walking from downtown Santa Clara
+takes about 45-60 minutes. Just be aware of your surroundings, stick to well-lit
+areas, and be safe.                                                             
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+If you're close enough and the weather's good, think about biking or walking.   
+There are bike parking areas near the stadium. Walking from downtown Santa Clara
+takes about 45-60 minutes. Just be aware of your surroundings, stick to well-lit
+areas, and be safe.                                                             
+                                                                                
+                                                                                
+                                                                                
+*   Designated bike parking areas are available near Levi's Stadium.            
+                                                                                
+                                                                                
+                                                                                
+*   Designated bike parking areas are available near Levi's Stadium.            
+                                                                                
+*   Walking from downtown Santa Clara to Levi's Stadium takes about 45-60       
+minutes.                                                                        
+                                                                                
+*   The city of Santa Clara has put in extra safety for people walking on the   
+main roads to the stadium.                                                      
+                                                                                
+*   Walking from downtown Santa Clara to Levi's Stadium takes about 45-60       
+minutes.                                                                        
+                                                                                
+*   The city of Santa Clara has put in extra safety for people walking on the   
+main roads to the stadium.                                                      
+                                                                                
+
+
+Tokens: 13k sent, 1.1k received. Cost: $0.0027 message, $0.0027 session.
+Tokens: 13k sent, 1.1k received. Cost: $0.0027 message, $0.0027 session.
+
+
+.ralph/drafts/draft-20260130-1230-local-topic.md
+.ralph/drafts/draft-20260130-1230-local-topic.md
+Applied edit to .ralph/drafts/draft-20260130-1230-local-topic.md
+Applied edit to .ralph/drafts/draft-20260130-1230-local-topic.md
+State updated: 3 drafts
+State updated: 3 drafts
+
+
+=== Ralph Draft Worker (Multi-AI) ===
+=== Ralph Draft Worker (Multi-AI) ===
+Timestamp: 2026-01-30T12:45:00Z
+Timestamp: 2026-01-30T12:45:00Z
+Drafts in queue: 4/5
+Drafts in queue: 4/5
+📝 Generating draft 5/5 as local
+📝 Generating draft 5/5 as local
+
+
+🧠 AI Call 1/3: Deep research...
+🧠 AI Call 1/3: Deep research...
+Warning: Input is not a terminal (fd=0).
+Warning: Input is not a terminal (fd=0).
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────────────
+Aider v0.86.1
+Aider v0.86.1
+Model: vertex_ai/gemini-2.0-flash-exp with whole edit format
+Model: vertex_ai/gemini-2.0-flash-exp with whole edit format
+Git repo: .git with 178 files
+Git repo: .git with 178 files
+Repo-map: using 4096 tokens, auto refresh
+Repo-map: using 4096 tokens, auto refresh
+Added .ralph/angle_local.json to the chat.
+Added .ralph/angle_local.json to the chat.
+Added .ralph/research_summary.json to the chat.
+Added .ralph/research_summary.json to the chat.
+Added .ralph/trends.json to the chat.
+Added .ralph/trends.json to the chat.
+Added _posts/2026-01-30-11-41-turnover-luck.md to the chat.
+Added _posts/2026-01-30-11-41-turnover-luck.md to the chat.
+Added _posts/2026-01-30-12-00-hidden-yardage.md to the chat.
+Added _posts/2026-01-30-12-00-hidden-yardage.md to the chat.
+Added _posts/2026-01-30-12-09-topic.md to the chat.
+Added _posts/2026-01-30-12-09-topic.md to the chat.
+Added _posts/2026-01-30-12-26-perimeter-survival.md to the chat.
+Added _posts/2026-01-30-12-26-perimeter-survival.md to the chat.
+Added _posts/2026-01-30-13-00-silent-rehearsal.md to the chat.
+Added _posts/2026-01-30-13-00-silent-rehearsal.md to the chat.
+Added personas.json to the chat.
+Added personas.json to the chat.
+
+
+
+
+.ralph/deep_research.json
+.ralph/deep_research.json
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 0.2 seconds...
+Retrying in 0.2 seconds...
+Okay, I've reviewed research_summary.json and angle_local.json. Based on the    
+"local" persona and the rising momentum of "Super Bowl 60 at Levi's Stadium: Fan
+Okay, I've reviewed research_summary.json and angle_local.json. Based on the    
+"local" persona and the rising momentum of "Super Bowl 60 at Levi's Stadium: Fan
+Experience and Local Impact in Santa Clara," I've selected "Super Bowl LX       
+Transit Triumph: Your Guide to Getting Around Santa Clara" as the best angle.   
+
+Here's the deep_research.json file I've created:                                
+
+.ralph/deep_research.json                                                       
+
+                                                                                
+@@ -1,3 +1,4 @@                                                                 
+Experience and Local Impact in Santa Clara," I've selected "Super Bowl LX       
+Transit Triumph: Your Guide to Getting Around Santa Clara" as the best angle.   
+
+Here's the deep_research.json file I've created:                                
+
+.ralph/deep_research.json                                                       
+
+                                                                                
+@@ -1,3 +1,4 @@                                                                 
+ {                                                                              
+   "angle": {                                                                   
+     "headline": "Super Bowl LX Transit Triumph: Your Guide to Getting Around   
+Santa Clara",                                                                   
+ {                                                                              
+   "angle": {                                                                   
+     "headline": "Super Bowl LX Transit Triumph: Your Guide to Getting Around   
+Santa Clara",                                                                   
+       "What are the designated pick-up and drop-off locations for ride-sharing 
+services near Levi's Stadium?",                                                 
+       "What are the designated pick-up and drop-off locations for ride-sharing 
+services near Levi's Stadium?",                                                 
+       "Statistic: \"Traffic congestion around Levi's Stadium is expected to add
+       "Statistic: \"Traffic congestion around Levi's Stadium is expected to add
+Y minutes to travel times.\"",                                                  
+       "Quote from a transportation official: \"We are working closely with     
+local agencies to ensure a safe and efficient transportation experience for all 
+Super Bowl attendees.\"",                                                       
++  50 /  73 lines [████████████████████░░░░░░░░░░]  68%                         
+                                                                                Y minutes to travel times.\"",                                                  
+       "Quote from a transportation official: \"We are working closely with     
+local agencies to ensure a safe and efficient transportation experience for all 
+Super Bowl attendees.\"",                                                       
++  50 /  73 lines [████████████████████░░░░░░░░░░]  68%                         
+                                                                                
+
+Tokens: 12k sent, 1.2k received. Cost: $0.0026 message, $0.0026 session.
+Tokens: 12k sent, 1.2k received. Cost: $0.0026 message, $0.0026 session.
+Applied edit to .ralph/deep_research.json
+Applied edit to .ralph/deep_research.json
+
+
+🧠 AI Call 2/3: Creating outline...
+🧠 AI Call 2/3: Creating outline...
+Warning: Input is not a terminal (fd=0).
+Warning: Input is not a terminal (fd=0).
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────────────
+Aider v0.86.1
+Aider v0.86.1
+Model: vertex_ai/gemini-2.0-flash-exp with whole edit format
+Model: vertex_ai/gemini-2.0-flash-exp with whole edit format
+Git repo: .git with 178 files
+Git repo: .git with 178 files
+Repo-map: using 4096 tokens, auto refresh
+Repo-map: using 4096 tokens, auto refresh
+Added .ralph/angle_local.json to the chat.
+Added .ralph/angle_local.json to the chat.
+Added .ralph/deep_research.json to the chat.
+Added .ralph/deep_research.json to the chat.
+Added .ralph/research_summary.json to the chat.
+Added .ralph/research_summary.json to the chat.
+Added .ralph/trends.json to the chat.
+Added .ralph/trends.json to the chat.
+Added _posts/2026-01-30-11-41-turnover-luck.md to the chat.
+Added _posts/2026-01-30-11-41-turnover-luck.md to the chat.
+Added _posts/2026-01-30-12-00-hidden-yardage.md to the chat.
+Added _posts/2026-01-30-12-00-hidden-yardage.md to the chat.
+Added _posts/2026-01-30-12-09-topic.md to the chat.
+Added _posts/2026-01-30-12-09-topic.md to the chat.
+Added _posts/2026-01-30-12-26-perimeter-survival.md to the chat.
+Added _posts/2026-01-30-12-26-perimeter-survival.md to the chat.
+Added _posts/2026-01-30-13-00-silent-rehearsal.md to the chat.
+Added _posts/2026-01-30-13-00-silent-rehearsal.md to the chat.
+Added personas.json to the chat.
+Added personas.json to the chat.
+
+
+
+
+.ralph/outline.json
+.ralph/outline.json
+Okay, I will create a new .ralph/outline.json file based on the content of      
+.ralph/deep_research.json, targeting a word count between 500 and 600 words.    
+
+.ralph/outline.json                                                             
+Okay, I will create a new .ralph/outline.json file based on the content of      
+.ralph/deep_research.json, targeting a word count between 500 and 600 words.    
+
+.ralph/outline.json                                                             
+
+                                                                                
+@@ -1,4 +1,5 @@                                                                 
+ {                                                                              
+
+                                                                                
+@@ -1,4 +1,5 @@                                                                 
+ {                                                                              
+   "hook": "Navigating Santa Clara during Super Bowl LX doesn't have to be a    
+nightmare.",                                                                    
+   "sections": [                                                                
+   "hook": "Navigating Santa Clara during Super Bowl LX doesn't have to be a    
+nightmare.",                                                                    
+   "sections": [                                                                
+     {                                                                          
+-      "title": "Pre-Game Planning: Mapping Your Route to Levi's Stadium",      
++      "title": "Pre-Game Planning: Understanding Your Transportation Options", 
+       "key_points": [                                                          
++        "Identify all available transportation methods: VTA Light Rail,        
+     {                                                                          
+-      "title": "Pre-Game Planning: Mapping Your Route to Levi's Stadium",      
++      "title": "Pre-Game Planning: Understanding Your Transportation Options", 
+       "key_points": [                                                          
++        "Identify all available transportation methods: VTA Light Rail,        
+ride-sharing, and shuttles.",                                                   
+-        "Outline the pros and cons of each option, considering cost,           
+convenience, and travel time.",                                                 
+-        "Highlight the importance of pre-planning and checking schedules in    
+advance."                                                                       
++        "Identify all available transportation methods: VTA Light Rail,        
+Caltrain, ride-sharing services (Uber/Lyft), free shuttle buses, biking, and    
+walking.",                                                                      
++        "Evaluate the pros and cons of each option based on cost, convenience, 
+estimated travel time, and potential delays.",                                  
+ride-sharing, and shuttles.",                                                   
+-        "Outline the pros and cons of each option, considering cost,           
+convenience, and travel time.",                                                 
+-        "Highlight the importance of pre-planning and checking schedules in    
+advance."                                                                       
++        "Identify all available transportation methods: VTA Light Rail,        
+Caltrain, ride-sharing services (Uber/Lyft), free shuttle buses, biking, and    
+walking.",                                                                      
++        "Evaluate the pros and cons of each option based on cost, convenience, 
+estimated travel time, and potential delays.",                                  
++        "Emphasize the critical importance of pre-planning and checking        
+real-time schedules and service alerts before game day."                        
+       ],                                                                       
+       "stats_facts": [                                                         
++        "The VTA Light Rail can transport approximately 4,200 passengers per   
+hour during peak event times.",                                                 
++        "Emphasize the critical importance of pre-planning and checking        
+real-time schedules and service alerts before game day."                        
+       ],                                                                       
+       "stats_facts": [                                                         
++        "The VTA Light Rail can transport approximately 4,200 passengers per   
+hour during peak event times.",                                                 
+-        "Traffic congestion around Levi's Stadium is expected to add Y minutes 
+to travel times.",                                                              
+-        "Ride-sharing services will likely implement surge pricing, potentially
+increasing fares by Z%."                                                        
++        "The VTA Light Rail can transport approximately 4,200 passengers per   
+hour during peak event times.",                                                 
++        "Traffic congestion around Levi's Stadium is projected to add an       
+average of 45-60 minutes to travel times.",                                     
++        "Ride-sharing services are anticipated to implement surge pricing,     
+potentially increasing fares by 2x-5x during peak demand."                      
+       ],                                                                       
+-      "transition": "Now that you've considered your transportation options,   
+let's delve into the specifics of using public transit for a seamless Super Bowl
+experience."                                                                    
++      "transition": "With a solid pre-game plan in place, let's dive into      
+mastering public transportation for a smoother Super Bowl Sunday experience."   
+-        "Traffic congestion around Levi's Stadium is expected to add Y minutes 
+to travel times.",                                                              
+-        "Ride-sharing services will likely implement surge pricing, potentially
+increasing fares by Z%."                                                        
++        "The VTA Light Rail can transport approximately 4,200 passengers per   
+hour during peak event times.",                                                 
++        "Traffic congestion around Levi's Stadium is projected to add an       
+average of 45-60 minutes to travel times.",                                     
++        "Ride-sharing services are anticipated to implement surge pricing,     
+potentially increasing fares by 2x-5x during peak demand."                      
+       ],                                                                       
+-      "transition": "Now that you've considered your transportation options,   
+let's delve into the specifics of using public transit for a seamless Super Bowl
+experience."                                                                    
++      "transition": "With a solid pre-game plan in place, let's dive into      
+mastering public transportation for a smoother Super Bowl Sunday experience."   
+     },                                                                         
+     {                                                                          
+-      "title": "Riding the Rails: Mastering Public Transit on Super Bowl       
+Sunday",                                                                        
++      "title": "Mastering Public Transit: VTA, Caltrain, and Clipper Card      
+Strategies",                                                                    
+       "key_points": [                                                          
+     },                                                                         
+     {                                                                          
+-      "title": "Riding the Rails: Mastering Public Transit on Super Bowl       
+Sunday",                                                                        
++      "title": "Mastering Public Transit: VTA, Caltrain, and Clipper Card      
+Strategies",                                                                    
+       "key_points": [                                                          
+-        "Detail the VTA Light Rail and Caltrain routes serving Levi's          
+Stadium.",                                                                      
+-        "Provide information on schedules, fares, and purchasing tickets.",    
+-        "Emphasize the convenience and affordability of public transit."       
++        "Detail the specific VTA Light Rail lines and Caltrain routes that     
+provide direct or connecting service to Levi's Stadium.",                       
++        "Provide step-by-step instructions on how to purchase tickets,         
+including using mobile apps and Clipper cards.",                                
++        "Highlight the benefits of using public transit, such as avoiding      
+traffic, reducing parking costs, and promoting environmental sustainability."   
+-        "Detail the VTA Light Rail and Caltrain routes serving Levi's          
+Stadium.",                                                                      
+-        "Provide information on schedules, fares, and purchasing tickets.",    
+-        "Emphasize the convenience and affordability of public transit."       
++        "Detail the specific VTA Light Rail lines and Caltrain routes that     
+provide direct or connecting service to Levi's Stadium.",                       
++        "Provide step-by-step instructions on how to purchase tickets,         
+including using mobile apps and Clipper cards.",                                
++        "Highlight the benefits of using public transit, such as avoiding      
+traffic, reducing parking costs, and promoting environmental sustainability."   
+       ],                                                                       
+       "stats_facts": [                                                         
+-        "The VTA will be running extra trains every 15 minutes on Super Bowl   
+Sunday.",                                                                       
+-        "A Clipper card offers a discounted fare on both VTA and Caltrain.",   
+-        "The estimated travel time from downtown San Jose to Levi's Stadium via
+VTA is approximately 45 minutes."                                               
++        "The VTA will operate extra trains every 15 minutes on Super Bowl      
+Sunday to accommodate increased passenger volume.",                             
++        "Using a Clipper card offers a discounted fare on both VTA and Caltrain
+services.",                                                                     
++        "The estimated travel time from downtown San Jose to Levi's Stadium via
+VTA Light Rail is approximately 45 minutes."                                    
+       ],                                                                       
+       "stats_facts": [                                                         
+-        "The VTA will be running extra trains every 15 minutes on Super Bowl   
+Sunday.",                                                                       
+-        "A Clipper card offers a discounted fare on both VTA and Caltrain.",   
+-        "The estimated travel time from downtown San Jose to Levi's Stadium via
+VTA is approximately 45 minutes."                                               
++        "The VTA will operate extra trains every 15 minutes on Super Bowl      
+Sunday to accommodate increased passenger volume.",                             
++        "Using a Clipper card offers a discounted fare on both VTA and Caltrain
+services.",                                                                     
++        "The estimated travel time from downtown San Jose to Levi's Stadium via
+VTA Light Rail is approximately 45 minutes."                                    
+       ],                                                                       
+-      "transition": "If public transportation isn't your preference,           
+ride-sharing services offer a convenient alternative, but come with their own   
+set of considerations."                                                         
++      "transition": "If navigating public transit isn't your preference,       
+ride-sharing services offer a convenient alternative, albeit with potential     
+drawbacks."                                                                     
+     },                                                                         
+     {                                                                          
+-      "title": "Ride-Sharing Realities: Navigating Surge Pricing and Pick-Up   
+Zones",                                                                         
++      "title": "Ride-Sharing Realities: Surge Pricing, Pick-Up Zones, and Smart
+       ],                                                                       
+-      "transition": "If public transportation isn't your preference,           
+ride-sharing services offer a convenient alternative, but come with their own   
+set of considerations."                                                         
++      "transition": "If navigating public transit isn't your preference,       
+ride-sharing services offer a convenient alternative, albeit with potential     
+drawbacks."                                                                     
+     },                                                                         
+     {                                                                          
+-      "title": "Ride-Sharing Realities: Navigating Surge Pricing and Pick-Up   
+Zones",                                                                         
++      "title": "Ride-Sharing Realities: Surge Pricing, Pick-Up Zones, and Smart
+Hacks",                                                                         
+       "key_points": [                                                          
+-        "Explain the designated pick-up and drop-off locations for ride-sharing
+services near Levi's Stadium.",                                                 
+-        "Warn about potential surge pricing and longer wait times.",           
+-        "Offer tips for minimizing costs and maximizing convenience."          
++        "Clearly identify the designated pick-up and drop-off locations for    
+ride-sharing services near Levi's Stadium.",                                    
++        "Warn about the likelihood of surge pricing and extended wait times    
+during peak hours.",                                                            
+Hacks",                                                                         
+       "key_points": [                                                          
+-        "Explain the designated pick-up and drop-off locations for ride-sharing
+services near Levi's Stadium.",                                                 
+-        "Warn about potential surge pricing and longer wait times.",           
+-        "Offer tips for minimizing costs and maximizing convenience."          
++        "Clearly identify the designated pick-up and drop-off locations for    
+ride-sharing services near Levi's Stadium.",                                    
++        "Warn about the likelihood of surge pricing and extended wait times    
+during peak hours.",                                                            
++        "Offer practical tips for minimizing costs and maximizing convenience, 
+such as walking a few blocks away from the stadium before requesting a ride."   
+       ],                                                                       
+       "stats_facts": [                                                         
+-        "Ride-sharing surge pricing can increase fares by 2x-5x during peak    
+hours.",                                                                        
++        "Offer practical tips for minimizing costs and maximizing convenience, 
+such as walking a few blocks away from the stadium before requesting a ride."   
+       ],                                                                       
+       "stats_facts": [                                                         
+-        "Ride-sharing surge pricing can increase fares by 2x-5x during peak    
+hours.",                                                                        
++        "Ride-sharing surge pricing can increase fares by 2x-5x or even higher 
+during periods of high demand.",                                                
+         "Wait times for ride-sharing services near Levi's Stadium can exceed 30
+minutes on game day.",                                                          
+-        "Designated ride-sharing zones are located approximately a 10-15 minute
+walk from the stadium entrance."                                                
++        "Designated ride-sharing zones are typically located a 10-15 minute    
+walk from the stadium entrance."                                                
+       ],                                                                       
+-      "transition": "For those seeking a more structured and potentially       
+cost-effective solution, shuttle services provide a valuable option."           
++      "transition": "For a more structured and potentially cost-effective      
+approach, let's explore the option of leveraging free shuttle services."        
+     },                                                                         
++        "Ride-sharing surge pricing can increase fares by 2x-5x or even higher 
+during periods of high demand.",                                                
+         "Wait times for ride-sharing services near Levi's Stadium can exceed 30
+minutes on game day.",                                                          
+-        "Designated ride-sharing zones are located approximately a 10-15 minute
+walk from the stadium entrance."                                                
++        "Designated ride-sharing zones are typically located a 10-15 minute    
+walk from the stadium entrance."                                                
+       ],                                                                       
+-      "transition": "For those seeking a more structured and potentially       
+cost-effective solution, shuttle services provide a valuable option."           
++      "transition": "For a more structured and potentially cost-effective      
+approach, let's explore the option of leveraging free shuttle services."        
+     },                                                                         
+     {                                                                          
+-      "title": "Shuttle Strategies: Leveraging Free Transportation Options",   
++      "title": "Shuttle Strategies: Free Rides and Smart Planning",            
+       "key_points": [                                                          
+     {                                                                          
+-      "title": "Shuttle Strategies: Leveraging Free Transportation Options",   
++      "title": "Shuttle Strategies: Free Rides and Smart Planning",            
+       "key_points": [                                                          
+-        "Describe the free shuttle services available to transport fans to and 
+from Levi's Stadium.",                                                          
+-        "Provide information on shuttle routes, schedules, and pick-up/drop-off
+locations.",                                                                    
+-        "Highlight the benefits of using shuttle services to avoid traffic     
+congestion and parking fees."                                                   
++        "Describe the free shuttle services provided by the City of Santa      
+Clara, including routes, schedules, and pick-up/drop-off locations.",           
++        "Emphasize the benefits of using shuttle services to bypass traffic    
+congestion and avoid parking fees.",                                            
++        "Advise fans to check the city's official website or mobile app for the
+most up-to-date shuttle information."                                           
+-        "Describe the free shuttle services available to transport fans to and 
+from Levi's Stadium.",                                                          
+-        "Provide information on shuttle routes, schedules, and pick-up/drop-off
+locations.",                                                                    
+-        "Highlight the benefits of using shuttle services to avoid traffic     
+congestion and parking fees."                                                   
++        "Describe the free shuttle services provided by the City of Santa      
+Clara, including routes, schedules, and pick-up/drop-off locations.",           
++        "Emphasize the benefits of using shuttle services to bypass traffic    
+congestion and avoid parking fees.",                                            
++        "Advise fans to check the city's official website or mobile app for the
+most up-to-date shuttle information."                                           
+       ],                                                                       
+       "stats_facts": [                                                         
+-        "The City of Santa Clara will be providing free shuttle services every 
+20 minutes from designated parking lots.",                                      
+-        "Shuttle routes connect to key transportation hubs and hotels          
+throughout the city.",                                                          
+-        "Shuttle services operate for approximately 3 hours before and after   
+the game."                                                                      
++        "The City of Santa Clara provides free shuttle services every 20       
+minutes from designated parking lots and transportation hubs.",                 
++        "Shuttle routes connect key locations throughout the city, including   
+hotels, parking areas, and transportation centers.",                            
++        "Shuttle services typically operate for approximately 3 hours before   
+the game and 3 hours after the game."                                           
+       ],                                                                       
+-      "transition": "Finally, for the adventurous and physically fit, biking   
+and walking offer unique ways to experience the Super Bowl atmosphere while     
+       ],                                                                       
+       "stats_facts": [                                                         
+-        "The City of Santa Clara will be providing free shuttle services every 
+20 minutes from designated parking lots.",                                      
+-        "Shuttle routes connect to key transportation hubs and hotels          
+throughout the city.",                                                          
+-        "Shuttle services operate for approximately 3 hours before and after   
+the game."                                                                      
++        "The City of Santa Clara provides free shuttle services every 20       
+minutes from designated parking lots and transportation hubs.",                 
++        "Shuttle routes connect key locations throughout the city, including   
+hotels, parking areas, and transportation centers.",                            
++        "Shuttle services typically operate for approximately 3 hours before   
+the game and 3 hours after the game."                                           
+       ],                                                                       
+-      "transition": "Finally, for the adventurous and physically fit, biking   
+and walking offer unique ways to experience the Super Bowl atmosphere while     
+bypassing traffic."                                                             
++      "transition": "Finally, for those seeking an active and unique           
+experience, biking and walking offer alternative routes to the stadium."        
+     },                                                                         
+     {                                                                          
+-      "title": "Beyond the Bus: Alternative Routes - Biking and Walking to the 
+Big Game",                                                                      
+bypassing traffic."                                                             
++      "transition": "Finally, for those seeking an active and unique           
+experience, biking and walking offer alternative routes to the stadium."        
+     },                                                                         
+     {                                                                          
+-      "title": "Beyond the Bus: Alternative Routes - Biking and Walking to the 
+Big Game",                                                                      
++      "title": "Beyond the Bus: Biking and Walking to the Big Game",           
+       "key_points": [                                                          
+-        "Suggest biking and walking as alternative transportation options for  
+fans who prefer to avoid traffic congestion.",                                  
+-        "Provide information on bike routes and pedestrian walkways leading to 
+Levi's Stadium.",                                                               
+-        "Emphasize the importance of safety and awareness when using these     
+options."                                                                       
++        "Suggest biking and walking as viable transportation options for fans  
+who prefer to avoid traffic and enjoy the Super Bowl atmosphere.",              
++        "Provide information on designated bike routes, pedestrian walkways,   
+and bike parking areas near Levi's Stadium.",                                   
++      "title": "Beyond the Bus: Biking and Walking to the Big Game",           
+       "key_points": [                                                          
+-        "Suggest biking and walking as alternative transportation options for  
+fans who prefer to avoid traffic congestion.",                                  
+-        "Provide information on bike routes and pedestrian walkways leading to 
+Levi's Stadium.",                                                               
+-        "Emphasize the importance of safety and awareness when using these     
+options."                                                                       
++        "Suggest biking and walking as viable transportation options for fans  
+who prefer to avoid traffic and enjoy the Super Bowl atmosphere.",              
++        "Provide information on designated bike routes, pedestrian walkways,   
+and bike parking areas near Levi's Stadium.",                                   
++        "Stress the importance of safety and awareness when biking or walking, 
+including wearing reflective clothing and following traffic laws."              
+       ],                                                                       
+       "stats_facts": [                                                         
+-        "Designated bike parking areas are available near Levi's Stadium.",    
++        "Designated bike parking areas are available near Levi's Stadium on a  
+first-come, first-served basis.",                                               
+         "Walking from downtown Santa Clara to Levi's Stadium takes             
+approximately 45-60 minutes.",                                                  
+-        "The city of Santa Clara has implemented enhanced pedestrian safety    
+measures along key routes to the stadium."                                      
++        "Stress the importance of safety and awareness when biking or walking, 
+including wearing reflective clothing and following traffic laws."              
+       ],                                                                       
+       "stats_facts": [                                                         
+-        "Designated bike parking areas are available near Levi's Stadium.",    
++        "Designated bike parking areas are available near Levi's Stadium on a  
+first-come, first-served basis.",                                               
+         "Walking from downtown Santa Clara to Levi's Stadium takes             
+approximately 45-60 minutes.",                                                  
+-        "The city of Santa Clara has implemented enhanced pedestrian safety    
+measures along key routes to the stadium."                                      
++        "The City of Santa Clara implements enhanced pedestrian safety measures
+along key routes to the stadium, such as increased lighting and traffic         
+control."                                                                       
+       ]                                                                        
+     }                                                                          
+   ]                                                                            
+ }                                                                              
+                                                                                
++        "The City of Santa Clara implements enhanced pedestrian safety measures
+along key routes to the stadium, such as increased lighting and traffic         
+control."                                                                       
+       ]                                                                        
+     }                                                                          
+   ]                                                                            
+ }                                                                              
+                                                                                
+
+
+Tokens: 13k sent, 1.1k received. Cost: $0.0027 message, $0.0027 session.
+Tokens: 13k sent, 1.1k received. Cost: $0.0027 message, $0.0027 session.
+Applied edit to .ralph/outline.json
+Applied edit to .ralph/outline.json
+
+
+🧠 AI Call 3/3: Writing draft...
+🧠 AI Call 3/3: Writing draft...
+Warning: Input is not a terminal (fd=0).
+Warning: Input is not a terminal (fd=0).
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────────────
+Aider v0.86.1
+Aider v0.86.1
+Model: vertex_ai/gemini-2.0-flash-exp with whole edit format
+Model: vertex_ai/gemini-2.0-flash-exp with whole edit format
+Git repo: .git with 178 files
+Git repo: .git with 178 files
+Repo-map: using 4096 tokens, auto refresh
+Repo-map: using 4096 tokens, auto refresh
+Added .ralph/angle_local.json to the chat.
+Added .ralph/angle_local.json to the chat.
+Added .ralph/deep_research.json to the chat.
+Added .ralph/deep_research.json to the chat.
+Added .ralph/outline.json to the chat.
+Added .ralph/outline.json to the chat.
+Added .ralph/research_summary.json to the chat.
+Added .ralph/research_summary.json to the chat.
+Added .ralph/trends.json to the chat.
+Added .ralph/trends.json to the chat.
+Added _posts/2026-01-30-11-41-turnover-luck.md to the chat.
+Added _posts/2026-01-30-11-41-turnover-luck.md to the chat.
+Added _posts/2026-01-30-12-00-hidden-yardage.md to the chat.
+Added _posts/2026-01-30-12-00-hidden-yardage.md to the chat.
+Added _posts/2026-01-30-12-09-topic.md to the chat.
+Added _posts/2026-01-30-12-09-topic.md to the chat.
+Added _posts/2026-01-30-12-26-perimeter-survival.md to the chat.
+Added _posts/2026-01-30-12-26-perimeter-survival.md to the chat.
+Added _posts/2026-01-30-13-00-silent-rehearsal.md to the chat.
+Added _posts/2026-01-30-13-00-silent-rehearsal.md to the chat.
+Added personas.json to the chat.
+Added personas.json to the chat.
+
+
+Okay, I will create a new draft post in                                         
+.ralph/drafts/draft-20260130-1245-local-topic.md based on the content of        
+outline.json, using the specified YAML frontmatter and word count.              
+
+.ralph/drafts/draft-20260130-1245-local-topic.md                                
+Okay, I will create a new draft post in                                         
+.ralph/drafts/draft-20260130-1245-local-topic.md based on the content of        
+outline.json, using the specified YAML frontmatter and word count.              
+
+.ralph/drafts/draft-20260130-1245-local-topic.md                                
+
+                                                                                
+---                                                                             
+                                                                                
+layout: post                                                                    
+                                                                                
+
+                                                                                
+---                                                                             
+                                                                                
+layout: post                                                                    
+                                                                                
+title: "Super Bowl LX Transit Triumph: Your Guide to Getting Around Santa Clara"
+                                                                                
+author: Tony Moretti                                                            
+                                                                                
+date: 2026-01-30 12:45:00 +0000                                                 
+title: "Super Bowl LX Transit Triumph: Your Guide to Getting Around Santa Clara"
+                                                                                
+author: Tony Moretti                                                            
+                                                                                
+date: 2026-01-30 12:45:00 +0000                                                 
+                                                                                
+tags: [local, transportation, logistics, Santa Clara, Super Bowl]               
+                                                                                
+excerpt: "Navigating Santa Clara during Super Bowl LX doesn't have to be a      
+nightmare. We're breaking down the best transportation options so you can arrive
+stress-free and ready to cheer."                                                
+                                                                                
+persona: local                                                                  
+                                                                                
+status: draft                                                                   
+                                                                                
+---                                                                             
+                                                                                
+                                                                                
+tags: [local, transportation, logistics, Santa Clara, Super Bowl]               
+                                                                                
+excerpt: "Navigating Santa Clara during Super Bowl LX doesn't have to be a      
+nightmare. We're breaking down the best transportation options so you can arrive
+stress-free and ready to cheer."                                                
+                                                                                
+persona: local                                                                  
+                                                                                
+status: draft                                                                   
+                                                                                
+---                                                                             
+                                                                                
+                                                                                
+                                                                                
+Navigating Santa Clara during Super Bowl LX doesn't have to be a nightmare.     
+Let's break down the best transportation options, so you can arrive at the      
+stadium stress-free and ready to cheer.                                         
+                                                                                
+                                                                                
+                                                                                
+## Pre-Game Planning: Understanding Your Transportation Options                 
+                                                                                
+                                                                                
+                                                                                
+Navigating Santa Clara during Super Bowl LX doesn't have to be a nightmare.     
+Let's break down the best transportation options, so you can arrive at the      
+stadium stress-free and ready to cheer.                                         
+                                                                                
+                                                                                
+                                                                                
+## Pre-Game Planning: Understanding Your Transportation Options                 
+                                                                                
+                                                                                
+                                                                                
+Okay, folks, first things first: planning. You *gotta* figure out how you're    
+                                                                                
+                                                                                
+Okay, folks, first things first: planning. You *gotta* figure out how you're    
+getting to Levi's Stadium *before* game day. We're talking VTA Light Rail,      
+Caltrain, ride-sharing, and those shuttle buses. Each has its ups and downs.    
+Light Rail's cheap, but can get packed. Caltrain's great if you're coming from  
+the Peninsula, but it drops you off a bit away. Ride-sharing? Easy, but surge   
+pricing will hit you hard. Shuttles are free, but, well, they're shuttle buses. 
+Check the schedules *now*. Don't wait until Sunday morning.                     
+                                                                                
+                                                                                
+getting to Levi's Stadium *before* game day. We're talking VTA Light Rail,      
+Caltrain, ride-sharing, and those shuttle buses. Each has its ups and downs.    
+Light Rail's cheap, but can get packed. Caltrain's great if you're coming from  
+the Peninsula, but it drops you off a bit away. Ride-sharing? Easy, but surge   
+pricing will hit you hard. Shuttles are free, but, well, they're shuttle buses. 
+Check the schedules *now*. Don't wait until Sunday morning.                     
+                                                                                
+                                                                                
+                                                                                
+*   The VTA Light Rail carries an average of 4,200 passengers per hour on game  
+days.                                                                           
+                                                                                
+*   Traffic around Levi's Stadium is expected to add 45-60 minutes to travel    
+times.                                                                          
+                                                                                
+*   Ride-sharing services will likely implement surge pricing, potentially      
+increasing fares by 300-500%.                                                   
+                                                                                
+                                                                                
+                                                                                
+Now that you've considered your transportation options, let's get into the      
+                                                                                
+*   The VTA Light Rail carries an average of 4,200 passengers per hour on game  
+days.                                                                           
+                                                                                
+*   Traffic around Levi's Stadium is expected to add 45-60 minutes to travel    
+times.                                                                          
+                                                                                
+*   Ride-sharing services will likely implement surge pricing, potentially      
+increasing fares by 300-500%.                                                   
+                                                                                
+                                                                                
+                                                                                
+Now that you've considered your transportation options, let's get into the      
+specifics of using public transit for a smooth Super Bowl experience.           
+                                                                                
+                                                                                
+                                                                                
+specifics of using public transit for a smooth Super Bowl experience.           
+                                                                                
+                                                                                
+                                                                                
+## Mastering Public Transit: VTA, Caltrain, and Clipper Card Strategies         
+## Mastering Public Transit: VTA, Caltrain, and Clipper Card Strategies         
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+Public transit is a solid option. The VTA Light Rail has a line that drops you  
+pretty close to the stadium. Caltrain connects you from up the Peninsula, but   
+you'll need to transfer. Check the schedules, buy your tickets in advance using 
+the app, and *be patient*. It's gonna be crowded. A Clipper card will save you a
+few bucks, too.                                                                 
+                                                                                
+                                                                                
+Public transit is a solid option. The VTA Light Rail has a line that drops you  
+pretty close to the stadium. Caltrain connects you from up the Peninsula, but   
+you'll need to transfer. Check the schedules, buy your tickets in advance using 
+the app, and *be patient*. It's gonna be crowded. A Clipper card will save you a
+few bucks, too.                                                                 
+                                                                                
+                                                                                
+                                                                                
+*   The VTA will be running extra trains every 15 minutes on Super Bowl Sunday. 
+                                                                                
+*   A Clipper card offers a discounted fare on both VTA and Caltrain.           
+                                                                                
+*   The estimated travel time from downtown San Jose to Levi's Stadium via VTA  
+                                                                                
+                                                                                
+*   The VTA will be running extra trains every 15 minutes on Super Bowl Sunday. 
+                                                                                
+*   A Clipper card offers a discounted fare on both VTA and Caltrain.           
+                                                                                
+*   The estimated travel time from downtown San Jose to Levi's Stadium via VTA  
+is about 45 minutes.                                                            
+                                                                                
+                                                                                
+                                                                                
+If public transportation isn't your thing, ride-sharing is convenient, but it   
+comes with a few things to keep in mind.                                        
+                                                                                
+                                                                                
+                                                                                
+is about 45 minutes.                                                            
+                                                                                
+                                                                                
+                                                                                
+If public transportation isn't your thing, ride-sharing is convenient, but it   
+comes with a few things to keep in mind.                                        
+                                                                                
+                                                                                
+                                                                                
+## Ride-Sharing Realities: Surge Pricing, Pick-Up Zones, and Smart Hacks        
+                                                                                
+                                                                                
+## Ride-Sharing Realities: Surge Pricing, Pick-Up Zones, and Smart Hacks        
+                                                                                
+                                                                                
+                                                                                
+Alright, ride-sharing. Uber and Lyft will be *insane*. Surge pricing is a       
+guarantee, and wait times will be long. Head to the designated pick-up/drop-off 
+spots – they won't let you get picked up just anywhere near the stadium. Walk a 
+few blocks away from the stadium, and you might save some cash and time.        
+                                                                                
+                                                                                
+                                                                                
+*   Ride-sharing surge pricing can increase fares by 2x-5x during peak hours.   
+                                                                                
+Alright, ride-sharing. Uber and Lyft will be *insane*. Surge pricing is a       
+guarantee, and wait times will be long. Head to the designated pick-up/drop-off 
+spots – they won't let you get picked up just anywhere near the stadium. Walk a 
+few blocks away from the stadium, and you might save some cash and time.        
+                                                                                
+                                                                                
+                                                                                
+*   Ride-sharing surge pricing can increase fares by 2x-5x during peak hours.   
+                                                                                
+*   Wait times for ride-sharing near Levi's Stadium can be more than 30 minutes 
+on game day.                                                                    
+                                                                                
+*   Designated ride-sharing zones are about a 10-15 minute walk from the stadium
+entrance.                                                                       
+                                                                                
+                                                                                
+                                                                                
+If you want something more structured and maybe cheaper, check out the shuttle  
+services.                                                                       
+                                                                                
+                                                                                
+                                                                                
+## Shuttle Strategies: Free Rides and Smart Planning                            
+                                                                                
+*   Wait times for ride-sharing near Levi's Stadium can be more than 30 minutes 
+on game day.                                                                    
+                                                                                
+*   Designated ride-sharing zones are about a 10-15 minute walk from the stadium
+entrance.                                                                       
+                                                                                
+                                                                                
+                                                                                
+If you want something more structured and maybe cheaper, check out the shuttle  
+services.                                                                       
+                                                                                
+                                                                                
+                                                                                
+## Shuttle Strategies: Free Rides and Smart Planning                            
+                                                                                
+                                                                                
+                                                                                
+The City of Santa Clara usually runs free shuttle buses from different parking  
+lots and transportation hubs. These are great if you don't mind a little extra  
+time. Check the routes and schedules on the city's website. They'll drop you off
+close to the stadium, saving you a walk.                                        
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+The City of Santa Clara usually runs free shuttle buses from different parking  
+lots and transportation hubs. These are great if you don't mind a little extra  
+time. Check the routes and schedules on the city's website. They'll drop you off
+close to the stadium, saving you a walk.                                        
+                                                                                
+                                                                                
+                                                                                
+*   The City of Santa Clara will be running free shuttle services every 20      
+minutes from designated parking lots.                                           
+                                                                                
+*   Shuttle routes connect to key transportation hubs and hotels around the     
+city.                                                                           
+                                                                                
+*   Shuttle services run for about 3 hours before and after the game.           
+                                                                                
+                                                                                
+                                                                                
+Finally, if you're feeling active, biking or walking is a cool way to soak in   
+                                                                                
+*   The City of Santa Clara will be running free shuttle services every 20      
+minutes from designated parking lots.                                           
+                                                                                
+*   Shuttle routes connect to key transportation hubs and hotels around the     
+city.                                                                           
+                                                                                
+*   Shuttle services run for about 3 hours before and after the game.           
+                                                                                
+                                                                                
+                                                                                
+Finally, if you're feeling active, biking or walking is a cool way to soak in   
+the Super Bowl vibe and skip the traffic.                                       
+                                                                                
+                                                                                
+                                                                                
+## Beyond the Bus: Biking and Walking to the Big Game                           
+                                                                                
+the Super Bowl vibe and skip the traffic.                                       
+                                                                                
+                                                                                
+                                                                                
+## Beyond the Bus: Biking and Walking to the Big Game                           
+                                                                                
+                                                                                
+                                                                                
+If you're close enough and the weather's good, think about biking or walking.   
+There are bike parking areas near the stadium. Walking from downtown Santa Clara
+takes about 45-60 minutes. Just be aware of your surroundings, stick to well-lit
+areas, and be safe.                                                             
+                                                                                
+                                                                                
+                                                                                
+*   Designated bike parking areas are available near Levi's Stadium.            
+                                                                                
+                                                                                
+                                                                                
+If you're close enough and the weather's good, think about biking or walking.   
+There are bike parking areas near the stadium. Walking from downtown Santa Clara
+takes about 45-60 minutes. Just be aware of your surroundings, stick to well-lit
+areas, and be safe.                                                             
+                                                                                
+                                                                                
+                                                                                
+*   Designated bike parking areas are available near Levi's Stadium.            
+                                                                                
+*   Walking from downtown Santa Clara to Levi's Stadium takes about 45-60       
+minutes.                                                                        
+                                                                                
+*   The city of Santa Clara has put in extra safety for people walking on the   
+main roads to the stadium.                                                      
+                                                                                
+*   Walking from downtown Santa Clara to Levi's Stadium takes about 45-60       
+minutes.                                                                        
+                                                                                
+*   The city of Santa Clara has put in extra safety for people walking on the   
+main roads to the stadium.                                                      
+                                                                                
+
+
+Tokens: 14k sent, 1.1k received. Cost: $0.0027 message, $0.0027 session.
+Tokens: 14k sent, 1.1k received. Cost: $0.0027 message, $0.0027 session.
+
+
+.ralph/drafts/draft-20260130-1245-local-topic.md
+.ralph/drafts/draft-20260130-1245-local-topic.md
+Applied edit to .ralph/drafts/draft-20260130-1245-local-topic.md
+Applied edit to .ralph/drafts/draft-20260130-1245-local-topic.md
+State updated: 5 drafts
+State updated: 5 drafts
+
+

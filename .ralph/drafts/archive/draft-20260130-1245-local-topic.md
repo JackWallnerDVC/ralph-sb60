@@ -2,7 +2,7 @@
 layout: post
 title: "Super Bowl LX Transit Triumph: Your Guide to Getting Around Santa Clara"
 author: Tony Moretti
-date: 2026-01-30 12:09:36 +0000
+date: 2026-01-30 12:45:00 +0000
 tags: [local, transportation, logistics, Santa Clara, Super Bowl]
 excerpt: "Navigating Santa Clara during Super Bowl LX doesn't have to be a nightmare. We're breaking down the best transportation options so you can arrive stress-free and ready to cheer."
 persona: local
@@ -11,7 +11,7 @@ status: draft
 
 Navigating Santa Clara during Super Bowl LX doesn't have to be a nightmare. Let's break down the best transportation options, so you can arrive at the stadium stress-free and ready to cheer.
 
-## Pre-Game Planning: Mapping Your Route to Levi's Stadium
+## Pre-Game Planning: Understanding Your Transportation Options
 
 Okay, folks, first things first: planning. You *gotta* figure out how you're getting to Levi's Stadium *before* game day. We're talking VTA Light Rail, Caltrain, ride-sharing, and those shuttle buses. Each has its ups and downs. Light Rail's cheap, but can get packed. Caltrain's great if you're coming from the Peninsula, but it drops you off a bit away. Ride-sharing? Easy, but surge pricing will hit you hard. Shuttles are free, but, well, they're shuttle buses. Check the schedules *now*. Don't wait until Sunday morning.
 
@@ -21,7 +21,7 @@ Okay, folks, first things first: planning. You *gotta* figure out how you're get
 
 Now that you've considered your transportation options, let's get into the specifics of using public transit for a smooth Super Bowl experience.
 
-## Riding the Rails: Mastering Public Transit on Super Bowl Sunday
+## Mastering Public Transit: VTA, Caltrain, and Clipper Card Strategies
 
 Public transit is a solid option. The VTA Light Rail has a line that drops you pretty close to the stadium. Caltrain connects you from up the Peninsula, but you'll need to transfer. Check the schedules, buy your tickets in advance using the app, and *be patient*. It's gonna be crowded. A Clipper card will save you a few bucks, too.
 
@@ -31,7 +31,7 @@ Public transit is a solid option. The VTA Light Rail has a line that drops you p
 
 If public transportation isn't your thing, ride-sharing is convenient, but it comes with a few things to keep in mind.
 
-## Ride-Sharing Realities: Navigating Surge Pricing and Pick-Up Zones
+## Ride-Sharing Realities: Surge Pricing, Pick-Up Zones, and Smart Hacks
 
 Alright, ride-sharing. Uber and Lyft will be *insane*. Surge pricing is a guarantee, and wait times will be long. Head to the designated pick-up/drop-off spots – they won't let you get picked up just anywhere near the stadium. Walk a few blocks away from the stadium, and you might save some cash and time.
 
@@ -41,7 +41,7 @@ Alright, ride-sharing. Uber and Lyft will be *insane*. Surge pricing is a guaran
 
 If you want something more structured and maybe cheaper, check out the shuttle services.
 
-## Shuttle Strategies: Leveraging Free Transportation Options
+## Shuttle Strategies: Free Rides and Smart Planning
 
 The City of Santa Clara usually runs free shuttle buses from different parking lots and transportation hubs. These are great if you don't mind a little extra time. Check the routes and schedules on the city's website. They'll drop you off close to the stadium, saving you a walk.
 
@@ -51,7 +51,7 @@ The City of Santa Clara usually runs free shuttle buses from different parking l
 
 Finally, if you're feeling active, biking or walking is a cool way to soak in the Super Bowl vibe and skip the traffic.
 
-## Beyond the Bus: Alternative Routes - Biking and Walking to the Big Game
+## Beyond the Bus: Biking and Walking to the Big Game
 
 If you're close enough and the weather's good, think about biking or walking. There are bike parking areas near the stadium. Walking from downtown Santa Clara takes about 45-60 minutes. Just be aware of your surroundings, stick to well-lit areas, and be safe.
 

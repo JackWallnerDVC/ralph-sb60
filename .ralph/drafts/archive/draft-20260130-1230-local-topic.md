@@ -2,7 +2,7 @@
 layout: post
 title: "Super Bowl LX Transit Triumph: Your Guide to Getting Around Santa Clara"
 author: Tony Moretti
-date: 2026-01-30 12:09:36 +0000
+date: 2026-01-30 12:30:00 +0000
 tags: [local, transportation, logistics, Santa Clara, Super Bowl]
 excerpt: "Navigating Santa Clara during Super Bowl LX doesn't have to be a nightmare. We're breaking down the best transportation options so you can arrive stress-free and ready to cheer."
 persona: local
@@ -15,9 +15,9 @@ Navigating Santa Clara during Super Bowl LX doesn't have to be a nightmare. Let'
 
 Okay, folks, first things first: planning. You *gotta* figure out how you're getting to Levi's Stadium *before* game day. We're talking VTA Light Rail, Caltrain, ride-sharing, and those shuttle buses. Each has its ups and downs. Light Rail's cheap, but can get packed. Caltrain's great if you're coming from the Peninsula, but it drops you off a bit away. Ride-sharing? Easy, but surge pricing will hit you hard. Shuttles are free, but, well, they're shuttle buses. Check the schedules *now*. Don't wait until Sunday morning.
 
-*   The VTA Light Rail carries an average of 4,200 passengers per hour on game days.
-*   Traffic around Levi's Stadium is expected to add 45-60 minutes to travel times.
-*   Ride-sharing services will likely implement surge pricing, potentially increasing fares by 300-500%.
+*   The VTA Light Rail carries an average of X passengers per hour on game days.
+*   Traffic around Levi's Stadium is expected to add Y minutes to travel times.
+*   Ride-sharing services will likely implement surge pricing, potentially increasing fares by Z%.
 
 Now that you've considered your transportation options, let's get into the specifics of using public transit for a smooth Super Bowl experience.
 
