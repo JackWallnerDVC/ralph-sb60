@@ -96,3 +96,111 @@ Target persona: local (balancing distribution)
 Target persona: local (balancing distribution)
 🎯 Running evaluate_and_publish...
 🎯 Running evaluate_and_publish...
+📋 Evaluating 5 drafts for virality...
+
+🏆 WINNER: draft-20260130-0901-local-topic.md
+       Score: 100/100 | Persona: local
+       Title: The Tasman Trap: Surviving Phase II Closures...
+       • Trend alignment: +15
+       • Optimal length (737 words): +10
+       • Recent draft: +5
+
+  #2: draft-20260130-1705-insider-k-ball-protocol.md
+       Score: 100/100 | Persona: insider
+       Title: The 'K-Ball' Protocol: Why Super Bowl Kicks Are Different...
+       • Trend alignment: +30
+       • Question hook: +10
+       • Good length (384 words): +5
+
+  #3: draft-20260130-1730-analyst-21-personnel.md
+       Score: 100/100 | Persona: analyst
+       Title: The 21 Personnel Paradox: Why Heavy Sets Win Super Bowls...
+       • Trend alignment: +20
+       • Question hook: +10
+       • Number hook: +5
+
+  #4: draft-20260130-1800-insider-pink-noise.md
+       Score: 100/100 | Persona: insider
+       Title: Operation Pink Noise: Hiding the Halftime Show...
+       • Trend alignment: +15
+       • Question hook: +10
+       • Good length (305 words): +5
+
+  #5: draft-20260130-1745-local-rideshare-geofence.md
+       Score: 100/100 | Persona: local
+       Title: The Rideshare Geofence: Escaping the Red Zone...
+       • Trend alignment: +30
+       • Good length (322 words): +5
+       • Recent draft: +5
+
+🎯 Selected: The Tasman Trap: Surviving Phase II Closures
+   Virality score: 100/100
+
+📝 Humanizing: draft-20260130-0901-local-topic.md
+✅ Published: 2026-01-30-09-05-topic.md
+📦 Archived: draft-20260130-1705-insider-k-ball-protocol.md
+📦 Archived: draft-20260130-1730-analyst-21-personnel.md
+📦 Archived: draft-20260130-1800-insider-pink-noise.md
+📦 Archived: draft-20260130-1745-local-rideshare-geofence.md
+🚀 Pushed: https://jackwallnerdvc.github.io/ralph-sb60/
+📋 Evaluating 5 drafts for virality...
+
+🏆 WINNER: draft-20260130-0901-local-topic.md
+       Score: 100/100 | Persona: local
+       Title: The Tasman Trap: Surviving Phase II Closures...
+       • Trend alignment: +15
+       • Optimal length (737 words): +10
+       • Recent draft: +5
+
+  #2: draft-20260130-1705-insider-k-ball-protocol.md
+       Score: 100/100 | Persona: insider
+       Title: The 'K-Ball' Protocol: Why Super Bowl Kicks Are Different...
+       • Trend alignment: +30
+       • Question hook: +10
+       • Good length (384 words): +5
+
+  #3: draft-20260130-1730-analyst-21-personnel.md
+       Score: 100/100 | Persona: analyst
+       Title: The 21 Personnel Paradox: Why Heavy Sets Win Super Bowls...
+       • Trend alignment: +20
+       • Question hook: +10
+       • Number hook: +5
+
+  #4: draft-20260130-1800-insider-pink-noise.md
+       Score: 100/100 | Persona: insider
+       Title: Operation Pink Noise: Hiding the Halftime Show...
+       • Trend alignment: +15
+       • Question hook: +10
+       • Good length (305 words): +5
+
+  #5: draft-20260130-1745-local-rideshare-geofence.md
+       Score: 100/100 | Persona: local
+       Title: The Rideshare Geofence: Escaping the Red Zone...
+       • Trend alignment: +30
+       • Good length (322 words): +5
+       • Recent draft: +5
+
+🎯 Selected: The Tasman Trap: Surviving Phase II Closures
+   Virality score: 100/100
+
+📝 Humanizing: draft-20260130-0901-local-topic.md
+✅ Published: 2026-01-30-09-05-topic.md
+📦 Archived: draft-20260130-1705-insider-k-ball-protocol.md
+📦 Archived: draft-20260130-1730-analyst-21-personnel.md
+📦 Archived: draft-20260130-1800-insider-pink-noise.md
+📦 Archived: draft-20260130-1745-local-rideshare-geofence.md
+🚀 Pushed: https://jackwallnerdvc.github.io/ralph-sb60/
+✅ Publish cycle complete at 9:05 AM PST
+✅ Publish cycle complete at 9:05 AM PST
+
+
+=== Ralph Threshold Publish Triggered ===
+=== Ralph Threshold Publish Triggered ===
+Timestamp: 2026-01-30T09:40:00 PST
+Timestamp: 2026-01-30T09:40:00 PST
+Drafts in queue: 5 (threshold: 5)
+Drafts in queue: 5 (threshold: 5)
+Target persona: analyst (balancing distribution)
+Target persona: analyst (balancing distribution)
+🎯 Running evaluate_and_publish...
+🎯 Running evaluate_and_publish...

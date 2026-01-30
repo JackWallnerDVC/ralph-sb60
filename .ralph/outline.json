@@ -1,74 +1,75 @@
 {
-  "hook": "The City of Santa Clara just dropped the hammer on commuters: Tasman Drive is officially locked down from January 28 to February 13, and if you're trusting your GPS to get you to the stadium, you are driving straight into a trap.",
+  "hook": "The most significant statistical mismatch of Super Bowl 60 isn't at quarterback or head coach, but in the 20 yards of real estate where championships are actually decided.",
   "sections": [
     {
-      "title": "The Tasman Wall: What 'Closed' Really Means",
+      "title": "The Four-Point Swing",
       "key_points": [
-        "Define the hard closure zone from Convention Center to Great America Parkway.",
-        "Clarify that this is a total lockdown for private vehicles, not a soft checkpoint.",
-        "Highlight the extended duration of the closure (Jan 28 - Feb 13)."
+        "Define the massive efficiency gap between the two teams.",
+        "Explain the mathematical impact of settling for field goals vs touchdowns.",
+        "Contextualize this as a systemic advantage rather than statistical noise."
       ],
       "stats_facts": [
-        "Tasman Drive is fully closed to private vehicles from Convention Center to Great America Parkway.",
-        "The closure runs continuously from Jan 28 through Feb 13.",
-        "VTA Light Rail is the only vehicle allowed to cross the Tasman/Great America intersection."
+        "49ers convert 68.4% of RZ trips to TDs (1st in NFC).",
+        "Opponent converts just 52.1% (19th in NFL).",
+        "This 16% delta represents a +3.4 EPA advantage per game."
       ],
-      "transition": "While the physical barricades are immovable, the digital world hasn't caught up yet, creating a massive headache for drivers."
+      "transition": "This statistical gap is massive on paper, but the unique geometry of Levi's Stadium makes it even more critical."
     },
     {
-      "title": "Why Waze Will Fail You",
+      "title": "The Geometry of the North End Zone",
       "key_points": [
-        "Explain the lag between physical closures and GPS app updates.",
-        "Describe the 'turn-around loop' caused by false positives on maps.",
-        "Warn about the time penalty for trusting the app blindly."
+        "Discuss the architectural quirk of Levi's Stadium's North End Zone.",
+        "Explain how compressed fields hurt spread offenses.",
+        "Analyze why this favors power run schemes over vertical passing."
       ],
       "stats_facts": [
-        "GPS apps (Waze/Google Maps) are currently showing the route as open.",
-        "Drivers are seeing 'Open' on their phones while facing 'Road Closed' barricades.",
-        "The 'Tasman Trap' is adding an hour to commutes for anyone forced into the U-turn loop."
+        "North End Zone is 8 yards deep vs standard 10 yards.",
+        "Vertical routes are compressed by 20%, limiting fade routes.",
+        "Opponent's defensive speed is neutralized in tight quarters."
       ],
-      "transition": "Once you realize you can't drive through, your instinct will be to call a rideshare, but the old drop-off rules no longer apply."
+      "transition": "When the field shrinks, personnel packages dictate success, and the 49ers have a specific weapon for this compressed space."
     },
     {
-      "title": "The Rideshare Shuffle: Mercado is the New Front Gate",
+      "title": "The 21 Personnel Cheat Code",
       "key_points": [
-        "Detail the relocation of rideshare zones away from the stadium.",
-        "Introduce the 'Mercado Hack' as the superior alternative.",
-        "Compare the time cost of sitting in traffic vs. walking."
+        "Highlight the 49ers' heavy usage of 2 RB sets (21 personnel).",
+        "Explain how this forces the defense into heavy base packages.",
+        "Detail the mismatch against the opponent's run defense."
       ],
       "stats_facts": [
-        "Rideshare drop-off zones have been pushed back to Mission College Blvd (Mercado Center).",
-        "Walking from Mercado Center via the Creek Trail takes ~18 minutes.",
-        "Attempting to get closer via car adds ~45 minutes of gridlock time."
+        "49ers use 21 personnel on 42% of red zone snaps (League High).",
+        "Opponent allows 5.2 yards per carry inside the 20 (30th in league).",
+        "Success rate of run vs pass inside the 10-yard line favors SF heavily."
       ],
-      "transition": "If you think you can outsmart the system with a resident pass or a hotel reservation, you need to read the fine print."
+      "transition": "While the 49ers are built to punch it in, the opponent's reliance on a 'Bend Don't Break' philosophy is a liability in this matchup."
     },
     {
-      "title": "Mythbusting: Your Pass Won't Save You",
+      "title": "The 'Bend Don't Break' Fallacy",
       "key_points": [
-        "Debunk the idea that resident passes grant thoroughfare access.",
-        "Clarify the strict restrictions around the Hilton Santa Clara.",
-        "Emphasize the lack of discretion for security personnel."
+        "Address the counter-argument that the opponent's defense tightens up.",
+        "Explain why 'bending' against SF leads to 7 points, not 3.",
+        "Contrast the volatility of RZ stats vs the consistency of SF's scheme."
       ],
       "stats_facts": [
-        "Resident passes get you into neighborhoods, not through the hard closure zone on Tasman.",
-        "The Hilton Santa Clara is inside the hard perimeter; only guests with specific credentials can enter.",
-        "Security checkpoints are enforcing a zero-tolerance policy for non-credentialed vehicles."
+        "49ers have maintained >65% RZ efficiency for three consecutive seasons.",
+        "Opponent Red Zone Defense DVOA drops significantly vs Top 10 offenses.",
+        "Quote: 'In a game projected to be a shootout, settling for 3 is a turnover.'"
       ],
-      "transition": "With the main artery severed and the loopholes closed, there is only one viable route left for locals."
+      "transition": "Understanding this efficiency gap reveals specific value in the betting markets that the public is overlooking."
     },
     {
-      "title": "The Survival Route: Lick Mill and the Creek",
+      "title": "Pricing the Disparity",
       "key_points": [
-        "Identify Lick Mill Blvd as the only functional east-west driving route.",
-        "Promote the San Tomas Aquino Creek Trail as the pedestrian bypass.",
-        "Summarize the strategy: Drop at Mercado, walk the Creek."
+        "Identify where the market has missed this angle.",
+        "Provide specific betting recommendations based on the data.",
+        "Deliver the final verdict on the game script."
       ],
       "stats_facts": [
-        "Lick Mill Blvd is the only viable east-west alternative for locals avoiding the highway.",
-        "The San Tomas Aquino Creek Trail connects Mercado directly to the stadium perimeter.",
-        "This route bypasses the entire Tasman gridlock, saving estimated 40+ minutes."
-      ]
+        "Value on 49ers Moneyline if spread < 3.",
+        "Target 'Over 2.5 Field Goals' for the opponent due to stall rate.",
+        "Target 'Anytime TD' for 49ers RBs/Fullbacks given the usage rates."
+      ],
+      "transition": "The market sees two elite teams, but the red zone math sees a blowout in efficiency."
     }
   ]
 }

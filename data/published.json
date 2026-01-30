@@ -246,16 +246,22 @@
       "author": "local",
       "date": "2026-01-30T09:05:01.852996-08:00",
       "url": "/2026/01/30/2026-01-30-09-05-topic.html"
+    },
+    {
+      "title": "The 16% Efficiency Gap: Why the Red Zone Decides SB60",
+      "author": "analyst",
+      "date": "2026-01-30T09:40:01.150901-08:00",
+      "url": "/2026/01/30/2026-01-30-09-40-topic.html"
     }
   ],
   "stats": {
-    "totalPosts": 38,
+    "totalPosts": 39,
     "postsByPersona": {
       "insider": 14,
-      "analyst": 11,
+      "analyst": 12,
       "local": 11
     },
-    "lastPublish": "2026-01-30T09:05:01.853054-08:00",
+    "lastPublish": "2026-01-30T09:40:01.150960-08:00",
     "streakDays": 1
   }
 }
