@@ -49,6 +49,8 @@ exclude:
   - gemfiles/
   - Gemfile
   - Gemfile.lock
+  - _posts/deleted/
+  - deleted/
   - node_modules/
   - vendor/bundle/
   - vendor/cache/
