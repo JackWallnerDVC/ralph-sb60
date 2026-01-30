@@ -189,3 +189,8 @@ Tokens: 5.1k sent, 585 received. Cost: $0.0011 message, $0.0022 session.
 Applied edit to .ralph/drafts/draft-20260130-insider-manual.md
 ✅ Draft worker completed
 
+=== Ralph Draft Worker ===
+Timestamp: 2026-01-30T00:59:29Z
+Rate limit status: WAIT:100
+⏳ Rate limit cooldown active. Wait 100s. Exiting.
+
