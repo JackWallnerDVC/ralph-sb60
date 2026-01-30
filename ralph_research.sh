@@ -50,7 +50,15 @@ echo "" | tee -a "$LOG_FILE"
 echo "🧠 AI Call 1/4: Analyzing trends..." | tee -a "$LOG_FILE"
 $GATEWAY wait
 $GATEWAY record
-$AIDER_CMD $FILES --message "Analyze .ralph/trends.json and .ralph/real_intel.json. Create .ralph/analysis_1_topics.json with: top 5 trending topics, their momentum (rising/falling), and which persona each fits best. Be specific with names, teams, events." 2>&1 | tee -a "$LOG_FILE"
+$AIDER_CMD $FILES --message "Analyze .ralph/trends.json and .ralph/real_intel.json. Create .ralph/analysis_1_topics.json with: top 5 trending topics, their momentum (rising/falling), and which persona each fits best.
+
+CRITICAL CONTEXT:
+- The 49ers are the HOST TEAM at Levi's Stadium - they are NOT confirmed to be competing in Super Bowl 60
+- The competing teams have NOT been determined yet
+- DO NOT assume any specific matchup
+- Focus on: stadium logistics, Bay Area prep, confirmed events, host city impact, general NFL trends
+
+Be specific with verified facts only." 2>&1 | tee -a "$LOG_FILE"
 
 # AI Call 2: Deep dive on insider angles
 echo "" | tee -a "$LOG_FILE"
@@ -64,7 +72,15 @@ echo "" | tee -a "$LOG_FILE"
 echo "🧠 AI Call 3/4: Analyst angles..." | tee -a "$LOG_FILE"
 $GATEWAY wait
 $GATEWAY record
-$AIDER_CMD $FILES .ralph/analysis_1_topics.json --message "For analyst persona: Based on analysis_1_topics.json, create .ralph/angle_analyst.json with: 3 data-driven angles, specific stats to research, betting/market insights, numbers-heavy hooks. Focus on odds, trends, historical patterns, prop bet value." 2>&1 | tee -a "$LOG_FILE"
+$AIDER_CMD $FILES .ralph/analysis_1_topics.json --message "For analyst persona: Based on analysis_1_topics.json, create .ralph/angle_analyst.json with: 3 data-driven angles, specific stats to research, betting/market insights, numbers-heavy hooks.
+
+CRITICAL CONSTRAINTS:
+- NEVER assume which teams are playing in Super Bowl 60
+- NEVER create betting odds for hypothetical matchups
+- ONLY use verified futures markets (MVP odds, championship odds from real sportsbooks)
+- Historical patterns are OK (past Super Bowl stats)
+- Host city impact is OK (Levi's Stadium facts)
+- NO fictional '49ers vs [team]' analysis" 2>&1 | tee -a "$LOG_FILE"
 
 # AI Call 4: Deep dive on local angles
 echo "" | tee -a "$LOG_FILE"
@@ -106,6 +122,13 @@ except:
 
 summary = {
     "generated_at": datetime.datetime.now(datetime.timezone.utc).astimezone(datetime.timezone(datetime.timedelta(hours=-8))).isoformat(),
+    "constraints": {
+        "49ers_status": "HOST TEAM ONLY - NOT confirmed as competing team",
+        "teams_confirmed": False,
+        "matchup_assumptions": "FORBIDDEN - Do not assume who's playing",
+        "betting_content": "FUTURES ONLY - No hypothetical game lines",
+        "allowed_topics": ["stadium logistics", "Bay Area impact", "host city prep", "verified NFL operations", "historical patterns"]
+    },
     "topics": topics,
     "angles_by_persona": {
         "insider": insider,

@@ -83,7 +83,18 @@ TIMESTAMP=$(TZ=America/Los_Angeles date +"%Y%m%d-%H%M")
 SLUG=$(python3 -c "import json; d=json.load(open('.ralph/deep_research.json')); print(d.get('slug','topic'))" 2>/dev/null || echo "topic")
 FILENAME="draft-${TIMESTAMP}-${PERSONA}-${SLUG}.md"
 
-$AIDER_CMD $RESEARCH_FILES .ralph/deep_research.json .ralph/outline.json --message "Write the complete draft post as ${FILENAME} in .ralph/drafts/. Use outline.json structure. Include YAML frontmatter: layout, title, author (from personas.json), date: PLACEHOLDER, tags, excerpt, persona, status: draft. Write 500-600 words. Use ${PERSONA} voice. NO AI words (additionally, moreover, furthermore, landscape, tapestry, delve). NO sign-offs. Specific details only." 2>&1 | tee -a "$LOG_FILE"
+$AIDER_CMD $RESEARCH_FILES .ralph/deep_research.json .ralph/outline.json --message "Write the complete draft post as ${FILENAME} in .ralph/drafts/. 
+
+CRITICAL CONSTRAINTS - VIOLATING THESE WILL INVALIDATE THE CONTENT:
+1. The 49ers are the HOST TEAM at Levi's Stadium - they are NOT confirmed to be PLAYING in Super Bowl 60
+2. NEVER assume which teams are playing in the Super Bowl
+3. NEVER create betting odds, spreads, or analysis for hypothetical matchups
+4. ONLY write about VERIFIED facts from research_summary.json and real_intel.json
+5. If writing about the 49ers, frame it as 'the host team' or 'if they qualify' - never assume they're competing
+6. NO fictional 'opponent' analysis - the competing teams are NOT determined yet
+7. Betting content ONLY on verified futures markets (MVP odds, etc.), never on hypothetical game lines
+
+Include YAML frontmatter: layout, title, author (from personas.json), date: PLACEHOLDER, tags, excerpt, persona, status: draft. Write 500-600 words. Use ${PERSONA} voice. NO AI words (additionally, moreover, furthermore, landscape, tapestry, delve). NO sign-offs. Specific details only." 2>&1 | tee -a "$LOG_FILE"
 
 # Update state
 NEW_COUNT=$(ls -1 "$DRAFTS_DIR"/draft-*.md 2>/dev/null | wc -l | tr -d '[:space:]')
