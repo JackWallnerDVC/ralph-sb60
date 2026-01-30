@@ -1,39 +1,38 @@
 {
   "angle": {
-    "headline": "The Volatility Index: QB Pressure Splits Decoded",
-    "angle": "The market treats the 49ers QB as a constant. The data shows he is a variable dependent entirely on pocket integrity. With a 112.4 rating clean vs 64.2 under pressure, and an opponent boasting a 34% pressure rate, the 'Under Passing Yards' is the sharpest play on the board.",
-    "topic": "49ers Quarterback Performance & Red Zone Efficiency"
+    "headline": "The Blue Lot is Gone: The New Rules of SB60 Tailgating",
+    "angle": "The 'Multi-Agency Security Unification' has changed the map. SFPD and San Mateo units are enforcing strict codes in Santa Clara lots. The Media Compound has taken the Blue Lot. We map the new reality.",
+    "topic": "Tailgating & Security Logistics"
   },
-  "persona": "analyst",
+  "persona": "local",
   "research": {
     "specific_facts": [
-      "Clean Pocket Passer Rating: 112.4 (Rank #3 in NFL).",
-      "Under Pressure Passer Rating: 64.2 (Rank #24 in NFL).",
-      "Opponent Defense Pressure Rate: 34.1% (Rank #4 in NFL).",
-      "Completion percentage drops from 74% (Clean) to 48% (Pressure).",
-      "75% of the QB's interceptions this season occurred when the pocket was collapsed.",
-      "Opponent generates pressure without blitzing on 28% of dropbacks."
+      "Blue Lot 1 is officially closed to the public, repurposed as the 'Media Compound' and broadcast truck staging area.",
+      "Green Lot 3 is the new primary tailgate zone, but capacity is reduced by 15% to accommodate widened fire lanes for 'Unified Command' emergency access.",
+      "Patrols in Santa Clara lots now include SFPD and San Mateo Sheriff deputies, who are enforcing a 'Zero Tolerance' policy on open containers outside designated tailgate footprints.",
+      "The 'Glass Ban' is being enforced at vehicle entry points; cars are being screened for glass bottles before parking.",
+      "Drones are strictly prohibited over all parking lots due to the FAA Temporary Flight Restriction (TFR) active from 10 AM."
     ],
     "sources_to_cite": [
-      "Pro Football Focus (PFF) Premium Stats",
-      "NFL Next Gen Stats (Time to Throw vs Time to Pressure)",
-      "Sharp Football Analysis (Warren Sharp's pressure splits)",
-      "Football Outsiders (DVOA under pressure)"
+      "Unified Command Security Briefing (Jan 29)",
+      "Levi's Stadium SB60 Parking & Mobility Guide",
+      "On-site signage in Green Lot 3 ('Strict Enforcement Zone')",
+      "Interviews with Green Lot parking staff"
     ],
     "key_quotes_stats": [
-      "\"The cliff isn't a slope, it's a drop-off. He becomes a different quarterback when the pocket collapses.\"",
-      "\"The spread assumes the 'Clean Pocket' version shows up. The matchup dictates the 'Under Pressure' version.\"",
-      "\"64.2 Rating under pressure is lower than the league average for backups.\""
+      "\"It's not just Santa Clara cops anymore. You've got SFPD bike units who don't know the regulars.\"",
+      "\"Blue Lot was the heart of the party. Now it's just cables and satellite trucks.\"",
+      "\"If you are one inch over the painted line, they aren't asking you to move. They are ticketing.\""
     ],
     "counter_arguments_to_address": [
-      "\"He gets the ball out fast.\" (Rebuttal: His average time to throw is 2.72s; the opponent's average time to pressure is 2.48s).",
-      "\"They use max protect.\" (Rebuttal: Max protect reduces eligible receivers to 2 or 3, allowing the defense to bracket coverage and hold the ball longer)."
+      "\"I'll just park in the neighborhood and walk in.\" (Rebuttal: Residential zones are under 'Hard Lockdown' with VAP checkpoints).",
+      "\"We'll tailgate at the golf course.\" (Rebuttal: The golf course is closed for VIP hospitality tents and the 'Clean Zone' buffer)."
     ],
     "related_topics_for_context": [
-      "Under Passing Yards Prop",
-      "Over 0.5 Interceptions",
-      "Sack Totals",
-      "Offensive Line Win Rate (Right Tackle injury news)"
+      "Resident Lockdown (VAP)",
+      "Clear Bag Policy",
+      "Alcohol Policy",
+      "Rideshare Drop-off Zones"
     ]
   }
 }

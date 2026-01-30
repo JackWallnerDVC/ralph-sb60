@@ -276,16 +276,22 @@
       "author": "analyst",
       "date": "2026-01-30T11:35:00.904068-08:00",
       "url": "/2026/01/30/2026-01-30-11-35-topic.html"
+    },
+    {
+      "title": "Eating on the Edge: Where to Find Food When Delivery Dies",
+      "author": "local",
+      "date": "2026-01-30T14:06:08.111165-08:00",
+      "url": "/2026/01/30/2026-01-30-14-06-topic.html"
     }
   ],
   "stats": {
-    "totalPosts": 43,
+    "totalPosts": 44,
     "postsByPersona": {
       "insider": 14,
       "analyst": 14,
-      "local": 13
+      "local": 14
     },
-    "lastPublish": "2026-01-30T11:35:00.904132-08:00",
+    "lastPublish": "2026-01-30T14:06:08.111206-08:00",
     "streakDays": 1
   }
 }

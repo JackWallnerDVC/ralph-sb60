@@ -312,3 +312,101 @@ Target persona: analyst (balancing distribution)
 Target persona: analyst (balancing distribution)
 🎯 Running evaluate_and_publish...
 🎯 Running evaluate_and_publish...
+📋 Evaluating 5 drafts for virality...
+
+🏆 WINNER: draft-20260130-1047-analyst-topic.md
+       Score: 100/100 | Persona: analyst
+       Title: The Kubiak Continuity: Betting the First 15 Plays...
+       • Trend alignment: +20
+       • Number hook: +5
+       • Optimal length (645 words): +10
+
+  #2: draft-20260130-1104-analyst-topic.md
+       Score: 100/100 | Persona: analyst
+       Title: The 5.8 Point Gap: Why the Market Missed the Red Zone Mismat...
+       • Trend alignment: +20
+       • Question hook: +10
+       • Number hook: +5
+
+  #3: draft-20260130-1845-insider-rf-war-room.md
+       Score: 100/100 | Persona: insider
+       Title: The RF War Room: Hunting Rogue Signals at SB60...
+       • Trend alignment: +30
+       • Number hook: +5
+       • Optimal length (416 words): +10
+
+  #4: draft-20260130-1117-analyst-topic.md
+       Score: 100/100 | Persona: analyst
+       Title: The Kubiak Continuity: Why the First Quarter is Mispriced...
+       • Trend alignment: +15
+       • Question hook: +10
+       • Optimal length (753 words): +10
+
+  #5: draft-20260130-1131-analyst-topic.md
+       Score: 95/100 | Persona: analyst
+       Title: The Volatility Index: QB Pressure Splits Decoded...
+       • Optimal length (662 words): +10
+       • Recent draft: +5
+       • High specificity (7 details): +10
+
+🎯 Selected: The Kubiak Continuity: Betting the First 15 Plays
+   Virality score: 100/100
+
+📝 Humanizing: draft-20260130-1047-analyst-topic.md
+✅ Published: 2026-01-30-11-35-topic.md
+📦 Archived: draft-20260130-1104-analyst-topic.md
+📦 Archived: draft-20260130-1131-analyst-topic.md
+📦 Archived: draft-20260130-1845-insider-rf-war-room.md
+📦 Archived: draft-20260130-1117-analyst-topic.md
+🚀 Pushed: https://jackwallnerdvc.github.io/ralph-sb60/
+📋 Evaluating 5 drafts for virality...
+
+🏆 WINNER: draft-20260130-1047-analyst-topic.md
+       Score: 100/100 | Persona: analyst
+       Title: The Kubiak Continuity: Betting the First 15 Plays...
+       • Trend alignment: +20
+       • Number hook: +5
+       • Optimal length (645 words): +10
+
+  #2: draft-20260130-1104-analyst-topic.md
+       Score: 100/100 | Persona: analyst
+       Title: The 5.8 Point Gap: Why the Market Missed the Red Zone Mismat...
+       • Trend alignment: +20
+       • Question hook: +10
+       • Number hook: +5
+
+  #3: draft-20260130-1845-insider-rf-war-room.md
+       Score: 100/100 | Persona: insider
+       Title: The RF War Room: Hunting Rogue Signals at SB60...
+       • Trend alignment: +30
+       • Number hook: +5
+       • Optimal length (416 words): +10
+
+  #4: draft-20260130-1117-analyst-topic.md
+       Score: 100/100 | Persona: analyst
+       Title: The Kubiak Continuity: Why the First Quarter is Mispriced...
+       • Trend alignment: +15
+       • Question hook: +10
+       • Optimal length (753 words): +10
+
+  #5: draft-20260130-1131-analyst-topic.md
+       Score: 95/100 | Persona: analyst
+       Title: The Volatility Index: QB Pressure Splits Decoded...
+       • Optimal length (662 words): +10
+       • Recent draft: +5
+       • High specificity (7 details): +10
+
+🎯 Selected: The Kubiak Continuity: Betting the First 15 Plays
+   Virality score: 100/100
+
+📝 Humanizing: draft-20260130-1047-analyst-topic.md
+✅ Published: 2026-01-30-11-35-topic.md
+📦 Archived: draft-20260130-1104-analyst-topic.md
+📦 Archived: draft-20260130-1131-analyst-topic.md
+📦 Archived: draft-20260130-1845-insider-rf-war-room.md
+📦 Archived: draft-20260130-1117-analyst-topic.md
+🚀 Pushed: https://jackwallnerdvc.github.io/ralph-sb60/
+✅ Publish cycle complete at 11:35 AM PST
+✅ Publish cycle complete at 11:35 AM PST
+
+

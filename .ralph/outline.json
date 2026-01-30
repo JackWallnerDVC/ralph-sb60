@@ -1,72 +1,75 @@
 {
-  "hook": "The betting market treats the 49ers quarterback as a constant, but the data reveals he is a variable entirely dependent on one specific condition: pocket integrity.",
+  "hook": "If you are pulling up to Levi's Stadium expecting the usual Blue Lot party, you are going to be staring at a satellite truck instead of a grill.",
   "sections": [
     {
-      "title": "The Tale of Two Quarterbacks",
+      "title": "The Death of the Blue Lot",
       "key_points": [
-        "Contrast the 'Clean Pocket' MVP candidate with the 'Under Pressure' liability.",
-        "Establish the 'Dr. Jekyll and Mr. Hyde' nature of his performance.",
-        "Introduce the core metric: Passer Rating Differential."
+        "Blue Lot 1 is officially closed to the public.",
+        "The area has been repurposed as the 'Media Compound'.",
+        "The traditional heart of the 49ers tailgate scene is now a parking lot for broadcast rigs."
       ],
       "stats_facts": [
-        "Clean Pocket Passer Rating: 112.4 (Rank #3 in NFL).",
-        "Under Pressure Passer Rating: 64.2 (Rank #24 in NFL).",
-        "\"The drop-off isn't a slope; it's a cliff.\""
+        "Occupied by 50+ satellite trucks and cable runs.",
+        "Zero public access allowed.",
+        "Displaced tailgaters forced into the Green Lot ecosystem."
       ],
-      "transition": "This statistical cliff wouldn't matter if he were facing a mediocre pass rush, but he is walking into a buzzsaw."
+      "transition": "With the heart of the tailgate ripped out, the pulse has moved to the Green Lot—but the squeeze is on."
     },
     {
-      "title": "The Opponent's Pressure Profile",
+      "title": "The Green Lot Squeeze",
       "key_points": [
-        "Analyze the opponent's ability to generate pressure.",
-        "Highlight the 'Pressure without Blitzing' factor.",
-        "Explain why this specific matchup is the worst-case scenario for the 49ers."
+        "Green Lot 3 is the new primary tailgate zone.",
+        "Capacity has been slashed to accommodate emergency access.",
+        "Fire lanes are being enforced with zero discretion."
       ],
       "stats_facts": [
-        "Opponent Defense Pressure Rate: 34.1% (Rank #4 in NFL).",
-        "They generate pressure without blitzing on 28% of dropbacks."
+        "15% reduction in total parking spots.",
+        "Widened lanes for 'Unified Command' vehicles.",
+        "Strict 'One Spot, One Car' enforcement—no spilling into empty spaces."
       ],
-      "transition": "The common narrative is that he gets the ball out fast enough to negate this rush, but the timing metrics tell a different story."
+      "transition": "Finding a spot is hard enough, but keeping your party running requires navigating a new level of law enforcement."
     },
     {
-      "title": "The Timing Mismatch",
+      "title": "The Multi-Agency Crackdown",
       "key_points": [
-        "Debunk the 'Quick Release' myth.",
-        "Compare 'Time to Throw' vs 'Time to Pressure'.",
-        "Explain why the internal clock won't save him this Sunday."
+        "Security is no longer just local Santa Clara PD.",
+        "SFPD and San Mateo units are patrolling the lots.",
+        "The 'regular' relationship with local cops does not apply here."
       ],
       "stats_facts": [
-        "Average Time to Throw: 2.72 seconds.",
-        "Opponent Average Time to Pressure: 2.48 seconds.",
-        "\"That 0.24-second deficit is where drives die.\""
+        "SFPD bike units patrolling Green Lot 3.",
+        "Zero Tolerance policy on open containers outside designated footprints.",
+        "Immediate ticketing for lane violations, no warnings."
       ],
-      "transition": "When the timing fails and the pocket collapses, the decision-making crumbles with it."
+      "transition": "The police aren't the only ones checking your setup; the entry gates have implemented a new layer of screening."
     },
     {
-      "title": "The Turnover Trap",
+      "title": "The Glass and Drone Ban",
       "key_points": [
-        "Connect pressure to turnover-worthy plays.",
-        "Analyze the interception distribution.",
-        "Discuss the 'Max Protect' fallacy (fewer receivers = tighter windows)."
+        "Vehicle entry points are screening for glass bottles.",
+        "The airspace is strictly closed.",
+        "Confiscation bins are already filling up at the lot entrances."
       ],
       "stats_facts": [
-        "75% of his interceptions this season occurred when the pocket was collapsed.",
-        "Completion percentage drops from 74% (Clean) to 48% (Pressure)."
+        "Trunk checks active for glass containers.",
+        "FAA Temporary Flight Restriction (TFR) active from 10 AM.",
+        "Drones will be grounded and operators detained."
       ],
-      "transition": "This volatility creates a massive edge in the prop betting market that the books haven't fully adjusted for."
+      "transition": "If you think you can outsmart the system by parking in the neighborhood and walking in, you are walking into a trap."
     },
     {
-      "title": "The Betting Edge",
+      "title": "The Perimeter Trap",
       "key_points": [
-        "Synthesize the data into actionable bets.",
-        "Focus on 'Under Passing Yards' and 'Interception Props'.",
-        "Final verdict on the risk profile."
+        "Residential neighborhoods are under 'Hard Lockdown'.",
+        "The Golf Course is closed for VIP hospitality.",
+        "There is no 'overflow' parking this year."
       ],
       "stats_facts": [
-        "If pressure rate > 30%, the 'Under Passing Yards' hits at an 80% clip.",
-        "Value on 'Over 0.5 Interceptions' and 'Under Passing Yards'."
+        "Residential zones require Vehicle Access Pass (VAP).",
+        "Golf course designated as 'Clean Zone' buffer.",
+        "Towing enforced immediately in surrounding apartment complexes."
       ],
-      "transition": "Don't bet on the player; bet on the pressure."
+      "transition": "This year, the tailgate isn't a party—it's a tactical operation, so pack light, follow the rules, or watch the game from home."
     }
   ]
 }

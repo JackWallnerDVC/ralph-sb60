@@ -1,41 +1,40 @@
 {
   "local_angles": [
     {
-      "angle": "The Tasman Trap: Surviving Phase II/III Closures",
-      "description": "The City just dropped the hammer: Tasman Drive is locked down from Jan 28 to Feb 13 (Phase II & III). If you usually drive down Tasman to get to the Green Lot, you're driving into a wall. We're mapping the survival routes for locals and visitors alike.",
+      "angle": "The Tasman Lockdown: Surviving Phase II & III",
+      "description": "The City of Santa Clara just confirmed the nightmare: Tasman Drive is officially closed from Jan 28 to Feb 13. This isn't just game day traffic; it's a two-week infrastructure lockdown. If you rely on the VTA drop-off or rideshare at the main gate, you are walking into a bottleneck.",
       "venues": [
-        "VTA Great America Station (The only way through)",
-        "Mercado Shopping Center (The drop-off hack)",
-        "Lick Mill Blvd (The secret back road)",
-        "San Tomas Aquino Creek Trail (The walking bypass)"
+        "San Tomas Aquino Creek Trail (The pedestrian bypass)",
+        "Mercado Shopping Center (The smart drop-off)",
+        "Lick Mill Blvd (The local escape route)",
+        "VTA Great America Station (The choke point)"
       ],
-      "insider_tip": "Forget rideshare drop-offs at the front gate. Have your driver drop you at the Mercado center on Mission College Blvd. Grab a burger, then walk the Creek Trail north. You bypass the entire Tasman gridlock.",
-      "fan_hook": "The map you used last year is worthless. Here is how to beat the Phase III lockdown."
+      "insider_tip": "Avoid the 'Vehicle Detour' signs like the plague. Instead, get dropped at the Mercado center on Mission College Blvd, grab a burger at In-N-Out, and walk the Creek Trail north. You skip the entire security checkpoint queue at Tasman.",
+      "fan_hook": "The road closures started January 28th. Here is the map to beat the Phase III gridlock."
     },
     {
-      "angle": "Eating on the Edge: Dining Outside the Security Zone",
-      "description": "With the 'Soft Perimeter' going up, delivery drivers (UberEats, DoorDash) are getting turned away at checkpoints. You need to eat where the roads are still open. We're highlighting the best spots just outside the security cordon in Santa Clara Square and Rivermark.",
+      "angle": "The Clean Zone Diet: Where to Eat",
+      "description": "With the 'Clean Zone' enforcement hardening the perimeter, delivery drivers are being turned away at the checkpoints. The stadium area is now a food desert unless you have a credential. We are mapping the 'Calories vs. Checkpoints' strategy for fans who want to eat real food before entering the bubble.",
       "venues": [
-        "Il Fornaio (Santa Clara Square - Pre-game carb load)",
-        "Puesto (Santa Clara Square - Tacos before kickoff)",
-        "Fleming's (Rivermark - Post-game celebration)",
-        "In-N-Out (Mercado - The California staple)",
+        "Santa Clara Square (Il Fornaio, Puesto)",
+        "Rivermark Plaza (Fleming's, casual spots)",
+        "SmokeEaters (The wing challenge)",
         "Whole Foods (The tailgate supply run)"
       ],
-      "insider_tip": "Santa Clara Square is the sweet spot. It's walkable to the stadium (20 mins) but completely outside the vehicle checkpoints. Park there early, eat well, and walk in.",
-      "fan_hook": "Don't get trapped in a food desert. Here is where to feast before you breach the perimeter."
+      "insider_tip": "Santa Clara Square is the golden zone. It is technically outside the vehicle hard perimeter, so you can park or Uber there easily, but it's a short 15-minute walk to the stadium gates. It's the best pre-game meetup spot that doesn't require a ticket.",
+      "fan_hook": "Don't get stuck eating $20 popcorn for dinner. Here are the best tables just outside the security wall."
     },
     {
-      "angle": "Tailgating 2.0: The Post-Construction Landscape",
-      "description": "The 'Infrastructure Impact' isn't just bureaucratic speak—it means the media compound has eaten half of Blue Lot 1. We're breaking down where the real tailgate action is shifting for SB60.",
+      "angle": "Tailgating Under Watch: The Multi-Agency Shift",
+      "description": "The 'Multi-Agency Security Unification' is in effect, meaning SFPD and San Mateo units are patrolling Santa Clara lots. The vibe is stricter, and the Media Compound has swallowed half of Blue Lot 1. The party has moved, and the rules have tightened.",
       "venues": [
-        "Red Lot 1 (The new premium zone)",
-        "Green Lot 3 (The rowdy section)",
-        "Hilton Santa Clara (The indoor tailgate)",
-        "David's Banquet Hall (The classic overflow)"
+        "Green Lot 3 (The new center of gravity)",
+        "Red Lot 1 (Premium/Corporate spillover)",
+        "Hilton Santa Clara (The indoor alternative)",
+        "David's Banquet Hall (The overflow lot)"
       ],
-      "insider_tip": "If you have a Blue Lot pass, check the map again. The broadcast trucks have taken the prime spots near the gate. Shift your setup to the back rows of Green Lot 3 for more space and less hassle from security patrols.",
-      "fan_hook": "The media trucks took our spots, but they can't take our party. Here is the new tailgate game plan."
+      "insider_tip": "If you are in Green Lot 3, keep the aisles clear. The new multi-agency patrols are strictly enforcing fire lanes this year due to the density. The 'unwritten rules' of past seasons regarding open containers on the sidewalk are gone.",
+      "fan_hook": "The cops are united and the Blue Lot is gone. Here is where the real tailgate is happening for SB60."
     }
   ]
 }

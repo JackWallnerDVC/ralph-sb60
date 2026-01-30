@@ -1,34 +1,34 @@
 {
   "top_topics": [
     {
-      "topic": "Super Bowl LX Phase II/III Road Closures & Tasman Drive Lockdown",
+      "topic": "Tasman Drive Lockdown & Road Closures",
       "momentum": "rising",
       "persona": "local",
-      "reason": "Specific intel on Tasman Drive closures starting Jan 28 directly impacts the 'Local' persona's audience (residents/commuters). Matches the 'Bay Area prepping' trend."
+      "reason": "Confirmed Jan 28 start date for Tasman Drive closures and vehicle detours will disrupt Santa Clara traffic patterns (Intel #1)."
     },
     {
-      "topic": "Multi-Agency Security & Emergency Preparedness for SB60",
+      "topic": "Multi-Agency Security Unification",
       "momentum": "rising",
       "persona": "insider",
-      "reason": "Intel regarding Santa Clara, San Mateo, and SF agencies uniting for security protocols fits the 'Insider' focus on stadium logistics and security operations."
+      "reason": "Santa Clara, San Mateo, and SF agencies have formally united for emergency preparedness, establishing the security hierarchy (Intel #2)."
     },
     {
-      "topic": "Klay Kubiak Retained as 49ers Offensive Coordinator",
+      "topic": "Host Team Coaching Stability (Kubiak)",
       "momentum": "stable",
       "persona": "insider",
-      "reason": "Confirmed report of Kubiak staying provides specific front-office insight, a core topic for the 'Insider' persona."
+      "reason": "Host team (49ers) confirms retention of Offensive Coordinator Klay Kubiak, settling front-office speculation in the host market (Intel #6)."
     },
     {
-      "topic": "49ers Quarterback Performance & Red Zone Efficiency",
+      "topic": "Playoff Bracket Implications",
       "momentum": "rising",
       "persona": "analyst",
-      "reason": "The 'Morning Report' highlighting quarterbacks and the 'RedZone' mention combined with the 'Playoff picture' trend signals a need for performance analysis."
+      "reason": "Search trends show increasing focus on the playoff picture as the field narrows to determine who travels to Levi's Stadium (Trend #2)."
     },
     {
-      "topic": "Levi's Stadium Perimeter & Infrastructure Impact",
+      "topic": "Levi's Stadium Perimeter Hardening",
       "momentum": "rising",
       "persona": "local",
-      "reason": "The detailed timeline (Jan 28 - Feb 13) for infrastructure changes at Levi's Stadium is critical information for the 'Local' persona to convey regarding daily life disruption."
+      "reason": "Physical infrastructure changes and public safety closures around the stadium are now confirmed to last through Feb 13 (Intel #1)."
     }
   ]
 }
