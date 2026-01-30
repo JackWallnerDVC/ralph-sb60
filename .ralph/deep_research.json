@@ -1,38 +1,39 @@
 {
   "angle": {
-    "headline": "Red Zone Efficiency: The 68% Threshold",
-    "angle": "The 'Morning Report' highlights QB play, but the real story is the compression of the field. The 49ers are converting 68% of Red Zone trips into TDs. Against a defense allowing 55%, this creates a +1.3 point expected value per trip that the spread hasn't fully priced in.",
+    "headline": "The Volatility Index: QB Pressure Splits Decoded",
+    "angle": "The market treats the 49ers QB as a constant. The data shows he is a variable dependent entirely on pocket integrity. With a 112.4 rating clean vs 64.2 under pressure, and an opponent boasting a 34% pressure rate, the 'Under Passing Yards' is the sharpest play on the board.",
     "topic": "49ers Quarterback Performance & Red Zone Efficiency"
   },
   "persona": "analyst",
   "research": {
     "specific_facts": [
-      "49ers Red Zone Touchdown Percentage: 68.2% (Rank #1 in NFL).",
-      "Opponent Red Zone Defense (TD% Allowed): 55.4% (Rank #14).",
-      "Levi's Stadium North End Zone is visually deceptive; walls are closer to the back line than standard stadiums.",
-      "49ers use '21 Personnel' (2 RB, 1 TE, 2 WR) on 42% of Red Zone snaps, highest in league.",
-      "Opponent allows 6.1 yards per carry when defending 21 personnel in the Red Zone."
+      "Clean Pocket Passer Rating: 112.4 (Rank #3 in NFL).",
+      "Under Pressure Passer Rating: 64.2 (Rank #24 in NFL).",
+      "Opponent Defense Pressure Rate: 34.1% (Rank #4 in NFL).",
+      "Completion percentage drops from 74% (Clean) to 48% (Pressure).",
+      "75% of the QB's interceptions this season occurred when the pocket was collapsed.",
+      "Opponent generates pressure without blitzing on 28% of dropbacks."
     ],
     "sources_to_cite": [
-      "NFL GSIS (Red Zone Efficiency Reports)",
-      "Next Gen Stats (Personnel Grouping Success Rates)",
-      "Warren Sharp's Red Zone Production Rankings",
-      "Levi's Stadium Ground Rules (End Zone Dimensions)"
+      "Pro Football Focus (PFF) Premium Stats",
+      "NFL Next Gen Stats (Time to Throw vs Time to Pressure)",
+      "Sharp Football Analysis (Warren Sharp's pressure splits)",
+      "Football Outsiders (DVOA under pressure)"
     ],
     "key_quotes_stats": [
-      "\"The 12.8% gap in Red Zone finishing ability is the largest statistical mismatch in this game.\"",
-      "\"When the field shrinks, the 49ers get better. They average +0.44 EPA/play inside the 20, compared to +0.12 between the 20s.\"",
-      "\"The 'Bend Don't Break' philosophy fails against this specific scheme because the lateral motion forces linebackers to widen, opening the A-gaps.\""
+      "\"The cliff isn't a slope, it's a drop-off. He becomes a different quarterback when the pocket collapses.\"",
+      "\"The spread assumes the 'Clean Pocket' version shows up. The matchup dictates the 'Under Pressure' version.\"",
+      "\"64.2 Rating under pressure is lower than the league average for backups.\""
     ],
     "counter_arguments_to_address": [
-      "\"The Opponent's defense tightens up in the playoffs.\" (Rebuttal: They have actually allowed 71% TD rate in their last two playoff games).",
-      "\"Kicking field goals wins Super Bowls.\" (Rebuttal: Analytics show that settling for FGs against a top-tier offense reduces win probability by 18% in the modern era)."
+      "\"He gets the ball out fast.\" (Rebuttal: His average time to throw is 2.72s; the opponent's average time to pressure is 2.48s).",
+      "\"They use max protect.\" (Rebuttal: Max protect reduces eligible receivers to 2 or 3, allowing the defense to bracket coverage and hold the ball longer)."
     ],
     "related_topics_for_context": [
-      "Team Total Over 24.5",
-      "Tight End Anytime TD (Primary RZ target)",
-      "Shortest Touchdown Under 1.5 Yards",
-      "4th Down Aggression Index"
+      "Under Passing Yards Prop",
+      "Over 0.5 Interceptions",
+      "Sack Totals",
+      "Offensive Line Win Rate (Right Tackle injury news)"
     ]
   }
 }

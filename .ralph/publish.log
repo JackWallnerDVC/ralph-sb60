@@ -302,3 +302,13 @@ Target persona: analyst (balancing distribution)
 ✅ Publish cycle complete at 9:40 AM PST
 
 
+=== Ralph Threshold Publish Triggered ===
+=== Ralph Threshold Publish Triggered ===
+Timestamp: 2026-01-30T11:35:00 PST
+Timestamp: 2026-01-30T11:35:00 PST
+Drafts in queue: 5 (threshold: 5)
+Drafts in queue: 5 (threshold: 5)
+Target persona: analyst (balancing distribution)
+Target persona: analyst (balancing distribution)
+🎯 Running evaluate_and_publish...
+🎯 Running evaluate_and_publish...

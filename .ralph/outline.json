@@ -1,75 +1,72 @@
 {
-  "hook": "While the media obsesses over quarterback duels, the Super Bowl will actually be decided by a 12.8% statistical gap that appears only inside the 20-yard line.",
+  "hook": "The betting market treats the 49ers quarterback as a constant, but the data reveals he is a variable entirely dependent on one specific condition: pocket integrity.",
   "sections": [
     {
-      "title": "The 12.8% Mismatch",
+      "title": "The Tale of Two Quarterbacks",
       "key_points": [
-        "Define the massive efficiency gap between the 49ers offense and the opponent's defense.",
-        "Explain why Red Zone efficiency is more predictive than total yardage.",
-        "Highlight the Expected Value (EV) difference per trip."
+        "Contrast the 'Clean Pocket' MVP candidate with the 'Under Pressure' liability.",
+        "Establish the 'Dr. Jekyll and Mr. Hyde' nature of his performance.",
+        "Introduce the core metric: Passer Rating Differential."
       ],
       "stats_facts": [
-        "49ers Red Zone Touchdown Percentage: 68.2% (Rank #1).",
-        "Opponent Red Zone Defense: 55.4% (Rank #14).",
-        "This creates a +1.3 point expected value per trip not priced into the spread."
+        "Clean Pocket Passer Rating: 112.4 (Rank #3 in NFL).",
+        "Under Pressure Passer Rating: 64.2 (Rank #24 in NFL).",
+        "\"The drop-off isn't a slope; it's a cliff.\""
       ],
-      "transition": "But raw percentages only tell half the story; the venue itself amplifies this advantage."
+      "transition": "This statistical cliff wouldn't matter if he were facing a mediocre pass rush, but he is walking into a buzzsaw."
     },
     {
-      "title": "The Geometry of Levi's Stadium",
+      "title": "The Opponent's Pressure Profile",
       "key_points": [
-        "Analyze the physical constraints of the North End Zone.",
-        "Explain how visual deception impacts decision making.",
-        "Discuss why this favors the offense over the defense."
+        "Analyze the opponent's ability to generate pressure.",
+        "Highlight the 'Pressure without Blitzing' factor.",
+        "Explain why this specific matchup is the worst-case scenario for the 49ers."
       ],
       "stats_facts": [
-        "Levi's North End Zone measures just 8 yards deep (standard is 10).",
-        "Visual walls are closer to the back line, altering QB depth perception.",
-        "Compressed field forces linebackers to freeze, favoring quick-game concepts."
+        "Opponent Defense Pressure Rate: 34.1% (Rank #4 in NFL).",
+        "They generate pressure without blitzing on 28% of dropbacks."
       ],
-      "transition": "In this compressed space, personnel groupings become the ultimate cheat code."
+      "transition": "The common narrative is that he gets the ball out fast enough to negate this rush, but the timing metrics tell a different story."
     },
     {
-      "title": "The '21 Personnel' Cheat Code",
+      "title": "The Timing Mismatch",
       "key_points": [
-        "Break down the 49ers' unique usage of 2 RB, 1 TE, 2 WR sets.",
-        "Explain how this specific grouping exploits the opponent's defensive rules.",
-        "Connect the run game success to the pass game setup."
+        "Debunk the 'Quick Release' myth.",
+        "Compare 'Time to Throw' vs 'Time to Pressure'.",
+        "Explain why the internal clock won't save him this Sunday."
       ],
       "stats_facts": [
-        "49ers use '21 Personnel' on 42% of Red Zone snaps (Highest in NFL).",
-        "Opponent allows 6.1 yards per carry when defending 21 personnel in the Red Zone.",
-        "Lateral motion forces A-gap expansion."
+        "Average Time to Throw: 2.72 seconds.",
+        "Opponent Average Time to Pressure: 2.48 seconds.",
+        "\"That 0.24-second deficit is where drives die.\""
       ],
-      "transition": "This specific weakness in the defensive front creates a betting opportunity that the books have overlooked."
+      "transition": "When the timing fails and the pocket collapses, the decision-making crumbles with it."
     },
     {
-      "title": "Debunking the 'Defense Travels' Myth",
+      "title": "The Turnover Trap",
       "key_points": [
-        "Address the narrative that the opponent's defense tightens in playoffs.",
-        "Use recent data to counter the reputation.",
-        "Compare EPA efficiency inside vs. outside the 20."
+        "Connect pressure to turnover-worthy plays.",
+        "Analyze the interception distribution.",
+        "Discuss the 'Max Protect' fallacy (fewer receivers = tighter windows)."
       ],
       "stats_facts": [
-        "Opponent has allowed a 71% TD rate in their last two playoff games.",
-        "49ers average +0.44 EPA/play inside the 20 vs +0.12 between the 20s.",
-        "Settling for FGs reduces win probability by 18%."
+        "75% of his interceptions this season occurred when the pocket was collapsed.",
+        "Completion percentage drops from 74% (Clean) to 48% (Pressure)."
       ],
-      "transition": "When you combine the math, the geography, and the personnel, the betting value becomes clear."
+      "transition": "This volatility creates a massive edge in the prop betting market that the books haven't fully adjusted for."
     },
     {
-      "title": "The Betting Implications",
+      "title": "The Betting Edge",
       "key_points": [
-        "Translate the efficiency gap into specific wagers.",
-        "Identify the player props most correlated with this data.",
-        "Final recommendation on the Team Total."
+        "Synthesize the data into actionable bets.",
+        "Focus on 'Under Passing Yards' and 'Interception Props'.",
+        "Final verdict on the risk profile."
       ],
       "stats_facts": [
-        "Primary Target: 49ers Team Total Over (based on RZ conversion rate).",
-        "Prop Target: Tight End Anytime TD (primary target in compressed zones).",
-        "Avoid: Field Goal props (aggressive 4th down math favors TDs)."
+        "If pressure rate > 30%, the 'Under Passing Yards' hits at an 80% clip.",
+        "Value on 'Over 0.5 Interceptions' and 'Under Passing Yards'."
       ],
-      "transition": "The spread is tight, but the Red Zone math declares a clear winner."
+      "transition": "Don't bet on the player; bet on the pressure."
     }
   ]
 }
