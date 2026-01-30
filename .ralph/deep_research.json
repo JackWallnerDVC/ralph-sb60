@@ -1,37 +1,36 @@
 {
   "angle": {
-    "headline": "The 'Hard Perimeter' Supply Chain Crisis",
-    "angle": "The Tasman Drive lockdown isn't just traffic; it's a logistics nightmare. I'm hearing that the 'Clean Zone' enforcement is so strict that three major food vendors were turned away this morning because their delivery trucks had non-sponsor logos. Operations managers are now frantically renting unbranded white vans to shuttle tons of perishables into the stadium before the hard freeze tonight.",
-    "topic": "Tasman Drive Lockdown & Road Closures"
+    "headline": "The 'Badge War' at the Tunnel",
+    "angle": "Sources inside the Emergency Operations Center tell me the 'Unified Command' isn't as unified as the press release suggests. The Secret Service has quietly assumed 'Gold Level' control over the field access tunnels, overriding Santa Clara PD's credentialing list. I'm hearing team security directors are furious because their standard all-access passes are being flagged at checkpoints, requiring a secondary biometric scan that wasn't in the briefing packet.",
+    "topic": "Multi-Agency Security Unification"
   },
   "persona": "insider",
   "research": {
     "specific_facts": [
-      "Three major food vendors were denied entry at the Tasman Drive 'Checkpoint Charlie' this morning due to 'Ambush Marketing' violations on their delivery fleets.",
-      "The specific violation: Vehicle wraps displaying non-sponsor logos (e.g., a local bakery truck with a mascot, a produce distributor with a non-approved fruit brand).",
-      "The 'Hard Freeze' for all stadium logistics is tonight at 11:59 PM. After that, the perimeter is sealed.",
-      "Local rental agencies (Enterprise, Penske) in San Jose and Santa Clara report a complete run on unbranded white cargo vans.",
-      "NFL 'Brand Protection' officers are stationed alongside security at the delivery gates."
+      "At 14:00 PST today, Secret Service details assumed 'Gold Level' control of the Southeast and Southwest field tunnels, 12 hours ahead of the scheduled handover.",
+      "Standard 'All-Access' credentials issued by the NFL and Santa Clara PD are currently triggering 'Invalid' red lights at tunnel checkpoints without a secondary biometric overlay.",
+      "Team Security Directors for both the host 49ers and the visiting AFC team are currently in an emergency meeting at the EOC (Emergency Operations Center) trying to resolve access for equipment staff.",
+      "The biometric scanners are experiencing latency issues due to the high-density RF environment in the stadium bowels."
     ],
     "sources_to_cite": [
-      "Logistics Manager for a stadium concessionaire (anonymous)",
-      "Leaked memo: 'Vehicle Brand Neutrality Standards for SB60'",
-      "Security staff at Gate A (loading dock)",
-      "Rental agency counter staff in San Jose"
+      "AFC Team Logistics Coordinator (anonymous)",
+      "Leaked internal memo: 'Federal Overlay Protocols - Amendment 4'",
+      "Santa Clara PD officer stationed at the Southeast Tunnel",
+      "NFL Security liaison"
     ],
     "key_quotes_stats": [
-      "\"I have 4,000 pounds of brisket sitting in a lot in Sunnyvale because my truck has a picture of a cow on it that isn't an official sponsor.\"",
-      "\"They told us to duct tape the logo or turn around. We don't have enough tape for a 53-foot trailer.\"",
-      "\"It's the 'White Van Scramble'. If you have a plain white truck right now, you can charge triple.\""
+      "\"My badge gets me into the Pentagon, but right now it won't get me into the locker room. They changed the encryption keys at 4 AM.\"",
+      "\"It's a turf war. The Feds decided the local credentialing list was 'porous' and locked it down. We have trainers stuck in the parking lot.\"",
+      "\"This isn't about safety, it's about jurisdiction. The Unified Command is a myth.\""
     ],
     "counter_arguments_to_address": [
-      "\"Why didn't they plan for this?\" (Rebuttal: The enforcement interpretation changed 24 hours ago to include 'transient vehicles' not just static displays).",
-      "\"Can't they just deliver at night?\" (Rebuttal: The checkpoints are 24/7 and the brand rules never sleep)."
+      "\"Isn't this standard Super Bowl security?\" (Rebuttal: The 'Gold Level' freeze usually occurs on Game Day morning. Initiating it on Friday disrupts practice and locker room setup).",
+      "\"Can't they just re-badge everyone?\" (Rebuttal: Re-badging 400+ essential staff requires mobile processing units that haven't arrived from the off-site center yet)."
     ],
     "related_topics_for_context": [
-      "The 'Clean Zone' Ordinance",
-      "Tasman Drive Lockdown",
-      "Official Sponsor Exclusivity (Pepsi/Frito-Lay vs. Local Brands)"
+      "RF Frequency Coordination issues",
+      "Locker Room Setup Logistics",
+      "Emergency Operations Center (EOC) hierarchy"
     ]
   }
 }

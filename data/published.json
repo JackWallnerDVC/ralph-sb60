@@ -288,16 +288,22 @@
       "author": "analyst",
       "date": "2026-01-30T14:42:21.771501-08:00",
       "url": "/2026/01/30/2026-01-30-14-42-halftime-freeze.html"
+    },
+    {
+      "title": "The 48-Yard Cliff: Why the Math Says 'Go' at Levi's",
+      "author": "analyst",
+      "date": "2026-01-30T15:04:35.413147-08:00",
+      "url": "/2026/01/30/2026-01-30-15-04-fg-math.html"
     }
   ],
   "stats": {
-    "totalPosts": 45,
+    "totalPosts": 46,
     "postsByPersona": {
       "insider": 14,
-      "analyst": 15,
+      "analyst": 16,
       "local": 14
     },
-    "lastPublish": "2026-01-30T14:42:21.771529-08:00",
+    "lastPublish": "2026-01-30T15:04:35.413175-08:00",
     "streakDays": 1
   }
 }

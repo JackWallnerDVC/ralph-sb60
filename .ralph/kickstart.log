@@ -377,3 +377,8 @@ Fri Jan 30 14:25:00 PST 2026: Ralph healthy | Drafts: 4 | Rate: READY|MIN:1
 Fri Jan 30 14:30:01 PST 2026: Ralph healthy | Drafts: 4 | Rate: READY|MIN:1
 Fri Jan 30 14:35:00 PST 2026: Ralph healthy | Drafts: 5 | Rate: READY|MIN:1
 Fri Jan 30 14:40:01 PST 2026: Ralph healthy | Drafts: 5 | Rate: READY|MIN:1
+Fri Jan 30 14:45:00 PST 2026: Ralph healthy | Drafts: 1 | Rate: READY|MIN:1
+Fri Jan 30 14:45:00 PST 2026: ⚠️ LOW DRAFT ALERT: 1 drafts
+Fri Jan 30 14:50:00 PST 2026: Ralph healthy | Drafts: 2 | Rate: READY|MIN:3
+Fri Jan 30 14:55:00 PST 2026: Ralph healthy | Drafts: 3 | Rate: READY|MIN:2
+Fri Jan 30 15:00:00 PST 2026: Ralph healthy | Drafts: 4 | Rate: READY|MIN:2

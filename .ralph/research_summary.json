@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-30T14:42:09.120349-08:00",
+  "generated_at": "2026-01-30T15:02:27.305928-08:00",
   "constraints": {
     "49ers_status": "HOST TEAM ONLY - NOT confirmed as competing team",
     "teams_confirmed": false,
@@ -28,22 +28,22 @@
         "reason": "Santa Clara, San Mateo, and SF agencies have formally united for emergency preparedness, establishing the security hierarchy (Intel #2)."
       },
       {
-        "topic": "Host Team Coaching Stability (Kubiak)",
-        "momentum": "stable",
-        "persona": "insider",
-        "reason": "Host team (49ers) confirms retention of Offensive Coordinator Klay Kubiak, settling front-office speculation in the host market (Intel #6)."
-      },
-      {
         "topic": "Playoff Bracket Implications",
         "momentum": "rising",
         "persona": "analyst",
         "reason": "Search trends show increasing focus on the playoff picture as the field narrows to determine who travels to Levi's Stadium (Trend #2)."
       },
       {
-        "topic": "Levi's Stadium Perimeter Hardening",
+        "topic": "Host Team Coaching Stability",
+        "momentum": "stable",
+        "persona": "insider",
+        "reason": "Host team (49ers) confirms retention of Offensive Coordinator Klay Kubiak, ensuring organizational stability at the host facility (Intel #6)."
+      },
+      {
+        "topic": "Bay Area Host City Preparations",
         "momentum": "rising",
         "persona": "local",
-        "reason": "Physical infrastructure changes and public safety closures around the stadium are now confirmed to last through Feb 13 (Intel #1)."
+        "reason": "General search interest is spiking regarding the Bay Area's preparation and logistics for the incoming influx of fans (Trend #3)."
       }
     ]
   },

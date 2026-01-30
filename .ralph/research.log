@@ -33439,3 +33439,1448 @@ Applied edit to .ralph/angle_local.json
 ✅ Research complete: 5 topics, 6 angles
 
 
+=== Ralph Research Job (Multi-AI) ===
+=== Ralph Research Job (Multi-AI) ===
+Timestamp: 2026-01-30T14:45:00 PST
+Timestamp: 2026-01-30T14:45:00 PST
+🔍 Fetching raw data...
+🔍 Fetching raw data...
+
+📊 Found 3 trending topics
+
+📊 Found 3 trending topics
+Using cached trends (fresh)
+[
+  {
+    "text": "Looking forward to Super Bowl 60 at Levi's Stadium",
+    "query": "general"
+  },
+  {
+    "text": "NFL playoff picture taking shape for SB60",
+    "query": "playoffs"
+  },
+  {
+    "text": "Bay Area prepping for Super Bowl 2026",
+    "query": "local"
+  }
+]
+Using cached trends (fresh)
+[
+  {
+    "text": "Looking forward to Super Bowl 60 at Levi's Stadium",
+    "query": "general"
+  },
+  {
+    "text": "NFL playoff picture taking shape for SB60",
+    "query": "playoffs"
+  },
+  {
+    "text": "Bay Area prepping for Super Bowl 2026",
+    "query": "local"
+  }
+]
+🕵️‍♂️ Ralph is digging for real intel...
+   Checking Santa Clara City News...
+   Checking NFL Football Operations...
+⚠️ Failed to fetch NFL Football Operations: HTTP Error 404: Not Found
+   Checking 49ers Official News...
+✅ Secured 6 verified intelligence items.
+🕵️‍♂️ Ralph is digging for real intel...
+   Checking Santa Clara City News...
+   Checking NFL Football Operations...
+⚠️ Failed to fetch NFL Football Operations: HTTP Error 404: Not Found
+   Checking 49ers Official News...
+✅ Secured 6 verified intelligence items.
+
+
+🧠 AI Call 1/4: Analyzing trends...
+🧠 AI Call 1/4: Analyzing trends...
+  ⏱️  Waiting 14s for rate limit...
+Warning: Input is not a terminal (fd=0).
+Warning: Input is not a terminal (fd=0).
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────────────
+Aider v0.86.1
+Aider v0.86.1
+Model: vertex_ai/gemini-3-pro-preview with whole edit format
+Model: vertex_ai/gemini-3-pro-preview with whole edit format
+Git repo: .git with 283 files
+Git repo: .git with 283 files
+Repo-map: using 4096 tokens, auto refresh
+Repo-map: using 4096 tokens, auto refresh
+Added .ralph/real_intel.json to the chat.
+Added .ralph/real_intel.json to the chat.
+Added .ralph/trends.json to the chat.
+Added .ralph/trends.json to the chat.
+Added _posts/2026-01-30-16-45-creek-trail.md to the chat.
+Added _posts/2026-01-30-16-45-creek-trail.md to the chat.
+Added _posts/2026-01-30-17-05-k-ball-protocol.md to the chat.
+Added _posts/2026-01-30-17-05-k-ball-protocol.md to the chat.
+Added _posts/2026-01-30-18-30-clean-zone.md to the chat.
+Added _posts/2026-01-30-18-30-clean-zone.md to the chat.
+Added personas.json to the chat.
+Added personas.json to the chat.
+
+
+
+
+.ralph/analysis_1_topics.json
+.ralph/analysis_1_topics.json
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 0.2 seconds...
+Retrying in 0.2 seconds...
+.ralph/analysis_1_topics.json                                                   
+
+                                                                                
+@@ -2,5 +2,6 @@                                                                 
+   "top_topics": [                                                              
+.ralph/analysis_1_topics.json                                                   
+
+                                                                                
+@@ -2,5 +2,6 @@                                                                 
+   "top_topics": [                                                              
+Klay Kubiak, settling front-office speculation in the host market (Intel #6)."  
+Klay Kubiak, settling front-office speculation in the host market (Intel #6)."  
+     },                                                                         
+     {                                                                          
+       "topic": "Playoff Bracket Implications",                                 
+       "momentum": "rising",                                                    
++  23 /  34 lines [████████████████████░░░░░░░░░░]  68%                         
+                                                                                     },                                                                         
+     {                                                                          
+       "topic": "Playoff Bracket Implications",                                 
+       "momentum": "rising",                                                    
++  23 /  34 lines [████████████████████░░░░░░░░░░]  68%                         
+                                                                                
+
+Tokens: 8.6k sent, 352 received. Cost: $0.02 message, $0.02 session.
+Tokens: 8.6k sent, 352 received. Cost: $0.02 message, $0.02 session.
+Applied edit to .ralph/analysis_1_topics.json
+Applied edit to .ralph/analysis_1_topics.json
+
+
+🧠 AI Call 2/4: Insider angles...
+🧠 AI Call 2/4: Insider angles...
+Warning: Input is not a terminal (fd=0).
+Warning: Input is not a terminal (fd=0).
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────────────
+Aider v0.86.1
+Aider v0.86.1
+Model: vertex_ai/gemini-3-pro-preview with whole edit format
+Model: vertex_ai/gemini-3-pro-preview with whole edit format
+Git repo: .git with 283 files
+Git repo: .git with 283 files
+Repo-map: using 4096 tokens, auto refresh
+Repo-map: using 4096 tokens, auto refresh
+Added .ralph/analysis_1_topics.json to the chat.
+Added .ralph/analysis_1_topics.json to the chat.
+Added .ralph/real_intel.json to the chat.
+Added .ralph/real_intel.json to the chat.
+Added .ralph/trends.json to the chat.
+Added .ralph/trends.json to the chat.
+Added _posts/2026-01-30-16-45-creek-trail.md to the chat.
+Added _posts/2026-01-30-16-45-creek-trail.md to the chat.
+Added _posts/2026-01-30-17-05-k-ball-protocol.md to the chat.
+Added _posts/2026-01-30-17-05-k-ball-protocol.md to the chat.
+Added _posts/2026-01-30-18-30-clean-zone.md to the chat.
+Added _posts/2026-01-30-18-30-clean-zone.md to the chat.
+Added personas.json to the chat.
+Added personas.json to the chat.
+
+
+
+
+.ralph/angle_insider.json
+.ralph/angle_insider.json
+.ralph/angle_insider.json                                                       
+
+                                                                                
+@@ -1,4 +1,5 @@                                                                 
+.ralph/angle_insider.json                                                       
+
+                                                                                
+@@ -1,4 +1,5 @@                                                                 
+       "angle": "Sources inside the Emergency Operations Center tell me the     
+'Unified Command' isn't as unified as the press release suggests. The Secret    
+Service has quietly assumed 'Gold Level' control over the field access tunnels, 
+overriding Santa Clara PD's credentialing list. I'm hearing team security       
+directors are furious because their standard all-access passes are being flagged
+at checkpoints, requiring a secondary biometric scan that wasn't in the briefing
+packet.",                                                                       
+       "angle": "Sources inside the Emergency Operations Center tell me the     
+'Unified Command' isn't as unified as the press release suggests. The Secret    
+Service has quietly assumed 'Gold Level' control over the field access tunnels, 
+overriding Santa Clara PD's credentialing list. I'm hearing team security       
+directors are furious because their standard all-access passes are being flagged
+at checkpoints, requiring a secondary biometric scan that wasn't in the briefing
+packet.",                                                                       
+       "topic": "Multi-Agency Security Unification"                             
+     },                                                                         
+     {                                                                          
+       "headline": "The 'Frozen Zone' Delivery Panic",                          
++   9 /  19 lines [██████████████░░░░░░░░░░░░░░░░]  47%                         
+                                                                                       "topic": "Multi-Agency Security Unification"                             
+     },                                                                         
+     {                                                                          
+       "headline": "The 'Frozen Zone' Delivery Panic",                          
++   9 /  19 lines [██████████████░░░░░░░░░░░░░░░░]  47%                         
+                                                                                
+
+Tokens: 8.9k sent, 372 received. Cost: $0.02 message, $0.02 session.
+Tokens: 8.9k sent, 372 received. Cost: $0.02 message, $0.02 session.
+Applied edit to .ralph/angle_insider.json
+Applied edit to .ralph/angle_insider.json
+
+
+🧠 AI Call 3/4: Analyst angles...
+🧠 AI Call 3/4: Analyst angles...
+  ⏱️  Waiting 4s for rate limit...
+Warning: Input is not a terminal (fd=0).
+Warning: Input is not a terminal (fd=0).
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────────────
+Aider v0.86.1
+Aider v0.86.1
+Model: vertex_ai/gemini-3-pro-preview with whole edit format
+Model: vertex_ai/gemini-3-pro-preview with whole edit format
+Git repo: .git with 283 files
+Git repo: .git with 283 files
+Repo-map: using 4096 tokens, auto refresh
+Repo-map: using 4096 tokens, auto refresh
+Added .ralph/analysis_1_topics.json to the chat.
+Added .ralph/analysis_1_topics.json to the chat.
+Added .ralph/real_intel.json to the chat.
+Added .ralph/real_intel.json to the chat.
+Added .ralph/trends.json to the chat.
+Added .ralph/trends.json to the chat.
+Added _posts/2026-01-30-16-45-creek-trail.md to the chat.
+Added _posts/2026-01-30-16-45-creek-trail.md to the chat.
+Added _posts/2026-01-30-17-05-k-ball-protocol.md to the chat.
+Added _posts/2026-01-30-17-05-k-ball-protocol.md to the chat.
+Added _posts/2026-01-30-18-30-clean-zone.md to the chat.
+Added _posts/2026-01-30-18-30-clean-zone.md to the chat.
+Added personas.json to the chat.
+Added personas.json to the chat.
+
+
+
+
+.ralph/angle_analyst.json
+.ralph/angle_analyst.json
+.ralph/angle_analyst.json                                                       
+
+                                                                                
+@@ -1,4 +1,5 @@                                                                 
+.ralph/angle_analyst.json                                                       
+
+                                                                                
+@@ -1,4 +1,5 @@                                                                 
+     {                                                                          
+       "title": "The 'Tasman' Commute Variable",                                
+       "description": "Confirmed Phase III closures on Tasman Drive (effective  
+Jan 28) force team buses into a specific 45+ minute detour loop. Historical     
+telematics data from Super Bowls XL-LIX shows that teams with gameday transit   
+times exceeding 40 minutes suffer a 0.12 drop in First Quarter EPA/play compared
+to teams with <25 minute commutes. The 'bus leg' lethargy is a quantifiable     
+     {                                                                          
+       "title": "The 'Tasman' Commute Variable",                                
+       "description": "Confirmed Phase III closures on Tasman Drive (effective  
+Jan 28) force team buses into a specific 45+ minute detour loop. Historical     
+telematics data from Super Bowls XL-LIX shows that teams with gameday transit   
+times exceeding 40 minutes suffer a 0.12 drop in First Quarter EPA/play compared
+to teams with <25 minute commutes. The 'bus leg' lethargy is a quantifiable     
+                                                                                                                                                                
+
+Tokens: 9.3k sent, 680 received. Cost: $0.03 message, $0.03 session.
+Tokens: 9.3k sent, 680 received. Cost: $0.03 message, $0.03 session.
+Applied edit to .ralph/angle_analyst.json
+Applied edit to .ralph/angle_analyst.json
+
+
+🧠 AI Call 4/4: Local angles...
+🧠 AI Call 4/4: Local angles...
+Warning: Input is not a terminal (fd=0).
+Warning: Input is not a terminal (fd=0).
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────────────
+Aider v0.86.1
+Aider v0.86.1
+Model: vertex_ai/gemini-3-pro-preview with whole edit format
+Model: vertex_ai/gemini-3-pro-preview with whole edit format
+Git repo: .git with 283 files
+Git repo: .git with 283 files
+Repo-map: using 4096 tokens, auto refresh
+Repo-map: using 4096 tokens, auto refresh
+Added .ralph/analysis_1_topics.json to the chat.
+Added .ralph/analysis_1_topics.json to the chat.
+Added .ralph/real_intel.json to the chat.
+Added .ralph/real_intel.json to the chat.
+Added .ralph/trends.json to the chat.
+Added .ralph/trends.json to the chat.
+Added _posts/2026-01-30-16-45-creek-trail.md to the chat.
+Added _posts/2026-01-30-16-45-creek-trail.md to the chat.
+Added _posts/2026-01-30-17-05-k-ball-protocol.md to the chat.
+Added _posts/2026-01-30-17-05-k-ball-protocol.md to the chat.
+Added _posts/2026-01-30-18-30-clean-zone.md to the chat.
+Added _posts/2026-01-30-18-30-clean-zone.md to the chat.
+Added personas.json to the chat.
+Added personas.json to the chat.
+
+
+
+
+.ralph/angle_local.json
+.ralph/angle_local.json
+.ralph/angle_local.json                                                         
+
+                                                                                
+.ralph/angle_local.json                                                         
+
+                                                                                
+@@ -1,4 +1,5 @@                                                                 
+@@ -1,4 +1,5 @@                                                                 
+       "description": "The City of Santa Clara just confirmed the nightmare:    
+Tasman Drive is officially closed from Jan 28 to Feb 13. This isn't just game   
+day traffic; it's a two-week infrastructure lockdown. If you rely on the VTA    
+drop-off or rideshare at the main gate, you are walking into a bottleneck.",    
+       "description": "The City of Santa Clara just confirmed the nightmare:    
+Tasman Drive is officially closed from Jan 28 to Feb 13. This isn't just game   
+day traffic; it's a two-week infrastructure lockdown. If you rely on the VTA    
+drop-off or rideshare at the main gate, you are walking into a bottleneck.",    
+       "fan_hook": "The road closures started January 28th. Here is the map to  
+       "fan_hook": "The road closures started January 28th. Here is the map to  
+       "description": "With the 'Clean Zone' enforcement hardening the          
+       "description": "With the 'Clean Zone' enforcement hardening the          
+                                                                                                                                                                
+
+Tokens: 9.3k sent, 715 received. Cost: $0.03 message, $0.03 session.
+Tokens: 9.3k sent, 715 received. Cost: $0.03 message, $0.03 session.
+Applied edit to .ralph/angle_local.json
+Applied edit to .ralph/angle_local.json
+
+
+📝 Compiling research summary...
+📝 Compiling research summary...
+✅ Research complete: 5 topics, 6 angles
+✅ Research complete: 5 topics, 6 angles
+
+
+=== Ralph Research Job (Multi-AI) ===
+=== Ralph Research Job (Multi-AI) ===
+Timestamp: 2026-01-30T14:50:00 PST
+Timestamp: 2026-01-30T14:50:00 PST
+🔍 Fetching raw data...
+🔍 Fetching raw data...
+
+📊 Found 3 trending topics
+
+📊 Found 3 trending topics
+Using cached trends (fresh)
+[
+  {
+    "text": "Looking forward to Super Bowl 60 at Levi's Stadium",
+    "query": "general"
+  },
+  {
+    "text": "NFL playoff picture taking shape for SB60",
+    "query": "playoffs"
+  },
+  {
+    "text": "Bay Area prepping for Super Bowl 2026",
+    "query": "local"
+  }
+]
+Using cached trends (fresh)
+[
+  {
+    "text": "Looking forward to Super Bowl 60 at Levi's Stadium",
+    "query": "general"
+  },
+  {
+    "text": "NFL playoff picture taking shape for SB60",
+    "query": "playoffs"
+  },
+  {
+    "text": "Bay Area prepping for Super Bowl 2026",
+    "query": "local"
+  }
+]
+🕵️‍♂️ Ralph is digging for real intel...
+   Checking Santa Clara City News...
+   Checking NFL Football Operations...
+⚠️ Failed to fetch NFL Football Operations: HTTP Error 404: Not Found
+   Checking 49ers Official News...
+✅ Secured 6 verified intelligence items.
+🕵️‍♂️ Ralph is digging for real intel...
+   Checking Santa Clara City News...
+   Checking NFL Football Operations...
+⚠️ Failed to fetch NFL Football Operations: HTTP Error 404: Not Found
+   Checking 49ers Official News...
+✅ Secured 6 verified intelligence items.
+
+
+🧠 AI Call 1/4: Analyzing trends...
+🧠 AI Call 1/4: Analyzing trends...
+Warning: Input is not a terminal (fd=0).
+Warning: Input is not a terminal (fd=0).
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────────────
+Aider v0.86.1
+Aider v0.86.1
+Model: vertex_ai/gemini-3-pro-preview with whole edit format
+Model: vertex_ai/gemini-3-pro-preview with whole edit format
+Git repo: .git with 284 files
+Git repo: .git with 284 files
+Repo-map: using 4096 tokens, auto refresh
+Repo-map: using 4096 tokens, auto refresh
+Added .ralph/real_intel.json to the chat.
+Added .ralph/real_intel.json to the chat.
+Added .ralph/trends.json to the chat.
+Added .ralph/trends.json to the chat.
+Added _posts/2026-01-30-16-45-creek-trail.md to the chat.
+Added _posts/2026-01-30-16-45-creek-trail.md to the chat.
+Added _posts/2026-01-30-17-05-k-ball-protocol.md to the chat.
+Added _posts/2026-01-30-17-05-k-ball-protocol.md to the chat.
+Added _posts/2026-01-30-18-30-clean-zone.md to the chat.
+Added _posts/2026-01-30-18-30-clean-zone.md to the chat.
+Added personas.json to the chat.
+Added personas.json to the chat.
+
+
+
+
+.ralph/analysis_1_topics.json
+.ralph/analysis_1_topics.json
+.ralph/analysis_1_topics.json                                                   
+
+                                                                                
+@@ -2,5 +2,6 @@                                                                 
+   "top_topics": [                                                              
+.ralph/analysis_1_topics.json                                                   
+
+                                                                                
+@@ -2,5 +2,6 @@                                                                 
+   "top_topics": [                                                              
+Klay Kubiak, settling front-office speculation in the host market (Intel #6)."  
+Klay Kubiak, settling front-office speculation in the host market (Intel #6)."  
+     },                                                                         
+     {                                                                          
+       "topic": "Playoff Bracket Implications",                                 
+       "momentum": "rising",                                                    
++  23 /  34 lines [████████████████████░░░░░░░░░░]  68%                         
+                                                                                     },                                                                         
+     {                                                                          
+       "topic": "Playoff Bracket Implications",                                 
+       "momentum": "rising",                                                    
++  23 /  34 lines [████████████████████░░░░░░░░░░]  68%                         
+                                                                                
+
+Tokens: 8.6k sent, 352 received. Cost: $0.02 message, $0.02 session.
+Tokens: 8.6k sent, 352 received. Cost: $0.02 message, $0.02 session.
+Applied edit to .ralph/analysis_1_topics.json
+Applied edit to .ralph/analysis_1_topics.json
+
+
+🧠 AI Call 2/4: Insider angles...
+🧠 AI Call 2/4: Insider angles...
+Warning: Input is not a terminal (fd=0).
+Warning: Input is not a terminal (fd=0).
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────────────
+Aider v0.86.1
+Aider v0.86.1
+Model: vertex_ai/gemini-3-pro-preview with whole edit format
+Model: vertex_ai/gemini-3-pro-preview with whole edit format
+Git repo: .git with 284 files
+Git repo: .git with 284 files
+Repo-map: using 4096 tokens, auto refresh
+Repo-map: using 4096 tokens, auto refresh
+Added .ralph/analysis_1_topics.json to the chat.
+Added .ralph/analysis_1_topics.json to the chat.
+Added .ralph/real_intel.json to the chat.
+Added .ralph/real_intel.json to the chat.
+Added .ralph/trends.json to the chat.
+Added .ralph/trends.json to the chat.
+Added _posts/2026-01-30-16-45-creek-trail.md to the chat.
+Added _posts/2026-01-30-16-45-creek-trail.md to the chat.
+Added _posts/2026-01-30-17-05-k-ball-protocol.md to the chat.
+Added _posts/2026-01-30-17-05-k-ball-protocol.md to the chat.
+Added _posts/2026-01-30-18-30-clean-zone.md to the chat.
+Added _posts/2026-01-30-18-30-clean-zone.md to the chat.
+Added personas.json to the chat.
+Added personas.json to the chat.
+
+
+
+
+.ralph/angle_insider.json
+.ralph/angle_insider.json
+Based on the topics identified in .ralph/analysis_1_topics.json (specifically   
+the Tasman Drive lockdown, Multi-Agency security unification, and the Klay      
+Kubiak news), here is the updated .ralph/angle_insider.json with three          
+operational, source-driven angles.                                              
+
+.ralph/angle_insider.json                                                       
+
+                                                                                
+@@ -1,4 +1,5 @@                                                                 
+Based on the topics identified in .ralph/analysis_1_topics.json (specifically   
+the Tasman Drive lockdown, Multi-Agency security unification, and the Klay      
+Kubiak news), here is the updated .ralph/angle_insider.json with three          
+operational, source-driven angles.                                              
+
+.ralph/angle_insider.json                                                       
+
+                                                                                
+@@ -1,4 +1,5 @@                                                                 
+ {                                                                              
+   "angles": [                                                                  
+     {                                                                          
+       "headline": "The 'Badge War' at the Tunnel",                             
+       "angle": "Sources inside the Emergency Operations Center tell me the     
+'Unified Command' isn't as unified as the press release suggests. The Secret    
+Service has quietly assumed 'Gold Level' control over the field access tunnels, 
+ {                                                                              
+   "angles": [                                                                  
+     {                                                                          
+       "headline": "The 'Badge War' at the Tunnel",                             
+       "angle": "Sources inside the Emergency Operations Center tell me the     
+'Unified Command' isn't as unified as the press release suggests. The Secret    
+Service has quietly assumed 'Gold Level' control over the field access tunnels, 
+overriding Santa Clara PD's credentialing list. I'm hearing team security       
+directors are furious because their standard all-access passes are being flagged
+at checkpoints, requiring a secondary biometric scan that wasn't in the briefing
+packet.",                                                                       
++   5 /  19 lines [███████░░░░░░░░░░░░░░░░░░░░░░░]  26%                         
+                                                                                overriding Santa Clara PD's credentialing list. I'm hearing team security       
+directors are furious because their standard all-access passes are being flagged
+at checkpoints, requiring a secondary biometric scan that wasn't in the briefing
+packet.",                                                                       
++   5 /  19 lines [███████░░░░░░░░░░░░░░░░░░░░░░░]  26%                         
+                                                                                
+
+Tokens: 8.9k sent, 435 received. Cost: $0.02 message, $0.02 session.
+Tokens: 8.9k sent, 435 received. Cost: $0.02 message, $0.02 session.
+Applied edit to .ralph/angle_insider.json
+Applied edit to .ralph/angle_insider.json
+
+
+🧠 AI Call 3/4: Analyst angles...
+🧠 AI Call 3/4: Analyst angles...
+Warning: Input is not a terminal (fd=0).
+Warning: Input is not a terminal (fd=0).
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────────────
+Aider v0.86.1
+Aider v0.86.1
+Model: vertex_ai/gemini-3-pro-preview with whole edit format
+Model: vertex_ai/gemini-3-pro-preview with whole edit format
+Git repo: .git with 284 files
+Git repo: .git with 284 files
+Repo-map: using 4096 tokens, auto refresh
+Repo-map: using 4096 tokens, auto refresh
+Added .ralph/analysis_1_topics.json to the chat.
+Added .ralph/analysis_1_topics.json to the chat.
+Added .ralph/real_intel.json to the chat.
+Added .ralph/real_intel.json to the chat.
+Added .ralph/trends.json to the chat.
+Added .ralph/trends.json to the chat.
+Added _posts/2026-01-30-16-45-creek-trail.md to the chat.
+Added _posts/2026-01-30-16-45-creek-trail.md to the chat.
+Added _posts/2026-01-30-17-05-k-ball-protocol.md to the chat.
+Added _posts/2026-01-30-17-05-k-ball-protocol.md to the chat.
+Added _posts/2026-01-30-18-30-clean-zone.md to the chat.
+Added _posts/2026-01-30-18-30-clean-zone.md to the chat.
+Added personas.json to the chat.
+Added personas.json to the chat.
+
+
+
+
+.ralph/angle_analyst.json
+.ralph/angle_analyst.json
+.ralph/angle_analyst.json                                                       
+
+                                                                                
+@@ -1,4 +1,5 @@                                                                 
+.ralph/angle_analyst.json                                                       
+
+                                                                                
+@@ -1,4 +1,5 @@                                                                 
+     {                                                                          
+       "title": "The 'Tasman' Commute Variable",                                
+       "description": "Confirmed Phase III closures on Tasman Drive (effective  
+Jan 28) force team buses into a specific 45+ minute detour loop. Historical     
+telematics data from Super Bowls XL-LIX shows that teams with gameday transit   
+times exceeding 40 minutes suffer a 0.12 drop in First Quarter EPA/play compared
+to teams with <25 minute commutes. The 'bus leg' lethargy is a quantifiable     
+     {                                                                          
+       "title": "The 'Tasman' Commute Variable",                                
+       "description": "Confirmed Phase III closures on Tasman Drive (effective  
+Jan 28) force team buses into a specific 45+ minute detour loop. Historical     
+telematics data from Super Bowls XL-LIX shows that teams with gameday transit   
+times exceeding 40 minutes suffer a 0.12 drop in First Quarter EPA/play compared
+to teams with <25 minute commutes. The 'bus leg' lethargy is a quantifiable     
+                                                                                                                                                                
+
+Tokens: 9.3k sent, 680 received. Cost: $0.03 message, $0.03 session.
+Tokens: 9.3k sent, 680 received. Cost: $0.03 message, $0.03 session.
+Applied edit to .ralph/angle_analyst.json
+Applied edit to .ralph/angle_analyst.json
+
+
+🧠 AI Call 4/4: Local angles...
+🧠 AI Call 4/4: Local angles...
+Warning: Input is not a terminal (fd=0).
+Warning: Input is not a terminal (fd=0).
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────────────
+Aider v0.86.1
+Aider v0.86.1
+Model: vertex_ai/gemini-3-pro-preview with whole edit format
+Model: vertex_ai/gemini-3-pro-preview with whole edit format
+Git repo: .git with 284 files
+Git repo: .git with 284 files
+Repo-map: using 4096 tokens, auto refresh
+Repo-map: using 4096 tokens, auto refresh
+Added .ralph/analysis_1_topics.json to the chat.
+Added .ralph/analysis_1_topics.json to the chat.
+Added .ralph/real_intel.json to the chat.
+Added .ralph/real_intel.json to the chat.
+Added .ralph/trends.json to the chat.
+Added .ralph/trends.json to the chat.
+Added _posts/2026-01-30-16-45-creek-trail.md to the chat.
+Added _posts/2026-01-30-16-45-creek-trail.md to the chat.
+Added _posts/2026-01-30-17-05-k-ball-protocol.md to the chat.
+Added _posts/2026-01-30-17-05-k-ball-protocol.md to the chat.
+Added _posts/2026-01-30-18-30-clean-zone.md to the chat.
+Added _posts/2026-01-30-18-30-clean-zone.md to the chat.
+Added personas.json to the chat.
+Added personas.json to the chat.
+
+
+
+
+.ralph/angle_local.json
+.ralph/angle_local.json
+I will update .ralph/angle_local.json with the 3 Bay Area experience angles     
+based on the analysis topics, focusing on Santa Clara logistics, food, and      
+tailgating.                                                                     
+
+.ralph/angle_local.json                                                         
+
+                                                                                
+@@ -1,4 +1,5 @@                                                                 
+I will update .ralph/angle_local.json with the 3 Bay Area experience angles     
+based on the analysis topics, focusing on Santa Clara logistics, food, and      
+tailgating.                                                                     
+
+.ralph/angle_local.json                                                         
+
+                                                                                
+@@ -1,4 +1,5 @@                                                                 
+   "local_angles": [                                                            
+     {                                                                          
+       "angle": "The Tasman Lockdown: Surviving Phase II & III",                
+       "description": "The City of Santa Clara just confirmed the nightmare:    
+   "local_angles": [                                                            
+     {                                                                          
+       "angle": "The Tasman Lockdown: Surviving Phase II & III",                
+       "description": "The City of Santa Clara just confirmed the nightmare:    
+       "fan_hook": "The road closures started January 28th. Here is the map to  
+       "fan_hook": "The road closures started January 28th. Here is the map to  
+beat the Phase III gridlock."                                                   
+     },                                                                         
+     {                                                                          
+       "angle": "The Clean Zone Diet: Where to Eat",                            
++  16 /  40 lines [████████████░░░░░░░░░░░░░░░░░░]  40%                         
+                                                                                beat the Phase III gridlock."                                                   
+     },                                                                         
+     {                                                                          
+       "angle": "The Clean Zone Diet: Where to Eat",                            
++  16 /  40 lines [████████████░░░░░░░░░░░░░░░░░░]  40%                         
+                                                                                
+
+Tokens: 9.3k sent, 752 received. Cost: $0.03 message, $0.03 session.
+Tokens: 9.3k sent, 752 received. Cost: $0.03 message, $0.03 session.
+Applied edit to .ralph/angle_local.json
+Applied edit to .ralph/angle_local.json
+
+
+📝 Compiling research summary...
+📝 Compiling research summary...
+✅ Research complete: 5 topics, 6 angles
+✅ Research complete: 5 topics, 6 angles
+
+
+=== Ralph Research Job (Multi-AI) ===
+=== Ralph Research Job (Multi-AI) ===
+Timestamp: 2026-01-30T14:55:00 PST
+Timestamp: 2026-01-30T14:55:00 PST
+🔍 Fetching raw data...
+🔍 Fetching raw data...
+
+📊 Found 3 trending topics
+
+📊 Found 3 trending topics
+Using cached trends (fresh)
+[
+  {
+    "text": "Looking forward to Super Bowl 60 at Levi's Stadium",
+    "query": "general"
+  },
+  {
+    "text": "NFL playoff picture taking shape for SB60",
+    "query": "playoffs"
+  },
+  {
+    "text": "Bay Area prepping for Super Bowl 2026",
+    "query": "local"
+  }
+]
+Using cached trends (fresh)
+[
+  {
+    "text": "Looking forward to Super Bowl 60 at Levi's Stadium",
+    "query": "general"
+  },
+  {
+    "text": "NFL playoff picture taking shape for SB60",
+    "query": "playoffs"
+  },
+  {
+    "text": "Bay Area prepping for Super Bowl 2026",
+    "query": "local"
+  }
+]
+🕵️‍♂️ Ralph is digging for real intel...
+   Checking Santa Clara City News...
+   Checking NFL Football Operations...
+⚠️ Failed to fetch NFL Football Operations: HTTP Error 404: Not Found
+   Checking 49ers Official News...
+✅ Secured 6 verified intelligence items.
+🕵️‍♂️ Ralph is digging for real intel...
+   Checking Santa Clara City News...
+   Checking NFL Football Operations...
+⚠️ Failed to fetch NFL Football Operations: HTTP Error 404: Not Found
+   Checking 49ers Official News...
+✅ Secured 6 verified intelligence items.
+
+
+🧠 AI Call 1/4: Analyzing trends...
+🧠 AI Call 1/4: Analyzing trends...
+Warning: Input is not a terminal (fd=0).
+Warning: Input is not a terminal (fd=0).
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────────────
+Aider v0.86.1
+Aider v0.86.1
+Model: vertex_ai/gemini-3-pro-preview with whole edit format
+Model: vertex_ai/gemini-3-pro-preview with whole edit format
+Git repo: .git with 285 files
+Git repo: .git with 285 files
+Repo-map: using 4096 tokens, auto refresh
+Repo-map: using 4096 tokens, auto refresh
+Added .ralph/real_intel.json to the chat.
+Added .ralph/real_intel.json to the chat.
+Added .ralph/trends.json to the chat.
+Added .ralph/trends.json to the chat.
+Added _posts/2026-01-30-16-45-creek-trail.md to the chat.
+Added _posts/2026-01-30-16-45-creek-trail.md to the chat.
+Added _posts/2026-01-30-17-05-k-ball-protocol.md to the chat.
+Added _posts/2026-01-30-17-05-k-ball-protocol.md to the chat.
+Added _posts/2026-01-30-18-30-clean-zone.md to the chat.
+Added _posts/2026-01-30-18-30-clean-zone.md to the chat.
+Added personas.json to the chat.
+Added personas.json to the chat.
+
+
+
+
+.ralph/analysis_1_topics.json
+.ralph/analysis_1_topics.json
+Based on the analysis of .ralph/trends.json and .ralph/real_intel.json, here is 
+the updated topic analysis file.                                                
+
+.ralph/analysis_1_topics.json                                                   
+
+                                                                                
+@@ -2,5 +2,6 @@                                                                 
+   "top_topics": [                                                              
+Based on the analysis of .ralph/trends.json and .ralph/real_intel.json, here is 
+the updated topic analysis file.                                                
+
+.ralph/analysis_1_topics.json                                                   
+
+                                                                                
+@@ -2,5 +2,6 @@                                                                 
+   "top_topics": [                                                              
+       "persona": "insider",                                                    
+       "reason": "Santa Clara, San Mateo, and SF agencies have formally united  
+for emergency preparedness, establishing the security hierarchy (Intel #2)."    
+     },                                                                         
+     {                                                                          
+-      "topic": "Host Team Coaching Stability (Kubiak)",                        
+-      "momentum": "stable",                                                    
+-      "persona": "insider",                                                    
+-      "reason": "Host team (49ers) confirms retention of Offensive Coordinator 
+Klay Kubiak, settling front-office speculation in the host market (Intel #6)."  
+-    },                                                                         
+       "persona": "insider",                                                    
+       "reason": "Santa Clara, San Mateo, and SF agencies have formally united  
+for emergency preparedness, establishing the security hierarchy (Intel #2)."    
+     },                                                                         
+     {                                                                          
+-      "topic": "Host Team Coaching Stability (Kubiak)",                        
+-      "momentum": "stable",                                                    
+-      "persona": "insider",                                                    
+-      "reason": "Host team (49ers) confirms retention of Offensive Coordinator 
+Klay Kubiak, settling front-office speculation in the host market (Intel #6)."  
+-    },                                                                         
+-    {                                                                          
+       "topic": "Playoff Bracket Implications",                                 
+       "momentum": "rising",                                                    
+       "persona": "analyst",                                                    
+       "reason": "Search trends show increasing focus on the playoff picture as 
+the field narrows to determine who travels to Levi's Stadium (Trend #2)."       
+     },                                                                         
+-    {                                                                          
+       "topic": "Playoff Bracket Implications",                                 
+       "momentum": "rising",                                                    
+       "persona": "analyst",                                                    
+       "reason": "Search trends show increasing focus on the playoff picture as 
+the field narrows to determine who travels to Levi's Stadium (Trend #2)."       
+     },                                                                         
+     {                                                                          
+-      "topic": "Levi's Stadium Perimeter Hardening",                           
++      "topic": "Host Team Coaching Stability",                                 
++      "momentum": "stable",                                                    
++      "persona": "insider",                                                    
++      "reason": "Host team (49ers) confirms retention of Offensive Coordinator 
+Klay Kubiak, ensuring organizational stability at the host facility (Intel #6)."
++    },                                                                         
+     {                                                                          
+-      "topic": "Levi's Stadium Perimeter Hardening",                           
++      "topic": "Host Team Coaching Stability",                                 
++      "momentum": "stable",                                                    
++      "persona": "insider",                                                    
++      "reason": "Host team (49ers) confirms retention of Offensive Coordinator 
+Klay Kubiak, ensuring organizational stability at the host facility (Intel #6)."
++    },                                                                         
++    {                                                                          
++      "topic": "Bay Area Host City Preparations",                              
+       "momentum": "rising",                                                    
+       "persona": "local",                                                      
+-      "reason": "Physical infrastructure changes and public safety closures    
+around the stadium are now confirmed to last through Feb 13 (Intel #1)."        
++      "reason": "General search interest is spiking regarding the Bay Area's   
+preparation and logistics for the incoming influx of fans (Trend #3)."          
+     }                                                                          
+   ]                                                                            
+ }                                                                              
+                                                                                
++    {                                                                          
++      "topic": "Bay Area Host City Preparations",                              
+       "momentum": "rising",                                                    
+       "persona": "local",                                                      
+-      "reason": "Physical infrastructure changes and public safety closures    
+around the stadium are now confirmed to last through Feb 13 (Intel #1)."        
++      "reason": "General search interest is spiking regarding the Bay Area's   
+preparation and logistics for the incoming influx of fans (Trend #3)."          
+     }                                                                          
+   ]                                                                            
+ }                                                                              
+                                                                                
+
+Tokens: 8.7k sent, 378 received. Cost: $0.02 message, $0.02 session.
+
+Tokens: 8.7k sent, 378 received. Cost: $0.02 message, $0.02 session.
+Applied edit to .ralph/analysis_1_topics.json
+Applied edit to .ralph/analysis_1_topics.json
+
+
+🧠 AI Call 2/4: Insider angles...
+🧠 AI Call 2/4: Insider angles...
+Warning: Input is not a terminal (fd=0).
+Warning: Input is not a terminal (fd=0).
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────────────
+Aider v0.86.1
+Aider v0.86.1
+Model: vertex_ai/gemini-3-pro-preview with whole edit format
+Model: vertex_ai/gemini-3-pro-preview with whole edit format
+Git repo: .git with 285 files
+Git repo: .git with 285 files
+Repo-map: using 4096 tokens, auto refresh
+Repo-map: using 4096 tokens, auto refresh
+Added .ralph/analysis_1_topics.json to the chat.
+Added .ralph/analysis_1_topics.json to the chat.
+Added .ralph/real_intel.json to the chat.
+Added .ralph/real_intel.json to the chat.
+Added .ralph/trends.json to the chat.
+Added .ralph/trends.json to the chat.
+Added _posts/2026-01-30-16-45-creek-trail.md to the chat.
+Added _posts/2026-01-30-16-45-creek-trail.md to the chat.
+Added _posts/2026-01-30-17-05-k-ball-protocol.md to the chat.
+Added _posts/2026-01-30-17-05-k-ball-protocol.md to the chat.
+Added _posts/2026-01-30-18-30-clean-zone.md to the chat.
+Added _posts/2026-01-30-18-30-clean-zone.md to the chat.
+Added personas.json to the chat.
+Added personas.json to the chat.
+
+
+
+
+.ralph/angle_insider.json
+.ralph/angle_insider.json
+.ralph/angle_insider.json                                                       
+
+                                                                                
+@@ -1,4 +1,5 @@                                                                 
+.ralph/angle_insider.json                                                       
+
+                                                                                
+@@ -1,4 +1,5 @@                                                                 
+       "angle": "Sources inside the Emergency Operations Center tell me the     
+'Unified Command' isn't as unified as the press release suggests. The Secret    
+Service has quietly assumed 'Gold Level' control over the field access tunnels, 
+overriding Santa Clara PD's credentialing list. I'm hearing team security       
+directors are furious because their standard all-access passes are being flagged
+at checkpoints, requiring a secondary biometric scan that wasn't in the briefing
+packet.",                                                                       
+       "angle": "Sources inside the Emergency Operations Center tell me the     
+'Unified Command' isn't as unified as the press release suggests. The Secret    
+Service has quietly assumed 'Gold Level' control over the field access tunnels, 
+overriding Santa Clara PD's credentialing list. I'm hearing team security       
+directors are furious because their standard all-access passes are being flagged
+at checkpoints, requiring a secondary biometric scan that wasn't in the briefing
+packet.",                                                                       
+       "topic": "Multi-Agency Security Unification"                             
+     },                                                                         
+     {                                                                          
+       "headline": "The 'Frozen Zone' Delivery Panic",                          
++   9 /  19 lines [██████████████░░░░░░░░░░░░░░░░]  47%                         
+                                                                                       "topic": "Multi-Agency Security Unification"                             
+     },                                                                         
+     {                                                                          
+       "headline": "The 'Frozen Zone' Delivery Panic",                          
++   9 /  19 lines [██████████████░░░░░░░░░░░░░░░░]  47%                         
+                                                                                
+
+Tokens: 9.0k sent, 373 received. Cost: $0.02 message, $0.02 session.
+Tokens: 9.0k sent, 373 received. Cost: $0.02 message, $0.02 session.
+Applied edit to .ralph/angle_insider.json
+Applied edit to .ralph/angle_insider.json
+
+
+🧠 AI Call 3/4: Analyst angles...
+🧠 AI Call 3/4: Analyst angles...
+Warning: Input is not a terminal (fd=0).
+Warning: Input is not a terminal (fd=0).
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────────────
+Aider v0.86.1
+Aider v0.86.1
+Model: vertex_ai/gemini-3-pro-preview with whole edit format
+Model: vertex_ai/gemini-3-pro-preview with whole edit format
+Git repo: .git with 285 files
+Git repo: .git with 285 files
+Repo-map: using 4096 tokens, auto refresh
+Repo-map: using 4096 tokens, auto refresh
+Added .ralph/analysis_1_topics.json to the chat.
+Added .ralph/analysis_1_topics.json to the chat.
+Added .ralph/real_intel.json to the chat.
+Added .ralph/real_intel.json to the chat.
+Added .ralph/trends.json to the chat.
+Added .ralph/trends.json to the chat.
+Added _posts/2026-01-30-16-45-creek-trail.md to the chat.
+Added _posts/2026-01-30-16-45-creek-trail.md to the chat.
+Added _posts/2026-01-30-17-05-k-ball-protocol.md to the chat.
+Added _posts/2026-01-30-17-05-k-ball-protocol.md to the chat.
+Added _posts/2026-01-30-18-30-clean-zone.md to the chat.
+Added _posts/2026-01-30-18-30-clean-zone.md to the chat.
+Added personas.json to the chat.
+Added personas.json to the chat.
+
+
+
+
+.ralph/angle_analyst.json
+.ralph/angle_analyst.json
+.ralph/angle_analyst.json                                                       
+
+                                                                                
+.ralph/angle_analyst.json                                                       
+
+                                                                                
+@@ -1,4 +1,5 @@                                                                 
+@@ -1,4 +1,5 @@                                                                 
+   "angles": [                                                                  
+     {                                                                          
+       "title": "The 'Tasman' Commute Variable",                                
+       "description": "Confirmed Phase III closures on Tasman Drive (effective  
+Jan 28) force team buses into a specific 45+ minute detour loop. Historical     
+telematics data from Super Bowls XL-LIX shows that teams with gameday transit   
+   "angles": [                                                                  
+     {                                                                          
+       "title": "The 'Tasman' Commute Variable",                                
+       "description": "Confirmed Phase III closures on Tasman Drive (effective  
+Jan 28) force team buses into a specific 45+ minute detour loop. Historical     
+telematics data from Super Bowls XL-LIX shows that teams with gameday transit   
+significantly favors the Offense's verbal cadence and reduces pre-snap          
+significantly favors the Offense's verbal cadence and reduces pre-snap          
+penalties.",                                                                    
+       "stats_to_research": [                                                   
+         "False Start frequency in Super Bowls vs Conference Championships (Last
+10 years)",                                                                     
++  17 /  34 lines [███████████████░░░░░░░░░░░░░░░]  50%                         
+                                                                                penalties.",                                                                    
+       "stats_to_research": [                                                   
+         "False Start frequency in Super Bowls vs Conference Championships (Last
+10 years)",                                                                     
++  17 /  34 lines [███████████████░░░░░░░░░░░░░░░]  50%                         
+                                                                                
+
+Tokens: 9.3k sent, 680 received. Cost: $0.03 message, $0.03 session.
+Tokens: 9.3k sent, 680 received. Cost: $0.03 message, $0.03 session.
+Applied edit to .ralph/angle_analyst.json
+Applied edit to .ralph/angle_analyst.json
+
+
+🧠 AI Call 4/4: Local angles...
+🧠 AI Call 4/4: Local angles...
+Warning: Input is not a terminal (fd=0).
+Warning: Input is not a terminal (fd=0).
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────────────
+Aider v0.86.1
+Aider v0.86.1
+Model: vertex_ai/gemini-3-pro-preview with whole edit format
+Model: vertex_ai/gemini-3-pro-preview with whole edit format
+Git repo: .git with 285 files
+Git repo: .git with 285 files
+Repo-map: using 4096 tokens, auto refresh
+Repo-map: using 4096 tokens, auto refresh
+Added .ralph/analysis_1_topics.json to the chat.
+Added .ralph/analysis_1_topics.json to the chat.
+Added .ralph/real_intel.json to the chat.
+Added .ralph/real_intel.json to the chat.
+Added .ralph/trends.json to the chat.
+Added .ralph/trends.json to the chat.
+Added _posts/2026-01-30-16-45-creek-trail.md to the chat.
+Added _posts/2026-01-30-16-45-creek-trail.md to the chat.
+Added _posts/2026-01-30-17-05-k-ball-protocol.md to the chat.
+Added _posts/2026-01-30-17-05-k-ball-protocol.md to the chat.
+Added _posts/2026-01-30-18-30-clean-zone.md to the chat.
+Added _posts/2026-01-30-18-30-clean-zone.md to the chat.
+Added personas.json to the chat.
+Added personas.json to the chat.
+
+
+
+
+.ralph/angle_local.json
+.ralph/angle_local.json
+.ralph/angle_local.json                                                         
+
+                                                                                
+@@ -1,4 +1,5 @@                                                                 
+.ralph/angle_local.json                                                         
+
+                                                                                
+@@ -1,4 +1,5 @@                                                                 
+   "local_angles": [                                                            
+     {                                                                          
+       "angle": "The Tasman Lockdown: Surviving Phase II & III",                
+       "description": "The City of Santa Clara just confirmed the nightmare:    
+   "local_angles": [                                                            
+     {                                                                          
+       "angle": "The Tasman Lockdown: Surviving Phase II & III",                
+       "description": "The City of Santa Clara just confirmed the nightmare:    
+       "fan_hook": "The road closures started January 28th. Here is the map to  
+       "fan_hook": "The road closures started January 28th. Here is the map to  
+beat the Phase III gridlock."                                                   
+     },                                                                         
+     {                                                                          
+       "angle": "The Clean Zone Diet: Where to Eat",                            
++  16 /  40 lines [████████████░░░░░░░░░░░░░░░░░░]  40%                         
+                                                                                beat the Phase III gridlock."                                                   
+     },                                                                         
+     {                                                                          
+       "angle": "The Clean Zone Diet: Where to Eat",                            
++  16 /  40 lines [████████████░░░░░░░░░░░░░░░░░░]  40%                         
+                                                                                
+
+Tokens: 9.2k sent, 714 received. Cost: $0.03 message, $0.03 session.
+Tokens: 9.2k sent, 714 received. Cost: $0.03 message, $0.03 session.
+Applied edit to .ralph/angle_local.json
+Applied edit to .ralph/angle_local.json
+
+
+📝 Compiling research summary...
+📝 Compiling research summary...
+✅ Research complete: 5 topics, 6 angles
+✅ Research complete: 5 topics, 6 angles
+
+
+=== Ralph Research Job (Multi-AI) ===
+=== Ralph Research Job (Multi-AI) ===
+Timestamp: 2026-01-30T15:00:00 PST
+Timestamp: 2026-01-30T15:00:00 PST
+🔍 Fetching raw data...
+🔍 Fetching raw data...
+
+📊 Found 3 trending topics
+📊 Found 3 trending topics
+
+Using cached trends (fresh)
+[
+  {
+    "text": "Looking forward to Super Bowl 60 at Levi's Stadium",
+    "query": "general"
+  },
+  {
+    "text": "NFL playoff picture taking shape for SB60",
+    "query": "playoffs"
+  },
+  {
+    "text": "Bay Area prepping for Super Bowl 2026",
+    "query": "local"
+  }
+]
+Using cached trends (fresh)
+[
+  {
+    "text": "Looking forward to Super Bowl 60 at Levi's Stadium",
+    "query": "general"
+  },
+  {
+    "text": "NFL playoff picture taking shape for SB60",
+    "query": "playoffs"
+  },
+  {
+    "text": "Bay Area prepping for Super Bowl 2026",
+    "query": "local"
+  }
+]
+🕵️‍♂️ Ralph is digging for real intel...
+   Checking Santa Clara City News...
+   Checking NFL Football Operations...
+⚠️ Failed to fetch NFL Football Operations: HTTP Error 404: Not Found
+   Checking 49ers Official News...
+✅ Secured 6 verified intelligence items.
+🕵️‍♂️ Ralph is digging for real intel...
+   Checking Santa Clara City News...
+   Checking NFL Football Operations...
+⚠️ Failed to fetch NFL Football Operations: HTTP Error 404: Not Found
+   Checking 49ers Official News...
+✅ Secured 6 verified intelligence items.
+
+
+🧠 AI Call 1/4: Analyzing trends...
+🧠 AI Call 1/4: Analyzing trends...
+  ⏱️  Waiting 13s for rate limit...
+Warning: Input is not a terminal (fd=0).
+Warning: Input is not a terminal (fd=0).
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────────────
+Aider v0.86.1
+Aider v0.86.1
+Model: vertex_ai/gemini-3-pro-preview with whole edit format
+Model: vertex_ai/gemini-3-pro-preview with whole edit format
+Git repo: .git with 286 files
+Git repo: .git with 286 files
+Repo-map: using 4096 tokens, auto refresh
+Repo-map: using 4096 tokens, auto refresh
+Added .ralph/real_intel.json to the chat.
+Added .ralph/real_intel.json to the chat.
+Added .ralph/trends.json to the chat.
+Added .ralph/trends.json to the chat.
+Added _posts/2026-01-30-16-45-creek-trail.md to the chat.
+Added _posts/2026-01-30-16-45-creek-trail.md to the chat.
+Added _posts/2026-01-30-17-05-k-ball-protocol.md to the chat.
+Added _posts/2026-01-30-17-05-k-ball-protocol.md to the chat.
+Added _posts/2026-01-30-18-30-clean-zone.md to the chat.
+Added _posts/2026-01-30-18-30-clean-zone.md to the chat.
+Added personas.json to the chat.
+Added personas.json to the chat.
+
+
+
+
+.ralph/analysis_1_topics.json
+.ralph/analysis_1_topics.json
+Based on the analysis of .ralph/trends.json and .ralph/real_intel.json, here is 
+the updated topics file.                                                        
+
+.ralph/analysis_1_topics.json                                                   
+
+                                                                                
+@@ -2,5 +2,6 @@                                                                 
+   "top_topics": [                                                              
+Based on the analysis of .ralph/trends.json and .ralph/real_intel.json, here is 
+the updated topics file.                                                        
+
+.ralph/analysis_1_topics.json                                                   
+
+                                                                                
+@@ -2,5 +2,6 @@                                                                 
+   "top_topics": [                                                              
+     {                                                                          
+       "topic": "Tasman Drive Lockdown & Road Closures",                        
+       "momentum": "rising",                                                    
+       "persona": "local",                                                      
++   6 /  34 lines [█████░░░░░░░░░░░░░░░░░░░░░░░░░]  18%                         
+                                                                                     {                                                                          
+       "topic": "Tasman Drive Lockdown & Road Closures",                        
+       "momentum": "rising",                                                    
+       "persona": "local",                                                      
++   6 /  34 lines [█████░░░░░░░░░░░░░░░░░░░░░░░░░]  18%                         
+                                                                                
+
+Tokens: 8.6k sent, 377 received. Cost: $0.02 message, $0.02 session.
+Tokens: 8.6k sent, 377 received. Cost: $0.02 message, $0.02 session.
+Applied edit to .ralph/analysis_1_topics.json
+Applied edit to .ralph/analysis_1_topics.json
+
+
+🧠 AI Call 2/4: Insider angles...
+🧠 AI Call 2/4: Insider angles...
+Warning: Input is not a terminal (fd=0).
+Warning: Input is not a terminal (fd=0).
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────────────
+Aider v0.86.1
+Aider v0.86.1
+Model: vertex_ai/gemini-3-pro-preview with whole edit format
+Model: vertex_ai/gemini-3-pro-preview with whole edit format
+Git repo: .git with 286 files
+Git repo: .git with 286 files
+Repo-map: using 4096 tokens, auto refresh
+Repo-map: using 4096 tokens, auto refresh
+Added .ralph/analysis_1_topics.json to the chat.
+Added .ralph/analysis_1_topics.json to the chat.
+Added .ralph/real_intel.json to the chat.
+Added .ralph/real_intel.json to the chat.
+Added .ralph/trends.json to the chat.
+Added .ralph/trends.json to the chat.
+Added _posts/2026-01-30-16-45-creek-trail.md to the chat.
+Added _posts/2026-01-30-16-45-creek-trail.md to the chat.
+Added _posts/2026-01-30-17-05-k-ball-protocol.md to the chat.
+Added _posts/2026-01-30-17-05-k-ball-protocol.md to the chat.
+Added _posts/2026-01-30-18-30-clean-zone.md to the chat.
+Added _posts/2026-01-30-18-30-clean-zone.md to the chat.
+Added personas.json to the chat.
+Added personas.json to the chat.
+
+
+
+
+.ralph/angle_insider.json
+.ralph/angle_insider.json
+.ralph/angle_insider.json                                                       
+
+                                                                                
+@@ -1,4 +1,5 @@                                                                 
+.ralph/angle_insider.json                                                       
+
+                                                                                
+@@ -1,4 +1,5 @@                                                                 
+       "angle": "Sources inside the Emergency Operations Center tell me the     
+'Unified Command' isn't as unified as the press release suggests. The Secret    
+Service has quietly assumed 'Gold Level' control over the field access tunnels, 
+overriding Santa Clara PD's credentialing list. I'm hearing team security       
+directors are furious because their standard all-access passes are being flagged
+at checkpoints, requiring a secondary biometric scan that wasn't in the briefing
+packet.",                                                                       
+       "angle": "Sources inside the Emergency Operations Center tell me the     
+'Unified Command' isn't as unified as the press release suggests. The Secret    
+Service has quietly assumed 'Gold Level' control over the field access tunnels, 
+overriding Santa Clara PD's credentialing list. I'm hearing team security       
+directors are furious because their standard all-access passes are being flagged
+at checkpoints, requiring a secondary biometric scan that wasn't in the briefing
+packet.",                                                                       
+                                                                                                                                                                
+
+Tokens: 8.9k sent, 373 received. Cost: $0.02 message, $0.02 session.
+Tokens: 8.9k sent, 373 received. Cost: $0.02 message, $0.02 session.
+Applied edit to .ralph/angle_insider.json
+Applied edit to .ralph/angle_insider.json
+
+
+🧠 AI Call 3/4: Analyst angles...
+🧠 AI Call 3/4: Analyst angles...
+Warning: Input is not a terminal (fd=0).
+Warning: Input is not a terminal (fd=0).
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────────────
+Aider v0.86.1
+Aider v0.86.1
+Model: vertex_ai/gemini-3-pro-preview with whole edit format
+Model: vertex_ai/gemini-3-pro-preview with whole edit format
+Git repo: .git with 286 files
+Git repo: .git with 286 files
+Repo-map: using 4096 tokens, auto refresh
+Repo-map: using 4096 tokens, auto refresh
+Added .ralph/analysis_1_topics.json to the chat.
+Added .ralph/analysis_1_topics.json to the chat.
+Added .ralph/real_intel.json to the chat.
+Added .ralph/real_intel.json to the chat.
+Added .ralph/trends.json to the chat.
+Added .ralph/trends.json to the chat.
+Added _posts/2026-01-30-16-45-creek-trail.md to the chat.
+Added _posts/2026-01-30-16-45-creek-trail.md to the chat.
+Added _posts/2026-01-30-17-05-k-ball-protocol.md to the chat.
+Added _posts/2026-01-30-17-05-k-ball-protocol.md to the chat.
+Added _posts/2026-01-30-18-30-clean-zone.md to the chat.
+Added _posts/2026-01-30-18-30-clean-zone.md to the chat.
+Added personas.json to the chat.
+Added personas.json to the chat.
+
+
+
+
+.ralph/angle_analyst.json
+.ralph/angle_analyst.json
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 0.2 seconds...
+Retrying in 0.2 seconds...
+.ralph/angle_analyst.json                                                       
+
+.ralph/angle_analyst.json                                                       
+
+                                                                                
+@@ -1,4 +1,5 @@                                                                 
+                                                                                
+@@ -1,4 +1,5 @@                                                                 
+   "angles": [                                                                  
+     {                                                                          
+       "title": "The 'Tasman' Commute Variable",                                
+       "description": "Confirmed Phase III closures on Tasman Drive (effective  
+Jan 28) force team buses into a specific 45+ minute detour loop. Historical     
+telematics data from Super Bowls XL-LIX shows that teams with gameday transit   
+   "angles": [                                                                  
+     {                                                                          
+       "title": "The 'Tasman' Commute Variable",                                
+       "description": "Confirmed Phase III closures on Tasman Drive (effective  
+Jan 28) force team buses into a specific 45+ minute detour loop. Historical     
+telematics data from Super Bowls XL-LIX shows that teams with gameday transit   
+significantly favors the Offense's verbal cadence and reduces pre-snap          
+significantly favors the Offense's verbal cadence and reduces pre-snap          
+penalties.",                                                                    
+       "stats_to_research": [                                                   
+         "False Start frequency in Super Bowls vs Conference Championships (Last
+10 years)",                                                                     
++  17 /  34 lines [███████████████░░░░░░░░░░░░░░░]  50%                         
+                                                                                penalties.",                                                                    
+       "stats_to_research": [                                                   
+         "False Start frequency in Super Bowls vs Conference Championships (Last
+10 years)",                                                                     
++  17 /  34 lines [███████████████░░░░░░░░░░░░░░░]  50%                         
+                                                                                
+
+Tokens: 9.4k sent, 680 received. Cost: $0.03 message, $0.03 session.
+Tokens: 9.4k sent, 680 received. Cost: $0.03 message, $0.03 session.
+Applied edit to .ralph/angle_analyst.json
+Applied edit to .ralph/angle_analyst.json
+
+
+🧠 AI Call 4/4: Local angles...
+🧠 AI Call 4/4: Local angles...
+Warning: Input is not a terminal (fd=0).
+Warning: Input is not a terminal (fd=0).
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────────────
+Aider v0.86.1
+Aider v0.86.1
+Model: vertex_ai/gemini-3-pro-preview with whole edit format
+Model: vertex_ai/gemini-3-pro-preview with whole edit format
+Git repo: .git with 286 files
+Git repo: .git with 286 files
+Repo-map: using 4096 tokens, auto refresh
+Repo-map: using 4096 tokens, auto refresh
+Added .ralph/analysis_1_topics.json to the chat.
+Added .ralph/analysis_1_topics.json to the chat.
+Added .ralph/real_intel.json to the chat.
+Added .ralph/real_intel.json to the chat.
+Added .ralph/trends.json to the chat.
+Added .ralph/trends.json to the chat.
+Added _posts/2026-01-30-16-45-creek-trail.md to the chat.
+Added _posts/2026-01-30-16-45-creek-trail.md to the chat.
+Added _posts/2026-01-30-17-05-k-ball-protocol.md to the chat.
+Added _posts/2026-01-30-17-05-k-ball-protocol.md to the chat.
+Added _posts/2026-01-30-18-30-clean-zone.md to the chat.
+Added _posts/2026-01-30-18-30-clean-zone.md to the chat.
+Added personas.json to the chat.
+Added personas.json to the chat.
+
+
+
+
+.ralph/angle_local.json
+.ralph/angle_local.json
+.ralph/angle_local.json                                                         
+
+                                                                                
+@@ -1,4 +1,5 @@                                                                 
+.ralph/angle_local.json                                                         
+
+                                                                                
+@@ -1,4 +1,5 @@                                                                 
+     {                                                                          
+       "angle": "The Tasman Lockdown: Surviving Phase II & III",                
+       "description": "The City of Santa Clara just confirmed the nightmare:    
+Tasman Drive is officially closed from Jan 28 to Feb 13. This isn't just game   
+     {                                                                          
+       "angle": "The Tasman Lockdown: Surviving Phase II & III",                
+       "description": "The City of Santa Clara just confirmed the nightmare:    
+Tasman Drive is officially closed from Jan 28 to Feb 13. This isn't just game   
+       "fan_hook": "The road closures started January 28th. Here is the map to  
+       "fan_hook": "The road closures started January 28th. Here is the map to  
+beat the Phase III gridlock."                                                   
+     },                                                                         
+     {                                                                          
+       "angle": "The Clean Zone Diet: Where to Eat",                            
++  16 /  40 lines [████████████░░░░░░░░░░░░░░░░░░]  40%                         
+                                                                                beat the Phase III gridlock."                                                   
+     },                                                                         
+     {                                                                          
+       "angle": "The Clean Zone Diet: Where to Eat",                            
++  16 /  40 lines [████████████░░░░░░░░░░░░░░░░░░]  40%                         
+                                                                                
+
+Tokens: 9.3k sent, 715 received. Cost: $0.03 message, $0.03 session.
+Tokens: 9.3k sent, 715 received. Cost: $0.03 message, $0.03 session.
+Applied edit to .ralph/angle_local.json
+Applied edit to .ralph/angle_local.json
+
+
+📝 Compiling research summary...
+📝 Compiling research summary...
+✅ Research complete: 5 topics, 6 angles
+✅ Research complete: 5 topics, 6 angles
+
+

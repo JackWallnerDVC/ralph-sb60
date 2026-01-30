@@ -1,75 +1,75 @@
 {
-  "hook": "The most valuable vehicle in Santa Clara right now isn't a team bus or a limo—it's a beat-up, unbranded white Ford Transit van.",
+  "hook": "The most exclusive club in Santa Clara right now isn't a luxury suite—it's the concrete tunnel leading to the locker rooms, and your badge probably doesn't work anymore.",
   "sections": [
     {
-      "title": "Checkpoint Charlie",
+      "title": "The Gold Level Surprise",
       "key_points": [
-        "Major food vendors are being denied entry at the Tasman Drive delivery gates.",
-        "The issue isn't security clearance, but 'Ambush Marketing' violations.",
-        "Trucks with non-sponsor logos are being turned around immediately."
+        "Secret Service assumed control of field tunnels 12 hours early.",
+        "Local credentialing lists were quietly overridden.",
+        "The handover happened at 14:00 PST, catching teams mid-prep."
       ],
       "stats_facts": [
-        "Three major vendors rejected this morning.",
-        "NFL 'Brand Protection' officers stationed alongside physical security.",
-        "Violation: 'Vehicle Brand Neutrality Standards' for SB60."
+        "Protocol: 'Gold Level' security usually starts Game Day morning.",
+        "Impact: Southeast and Southwest tunnels effectively sealed.",
+        "Source: 'They changed the encryption keys at 4 AM.'"
       ],
-      "transition": "With tons of food stranded on the wrong side of the fence, logistics managers are scrambling for a solution that doesn't exist."
+      "transition": "For the team staff arriving for afternoon walkthroughs, the result was immediate gridlock at the checkpoints."
     },
     {
-      "title": "The White Van Scramble",
+      "title": "Red Light District",
       "key_points": [
-        "Vendors are frantically renting plain white vans to shuttle goods.",
-        "Local rental agencies have been stripped bare of inventory.",
-        "The 'Clean Zone' loophole requires vehicles to be visually generic."
+        "Standard NFL 'All-Access' passes are being rejected.",
+        "Santa Clara PD credentials are no longer recognized.",
+        "A secondary biometric overlay is now mandatory."
       ],
       "stats_facts": [
-        "Enterprise and Penske in San Jose/Santa Clara report zero cargo inventory.",
-        "Quote: 'It's the White Van Scramble. If you have a plain white truck right now, you can charge triple.'",
-        "Rental rates for unbranded cargo vans have spiked 300%."
+        "Visual: Checkpoints are flashing 'Invalid' red lights.",
+        "Scope: Affects trainers, equipment staff, and medical personnel.",
+        "Quote: 'It's a turf war. The Feds decided the local list was porous.'"
       ],
-      "transition": "But even if they find a van, the clock is ticking down to the ultimate deadline."
+      "transition": "The technology failure isn't just about permissions; it's about the physics of the stadium bowels."
     },
     {
-      "title": "The Hard Freeze",
+      "title": "The RF Jam",
       "key_points": [
-        "The stadium perimeter seals tight at midnight.",
-        "After the freeze, no deliveries are allowed without federal escort.",
-        "Crews are racing to move perishables before the lock turns."
+        "Biometric scanners are failing due to interference.",
+        "The stadium's RF environment is too dense for the new tech.",
+        "Processing times have slowed to a crawl."
       ],
       "stats_facts": [
-        "Deadline: 11:59 PM tonight.",
-        "4,000 pounds of brisket currently sitting in a Sunnyvale lot.",
-        "The 'Hard Freeze' protocol is absolute—no exceptions for late arrivals."
+        "Cause: High-density RF environment in concrete tunnels.",
+        "Effect: Latency issues causing long queues.",
+        "Stat: 400+ essential staff currently in limbo."
       ],
-      "transition": "The reason for this chaos isn't national security—it's the billion-dollar business of exclusivity."
+      "transition": "While the machines buffer, the tension is boiling over at the command center."
     },
     {
-      "title": "The Brand Police",
+      "title": "The EOC Standoff",
       "key_points": [
-        "The NFL is enforcing 'Clean Zone' rules on transient vehicles.",
-        "Sponsors like Pepsi and Frito-Lay have exclusivity rights.",
-        "Local bakery or produce logos are considered 'Ambush Marketing'."
+        "Team Security Directors are in emergency meetings.",
+        "The 'Unified Command' is fracturing over jurisdiction.",
+        "Federal agents are refusing to revert to the old list."
       ],
       "stats_facts": [
-        "Enforcement interpretation changed 24 hours ago.",
-        "Specific bans on mascots and non-approved fruit brands.",
-        "Quote: 'They told us to duct tape the logo or turn around.'"
+        "Location: Emergency Operations Center (EOC).",
+        "Quote: 'My badge gets me into the Pentagon, but not the locker room.'",
+        "Conflict: Safety vs. Logistics."
       ],
-      "transition": "For the local businesses caught in the crossfire, the cost of doing business just went up."
+      "transition": "The proposed solution requires equipment that simply isn't there yet."
     },
     {
-      "title": "The Duct Tape Solution",
+      "title": "The Mobile Unit Gap",
       "key_points": [
-        "Crews are manually taping over logos on 53-foot trailers.",
-        "It is a desperate, labor-intensive measure to get goods inside.",
-        "The loading dock looks like a fleet of ghost trucks."
+        "Re-badging everyone requires specific mobile units.",
+        "Those units are still in transit from off-site.",
+        "Teams are stuck waiting for hardware to arrive."
       ],
       "stats_facts": [
-        "Quote: 'We don't have enough tape for a 53-foot trailer.'",
-        "Security checkpoints are operating 24/7.",
-        "Visual irony: The world's biggest event is being stocked by taped-up trucks."
+        "Requirement: Mobile processing units for biometric intake.",
+        "Status: Not on site.",
+        "Quote: 'We have trainers stuck in the parking lot.'"
       ],
-      "transition": "By tomorrow morning, the stadium will be fully stocked, but the fleet parked in the loading dock will look like a ghost fleet."
+      "transition": "Until those trucks arrive, the road to the Super Bowl field ends at the tunnel guard post."
     }
   ]
 }
