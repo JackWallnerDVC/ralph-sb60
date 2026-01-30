@@ -10,19 +10,19 @@
       "What was the 49ers' red zone conversion rate during the regular season (Weeks 1-18)? Provide a breakdown of TD vs. FG.",
       "What is the 49ers' red zone conversion rate during the playoffs? Provide a breakdown of TD vs. FG.",
       "How does the 49ers' red zone conversion rate compare to the league average during the regular season and playoffs?",
-      "What are the opponent's red zone defensive rankings, weighted by playoff appearance? Include specific DVOA and EPA stats.",
+      "What are the opponent's red zone defensive rankings? Include specific DVOA and EPA stats.",
       "What are the 49ers' red zone play-calling tendencies (run/pass ratio, personnel groupings)? How have these changed in the playoffs?",
       "What are the historical red zone conversion rates for Super Bowl teams? Focus on teams with similar offensive profiles to the 49ers.",
-      "What is the impact of key injuries on red zone performance (correlation analysis)? Specifically, how do injuries to key offensive linemen and receivers affect red zone efficiency?",
+      "What is the impact of key injuries on red zone performance (correlation analysis)?",
       "What was the 49ers' red zone success rate vs. top 10 defenses in the regular season? How does this compare to their performance against weaker defenses?",
       "What is the average number of red zone opportunities per game for the 49ers in the regular season and playoffs?",
       "What is the 49ers' red zone touchdown vs. field goal ratio in the regular season and playoffs? How does this compare to their opponents?",
-      "How does the 49ers' red zone performance change based on game location (home vs. away)? Is there a significant difference?",
+      "How does the 49ers' red zone performance change based on game location (home vs. away)?",
       "What is the correlation between the 49ers' red zone performance and their overall offensive success (e.g., total points scored, yards gained)?",
       "What is the impact of specific offensive players (e.g., QB, RB, WR) on the 49ers' red zone efficiency? Provide data on individual player performance in the red zone.",
-      "What is the historical performance of the 49ers' offensive coordinator in red zone situations? Are there any notable trends or patterns?",
+      "What is the historical performance of the 49ers' offensive coordinator in red zone situations?",
       "What are the key factors contributing to the 49ers' red zone success or failure (e.g., play-calling, execution, opponent's defense)?",
-      "What is the trend in the 49ers' red zone performance over the last 5 games? Is there a clear upward or downward trajectory?"
+      "What is the trend in the 49ers' red zone performance over the last 5 games?"
     ],
     "sources_to_cite": [
       "NFL.com stats",
@@ -43,7 +43,7 @@
       "\"Red zone performance is a critical indicator of a team's ability to score points and win games, especially in the Super Bowl.\"",
       "\"The 49ers' play-calling in the red zone has become increasingly predictable, allowing defenses to anticipate their moves.\"",
       "\"Injuries to key players, particularly on the offensive line, have significantly impacted the 49ers' red zone efficiency.\"",
-      "\"Historical data suggests that Super Bowl teams with strong red zone offenses have a higher probability of winning, but recent trends show a decline in the importance of red zone dominance.\"",
+      "\"Historical data suggests that Super Bowl teams with strong red zone offenses have a higher probability of winning.\"",
       "Statistic: \"The 49ers converted X% of their red zone opportunities into touchdowns during the regular season, compared to Y% in the playoffs.\"",
       "Statistic: \"The 49ers' red zone conversion rate has decreased by Z% in the playoffs, ranking them Nth among playoff teams.\"",
       "Quote from a coach or player: \"We need to execute better in the red zone and capitalize on our scoring opportunities. It's a point of emphasis for us.\"",
@@ -54,7 +54,7 @@
       "The opponent's red zone defense is overrated, and the 49ers will be able to exploit their weaknesses.",
       "The 49ers' coaching staff has a proven track record of success in red zone situations and will make the necessary adjustments.",
       "The sample size of playoff games is too small to draw meaningful conclusions about red zone regression. The 49ers will bounce back in the Super Bowl.",
-      "External factors, such as weather conditions or officiating, will have a greater impact on the game than red zone performance. The 49ers are well-prepared to handle these challenges."
+      "External factors, such as weather conditions or officiating, will have a greater impact on the game than red zone performance."
     ],
     "related_topics_for_context": [
       "Red zone efficiency statistics and analysis",
@@ -64,9 +64,7 @@
       "Opponent team analysis and performance",
       "Impact of injuries on team performance",
       "Weather conditions and their effect on football games",
-      "Betting odds and probabilities related to Super Bowl LX",
-      "Advanced metrics like DVOA and EPA and their correlation to red zone success",
-      "Historical analysis of offensive coordinator's red zone play-calling tendencies"
+      "Betting odds and probabilities related to Super Bowl LX"
     ]
   }
 }
