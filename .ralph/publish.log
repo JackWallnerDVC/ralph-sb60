@@ -28,3 +28,31 @@ Install missing gem executables with `bundle install`
 ❌ Build failed
 
 
+=== Ralph Publish Job ===
+=== Ralph Publish Job ===
+Timestamp: 2026-01-30T08:00:01Z
+Timestamp: 2026-01-30T08:00:01Z
+Drafts available: 4
+Drafts available: 4
+Target persona: analyst
+Target persona: analyst
+🎯 Rate limit clear. Using AI to evaluate and humanize...
+🎯 Rate limit clear. Using AI to evaluate and humanize...
+Only 4 drafts, need 5 to evaluate
+Only 4 drafts, need 5 to evaluate
+🏗️ Building site...
+🏗️ Building site...
+From https://github.com/JackWallnerDVC/ralph-sb60
+ * branch            main       -> FETCH_HEAD
+From https://github.com/JackWallnerDVC/ralph-sb60
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+Already up to date.
+bundler: command not found: jekyll
+bundler: command not found: jekyll
+Install missing gem executables with `bundle install`
+Install missing gem executables with `bundle install`
+❌ Build failed
+❌ Build failed
+
+
