@@ -1,9 +1,9 @@
 {
   "mode": "job_based",
-  "lastActivity": "2026-01-30T13:44:17+0000",
+  "lastActivity": "2026-01-30T13:56:12+0000",
   "draftsInQueue": 0,
   "drafts": [],
-  "lastPublish": "2026-01-30T13:44:17.269763+00:00",
+  "lastPublish": "2026-01-30T13:56:12.446941+00:00",
   "targetQueueSize": 5,
   "currentPersona": "local",
   "researchTopics": [
@@ -30,12 +30,12 @@
     ],
     "lastCheck": "2026-01-30T10:20:00+0000"
   },
-  "nextPublish": "2026-01-30T14:00:00+0000",
+  "nextPublish": "2026-01-30T14:30:00+0000",
   "architecture": "distributed",
   "lastTransition": "2026-01-30T00:57:15.103424Z",
   "apiCooldownSeconds": 180,
   "targetDrafts": 5,
-  "lastDraftAt": "2026-01-30T13:45:00+0000",
+  "lastDraftAt": "2026-01-30T16:15:00.000000Z",
   "lastResearch": "2026-01-30T01:00:04.204689Z",
   "trendsAvailable": true
 }

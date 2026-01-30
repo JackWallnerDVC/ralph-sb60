@@ -40184,3 +40184,535 @@ State updated: 4 drafts
 State updated: 4 drafts
 
 
+=== Ralph Draft Worker (Multi-AI) ===
+=== Ralph Draft Worker (Multi-AI) ===
+Timestamp: 2026-01-30T13:45:00Z
+Timestamp: 2026-01-30T13:45:00Z
+Drafts in queue: 00/5
+Drafts in queue: 00/5
+📝 Generating draft 1/5 as local
+📝 Generating draft 1/5 as local
+
+
+🧠 AI Call 1/3: Deep research...
+🧠 AI Call 1/3: Deep research...
+Warning: Input is not a terminal (fd=0).
+Warning: Input is not a terminal (fd=0).
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────────────
+Aider v0.86.1
+Aider v0.86.1
+Model: vertex_ai/gemini-2.0-flash-exp with whole edit format
+Model: vertex_ai/gemini-2.0-flash-exp with whole edit format
+Git repo: .git with 192 files
+Git repo: .git with 192 files
+Repo-map: using 4096 tokens, auto refresh
+Repo-map: using 4096 tokens, auto refresh
+Added .ralph/angle_local.json to the chat.
+Added .ralph/angle_local.json to the chat.
+Added .ralph/research_summary.json to the chat.
+Added .ralph/research_summary.json to the chat.
+Added .ralph/trends.json to the chat.
+Added .ralph/trends.json to the chat.
+Added _posts/2026-01-30-12-47-middle-eight.md to the chat.
+Added _posts/2026-01-30-12-47-middle-eight.md to the chat.
+Added _posts/2026-01-30-13-00-silent-rehearsal.md to the chat.
+Added _posts/2026-01-30-13-00-silent-rehearsal.md to the chat.
+Added _posts/2026-01-30-13-12-confetti-logistics.md to the chat.
+Added _posts/2026-01-30-13-12-confetti-logistics.md to the chat.
+Added _posts/2026-01-30-13-30-koreatown-secret.md to the chat.
+Added _posts/2026-01-30-13-30-koreatown-secret.md to the chat.
+Added _posts/2026-01-30-13-44-gatorade-protocol.md to the chat.
+Added _posts/2026-01-30-13-44-gatorade-protocol.md to the chat.
+Added personas.json to the chat.
+Added personas.json to the chat.
+
+
+
+
+.ralph/deep_research.json
+.ralph/deep_research.json
+Okay, I've reviewed research_summary.json and angle_local.json. Based on the    
+"recommendations" in research_summary.json, the priority topic is "Super Bowl 60
+at Levi's Stadium: Fan Experience and Local Impact in Santa Clara".             
+
+Okay, I've reviewed research_summary.json and angle_local.json. Based on the    
+"recommendations" in research_summary.json, the priority topic is "Super Bowl 60
+at Levi's Stadium: Fan Experience and Local Impact in Santa Clara".             
+
+Given that topic and the angles available in angle_local.json, the best angle to
+pursue is:                                                                      
+
+"Super Bowl LX Transit Triumph: Your Guide to Getting Around Santa Clara"       
+
+Here's the deep_research.json file I've created based on that angle:            
+
+.ralph/deep_research.json                                                       
+
+Given that topic and the angles available in angle_local.json, the best angle to
+pursue is:                                                                      
+
+"Super Bowl LX Transit Triumph: Your Guide to Getting Around Santa Clara"       
+
+Here's the deep_research.json file I've created based on that angle:            
+
+.ralph/deep_research.json                                                       
+
+                                                                                
+@@ -1,3 +1,4 @@                                                                 
+                                                                                
+@@ -1,3 +1,4 @@                                                                 
+     "headline": "Super Bowl LX Transit Triumph: Your Guide to Getting Around   
+Santa Clara",                                                                   
+     "angle": "Navigating Santa Clara during Super Bowl LX doesn't have to be a 
+nightmare. We're breaking down the best transportation options, from public     
+transit to ride-sharing hacks, so you can arrive at the stadium stress-free and 
+ready to cheer.",                                                               
+     "headline": "Super Bowl LX Transit Triumph: Your Guide to Getting Around   
+Santa Clara",                                                                   
+     "angle": "Navigating Santa Clara during Super Bowl LX doesn't have to be a 
+nightmare. We're breaking down the best transportation options, from public     
+transit to ride-sharing hacks, so you can arrive at the stadium stress-free and 
+ready to cheer.",                                                               
+       "Quote from a transportation official: \"We are working closely with     
+       "Quote from a transportation official: \"We are working closely with     
+local agencies to ensure a safe and efficient transportation experience for all 
+Super Bowl attendees.\"",                                                       
+       "Quote from a local resident: \"I always take the VTA to games at Levi's 
+Stadium. It's the easiest way to avoid the traffic.\""                          
++  51 /  73 lines [████████████████████░░░░░░░░░░]  70%                         
+                                                                                local agencies to ensure a safe and efficient transportation experience for all 
+Super Bowl attendees.\"",                                                       
+       "Quote from a local resident: \"I always take the VTA to games at Levi's 
+Stadium. It's the easiest way to avoid the traffic.\""                          
++  51 /  73 lines [████████████████████░░░░░░░░░░]  70%                         
+                                                                                
+
+Tokens: 12k sent, 1.2k received. Cost: $0.0026 message, $0.0026 session.
+Tokens: 12k sent, 1.2k received. Cost: $0.0026 message, $0.0026 session.
+Applied edit to .ralph/deep_research.json
+Applied edit to .ralph/deep_research.json
+
+
+🧠 AI Call 2/3: Creating outline...
+🧠 AI Call 2/3: Creating outline...
+Warning: Input is not a terminal (fd=0).
+Warning: Input is not a terminal (fd=0).
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────────────
+Aider v0.86.1
+Aider v0.86.1
+Model: vertex_ai/gemini-2.0-flash-exp with whole edit format
+Model: vertex_ai/gemini-2.0-flash-exp with whole edit format
+Git repo: .git with 193 files
+Git repo: .git with 193 files
+Repo-map: using 4096 tokens, auto refresh
+Repo-map: using 4096 tokens, auto refresh
+Added .ralph/angle_local.json to the chat.
+Added .ralph/angle_local.json to the chat.
+Added .ralph/deep_research.json to the chat.
+Added .ralph/deep_research.json to the chat.
+Added .ralph/research_summary.json to the chat.
+Added .ralph/research_summary.json to the chat.
+Added .ralph/trends.json to the chat.
+Added .ralph/trends.json to the chat.
+Added _posts/2026-01-30-12-47-middle-eight.md to the chat.
+Added _posts/2026-01-30-12-47-middle-eight.md to the chat.
+Added _posts/2026-01-30-13-00-silent-rehearsal.md to the chat.
+Added _posts/2026-01-30-13-00-silent-rehearsal.md to the chat.
+Added _posts/2026-01-30-13-12-confetti-logistics.md to the chat.
+Added _posts/2026-01-30-13-12-confetti-logistics.md to the chat.
+Added _posts/2026-01-30-13-30-koreatown-secret.md to the chat.
+Added _posts/2026-01-30-13-30-koreatown-secret.md to the chat.
+Added _posts/2026-01-30-13-44-gatorade-protocol.md to the chat.
+Added _posts/2026-01-30-13-44-gatorade-protocol.md to the chat.
+Added personas.json to the chat.
+Added personas.json to the chat.
+
+
+
+
+.ralph/outline.json
+.ralph/outline.json
+.ralph/outline.json                                                             
+
+                                                                                
+@@ -2,5 +2,6 @@                                                                 
+   "hook": "Navigating Santa Clara during Super Bowl LX doesn't have to be a    
+nightmare.",                                                                    
+   "sections": [                                                                
+.ralph/outline.json                                                             
+
+                                                                                
+@@ -2,5 +2,6 @@                                                                 
+   "hook": "Navigating Santa Clara during Super Bowl LX doesn't have to be a    
+nightmare.",                                                                    
+   "sections": [                                                                
+       "key_points": [                                                          
+       "key_points": [                                                          
+                                                                                                                                                                
+
+Tokens: 13k sent, 1.0k received. Cost: $0.0026 message, $0.0026 session.
+Tokens: 13k sent, 1.0k received. Cost: $0.0026 message, $0.0026 session.
+Applied edit to .ralph/outline.json
+Applied edit to .ralph/outline.json
+
+
+🧠 AI Call 3/3: Writing draft...
+🧠 AI Call 3/3: Writing draft...
+Warning: Input is not a terminal (fd=0).
+Warning: Input is not a terminal (fd=0).
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────────────
+Aider v0.86.1
+Aider v0.86.1
+Model: vertex_ai/gemini-2.0-flash-exp with whole edit format
+Model: vertex_ai/gemini-2.0-flash-exp with whole edit format
+Git repo: .git with 193 files
+Git repo: .git with 193 files
+Repo-map: using 4096 tokens, auto refresh
+Repo-map: using 4096 tokens, auto refresh
+Added .ralph/angle_local.json to the chat.
+Added .ralph/angle_local.json to the chat.
+Added .ralph/deep_research.json to the chat.
+Added .ralph/deep_research.json to the chat.
+Added .ralph/outline.json to the chat.
+Added .ralph/outline.json to the chat.
+Added .ralph/research_summary.json to the chat.
+Added .ralph/research_summary.json to the chat.
+Added .ralph/trends.json to the chat.
+Added .ralph/trends.json to the chat.
+Added _posts/2026-01-30-12-47-middle-eight.md to the chat.
+Added _posts/2026-01-30-12-47-middle-eight.md to the chat.
+Added _posts/2026-01-30-13-00-silent-rehearsal.md to the chat.
+Added _posts/2026-01-30-13-00-silent-rehearsal.md to the chat.
+Added _posts/2026-01-30-13-12-confetti-logistics.md to the chat.
+Added _posts/2026-01-30-13-12-confetti-logistics.md to the chat.
+Added _posts/2026-01-30-13-30-koreatown-secret.md to the chat.
+Added _posts/2026-01-30-13-30-koreatown-secret.md to the chat.
+Added _posts/2026-01-30-13-44-gatorade-protocol.md to the chat.
+Added _posts/2026-01-30-13-44-gatorade-protocol.md to the chat.
+Added personas.json to the chat.
+Added personas.json to the chat.
+
+
+Ok, I will create a new file at .ralph/drafts/draft-20260130-1345-local-topic.md
+using the provided outline.json and following your instructions.                
+
+.ralph/drafts/draft-20260130-1345-local-topic.md                                
+
+                                                                                
+Ok, I will create a new file at .ralph/drafts/draft-20260130-1345-local-topic.md
+using the provided outline.json and following your instructions.                
+
+.ralph/drafts/draft-20260130-1345-local-topic.md                                
+
+                                                                                
+---                                                                             
+                                                                                
+layout: post                                                                    
+                                                                                
+title: "Super Bowl LX Transit Triumph: Your Guide to Getting Around Santa Clara"
+                                                                                
+---                                                                             
+                                                                                
+layout: post                                                                    
+                                                                                
+title: "Super Bowl LX Transit Triumph: Your Guide to Getting Around Santa Clara"
+                                                                                
+author: Tony Moretti                                                            
+                                                                                
+date: 2026-01-30 13:45:00 +0000                                                 
+                                                                                
+tags: [local, transportation, santa-clara, logistics]                           
+                                                                                
+excerpt: "Navigating Santa Clara during Super Bowl LX doesn't have to be a      
+author: Tony Moretti                                                            
+                                                                                
+date: 2026-01-30 13:45:00 +0000                                                 
+                                                                                
+tags: [local, transportation, santa-clara, logistics]                           
+                                                                                
+excerpt: "Navigating Santa Clara during Super Bowl LX doesn't have to be a      
+nightmare. Here's how to arrive stress-free and ready to cheer."                
+                                                                                
+persona: local                                                                  
+                                                                                
+status: draft                                                                   
+                                                                                
+---                                                                             
+                                                                                
+                                                                                
+                                                                                
+Navigating Santa Clara during Super Bowl LX doesn't have to be a nightmare.     
+Let's break down your best transportation options, so you can arrive stress-free
+and ready to cheer.                                                             
+                                                                                
+                                                                                
+                                                                                
+nightmare. Here's how to arrive stress-free and ready to cheer."                
+                                                                                
+persona: local                                                                  
+                                                                                
+status: draft                                                                   
+                                                                                
+---                                                                             
+                                                                                
+                                                                                
+                                                                                
+Navigating Santa Clara during Super Bowl LX doesn't have to be a nightmare.     
+Let's break down your best transportation options, so you can arrive stress-free
+and ready to cheer.                                                             
+                                                                                
+                                                                                
+                                                                                
+## Decoding Your Transportation Options: A Super Bowl LX Survival Guide         
+                                                                                
+                                                                                
+## Decoding Your Transportation Options: A Super Bowl LX Survival Guide         
+                                                                                
+                                                                                
+                                                                                
+Okay, you've got a ton of ways to get to Levi's Stadium. We're talking VTA Light
+Rail, Caltrain, ride-sharing like Uber and Lyft, free shuttles, even biking or  
+walking if you're feeling ambitious. Each has its pluses and minuses. Cost,     
+convenience, travel time, the chance of getting stuck in a jam – you gotta weigh
+it all. Plan ahead and check those schedules. Trust me, winging it on game day  
+is a recipe for stress.                                                         
+                                                                                
+Okay, you've got a ton of ways to get to Levi's Stadium. We're talking VTA Light
+Rail, Caltrain, ride-sharing like Uber and Lyft, free shuttles, even biking or  
+walking if you're feeling ambitious. Each has its pluses and minuses. Cost,     
+convenience, travel time, the chance of getting stuck in a jam – you gotta weigh
+it all. Plan ahead and check those schedules. Trust me, winging it on game day  
+is a recipe for stress.                                                         
+                                                                                
+                                                                                
+                                                                                
+The VTA Light Rail is a workhorse, moving about 4,200 people per hour during big
+events. But traffic around the stadium? Expect an extra 45-60 minutes tacked    
+onto your trip. And those ride-sharing apps? Surge pricing could jack up your   
+fare by 2x-5x when everyone's trying to leave.                                  
+                                                                                
+                                                                                
+                                                                                
+The VTA Light Rail is a workhorse, moving about 4,200 people per hour during big
+events. But traffic around the stadium? Expect an extra 45-60 minutes tacked    
+onto your trip. And those ride-sharing apps? Surge pricing could jack up your   
+fare by 2x-5x when everyone's trying to leave.                                  
+                                                                                
+                                                                                
+                                                                                
+Let's get into the nitty-gritty of mastering public transportation for a smooth 
+Super Bowl experience.                                                          
+                                                                                
+                                                                                
+                                                                                
+## Public Transit Mastery: VTA, Caltrain, and Clipper Card Secrets              
+                                                                                
+                                                                                
+                                                                                
+Alright, public transit. The VTA Light Rail and Caltrain are your friends here. 
+The VTA's got lines that'll drop you pretty darn close to the stadium. Caltrain 
+                                                                                
+                                                                                
+                                                                                
+Let's get into the nitty-gritty of mastering public transportation for a smooth 
+Super Bowl experience.                                                          
+                                                                                
+                                                                                
+                                                                                
+## Public Transit Mastery: VTA, Caltrain, and Clipper Card Secrets              
+                                                                                
+                                                                                
+                                                                                
+Alright, public transit. The VTA Light Rail and Caltrain are your friends here. 
+The VTA's got lines that'll drop you pretty darn close to the stadium. Caltrain 
+connects you from up the Peninsula.                                             
+                                                                                
+                                                                                
+                                                                                
+Get your tickets sorted beforehand. Download the VTA or Caltrain app, or grab a 
+Clipper card. Clipper's the way to go if you're using transit a lot; it gives   
+you discounts. Public transit? It means skipping traffic, saving on parking     
+connects you from up the Peninsula.                                             
+                                                                                
+                                                                                
+                                                                                
+Get your tickets sorted beforehand. Download the VTA or Caltrain app, or grab a 
+Clipper card. Clipper's the way to go if you're using transit a lot; it gives   
+you discounts. Public transit? It means skipping traffic, saving on parking     
+(which is a beast), and being a little greener.                                 
+                                                                                
+                                                                                
+                                                                                
+The VTA will be running extra trains every 15 minutes on Super Bowl Sunday. A   
+Clipper card saves you money on both VTA and Caltrain. From downtown San Jose to
+(which is a beast), and being a little greener.                                 
+                                                                                
+                                                                                
+                                                                                
+The VTA will be running extra trains every 15 minutes on Super Bowl Sunday. A   
+Clipper card saves you money on both VTA and Caltrain. From downtown San Jose to
+Levi's on the VTA? Figure about 45 minutes.                                     
+                                                                                
+                                                                                
+                                                                                
+But what if trains aren't your thing? Let's talk ride-sharing.                  
+                                                                                
+                                                                                
+                                                                                
+## Ride-Sharing Realities: Surge Pricing, Pick-Up Zones, and Pro Hacks          
+                                                                                
+Levi's on the VTA? Figure about 45 minutes.                                     
+                                                                                
+                                                                                
+                                                                                
+But what if trains aren't your thing? Let's talk ride-sharing.                  
+                                                                                
+                                                                                
+                                                                                
+## Ride-Sharing Realities: Surge Pricing, Pick-Up Zones, and Pro Hacks          
+                                                                                
+                                                                                
+                                                                                
+Uber and Lyft are gonna be swamped. Know where to get picked up and dropped off;
+there are designated zones near the stadium. Surge pricing is a lock, and wait  
+times? Prepare to be patient.                                                   
+                                                                                
+                                                                                
+                                                                                
+Here's a pro tip: walk a few blocks away from the stadium before you call that  
+ride. The surge pricing geofence is real, and those few blocks can save you     
+                                                                                
+                                                                                
+Uber and Lyft are gonna be swamped. Know where to get picked up and dropped off;
+there are designated zones near the stadium. Surge pricing is a lock, and wait  
+times? Prepare to be patient.                                                   
+                                                                                
+                                                                                
+                                                                                
+Here's a pro tip: walk a few blocks away from the stadium before you call that  
+ride. The surge pricing geofence is real, and those few blocks can save you     
+serious cash.                                                                   
+                                                                                
+                                                                                
+                                                                                
+Surge pricing can easily hike fares by 2x-5x, maybe even higher. Expect to wait 
+30-plus minutes for a ride near Levi's on game day. Those ride-sharing zones?   
+They're usually a 10-15 minute walk from the stadium gates.                     
+                                                                                
+                                                                                
+                                                                                
+serious cash.                                                                   
+                                                                                
+                                                                                
+                                                                                
+Surge pricing can easily hike fares by 2x-5x, maybe even higher. Expect to wait 
+30-plus minutes for a ride near Levi's on game day. Those ride-sharing zones?   
+They're usually a 10-15 minute walk from the stadium gates.                     
+                                                                                
+                                                                                
+                                                                                
+Now, for a structured and cheap option, check out the free shuttles.            
+                                                                                
+                                                                                
+                                                                                
+## Shuttle Strategies: Free Rides and Smart Planning for SB60                   
+                                                                                
+                                                                                
+                                                                                
+The City of Santa Clara usually puts on free shuttle services. Check their      
+website for routes, schedules, and where to hop on and off. Shuttles are great  
+Now, for a structured and cheap option, check out the free shuttles.            
+                                                                                
+                                                                                
+                                                                                
+## Shuttle Strategies: Free Rides and Smart Planning for SB60                   
+                                                                                
+                                                                                
+                                                                                
+The City of Santa Clara usually puts on free shuttle services. Check their      
+website for routes, schedules, and where to hop on and off. Shuttles are great  
+for dodging traffic and skipping those parking fees.                            
+                                                                                
+                                                                                
+                                                                                
+Keep an eye on the city's website or app for the latest shuttle info. They run  
+about every 20 minutes from parking lots and transit hubs. The routes hit key   
+spots around town, like hotels and transportation centers. Shuttles usually run 
+for dodging traffic and skipping those parking fees.                            
+                                                                                
+                                                                                
+                                                                                
+Keep an eye on the city's website or app for the latest shuttle info. They run  
+about every 20 minutes from parking lots and transit hubs. The routes hit key   
+spots around town, like hotels and transportation centers. Shuttles usually run 
+for about 3 hours before and after the game.                                    
+                                                                                
+                                                                                
+                                                                                
+Finally, if you're feeling active, consider biking or walking.                  
+                                                                                
+                                                                                
+                                                                                
+## Beyond the Bus: Biking and Walking to the Big Game                           
+                                                                                
+                                                                                
+                                                                                
+If you're up for it, biking or walking can be a cool way to soak in the Super   
+Bowl vibe and skip the traffic mess. Look for bike routes, pedestrian paths, and
+for about 3 hours before and after the game.                                    
+                                                                                
+                                                                                
+                                                                                
+Finally, if you're feeling active, consider biking or walking.                  
+                                                                                
+                                                                                
+                                                                                
+## Beyond the Bus: Biking and Walking to the Big Game                           
+                                                                                
+                                                                                
+                                                                                
+If you're up for it, biking or walking can be a cool way to soak in the Super   
+Bowl vibe and skip the traffic mess. Look for bike routes, pedestrian paths, and
+bike parking near the stadium.                                                  
+                                                                                
+                                                                                
+                                                                                
+Safety first, though. Wear bright clothes, especially at night, and stick to the
+rules of the road.                                                              
+                                                                                
+bike parking near the stadium.                                                  
+                                                                                
+                                                                                
+                                                                                
+Safety first, though. Wear bright clothes, especially at night, and stick to the
+rules of the road.                                                              
+                                                                                
+                                                                                
+                                                                                
+Bike parking is first-come, first-served. Walking from downtown Santa Clara?    
+Give yourself 45-60 minutes. The city adds extra lighting and traffic control to
+keep pedestrians safe.                                                          
+                                                                                
+                                                                                
+                                                                                
+Bike parking is first-come, first-served. Walking from downtown Santa Clara?    
+Give yourself 45-60 minutes. The city adds extra lighting and traffic control to
+keep pedestrians safe.                                                          
+                                                                                
+
+
+Tokens: 13k sent, 1.0k received. Cost: $0.0026 message, $0.0026 session.
+Tokens: 13k sent, 1.0k received. Cost: $0.0026 message, $0.0026 session.
+
+
+.ralph/drafts/draft-20260130-1345-local-topic.md
+.ralph/drafts/draft-20260130-1345-local-topic.md
+Applied edit to .ralph/drafts/draft-20260130-1345-local-topic.md
+Applied edit to .ralph/drafts/draft-20260130-1345-local-topic.md
+State updated: 2 drafts
+State updated: 2 drafts
+
+
