@@ -56,3 +56,33 @@ Install missing gem executables with `bundle install`
 ❌ Build failed
 
 
+=== Ralph Publish Job ===
+=== Ralph Publish Job ===
+Timestamp: 2026-01-30T14:00:00Z
+Timestamp: 2026-01-30T14:00:00Z
+Drafts available: 1
+Drafts available: 1
+Target persona: local
+Target persona: local
+📰 Only 1 draft. Publishing without AI polish to preserve it...
+📰 Only 1 draft. Publishing without AI polish to preserve it...
+Publishing: draft-20260130-1420-local-sf-commute-trap.md
+✅ Published: 2026-01-30-14-00-local-sf-commute-trap.md
+Publishing: draft-20260130-1420-local-sf-commute-trap.md
+✅ Published: 2026-01-30-14-00-local-sf-commute-trap.md
+🏗️ Building site...
+🏗️ Building site...
+From https://github.com/JackWallnerDVC/ralph-sb60
+ * branch            main       -> FETCH_HEAD
+From https://github.com/JackWallnerDVC/ralph-sb60
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+Already up to date.
+bundler: command not found: jekyll
+bundler: command not found: jekyll
+Install missing gem executables with `bundle install`
+Install missing gem executables with `bundle install`
+❌ Build failed
+❌ Build failed
+
+

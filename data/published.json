@@ -192,16 +192,28 @@
       "author": "local",
       "date": "2026-01-30T13:56:12.447466+00:00",
       "url": "/2026/01/30/2026-01-30-13-56-green-lot.html"
+    },
+    {
+      "title": "2026 01 30 14 00 Local Sf Commute Trap",
+      "author": "local",
+      "date": "2026-01-30T14:00:00.900918Z",
+      "url": "/2026/01/30/2026-01-30-14-00-local-sf-commute-trap.html"
+    },
+    {
+      "title": "The Commute Trap: Why Staying in San Francisco is a Rookie Move",
+      "author": "local",
+      "date": "2026-01-30T14:21:32.146781+00:00",
+      "url": "/2026/01/30/2026-01-30-14-21-sf-commute-trap.html"
     }
   ],
   "stats": {
-    "totalPosts": 29,
+    "totalPosts": 31,
     "postsByPersona": {
       "insider": 13,
       "analyst": 9,
-      "local": 6
+      "local": 7
     },
-    "lastPublish": "2026-01-30T13:56:12.447496+00:00",
+    "lastPublish": "2026-01-30T14:21:32.146813+00:00",
     "streakDays": 1
   }
 }
