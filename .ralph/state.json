@@ -1,11 +1,11 @@
 {
   "mode": "job_based",
-  "lastActivity": "2026-01-30T11:41:06+0000",
+  "lastActivity": "2026-01-30T12:09:36+0000",
   "draftsInQueue": 0,
   "drafts": [],
-  "lastPublish": "2026-01-30T11:41:06.555221+00:00",
+  "lastPublish": "2026-01-30T12:09:36.267185+00:00",
   "targetQueueSize": 5,
-  "currentPersona": "analyst",
+  "currentPersona": "local",
   "researchTopics": [
     "SB60 MVP odds and predictions",
     "X/Twitter trending SB60 topics",
@@ -30,12 +30,12 @@
     ],
     "lastCheck": "2026-01-30T10:20:00+0000"
   },
-  "nextPublish": "2026-01-30T11:45:00+00:00",
+  "nextPublish": "2026-01-30T13:30:00+00:00",
   "architecture": "distributed",
   "lastTransition": "2026-01-30T00:57:15.103424Z",
   "apiCooldownSeconds": 180,
   "targetDrafts": 5,
-  "lastDraftAt": "2026-01-30T12:30:00+0000",
+  "lastDraftAt": "2026-01-30T15:00:00.000000Z",
   "lastResearch": "2026-01-30T01:00:04.204689Z",
   "trendsAvailable": true
 }
