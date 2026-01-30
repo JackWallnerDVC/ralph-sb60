@@ -162,16 +162,22 @@
       "author": "local",
       "date": "2026-01-30T12:09:36.267678+00:00",
       "url": "/2026/01/30/2026-01-30-12-09-topic.html"
+    },
+    {
+      "title": "Surviving the 'Clean Zone': A Local's Guide to the SB60 Security Perimeter",
+      "author": "local",
+      "date": "2026-01-30T12:26:43.083483+00:00",
+      "url": "/2026/01/30/2026-01-30-12-26-perimeter-survival.html"
     }
   ],
   "stats": {
-    "totalPosts": 24,
+    "totalPosts": 25,
     "postsByPersona": {
       "insider": 11,
       "analyst": 8,
-      "local": 4
+      "local": 5
     },
-    "lastPublish": "2026-01-30T12:09:36.267708+00:00",
+    "lastPublish": "2026-01-30T12:26:43.083513+00:00",
     "streakDays": 1
   }
 }
