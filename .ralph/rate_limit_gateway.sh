@@ -8,7 +8,7 @@ COOLDOWN_SECONDS=180  # 3 minutes between API calls
 # Initialize gateway file if missing
 init_gateway() {
     if [[ ! -f "$GATEWAY_FILE" ]]; then
-        echo '{"lastCall": 0, "callsThisHour": 0, "hourStart": 0}' > "$GATEWAY_FILE"
+        python3 -c "import json; json.dump({'lastCall': 0, 'callsThisHour': 0, 'hourStart': 0}, open('$GATEWAY_FILE', 'w'))"
     fi
 }
 
@@ -18,54 +18,85 @@ init_gateway() {
 check_rate_limit() {
     init_gateway
     
-    local now=$(date +%s)
-    local lastCall=$(jq -r '.lastCall' "$GATEWAY_FILE")
-    local callsThisHour=$(jq -r '.callsThisHour' "$GATEWAY_FILE")
-    local hourStart=$(jq -r '.hourStart' "$GATEWAY_FILE")
-    
-    # Reset hourly counter if hour has passed
-    if (( now - hourStart >= 3600 )); then
-        callsThisHour=0
-        hourStart=$now
-        jq ".hourStart = $hourStart | .callsThisHour = 0" "$GATEWAY_FILE" > "${GATEWAY_FILE}.tmp" && mv "${GATEWAY_FILE}.tmp" "$GATEWAY_FILE"
-    fi
-    
-    # Check cooldown
-    local elapsed=$(( now - lastCall ))
-    if (( elapsed < COOLDOWN_SECONDS )); then
-        local wait=$(( COOLDOWN_SECONDS - elapsed ))
-        echo "WAIT:$wait"
-        return 1
-    fi
-    
-    echo "ALLOW"
-    return 0
+    python3 << EOF
+import json
+import time
+
+try:
+    with open('$GATEWAY_FILE', 'r') as f:
+        data = json.load(f)
+except:
+    data = {'lastCall': 0, 'callsThisHour': 0, 'hourStart': 0}
+
+now = int(time.time())
+lastCall = data.get('lastCall', 0)
+hourStart = data.get('hourStart', 0)
+
+# Reset hourly counter if hour has passed
+if now - hourStart >= 3600:
+    data['hourStart'] = now
+    data['callsThisHour'] = 0
+    with open('$GATEWAY_FILE', 'w') as f:
+        json.dump(data, f)
+
+# Check cooldown
+elapsed = now - lastCall
+if elapsed < $COOLDOWN_SECONDS:
+    wait = $COOLDOWN_SECONDS - elapsed
+    print(f'WAIT:{wait}')
+else:
+    print('ALLOW')
+EOF
 }
 
 # Record an API call
 record_call() {
     init_gateway
-    local now=$(date +%s)
-    local callsThisHour=$(jq -r '.callsThisHour' "$GATEWAY_FILE")
-    callsThisHour=$(( callsThisHour + 1 ))
     
-    jq ".lastCall = $now | .callsThisHour = $callsThisHour" "$GATEWAY_FILE" > "${GATEWAY_FILE}.tmp" && mv "${GATEWAY_FILE}.tmp" "$GATEWAY_FILE"
+    python3 << EOF
+import json
+import time
+
+try:
+    with open('$GATEWAY_FILE', 'r') as f:
+        data = json.load(f)
+except:
+    data = {'lastCall': 0, 'callsThisHour': 0, 'hourStart': 0}
+
+now = int(time.time())
+data['lastCall'] = now
+data['callsThisHour'] = data.get('callsThisHour', 0) + 1
+
+with open('$GATEWAY_FILE', 'w') as f:
+    json.dump(data, f)
+EOF
 }
 
 # Get status for logging
 get_status() {
     init_gateway
-    local lastCall=$(jq -r '.lastCall' "$GATEWAY_FILE")
-    local callsThisHour=$(jq -r '.callsThisHour' "$GATEWAY_FILE")
-    local now=$(date +%s)
-    local elapsed=$(( now - lastCall ))
-    local remaining=$(( COOLDOWN_SECONDS - elapsed ))
     
-    if (( remaining > 0 )); then
-        echo "COOLDOWN:${remaining}s|HOUR:${callsThisHour}"
-    else
-        echo "READY|HOUR:${callsThisHour}"
-    fi
+    python3 << EOF
+import json
+import time
+
+try:
+    with open('$GATEWAY_FILE', 'r') as f:
+        data = json.load(f)
+except:
+    data = {'lastCall': 0, 'callsThisHour': 0, 'hourStart': 0}
+
+now = int(time.time())
+lastCall = data.get('lastCall', 0)
+callsThisHour = data.get('callsThisHour', 0)
+elapsed = now - lastCall
+remaining = $COOLDOWN_SECONDS - elapsed
+
+if remaining > 0:
+    print(f'COOLDOWN:{remaining}s|HOUR:{callsThisHour}')
+else:
+    print(f'READY|HOUR:{callsThisHour}')
+EOF
 }
 
 # Main entry point
