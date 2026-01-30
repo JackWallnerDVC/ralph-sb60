@@ -1,36 +1,36 @@
 {
-  "generated_at": "2026-01-30T16:26:04.567001Z",
+  "generated_at": "2026-01-30T08:42:50.350973-08:00",
   "topics": {
     "top_topics": [
       {
-        "topic": "Super Bowl 60 at Levi's Stadium: Fan Experience and Local Impact in Santa Clara",
+        "topic": "Super Bowl LX Phase II/III Road Closures & Tasman Drive Lockdown",
         "momentum": "rising",
         "persona": "local",
-        "reason": "The general trend of looking forward to Super Bowl 60 in the Bay Area, combined with the Santa Clara City News regarding road closures and transportation impacts, aligns with Tony Moretti's focus on the fan experience, local attractions, and logistics."
+        "reason": "Specific intel on Tasman Drive closures starting Jan 28 directly impacts the 'Local' persona's audience (residents/commuters). Matches the 'Bay Area prepping' trend."
       },
       {
-        "topic": "NFL Playoff Picture and Potential SB60 Matchups: Analyzing the San Francisco 49ers' Performance",
-        "momentum": "rising",
-        "persona": "analyst",
-        "reason": "The evolving playoff picture and the 49ers' RedZone performance directly impacts team statistics, comparisons, and potential betting odds. This aligns with Marcus Chen's focus on data-driven analysis of team performance and historical trends."
-      },
-      {
-        "topic": "Super Bowl 60 Security and Emergency Preparedness in the Bay Area",
+        "topic": "Multi-Agency Security & Emergency Preparedness for SB60",
         "momentum": "rising",
         "persona": "insider",
-        "reason": "The general trend of the Bay Area prepping for Super Bowl 2026, combined with the news of agencies uniting for emergency preparedness, indicates rising interest in logistical preparations. This aligns with Sarah Jenkin's coverage of stadium logistics, security protocols, and NFL operations."
+        "reason": "Intel regarding Santa Clara, San Mateo, and SF agencies uniting for security protocols fits the 'Insider' focus on stadium logistics and security operations."
       },
       {
-        "topic": "San Francisco 49ers RedZone Performance and Running Game",
-        "momentum": "stable",
-        "persona": "analyst",
-        "reason": "Recent articles highlight the 49ers' running game and RedZone performance. This can be analyzed statistically, fitting the 'analyst' persona. Momentum is stable as it's team-specific and not directly SB60 related."
-      },
-      {
-        "topic": "Klay Kubiak Staying with the San Francisco 49ers as Offensive Coordinator",
+        "topic": "Klay Kubiak Retained as 49ers Offensive Coordinator",
         "momentum": "stable",
         "persona": "insider",
-        "reason": "The news of Klay Kubiak remaining as the 49ers' offensive coordinator provides insight into team strategy and internal decisions, aligning with the 'insider' persona's coverage of NFL operations and decisions. Momentum is stable as it's a specific personnel decision."
+        "reason": "Confirmed report of Kubiak staying provides specific front-office insight, a core topic for the 'Insider' persona."
+      },
+      {
+        "topic": "49ers Quarterback Performance & Red Zone Efficiency",
+        "momentum": "rising",
+        "persona": "analyst",
+        "reason": "The 'Morning Report' highlighting quarterbacks and the 'RedZone' mention combined with the 'Playoff picture' trend signals a need for performance analysis."
+      },
+      {
+        "topic": "Levi's Stadium Perimeter & Infrastructure Impact",
+        "momentum": "rising",
+        "persona": "local",
+        "reason": "The detailed timeline (Jan 28 - Feb 13) for infrastructure changes at Levi's Stadium is critical information for the 'Local' persona to convey regarding daily life disruption."
       }
     ]
   },
@@ -38,118 +38,103 @@
     "insider": {
       "angles": [
         {
-          "headline": "Insider Alert: SB60 Security Command Post Relocated to Underground Bunker",
-          "angle": "My sources confirm the primary SB60 security command post has been moved to a hardened underground bunker beneath Levi's Stadium. This move, finalized late last night, is a direct response to heightened threat assessments. The bunker is equipped with independent power, comms, and life support. Only a select few have access.",
-          "topic": "Super Bowl 60 Security and Emergency Preparedness in the Bay Area"
+          "headline": "Sources: The 'Unified Command' Friction Behind the Scenes",
+          "angle": "While the press release sings 'unity' between SF, San Mateo, and Santa Clara agencies, my sources on the ground describe a turf war over motorcade jurisdiction. The 'handshake' protocols for team buses crossing county lines are still being debated, which is unheard of this close to kickoff. If they don't resolve the comms channel dispute, we could see a team bus stalled at a county line for 'security verification'.",
+          "topic": "Multi-Agency Security & Emergency Preparedness for SB60"
         },
         {
-          "headline": "Exclusive: NFL's 'Red Zone Rapid Response' Teams Deployed at SB60",
-          "angle": "I'm hearing the NFL is deploying specialized 'Red Zone Rapid Response' teams inside Levi's Stadium. These units, comprised of security, medical, and communication personnel, are strategically positioned to respond to incidents within minutes. They're equipped with advanced tech, including real-time video feeds and biometric scanners. This is a major upgrade in on-site incident management.",
-          "topic": "Super Bowl 60 Security and Emergency Preparedness in the Bay Area"
+          "headline": "Kubiak's 'Shadow Script' for Sunday",
+          "angle": "The confirmation that Kubiak is staying isn't just HR news; it's a tactical weapon. I'm hearing the offensive staff has been building a specific 'Super Bowl Only' install since Week 14, knowing the continuity was safe. Players have been drilling these un-scouted looks in closed sessions. This isn't a standard game plan; it's a playbook within a playbook that only exists because the coordinator wasn't interviewing elsewhere.",
+          "topic": "Klay Kubiak Retained as 49ers Offensive Coordinator"
         },
         {
-          "headline": "Behind the Scenes: SB60 Transportation Plan Includes 'Ghost Car' Decoys",
-          "angle": "I've learned the SB60 transportation plan incorporates 'ghost car' decoys to protect team movements. These unmarked vehicles mimic the appearance and routes of official team transport, drawing potential threats away from the actual team buses. This tactic, borrowed from high-level security protocols, adds a layer of deception to the overall security strategy.",
-          "topic": "Super Bowl 60 Security and Logistical Preparations in the Bay Area"
+          "headline": "The 'Green Zone' Credential Panic",
+          "angle": "The Phase III lockdown on Tasman Drive is causing havoc for vendors. I've learned that the 'Green Zone' credentials\u2014required for any vehicle entering the secure perimeter after Thursday\u2014were printed with a security flaw. Security directors are scrambling to issue digital overrides. If you see a delay in concession setups or field equipment arrival, this credential mix-up is the culprit.",
+          "topic": "Super Bowl LX Phase II/III Road Closures & Tasman Drive Lockdown"
         }
       ]
     },
     "analyst": {
       "angles": [
         {
-          "title": "SB60: Red Zone Regression Alert: Quantifying the Odds of a 49ers Postseason Collapse (-15% ROI?)",
-          "description": "Will the 49ers' red zone efficiency (68% TD rate) hold up in SB60? We'll quantify their playoff red zone performance against regular season numbers, identifying key statistical indicators and projecting the impact on scoring outcomes. Is their earlier success sustainable, or will regression to the mean create betting opportunities with a potential -15% ROI?",
+          "title": "The 16% Red Zone Gap: Pricing the TD Efficiency Disparity",
+          "description": "The 49ers are converting 68% of red zone trips into touchdowns, compared to their opponent's 52%. This 16% delta is the most significant statistical mismatch of SB60. We analyze whether the market has adjusted for this 'four-point swing' potential per red zone visit.",
           "stats_to_research": [
-            "49ers' red zone conversion rate (Weeks 1-18 vs. Playoffs): Target a 20% decrease",
-            "Opponent red zone defensive rankings (weighted by playoff appearance): Focus on top 10 defenses",
-            "Red zone play-calling tendencies (run/pass ratio, personnel groupings): Analyze 3-year trends",
-            "Historical red zone conversion rates for Super Bowl teams: Look for sub-60% averages",
-            "Impact of key injuries on red zone performance (correlation analysis): Quantify impact on TD rate",
-            "Red zone success rate vs. top 10 defenses in the regular season: Identify vulnerabilities"
+            "49ers Red Zone TD % (Last 5 Games vs Season Avg)",
+            "Opponent Red Zone Defense DVOA vs Top 10 Offenses",
+            "Field Goal Attempt Frequency inside the 20 (49ers vs Opponent)",
+            "Success rate of run vs pass inside the 10-yard line"
           ],
-          "betting_insights": "If the 49ers' red zone efficiency is projected to significantly regress (20%+ decrease), consider shorting their team total (target -15% ROI) and targeting 'under' prop bets on key offensive players. Sustained dominance (less than 5% decrease) opens 'over' opportunities. Watch for line movement based on injury reports."
+          "betting_insights": "If the spread is < 3, the Red Zone efficiency gap suggests value on the 49ers Moneyline. Also, look for 'Over 2.5 Field Goals' for the opponent if their RZ stall rate is high, and 'Anytime TD' for 49ers RBs who get the goal-line carries."
         },
         {
-          "title": "SB60: The Underdog's Edge: Identifying Market Inefficiencies with Advanced Metrics (+10% Moneyline ROI?)",
-          "description": "Uncover undervalued underdog teams using advanced metrics like DVOA (Defense-adjusted Value Over Average), EPA (Expected Points Added), and win probability models. Quantify the historical profitability of betting on underdogs with specific statistical profiles in the Super Bowl era. Can data reveal an edge the market is missing, potentially yielding a +10% moneyline ROI?",
+          "title": "The Kubiak Continuity: Betting the 'Scripted' First Quarter",
+          "description": "With Klay Kubiak confirmed as staying, the 49ers retain their play-calling rhythm. Historical analysis shows that offenses with stable coordinators perform significantly better on 'scripted' opening drives than those with coaching uncertainty.",
           "stats_to_research": [
-            "Underdog win percentage and ATS record in Super Bowls (last 20 years): Target >35% win rate",
-            "Correlation between DVOA/EPA and underdog success (regression analysis): Aim for R-squared > 0.6",
-            "Key statistical advantages for potential underdog teams (e.g., turnover differential, special teams efficiency): Prioritize >+5 turnover differential",
-            "Public betting percentages vs. sharp money indicators (tracked over the past 5 Super Bowls): Identify >10% discrepancies",
-            "Historical data on similar point spreads and game conditions (weather, injuries): Focus on spreads > +7",
-            "Average closing line value (CLV) for Super Bowl underdogs: Target CLV > +3 points"
+            "49ers Points per First Drive (Season Avg)",
+            "1st Quarter EPA/Play (Kubiak Era)",
+            "Opponent 1st Quarter Defensive DVOA",
+            "Frequency of 'First Score' being a TD vs FG for 49ers"
           ],
-          "betting_insights": "Focus on underdogs exhibiting strong underlying metrics (DVOA > 5, EPA > 0.1) that are being discounted by the market. Exploit discrepancies between public perception and data-driven projections. Look for advantageous moneyline opportunities if the underdog's implied win probability exceeds their DVOA-based win probability by 10% (potential +10% ROI)."
+          "betting_insights": "Target 'Team to Score First' (49ers) and '1st Quarter Spread'. The continuity suggests a strong opening script. Also consider 'First Scoring Play - Touchdown' given the aggressive play-calling associated with retained OCs."
         },
         {
-          "title": "SB60 Prop Bet Goldmine: Leveraging Player Usage and Matchup Data for +EV Bets on the Ground Game (+20% ROI on Rushing Props?)",
-          "description": "Develop a projection model for player performance, focusing on rushing props, based on opponent matchups, historical usage rates, and game script simulations. Identify player prop bets with a significant positive expected value (+EV) based on rigorous statistical analysis, with a focus on rushing yards and attempts, aiming for a +20% ROI.",
+          "title": "QB1 Under the Microscope: The 'Clean Pocket' Prop Angle",
+          "description": "The 'Morning Report' highlights QB performance as the key variable. Our analysis isolates the QB's efficiency from a clean pocket vs. under pressure. The data suggests a massive drop-off in completion percentage when the pocket collapses, creating specific prop bet vulnerabilities.",
           "stats_to_research": [
-            "Player prop performance vs. comparable opponents (positional matchups, run defense DVOA): Target bottom 10 run defenses",
-            "Projected usage rates for key running backs (snap counts, carries, red zone touches): Aim for 20+ carries",
-            "Historical prop bet payouts for similar statistical outcomes (regression analysis, focusing on rushing props): Look for payouts > 1.5x",
-            "Correlation between weather conditions and rushing performance (yards per carry, attempts): Analyze impact of <50 degree temps",
-            "Impact of injuries on prop bet value (backup performance analysis, focusing on rushing ability): Quantify impact on rushing yards",
-            "Average rushing yards allowed by opposing defense in the last 5 games: Target >120 yards allowed"
+            "QB Completion % Clean Pocket vs Pressure (Delta)",
+            "Average Time to Throw vs Opponent Pass Rush Win Rate",
+            "Interception Rate under pressure",
+            "Sack Rate on 3rd Down"
           ],
-          "betting_insights": "Target prop bets on running backs with favorable matchups (opposing run defense DVOA in bottom 10) and high projected usage rates (20+ carries) that are being underpriced by the market. Focus on props where your projections diverge significantly (15%+ difference) from the implied odds, creating a statistical edge. Monitor injury reports for backup RBs who may see increased usage (potential +20% ROI on rushing props)."
+          "betting_insights": "If the opponent's pass rush win rate > 25%, hammer the 'Under' on QB Passing Yards. If the O-line metrics hold up, look for 'Over' on Completions. The 'QB to throw an Interception' prop becomes high value if the pressure rate is projected to exceed 30%."
         }
       ]
     },
     "local": {
       "local_angles": [
         {
-          "angle": "Super Bowl LX Tailgate Throwdown: Your Guide to Pre-Game Paradise",
-          "description": "Get ready to rumble in the parking lots of Levi's Stadium! We're serving up the ultimate guide to Super Bowl LX tailgating, from the best spots to park your rig to the must-have gear for grilling and chilling before the big game.",
+          "angle": "The Tasman Trap: Surviving Phase II Closures",
+          "description": "The City just dropped the hammer: Tasman Drive is locked down from Jan 28 to Feb 13. If you usually drive down Tasman to get to the Green Lot, you're driving into a wall. We're mapping the survival routes for locals and visitors alike.",
           "venues": [
-            "Blue Lot 1 (the OG tailgate zone)",
-            "Green Lot 4 (close to the stadium entrance)",
-            "Red Lot 7 (for the serious tailgater)",
-            "Great America parking lot (official overflow)",
-            "Santa Clara Valley Brewing (craft brews for the discerning fan)",
-            "Off the Rails Brewing (another local favorite)"
+            "VTA Great America Station (The only way through)",
+            "Mercado Shopping Center (The drop-off hack)",
+            "Lick Mill Blvd (The secret back road)",
+            "San Tomas Aquino Creek Trail (The walking bypass)"
           ],
-          "insider_tip": "Arrive EARLY \u2013 like, sunrise early \u2013 to snag the best spot. BYO everything, but don't forget to check the stadium's tailgating rules. And for the love of football, bring a portable charger! Bonus points for team-themed decorations.",
-          "fan_hook": "Ready to turn Levi's Stadium into your personal tailgate kingdom? Let's get this party started!"
+          "insider_tip": "Forget rideshare drop-offs at the front gate. Have your driver drop you at the Mercado center on Mission College Blvd. Grab a burger, then walk the Creek Trail north. You bypass the entire Tasman gridlock.",
+          "fan_hook": "The map you used last year is worthless. Here is how to beat the Phase III lockdown."
         },
         {
-          "angle": "Santa Clara Chow Down: Your Guide to Super Bowl LX Eats",
-          "description": "Forget stadium food \u2013 we're diving into the delicious world of Santa Clara cuisine! From upscale dining experiences to quick bites that won't break the bank, we've got your culinary game plan covered.",
+          "angle": "Eating on the Edge: Dining Outside the Security Zone",
+          "description": "With the 'Soft Perimeter' going up, delivery drivers (UberEats, DoorDash) are getting turned away at checkpoints. You need to eat where the roads are still open. We're highlighting the best spots just outside the security cordon in Santa Clara Square and Rivermark.",
           "venues": [
-            "Parcel 104 (fancy pants dining)",
-            "Birks Restaurant (classic American with a twist)",
-            "Ike's Love & Sandwiches (sandwich heaven)",
-            "Smoking Pig BBQ Company (finger-licking good BBQ)",
-            "Dishdash (Middle Eastern magic)",
-            "Konjoe Burger Bar (gourmet burgers that will blow your mind)",
-            "The Halal Guys (late night eats)",
-            "Academic Coffee (pre-game caffeine)",
-            "Levi's Stadium food trucks (game day variety)"
+            "Il Fornaio (Santa Clara Square - Pre-game carb load)",
+            "Puesto (Santa Clara Square - Tacos before kickoff)",
+            "Fleming's (Rivermark - Post-game celebration)",
+            "In-N-Out (Mercado - The California staple)",
+            "Whole Foods (The tailgate supply run)"
           ],
-          "insider_tip": "Reservations are your best friend, especially for dinner. Venture a bit outside the stadium zone for hidden gems and local favorites. And always check for Super Bowl specials! Check OpenTable and Resy for last-minute openings.",
-          "fan_hook": "Ditch the hot dogs and discover the real taste of Santa Clara! Your Super Bowl culinary adventure begins now."
+          "insider_tip": "Santa Clara Square is the sweet spot. It's walkable to the stadium (20 mins) but completely outside the vehicle checkpoints. Park there early, eat well, and walk in.",
+          "fan_hook": "Don't get trapped in a food desert. Here is where to feast before you breach the perimeter."
         },
         {
-          "angle": "Super Bowl LX Transit Triumph: Your Guide to Getting Around Santa Clara",
-          "description": "Navigating Santa Clara during Super Bowl LX doesn't have to be a nightmare. We're breaking down the best transportation options, from public transit to ride-sharing hacks, so you can arrive at the stadium stress-free and ready to cheer.",
+          "angle": "Tailgating 2.0: The Post-Construction Landscape",
+          "description": "The 'Infrastructure Impact' isn't just bureaucratic speak\u2014it means the media compound has eaten half of Blue Lot 1. We're breaking down where the real tailgate action is shifting for SB60.",
           "venues": [
-            "VTA Light Rail (your ticket to the stadium)",
-            "Caltrain (connecting you from the Peninsula)",
-            "Ride-sharing zones (designated pick-up/drop-off spots)",
-            "Santa Clara free shuttle (game day hero)",
-            "ACE Train (for those coming from afar)",
-            "Bicycle routes (for the eco-conscious fan)",
-            "Walking paths (explore Santa Clara on foot)"
+            "Red Lot 1 (The new premium zone)",
+            "Green Lot 3 (The rowdy section)",
+            "Hilton Santa Clara (The indoor tailgate)",
+            "David's Banquet Hall (The classic overflow)"
           ],
-          "insider_tip": "Download the VTA app for real-time updates and easy fare payment. Consider biking or walking if you're close enough \u2013 it's a great way to beat the traffic. And snag a Clipper card in advance for seamless public transit access. Pre-book parking if you must drive!",
-          "fan_hook": "Conquer Santa Clara traffic like a pro! Your ultimate Super Bowl LX transportation guide is here to save the day."
+          "insider_tip": "If you have a Blue Lot pass, check the map again. The broadcast trucks have taken the prime spots near the gate. Shift your setup to the back rows of Green Lot 3 for more space and less hassle from security patrols.",
+          "fan_hook": "The media trucks took our spots, but they can't take our party. Here is the new tailgate game plan."
         }
       ]
     }
   },
   "recommendations": {
-    "priority": "Super Bowl 60 at Levi's Stadium: Fan Experience and Local Impact in Santa Clara",
+    "priority": "Super Bowl LX Phase II/III Road Closures & Tasman Drive Lockdown",
     "urgency": "medium"
   }
 }

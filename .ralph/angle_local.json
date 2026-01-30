@@ -1,50 +1,41 @@
 {
   "local_angles": [
     {
-      "angle": "Super Bowl LX Tailgate Throwdown: Your Guide to Pre-Game Paradise",
-      "description": "Get ready to rumble in the parking lots of Levi's Stadium! We're serving up the ultimate guide to Super Bowl LX tailgating, from the best spots to park your rig to the must-have gear for grilling and chilling before the big game.",
+      "angle": "The Tasman Trap: Surviving Phase II Closures",
+      "description": "The City just dropped the hammer: Tasman Drive is locked down from Jan 28 to Feb 13. If you usually drive down Tasman to get to the Green Lot, you're driving into a wall. We're mapping the survival routes for locals and visitors alike.",
       "venues": [
-        "Blue Lot 1 (the OG tailgate zone)",
-        "Green Lot 4 (close to the stadium entrance)",
-        "Red Lot 7 (for the serious tailgater)",
-        "Great America parking lot (official overflow)",
-        "Santa Clara Valley Brewing (craft brews for the discerning fan)",
-        "Off the Rails Brewing (another local favorite)"
+        "VTA Great America Station (The only way through)",
+        "Mercado Shopping Center (The drop-off hack)",
+        "Lick Mill Blvd (The secret back road)",
+        "San Tomas Aquino Creek Trail (The walking bypass)"
       ],
-      "insider_tip": "Arrive EARLY – like, sunrise early – to snag the best spot. BYO everything, but don't forget to check the stadium's tailgating rules. And for the love of football, bring a portable charger! Bonus points for team-themed decorations.",
-      "fan_hook": "Ready to turn Levi's Stadium into your personal tailgate kingdom? Let's get this party started!"
+      "insider_tip": "Forget rideshare drop-offs at the front gate. Have your driver drop you at the Mercado center on Mission College Blvd. Grab a burger, then walk the Creek Trail north. You bypass the entire Tasman gridlock.",
+      "fan_hook": "The map you used last year is worthless. Here is how to beat the Phase III lockdown."
     },
     {
-      "angle": "Santa Clara Chow Down: Your Guide to Super Bowl LX Eats",
-      "description": "Forget stadium food – we're diving into the delicious world of Santa Clara cuisine! From upscale dining experiences to quick bites that won't break the bank, we've got your culinary game plan covered.",
+      "angle": "Eating on the Edge: Dining Outside the Security Zone",
+      "description": "With the 'Soft Perimeter' going up, delivery drivers (UberEats, DoorDash) are getting turned away at checkpoints. You need to eat where the roads are still open. We're highlighting the best spots just outside the security cordon in Santa Clara Square and Rivermark.",
       "venues": [
-        "Parcel 104 (fancy pants dining)",
-        "Birks Restaurant (classic American with a twist)",
-        "Ike's Love & Sandwiches (sandwich heaven)",
-        "Smoking Pig BBQ Company (finger-licking good BBQ)",
-        "Dishdash (Middle Eastern magic)",
-        "Konjoe Burger Bar (gourmet burgers that will blow your mind)",
-	"The Halal Guys (late night eats)",
-	"Academic Coffee (pre-game caffeine)",
-        "Levi's Stadium food trucks (game day variety)"
+        "Il Fornaio (Santa Clara Square - Pre-game carb load)",
+        "Puesto (Santa Clara Square - Tacos before kickoff)",
+        "Fleming's (Rivermark - Post-game celebration)",
+        "In-N-Out (Mercado - The California staple)",
+        "Whole Foods (The tailgate supply run)"
       ],
-      "insider_tip": "Reservations are your best friend, especially for dinner. Venture a bit outside the stadium zone for hidden gems and local favorites. And always check for Super Bowl specials! Check OpenTable and Resy for last-minute openings.",
-      "fan_hook": "Ditch the hot dogs and discover the real taste of Santa Clara! Your Super Bowl culinary adventure begins now."
+      "insider_tip": "Santa Clara Square is the sweet spot. It's walkable to the stadium (20 mins) but completely outside the vehicle checkpoints. Park there early, eat well, and walk in.",
+      "fan_hook": "Don't get trapped in a food desert. Here is where to feast before you breach the perimeter."
     },
     {
-      "angle": "Super Bowl LX Transit Triumph: Your Guide to Getting Around Santa Clara",
-      "description": "Navigating Santa Clara during Super Bowl LX doesn't have to be a nightmare. We're breaking down the best transportation options, from public transit to ride-sharing hacks, so you can arrive at the stadium stress-free and ready to cheer.",
+      "angle": "Tailgating 2.0: The Post-Construction Landscape",
+      "description": "The 'Infrastructure Impact' isn't just bureaucratic speak—it means the media compound has eaten half of Blue Lot 1. We're breaking down where the real tailgate action is shifting for SB60.",
       "venues": [
-        "VTA Light Rail (your ticket to the stadium)",
-        "Caltrain (connecting you from the Peninsula)",
-        "Ride-sharing zones (designated pick-up/drop-off spots)",
-        "Santa Clara free shuttle (game day hero)",
-        "ACE Train (for those coming from afar)",
-        "Bicycle routes (for the eco-conscious fan)",
-        "Walking paths (explore Santa Clara on foot)"
+        "Red Lot 1 (The new premium zone)",
+        "Green Lot 3 (The rowdy section)",
+        "Hilton Santa Clara (The indoor tailgate)",
+        "David's Banquet Hall (The classic overflow)"
       ],
-      "insider_tip": "Download the VTA app for real-time updates and easy fare payment. Consider biking or walking if you're close enough – it's a great way to beat the traffic. And snag a Clipper card in advance for seamless public transit access. Pre-book parking if you must drive!",
-      "fan_hook": "Conquer Santa Clara traffic like a pro! Your ultimate Super Bowl LX transportation guide is here to save the day."
+      "insider_tip": "If you have a Blue Lot pass, check the map again. The broadcast trucks have taken the prime spots near the gate. Shift your setup to the back rows of Green Lot 3 for more space and less hassle from security patrols.",
+      "fan_hook": "The media trucks took our spots, but they can't take our party. Here is the new tailgate game plan."
     }
   ]
 }

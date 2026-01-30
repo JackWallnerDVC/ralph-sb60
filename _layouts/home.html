@@ -606,6 +606,12 @@
             <span class="countdown-unit">Min</span>
           </div>
         </div>
+        
+        <!-- Last Published -->
+        <div class="header-countdown" style="background: linear-gradient(135deg, var(--accent-green), #1b5e20);">
+          <span class="countdown-label">Last Story</span>
+          <span id="last-published" style="font-weight: 600; font-size: 0.9375rem;">--</span>
+        </div>
       </div>
       
       <nav class="site-nav">
@@ -641,7 +647,7 @@
               <span class="author-avatar"><img src="{{ author.avatar | relative_url }}" alt="{{ author.name }}"></span>
               <span class="author-name">{{ author.name }}</span>
             </span>
-            <span>{{ featured_post.date | date: "%B %d, %Y at %I:%M %p %Z" }}</span>
+            <span class="post-time" data-time="{{ featured_post.date | date: '%Y-%m-%dT%H:%M:%S%z' }}">{{ featured_post.date | date: "%B %d, %Y at %I:%M %p %Z" }}</span>
           </div>
         </div>
       </article>
@@ -679,7 +685,7 @@
                 {{ author.name }}
               </span>
               <span>·</span>
-              <span>{{ post.date | date: "%b %d, %I:%M %p" }}</span>
+              <span class="post-time" data-time="{{ post.date | date: '%Y-%m-%dT%H:%M:%S%z' }}">{{ post.date | date: "%b %d, %I:%M %p" }}</span>
             </div>
             <h3 class="article-title">
               <a href="{{ post.url | relative_url }}">
@@ -746,6 +752,76 @@
   </footer>
 
   <script>
+    // Convert UTC to Pacific Time
+    function formatPacificTime(dateString) {
+      const date = new Date(dateString);
+      return date.toLocaleString('en-US', {
+        timeZone: 'America/Los_Angeles',
+        month: 'short',
+        day: 'numeric',
+        hour: 'numeric',
+        minute: '2-digit',
+        hour12: true
+      }) + ' PT';
+    }
+    
+    // Format full Pacific Time (for featured post)
+    function formatPacificTimeFull(dateString) {
+      const date = new Date(dateString);
+      return date.toLocaleString('en-US', {
+        timeZone: 'America/Los_Angeles',
+        month: 'long',
+        day: 'numeric',
+        year: 'numeric',
+        hour: 'numeric',
+        minute: '2-digit',
+        hour12: true
+      }) + ' PT';
+    }
+    
+    // Update all post times to PT
+    document.querySelectorAll('.post-time').forEach(el => {
+      const timeData = el.getAttribute('data-time');
+      if (timeData) {
+        // Check if this is the featured post (has full date format)
+        if (el.parentElement.classList.contains('featured-meta')) {
+          el.textContent = formatPacificTimeFull(timeData);
+        } else {
+          el.textContent = formatPacificTime(timeData);
+        }
+      }
+    });
+    
+    // Get last published time from posts
+    function updateLastPublished() {
+      const postTimes = Array.from(document.querySelectorAll('.post-time')).map(el => {
+        return new Date(el.getAttribute('data-time'));
+      });
+      
+      if (postTimes.length === 0) return;
+      
+      const lastPublished = new Date(Math.max(...postTimes));
+      const now = new Date();
+      const diffMs = now - lastPublished;
+      const diffMins = Math.floor(diffMs / (1000 * 60));
+      const diffHours = Math.floor(diffMs / (1000 * 60 * 60));
+      const diffDays = Math.floor(diffMs / (1000 * 60 * 60 * 24));
+      
+      let text;
+      if (diffMins < 1) {
+        text = 'Just now';
+      } else if (diffMins < 60) {
+        text = diffMins + 'm ago';
+      } else if (diffHours < 24) {
+        text = diffHours + 'h ago';
+      } else {
+        text = diffDays + 'd ago';
+      }
+      
+      const el = document.getElementById('last-published');
+      if (el) el.textContent = text;
+    }
+    
     function updateCountdown() {
       const sb60Date = new Date('2026-02-08T18:30:00-08:00');
       const now = new Date();
@@ -763,7 +839,9 @@
     }
     
     updateCountdown();
+    updateLastPublished();
     setInterval(updateCountdown, 60000);
+    setInterval(updateLastPublished, 60000);
   </script>
 </body>
 </html>

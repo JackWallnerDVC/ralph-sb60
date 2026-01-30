@@ -1,34 +1,34 @@
 {
   "top_topics": [
     {
-      "topic": "Super Bowl 60 at Levi's Stadium: Fan Experience and Local Impact in Santa Clara",
+      "topic": "Super Bowl LX Phase II/III Road Closures & Tasman Drive Lockdown",
       "momentum": "rising",
       "persona": "local",
-      "reason": "The general trend of looking forward to Super Bowl 60 in the Bay Area, combined with the Santa Clara City News regarding road closures and transportation impacts, aligns with Tony Moretti's focus on the fan experience, local attractions, and logistics."
+      "reason": "Specific intel on Tasman Drive closures starting Jan 28 directly impacts the 'Local' persona's audience (residents/commuters). Matches the 'Bay Area prepping' trend."
     },
     {
-      "topic": "NFL Playoff Picture and Potential SB60 Matchups: Analyzing the San Francisco 49ers' Performance",
-      "momentum": "rising",
-      "persona": "analyst",
-      "reason": "The evolving playoff picture and the 49ers' RedZone performance directly impacts team statistics, comparisons, and potential betting odds. This aligns with Marcus Chen's focus on data-driven analysis of team performance and historical trends."
-    },
-    {
-      "topic": "Super Bowl 60 Security and Emergency Preparedness in the Bay Area",
+      "topic": "Multi-Agency Security & Emergency Preparedness for SB60",
       "momentum": "rising",
       "persona": "insider",
-      "reason": "The general trend of the Bay Area prepping for Super Bowl 2026, combined with the news of agencies uniting for emergency preparedness, indicates rising interest in logistical preparations. This aligns with Sarah Jenkin's coverage of stadium logistics, security protocols, and NFL operations."
+      "reason": "Intel regarding Santa Clara, San Mateo, and SF agencies uniting for security protocols fits the 'Insider' focus on stadium logistics and security operations."
     },
     {
-      "topic": "San Francisco 49ers RedZone Performance and Running Game",
-      "momentum": "stable",
-      "persona": "analyst",
-      "reason": "Recent articles highlight the 49ers' running game and RedZone performance. This can be analyzed statistically, fitting the 'analyst' persona. Momentum is stable as it's team-specific and not directly SB60 related."
-    },
-    {
-      "topic": "Klay Kubiak Staying with the San Francisco 49ers as Offensive Coordinator",
+      "topic": "Klay Kubiak Retained as 49ers Offensive Coordinator",
       "momentum": "stable",
       "persona": "insider",
-      "reason": "The news of Klay Kubiak remaining as the 49ers' offensive coordinator provides insight into team strategy and internal decisions, aligning with the 'insider' persona's coverage of NFL operations and decisions. Momentum is stable as it's a specific personnel decision."
+      "reason": "Confirmed report of Kubiak staying provides specific front-office insight, a core topic for the 'Insider' persona."
+    },
+    {
+      "topic": "49ers Quarterback Performance & Red Zone Efficiency",
+      "momentum": "rising",
+      "persona": "analyst",
+      "reason": "The 'Morning Report' highlighting quarterbacks and the 'RedZone' mention combined with the 'Playoff picture' trend signals a need for performance analysis."
+    },
+    {
+      "topic": "Levi's Stadium Perimeter & Infrastructure Impact",
+      "momentum": "rising",
+      "persona": "local",
+      "reason": "The detailed timeline (Jan 28 - Feb 13) for infrastructure changes at Levi's Stadium is critical information for the 'Local' persona to convey regarding daily life disruption."
     }
   ]
 }

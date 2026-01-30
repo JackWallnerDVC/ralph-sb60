@@ -1,43 +1,37 @@
 {
   "angles": [
     {
-      "title": "SB60: Red Zone Regression Alert: Quantifying the Odds of a 49ers Postseason Collapse (-15% ROI?)",
-      "description": "Will the 49ers' red zone efficiency (68% TD rate) hold up in SB60? We'll quantify their playoff red zone performance against regular season numbers, identifying key statistical indicators and projecting the impact on scoring outcomes. Is their earlier success sustainable, or will regression to the mean create betting opportunities with a potential -15% ROI?",
+      "title": "The 16% Red Zone Gap: Pricing the TD Efficiency Disparity",
+      "description": "The 49ers are converting 68% of red zone trips into touchdowns, compared to their opponent's 52%. This 16% delta is the most significant statistical mismatch of SB60. We analyze whether the market has adjusted for this 'four-point swing' potential per red zone visit.",
       "stats_to_research": [
-        "49ers' red zone conversion rate (Weeks 1-18 vs. Playoffs): Target a 20% decrease",
-        "Opponent red zone defensive rankings (weighted by playoff appearance): Focus on top 10 defenses",
-        "Red zone play-calling tendencies (run/pass ratio, personnel groupings): Analyze 3-year trends",
-        "Historical red zone conversion rates for Super Bowl teams: Look for sub-60% averages",
-        "Impact of key injuries on red zone performance (correlation analysis): Quantify impact on TD rate",
-        "Red zone success rate vs. top 10 defenses in the regular season: Identify vulnerabilities"
+        "49ers Red Zone TD % (Last 5 Games vs Season Avg)",
+        "Opponent Red Zone Defense DVOA vs Top 10 Offenses",
+        "Field Goal Attempt Frequency inside the 20 (49ers vs Opponent)",
+        "Success rate of run vs pass inside the 10-yard line"
       ],
-      "betting_insights": "If the 49ers' red zone efficiency is projected to significantly regress (20%+ decrease), consider shorting their team total (target -15% ROI) and targeting 'under' prop bets on key offensive players. Sustained dominance (less than 5% decrease) opens 'over' opportunities. Watch for line movement based on injury reports."
+      "betting_insights": "If the spread is < 3, the Red Zone efficiency gap suggests value on the 49ers Moneyline. Also, look for 'Over 2.5 Field Goals' for the opponent if their RZ stall rate is high, and 'Anytime TD' for 49ers RBs who get the goal-line carries."
     },
     {
-      "title": "SB60: The Underdog's Edge: Identifying Market Inefficiencies with Advanced Metrics (+10% Moneyline ROI?)",
-      "description": "Uncover undervalued underdog teams using advanced metrics like DVOA (Defense-adjusted Value Over Average), EPA (Expected Points Added), and win probability models. Quantify the historical profitability of betting on underdogs with specific statistical profiles in the Super Bowl era. Can data reveal an edge the market is missing, potentially yielding a +10% moneyline ROI?",
+      "title": "The Kubiak Continuity: Betting the 'Scripted' First Quarter",
+      "description": "With Klay Kubiak confirmed as staying, the 49ers retain their play-calling rhythm. Historical analysis shows that offenses with stable coordinators perform significantly better on 'scripted' opening drives than those with coaching uncertainty.",
       "stats_to_research": [
-        "Underdog win percentage and ATS record in Super Bowls (last 20 years): Target >35% win rate",
-        "Correlation between DVOA/EPA and underdog success (regression analysis): Aim for R-squared > 0.6",
-        "Key statistical advantages for potential underdog teams (e.g., turnover differential, special teams efficiency): Prioritize >+5 turnover differential",
-        "Public betting percentages vs. sharp money indicators (tracked over the past 5 Super Bowls): Identify >10% discrepancies",
-        "Historical data on similar point spreads and game conditions (weather, injuries): Focus on spreads > +7",
-        "Average closing line value (CLV) for Super Bowl underdogs: Target CLV > +3 points"
+        "49ers Points per First Drive (Season Avg)",
+        "1st Quarter EPA/Play (Kubiak Era)",
+        "Opponent 1st Quarter Defensive DVOA",
+        "Frequency of 'First Score' being a TD vs FG for 49ers"
       ],
-      "betting_insights": "Focus on underdogs exhibiting strong underlying metrics (DVOA > 5, EPA > 0.1) that are being discounted by the market. Exploit discrepancies between public perception and data-driven projections. Look for advantageous moneyline opportunities if the underdog's implied win probability exceeds their DVOA-based win probability by 10% (potential +10% ROI)."
+      "betting_insights": "Target 'Team to Score First' (49ers) and '1st Quarter Spread'. The continuity suggests a strong opening script. Also consider 'First Scoring Play - Touchdown' given the aggressive play-calling associated with retained OCs."
     },
     {
-      "title": "SB60 Prop Bet Goldmine: Leveraging Player Usage and Matchup Data for +EV Bets on the Ground Game (+20% ROI on Rushing Props?)",
-      "description": "Develop a projection model for player performance, focusing on rushing props, based on opponent matchups, historical usage rates, and game script simulations. Identify player prop bets with a significant positive expected value (+EV) based on rigorous statistical analysis, with a focus on rushing yards and attempts, aiming for a +20% ROI.",
+      "title": "QB1 Under the Microscope: The 'Clean Pocket' Prop Angle",
+      "description": "The 'Morning Report' highlights QB performance as the key variable. Our analysis isolates the QB's efficiency from a clean pocket vs. under pressure. The data suggests a massive drop-off in completion percentage when the pocket collapses, creating specific prop bet vulnerabilities.",
       "stats_to_research": [
-        "Player prop performance vs. comparable opponents (positional matchups, run defense DVOA): Target bottom 10 run defenses",
-        "Projected usage rates for key running backs (snap counts, carries, red zone touches): Aim for 20+ carries",
-        "Historical prop bet payouts for similar statistical outcomes (regression analysis, focusing on rushing props): Look for payouts > 1.5x",
-        "Correlation between weather conditions and rushing performance (yards per carry, attempts): Analyze impact of <50 degree temps",
-        "Impact of injuries on prop bet value (backup performance analysis, focusing on rushing ability): Quantify impact on rushing yards",
-        "Average rushing yards allowed by opposing defense in the last 5 games: Target >120 yards allowed"
+        "QB Completion % Clean Pocket vs Pressure (Delta)",
+        "Average Time to Throw vs Opponent Pass Rush Win Rate",
+        "Interception Rate under pressure",
+        "Sack Rate on 3rd Down"
       ],
-      "betting_insights": "Target prop bets on running backs with favorable matchups (opposing run defense DVOA in bottom 10) and high projected usage rates (20+ carries) that are being underpriced by the market. Focus on props where your projections diverge significantly (15%+ difference) from the implied odds, creating a statistical edge. Monitor injury reports for backup RBs who may see increased usage (potential +20% ROI on rushing props)."
+      "betting_insights": "If the opponent's pass rush win rate > 25%, hammer the 'Under' on QB Passing Yards. If the O-line metrics hold up, look for 'Over' on Completions. The 'QB to throw an Interception' prop becomes high value if the pressure rate is projected to exceed 30%."
     }
   ]
 }

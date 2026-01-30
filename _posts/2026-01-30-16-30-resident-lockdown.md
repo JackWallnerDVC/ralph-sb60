@@ -9,7 +9,7 @@ persona: local
 status: published
 ---
 
-Hey neighbors. If you live in the 95054 zip code, specifically north of Highway 101 and west of San Tomas Aquino Creek, your neighborhood is about to become a gated community enforced by the SCPD and the National Guard.
+Yo neighbors. If you live in the 95054 zip code, specifically north of Highway 101 and west of San Tomas Aquino Creek, your neighborhood is about to become a gated community enforced by the SCPD and the National Guard.
 
 The NFL calls it the "Traffic Management Plan." Locals call it the Lockdown.
 

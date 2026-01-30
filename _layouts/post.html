@@ -3,6 +3,27 @@ layout: default
 ---
 {% assign author = site.data.personas | where: "id", page.persona | first %}
 
+<script>
+  // Convert UTC to Pacific Time for posts
+  document.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll('.post-time').forEach(el => {
+      const timeData = el.getAttribute('data-time');
+      if (timeData) {
+        const date = new Date(timeData);
+        el.textContent = date.toLocaleString('en-US', {
+          timeZone: 'America/Los_Angeles',
+          month: 'long',
+          day: 'numeric',
+          year: 'numeric',
+          hour: 'numeric',
+          minute: '2-digit',
+          hour12: true
+        }) + ' PT';
+      }
+    });
+  });
+</script>
+
 <article class="post">
   <header class="post-header">
     <h1 class="post-title">{{ page.title }}</h1>
@@ -13,7 +34,7 @@ layout: default
           <span class="author-name">{{ author.name }}</span>
         </span>
       {% endif %}
-      <span>{{ page.date | date: "%B %d, %Y" }}</span>
+      <span class="post-time" data-time="{{ page.date | date: '%Y-%m-%dT%H:%M:%S%z' }}">{{ page.date | date: "%B %d, %Y" }}</span>
     </div>
     {% if page.tags %}
       <div class="featured-tags" style="justify-content: center; margin-top: 1rem;">
