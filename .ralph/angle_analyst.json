@@ -1,43 +1,43 @@
 {
   "angles": [
     {
-      "title": "SB60: 49ers' Red Zone Regression: Quantifying the Odds of a Postseason Collapse",
-      "description": "Will the 49ers' red zone efficiency hold up in the Super Bowl? We'll quantify their playoff red zone performance against regular season numbers, identifying key statistical indicators and projecting the impact on SB60 scoring outcomes. Is their earlier success sustainable, or will regression to the mean create betting opportunities?",
+      "title": "SB60: Red Zone Regression Alert: Quantifying the Odds of a 49ers Postseason Collapse (-15% ROI?)",
+      "description": "Will the 49ers' red zone efficiency (68% TD rate) hold up in SB60? We'll quantify their playoff red zone performance against regular season numbers, identifying key statistical indicators and projecting the impact on scoring outcomes. Is their earlier success sustainable, or will regression to the mean create betting opportunities with a potential -15% ROI?",
       "stats_to_research": [
-        "49ers' red zone conversion rate (Weeks 1-18 vs. Playoffs)",
-        "Opponent red zone defensive rankings (weighted by playoff appearance)",
-        "Red zone play-calling tendencies (run/pass ratio, personnel groupings)",
-        "Historical red zone conversion rates for Super Bowl teams",
-        "Impact of key injuries on red zone performance (correlation analysis)",
-        "Red zone success rate vs. top 10 defenses in the regular season"
+        "49ers' red zone conversion rate (Weeks 1-18 vs. Playoffs): Target a 20% decrease",
+        "Opponent red zone defensive rankings (weighted by playoff appearance): Focus on top 10 defenses",
+        "Red zone play-calling tendencies (run/pass ratio, personnel groupings): Analyze 3-year trends",
+        "Historical red zone conversion rates for Super Bowl teams: Look for sub-60% averages",
+        "Impact of key injuries on red zone performance (correlation analysis): Quantify impact on TD rate",
+        "Red zone success rate vs. top 10 defenses in the regular season: Identify vulnerabilities"
       ],
-      "betting_insights": "If the 49ers' red zone efficiency is projected to significantly regress (20%+ decrease), consider shorting their team total and targeting 'under' prop bets on key offensive players. Sustained dominance (less than 5% decrease) opens 'over' opportunities. Watch for line movement based on injury reports."
+      "betting_insights": "If the 49ers' red zone efficiency is projected to significantly regress (20%+ decrease), consider shorting their team total (target -15% ROI) and targeting 'under' prop bets on key offensive players. Sustained dominance (less than 5% decrease) opens 'over' opportunities. Watch for line movement based on injury reports."
     },
     {
-      "title": "SB60: The Underdog's Edge: Identifying Market Inefficiencies with Advanced Metrics and Historical Data",
-      "description": "Uncover undervalued underdog teams using advanced metrics like DVOA, EPA, and win probability models. Quantify the historical profitability of betting on underdogs with specific statistical profiles in the Super Bowl era. Can data reveal an edge the market is missing?",
+      "title": "SB60: The Underdog's Edge: Identifying Market Inefficiencies with Advanced Metrics (+10% Moneyline ROI?)",
+      "description": "Uncover undervalued underdog teams using advanced metrics like DVOA (Defense-adjusted Value Over Average), EPA (Expected Points Added), and win probability models. Quantify the historical profitability of betting on underdogs with specific statistical profiles in the Super Bowl era. Can data reveal an edge the market is missing, potentially yielding a +10% moneyline ROI?",
       "stats_to_research": [
-        "Underdog win percentage and ATS record in Super Bowls (last 20 years)",
-        "Correlation between DVOA/EPA and underdog success (regression analysis)",
-        "Key statistical advantages for potential underdog teams (e.g., turnover differential, special teams efficiency)",
-        "Public betting percentages vs. sharp money indicators (tracked over the past 5 Super Bowls)",
-        "Historical data on similar point spreads and game conditions (weather, injuries)",
-        "Average closing line value (CLV) for Super Bowl underdogs"
+        "Underdog win percentage and ATS record in Super Bowls (last 20 years): Target >35% win rate",
+        "Correlation between DVOA/EPA and underdog success (regression analysis): Aim for R-squared > 0.6",
+        "Key statistical advantages for potential underdog teams (e.g., turnover differential, special teams efficiency): Prioritize >+5 turnover differential",
+        "Public betting percentages vs. sharp money indicators (tracked over the past 5 Super Bowls): Identify >10% discrepancies",
+        "Historical data on similar point spreads and game conditions (weather, injuries): Focus on spreads > +7",
+        "Average closing line value (CLV) for Super Bowl underdogs: Target CLV > +3 points"
       ],
-      "betting_insights": "Focus on underdogs exhibiting strong underlying metrics (DVOA > 5, EPA > 0.1) that are being discounted by the market. Exploit discrepancies between public perception and data-driven projections. Look for advantageous moneyline opportunities if the underdog's implied win probability exceeds their DVOA-based win probability by 10%."
+      "betting_insights": "Focus on underdogs exhibiting strong underlying metrics (DVOA > 5, EPA > 0.1) that are being discounted by the market. Exploit discrepancies between public perception and data-driven projections. Look for advantageous moneyline opportunities if the underdog's implied win probability exceeds their DVOA-based win probability by 10% (potential +10% ROI)."
     },
     {
-      "title": "SB60 Prop Bet Goldmine: Leveraging Player Usage and Matchup Data for +EV Bets on the Ground Game",
-      "description": "Develop a projection model for player performance, focusing on rushing props, based on opponent matchups, historical usage rates, and game script simulations. Identify player prop bets with a significant positive expected value (+EV) based on rigorous statistical analysis, with a focus on rushing yards and attempts.",
+      "title": "SB60 Prop Bet Goldmine: Leveraging Player Usage and Matchup Data for +EV Bets on the Ground Game (+20% ROI on Rushing Props?)",
+      "description": "Develop a projection model for player performance, focusing on rushing props, based on opponent matchups, historical usage rates, and game script simulations. Identify player prop bets with a significant positive expected value (+EV) based on rigorous statistical analysis, with a focus on rushing yards and attempts, aiming for a +20% ROI.",
       "stats_to_research": [
-        "Player prop performance vs. comparable opponents (positional matchups, run defense DVOA)",
-        "Projected usage rates for key running backs (snap counts, carries, red zone touches)",
-        "Historical prop bet payouts for similar statistical outcomes (regression analysis, focusing on rushing props)",
-        "Correlation between weather conditions and rushing performance (yards per carry, attempts)",
-        "Impact of injuries on prop bet value (backup performance analysis, focusing on rushing ability)",
-        "Average rushing yards allowed by opposing defense in the last 5 games"
+        "Player prop performance vs. comparable opponents (positional matchups, run defense DVOA): Target bottom 10 run defenses",
+        "Projected usage rates for key running backs (snap counts, carries, red zone touches): Aim for 20+ carries",
+        "Historical prop bet payouts for similar statistical outcomes (regression analysis, focusing on rushing props): Look for payouts > 1.5x",
+        "Correlation between weather conditions and rushing performance (yards per carry, attempts): Analyze impact of <50 degree temps",
+        "Impact of injuries on prop bet value (backup performance analysis, focusing on rushing ability): Quantify impact on rushing yards",
+        "Average rushing yards allowed by opposing defense in the last 5 games: Target >120 yards allowed"
       ],
-      "betting_insights": "Target prop bets on running backs with favorable matchups (opposing run defense DVOA in bottom 10) and high projected usage rates (20+ carries) that are being underpriced by the market. Focus on props where your projections diverge significantly (15%+ difference) from the implied odds, creating a statistical edge. Monitor injury reports for backup RBs who may see increased usage."
+      "betting_insights": "Target prop bets on running backs with favorable matchups (opposing run defense DVOA in bottom 10) and high projected usage rates (20+ carries) that are being underpriced by the market. Focus on props where your projections diverge significantly (15%+ difference) from the implied odds, creating a statistical edge. Monitor injury reports for backup RBs who may see increased usage (potential +20% ROI on rushing props)."
     }
   ]
 }

@@ -39,7 +39,7 @@ git config --global user.email "ralph@sb60-intel.github.io" 2>/dev/null || true
 cd "$REPO_DIR"
 
 echo "=== Ralph Continuous Mode (Viral) Started ===" | tee -a "$LOG_FILE"
-echo "Timestamp: $(date -u +"%Y-%m-%dT%H:%M:%SZ")" | tee -a "$LOG_FILE"
+echo "Timestamp: $(TZ=America/Los_Angeles date +"%Y-%m-%dT%H:%M:%S %Z")" | tee -a "$LOG_FILE"
 echo "Mode: Generate → Evaluate → Humanize → Publish" | tee -a "$LOG_FILE"
 echo "Trigger: When 5 drafts are ready" | tee -a "$LOG_FILE"
 echo "" | tee -a "$LOG_FILE"
@@ -110,12 +110,12 @@ while true; do
     drafts_count=$(count_drafts)
     current_persona=$(get_current_persona)
     
-    echo "--- Iteration $iteration ($(date -u +"%H:%M:%S UTC")) ---" | tee -a "$LOG_FILE"
+    echo "--- Iteration $iteration ($(TZ=America/Los_Angeles date +"%-I:%M:%S %p %Z")) ---" | tee -a "$LOG_FILE"
     echo "Drafts in queue: $drafts_count/5" | tee -a "$LOG_FILE"
     echo "Current persona focus: $current_persona" | tee -a "$LOG_FILE"
     
     # Update state
-    update_state "lastActivity" "\"$(date -u +"%Y-%m-%dT%H:%M:%S%z")\""
+    update_state "lastActivity" "\"$(TZ=America/Los_Angeles date +"%Y-%m-%dT%H:%M:%S%z")\""
     update_state "draftsInQueue" "$drafts_count"
     update_state "currentPersona" "\"$current_persona\""
     

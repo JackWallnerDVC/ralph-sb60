@@ -32,14 +32,14 @@ export VERTEXAI_LOCATION="${VERTEXAI_LOCATION:-global}"
 cd "$REPO_DIR"
 
 echo "=== Ralph Research Job (Multi-AI) ===" | tee -a "$LOG_FILE"
-echo "Timestamp: $(date -u +"%Y-%m-%dT%H:%M:%SZ")" | tee -a "$LOG_FILE"
+echo "Timestamp: $(TZ=America/Los_Angeles date +"%Y-%m-%dT%H:%M:%S %Z")" | tee -a "$LOG_FILE"
 
 # Step 1: Fetch raw data (no AI)
 echo "🔍 Fetching raw data..." | tee -a "$LOG_FILE"
 python3 "$SCRIPT_DIR/get_trends.py" --no-ai 2>&1 | tee -a "$LOG_FILE" || true
 python3 "$SCRIPT_DIR/fetch_intel.py" 2>&1 | tee -a "$LOG_FILE" || true
 
-AIDER_CMD="/usr/local/bin/aider --model vertex_ai/gemini-2.0-flash-001 --no-auto-commits --no-show-model-warnings --yes-always --exit"
+AIDER_CMD="/usr/local/bin/aider --model vertex_ai/gemini-3-pro-preview --no-auto-commits --no-show-model-warnings --yes-always --exit"
 FILES=".ralph/trends.json .ralph/real_intel.json personas.json"
 for f in $(ls -1 _posts/*.md 2>/dev/null | tail -3); do
     FILES="$FILES $f"
@@ -105,7 +105,7 @@ except:
     local = {"angles": []}
 
 summary = {
-    "generated_at": datetime.datetime.utcnow().isoformat() + "Z",
+    "generated_at": datetime.datetime.now(datetime.timezone.utc).astimezone(datetime.timezone(datetime.timedelta(hours=-8))).isoformat(),
     "topics": topics,
     "angles_by_persona": {
         "insider": insider,

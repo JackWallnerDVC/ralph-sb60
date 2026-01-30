@@ -20,7 +20,7 @@ mkdir -p "$DRAFTS_DIR"
 cd "$REPO_DIR"
 
 echo "=== Ralph Draft Worker (Multi-AI) ===" | tee -a "$LOG_FILE"
-echo "Timestamp: $(date -u +"%Y-%m-%dT%H:%M:%SZ")" | tee -a "$LOG_FILE"
+echo "Timestamp: $(TZ=America/Los_Angeles date +"%Y-%m-%dT%H:%M:%S %Z")" | tee -a "$LOG_FILE"
 
 # Check queue
 DRAFT_COUNT=$(ls -1 "$DRAFTS_DIR"/draft-*.md 2>/dev/null | wc -l | tr -d '[:space:]' || echo "0")
@@ -32,18 +32,28 @@ if [[ "$DRAFT_COUNT" -ge 5 ]]; then
     exit 0
 fi
 
-# Determine persona
-HOUR=$(date -u +"%H")
-case "$HOUR" in
-    00|01|02|03|04|05) PERSONA="insider" ;;
-    06|07|08|09|10|11) PERSONA="analyst" ;;
-    12|13|14|15|16|17) PERSONA="local" ;;
-    *) PERSONA="insider" ;;
-esac
+# Determine persona based on balancing distribution
+PERSONA_FILE="$REPO_DIR/data/published.json"
+if [[ -f "$PERSONA_FILE" ]]; then
+    INSIDER=$(python3 -c "import json; d=json.load(open('$PERSONA_FILE')); print(d.get('stats',{}).get('postsByPersona',{}).get('insider',0))" 2>/dev/null || echo "0")
+    ANALYST=$(python3 -c "import json; d=json.load(open('$PERSONA_FILE')); print(d.get('stats',{}).get('postsByPersona',{}).get('analyst',0))" 2>/dev/null || echo "0")
+    LOCAL=$(python3 -c "import json; d=json.load(open('$PERSONA_FILE')); print(d.get('stats',{}).get('postsByPersona',{}).get('local',0))" 2>/dev/null || echo "0")
+    
+    # Find minimum
+    if [[ $INSIDER -le $ANALYST && $INSIDER -le $LOCAL ]]; then
+        PERSONA="insider"
+    elif [[ $ANALYST -le $LOCAL ]]; then
+        PERSONA="analyst"
+    else
+        PERSONA="local"
+    fi
+else
+    PERSONA="insider"
+fi
 
 echo "📝 Generating draft $((DRAFT_COUNT + 1))/5 as $PERSONA" | tee -a "$LOG_FILE"
 
-AIDER_CMD="/usr/local/bin/aider --model vertex_ai/gemini-2.0-flash-001 --no-auto-commits --no-show-model-warnings --yes-always --exit"
+AIDER_CMD="/usr/local/bin/aider --model vertex_ai/gemini-3-pro-preview --no-auto-commits --no-show-model-warnings --yes-always --exit"
 RESEARCH_FILES=".ralph/research_summary.json .ralph/angle_${PERSONA}.json .ralph/trends.json personas.json"
 for f in $(ls -1 _posts/*.md 2>/dev/null | tail -5); do
     RESEARCH_FILES="$RESEARCH_FILES $f"
@@ -69,7 +79,7 @@ echo "🧠 AI Call 3/3: Writing draft..." | tee -a "$LOG_FILE"
 $GATEWAY wait
 $GATEWAY record
 
-TIMESTAMP=$(date -u +"%Y%m%d-%H%M")
+TIMESTAMP=$(TZ=America/Los_Angeles date +"%Y%m%d-%H%M")
 SLUG=$(python3 -c "import json; d=json.load(open('.ralph/deep_research.json')); print(d.get('slug','topic'))" 2>/dev/null || echo "topic")
 FILENAME="draft-${TIMESTAMP}-${PERSONA}-${SLUG}.md"
 
@@ -88,7 +98,7 @@ except:
     state = {}
 
 state['draftsInQueue'] = $NEW_COUNT
-state['lastDraftAt'] = datetime.datetime.utcnow().isoformat() + 'Z'
+state['lastDraftAt'] = datetime.datetime.now(datetime.timezone.utc).astimezone(datetime.timezone(datetime.timedelta(hours=-8))).isoformat()
 
 with open('.ralph/state.json', 'w') as f:
     json.dump(state, f, indent=2)

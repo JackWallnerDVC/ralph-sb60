@@ -6,7 +6,7 @@ export PATH="$HOME/.local/bin:$HOME/.cargo/bin:$PATH:/usr/local/bin:$HOME/.nvm/v
 
 # Ralph Publish Job - Evaluates drafts and publishes the best one
 # Uses AI to humanize/polish if rate limit allows
-# Runs every 6 hours via cron
+# Trigger: Called when draft queue reaches threshold (5 drafts)
 
 REPO_DIR="/Users/jackwallner/clawd/ralph-sb60"
 SCRIPT_DIR="/Users/jackwallner/clawd/skills/sb60-blog/scripts"
@@ -15,7 +15,7 @@ GATEWAY="$REPO_DIR/.ralph/rate_limit_gateway.sh"
 DRAFTS_DIR="$REPO_DIR/.ralph/drafts"
 
 echo "=== Ralph Publish Job ===" | tee -a "$LOG_FILE"
-echo "Timestamp: $(date -u +"%Y-%m-%dT%H:%M:%SZ")" | tee -a "$LOG_FILE"
+echo "Timestamp: $(TZ=America/Los_Angeles date +"%Y-%m-%dT%H:%M:%S %Z")" | tee -a "$LOG_FILE"
 
 cd "$REPO_DIR"
 
@@ -29,15 +29,25 @@ if [[ "$DRAFT_COUNT" -eq 0 ]]; then
     exit 1
 fi
 
-# Determine target persona for this time slot
-HOUR=$(date -u +"%H")
-case "$HOUR" in
-    00|01|02|03|04|05) TARGET_PERSONA="insider" ;;
-    06|07|08|09|10|11) TARGET_PERSONA="analyst" ;;
-    12|13|14|15|16|17) TARGET_PERSONA="local" ;;
-    *) TARGET_PERSONA="insider" ;;
-esac
-echo "Target persona: $TARGET_PERSONA" | tee -a "$LOG_FILE"
+# Pick persona based on which has fewest posts
+PERSONA_FILE="$REPO_DIR/data/published.json"
+if [[ -f "$PERSONA_FILE" ]]; then
+    INSIDER=$(python3 -c "import json; d=json.load(open('$PERSONA_FILE')); print(d.get('stats',{}).get('postsByPersona',{}).get('insider',0))")
+    ANALYST=$(python3 -c "import json; d=json.load(open('$PERSONA_FILE')); print(d.get('stats',{}).get('postsByPersona',{}).get('analyst',0))")
+    LOCAL=$(python3 -c "import json; d=json.load(open('$PERSONA_FILE')); print(d.get('stats',{}).get('postsByPersona',{}).get('local',0))")
+    
+    # Find minimum
+    if [[ $INSIDER -le $ANALYST && $INSIDER -le $LOCAL ]]; then
+        TARGET_PERSONA="insider"
+    elif [[ $ANALYST -le $LOCAL ]]; then
+        TARGET_PERSONA="analyst"
+    else
+        TARGET_PERSONA="local"
+    fi
+else
+    TARGET_PERSONA="insider"
+fi
+echo "Target persona: $TARGET_PERSONA (balancing distribution)" | tee -a "$LOG_FILE"
 
 # Check rate limit for optional humanization
 RATE_STATUS=$($GATEWAY check)
@@ -72,7 +82,7 @@ fi
 
 # Always commit and push - GitHub Pages handles the actual build
 git add _posts/ data/ .ralph/
-git commit -m "publish: Scheduled post - $(date -u +"%H:%M UTC")" 2>&1 | tee -a "$LOG_FILE" || true
+git commit -m "publish: Draft queue threshold - $(TZ=America/Los_Angeles date +"%-I:%M %p %Z")" 2>&1 | tee -a "$LOG_FILE" || true
 git push origin main 2>&1 | tee -a "$LOG_FILE"
 echo "✅ Published and deployed!" | tee -a "$LOG_FILE"
 

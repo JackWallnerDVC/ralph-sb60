@@ -1,49 +1,19 @@
 {
   "angles": [
     {
-      "headline": "Insider Exclusive: SB60 Security to Deploy AI-Powered Perimeter Monitoring",
-      "angle": "My sources reveal that the expanded security perimeter for Super Bowl LX will incorporate AI-powered monitoring. Expect real-time analysis of crowd behavior and automated threat detection. This is a game-changer for stadium security.",
+      "headline": "Insider Alert: SB60 Security Command Post Relocated to Underground Bunker",
+      "angle": "My sources confirm the primary SB60 security command post has been moved to a hardened underground bunker beneath Levi's Stadium. This move, finalized late last night, is a direct response to heightened threat assessments. The bunker is equipped with independent power, comms, and life support. Only a select few have access.",
       "topic": "Super Bowl 60 Security and Emergency Preparedness in the Bay Area"
     },
     {
-      "headline": "Behind the Scenes: NFL's Secret Team Arrival Protocols for SB60",
-      "angle": "I'm hearing the NFL is using decoy convoys and secure routes from SJC and SFO to protect teams arriving for Super Bowl LX. Dedicated security teams will shadow each team, and alternative routes are mapped out in case of traffic incidents. The goal is to minimize disruptions and ensure team safety.",
+      "headline": "Exclusive: NFL's 'Red Zone Rapid Response' Teams Deployed at SB60",
+      "angle": "I'm hearing the NFL is deploying specialized 'Red Zone Rapid Response' teams inside Levi's Stadium. These units, comprised of security, medical, and communication personnel, are strategically positioned to respond to incidents within minutes. They're equipped with advanced tech, including real-time video feeds and biometric scanners. This is a major upgrade in on-site incident management.",
+      "topic": "Super Bowl 60 Security and Emergency Preparedness in the Bay Area"
+    },
+    {
+      "headline": "Behind the Scenes: SB60 Transportation Plan Includes 'Ghost Car' Decoys",
+      "angle": "I've learned the SB60 transportation plan incorporates 'ghost car' decoys to protect team movements. These unmarked vehicles mimic the appearance and routes of official team transport, drawing potential threats away from the actual team buses. This tactic, borrowed from high-level security protocols, adds a layer of deception to the overall security strategy.",
       "topic": "Super Bowl 60 Security and Logistical Preparations in the Bay Area"
-    },
-    {
-      "headline": "Insider Look: Levi's Stadium 'Ops Room' Gets Real-Time Upgrade for SB60",
-      "angle": "I got a peek inside Levi's Stadium's 'Ops Room,' the nerve center for Super Bowl LX. It's a real-time monitoring hub where key personnel from security, facilities, and event management coordinate. They're using AI-powered analytics to predict crowd flow and potential bottlenecks.",
-      "topic": "Super Bowl 60 Security and Emergency Preparedness in the Bay Area"
-    },
-    {
-      "headline": "SB60 EXCLUSIVE: NFL to Deploy Facial Recognition at Security Checkpoints",
-      "angle": "Sources tell me the NFL is planning to use facial recognition technology at all security checkpoints around Levi's Stadium for Super Bowl LX. This is a major step up in security, allowing them to quickly identify known threats and individuals on watch lists. Expect quicker processing, but potential privacy concerns are being raised.",
-      "topic": "Super Bowl 60 Security and Emergency Preparedness in the Bay Area"
-    },
-    {
-      "headline": "INSIDER SCOOP: SB60 Transportation Plan Includes Underground Tunnel Access",
-      "angle": "I'm hearing whispers about a secret underground tunnel being used to transport VIPs and players directly into Levi's Stadium. This would bypass surface traffic and potential security bottlenecks. The tunnel connects to a secure parking facility a few blocks away. Details are scarce, but this is a game-changer for high-profile access.",
-      "topic": "Super Bowl 60 Security and Logistical Preparations in the Bay Area"
-    },
-    {
-      "headline": "Behind Closed Doors: SB60 Command Center Integrates Real-Time Social Media Monitoring",
-      "angle": "My sources inside the SB60 command center say they're integrating real-time social media monitoring into their operations. They'll be tracking keywords and hashtags to identify potential security threats, crowd sentiment, and emerging issues. This is about getting ahead of the curve and responding proactively to anything that might disrupt the event.",
-      "topic": "Super Bowl 60 Security and Emergency Preparedness in the Bay Area"
-    },
-    {
-      "headline": "Insider Alert: NFL Negotiating Real-Time Traffic Data Deal for SB60 Team Transport",
-      "angle": "I'm told the NFL is in late-stage talks with a major traffic data provider to get real-time updates for team transport during Super Bowl LX. This will allow them to dynamically adjust routes based on congestion and incidents. Expect faster, more efficient team arrivals, even with road closures.",
-      "topic": "Super Bowl 60 Security and Logistical Preparations in the Bay Area"
-    },
-    {
-      "headline": "Exclusive: SB60 Security to Utilize Drone-Based Thermal Scanners for Perimeter Surveillance",
-      "angle": "My sources reveal that Super Bowl LX security will deploy drones equipped with thermal scanners to monitor the perimeter. This tech can detect unusual heat signatures, potentially identifying hidden threats or breaches in real-time. It's a significant upgrade in surveillance capabilities.",
-      "topic": "Super Bowl 60 Security and Emergency Preparedness in the Bay Area"
-    },
-    {
-      "headline": "Inside Levi's Stadium: SB60 Command Center Staffing Doubles for Enhanced Coordination",
-      "angle": "I've learned that the staffing for the Levi's Stadium command center is being doubled for Super Bowl LX. This includes additional security personnel, medical staff, and communication specialists. The goal is to improve response times and coordination across all departments during the event.",
-      "topic": "Super Bowl 60 Security and Emergency Preparedness in the Bay Area"
     }
   ]
 }

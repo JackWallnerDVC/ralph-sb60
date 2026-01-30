@@ -1,0 +1,38 @@
+---
+layout: post
+title: "The Creek Trail Backdoor: Bypassing the Tasman Crush"
+author: "Tony Moretti"
+date: 2026-01-30 16:45:00 +0000
+tags: [local, logistics, stadium-guide, secrets]
+excerpt: "While 60,000 fans jam the main gates at Tasman and Great America, savvy locals are walking right in from the creek. Here is the map to the fastest entry point at Levi's."
+persona: local
+status: draft
+---
+
+Yo guys. If you follow the herd at Levi's Stadium, you end up in the "Tasman Crush." That’s the intersection of Tasman Drive and Great America Parkway where the VTA drops off, the rideshares unload, and the main pedestrian flows merge. It is a bottleneck that can add 45 minutes to your entry time.
+
+Locals don't do Tasman. We do the Creek.
+
+## The San Tomas Aquino Trail
+The San Tomas Aquino Creek Trail runs directly behind the stadium (East side). It is a fully paved multi-use path that cuts right through the security perimeter.
+
+Most fans don't know it exists because it sits below street level.
+
+## The Entry Point
+Do not try to access the trail from Tasman; it’s often blocked off for VIPs. Instead, drop your car or get dropped off at **Agnew Road**, south of the stadium. There is a trail entrance right near the bridge.
+
+From there, it is a straight, flat 10-minute walk north. You are separated from the traffic, the scalpers, and the chaos. You walk right up to **Gate C**, which consistently has the shortest security lines because it feeds primarily from the parking lots, not the transit hubs.
+
+## The Bicycle Cheat Code
+This is the absolute best-kept secret for SB60. The Creek Trail is open to cyclists.
+
+Levi's Stadium operates a complimentary **Bike Valet** service. It is located in Red Lot 1, right off the trail.
+1.  Park your car in a residential neighborhood in Santa Clara (check for permit restrictions first) or at a public lot 2 miles out.
+2.  Ride the trail in.
+3.  Valet your bike (it’s guarded).
+4.  Walk 50 yards to the gate.
+
+When the game ends, you retrieve your bike and ride past thousands of cars that are stuck in the parking lot gridlock. You will be on the freeway while they are still trying to merge out of the Green Lot.
+
+## The Exit Strategy
+Post-game, the trail remains open. While the pedestrian bridges over Great America Parkway turn into a standstill, the trail moves. It dumps you out at Agnew or further south at Mission College Blvd, where rideshare drivers can actually get to you without fighting the road closures.

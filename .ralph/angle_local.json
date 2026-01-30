@@ -5,12 +5,13 @@
       "description": "Get ready to rumble in the parking lots of Levi's Stadium! We're serving up the ultimate guide to Super Bowl LX tailgating, from the best spots to park your rig to the must-have gear for grilling and chilling before the big game.",
       "venues": [
         "Blue Lot 1 (the OG tailgate zone)",
-        "Green Lot 4 (close to the action)",
+        "Green Lot 4 (close to the stadium entrance)",
         "Red Lot 7 (for the serious tailgater)",
+        "Great America parking lot (official overflow)",
         "Santa Clara Valley Brewing (craft brews for the discerning fan)",
         "Off the Rails Brewing (another local favorite)"
       ],
-      "insider_tip": "Pro Tip: Arrive EARLY – like, sunrise early – to snag the best spot. BYO everything, but don't forget to check the stadium's tailgating rules. And for the love of football, bring a portable charger!",
+      "insider_tip": "Arrive EARLY – like, sunrise early – to snag the best spot. BYO everything, but don't forget to check the stadium's tailgating rules. And for the love of football, bring a portable charger! Bonus points for team-themed decorations.",
       "fan_hook": "Ready to turn Levi's Stadium into your personal tailgate kingdom? Let's get this party started!"
     },
     {
@@ -22,9 +23,12 @@
         "Ike's Love & Sandwiches (sandwich heaven)",
         "Smoking Pig BBQ Company (finger-licking good BBQ)",
         "Dishdash (Middle Eastern magic)",
-        "Konjoe Burger Bar (gourmet burgers that will blow your mind)"
+        "Konjoe Burger Bar (gourmet burgers that will blow your mind)",
+	"The Halal Guys (late night eats)",
+	"Academic Coffee (pre-game caffeine)",
+        "Levi's Stadium food trucks (game day variety)"
       ],
-      "insider_tip": "Reservations are your best friend, especially for dinner. Venture a bit outside the stadium zone for hidden gems and local favorites. And always check for Super Bowl specials!",
+      "insider_tip": "Reservations are your best friend, especially for dinner. Venture a bit outside the stadium zone for hidden gems and local favorites. And always check for Super Bowl specials! Check OpenTable and Resy for last-minute openings.",
       "fan_hook": "Ditch the hot dogs and discover the real taste of Santa Clara! Your Super Bowl culinary adventure begins now."
     },
     {
@@ -35,9 +39,11 @@
         "Caltrain (connecting you from the Peninsula)",
         "Ride-sharing zones (designated pick-up/drop-off spots)",
         "Santa Clara free shuttle (game day hero)",
-        "ACE Train (for those coming from afar)"
+        "ACE Train (for those coming from afar)",
+        "Bicycle routes (for the eco-conscious fan)",
+        "Walking paths (explore Santa Clara on foot)"
       ],
-      "insider_tip": "Download the VTA app for real-time updates and easy fare payment. Consider biking or walking if you're close enough – it's a great way to beat the traffic. And snag a Clipper card in advance for seamless public transit access.",
+      "insider_tip": "Download the VTA app for real-time updates and easy fare payment. Consider biking or walking if you're close enough – it's a great way to beat the traffic. And snag a Clipper card in advance for seamless public transit access. Pre-book parking if you must drive!",
       "fan_hook": "Conquer Santa Clara traffic like a pro! Your ultimate Super Bowl LX transportation guide is here to save the day."
     }
   ]
