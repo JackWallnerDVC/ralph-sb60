@@ -1,40 +1,40 @@
 {
   "angles": [
     {
-      "title": "SB60: Red Zone Regression? Quantifying the 49ers' Scoring Dip",
-      "description": "Analyze the 49ers' red zone conversion rate in the playoffs compared to the regular season. Identify potential regression factors (opponent defense, play-calling changes). Project impact on SB60 scoring.",
+      "title": "SB60: 49ers' Red Zone Regression or Dominance? A Data-Driven Prediction",
+      "description": "Quantify the 49ers' red zone efficiency in the playoffs versus the regular season. Identify key statistical indicators and project their impact on SB60 scoring outcomes. Is their earlier success sustainable, or will regression to the mean kick in?",
       "stats_to_research": [
-        "49ers' red zone conversion rate (regular season vs. playoffs)",
-        "Opponent red zone defensive rankings (playoff opponents)",
-        "Play-calling splits inside the 20 (run vs. pass)",
-        "Historical red zone regression trends in Super Bowls",
-        "Impact of key injuries on red zone efficiency"
+        "49ers' red zone conversion rate (Weeks 1-18 vs. Playoffs)",
+        "Opponent red zone defensive rankings (weighted by playoff appearance)",
+        "Red zone play-calling tendencies (run/pass ratio, personnel groupings)",
+        "Historical red zone conversion rates for Super Bowl teams",
+        "Impact of key injuries on red zone performance (correlation analysis)"
       ],
-      "betting_insights": "If the 49ers' red zone efficiency is projected to regress significantly, consider betting the under on their team total points or prop bets on individual player touchdowns."
+      "betting_insights": "If the 49ers' red zone efficiency is projected to significantly regress, consider shorting their team total and targeting 'under' prop bets on key offensive players. Conversely, sustained dominance opens 'over' opportunities."
     },
     {
-      "title": "SB60: The Underdog's Edge: Exploiting Market Inefficiencies",
-      "description": "Identify undervalued underdog teams based on advanced metrics (DVOA, EPA). Quantify the historical profitability of betting on underdogs with specific statistical profiles.",
+      "title": "SB60: The Underdog's Edge: Identifying Market Inefficiencies with Advanced Metrics",
+      "description": "Uncover undervalued underdog teams using advanced metrics like DVOA, EPA, and win probability models. Quantify the historical profitability of betting on underdogs with specific statistical profiles in the Super Bowl era.",
       "stats_to_research": [
-        "Underdog win percentage and ATS record in Super Bowls",
-        "Correlation between DVOA/EPA and underdog success",
-        "Key statistical advantages for potential underdog teams",
-        "Public betting percentages on the favorite vs. the underdog",
-        "Historical data on similar point spreads"
+        "Underdog win percentage and ATS record in Super Bowls (last 20 years)",
+        "Correlation between DVOA/EPA and underdog success (regression analysis)",
+        "Key statistical advantages for potential underdog teams (e.g., turnover differential, special teams efficiency)",
+        "Public betting percentages vs. sharp money indicators",
+        "Historical data on similar point spreads and game conditions"
       ],
-      "betting_insights": "Focus on underdogs with strong underlying metrics that are being overlooked by the market. Look for opportunities to exploit discrepancies between public perception and data-driven projections."
+      "betting_insights": "Focus on underdogs exhibiting strong underlying metrics that are being discounted by the market. Exploit discrepancies between public perception and data-driven projections. Look for advantageous moneyline opportunities."
     },
     {
-      "title": "SB60 Prop Bet Bonanza: Unearthing Hidden Value in Player Props",
-      "description": "Develop a model to project player performance based on opponent matchups, usage rates, and historical trends. Identify prop bets with a significant positive expected value (+EV).",
+      "title": "SB60 Prop Bet Goldmine: Leveraging Player Usage and Matchup Data for +EV Bets",
+      "description": "Develop a projection model for player performance based on opponent matchups, historical usage rates, and game script simulations. Identify player prop bets with a significant positive expected value (+EV) based on rigorous statistical analysis.",
       "stats_to_research": [
-        "Player prop performance vs. similar opponents",
-        "Usage rate projections for key players",
-        "Historical prop bet payouts for similar statistical outcomes",
-        "Correlation between weather conditions and player performance",
-        "Impact of injuries on prop bet value"
+        "Player prop performance vs. comparable opponents (positional matchups)",
+        "Projected usage rates for key players (snap counts, target share, carries)",
+        "Historical prop bet payouts for similar statistical outcomes (regression analysis)",
+        "Correlation between weather conditions and player performance (passing yards, rushing attempts)",
+        "Impact of injuries on prop bet value (backup performance analysis)"
       ],
-      "betting_insights": "Target prop bets on players with favorable matchups and high usage rates that are being underpriced by the market. Focus on props where your projections diverge significantly from the implied odds."
+      "betting_insights": "Target prop bets on players with favorable matchups and high projected usage rates that are being underpriced by the market. Focus on props where your projections diverge significantly from the implied odds, creating a statistical edge."
     }
   ]
 }

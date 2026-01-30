@@ -1,19 +1,34 @@
 {
   "angles": [
     {
-      "headline": "Sources: Super Bowl LX Security to Deploy AI-Powered Crowd Monitoring",
-      "angle": "My sources indicate Super Bowl LX security will leverage AI-powered crowd monitoring. This system analyzes real-time video feeds to detect unusual behavior, potential bottlenecks, and security breaches. Expect increased surveillance and rapid response teams strategically positioned throughout the stadium and perimeter.",
+      "headline": "Exclusive: Super Bowl LX Security Command Center Unveiled",
+      "angle": "My sources got a sneak peek at the Super Bowl LX Security Command Center. It's a multi-agency hub with real-time feeds from hundreds of cameras, AI-powered threat detection, and direct links to law enforcement. Expect heightened vigilance and rapid response capabilities.",
       "topic": "Super Bowl 60 Security and Logistical Preparations in the Bay Area"
     },
     {
-      "headline": "Exclusive: NFL Mulls Dome Conversion Contingency Amid Weather Concerns",
-      "angle": "I'm hearing the NFL is seriously considering a 'dome conversion' contingency plan due to unpredictable Bay Area weather. This involves rapidly deploying a temporary, inflatable dome over Levi's Stadium if conditions worsen. Crews are on standby, and tests are being conducted to ensure a seamless transition with minimal disruption to the game.",
+      "headline": "Insider: NFL Mulls Express Fan Lanes to Ease Stadium Entry",
+      "angle": "I'm hearing the NFL is considering 'express fan lanes' at Levi's Stadium to expedite entry. These lanes would use facial recognition tech to pre-screen attendees, reducing wait times. However, privacy concerns are being debated, and a pilot program may precede full implementation.",
       "topic": "Super Bowl 60 at Levi's Stadium: Fan Experience and Local Impact in Santa Clara"
     },
     {
-      "headline": "Insider Intel: 49ers Request Specific Hotel Amenities Amid Playoff Push",
-      "angle": "Sources reveal the 49ers have requested specific hotel amenities to optimize player performance and recovery during the Super Bowl lead-up. This includes customized meal plans, advanced recovery equipment, and dedicated quiet zones. The team's attention to detail underscores their commitment to maximizing every advantage on and off the field.",
+      "headline": "Breaking: 49ers Request Custom Field Markings for Super Bowl LX",
+      "angle": "Sources reveal the 49ers have requested custom field markings for Super Bowl LX, optimized for their offensive play style. This includes subtle adjustments to yard lines and hash marks. The NFL is reviewing the request, balancing competitive fairness with team preferences.",
       "topic": "NFL Playoff Picture and Potential SB60 Matchups: Analyzing the San Francisco 49ers' Performance"
+    },
+    {
+      "headline": "Insider Alert: Security Perimeter Expansion Includes New Tech",
+      "angle": "I'm hearing whispers that the expanded security perimeter isn't just about physical barriers. New drone detection tech and advanced sensor networks are being deployed to monitor the area. Expect increased surveillance and quicker responses to potential threats.",
+      "topic": "Super Bowl 60 Security and Emergency Preparedness in the Bay Area"
+    },
+    {
+      "headline": "Behind the Scenes: NFL Negotiating Exclusive Hotel Partnerships",
+      "angle": "Sources say the NFL is in talks with several high-end hotels in Santa Clara for exclusive partnerships during Super Bowl LX. This includes dedicated team floors, private security details, and customized catering options. The goal is to create a secure and comfortable environment for players and staff.",
+      "topic": "Super Bowl 60 at Levi's Stadium: Fan Experience and Local Impact in Santa Clara"
+    },
+    {
+      "headline": "Breaking: Transportation Command Center Goes Live",
+      "angle": "I'm getting word that the multi-agency transportation command center is now operational. Real-time traffic monitoring, shuttle coordination, and emergency response protocols are being managed from this central hub. Expect smoother traffic flow and quicker responses to any transportation-related incidents.",
+      "topic": "Super Bowl 60 Security and Logistical Preparations in the Bay Area"
     }
   ]
 }

@@ -1,24 +1,24 @@
 {
-  "generated_at": "2026-01-30T02:01:24.986814Z",
+  "generated_at": "2026-01-30T02:11:24.682441Z",
   "topics": {
     "top_topics": [
       {
         "topic": "Super Bowl 60 at Levi's Stadium: Fan Experience and Local Impact in Santa Clara",
         "momentum": "rising",
         "persona": "local",
-        "reason": "The general trend of looking forward to Super Bowl 60 in the Bay Area, combined with the need for local guidance, aligns with Tony Moretti's focus on the fan experience, local attractions, and logistics."
+        "reason": "The general trend of looking forward to Super Bowl 60 in the Bay Area, combined with the Santa Clara City News regarding road closures and transportation impacts, aligns with Tony Moretti's focus on the fan experience, local attractions, and logistics."
       },
       {
         "topic": "NFL Playoff Picture and Potential SB60 Matchups: Analyzing the San Francisco 49ers' Performance",
         "momentum": "rising",
         "persona": "analyst",
-        "reason": "The evolving playoff picture and the real intel on the 49ers' RedZone performance and offensive coordinator Klay Kubiak directly impacts team statistics, comparisons, and potential betting odds. This aligns with Marcus Chen's focus on data-driven analysis of team performance and historical trends."
+        "reason": "The evolving playoff picture and the 49ers' RedZone performance directly impacts team statistics, comparisons, and potential betting odds. This aligns with Marcus Chen's focus on data-driven analysis of team performance and historical trends."
       },
       {
-        "topic": "Super Bowl 60 Security and Logistical Preparations in the Bay Area",
+        "topic": "Super Bowl 60 Security and Emergency Preparedness in the Bay Area",
         "momentum": "rising",
         "persona": "insider",
-        "reason": "The general trend of the Bay Area prepping for Super Bowl 2026 indicates rising interest in logistical preparations. This aligns with Sarah Jenkin's coverage of stadium logistics, security protocols, and NFL operations."
+        "reason": "The general trend of the Bay Area prepping for Super Bowl 2026, combined with the news of agencies uniting for emergency preparedness, indicates rising interest in logistical preparations. This aligns with Sarah Jenkin's coverage of stadium logistics, security protocols, and NFL operations."
       },
       {
         "topic": "San Francisco 49ers RedZone Performance and Running Game",
@@ -38,59 +38,74 @@
     "insider": {
       "angles": [
         {
-          "headline": "Sources: Super Bowl LX Security to Deploy AI-Powered Crowd Monitoring",
-          "angle": "My sources indicate Super Bowl LX security will leverage AI-powered crowd monitoring. This system analyzes real-time video feeds to detect unusual behavior, potential bottlenecks, and security breaches. Expect increased surveillance and rapid response teams strategically positioned throughout the stadium and perimeter.",
+          "headline": "Exclusive: Super Bowl LX Security Command Center Unveiled",
+          "angle": "My sources got a sneak peek at the Super Bowl LX Security Command Center. It's a multi-agency hub with real-time feeds from hundreds of cameras, AI-powered threat detection, and direct links to law enforcement. Expect heightened vigilance and rapid response capabilities.",
           "topic": "Super Bowl 60 Security and Logistical Preparations in the Bay Area"
         },
         {
-          "headline": "Exclusive: NFL Mulls Dome Conversion Contingency Amid Weather Concerns",
-          "angle": "I'm hearing the NFL is seriously considering a 'dome conversion' contingency plan due to unpredictable Bay Area weather. This involves rapidly deploying a temporary, inflatable dome over Levi's Stadium if conditions worsen. Crews are on standby, and tests are being conducted to ensure a seamless transition with minimal disruption to the game.",
+          "headline": "Insider: NFL Mulls Express Fan Lanes to Ease Stadium Entry",
+          "angle": "I'm hearing the NFL is considering 'express fan lanes' at Levi's Stadium to expedite entry. These lanes would use facial recognition tech to pre-screen attendees, reducing wait times. However, privacy concerns are being debated, and a pilot program may precede full implementation.",
           "topic": "Super Bowl 60 at Levi's Stadium: Fan Experience and Local Impact in Santa Clara"
         },
         {
-          "headline": "Insider Intel: 49ers Request Specific Hotel Amenities Amid Playoff Push",
-          "angle": "Sources reveal the 49ers have requested specific hotel amenities to optimize player performance and recovery during the Super Bowl lead-up. This includes customized meal plans, advanced recovery equipment, and dedicated quiet zones. The team's attention to detail underscores their commitment to maximizing every advantage on and off the field.",
+          "headline": "Breaking: 49ers Request Custom Field Markings for Super Bowl LX",
+          "angle": "Sources reveal the 49ers have requested custom field markings for Super Bowl LX, optimized for their offensive play style. This includes subtle adjustments to yard lines and hash marks. The NFL is reviewing the request, balancing competitive fairness with team preferences.",
           "topic": "NFL Playoff Picture and Potential SB60 Matchups: Analyzing the San Francisco 49ers' Performance"
+        },
+        {
+          "headline": "Insider Alert: Security Perimeter Expansion Includes New Tech",
+          "angle": "I'm hearing whispers that the expanded security perimeter isn't just about physical barriers. New drone detection tech and advanced sensor networks are being deployed to monitor the area. Expect increased surveillance and quicker responses to potential threats.",
+          "topic": "Super Bowl 60 Security and Emergency Preparedness in the Bay Area"
+        },
+        {
+          "headline": "Behind the Scenes: NFL Negotiating Exclusive Hotel Partnerships",
+          "angle": "Sources say the NFL is in talks with several high-end hotels in Santa Clara for exclusive partnerships during Super Bowl LX. This includes dedicated team floors, private security details, and customized catering options. The goal is to create a secure and comfortable environment for players and staff.",
+          "topic": "Super Bowl 60 at Levi's Stadium: Fan Experience and Local Impact in Santa Clara"
+        },
+        {
+          "headline": "Breaking: Transportation Command Center Goes Live",
+          "angle": "I'm getting word that the multi-agency transportation command center is now operational. Real-time traffic monitoring, shuttle coordination, and emergency response protocols are being managed from this central hub. Expect smoother traffic flow and quicker responses to any transportation-related incidents.",
+          "topic": "Super Bowl 60 Security and Logistical Preparations in the Bay Area"
         }
       ]
     },
     "analyst": {
       "angles": [
         {
-          "title": "SB60: Red Zone Regression? Quantifying the 49ers' Scoring Dip",
-          "description": "Analyze the 49ers' red zone conversion rate in the playoffs compared to the regular season. Identify potential regression factors (opponent defense, play-calling changes). Project impact on SB60 scoring.",
+          "title": "SB60: 49ers' Red Zone Regression or Dominance? A Data-Driven Prediction",
+          "description": "Quantify the 49ers' red zone efficiency in the playoffs versus the regular season. Identify key statistical indicators and project their impact on SB60 scoring outcomes. Is their earlier success sustainable, or will regression to the mean kick in?",
           "stats_to_research": [
-            "49ers' red zone conversion rate (regular season vs. playoffs)",
-            "Opponent red zone defensive rankings (playoff opponents)",
-            "Play-calling splits inside the 20 (run vs. pass)",
-            "Historical red zone regression trends in Super Bowls",
-            "Impact of key injuries on red zone efficiency"
+            "49ers' red zone conversion rate (Weeks 1-18 vs. Playoffs)",
+            "Opponent red zone defensive rankings (weighted by playoff appearance)",
+            "Red zone play-calling tendencies (run/pass ratio, personnel groupings)",
+            "Historical red zone conversion rates for Super Bowl teams",
+            "Impact of key injuries on red zone performance (correlation analysis)"
           ],
-          "betting_insights": "If the 49ers' red zone efficiency is projected to regress significantly, consider betting the under on their team total points or prop bets on individual player touchdowns."
+          "betting_insights": "If the 49ers' red zone efficiency is projected to significantly regress, consider shorting their team total and targeting 'under' prop bets on key offensive players. Conversely, sustained dominance opens 'over' opportunities."
         },
         {
-          "title": "SB60: The Underdog's Edge: Exploiting Market Inefficiencies",
-          "description": "Identify undervalued underdog teams based on advanced metrics (DVOA, EPA). Quantify the historical profitability of betting on underdogs with specific statistical profiles.",
+          "title": "SB60: The Underdog's Edge: Identifying Market Inefficiencies with Advanced Metrics",
+          "description": "Uncover undervalued underdog teams using advanced metrics like DVOA, EPA, and win probability models. Quantify the historical profitability of betting on underdogs with specific statistical profiles in the Super Bowl era.",
           "stats_to_research": [
-            "Underdog win percentage and ATS record in Super Bowls",
-            "Correlation between DVOA/EPA and underdog success",
-            "Key statistical advantages for potential underdog teams",
-            "Public betting percentages on the favorite vs. the underdog",
-            "Historical data on similar point spreads"
+            "Underdog win percentage and ATS record in Super Bowls (last 20 years)",
+            "Correlation between DVOA/EPA and underdog success (regression analysis)",
+            "Key statistical advantages for potential underdog teams (e.g., turnover differential, special teams efficiency)",
+            "Public betting percentages vs. sharp money indicators",
+            "Historical data on similar point spreads and game conditions"
           ],
-          "betting_insights": "Focus on underdogs with strong underlying metrics that are being overlooked by the market. Look for opportunities to exploit discrepancies between public perception and data-driven projections."
+          "betting_insights": "Focus on underdogs exhibiting strong underlying metrics that are being discounted by the market. Exploit discrepancies between public perception and data-driven projections. Look for advantageous moneyline opportunities."
         },
         {
-          "title": "SB60 Prop Bet Bonanza: Unearthing Hidden Value in Player Props",
-          "description": "Develop a model to project player performance based on opponent matchups, usage rates, and historical trends. Identify prop bets with a significant positive expected value (+EV).",
+          "title": "SB60 Prop Bet Goldmine: Leveraging Player Usage and Matchup Data for +EV Bets",
+          "description": "Develop a projection model for player performance based on opponent matchups, historical usage rates, and game script simulations. Identify player prop bets with a significant positive expected value (+EV) based on rigorous statistical analysis.",
           "stats_to_research": [
-            "Player prop performance vs. similar opponents",
-            "Usage rate projections for key players",
-            "Historical prop bet payouts for similar statistical outcomes",
-            "Correlation between weather conditions and player performance",
-            "Impact of injuries on prop bet value"
+            "Player prop performance vs. comparable opponents (positional matchups)",
+            "Projected usage rates for key players (snap counts, target share, carries)",
+            "Historical prop bet payouts for similar statistical outcomes (regression analysis)",
+            "Correlation between weather conditions and player performance (passing yards, rushing attempts)",
+            "Impact of injuries on prop bet value (backup performance analysis)"
           ],
-          "betting_insights": "Target prop bets on players with favorable matchups and high usage rates that are being underpriced by the market. Focus on props where your projections diverge significantly from the implied odds."
+          "betting_insights": "Target prop bets on players with favorable matchups and high projected usage rates that are being underpriced by the market. Focus on props where your projections diverge significantly from the implied odds, creating a statistical edge."
         }
       ]
     },
