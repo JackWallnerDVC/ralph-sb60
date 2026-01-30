@@ -16,7 +16,7 @@
       "Security and crowd management",
       "Halftime show production"
     ],
-    "avatar": "/assets/images/authors/sarah-jenkins.jpg"
+    "avatar": "assets/images/authors/sarah-jenkins.jpg"
   },
   "analyst": {
     "id": "analyst",
@@ -35,7 +35,7 @@
       "Weather impact analysis",
       "Coaching strategy breakdown"
     ],
-    "avatar": "/assets/images/authors/marcus-chen.jpg"
+    "avatar": "assets/images/authors/marcus-chen.jpg"
   },
   "local": {
     "id": "local",
@@ -54,6 +54,6 @@
       "Weather and what to wear",
       "Tailgating culture"
     ],
-    "avatar": "/assets/images/authors/tony-moretti.jpg"
+    "avatar": "assets/images/authors/tony-moretti.jpg"
   }
 }
