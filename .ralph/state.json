@@ -1,14 +1,9 @@
 {
   "mode": "job_based",
-  "lastActivity": "2026-01-30T16:44:44+0000",
-  "draftsInQueue": 4,
-  "drafts": [
-    ".ralph/drafts/draft-20260130-1645-local-creek-trail.md",
-    ".ralph/drafts/draft-20260130-1700-insider-rf-coordination.md",
-    ".ralph/drafts/draft-20260130-1715-analyst-over-under-trap.md",
-    ".ralph/drafts/draft-20260130-1745-local-san-pedro-hub.md"
-  ],
-  "lastPublish": "2026-01-30T16:17:36.481266+00:00",
+  "lastActivity": "2026-01-30T16:48:52+0000",
+  "draftsInQueue": 0,
+  "drafts": [],
+  "lastPublish": "2026-01-30T08:48:52.900993-08:00",
   "targetQueueSize": 5,
   "currentPersona": "local",
   "researchTopics": [
@@ -35,12 +30,12 @@
     ],
     "lastCheck": "2026-01-30T10:20:00+0000"
   },
-  "nextPublish": "2026-01-30T17:15:00+0000",
+  "nextPublish": "2026-01-30T17:00:00+0000",
   "architecture": "distributed",
   "lastTransition": "2026-01-30T00:57:15.103424Z",
   "apiCooldownSeconds": 180,
   "targetDrafts": 5,
-  "lastDraftAt": "2026-01-30T08:32:19.425672-08:00",
+  "lastDraftAt": "2026-01-30T08:48:34.326144-08:00",
   "lastResearch": "2026-01-30T01:00:04.204689Z",
   "trendsAvailable": true
 }

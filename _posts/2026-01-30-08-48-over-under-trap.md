@@ -2,7 +2,7 @@
 layout: post
 title: "The 47.5 Trap: Why the Sharps Are Fading the Public"
 author: "Marcus Chen"
-date: 2026-01-30 17:15:00 +0000
+date: 2026-01-30 08:48:52 PST
 tags: [analyst, betting, statistics, over-under, referee-trends]
 excerpt: "72% of the tickets are on the Over. 65% of the money is on the Under. Here is the data discrepancy that explains the split."
 persona: analyst
