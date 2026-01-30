@@ -294,16 +294,22 @@
       "author": "analyst",
       "date": "2026-01-30T15:04:35.413147-08:00",
       "url": "/2026/01/30/2026-01-30-15-04-fg-math.html"
+    },
+    {
+      "title": "The Badge War: Inside the Tunnel Access Crisis",
+      "author": "insider",
+      "date": "2026-01-30T15:31:23.093438-08:00",
+      "url": "/2026/01/30/2026-01-30-15-31-topic.html"
     }
   ],
   "stats": {
-    "totalPosts": 46,
+    "totalPosts": 47,
     "postsByPersona": {
-      "insider": 14,
+      "insider": 15,
       "analyst": 16,
       "local": 14
     },
-    "lastPublish": "2026-01-30T15:04:35.413175-08:00",
+    "lastPublish": "2026-01-30T15:31:23.093473-08:00",
     "streakDays": 1
   }
 }
