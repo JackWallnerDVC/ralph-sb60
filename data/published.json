@@ -108,16 +108,22 @@
       "author": "insider",
       "date": "2026-01-30T09:13:52.722883+00:00",
       "url": "/2026/01/30/2026-01-30-09-13-bus-decoys.html"
+    },
+    {
+      "title": "The 5:00 PM Chill: Why Tourists Freeze at Levi's Stadium",
+      "author": "local",
+      "date": "2026-01-30T09:42:21.849474+00:00",
+      "url": "/2026/01/30/2026-01-30-09-42-microclimate.html"
     }
   ],
   "stats": {
-    "totalPosts": 15,
+    "totalPosts": 16,
     "postsByPersona": {
       "insider": 9,
       "analyst": 5,
-      "local": 0
+      "local": 1
     },
-    "lastPublish": "2026-01-30T09:13:52.722914+00:00",
+    "lastPublish": "2026-01-30T09:42:21.849504+00:00",
     "streakDays": 1
   }
 }
