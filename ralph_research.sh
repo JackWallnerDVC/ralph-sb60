@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+# Ensure PATH includes local bin for aider
+export PATH="$HOME/.local/bin:$HOME/.cargo/bin:$PATH:/usr/local/bin:$HOME/.nvm/versions/node/v22.22.0/bin"
+
 # Ralph Research Job - MULTI-AI analysis pipeline
 # Runs every 15 minutes, uses 3-4 AI calls spaced 10s apart
 

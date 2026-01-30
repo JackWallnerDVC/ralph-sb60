@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+# Ensure PATH includes local bin for aider
+export PATH="$HOME/.local/bin:$HOME/.cargo/bin:$PATH:/usr/local/bin:$HOME/.nvm/versions/node/v22.22.0/bin"
+
 # Ralph Draft Worker - MULTI-AI content generation
 # Generates ONE high-quality draft using 3 AI calls (research, outline, write)
 

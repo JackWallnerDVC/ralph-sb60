@@ -1,6 +1,9 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
+# Ensure PATH includes local bin for aider
+export PATH="$HOME/.local/bin:$HOME/.cargo/bin:$PATH:/usr/local/bin:$HOME/.nvm/versions/node/v22.22.0/bin"
+
 # Ralph Publish Job - Evaluates drafts and publishes the best one
 # Uses AI to humanize/polish if rate limit allows
 # Runs every 6 hours via cron
