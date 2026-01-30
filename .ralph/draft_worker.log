@@ -42882,3 +42882,1831 @@ State updated: 4 drafts
 State updated: 4 drafts
 
 
+=== Ralph Draft Worker (Multi-AI) ===
+=== Ralph Draft Worker (Multi-AI) ===
+Timestamp: 2026-01-30T14:30:00Z
+Timestamp: 2026-01-30T14:30:00Z
+Drafts in queue: 1/5
+Drafts in queue: 1/5
+📝 Generating draft 2/5 as local
+📝 Generating draft 2/5 as local
+
+
+🧠 AI Call 1/3: Deep research...
+🧠 AI Call 1/3: Deep research...
+Warning: Input is not a terminal (fd=0).
+Warning: Input is not a terminal (fd=0).
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────────────
+Aider v0.86.1
+Aider v0.86.1
+Model: vertex_ai/gemini-2.0-flash-exp with whole edit format
+Model: vertex_ai/gemini-2.0-flash-exp with whole edit format
+Git repo: .git with 206 files
+Git repo: .git with 206 files
+Repo-map: using 4096 tokens, auto refresh
+Repo-map: using 4096 tokens, auto refresh
+Added .ralph/angle_local.json to the chat.
+Added .ralph/angle_local.json to the chat.
+Added .ralph/research_summary.json to the chat.
+Added .ralph/research_summary.json to the chat.
+Added .ralph/trends.json to the chat.
+Added .ralph/trends.json to the chat.
+Added _posts/2026-01-30-13-44-gatorade-protocol.md to the chat.
+Added _posts/2026-01-30-13-44-gatorade-protocol.md to the chat.
+Added _posts/2026-01-30-13-56-green-lot.md to the chat.
+Added _posts/2026-01-30-13-56-green-lot.md to the chat.
+Added _posts/2026-01-30-14-00-local-sf-commute-trap.md to the chat.
+Added _posts/2026-01-30-14-00-local-sf-commute-trap.md to the chat.
+Added _posts/2026-01-30-14-10-green-lot-myth.md to the chat.
+Added _posts/2026-01-30-14-10-green-lot-myth.md to the chat.
+Added _posts/2026-01-30-14-21-sf-commute-trap.md to the chat.
+Added _posts/2026-01-30-14-21-sf-commute-trap.md to the chat.
+Added personas.json to the chat.
+Added personas.json to the chat.
+
+
+
+
+.ralph/deep_research.json
+.ralph/deep_research.json
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 0.2 seconds...
+Retrying in 0.2 seconds...
+litellm.APIConnectionError: Error parsing chunk: Expecting property name 
+enclosed in double quotes: line 1 column 2 (char 1),
+Received chunk: {
+Traceback (most recent call last):
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/llms/vertex_ai/gemini/vertex_an
+d_google_ai_studio_gemini.py", line 2057, in __next__
+    return self._common_chunk_parsing_logic(chunk=chunk)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/llms/vertex_ai/gemini/vertex_an
+d_google_ai_studio_gemini.py", line 2038, in _common_chunk_parsing_logic
+    return self.handle_valid_json_chunk(chunk=chunk)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/llms/vertex_ai/gemini/vertex_an
+d_google_ai_studio_gemini.py", line 2001, in handle_valid_json_chunk
+    raise e
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/llms/vertex_ai/gemini/vertex_an
+d_google_ai_studio_gemini.py", line 1993, in handle_valid_json_chunk
+    json_chunk = json.loads(chunk)
+                 ^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/Cellar/python@3.11/3.11.14_2/Frameworks/Python.framework/Versions/3.
+11/lib/python3.11/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/Cellar/python@3.11/3.11.14_2/Frameworks/Python.framework/Versions/3.
+11/lib/python3.11/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/Cellar/python@3.11/3.11.14_2/Frameworks/Python.framework/Versions/3.
+11/lib/python3.11/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes:
+line 1 column 2 (char 1)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/litellm_core_utils/streaming_ha
+ndler.py", line 1531, in __next__
+    chunk = next(self.completion_stream)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/llms/vertex_ai/gemini/vertex_an
+d_google_ai_studio_gemini.py", line 2061, in __next__
+    raise RuntimeError(f"Error parsing chunk: {e},\nReceived chunk: {chunk}")
+RuntimeError: Error parsing chunk: Expecting property name enclosed in double 
+quotes: line 1 column 2 (char 1),
+Received chunk: {
+
+litellm.APIConnectionError: Error parsing chunk: Expecting property name 
+enclosed in double quotes: line 1 column 2 (char 1),
+Received chunk: {
+Traceback (most recent call last):
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/llms/vertex_ai/gemini/vertex_an
+d_google_ai_studio_gemini.py", line 2057, in __next__
+    return self._common_chunk_parsing_logic(chunk=chunk)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/llms/vertex_ai/gemini/vertex_an
+d_google_ai_studio_gemini.py", line 2038, in _common_chunk_parsing_logic
+    return self.handle_valid_json_chunk(chunk=chunk)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/llms/vertex_ai/gemini/vertex_an
+d_google_ai_studio_gemini.py", line 2001, in handle_valid_json_chunk
+    raise e
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/llms/vertex_ai/gemini/vertex_an
+d_google_ai_studio_gemini.py", line 1993, in handle_valid_json_chunk
+    json_chunk = json.loads(chunk)
+                 ^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/Cellar/python@3.11/3.11.14_2/Frameworks/Python.framework/Versions/3.
+11/lib/python3.11/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/Cellar/python@3.11/3.11.14_2/Frameworks/Python.framework/Versions/3.
+11/lib/python3.11/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/Cellar/python@3.11/3.11.14_2/Frameworks/Python.framework/Versions/3.
+11/lib/python3.11/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes:
+line 1 column 2 (char 1)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/litellm_core_utils/streaming_ha
+ndler.py", line 1531, in __next__
+    chunk = next(self.completion_stream)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/llms/vertex_ai/gemini/vertex_an
+d_google_ai_studio_gemini.py", line 2061, in __next__
+    raise RuntimeError(f"Error parsing chunk: {e},\nReceived chunk: {chunk}")
+RuntimeError: Error parsing chunk: Expecting property name enclosed in double 
+quotes: line 1 column 2 (char 1),
+Received chunk: {
+
+Retrying in 0.5 seconds...
+Retrying in 0.5 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 1.0 seconds...
+Retrying in 1.0 seconds...
+Okay, I've reviewed research_summary.json and angle_local.json. Based on the    
+"rising" momentum and the alignment with the local persona, the best angle to   
+focus on is:                                                                    
+Okay, I've reviewed research_summary.json and angle_local.json. Based on the    
+"rising" momentum and the alignment with the local persona, the best angle to   
+focus on is:                                                                    
+
+"Super Bowl LX Transit Triumph: Your Guide to Getting Around Santa Clara"       
+
+I will now create a deep_research.json file with the requested content.         
+
+.ralph/deep_research.json                                                       
+
+
+"Super Bowl LX Transit Triumph: Your Guide to Getting Around Santa Clara"       
+
+I will now create a deep_research.json file with the requested content.         
+
+.ralph/deep_research.json                                                       
+
+                                                                                
+@@ -1,3 +1,4 @@                                                                 
+                                                                                
+@@ -1,3 +1,4 @@                                                                 
+     "headline": "Super Bowl LX Transit Triumph: Your Guide to Getting Around   
+Santa Clara",                                                                   
+     "angle": "Navigating Santa Clara during Super Bowl LX doesn't have to be a 
+nightmare. We're breaking down the best transportation options, from public     
+transit to ride-sharing hacks, so you can arrive at the stadium stress-free and 
+ready to cheer.",                                                               
+     "headline": "Super Bowl LX Transit Triumph: Your Guide to Getting Around   
+Santa Clara",                                                                   
+     "angle": "Navigating Santa Clara during Super Bowl LX doesn't have to be a 
+nightmare. We're breaking down the best transportation options, from public     
+transit to ride-sharing hacks, so you can arrive at the stadium stress-free and 
+ready to cheer.",                                                               
+       "Statistic: \"Traffic congestion around Levi's Stadium is expected to add
+       "Statistic: \"Traffic congestion around Levi's Stadium is expected to add
+Y minutes to travel times.\"",                                                  
+       "Quote from a transportation official: \"We are working closely with     
+local agencies to ensure a safe and efficient transportation experience for all 
+Super Bowl attendees.\"",                                                       
++  50 /  73 lines [████████████████████░░░░░░░░░░]  68%                         
+                                                                                Y minutes to travel times.\"",                                                  
+       "Quote from a transportation official: \"We are working closely with     
+local agencies to ensure a safe and efficient transportation experience for all 
+Super Bowl attendees.\"",                                                       
++  50 /  73 lines [████████████████████░░░░░░░░░░]  68%                         
+                                                                                
+
+Tokens: 12k sent, 1.2k received. Cost: $0.0026 message, $0.0026 session.
+Tokens: 12k sent, 1.2k received. Cost: $0.0026 message, $0.0026 session.
+Applied edit to .ralph/deep_research.json
+Applied edit to .ralph/deep_research.json
+
+
+🧠 AI Call 2/3: Creating outline...
+🧠 AI Call 2/3: Creating outline...
+Warning: Input is not a terminal (fd=0).
+Warning: Input is not a terminal (fd=0).
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────────────
+Aider v0.86.1
+Aider v0.86.1
+Model: vertex_ai/gemini-2.0-flash-exp with whole edit format
+Model: vertex_ai/gemini-2.0-flash-exp with whole edit format
+Git repo: .git with 206 files
+Git repo: .git with 206 files
+Repo-map: using 4096 tokens, auto refresh
+Repo-map: using 4096 tokens, auto refresh
+Added .ralph/angle_local.json to the chat.
+Added .ralph/angle_local.json to the chat.
+Added .ralph/deep_research.json to the chat.
+Added .ralph/deep_research.json to the chat.
+Added .ralph/research_summary.json to the chat.
+Added .ralph/research_summary.json to the chat.
+Added .ralph/trends.json to the chat.
+Added .ralph/trends.json to the chat.
+Added _posts/2026-01-30-13-44-gatorade-protocol.md to the chat.
+Added _posts/2026-01-30-13-44-gatorade-protocol.md to the chat.
+Added _posts/2026-01-30-13-56-green-lot.md to the chat.
+Added _posts/2026-01-30-13-56-green-lot.md to the chat.
+Added _posts/2026-01-30-14-00-local-sf-commute-trap.md to the chat.
+Added _posts/2026-01-30-14-00-local-sf-commute-trap.md to the chat.
+Added _posts/2026-01-30-14-10-green-lot-myth.md to the chat.
+Added _posts/2026-01-30-14-10-green-lot-myth.md to the chat.
+Added _posts/2026-01-30-14-21-sf-commute-trap.md to the chat.
+Added _posts/2026-01-30-14-21-sf-commute-trap.md to the chat.
+Added personas.json to the chat.
+Added personas.json to the chat.
+
+
+
+
+.ralph/outline.json
+.ralph/outline.json
+.ralph/outline.json                                                             
+.ralph/outline.json                                                             
+
+                                                                                
+@@ -1,5 +1,6 @@                                                                 
+ {                                                                              
+   "hook": "Navigating Santa Clara during Super Bowl LX doesn't have to be a    
+nightmare.",                                                                    
+
+                                                                                
+@@ -1,5 +1,6 @@                                                                 
+ {                                                                              
+   "hook": "Navigating Santa Clara during Super Bowl LX doesn't have to be a    
+nightmare.",                                                                    
+       "key_points": [                                                          
+       "key_points": [                                                          
+         "Explore the diverse transportation methods: VTA Light Rail, Caltrain, 
+ride-sharing (Uber/Lyft), free shuttles, biking, and walking.",                 
+         "Weigh the pros and cons of each option, considering cost, convenience,
+travel time, and potential delays.",                                            
++   8 /  74 lines [███░░░░░░░░░░░░░░░░░░░░░░░░░░░]  11%                         
+                                                                                         "Explore the diverse transportation methods: VTA Light Rail, Caltrain, 
+ride-sharing (Uber/Lyft), free shuttles, biking, and walking.",                 
+         "Weigh the pros and cons of each option, considering cost, convenience,
+travel time, and potential delays.",                                            
++   8 /  74 lines [███░░░░░░░░░░░░░░░░░░░░░░░░░░░]  11%                         
+                                                                                
+
+Tokens: 14k sent, 1.0k received. Cost: $0.0027 message, $0.0027 session.
+Tokens: 14k sent, 1.0k received. Cost: $0.0027 message, $0.0027 session.
+Applied edit to .ralph/outline.json
+Applied edit to .ralph/outline.json
+
+
+🧠 AI Call 3/3: Writing draft...
+🧠 AI Call 3/3: Writing draft...
+Warning: Input is not a terminal (fd=0).
+Warning: Input is not a terminal (fd=0).
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────────────
+Aider v0.86.1
+Aider v0.86.1
+Model: vertex_ai/gemini-2.0-flash-exp with whole edit format
+Model: vertex_ai/gemini-2.0-flash-exp with whole edit format
+Git repo: .git with 206 files
+Git repo: .git with 206 files
+Repo-map: using 4096 tokens, auto refresh
+Repo-map: using 4096 tokens, auto refresh
+Added .ralph/angle_local.json to the chat.
+Added .ralph/angle_local.json to the chat.
+Added .ralph/deep_research.json to the chat.
+Added .ralph/deep_research.json to the chat.
+Added .ralph/outline.json to the chat.
+Added .ralph/outline.json to the chat.
+Added .ralph/research_summary.json to the chat.
+Added .ralph/research_summary.json to the chat.
+Added .ralph/trends.json to the chat.
+Added .ralph/trends.json to the chat.
+Added _posts/2026-01-30-13-44-gatorade-protocol.md to the chat.
+Added _posts/2026-01-30-13-44-gatorade-protocol.md to the chat.
+Added _posts/2026-01-30-13-56-green-lot.md to the chat.
+Added _posts/2026-01-30-13-56-green-lot.md to the chat.
+Added _posts/2026-01-30-14-00-local-sf-commute-trap.md to the chat.
+Added _posts/2026-01-30-14-00-local-sf-commute-trap.md to the chat.
+Added _posts/2026-01-30-14-10-green-lot-myth.md to the chat.
+Added _posts/2026-01-30-14-10-green-lot-myth.md to the chat.
+Added _posts/2026-01-30-14-21-sf-commute-trap.md to the chat.
+Added _posts/2026-01-30-14-21-sf-commute-trap.md to the chat.
+Added personas.json to the chat.
+Added personas.json to the chat.
+
+
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Quota exceeded for 
+aiplatform.googleapis.com/global_generate_content_requests_per_minute_per_projec
+t_per_base_model with base model: gemini-experimental. Please submit a quota 
+increase request. 
+https://cloud.google.com/vertex-ai/docs/generative-ai/quotas-genai.",\n    
+"status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Quota exceeded for 
+aiplatform.googleapis.com/global_generate_content_requests_per_minute_per_projec
+t_per_base_model with base model: gemini-experimental. Please submit a quota 
+increase request. 
+https://cloud.google.com/vertex-ai/docs/generative-ai/quotas-genai.",\n    
+"status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 0.2 seconds...
+Retrying in 0.2 seconds...
+Ok, I will create a new file at .ralph/drafts/draft-20260130-1430-local-topic.md
+based on the content of outline.json, using the local persona, and adhering to  
+the constraints you've specified.                                               
+
+.ralph/drafts/draft-20260130-1430-local-topic.md                                
+
+                                                                                
+---                                                                             
+                                                                                
+layout: post                                                                    
+                                                                                
+Ok, I will create a new file at .ralph/drafts/draft-20260130-1430-local-topic.md
+based on the content of outline.json, using the local persona, and adhering to  
+the constraints you've specified.                                               
+
+.ralph/drafts/draft-20260130-1430-local-topic.md                                
+
+                                                                                
+---                                                                             
+                                                                                
+layout: post                                                                    
+                                                                                
+title: "Decoding Your Transportation Options: A Super Bowl LX Survival Guide"   
+                                                                                
+author: Tony Moretti                                                            
+                                                                                
+date: 2026-01-30T14:30:00Z                                                      
+                                                                                
+title: "Decoding Your Transportation Options: A Super Bowl LX Survival Guide"   
+                                                                                
+author: Tony Moretti                                                            
+                                                                                
+date: 2026-01-30T14:30:00Z                                                      
+                                                                                
+tags: [local, transportation, VTA, Caltrain, rideshare, shuttle, biking,        
+walking]                                                                        
+                                                                                
+excerpt: "Navigating Santa Clara during Super Bowl LX doesn't have to be a      
+nightmare. Here's how to get to Levi's Stadium without losing your mind (or your
+money)."                                                                        
+                                                                                
+persona: local                                                                  
+                                                                                
+status: draft                                                                   
+                                                                                
+---                                                                             
+tags: [local, transportation, VTA, Caltrain, rideshare, shuttle, biking,        
+walking]                                                                        
+                                                                                
+excerpt: "Navigating Santa Clara during Super Bowl LX doesn't have to be a      
+nightmare. Here's how to get to Levi's Stadium without losing your mind (or your
+money)."                                                                        
+                                                                                
+persona: local                                                                  
+                                                                                
+status: draft                                                                   
+                                                                                
+---                                                                             
+                                                                                
+                                                                                
+                                                                                
+Alright, folks, let's talk about getting around Santa Clara for Super Bowl LX.  
+It doesn't have to be a total mess. You've got options, and I'm here to break   
+them down so you can actually enjoy the game without a pre-game stress meltdown.
+                                                                                
+                                                                                
+                                                                                
+## Decoding Your Transportation Options: A Super Bowl LX Survival Guide         
+                                                                                
+                                                                                
+                                                                                
+Alright, folks, let's talk about getting around Santa Clara for Super Bowl LX.  
+It doesn't have to be a total mess. You've got options, and I'm here to break   
+them down so you can actually enjoy the game without a pre-game stress meltdown.
+                                                                                
+                                                                                
+                                                                                
+## Decoding Your Transportation Options: A Super Bowl LX Survival Guide         
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+You've got a bunch of ways to get to Levi's Stadium: VTA Light Rail, Caltrain,  
+ride-sharing (Uber/Lyft), those free shuttles, even biking or walking if you're 
+feeling ambitious. Each one has its ups and downs. Cost, how easy it is, travel 
+time, and the chance of something going wrong all play a part. The key is to    
+plan ahead and check those schedules in real-time. Trust me, you don't want to  
+be stuck on Tasman Drive when kickoff is happening.                             
+                                                                                
+                                                                                
+You've got a bunch of ways to get to Levi's Stadium: VTA Light Rail, Caltrain,  
+ride-sharing (Uber/Lyft), those free shuttles, even biking or walking if you're 
+feeling ambitious. Each one has its ups and downs. Cost, how easy it is, travel 
+time, and the chance of something going wrong all play a part. The key is to    
+plan ahead and check those schedules in real-time. Trust me, you don't want to  
+be stuck on Tasman Drive when kickoff is happening.                             
+                                                                                
+                                                                                
+                                                                                
+*   **VTA Light Rail:** This is usually a solid bet. They can move about 4,200  
+people per hour when things are humming.                                        
+                                                                                
+*   **Traffic:** Don't be shocked if traffic around the stadium adds 45-60      
+minutes to your trip. It's Super Bowl, after all.                               
+                                                                                
+*   **Ride-Sharing:** Surge pricing is coming, no doubt. Expect to pay 2x-5x    
+                                                                                
+*   **VTA Light Rail:** This is usually a solid bet. They can move about 4,200  
+people per hour when things are humming.                                        
+                                                                                
+*   **Traffic:** Don't be shocked if traffic around the stadium adds 45-60      
+minutes to your trip. It's Super Bowl, after all.                               
+                                                                                
+*   **Ride-Sharing:** Surge pricing is coming, no doubt. Expect to pay 2x-5x    
+litellm.APIConnectionError: Error parsing chunk: Expecting property name 
+enclosed in double quotes: line 1 column 2 (char 1),
+Received chunk: {
+Traceback (most recent call last):
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/llms/vertex_ai/gemini/vertex_an
+d_google_ai_studio_gemini.py", line 2057, in __next__
+    return self._common_chunk_parsing_logic(chunk=chunk)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/llms/vertex_ai/gemini/vertex_an
+d_google_ai_studio_gemini.py", line 2038, in _common_chunk_parsing_logic
+    return self.handle_valid_json_chunk(chunk=chunk)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/llms/vertex_ai/gemini/vertex_an
+d_google_ai_studio_gemini.py", line 2001, in handle_valid_json_chunk
+    raise e
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/llms/vertex_ai/gemini/vertex_an
+d_google_ai_studio_gemini.py", line 1993, in handle_valid_json_chunk
+    json_chunk = json.loads(chunk)
+                 ^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/Cellar/python@3.11/3.11.14_2/Frameworks/Python.framework/Versions/3.
+11/lib/python3.11/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/Cellar/python@3.11/3.11.14_2/Frameworks/Python.framework/Versions/3.
+11/lib/python3.11/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/Cellar/python@3.11/3.11.14_2/Frameworks/Python.framework/Versions/3.
+11/lib/python3.11/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes:
+line 1 column 2 (char 1)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/litellm_core_utils/streaming_ha
+ndler.py", line 1531, in __next__
+    chunk = next(self.completion_stream)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/llms/vertex_ai/gemini/vertex_an
+d_google_ai_studio_gemini.py", line 2061, in __next__
+    raise RuntimeError(f"Error parsing chunk: {e},\nReceived chunk: {chunk}")
+RuntimeError: Error parsing chunk: Expecting property name enclosed in double 
+quotes: line 1 column 2 (char 1),
+Received chunk: {
+
+litellm.APIConnectionError: Error parsing chunk: Expecting property name 
+enclosed in double quotes: line 1 column 2 (char 1),
+Received chunk: {
+Traceback (most recent call last):
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/llms/vertex_ai/gemini/vertex_an
+d_google_ai_studio_gemini.py", line 2057, in __next__
+    return self._common_chunk_parsing_logic(chunk=chunk)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/llms/vertex_ai/gemini/vertex_an
+d_google_ai_studio_gemini.py", line 2038, in _common_chunk_parsing_logic
+    return self.handle_valid_json_chunk(chunk=chunk)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/llms/vertex_ai/gemini/vertex_an
+d_google_ai_studio_gemini.py", line 2001, in handle_valid_json_chunk
+    raise e
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/llms/vertex_ai/gemini/vertex_an
+d_google_ai_studio_gemini.py", line 1993, in handle_valid_json_chunk
+    json_chunk = json.loads(chunk)
+                 ^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/Cellar/python@3.11/3.11.14_2/Frameworks/Python.framework/Versions/3.
+11/lib/python3.11/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/Cellar/python@3.11/3.11.14_2/Frameworks/Python.framework/Versions/3.
+11/lib/python3.11/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/Cellar/python@3.11/3.11.14_2/Frameworks/Python.framework/Versions/3.
+11/lib/python3.11/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes:
+line 1 column 2 (char 1)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/litellm_core_utils/streaming_ha
+ndler.py", line 1531, in __next__
+    chunk = next(self.completion_stream)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/llms/vertex_ai/gemini/vertex_an
+d_google_ai_studio_gemini.py", line 2061, in __next__
+    raise RuntimeError(f"Error parsing chunk: {e},\nReceived chunk: {chunk}")
+RuntimeError: Error parsing chunk: Expecting property name enclosed in double 
+quotes: line 1 column 2 (char 1),
+Received chunk: {
+
+Retrying in 0.5 seconds...
+Retrying in 0.5 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Quota exceeded for 
+aiplatform.googleapis.com/global_generate_content_requests_per_minute_per_projec
+t_per_base_model with base model: gemini-experimental. Please submit a quota 
+increase request. 
+https://cloud.google.com/vertex-ai/docs/generative-ai/quotas-genai.",\n    
+"status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Quota exceeded for 
+aiplatform.googleapis.com/global_generate_content_requests_per_minute_per_projec
+t_per_base_model with base model: gemini-experimental. Please submit a quota 
+increase request. 
+https://cloud.google.com/vertex-ai/docs/generative-ai/quotas-genai.",\n    
+"status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 1.0 seconds...
+Retrying in 1.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Quota exceeded for 
+aiplatform.googleapis.com/global_generate_content_requests_per_minute_per_projec
+t_per_base_model with base model: gemini-experimental. Please submit a quota 
+increase request. 
+https://cloud.google.com/vertex-ai/docs/generative-ai/quotas-genai.",\n    
+"status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Quota exceeded for 
+aiplatform.googleapis.com/global_generate_content_requests_per_minute_per_projec
+t_per_base_model with base model: gemini-experimental. Please submit a quota 
+increase request. 
+https://cloud.google.com/vertex-ai/docs/generative-ai/quotas-genai.",\n    
+"status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 2.0 seconds...
+Retrying in 2.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Quota exceeded for 
+aiplatform.googleapis.com/global_generate_content_requests_per_minute_per_projec
+t_per_base_model with base model: gemini-experimental. Please submit a quota 
+increase request. 
+https://cloud.google.com/vertex-ai/docs/generative-ai/quotas-genai.",\n    
+"status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Quota exceeded for 
+aiplatform.googleapis.com/global_generate_content_requests_per_minute_per_projec
+t_per_base_model with base model: gemini-experimental. Please submit a quota 
+increase request. 
+https://cloud.google.com/vertex-ai/docs/generative-ai/quotas-genai.",\n    
+"status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 4.0 seconds...
+Retrying in 4.0 seconds...
+litellm.APIConnectionError: Error parsing chunk: Expecting property name 
+enclosed in double quotes: line 1 column 2 (char 1),
+Received chunk: {
+Traceback (most recent call last):
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/llms/vertex_ai/gemini/vertex_an
+d_google_ai_studio_gemini.py", line 2057, in __next__
+    return self._common_chunk_parsing_logic(chunk=chunk)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/llms/vertex_ai/gemini/vertex_an
+d_google_ai_studio_gemini.py", line 2038, in _common_chunk_parsing_logic
+    return self.handle_valid_json_chunk(chunk=chunk)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/llms/vertex_ai/gemini/vertex_an
+d_google_ai_studio_gemini.py", line 2001, in handle_valid_json_chunk
+    raise e
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/llms/vertex_ai/gemini/vertex_an
+d_google_ai_studio_gemini.py", line 1993, in handle_valid_json_chunk
+    json_chunk = json.loads(chunk)
+                 ^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/Cellar/python@3.11/3.11.14_2/Frameworks/Python.framework/Versions/3.
+11/lib/python3.11/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/Cellar/python@3.11/3.11.14_2/Frameworks/Python.framework/Versions/3.
+11/lib/python3.11/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/Cellar/python@3.11/3.11.14_2/Frameworks/Python.framework/Versions/3.
+11/lib/python3.11/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes:
+line 1 column 2 (char 1)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/litellm_core_utils/streaming_ha
+ndler.py", line 1531, in __next__
+    chunk = next(self.completion_stream)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/llms/vertex_ai/gemini/vertex_an
+d_google_ai_studio_gemini.py", line 2061, in __next__
+    raise RuntimeError(f"Error parsing chunk: {e},\nReceived chunk: {chunk}")
+RuntimeError: Error parsing chunk: Expecting property name enclosed in double 
+quotes: line 1 column 2 (char 1),
+Received chunk: {
+
+litellm.APIConnectionError: Error parsing chunk: Expecting property name 
+enclosed in double quotes: line 1 column 2 (char 1),
+Received chunk: {
+Traceback (most recent call last):
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/llms/vertex_ai/gemini/vertex_an
+d_google_ai_studio_gemini.py", line 2057, in __next__
+    return self._common_chunk_parsing_logic(chunk=chunk)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/llms/vertex_ai/gemini/vertex_an
+d_google_ai_studio_gemini.py", line 2038, in _common_chunk_parsing_logic
+    return self.handle_valid_json_chunk(chunk=chunk)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/llms/vertex_ai/gemini/vertex_an
+d_google_ai_studio_gemini.py", line 2001, in handle_valid_json_chunk
+    raise e
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/llms/vertex_ai/gemini/vertex_an
+d_google_ai_studio_gemini.py", line 1993, in handle_valid_json_chunk
+    json_chunk = json.loads(chunk)
+                 ^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/Cellar/python@3.11/3.11.14_2/Frameworks/Python.framework/Versions/3.
+11/lib/python3.11/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/Cellar/python@3.11/3.11.14_2/Frameworks/Python.framework/Versions/3.
+11/lib/python3.11/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/Cellar/python@3.11/3.11.14_2/Frameworks/Python.framework/Versions/3.
+11/lib/python3.11/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes:
+line 1 column 2 (char 1)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/litellm_core_utils/streaming_ha
+ndler.py", line 1531, in __next__
+    chunk = next(self.completion_stream)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/llms/vertex_ai/gemini/vertex_an
+d_google_ai_studio_gemini.py", line 2061, in __next__
+    raise RuntimeError(f"Error parsing chunk: {e},\nReceived chunk: {chunk}")
+RuntimeError: Error parsing chunk: Expecting property name enclosed in double 
+quotes: line 1 column 2 (char 1),
+Received chunk: {
+
+Retrying in 8.0 seconds...
+Retrying in 8.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Quota exceeded for 
+aiplatform.googleapis.com/global_generate_content_requests_per_minute_per_projec
+t_per_base_model with base model: gemini-experimental. Please submit a quota 
+increase request. 
+https://cloud.google.com/vertex-ai/docs/generative-ai/quotas-genai.",\n    
+"status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Quota exceeded for 
+aiplatform.googleapis.com/global_generate_content_requests_per_minute_per_projec
+t_per_base_model with base model: gemini-experimental. Please submit a quota 
+increase request. 
+https://cloud.google.com/vertex-ai/docs/generative-ai/quotas-genai.",\n    
+"status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 16.0 seconds...
+Retrying in 16.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 32.0 seconds...
+Retrying in 32.0 seconds...
+.ral                                                                            .ral                                                                            litellm.APIConnectionError: Error parsing chunk: Expecting property name 
+enclosed in double quotes: line 1 column 2 (char 1),
+Received chunk: {
+Traceback (most recent call last):
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/llms/vertex_ai/gemini/vertex_an
+d_google_ai_studio_gemini.py", line 2057, in __next__
+    return self._common_chunk_parsing_logic(chunk=chunk)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/llms/vertex_ai/gemini/vertex_an
+d_google_ai_studio_gemini.py", line 2038, in _common_chunk_parsing_logic
+    return self.handle_valid_json_chunk(chunk=chunk)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/llms/vertex_ai/gemini/vertex_an
+d_google_ai_studio_gemini.py", line 2001, in handle_valid_json_chunk
+    raise e
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/llms/vertex_ai/gemini/vertex_an
+d_google_ai_studio_gemini.py", line 1993, in handle_valid_json_chunk
+    json_chunk = json.loads(chunk)
+                 ^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/Cellar/python@3.11/3.11.14_2/Frameworks/Python.framework/Versions/3.
+11/lib/python3.11/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/Cellar/python@3.11/3.11.14_2/Frameworks/Python.framework/Versions/3.
+11/lib/python3.11/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/Cellar/python@3.11/3.11.14_2/Frameworks/Python.framework/Versions/3.
+11/lib/python3.11/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes:
+line 1 column 2 (char 1)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/litellm_core_utils/streaming_ha
+ndler.py", line 1531, in __next__
+    chunk = next(self.completion_stream)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/llms/vertex_ai/gemini/vertex_an
+d_google_ai_studio_gemini.py", line 2061, in __next__
+    raise RuntimeError(f"Error parsing chunk: {e},\nReceived chunk: {chunk}")
+RuntimeError: Error parsing chunk: Expecting property name enclosed in double 
+quotes: line 1 column 2 (char 1),
+Received chunk: {
+
+litellm.APIConnectionError: Error parsing chunk: Expecting property name 
+enclosed in double quotes: line 1 column 2 (char 1),
+Received chunk: {
+Traceback (most recent call last):
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/llms/vertex_ai/gemini/vertex_an
+d_google_ai_studio_gemini.py", line 2057, in __next__
+    return self._common_chunk_parsing_logic(chunk=chunk)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/llms/vertex_ai/gemini/vertex_an
+d_google_ai_studio_gemini.py", line 2038, in _common_chunk_parsing_logic
+    return self.handle_valid_json_chunk(chunk=chunk)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/llms/vertex_ai/gemini/vertex_an
+d_google_ai_studio_gemini.py", line 2001, in handle_valid_json_chunk
+    raise e
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/llms/vertex_ai/gemini/vertex_an
+d_google_ai_studio_gemini.py", line 1993, in handle_valid_json_chunk
+    json_chunk = json.loads(chunk)
+                 ^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/Cellar/python@3.11/3.11.14_2/Frameworks/Python.framework/Versions/3.
+11/lib/python3.11/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/Cellar/python@3.11/3.11.14_2/Frameworks/Python.framework/Versions/3.
+11/lib/python3.11/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/Cellar/python@3.11/3.11.14_2/Frameworks/Python.framework/Versions/3.
+11/lib/python3.11/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes:
+line 1 column 2 (char 1)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/litellm_core_utils/streaming_ha
+ndler.py", line 1531, in __next__
+    chunk = next(self.completion_stream)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/llms/vertex_ai/gemini/vertex_an
+d_google_ai_studio_gemini.py", line 2061, in __next__
+    raise RuntimeError(f"Error parsing chunk: {e},\nReceived chunk: {chunk}")
+RuntimeError: Error parsing chunk: Expecting property name enclosed in double 
+quotes: line 1 column 2 (char 1),
+Received chunk: {
+
+
+
+
+
+.ralph/drafts/draft-20260130-1430-local-topic.md
+.ralph/drafts/draft-20260130-1430-local-topic.md
+Applied edit to .ralph/drafts/draft-20260130-1430-local-topic.md
+Applied edit to .ralph/drafts/draft-20260130-1430-local-topic.md
+State updated: 2 drafts
+State updated: 2 drafts
+
+
+=== Ralph Draft Worker (Multi-AI) ===
+=== Ralph Draft Worker (Multi-AI) ===
+Timestamp: 2026-01-30T14:45:00Z
+Timestamp: 2026-01-30T14:45:00Z
+Drafts in queue: 3/5
+Drafts in queue: 3/5
+📝 Generating draft 4/5 as local
+📝 Generating draft 4/5 as local
+
+
+🧠 AI Call 1/3: Deep research...
+🧠 AI Call 1/3: Deep research...
+Warning: Input is not a terminal (fd=0).
+Warning: Input is not a terminal (fd=0).
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────────────
+Aider v0.86.1
+Aider v0.86.1
+Model: vertex_ai/gemini-2.0-flash-exp with whole edit format
+Model: vertex_ai/gemini-2.0-flash-exp with whole edit format
+Git repo: .git with 208 files
+Git repo: .git with 208 files
+Repo-map: using 4096 tokens, auto refresh
+Repo-map: using 4096 tokens, auto refresh
+Added .ralph/angle_local.json to the chat.
+Added .ralph/angle_local.json to the chat.
+Added .ralph/research_summary.json to the chat.
+Added .ralph/research_summary.json to the chat.
+Added .ralph/trends.json to the chat.
+Added .ralph/trends.json to the chat.
+Added _posts/2026-01-30-13-44-gatorade-protocol.md to the chat.
+Added _posts/2026-01-30-13-44-gatorade-protocol.md to the chat.
+Added _posts/2026-01-30-13-56-green-lot.md to the chat.
+Added _posts/2026-01-30-13-56-green-lot.md to the chat.
+Added _posts/2026-01-30-14-00-local-sf-commute-trap.md to the chat.
+Added _posts/2026-01-30-14-00-local-sf-commute-trap.md to the chat.
+Added _posts/2026-01-30-14-10-green-lot-myth.md to the chat.
+Added _posts/2026-01-30-14-10-green-lot-myth.md to the chat.
+Added _posts/2026-01-30-14-21-sf-commute-trap.md to the chat.
+Added _posts/2026-01-30-14-21-sf-commute-trap.md to the chat.
+Added personas.json to the chat.
+Added personas.json to the chat.
+
+
+
+
+.ralph/deep_research.json
+.ralph/deep_research.json
+Okay, I've reviewed research_summary.json and angle_local.json. Based on the    
+"recommendations" in research_summary.json and the available angles for the     
+Okay, I've reviewed research_summary.json and angle_local.json. Based on the    
+"recommendations" in research_summary.json and the available angles for the     
+"local" persona in angle_local.json, the best angle to pursue is:               
+
+"Super Bowl LX Transit Triumph: Your Guide to Getting Around Santa Clara"       
+
+This aligns with the recommended priority topic of "Super Bowl 60 at Levi's     
+Stadium: Fan Experience and Local Impact in Santa Clara" and addresses a        
+"local" persona in angle_local.json, the best angle to pursue is:               
+
+"Super Bowl LX Transit Triumph: Your Guide to Getting Around Santa Clara"       
+
+This aligns with the recommended priority topic of "Super Bowl 60 at Levi's     
+Stadium: Fan Experience and Local Impact in Santa Clara" and addresses a        
+practical concern for attendees.                                                
+
+I will now create a new .ralph/deep_research.json file with the requested       
+content.                                                                        
+
+.ralph/deep_research.json                                                       
+
+                                                                                
+@@ -1,3 +1,4 @@                                                                 
+practical concern for attendees.                                                
+
+I will now create a new .ralph/deep_research.json file with the requested       
+content.                                                                        
+
+.ralph/deep_research.json                                                       
+
+                                                                                
+@@ -1,3 +1,4 @@                                                                 
+ {                                                                              
+   "angle": {                                                                   
+     "headline": "Super Bowl LX Transit Triumph: Your Guide to Getting Around   
+Santa Clara",                                                                   
+     "angle": "Navigating Santa Clara during Super Bowl LX doesn't have to be a 
+nightmare. We're breaking down the best transportation options, from public     
+ {                                                                              
+   "angle": {                                                                   
+     "headline": "Super Bowl LX Transit Triumph: Your Guide to Getting Around   
+Santa Clara",                                                                   
+     "angle": "Navigating Santa Clara during Super Bowl LX doesn't have to be a 
+nightmare. We're breaking down the best transportation options, from public     
+       "Statistic: \"Traffic congestion around Levi's Stadium is expected to add
+       "Statistic: \"Traffic congestion around Levi's Stadium is expected to add
+Y minutes to travel times.\"",                                                  
+       "Quote from a transportation official: \"We are working closely with     
+local agencies to ensure a safe and efficient transportation experience for all 
+Super Bowl attendees.\"",                                                       
++  50 /  73 lines [████████████████████░░░░░░░░░░]  68%                         
+                                                                                Y minutes to travel times.\"",                                                  
+       "Quote from a transportation official: \"We are working closely with     
+local agencies to ensure a safe and efficient transportation experience for all 
+Super Bowl attendees.\"",                                                       
++  50 /  73 lines [████████████████████░░░░░░░░░░]  68%                         
+                                                                                
+
+Tokens: 12k sent, 1.2k received. Cost: $0.0026 message, $0.0026 session.
+Tokens: 12k sent, 1.2k received. Cost: $0.0026 message, $0.0026 session.
+Applied edit to .ralph/deep_research.json
+Applied edit to .ralph/deep_research.json
+
+
+🧠 AI Call 2/3: Creating outline...
+🧠 AI Call 2/3: Creating outline...
+Warning: Input is not a terminal (fd=0).
+Warning: Input is not a terminal (fd=0).
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────────────
+Aider v0.86.1
+Aider v0.86.1
+Model: vertex_ai/gemini-2.0-flash-exp with whole edit format
+Model: vertex_ai/gemini-2.0-flash-exp with whole edit format
+Git repo: .git with 208 files
+Git repo: .git with 208 files
+Repo-map: using 4096 tokens, auto refresh
+Repo-map: using 4096 tokens, auto refresh
+Added .ralph/angle_local.json to the chat.
+Added .ralph/angle_local.json to the chat.
+Added .ralph/deep_research.json to the chat.
+Added .ralph/deep_research.json to the chat.
+Added .ralph/research_summary.json to the chat.
+Added .ralph/research_summary.json to the chat.
+Added .ralph/trends.json to the chat.
+Added .ralph/trends.json to the chat.
+Added _posts/2026-01-30-13-44-gatorade-protocol.md to the chat.
+Added _posts/2026-01-30-13-44-gatorade-protocol.md to the chat.
+Added _posts/2026-01-30-13-56-green-lot.md to the chat.
+Added _posts/2026-01-30-13-56-green-lot.md to the chat.
+Added _posts/2026-01-30-14-00-local-sf-commute-trap.md to the chat.
+Added _posts/2026-01-30-14-00-local-sf-commute-trap.md to the chat.
+Added _posts/2026-01-30-14-10-green-lot-myth.md to the chat.
+Added _posts/2026-01-30-14-10-green-lot-myth.md to the chat.
+Added _posts/2026-01-30-14-21-sf-commute-trap.md to the chat.
+Added _posts/2026-01-30-14-21-sf-commute-trap.md to the chat.
+Added personas.json to the chat.
+Added personas.json to the chat.
+
+
+
+
+.ralph/outline.json
+.ralph/outline.json
+.ralph/outline.json                                                             
+
+                                                                                
+@@ -1,5 +1,6 @@                                                                 
+ {                                                                              
+   "hook": "Navigating Santa Clara during Super Bowl LX doesn't have to be a    
+nightmare.",                                                                    
+.ralph/outline.json                                                             
+
+                                                                                
+@@ -1,5 +1,6 @@                                                                 
+ {                                                                              
+   "hook": "Navigating Santa Clara during Super Bowl LX doesn't have to be a    
+nightmare.",                                                                    
+       "key_points": [                                                          
+       "key_points": [                                                          
+                                                                                                                                                                
+
+Tokens: 14k sent, 1.0k received. Cost: $0.0027 message, $0.0027 session.
+Tokens: 14k sent, 1.0k received. Cost: $0.0027 message, $0.0027 session.
+Applied edit to .ralph/outline.json
+Applied edit to .ralph/outline.json
+
+
+🧠 AI Call 3/3: Writing draft...
+🧠 AI Call 3/3: Writing draft...
+Warning: Input is not a terminal (fd=0).
+Warning: Input is not a terminal (fd=0).
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────────────
+Aider v0.86.1
+Aider v0.86.1
+Model: vertex_ai/gemini-2.0-flash-exp with whole edit format
+Model: vertex_ai/gemini-2.0-flash-exp with whole edit format
+Git repo: .git with 208 files
+Git repo: .git with 208 files
+Repo-map: using 4096 tokens, auto refresh
+Repo-map: using 4096 tokens, auto refresh
+Added .ralph/angle_local.json to the chat.
+Added .ralph/angle_local.json to the chat.
+Added .ralph/deep_research.json to the chat.
+Added .ralph/deep_research.json to the chat.
+Added .ralph/outline.json to the chat.
+Added .ralph/outline.json to the chat.
+Added .ralph/research_summary.json to the chat.
+Added .ralph/research_summary.json to the chat.
+Added .ralph/trends.json to the chat.
+Added .ralph/trends.json to the chat.
+Added _posts/2026-01-30-13-44-gatorade-protocol.md to the chat.
+Added _posts/2026-01-30-13-44-gatorade-protocol.md to the chat.
+Added _posts/2026-01-30-13-56-green-lot.md to the chat.
+Added _posts/2026-01-30-13-56-green-lot.md to the chat.
+Added _posts/2026-01-30-14-00-local-sf-commute-trap.md to the chat.
+Added _posts/2026-01-30-14-00-local-sf-commute-trap.md to the chat.
+Added _posts/2026-01-30-14-10-green-lot-myth.md to the chat.
+Added _posts/2026-01-30-14-10-green-lot-myth.md to the chat.
+Added _posts/2026-01-30-14-21-sf-commute-trap.md to the chat.
+Added _posts/2026-01-30-14-21-sf-commute-trap.md to the chat.
+Added personas.json to the chat.
+Added personas.json to the chat.
+
+
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 0.2 seconds...
+Retrying in 0.2 seconds...
+Okay, I will create a new draft post in .ralph/drafts/ named                    
+draft-20260130-1445-local-topic.md based on the content of outline.json,        
+adhering to the specified YAML frontmatter, word count, and stylistic           
+constraints.                                                                    
+Okay, I will create a new draft post in .ralph/drafts/ named                    
+draft-20260130-1445-local-topic.md based on the content of outline.json,        
+adhering to the specified YAML frontmatter, word count, and stylistic           
+constraints.                                                                    
+
+.ralph/drafts/draft-20260130-1445-local-topic.md                                
+
+                                                                                
+---                                                                             
+                                                                                
+layout: post                                                                    
+                                                                                
+
+.ralph/drafts/draft-20260130-1445-local-topic.md                                
+
+                                                                                
+---                                                                             
+                                                                                
+layout: post                                                                    
+                                                                                
+title: "Decoding Your Transportation Options: A Super Bowl LX Survival Guide"   
+                                                                                
+author: Tony Moretti                                                            
+                                                                                
+date: 2026-01-30T14:45:00Z                                                      
+                                                                                
+tags: [local, transportation, logistics, Santa Clara, Levi's Stadium]           
+                                                                                
+excerpt: "Navigating Santa Clara during Super Bowl LX doesn't have to be a      
+nightmare. Here's how to arrive stress-free and ready to cheer."                
+                                                                                
+persona: local                                                                  
+                                                                                
+status: draft                                                                   
+                                                                                
+title: "Decoding Your Transportation Options: A Super Bowl LX Survival Guide"   
+                                                                                
+author: Tony Moretti                                                            
+                                                                                
+date: 2026-01-30T14:45:00Z                                                      
+                                                                                
+tags: [local, transportation, logistics, Santa Clara, Levi's Stadium]           
+                                                                                
+excerpt: "Navigating Santa Clara during Super Bowl LX doesn't have to be a      
+nightmare. Here's how to arrive stress-free and ready to cheer."                
+                                                                                
+persona: local                                                                  
+                                                                                
+status: draft                                                                   
+                                                                                
+---                                                                             
+---                                                                             
+                                                                                
+                                                                                
+                                                                                
+Alright, picture this: You're in town for Super Bowl LX, ready to cheer on your 
+team at Levi's Stadium. But Santa Clara ain't Candlestick, and getting around   
+requires a game plan. Don't sweat it; I'm here to break down your transportation
+playbook so you can avoid the headaches and focus on the fun.                   
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+Alright, picture this: You're in town for Super Bowl LX, ready to cheer on your 
+team at Levi's Stadium. But Santa Clara ain't Candlestick, and getting around   
+requires a game plan. Don't sweat it; I'm here to break down your transportation
+playbook so you can avoid the headaches and focus on the fun.                   
+                                                                                
+                                                                                
+                                                                                
+## Decoding Your Transportation Options: A Super Bowl LX Survival Guide         
+                                                                                
+## Decoding Your Transportation Options: A Super Bowl LX Survival Guide         
+                                                                                
+                                                                                
+                                                                                
+Santa Clara offers a bunch of ways to get around: VTA Light Rail, Caltrain,     
+ride-sharing (Uber/Lyft), free shuttles, even biking and walking if you're      
+feeling ambitious. Each has its ups and downs. Public transit is cheaper but can
+be crowded. Ride-sharing offers convenience but expect surge pricing.           
+Pre-planning is key. Check those real-time schedules, folks!                    
+                                                                                
+                                                                                
+Santa Clara offers a bunch of ways to get around: VTA Light Rail, Caltrain,     
+ride-sharing (Uber/Lyft), free shuttles, even biking and walking if you're      
+feeling ambitious. Each has its ups and downs. Public transit is cheaper but can
+be crowded. Ride-sharing offers convenience but expect surge pricing.           
+Pre-planning is key. Check those real-time schedules, folks!                    
+                                                                                
+                                                                                
+                                                                                
+The VTA Light Rail moves about 4,200 people per hour during big events. Traffic 
+near Levi's can add an hour to your trip. Surge pricing? Could be 2x-5x the     
+normal fare. Now, let's get into the specifics.                                 
+                                                                                
+                                                                                
+                                                                                
+## Public Transit Mastery: VTA, Caltrain, and Clipper Card Secrets              
+                                                                                
+                                                                                
+                                                                                
+The VTA Light Rail moves about 4,200 people per hour during big events. Traffic 
+near Levi's can add an hour to your trip. Surge pricing? Could be 2x-5x the     
+normal fare. Now, let's get into the specifics.                                 
+                                                                                
+                                                                                
+                                                                                
+## Public Transit Mastery: VTA, Caltrain, and Clipper Card Secrets              
+                                                                                
+                                                                                
+                                                                                
+The VTA Light Rail's Orange Line drops you close to the stadium. Caltrain gets  
+you to Mountain View, where you transfer to the VTA. Grab a Clipper card for    
+easy fare payment and discounts. Public transit? It's about dodging traffic,    
+saving cash on parking, and being a little greener.                             
+                                                                                
+                                                                                
+                                                                                
+The VTA Light Rail's Orange Line drops you close to the stadium. Caltrain gets  
+you to Mountain View, where you transfer to the VTA. Grab a Clipper card for    
+easy fare payment and discounts. Public transit? It's about dodging traffic,    
+saving cash on parking, and being a little greener.                             
+                                                                                
+                                                                                
+                                                                                
+VTA adds trains every 15 minutes on game day. Clipper cards save you money on   
+both VTA and Caltrain. From downtown San Jose to Levi's on the VTA? About 45    
+minutes.                                                                        
+                                                                                
+                                                                                
+                                                                                
+## Ride-Sharing Realities: Surge Pricing, Pick-Up Zones, and Pro Hacks          
+                                                                                
+                                                                                
+                                                                                
+VTA adds trains every 15 minutes on game day. Clipper cards save you money on   
+both VTA and Caltrain. From downtown San Jose to Levi's on the VTA? About 45    
+minutes.                                                                        
+                                                                                
+                                                                                
+                                                                                
+## Ride-Sharing Realities: Surge Pricing, Pick-Up Zones, and Pro Hacks          
+                                                                                
+                                                                                
+                                                                                
+Levi's has designated ride-sharing zones. Surge pricing is real, and wait times 
+can be long. Walk a few blocks away from the stadium before you request a ride; 
+                                                                                
+                                                                                
+                                                                                
+Levi's has designated ride-sharing zones. Surge pricing is real, and wait times 
+can be long. Walk a few blocks away from the stadium before you request a ride; 
+you might save some dough.                                                      
+                                                                                
+                                                                                
+                                                                                
+Surge pricing can jack up fares by 2x-5x, maybe even higher. Expect to wait 30+ 
+minutes for a ride near the stadium on game day. Those ride-sharing zones?      
+you might save some dough.                                                      
+                                                                                
+                                                                                
+                                                                                
+Surge pricing can jack up fares by 2x-5x, maybe even higher. Expect to wait 30+ 
+minutes for a ride near the stadium on game day. Those ride-sharing zones?      
+Usually a 10-15 minute walk from the entrance.                                  
+                                                                                
+                                                                                
+                                                                                
+## Shuttle Strategies: Free Rides and Smart Planning for SB60                   
+                                                                                
+                                                                                
+                                                                                
+Santa Clara runs free shuttles with routes, schedules, and pick-up spots.       
+Shuttles beat traffic and save you from parking fees. Check the city's website  
+Usually a 10-15 minute walk from the entrance.                                  
+                                                                                
+                                                                                
+                                                                                
+## Shuttle Strategies: Free Rides and Smart Planning for SB60                   
+                                                                                
+                                                                                
+                                                                                
+Santa Clara runs free shuttles with routes, schedules, and pick-up spots.       
+Shuttles beat traffic and save you from parking fees. Check the city's website  
+litellm.APIConnectionError: Error parsing chunk: Expecting property name 
+enclosed in double quotes: line 1 column 2 (char 1),
+Received chunk: {
+Traceback (most recent call last):
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/llms/vertex_ai/gemini/vertex_an
+d_google_ai_studio_gemini.py", line 2057, in __next__
+    return self._common_chunk_parsing_logic(chunk=chunk)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/llms/vertex_ai/gemini/vertex_an
+d_google_ai_studio_gemini.py", line 2038, in _common_chunk_parsing_logic
+    return self.handle_valid_json_chunk(chunk=chunk)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/llms/vertex_ai/gemini/vertex_an
+d_google_ai_studio_gemini.py", line 2001, in handle_valid_json_chunk
+    raise e
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/llms/vertex_ai/gemini/vertex_an
+d_google_ai_studio_gemini.py", line 1993, in handle_valid_json_chunk
+    json_chunk = json.loads(chunk)
+                 ^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/Cellar/python@3.11/3.11.14_2/Frameworks/Python.framework/Versions/3.
+11/lib/python3.11/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/Cellar/python@3.11/3.11.14_2/Frameworks/Python.framework/Versions/3.
+11/lib/python3.11/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/Cellar/python@3.11/3.11.14_2/Frameworks/Python.framework/Versions/3.
+11/lib/python3.11/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes:
+line 1 column 2 (char 1)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/litellm_core_utils/streaming_ha
+ndler.py", line 1531, in __next__
+    chunk = next(self.completion_stream)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/llms/vertex_ai/gemini/vertex_an
+d_google_ai_studio_gemini.py", line 2061, in __next__
+    raise RuntimeError(f"Error parsing chunk: {e},\nReceived chunk: {chunk}")
+RuntimeError: Error parsing chunk: Expecting property name enclosed in double 
+quotes: line 1 column 2 (char 1),
+Received chunk: {
+
+litellm.APIConnectionError: Error parsing chunk: Expecting property name 
+enclosed in double quotes: line 1 column 2 (char 1),
+Received chunk: {
+Traceback (most recent call last):
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/llms/vertex_ai/gemini/vertex_an
+d_google_ai_studio_gemini.py", line 2057, in __next__
+    return self._common_chunk_parsing_logic(chunk=chunk)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/llms/vertex_ai/gemini/vertex_an
+d_google_ai_studio_gemini.py", line 2038, in _common_chunk_parsing_logic
+    return self.handle_valid_json_chunk(chunk=chunk)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/llms/vertex_ai/gemini/vertex_an
+d_google_ai_studio_gemini.py", line 2001, in handle_valid_json_chunk
+    raise e
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/llms/vertex_ai/gemini/vertex_an
+d_google_ai_studio_gemini.py", line 1993, in handle_valid_json_chunk
+    json_chunk = json.loads(chunk)
+                 ^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/Cellar/python@3.11/3.11.14_2/Frameworks/Python.framework/Versions/3.
+11/lib/python3.11/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/Cellar/python@3.11/3.11.14_2/Frameworks/Python.framework/Versions/3.
+11/lib/python3.11/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/Cellar/python@3.11/3.11.14_2/Frameworks/Python.framework/Versions/3.
+11/lib/python3.11/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes:
+line 1 column 2 (char 1)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/litellm_core_utils/streaming_ha
+ndler.py", line 1531, in __next__
+    chunk = next(self.completion_stream)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/llms/vertex_ai/gemini/vertex_an
+d_google_ai_studio_gemini.py", line 2061, in __next__
+    raise RuntimeError(f"Error parsing chunk: {e},\nReceived chunk: {chunk}")
+RuntimeError: Error parsing chunk: Expecting property name enclosed in double 
+quotes: line 1 column 2 (char 1),
+Received chunk: {
+
+Retrying in 0.5 seconds...
+Retrying in 0.5 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Quota exceeded for 
+aiplatform.googleapis.com/global_generate_content_requests_per_minute_per_projec
+t_per_base_model with base model: gemini-experimental. Please submit a quota 
+increase request. 
+https://cloud.google.com/vertex-ai/docs/generative-ai/quotas-genai.",\n    
+"status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Quota exceeded for 
+aiplatform.googleapis.com/global_generate_content_requests_per_minute_per_projec
+t_per_base_model with base model: gemini-experimental. Please submit a quota 
+increase request. 
+https://cloud.google.com/vertex-ai/docs/generative-ai/quotas-genai.",\n    
+"status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 1.0 seconds...
+Retrying in 1.0 seconds...
+litellm.APIConnectionError: Error parsing chunk: Expecting property name 
+enclosed in double quotes: line 1 column 2 (char 1),
+Received chunk: {
+Traceback (most recent call last):
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/llms/vertex_ai/gemini/vertex_an
+d_google_ai_studio_gemini.py", line 2057, in __next__
+    return self._common_chunk_parsing_logic(chunk=chunk)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/llms/vertex_ai/gemini/vertex_an
+d_google_ai_studio_gemini.py", line 2038, in _common_chunk_parsing_logic
+    return self.handle_valid_json_chunk(chunk=chunk)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/llms/vertex_ai/gemini/vertex_an
+d_google_ai_studio_gemini.py", line 2001, in handle_valid_json_chunk
+    raise e
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/llms/vertex_ai/gemini/vertex_an
+d_google_ai_studio_gemini.py", line 1993, in handle_valid_json_chunk
+    json_chunk = json.loads(chunk)
+                 ^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/Cellar/python@3.11/3.11.14_2/Frameworks/Python.framework/Versions/3.
+11/lib/python3.11/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/Cellar/python@3.11/3.11.14_2/Frameworks/Python.framework/Versions/3.
+11/lib/python3.11/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/Cellar/python@3.11/3.11.14_2/Frameworks/Python.framework/Versions/3.
+11/lib/python3.11/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes:
+line 1 column 2 (char 1)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/litellm_core_utils/streaming_ha
+ndler.py", line 1531, in __next__
+    chunk = next(self.completion_stream)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/llms/vertex_ai/gemini/vertex_an
+d_google_ai_studio_gemini.py", line 2061, in __next__
+    raise RuntimeError(f"Error parsing chunk: {e},\nReceived chunk: {chunk}")
+RuntimeError: Error parsing chunk: Expecting property name enclosed in double 
+quotes: line 1 column 2 (char 1),
+Received chunk: {
+
+litellm.APIConnectionError: Error parsing chunk: Expecting property name 
+enclosed in double quotes: line 1 column 2 (char 1),
+Received chunk: {
+Traceback (most recent call last):
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/llms/vertex_ai/gemini/vertex_an
+d_google_ai_studio_gemini.py", line 2057, in __next__
+    return self._common_chunk_parsing_logic(chunk=chunk)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/llms/vertex_ai/gemini/vertex_an
+d_google_ai_studio_gemini.py", line 2038, in _common_chunk_parsing_logic
+    return self.handle_valid_json_chunk(chunk=chunk)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/llms/vertex_ai/gemini/vertex_an
+d_google_ai_studio_gemini.py", line 2001, in handle_valid_json_chunk
+    raise e
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/llms/vertex_ai/gemini/vertex_an
+d_google_ai_studio_gemini.py", line 1993, in handle_valid_json_chunk
+    json_chunk = json.loads(chunk)
+                 ^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/Cellar/python@3.11/3.11.14_2/Frameworks/Python.framework/Versions/3.
+11/lib/python3.11/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/Cellar/python@3.11/3.11.14_2/Frameworks/Python.framework/Versions/3.
+11/lib/python3.11/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/Cellar/python@3.11/3.11.14_2/Frameworks/Python.framework/Versions/3.
+11/lib/python3.11/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes:
+line 1 column 2 (char 1)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/litellm_core_utils/streaming_ha
+ndler.py", line 1531, in __next__
+    chunk = next(self.completion_stream)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/llms/vertex_ai/gemini/vertex_an
+d_google_ai_studio_gemini.py", line 2061, in __next__
+    raise RuntimeError(f"Error parsing chunk: {e},\nReceived chunk: {chunk}")
+RuntimeError: Error parsing chunk: Expecting property name enclosed in double 
+quotes: line 1 column 2 (char 1),
+Received chunk: {
+
+Retrying in 2.0 seconds...
+Retrying in 2.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Quota exceeded for 
+aiplatform.googleapis.com/global_generate_content_requests_per_minute_per_projec
+t_per_base_model with base model: gemini-experimental. Please submit a quota 
+increase request. 
+https://cloud.google.com/vertex-ai/docs/generative-ai/quotas-genai.",\n    
+"status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Quota exceeded for 
+aiplatform.googleapis.com/global_generate_content_requests_per_minute_per_projec
+t_per_base_model with base model: gemini-experimental. Please submit a quota 
+increase request. 
+https://cloud.google.com/vertex-ai/docs/generative-ai/quotas-genai.",\n    
+"status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 4.0 seconds...
+Retrying in 4.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Quota exceeded for 
+aiplatform.googleapis.com/global_generate_content_requests_per_minute_per_projec
+t_per_base_model with base model: gemini-experimental. Please submit a quota 
+increase request. 
+https://cloud.google.com/vertex-ai/docs/generative-ai/quotas-genai.",\n    
+"status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Quota exceeded for 
+aiplatform.googleapis.com/global_generate_content_requests_per_minute_per_projec
+t_per_base_model with base model: gemini-experimental. Please submit a quota 
+increase request. 
+https://cloud.google.com/vertex-ai/docs/generative-ai/quotas-genai.",\n    
+"status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 8.0 seconds...
+Retrying in 8.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Quota exceeded for 
+aiplatform.googleapis.com/global_generate_content_requests_per_minute_per_projec
+t_per_base_model with base model: gemini-experimental. Please submit a quota 
+increase request. 
+https://cloud.google.com/vertex-ai/docs/generative-ai/quotas-genai.",\n    
+"status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Quota exceeded for 
+aiplatform.googleapis.com/global_generate_content_requests_per_minute_per_projec
+t_per_base_model with base model: gemini-experimental. Please submit a quota 
+increase request. 
+https://cloud.google.com/vertex-ai/docs/generative-ai/quotas-genai.",\n    
+"status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 16.0 seconds...
+Retrying in 16.0 seconds...
+litellm.APIConnectionError: Error parsing chunk: Expecting property name 
+enclosed in double quotes: line 1 column 2 (char 1),
+Received chunk: {
+Traceback (most recent call last):
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/llms/vertex_ai/gemini/vertex_an
+d_google_ai_studio_gemini.py", line 2057, in __next__
+    return self._common_chunk_parsing_logic(chunk=chunk)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/llms/vertex_ai/gemini/vertex_an
+d_google_ai_studio_gemini.py", line 2038, in _common_chunk_parsing_logic
+    return self.handle_valid_json_chunk(chunk=chunk)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/llms/vertex_ai/gemini/vertex_an
+d_google_ai_studio_gemini.py", line 2001, in handle_valid_json_chunk
+    raise e
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/llms/vertex_ai/gemini/vertex_an
+d_google_ai_studio_gemini.py", line 1993, in handle_valid_json_chunk
+    json_chunk = json.loads(chunk)
+                 ^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/Cellar/python@3.11/3.11.14_2/Frameworks/Python.framework/Versions/3.
+11/lib/python3.11/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/Cellar/python@3.11/3.11.14_2/Frameworks/Python.framework/Versions/3.
+11/lib/python3.11/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/Cellar/python@3.11/3.11.14_2/Frameworks/Python.framework/Versions/3.
+11/lib/python3.11/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes:
+line 1 column 2 (char 1)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/litellm_core_utils/streaming_ha
+ndler.py", line 1531, in __next__
+    chunk = next(self.completion_stream)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/llms/vertex_ai/gemini/vertex_an
+d_google_ai_studio_gemini.py", line 2061, in __next__
+    raise RuntimeError(f"Error parsing chunk: {e},\nReceived chunk: {chunk}")
+RuntimeError: Error parsing chunk: Expecting property name enclosed in double 
+quotes: line 1 column 2 (char 1),
+Received chunk: {
+
+litellm.APIConnectionError: Error parsing chunk: Expecting property name 
+enclosed in double quotes: line 1 column 2 (char 1),
+Received chunk: {
+Traceback (most recent call last):
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/llms/vertex_ai/gemini/vertex_an
+d_google_ai_studio_gemini.py", line 2057, in __next__
+    return self._common_chunk_parsing_logic(chunk=chunk)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/llms/vertex_ai/gemini/vertex_an
+d_google_ai_studio_gemini.py", line 2038, in _common_chunk_parsing_logic
+    return self.handle_valid_json_chunk(chunk=chunk)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/llms/vertex_ai/gemini/vertex_an
+d_google_ai_studio_gemini.py", line 2001, in handle_valid_json_chunk
+    raise e
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/llms/vertex_ai/gemini/vertex_an
+d_google_ai_studio_gemini.py", line 1993, in handle_valid_json_chunk
+    json_chunk = json.loads(chunk)
+                 ^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/Cellar/python@3.11/3.11.14_2/Frameworks/Python.framework/Versions/3.
+11/lib/python3.11/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/Cellar/python@3.11/3.11.14_2/Frameworks/Python.framework/Versions/3.
+11/lib/python3.11/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/Cellar/python@3.11/3.11.14_2/Frameworks/Python.framework/Versions/3.
+11/lib/python3.11/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+               ^^^^^^^^^^^^^^^^^^^^^^
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes:
+line 1 column 2 (char 1)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/litellm_core_utils/streaming_ha
+ndler.py", line 1531, in __next__
+    chunk = next(self.completion_stream)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File 
+"/usr/local/lib/python3.11/site-packages/litellm/llms/vertex_ai/gemini/vertex_an
+d_google_ai_studio_gemini.py", line 2061, in __next__
+    raise RuntimeError(f"Error parsing chunk: {e},\nReceived chunk: {chunk}")
+RuntimeError: Error parsing chunk: Expecting property name enclosed in double 
+quotes: line 1 column 2 (char 1),
+Received chunk: {
+
+Retrying in 32.0 seconds...
+Retrying in 32.0 seconds...
+for 3 hours before the game and 3 hours after.                                  
+                                                                                
+                                                                                
+                                                                                
+for 3 hours before the game and 3 hours after.                                  
+                                                                                
+                                                                                
+                                                                                
+Finally, if you want to get some air, think about biking or walking.            
+                                                                                
+                                                                                
+                                                                                
+If you want to skip the mess and soak up the Super Bowl vibe, bike or walk.     
+There are bike routes, sidewalks, and bike parking near Levi's. Be smart – wear 
+Finally, if you want to get some air, think about biking or walking.            
+                                                                                
+                                                                                
+                                                                                
+If you want to skip the mess and soak up the Super Bowl vibe, bike or walk.     
+There are bike routes, sidewalks, and bike parking near Levi's. Be smart – wear 
+bright clothes and watch the traffic.                                           
+                                                                                
+bright clothes and watch the traffic.                                           
+                                                                                
+                                                                                
+                                                                                
+Bike parking is first-come, first-served. Walking from downtown Santa Clara     
+takes about 45-60 minutes. The city adds lights and traffic control to make it  
+safer.                                                                          
+                                                                                
+                                                                                
+                                                                                
+Bike parking is first-come, first-served. Walking from downtown Santa Clara     
+takes about 45-60 minutes. The city adds lights and traffic control to make it  
+safer.                                                                          
+                                                                                
+
+
+Tokens: 14k sent, 827 received. Cost: $0.0025 message, $0.0025 session.
+Tokens: 14k sent, 827 received. Cost: $0.0025 message, $0.0025 session.
+
+
+.ralph/drafts/draft-20260130-1445-local-topic.md
+.ralph/drafts/draft-20260130-1445-local-topic.md
+Applied edit to .ralph/drafts/draft-20260130-1445-local-topic.md
+Applied edit to .ralph/drafts/draft-20260130-1445-local-topic.md
+State updated: 5 drafts
+State updated: 5 drafts
+
+
