@@ -42,16 +42,22 @@
       "author": "analyst",
       "date": "2026-01-30T06:00:00+00:00",
       "url": "/2026/01/30/06-00-mvp-shift.html"
+    },
+    {
+      "title": "Unseen Gears: The High-Stakes Logistics Fueling Super Bowl 60",
+      "author": "insider",
+      "date": "2026-01-30T01:21:00+00:00",
+      "url": "/2026/01/30/01-21-draft-20260130-manual.html"
     }
   ],
   "stats": {
-    "totalPosts": 4,
+    "totalPosts": 5,
     "postsByPersona": {
-      "insider": 2,
+      "insider": 3,
       "analyst": 2,
       "local": 0
     },
-    "lastPublish": "2026-01-30T06:00:00+00:00",
+    "lastPublish": "2026-01-30T01:21:00+00:00",
     "streakDays": 1
   }
 }
