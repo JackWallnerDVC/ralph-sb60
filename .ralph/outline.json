@@ -5,4 +5,82 @@
       "title": "Decoding Your Transportation Options: A Super Bowl LX Survival Guide",
       "key_points": [
         "Explore the diverse transportation methods: VTA Light Rail, Caltrain, ride-sharing (Uber/Lyft), free shuttles, biking, and walking.",
-        "Weigh the pros and cons of each
+        "Weigh the pros and cons of each option, considering cost, convenience, travel time, and reliability.",
+        "Understand designated pick-up/drop-off locations for ride-sharing services near Levi's Stadium.",
+        "Evaluate parking options, associated costs, and restrictions around the stadium.",
+        "Familiarize yourself with public transportation routes, schedules, and fares on Super Bowl Sunday."
+      ],
+      "stats_facts": [
+        "The VTA Light Rail carries an average of X passengers per hour on game days.",
+        "Traffic congestion around Levi's Stadium is expected to add Y minutes to travel times.",
+        "Ride-sharing services will likely implement surge pricing, increasing costs by Z%."
+      ],
+      "transition": "Now that we've laid out the transportation landscape, let's dive deeper into the specifics of public transit options."
+    },
+    {
+      "title": "Public Transit: Your Ticket to the Game (Without the Gridlock)",
+      "key_points": [
+        "Utilize the VTA Light Rail for direct access to Levi's Stadium.",
+        "Consider Caltrain for connections from San Francisco and the Peninsula, transferring to VTA or shuttles.",
+        "Check schedules and plan for potential delays on Super Bowl Sunday.",
+        "Explore free shuttle services offered by the City of Santa Clara.",
+        "Download the VTA app for real-time updates and fare payment."
+      ],
+      "stats_facts": [
+        "VTA will be running extra trains on Super Bowl Sunday to accommodate increased demand.",
+        "Caltrain operates on a modified weekend schedule; plan your trip accordingly.",
+        "The VTA app provides real-time tracking and delay notifications."
+      ],
+      "transition": "But what if public transit isn't your thing? Let's explore the world of ride-sharing and the potential pitfalls of surge pricing."
+    },
+    {
+      "title": "Ride-Sharing Realities: Surge Pricing and Strategic Pick-Up Spots",
+      "key_points": [
+        "Anticipate surge pricing on Uber and Lyft due to high demand.",
+        "Locate designated pick-up/drop-off zones to avoid confusion and delays.",
+        "Consider pre-booking rides to secure transportation in advance.",
+        "Factor in extra travel time due to traffic congestion.",
+        "Carpool with friends to split costs and reduce the number of vehicles."
+      ],
+      "stats_facts": [
+        "UberX fares from Union Square to Great America Parkway are projected to hit $220-$280 one way on Super Bowl Sunday.",
+        "Ride-sharing wait times are expected to increase by X% during peak hours.",
+        "Designated ride-sharing zones will be located Y blocks away from the stadium entrance."
+      ],
+      "transition": "If you're looking for alternatives to driving and ride-sharing, there are still a couple of options to consider."
+    },
+    {
+      "title": "Alternative Routes: Biking, Walking, and the Secret Shuttle Network",
+      "key_points": [
+        "Explore biking as a viable option if you're close enough to the stadium.",
+        "Consider walking if you're staying nearby to avoid parking hassles.",
+        "Research free shuttle services offered by the City of Santa Clara.",
+        "Identify safe bike routes and secure parking locations.",
+        "Wear comfortable shoes and be prepared for potential weather conditions."
+      ],
+      "stats_facts": [
+        "Santa Clara has X miles of bike lanes and trails.",
+        "The average walking time from nearby hotels to Levi's Stadium is Y minutes.",
+        "Free shuttle services will operate every Z minutes from designated locations."
+      ],
+      "transition": "Finally, let's address some common misconceptions and counter-arguments about Super Bowl LX transportation."
+    },
+    {
+      "title": "Busting the Myths: Addressing Common Transportation Concerns",
+      "key_points": [
+        "Driving is not the most convenient option due to traffic congestion.",
+        "Public transportation is reliable and safe with proper planning.",
+        "Ride-sharing services can be affordable if you plan strategically.",
+        "Parking is limited and expensive near Levi's Stadium.",
+        "Walking or biking to Levi's Stadium is feasible for those staying nearby."
+      ],
+      "stats_facts": [
+        "Traffic congestion around Levi's Stadium is expected to add Y minutes to travel times.",
+        "The VTA has implemented enhanced security measures to ensure passenger safety.",
+        "Pre-booking rideshares can help mitigate surge pricing.",
+        "Parking near Levi's Stadium can cost upwards of $X.",
+        "Walking from the furthest hotels is approximately Y miles."
+      ]
+    }
+  ]
+}
