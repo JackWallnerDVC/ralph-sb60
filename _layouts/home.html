@@ -636,7 +636,7 @@
           </h2>
           <p class="featured-excerpt">{{ featured_post.excerpt | strip_html | truncatewords: 35 }}</p>
           <div class="featured-meta">
-            {% assign author = site.data.personas | where: "id", featured_post.author | first %}
+            {% assign author = site.data.personas | where: "id", featured_post.persona | first %}
             <span class="author-badge">
               <span class="author-avatar"><img src="{{ author.avatar | relative_url }}" alt="{{ author.name }}"></span>
               <span class="author-name">{{ author.name }}</span>
@@ -673,7 +673,7 @@
           </div>
           <div class="article-content">
             <div class="article-meta">
-              {% assign author = site.data.personas | where: "id", post.author | first %}
+              {% assign author = site.data.personas | where: "id", post.persona | first %}
               <span class="article-author">
                 <img src="{{ author.avatar | relative_url }}" alt="{{ author.name }}" style="width: 20px; height: 20px; border-radius: 50%; object-fit: cover;">
                 {{ author.name }}

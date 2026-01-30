@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-{% assign author = site.data.personas | where: "slug", page.author | first %}
+{% assign author = site.data.personas | where: "id", page.persona | first %}
 
 <article class="post">
   <header class="post-header">

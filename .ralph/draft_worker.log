@@ -50782,3 +50782,51 @@ Tokens: 15k sent, 1.0k received. Cost: $0.0029 message, $0.0029 session.
 Tokens: 15k sent, 1.0k received. Cost: $0.0029 message, $0.0029 session.
 Applied edit to .ralph/outline.json
 Applied edit to .ralph/outline.json
+=== Ralph Draft Worker (Multi-AI) ===
+=== Ralph Draft Worker (Multi-AI) ===
+Timestamp: 2026-01-30T08:30:00 PST
+Timestamp: 2026-01-30T08:30:00 PST
+Drafts in queue: 2/5
+Drafts in queue: 2/5
+📝 Generating draft 3/5 as analyst
+📝 Generating draft 3/5 as analyst
+
+
+🧠 AI Call 1/3: Deep research...
+🧠 AI Call 1/3: Deep research...
+Warning: Input is not a terminal (fd=0).
+Warning: Input is not a terminal (fd=0).
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────────────
+Aider v0.86.1
+Aider v0.86.1
+Model: vertex_ai/gemini-3-pro-preview with whole edit format
+Model: vertex_ai/gemini-3-pro-preview with whole edit format
+Git repo: .git with 236 files
+Git repo: .git with 236 files
+Repo-map: using 4096 tokens, auto refresh
+Repo-map: using 4096 tokens, auto refresh
+Added .ralph/angle_analyst.json to the chat.
+Added .ralph/angle_analyst.json to the chat.
+Added .ralph/research_summary.json to the chat.
+Added .ralph/research_summary.json to the chat.
+Added .ralph/trends.json to the chat.
+Added .ralph/trends.json to the chat.
+Added _posts/2026-01-30-15-51-topic.md to the chat.
+Added _posts/2026-01-30-15-51-topic.md to the chat.
+Added _posts/2026-01-30-16-04-topic.md to the chat.
+Added _posts/2026-01-30-16-04-topic.md to the chat.
+Added _posts/2026-01-30-16-15-levis-microclimate.md to the chat.
+Added _posts/2026-01-30-16-15-levis-microclimate.md to the chat.
+Added _posts/2026-01-30-16-17-redzone-math.md to the chat.
+Added _posts/2026-01-30-16-17-redzone-math.md to the chat.
+Added _posts/2026-01-30-16-30-resident-lockdown.md to the chat.
+Added _posts/2026-01-30-16-30-resident-lockdown.md to the chat.
+Added personas.json to the chat.
+Added personas.json to the chat.
+
+
+
+
+.ralph/deep_research.json
+.ralph/deep_research.json

@@ -56374,149 +56374,151 @@ Added _posts/2026-01-30-16-17-redzone-math.md to the chat.
 Added _posts/2026-01-30-16-30-resident-lockdown.md to the chat.
 Added personas.json to the chat.
 
-                                   
-3.  **The Market Hall:** If you are with a group that can't agree on food, park 
-here. You can grab beers from the Market Bar and food from different stalls. The
-acoustics in the main hall are loud—like, jet engine loud—so be prepared to     
-shout.                                                                          
-                                                                                
-                                                                                
-                                                                                
-## The Logistics                                                                
-                                                                                
-The VTA Green Line drops you at the St. James station, a two-block walk. If you 
-are staying in SF, take Caltrain to Diridon Station and walk over (about 10     
-minutes).                                                                       
-                                                                                
-                                                                                
-                                                                                
-Do not try to Uber here after 1:00 PM. The surge pricing will melt your credit  
-card, and the street closures around the square make drop-offs a nightmare.     
-                                                                                
-                                                                                
-                                                                                
-Get there early. I mean breakfast early. By kickoff, the Fire Marshal usually   
-shuts down entry to the main square, and you will be stuck listening to the     
-cheers from the sidewalk.                                                       
-                                                                                
-
-.ralph/state.json                                                               
-
-                                                                                
-@@ -1,5 +1,7 @@                                                                 
- {                                                                              
-   "mode": "job_based",                                                         
--  "lastActivity": "2026-01-30T16:09:36+0000",                                  
--  "draftsInQueue": 1,                                                          
-+  "lastActivity": "2026-01-30T16:45:00+0000",                                  
-+  "draftsInQueue": 2,                                                          
-   "drafts": [                                                                  
--    "draft-20260130-1630-local-resident-lockdown.md"                           
-+    "draft-20260130-1630-local-resident-lockdown.md",                          
-+    "draft-20260130-1645-local-san-pedro-square.md"                            
-   ],                                                                           
-   "lastPublish": "2026-01-30T16:04:25.803780+00:00",                           
-   "targetQueueSize": 5,                                                        
-   "currentPersona": "local",                                                   
-   "researchTopics": [                                                          
-@@ -31,5 +32,6 @@                                                               
-       "tmz.com"                                                                
-   "architecture": "distributed",                                               
-   "lastTransition": "2026-01-30T00:57:15.103424Z",                             
-   "apiCooldownSeconds": 180,                                                   
-   "targetDrafts": 5,                                                           
--  "lastDraftAt": "2026-01-30T19:00:00+0000",                                   
-+  "lastDraftAt": "2026-01-30T16:45:00+0000",                                   
-   "lastResearch": "2026-01-30T01:00:04.204689Z",                               
-   "trendsAvailable": true                                                      
--}+}                                                                            
-                                                                                
-
-DRAFT QUEUED: draft-20260130-1645-local-san-pedro-square.md                     
-
-Tokens: 9.1k sent, 1.2k received. Cost: $0.03 message, $0.03 session.
-
-.ralph/drafts/draft-20260130-1630-local-resident-lockdown.md
-I will publish the draft draft-20260130-1630-local-resident-lockdown.md to the  
-_posts directory and update the state to reflect the publication.               
-
-_posts/2026-01-30-16-30-resident-lockdown.md                                    
+.ralph/drafts/draft-20260130-1745-local-san-pedro-hub.md                        
 
                                                                                 
 ---                                                                             
                                                                                 
 layout: post                                                                    
                                                                                 
-title: "The 95054 Lockdown: Surviving the Resident Checkpoints"                 
+title: "San Pedro Square: The Unauthorized Super Bowl Tailgate"                 
                                                                                 
 author: Tony Moretti                                                            
                                                                                 
-date: 2026-01-30 16:30:00 +0000                                                 
+date: 2026-01-30 17:45:00 +0000                                                 
                                                                                 
-tags: [local, traffic, logistics, residents, 95054]                             
+tags: [local, san jose, food, nightlife, logistics]                             
                                                                                 
-excerpt: "Living near Levi's Stadium? During Super Bowl week, your driver's     
-license isn't enough to get you home. Here is the breakdown of the Vehicle      
-Access Pass system."                                                            
+excerpt: "Priced out of the Green Lot? Downtown San Jose is the real pre-game   
+headquarters. Here is how to hack the San Pedro Square to VTA pipeline."        
                                                                                 
 persona: local                                                                  
                                                                                 
-status: published                                                               
+status: draft                                                                   
                                                                                 
 ---                                                                             
                                                                                 
                                                                                 
                                                                                 
-Hey neighbors. If you live in the 95054 zip code, specifically north of Highway 
-101 and west of San Tomas Aquino Creek, your neighborhood is about to become a  
-gated community enforced by the SCPD and the National Guard.                    
+If you are looking for the "official" tailgate experience in the Green Lot, I   
+hope you have $800 and a parking pass that was issued three months ago. For     
+everyone else, the party is in Downtown San Jose.                               
                                                                                 
                                                                                 
                                                                                 
-The NFL calls it the "Traffic Management Plan." Locals call it the Lockdown.    
+Specifically, San Pedro Square.                                                 
                                                                                 
                                                                                 
                                                                                 
-## The Vehicle Access Pass (VAP)                                                
+## The Hub                                                                      
                                                                                 
-Starting Thursday at 6:00 AM, you cannot enter the "Soft Perimeter" without a   
-physical VAP hangtag. Showing your ID with a local address will not work. The   
-checkpoints at Lafayette Street and Agnew Road are staffed by private security  
-contractors who have zero discretion. If you don't have the hangtag, you are    
-parking in Sunnyvale and walking.                                               
+San Pedro Square Market is the de facto headquarters for locals who didn't      
+mortgage their house for a parking spot. It’s an open-air food hall with three  
+bars and about 15 food vendors.                                                 
                                                                                 
                                                                                 
                                                                                 
-## The Hard vs. Soft Zones                                                      
-                                                                                
-You need to know which zone your driveway falls into:                           
-                                                                                
-                                                                                
-                                                                                
-*   **Soft Zone:** Residents with VAPs can enter. This covers the residential   
-blocks north of Tasman.                                                         
-                                                                                
-*   **Hard Zone:** No vehicles allowed, period. This includes the entirety of   
-Tasman Drive from Convention Center to Great America Parkway. If your apartment 
-garage exits onto Tasman, you are trapped. You need to move your car to a       
-friend's place outside the zone by Friday night or you aren't moving it until   
-Monday morning.                                                                 
+Here is why it works for SB60: It is exactly 6 miles from Levi's Stadium, and it
+sits directly on the VTA Light Rail line.                                       
                                                                                 
                                                                                 
                                                                                 
-## The Delivery Blackout                                                        
+## The Timeline                                                                 
                                                                                 
-This is the part nobody warns you about. UberEats, DoorDash, and Amazon drivers 
-do not have VAPs. They will be turned away at the perimeter. If you order food  
-on Super Bowl Sunday, you are walking a mile to the checkpoint to pick it up.   
-Stock your fridge on Wednesday. By Friday, the grocery stores inside the        
-perimeter (like the Target on Coleman) get stripped bare by the influx of       
-security personnel and production crews.                                        
+Do not treat this like a normal Sunday.                                         
+                                                                                
+*   **10:00 AM:** Arrival. The main hall tables will be gone by 10:30 AM.       
+                                                                                
+*   **11:00 AM:** The fire marshal usually starts counting heads at the         
+entrances. If you are late, you are queuing on the sidewalk.                    
+                                                                                
+*   **1:30 PM:** This is your hard out. You need to walk two blocks to the **St.
+James Station** to catch the VTA Green Line (Northbound towards Mountain View). 
                                                                                 
                                                                                 
                                                                                 
-## The Guest Towing Trap                                                        
+## The VTA Connection                                                           
                                                                                 
+This is the critical link. The VTA Light Rail drops you off at the Great America
+station, right in front of the stadium.                                         
+                                                                                
+                                                                                
+                                                                                
+The trains will be running on a "Super Bowl Special" schedule, meaning they run 
+every 15 minutes. However, the cars fill up at the downtown stations. If you try
+to board at St. James at 2:30 PM, you might not squeeze on. Leaving at 1:30 PM  
+puts you at the stadium gates by 2:15 PM, giving you time to clear security     
+before the pre-game flyover.                                                    
+                                                                                
+                                                                                
+                                                                                
+## The "Old Wagon" Audible                                                      
+                                                                                
+If San Pedro Square Market is at capacity, walk 50 feet down the street to **The
+Old Wagon Saloon**. They have a back patio that fits about 200 people. It’s less
+polished, the drinks are stronger, and it’s where the South Bay locals actually 
+hang out while the tourists fight for tables at the Market.                     
+                                                                                
+                                                                                
+                                                                                
+Don't drive to Santa Clara unless you have a pass. Park in the San Pedro garage 
+(it's validated if you buy a drink), hit the Market, and ride the rail.         
+                                                                                
+
+.ralph/state.json                                                               
+
+                                                                                
+@@ -1,6 +1,7 @@                                                                 
+ {                                                                              
+   "mode": "job_based",                                                         
+-  "lastActivity": "2026-01-30T16:29:18+0000",                                  
+-  "draftsInQueue": 2,                                                          
++  "lastActivity": "2026-01-30T17:45:00+0000",                                  
++  "draftsInQueue": 4,                                                          
+   "drafts": [                                                                  
+     ".ralph/drafts/draft-20260130-1645-local-creek-trail.md",                  
+     ".ralph/drafts/draft-20260130-1700-insider-rf-coordination.md",            
+-    ".ralph/drafts/draft-20260130-1715-analyst-over-under-trap.md"             
++    ".ralph/drafts/draft-20260130-1715-analyst-over-under-trap.md",            
++    ".ralph/drafts/draft-20260130-1745-local-san-pedro-hub.md"                 
+   ],                                                                           
+   "lastPublish": "2026-01-30T16:17:36.481266+00:00",                           
+   "targetQueueSize": 5,                                                        
+-  "currentPersona": "local",                                                   
++  "currentPersona": "insider",                                                 
+   "researchTopics": [                                                          
+     "SB60 MVP odds and predictions",                                           
+     "X/Twitter trending SB60 topics",                                          
+     "Betting line movements",                                                  
+     "Player news and injuries",                                                
+@@ -20,5 +21,6 @@                                                               
+   "intelligence": {                                                            
+   "architecture": "distributed",                                               
+   "lastTransition": "2026-01-30T00:57:15.103424Z",                             
+   "apiCooldownSeconds": 180,                                                   
+   "targetDrafts": 5,                                                           
+-  "lastDraftAt": "2026-01-30T17:15:00.000000Z",                                
++  "lastDraftAt": "2026-01-30T17:45:00.000000Z",                                
+   "lastResearch": "2026-01-30T01:00:04.204689Z",                               
+   "trendsAvailable": true                                                      
+-}+}                                                                            
+                                                                                
+
+DRAFT QUEUED: draft-20260130-1745-local-san-pedro-hub.md                        
+
+Tokens: 7.6k sent, 1.1k received. Cost: $0.03 message, $0.03 session.
+
+.ralph/drafts/draft-20260130-1645-local-creek-trail.md
+
+.ralph/drafts/draft-20260130-1715-analyst-over-under-trap.md
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 0.2 seconds...
+                                       
 Do not let friends park in your complex's guest spots this weekend. Tow trucks  
 are staged at the Mercado shopping center, and they are aggressive. Property    
 managers have authorized immediate towing for vehicles without resident stickers
@@ -58028,3 +58030,147 @@ Added _posts/2026-01-30-16-17-redzone-math.md to the chat.
 Added _posts/2026-01-30-16-30-resident-lockdown.md to the chat.
 Added personas.json to the chat.
 
+.ralph/drafts/draft-20260130-1745-local-san-pedro-hub.md                        
+
+                                                                                
+---                                                                             
+                                                                                
+layout: post                                                                    
+                                                                                
+title: "San Pedro Square: The Unauthorized Super Bowl Tailgate"                 
+                                                                                
+author: Tony Moretti                                                            
+                                                                                
+date: 2026-01-30 17:45:00 +0000                                                 
+                                                                                
+tags: [local, san jose, food, nightlife, logistics]                             
+                                                                                
+excerpt: "Priced out of the Green Lot? Downtown San Jose is the real pre-game   
+headquarters. Here is how to hack the San Pedro Square to VTA pipeline."        
+                                                                                
+persona: local                                                                  
+                                                                                
+status: draft                                                                   
+                                                                                
+---                                                                             
+                                                                                
+                                                                                
+                                                                                
+If you are looking for the "official" tailgate experience in the Green Lot, I   
+hope you have $800 and a parking pass that was issued three months ago. For     
+everyone else, the party is in Downtown San Jose.                               
+                                                                                
+                                                                                
+                                                                                
+Specifically, San Pedro Square.                                                 
+                                                                                
+                                                                                
+                                                                                
+## The Hub                                                                      
+                                                                                
+San Pedro Square Market is the de facto headquarters for locals who didn't      
+mortgage their house for a parking spot. It’s an open-air food hall with three  
+bars and about 15 food vendors.                                                 
+                                                                                
+                                                                                
+                                                                                
+Here is why it works for SB60: It is exactly 6 miles from Levi's Stadium, and it
+sits directly on the VTA Light Rail line.                                       
+                                                                                
+                                                                                
+                                                                                
+## The Timeline                                                                 
+                                                                                
+Do not treat this like a normal Sunday.                                         
+                                                                                
+*   **10:00 AM:** Arrival. The main hall tables will be gone by 10:30 AM.       
+                                                                                
+*   **11:00 AM:** The fire marshal usually starts counting heads at the         
+entrances. If you are late, you are queuing on the sidewalk.                    
+                                                                                
+*   **1:30 PM:** This is your hard out. You need to walk two blocks to the **St.
+James Station** to catch the VTA Green Line (Northbound towards Mountain View). 
+                                                                                
+                                                                                
+                                                                                
+## The VTA Connection                                                           
+                                                                                
+This is the critical link. The VTA Light Rail drops you off at the Great America
+station, right in front of the stadium.                                         
+                                                                                
+                                                                                
+                                                                                
+The trains will be running on a "Super Bowl Special" schedule, meaning they run 
+every 15 minutes. However, the cars fill up at the downtown stations. If you try
+to board at St. James at 2:30 PM, you might not squeeze on. Leaving at 1:30 PM  
+puts you at the stadium gates by 2:15 PM, giving you time to clear security     
+before the pre-game flyover.                                                    
+                                                                                
+                                                                                
+                                                                                
+## The "Old Wagon" Audible                                                      
+                                                                                
+If San Pedro Square Market is at capacity, walk 50 feet down the street to **The
+Old Wagon Saloon**. They have a back patio that fits about 200 people. It’s less
+polished, the drinks are stronger, and it’s where the South Bay locals actually 
+hang out while the tourists fight for tables at the Market.                     
+                                                                                
+                                                                                
+                                                                                
+Don't drive to Santa Clara unless you have a pass. Park in the San Pedro garage 
+(it's validated if you buy a drink), hit the Market, and ride the rail.         
+                                                                                
+
+.ralph/state.json                                                               
+
+                                                                                
+@@ -1,6 +1,7 @@                                                                 
+ {                                                                              
+   "mode": "job_based",                                                         
+-  "lastActivity": "2026-01-30T16:29:18+0000",                                  
+-  "draftsInQueue": 2,                                                          
++  "lastActivity": "2026-01-30T17:45:00+0000",                                  
++  "draftsInQueue": 4,                                                          
+   "drafts": [                                                                  
+     ".ralph/drafts/draft-20260130-1645-local-creek-trail.md",                  
+     ".ralph/drafts/draft-20260130-1700-insider-rf-coordination.md",            
+-    ".ralph/drafts/draft-20260130-1715-analyst-over-under-trap.md"             
++    ".ralph/drafts/draft-20260130-1715-analyst-over-under-trap.md",            
++    ".ralph/drafts/draft-20260130-1745-local-san-pedro-hub.md"                 
+   ],                                                                           
+   "lastPublish": "2026-01-30T16:17:36.481266+00:00",                           
+   "targetQueueSize": 5,                                                        
+-  "currentPersona": "local",                                                   
++  "currentPersona": "insider",                                                 
+   "researchTopics": [                                                          
+     "SB60 MVP odds and predictions",                                           
+     "X/Twitter trending SB60 topics",                                          
+     "Betting line movements",                                                  
+     "Player news and injuries",                                                
+@@ -20,5 +21,6 @@                                                               
+   "intelligence": {                                                            
+   "architecture": "distributed",                                               
+   "lastTransition": "2026-01-30T00:57:15.103424Z",                             
+   "apiCooldownSeconds": 180,                                                   
+   "targetDrafts": 5,                                                           
+-  "lastDraftAt": "2026-01-30T17:15:00.000000Z",                                
++  "lastDraftAt": "2026-01-30T17:45:00.000000Z",                                
+   "lastResearch": "2026-01-30T01:00:04.204689Z",                               
+   "trendsAvailable": true                                                      
+-}+}                                                                            
+                                                                                
+
+DRAFT QUEUED: draft-20260130-1745-local-san-pedro-hub.md                        
+
+Tokens: 7.6k sent, 1.1k received. Cost: $0.03 message, $0.03 session.
+
+.ralph/drafts/draft-20260130-1645-local-creek-trail.md
+
+.ralph/drafts/draft-20260130-1715-analyst-over-under-trap.md
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 0.2 seconds...

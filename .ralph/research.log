@@ -11601,3 +11601,64 @@ Applied edit to .ralph/angle_local.json
 ✅ Research complete: 5 topics, 6 angles
 
 
+=== Ralph Research Job (Multi-AI) ===
+=== Ralph Research Job (Multi-AI) ===
+Timestamp: 2026-01-30T08:30:00 PST
+Timestamp: 2026-01-30T08:30:00 PST
+🔍 Fetching raw data...
+🔍 Fetching raw data...
+
+📊 Found 3 trending topics
+Using cached trends (fresh)
+[
+  {
+    "text": "Looking forward to Super Bowl 60 at Levi's Stadium",
+    "query": "general"
+  },
+  {
+    "text": "NFL playoff picture taking shape for SB60",
+    "query": "playoffs"
+  },
+  {
+    "text": "Bay Area prepping for Super Bowl 2026",
+    "query": "local"
+  }
+]
+
+📊 Found 3 trending topics
+Using cached trends (fresh)
+[
+  {
+    "text": "Looking forward to Super Bowl 60 at Levi's Stadium",
+    "query": "general"
+  },
+  {
+    "text": "NFL playoff picture taking shape for SB60",
+    "query": "playoffs"
+  },
+  {
+    "text": "Bay Area prepping for Super Bowl 2026",
+    "query": "local"
+  }
+]
+🕵️‍♂️ Ralph is digging for real intel...
+   Checking Santa Clara City News...
+   Checking NFL Football Operations...
+⚠️ Failed to fetch NFL Football Operations: HTTP Error 404: Not Found
+   Checking 49ers Official News...
+✅ Secured 6 verified intelligence items.
+🕵️‍♂️ Ralph is digging for real intel...
+   Checking Santa Clara City News...
+   Checking NFL Football Operations...
+⚠️ Failed to fetch NFL Football Operations: HTTP Error 404: Not Found
+   Checking 49ers Official News...
+✅ Secured 6 verified intelligence items.
+
+
+🧠 AI Call 1/4: Analyzing trends...
+🧠 AI Call 1/4: Analyzing trends...
+  ⏱️  Waiting 13s for rate limit...
+Warning: Input is not a terminal (fd=0).
+Warning: Input is not a terminal (fd=0).
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────────────
