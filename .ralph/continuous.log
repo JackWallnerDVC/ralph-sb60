@@ -2853,52 +2853,67 @@ Iteration complete. Sleeping...
 Drafts in queue: 5/5
 Current persona focus: insider
 🎯 Queue full (5 drafts). Evaluating for virality...
-ck your quotas.
-Retrying in 32.0 seconds...
-litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
-"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
-again later. Please refer to 
-https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
-details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
-The API provider has rate limited you. Try again later or check your quotas.
+📋 Evaluating 5 drafts for virality...
 
-https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429
+🏆 WINNER: draft-20260130-0200-insider-topic.md
+       Score: 100/100 | Persona: insider
+       Title: Sources: Super Bowl LX Security to Deploy AI-Powered Crowd M...
+       • Trend alignment: +30
+       • Optimal length (633 words): +10
+       • Recent draft: +5
 
-✅ Draft generation completed
-Iteration complete. Sleeping...
+  #2: draft-20260130-0150-insider-topic.md
+       Score: 100/100 | Persona: insider
+       Title: Drone's Eye View: Super Bowl LX's High-Tech Security Perimet...
+       • Trend alignment: +30
+       • Optimal length (529 words): +10
+       • Recent draft: +5
 
---- Iteration 32 (02:13:34 UTC) ---
-Drafts in queue: 4/5
-Current persona focus: insider
-📢 Generating viral draft (5/5)...
+  #3: draft-20260130-0215-insider-topic.md
+       Score: 100/100 | Persona: insider
+       Title: Super Bowl LX Security Perimeter: New Tech Deployed...
+       • Trend alignment: +25
+       • Optimal length (539 words): +10
+       • Recent draft: +5
+
+  #4: draft-20260130-0130-insider-topic.md
+       Score: 100/100 | Persona: insider
+       Title: Security Perimeter Expansion: Impact on Super Bowl LX...
+       • Trend alignment: +30
+       • Optimal length (560 words): +10
+       • Recent draft: +5
+
+  #5: draft-20260130-0126-insider-topic.md
+       Score: 100/100 | Persona: insider
+       Title: Sources: Security Perimeter Expansion for Super Bowl LX...
+       • Trend alignment: +30
+       • Optimal length (610 words): +10
+       • Recent draft: +5
+
+🎯 Selected: Sources: Super Bowl LX Security to Deploy AI-Powered Crowd Monitoring
+   Virality score: 100/100
+
+📝 Humanizing: draft-20260130-0200-insider-topic.md
+✅ Published: 2026-01-30-02-17-topic.md
+📦 Archived: draft-20260130-0150-insider-topic.md
+📦 Archived: draft-20260130-0215-insider-topic.md
+📦 Archived: draft-20260130-0130-insider-topic.md
+📦 Archived: draft-20260130-0126-insider-topic.md
+🚀 Pushed: https://jackwallnerdvc.github.io/ralph-sb60/
+✅ Publish cycle complete
+
+📢 Generating viral draft (1/5)...
 Fetching X/Twitter trends...
-
-📊 Found 3 trending topics
-Using cached trends (fresh)
-[
-  {
-    "text": "Looking forward to Super Bowl 60 at Levi's Stadium",
-    "query": "general"
-  },
-  {
-    "text": "NFL playoff picture taking shape for SB60",
-    "query": "playoffs"
-  },
-  {
-    "text": "Bay Area prepping for Super Bowl 2026",
-    "query": "local"
-  }
-]
 Warning: Input is not a terminal (fd=0).
 ────────────────────────────────────────────────────────────────────────────────
 Aider v0.86.1
 Model: vertex_ai/gemini-3-pro-preview with whole edit format
-Git repo: .git with 76 files
+Git repo: .git with 77 files
 Repo-map: using 4096 tokens, auto refresh
 Added .ralph/state.json to the chat.
 Added .ralph/trends.json to the chat.
-Added _posts/2026-01-30-01-21-draft-20260130-manual.md to the chat.
 Added _posts/2026-01-30-02-00-insider-topic.md to the chat.
+Added _posts/2026-01-30-02-17-topic.md to the chat.
 Added _posts/2026-01-30-06-00-mvp-shift.md to the chat.
 Added personas.json to the chat.
 
@@ -2970,33 +2985,7 @@ https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429
 ✅ Draft generation completed
 Iteration complete. Sleeping...
 
---- Iteration 33 (02:15:46 UTC) ---
-Drafts in queue: 4/5
-Current persona focus: insider
-📢 Generating viral draft (5/5)...
-Fetching X/Twitter trends...
-
-📊 Found 3 trending topics
-Using cached trends (fresh)
-[
-  {
-    "text": "Looking forward to Super Bowl 60 at Levi's Stadium",
-    "query": "general"
-  },
-  {
-    "text": "NFL playoff picture taking shape for SB60",
-    "query": "playoffs"
-  },
-  {
-    "text": "Bay Area prepping for Super Bowl 2026",
-    "query": "local"
-  }
-]
-Warning: Input is not a terminal (fd=0).
-────────────────────────────────────────────────────────────────────────────────
-Aider v0.86.1
-Model: vertex_ai/gemini-3-pro-preview with whole edit format
-Git repo: .git with 76 files
+repo: .git with 76 files
 Repo-map: using 4096 tokens, auto refresh
 Added .ralph/state.json to the chat.
 Added .ralph/trends.json to the chat.
@@ -3077,3 +3066,152 @@ Iteration complete. Sleeping...
 Drafts in queue: 5/5
 Current persona focus: insider
 🎯 Queue full (5 drafts). Evaluating for virality...
+📋 Evaluating 5 drafts for virality...
+
+🏆 WINNER: draft-20260130-0200-insider-topic.md
+       Score: 100/100 | Persona: insider
+       Title: Sources: Super Bowl LX Security to Deploy AI-Powered Crowd M...
+       • Trend alignment: +30
+       • Optimal length (633 words): +10
+       • Recent draft: +5
+
+  #2: draft-20260130-0150-insider-topic.md
+       Score: 100/100 | Persona: insider
+       Title: Drone's Eye View: Super Bowl LX's High-Tech Security Perimet...
+       • Trend alignment: +30
+       • Optimal length (529 words): +10
+       • Recent draft: +5
+
+  #3: draft-20260130-0215-insider-topic.md
+       Score: 100/100 | Persona: insider
+       Title: Super Bowl LX Security Perimeter: New Tech Deployed...
+       • Trend alignment: +25
+       • Optimal length (539 words): +10
+       • Recent draft: +5
+
+  #4: draft-20260130-0130-insider-topic.md
+       Score: 100/100 | Persona: insider
+       Title: Security Perimeter Expansion: Impact on Super Bowl LX...
+       • Trend alignment: +30
+       • Optimal length (560 words): +10
+       • Recent draft: +5
+
+  #5: draft-20260130-0126-insider-topic.md
+       Score: 100/100 | Persona: insider
+       Title: Sources: Security Perimeter Expansion for Super Bowl LX...
+       • Trend alignment: +30
+       • Optimal length (610 words): +10
+       • Recent draft: +5
+
+🎯 Selected: Sources: Super Bowl LX Security to Deploy AI-Powered Crowd Monitoring
+   Virality score: 100/100
+
+📝 Humanizing: draft-20260130-0200-insider-topic.md
+✅ Published: 2026-01-30-02-17-topic.md
+📦 Archived: draft-20260130-0150-insider-topic.md
+📦 Archived: draft-20260130-0215-insider-topic.md
+📦 Archived: draft-20260130-0130-insider-topic.md
+📦 Archived: draft-20260130-0126-insider-topic.md
+🚀 Pushed: https://jackwallnerdvc.github.io/ralph-sb60/
+✅ Publish cycle complete
+
+📢 Generating viral draft (1/5)...
+Fetching X/Twitter trends...
+
+📊 Found 3 trending topics
+Using cached trends (fresh)
+[
+  {
+    "text": "Looking forward to Super Bowl 60 at Levi's Stadium",
+    "query": "general"
+  },
+  {
+    "text": "NFL playoff picture taking shape for SB60",
+    "query": "playoffs"
+  },
+  {
+    "text": "Bay Area prepping for Super Bowl 2026",
+    "query": "local"
+  }
+]
+Warning: Input is not a terminal (fd=0).
+────────────────────────────────────────────────────────────────────────────────
+Aider v0.86.1
+Model: vertex_ai/gemini-3-pro-preview with whole edit format
+Git repo: .git with 77 files
+Repo-map: using 4096 tokens, auto refresh
+Added .ralph/state.json to the chat.
+Added .ralph/trends.json to the chat.
+Added _posts/2026-01-30-02-00-insider-topic.md to the chat.
+Added _posts/2026-01-30-02-17-topic.md to the chat.
+Added _posts/2026-01-30-06-00-mvp-shift.md to the chat.
+Added personas.json to the chat.
+
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 0.2 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 0.5 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 1.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 2.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 4.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 8.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 16.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 32.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429
+
+✅ Draft generation completed
+Iteration complete. Sleeping...
+
