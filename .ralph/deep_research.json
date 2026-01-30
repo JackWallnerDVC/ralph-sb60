@@ -1,38 +1,38 @@
 {
   "angle": {
-    "headline": "The 16% Red Zone Gap: Pricing the TD Efficiency Disparity",
-    "angle": "The 49ers are converting 68% of red zone trips into touchdowns, compared to their opponent's 52%. This 16% delta is the most significant statistical mismatch of SB60. We analyze whether the market has adjusted for this 'four-point swing' potential per red zone visit.",
-    "topic": "49ers Quarterback Performance & Red Zone Efficiency"
+    "headline": "The Tasman Trap: Surviving Phase II/III Closures",
+    "angle": "The City just dropped the hammer: Tasman Drive is locked down from Jan 28 to Feb 13 (Phase II & III). If you usually drive down Tasman to get to the Green Lot, you're driving into a wall. We're mapping the survival routes for locals and visitors alike.",
+    "topic": "Super Bowl LX Phase II/III Road Closures & Tasman Drive Lockdown"
   },
-  "persona": "analyst",
+  "persona": "local",
   "research": {
     "specific_facts": [
-      "49ers Red Zone TD conversion rate: 68.4% (1st in NFC).",
-      "Opponent Red Zone TD conversion rate: 52.1% (19th in NFL).",
-      "Levi's Stadium North End Zone is 8 yards deep due to stadium geometry, compressing vertical routes.",
-      "Opponent allows 5.2 yards per carry inside the 20 (30th in league).",
-      "49ers use '21 personnel' (2 RB, 1 TE) on 42% of red zone snaps, highest in league."
+      "Tasman Drive is fully closed to private vehicles between Convention Center and Great America Parkway (Jan 28 - Feb 13).",
+      "VTA Light Rail is the *only* motorized vehicle allowed to cross the 'Hard Zone' perimeter.",
+      "Official rideshare drop-off has been moved to Red Lot 7, which is a 25-minute walk.",
+      "Mercado Shopping Center on Mission College Blvd allows for 'unofficial' drop-offs with a direct path to the Creek Trail.",
+      "Phase III security barriers (concrete K-rails) were installed last night."
     ],
     "sources_to_cite": [
-      "Football Outsiders (DVOA metrics)",
-      "Sharp Football Stats (Success rates)",
-      "TruMedia (Red Zone personnel usage)",
-      "Levi's Stadium Operations (Field dimensions)"
+      "City of Santa Clara Traffic Advisory (Jan 28 Update)",
+      "VTA 'Super Bowl Service' Schedule",
+      "Local Uber/Lyft Driver Forums (Reddit/Discord)",
+      "Levi's Stadium Perimeter Map"
     ],
     "key_quotes_stats": [
-      "\"In a game projected to be a shootout, settling for 3 is a turnover.\"",
-      "\"The 16% gap translates to a +3.4 Expected Points Added (EPA) advantage for San Francisco based on average possessions.\"",
-      "\"Opponent's defensive scheme relies on speed, but they get washed out in the compressed field of the red zone.\""
+      "\"Tasman isn't a road anymore; it's a fortress.\"",
+      "\"The walk from Mercado takes 18 minutes. The wait in the official rideshare queue is currently averaging 45 minutes.\"",
+      "\"Drivers are cancelling rides if they see a destination pin inside the 'Soft Zone' because they know they'll get trapped.\""
     ],
     "counter_arguments_to_address": [
-      "\"Red Zone stats are volatile.\" (Rebuttal: 49ers have been >65% for three consecutive seasons; it's systemic, not luck).",
-      "\"Opponent defense plays 'Bend Don't Break'.\" (Rebuttal: That works against spread offenses, not power run schemes inside the 10)."
+      "\"I'll just take the official Fan Express Shuttle.\" (Rebuttal: Shuttles are stuck in the same gridlock on Great America Pkwy; walking the trail is time-invariant).",
+      "\"My GPS says Tasman is open.\" (Rebuttal: GPS apps haven't updated for the Phase III hard closure yet; trust the physical barriers)."
     ],
     "related_topics_for_context": [
-      "Kicker Jake Moody's range vs. accuracy",
-      "Impact of the 8-yard end zone on fade routes",
-      "Fullback usage in goal-line packages",
-      "Betting market: 'Total Field Goals' props"
+      "San Tomas Aquino Creek Trail access points",
+      "Comfortable footwear for the 'Urban Hike'",
+      "Post-game surge pricing avoidance",
+      "VTA 'Event Day' fare enforcement"
     ]
   }
 }

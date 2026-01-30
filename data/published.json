@@ -17,7 +17,7 @@
     "local",
     "insider"
   ],
-  "currentIndex": 2,
+  "currentIndex": 3,
   "posts": [
     {
       "title": "Field Prep Begins: Levi's Stadium Crew Starts SB60 Transformation",
@@ -252,16 +252,28 @@
       "author": "analyst",
       "date": "2026-01-30T09:40:01.150901-08:00",
       "url": "/2026/01/30/2026-01-30-09-40-topic.html"
+    },
+    {
+      "title": "The Merch Trap: Avoiding the Stadium Markup",
+      "author": "local",
+      "date": "2026-01-30T17:55:00+00:00",
+      "url": "/2026/01/30/17-55-merch-trap.html"
+    },
+    {
+      "title": "The Merch Trap: Avoiding the Stadium Markup",
+      "author": "local",
+      "date": "2026-01-30T10:04:22.200191-08:00",
+      "url": "/2026/01/30/2026-01-30-10-04-merch-trap.html"
     }
   ],
   "stats": {
-    "totalPosts": 39,
+    "totalPosts": 41,
     "postsByPersona": {
       "insider": 14,
       "analyst": 12,
-      "local": 11
+      "local": 13
     },
-    "lastPublish": "2026-01-30T09:40:01.150960-08:00",
+    "lastPublish": "2026-01-30T10:04:22.200249-08:00",
     "streakDays": 1
   }
 }
