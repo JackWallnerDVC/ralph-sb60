@@ -126,16 +126,22 @@
       "author": "local",
       "date": "2026-01-30T10:15:20.940154+00:00",
       "url": "/2026/01/30/2026-01-30-10-15-food-hacks.html"
+    },
+    {
+      "title": "Code Red in the Tunnels: The 360-Second Halftime Miracle",
+      "author": "insider",
+      "date": "2026-01-30T10:46:00.186343+00:00",
+      "url": "/2026/01/30/2026-01-30-10-46-halftime-logistics.html"
     }
   ],
   "stats": {
-    "totalPosts": 18,
+    "totalPosts": 19,
     "postsByPersona": {
-      "insider": 9,
+      "insider": 10,
       "analyst": 5,
       "local": 3
     },
-    "lastPublish": "2026-01-30T10:15:20.940188+00:00",
+    "lastPublish": "2026-01-30T10:46:00.186372+00:00",
     "streakDays": 1
   }
 }
