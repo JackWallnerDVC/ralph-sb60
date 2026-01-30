@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-01-30T02:16:13.786299Z",
+  "generated_at": "2026-01-30T02:21:26.414288Z",
   "topics": {
     "top_topics": [
       {
@@ -38,9 +38,9 @@
     "insider": {
       "angles": [
         {
-          "headline": "Exclusive: Super Bowl LX Security Command Center Unveiled",
-          "angle": "My sources got a sneak peek at the Super Bowl LX Security Command Center. It's a multi-agency hub with real-time feeds from hundreds of cameras, AI-powered threat detection, and direct links to law enforcement. Expect heightened vigilance and rapid response capabilities.",
-          "topic": "Super Bowl 60 Security and Logistical Preparations in the Bay Area"
+          "headline": "Exclusive: Super Bowl LX Security Perimeter to Include Facial Recognition",
+          "angle": "My sources tell me the expanded security perimeter will incorporate facial recognition technology at all entry points. This is a pilot program, and its success could redefine stadium security protocols. Expect quicker entry, but also potential privacy concerns.",
+          "topic": "Super Bowl 60 Security and Emergency Preparedness in the Bay Area"
         },
         {
           "headline": "Insider: NFL Mulls Express Fan Lanes to Ease Stadium Entry",
@@ -81,6 +81,21 @@
           "headline": "Breaking: NFL Testing New Crowd Management Tech at SB60",
           "angle": "I'm hearing the NFL is piloting new crowd management tech at Super Bowl LX, including advanced sensor networks and real-time data analytics. This will allow them to dynamically adjust security personnel and optimize traffic flow based on actual crowd behavior.",
           "topic": "Super Bowl 60 at Levi's Stadium: Fan Experience and Local Impact in Santa Clara"
+        },
+        {
+          "headline": "Insider Scoop: Security Dogs to Patrol Tailgate Zones",
+          "angle": "My sources indicate that specially trained K-9 units will be patrolling the tailgate zones outside Levi's Stadium. These dogs are trained to detect explosives and other potential threats. Expect a visible presence and increased security in these areas.",
+          "topic": "Super Bowl 60 Security and Emergency Preparedness in the Bay Area"
+        },
+        {
+          "headline": "Behind the Scenes: NFL Rehearsing Halftime Show Logistics",
+          "angle": "I'm hearing that the NFL is conducting secret rehearsals of the halftime show logistics at a nearby warehouse. This includes stage setup, equipment testing, and performer coordination. The goal is to ensure a seamless and spectacular performance on game day.",
+          "topic": "Super Bowl 60 at Levi's Stadium: Fan Experience and Local Impact in Santa Clara"
+        },
+        {
+          "headline": "Breaking: Team Hotels Undergo Security Sweeps",
+          "angle": "Sources tell me that all hotels housing NFL teams are undergoing comprehensive security sweeps. This includes bomb detection, electronic surveillance countermeasures, and background checks on all staff. The NFL is leaving nothing to chance when it comes to team safety.",
+          "topic": "Super Bowl 60 Security and Logistical Preparations in the Bay Area"
         }
       ]
     },
@@ -135,10 +150,11 @@
           "venues": [
             "Blue Lot 1 (known for lively atmosphere)",
             "Green Lot 4 (close to stadium entrance)",
+            "Red Lot 7 (close to the stadium but further walk)",
             "Santa Clara Valley Brewing (local craft beer)",
             "Off the Rails Brewing (another great local option)"
           ],
-          "insider_tip": "Arrive at least 4 hours before kickoff to snag a prime tailgating spot. Bring a portable grill, games like cornhole, and plenty of local craft beer to share!",
+          "insider_tip": "Arrive at least 4 hours before kickoff to snag a prime tailgating spot. Bring a portable grill, games like cornhole, and plenty of local craft beer to share! Check local ordinances for tailgating rules.",
           "fan_hook": "Ready to own the Super Bowl 60 tailgate scene? Your ultimate guide to pre-game glory starts here!"
         },
         {
@@ -149,9 +165,10 @@
             "Birks Restaurant (classic American cuisine)",
             "Ike's Love & Sandwiches (delicious and unique sandwiches)",
             "Smoking Pig BBQ Company (authentic BBQ)",
-            "Dishdash (Middle Eastern flavors)"
+            "Dishdash (Middle Eastern flavors)",
+            "Konjoe Burger Bar (gourmet burgers)"
           ],
-          "insider_tip": "Make reservations well in advance, especially for dinner. Explore restaurants slightly further from the stadium for potentially better availability and a more local experience.",
+          "insider_tip": "Make reservations well in advance, especially for dinner. Explore restaurants slightly further from the stadium for potentially better availability and a more local experience. Check for Super Bowl specials!",
           "fan_hook": "Fuel your Super Bowl 60 experience with the best eats in Santa Clara! Your culinary adventure awaits."
         },
         {
@@ -161,9 +178,10 @@
             "VTA Light Rail (direct access to Levi's Stadium)",
             "Caltrain (connects to VTA)",
             "Ride-sharing pick-up/drop-off zones (designated areas)",
-            "Santa Clara free shuttle (game day service)"
+            "Santa Clara free shuttle (game day service)",
+            "ACE Train (connects to the wider Bay Area)"
           ],
-          "insider_tip": "Download the VTA mobile app for real-time schedules and fare payment. Consider biking or walking if you're staying close to the stadium to avoid traffic altogether. Purchase a Clipper card in advance for easy access to public transportation.",
+          "insider_tip": "Download the VTA mobile app for real-time schedules and fare payment. Consider biking or walking if you're staying close to the stadium to avoid traffic altogether. Purchase a Clipper card in advance for easy access to public transportation. Plan your route in advance!",
           "fan_hook": "Conquer Santa Clara traffic and arrive at Super Bowl 60 stress-free! Your ultimate transportation survival guide is here."
         }
       ]

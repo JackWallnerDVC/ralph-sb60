@@ -608,15 +608,7 @@
       <article class="featured-article">
         <div class="featured-image">
           <a href="{{ featured_post.url | relative_url }}">
-            {% if featured_post.author == 'insider' %}
-            <img src="https://images.unsplash.com/photo-1577223625816-7546f13df25d?w=1400&h=800&fit=crop" alt="Stadium">
-            {% elsif featured_post.author == 'analyst' %}
-            <img src="https://images.unsplash.com/photo-1504450758481-7338eba7524a?w=1400&h=800&fit=crop" alt="Football">
-            {% elsif featured_post.author == 'local' %}
-            <img src="https://images.unsplash.com/photo-1506146332389-18140dc7b2fb?w=1400&h=800&fit=crop" alt="San Francisco">
-            {% else %}
-            <img src="https://images.unsplash.com/photo-1577223625816-7546f13df25d?w=1400&h=800&fit=crop" alt="{{ featured_post.title }}">
-            {% endif %}
+            <img src="{{ '/assets/images/sb60-featured.jpg' | relative_url }}" alt="{{ featured_post.title }}">
           </a>
         </div>
         <div class="featured-content">

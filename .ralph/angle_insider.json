@@ -2,8 +2,23 @@
   "angles": [
     {
       "headline": "Exclusive: Super Bowl LX Security Command Center Unveiled",
-      "angle": "My sources got a sneak peek at the Super Bowl LX Security Command Center. It's a multi-agency hub with real-time feeds from hundreds of cameras, AI-powered threat detection, and direct links to law enforcement. Expect heightened vigilance and rapid response capabilities.",
+      "angle": "My sources just gave me a peek inside the Super Bowl LX Security Command Center. It's a multi-agency hub with real-time feeds from hundreds of cameras, including drones. Expect cutting-edge threat detection and rapid response teams on standby.",
+      "topic": "Super Bowl 60 Security and Emergency Preparedness in the Bay Area"
+    },
+    {
+      "headline": "Insider: NFL's Secret Team Arrival Protocols Revealed",
+      "angle": "I'm hearing the NFL is using decoy convoys and secure routes from SJC and SFO to protect teams arriving for Super Bowl LX. Dedicated security teams will shadow each team, and alternative routes are mapped out in case of traffic incidents.",
       "topic": "Super Bowl 60 Security and Logistical Preparations in the Bay Area"
+    },
+    {
+      "headline": "Breaking: Levi's Stadium 'Ops Room' Gets AI Upgrade",
+      "angle": "I'm told Levi's Stadium's 'Ops Room,' the nerve center for Super Bowl LX, is getting an AI-powered upgrade. The system will predict crowd flow and potential bottlenecks, allowing for dynamic adjustments to security and traffic management.",
+      "topic": "Super Bowl 60 Security and Emergency Preparedness in the Bay Area"
+    },
+    {
+      "headline": "Exclusive: Super Bowl LX Security Perimeter to Include Facial Recognition",
+      "angle": "My sources tell me the expanded security perimeter will incorporate facial recognition technology at all entry points. This is a pilot program, and its success could redefine stadium security protocols. Expect quicker entry, but also potential privacy concerns.",
+      "topic": "Super Bowl 60 Security and Emergency Preparedness in the Bay Area"
     },
     {
       "headline": "Insider: NFL Mulls Express Fan Lanes to Ease Stadium Entry",
@@ -44,6 +59,21 @@
       "headline": "Breaking: NFL Testing New Crowd Management Tech at SB60",
       "angle": "I'm hearing the NFL is piloting new crowd management tech at Super Bowl LX, including advanced sensor networks and real-time data analytics. This will allow them to dynamically adjust security personnel and optimize traffic flow based on actual crowd behavior.",
       "topic": "Super Bowl 60 at Levi's Stadium: Fan Experience and Local Impact in Santa Clara"
+    },
+    {
+      "headline": "Insider Scoop: Security Dogs to Patrol Tailgate Zones",
+      "angle": "My sources indicate that specially trained K-9 units will be patrolling the tailgate zones outside Levi's Stadium. These dogs are trained to detect explosives and other potential threats. Expect a visible presence and increased security in these areas.",
+      "topic": "Super Bowl 60 Security and Emergency Preparedness in the Bay Area"
+    },
+    {
+      "headline": "Behind the Scenes: NFL Rehearsing Halftime Show Logistics",
+      "angle": "I'm hearing that the NFL is conducting secret rehearsals of the halftime show logistics at a nearby warehouse. This includes stage setup, equipment testing, and performer coordination. The goal is to ensure a seamless and spectacular performance on game day.",
+      "topic": "Super Bowl 60 at Levi's Stadium: Fan Experience and Local Impact in Santa Clara"
+    },
+    {
+      "headline": "Breaking: Team Hotels Undergo Security Sweeps",
+      "angle": "Sources tell me that all hotels housing NFL teams are undergoing comprehensive security sweeps. This includes bomb detection, electronic surveillance countermeasures, and background checks on all staff. The NFL is leaving nothing to chance when it comes to team safety.",
+      "topic": "Super Bowl 60 Security and Logistical Preparations in the Bay Area"
     }
   ]
 }
