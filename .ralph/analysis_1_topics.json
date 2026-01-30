@@ -1,34 +1,34 @@
 {
   "top_topics": [
     {
-      "topic": "Super Bowl 60 at Levi's Stadium",
+      "topic": "Super Bowl 60 at Levi's Stadium: Fan Experience and Local Impact in Santa Clara",
       "momentum": "rising",
       "persona": "local",
-      "reason": "Multiple news sources and general excitement point to increasing interest in the event itself, fitting the 'local' persona's focus on the fan experience and Santa Clara."
+      "reason": "The general trend of looking forward to Super Bowl 60 in the Bay Area, combined with the need for local guidance, aligns with Tony Moretti's focus on the fan experience, local attractions, and logistics."
     },
     {
-      "topic": "NFL playoff picture for SB60",
+      "topic": "NFL Playoff Picture and Potential SB60 Matchups: Analyzing the San Francisco 49ers' Performance",
       "momentum": "rising",
       "persona": "analyst",
-      "reason": "The 'analyst' persona focuses on team statistics, comparisons, and odds, which are directly related to the evolving playoff picture."
+      "reason": "The evolving playoff picture and the real intel on the 49ers' RedZone performance and offensive coordinator Klay Kubiak directly impacts team statistics, comparisons, and potential betting odds. This aligns with Marcus Chen's focus on data-driven analysis of team performance and historical trends."
     },
     {
-      "topic": "Bay Area prepping for Super Bowl 2026",
+      "topic": "Super Bowl 60 Security and Logistical Preparations in the Bay Area",
       "momentum": "rising",
       "persona": "insider",
-      "reason": "The 'insider' persona covers stadium logistics, operations, and the broader impact on the Bay Area, aligning with preparations for the event."
+      "reason": "The general trend of the Bay Area prepping for Super Bowl 2026 indicates rising interest in logistical preparations. This aligns with Sarah Jenkin's coverage of stadium logistics, security protocols, and NFL operations."
     },
     {
-      "topic": "49ers RedZone Runners",
+      "topic": "San Francisco 49ers RedZone Performance and Running Game",
       "momentum": "stable",
       "persona": "analyst",
-      "reason": "Recent articles highlight the 49ers' running game, which can be analyzed statistically, fitting the 'analyst' persona."
+      "reason": "Recent articles highlight the 49ers' running game and RedZone performance. This can be analyzed statistically, fitting the 'analyst' persona. Momentum is stable as it's team-specific and not directly SB60 related."
     },
     {
-      "topic": "Super Bowl LX Emergency Preparedness",
+      "topic": "Klay Kubiak Staying with the San Francisco 49ers as Offensive Coordinator",
       "momentum": "stable",
       "persona": "insider",
-      "reason": "Emergency preparedness falls under the 'insider' persona's coverage of security, operations, and logistics surrounding the Super Bowl."
+      "reason": "The news of Klay Kubiak remaining as the 49ers' offensive coordinator provides insight into team strategy and internal decisions, aligning with the 'insider' persona's coverage of NFL operations and decisions. Momentum is stable as it's a specific personnel decision."
     }
   ]
 }

@@ -1,40 +1,40 @@
 {
   "angles": [
     {
-      "title": "Super Bowl 60 MVP: The Overlooked Running Back Value",
-      "description": "Dig into historical MVP trends, weather impact on passing vs. rushing EPA, and usage rate anomalies to identify undervalued running back MVP candidates. Explore prop bet opportunities.",
+      "title": "SB60: Red Zone Regression? Quantifying the 49ers' Scoring Dip",
+      "description": "Analyze the 49ers' red zone conversion rate in the playoffs compared to the regular season. Identify potential regression factors (opponent defense, play-calling changes). Project impact on SB60 scoring.",
       "stats_to_research": [
-        "Historical Super Bowl MVP winners (position, stats)",
-        "Weather data impact on passing/rushing EPA",
-        "Running back usage rates in specific weather conditions",
-        "Red zone target share for running backs",
-        "Current MVP odds for quarterbacks vs. running backs"
+        "49ers' red zone conversion rate (regular season vs. playoffs)",
+        "Opponent red zone defensive rankings (playoff opponents)",
+        "Play-calling splits inside the 20 (run vs. pass)",
+        "Historical red zone regression trends in Super Bowls",
+        "Impact of key injuries on red zone efficiency"
       ],
-      "betting_insights": "Identify discrepancies between implied probability and actual player usage/performance projections. Focus on +EV (expected value) prop bets related to rushing yards, touchdowns, and receptions."
+      "betting_insights": "If the 49ers' red zone efficiency is projected to regress significantly, consider betting the under on their team total points or prop bets on individual player touchdowns."
     },
     {
-      "title": "The Underdog Advantage: Identifying Historical Betting Patterns",
-      "description": "Analyze historical Super Bowl betting data to uncover patterns related to underdog performance. Examine point spreads, money lines, and over/under trends to identify potential edges.",
+      "title": "SB60: The Underdog's Edge: Exploiting Market Inefficiencies",
+      "description": "Identify undervalued underdog teams based on advanced metrics (DVOA, EPA). Quantify the historical profitability of betting on underdogs with specific statistical profiles.",
       "stats_to_research": [
-        "Super Bowl underdog win/loss records",
-        "Average point spread differential in Super Bowl games",
-        "Over/under performance in Super Bowls with similar weather conditions",
-        "Impact of key injuries on betting lines",
-        "Public betting percentages vs. final outcomes"
+        "Underdog win percentage and ATS record in Super Bowls",
+        "Correlation between DVOA/EPA and underdog success",
+        "Key statistical advantages for potential underdog teams",
+        "Public betting percentages on the favorite vs. the underdog",
+        "Historical data on similar point spreads"
       ],
-      "betting_insights": "Determine if there are statistically significant advantages to betting on underdogs in specific Super Bowl scenarios. Quantify the potential ROI (return on investment) based on historical data."
+      "betting_insights": "Focus on underdogs with strong underlying metrics that are being overlooked by the market. Look for opportunities to exploit discrepancies between public perception and data-driven projections."
     },
     {
-      "title": "The Coaching Strategy X-Factor: Quantifying Aggressiveness",
-      "description": "Develop a data-driven approach to quantify coaching aggressiveness (4th down attempts, play-calling tendencies). Correlate coaching style with team performance and betting outcomes.",
+      "title": "SB60 Prop Bet Bonanza: Unearthing Hidden Value in Player Props",
+      "description": "Develop a model to project player performance based on opponent matchups, usage rates, and historical trends. Identify prop bets with a significant positive expected value (+EV).",
       "stats_to_research": [
-        "4th down conversion rates for each team",
-        "Play-calling tendencies in various game situations (down, distance, score)",
-        "Historical data on coaching decisions in Super Bowls",
-        "Correlation between coaching aggressiveness and win probability",
-        "Impact of coaching changes on team performance"
+        "Player prop performance vs. similar opponents",
+        "Usage rate projections for key players",
+        "Historical prop bet payouts for similar statistical outcomes",
+        "Correlation between weather conditions and player performance",
+        "Impact of injuries on prop bet value"
       ],
-      "betting_insights": "Assess how coaching decisions influence in-game betting opportunities. Identify situations where a team's coaching style creates a predictable betting edge."
+      "betting_insights": "Target prop bets on players with favorable matchups and high usage rates that are being underpriced by the market. Focus on props where your projections diverge significantly from the implied odds."
     }
   ]
 }

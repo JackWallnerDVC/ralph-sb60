@@ -923,25 +923,37 @@ https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more
 details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
 The API provider has rate limited you. Try again later or check your quotas.
 Retrying in 8.0 seconds...
-al draft (2/5)...
-Fetching X/Twitter trends...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 16.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 32.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
 
-📊 Found 3 trending topics
-Using cached trends (fresh)
-[
-  {
-    "text": "Looking forward to Super Bowl 60 at Levi's Stadium",
-    "query": "general"
-  },
-  {
-    "text": "NFL playoff picture taking shape for SB60",
-    "query": "playoffs"
-  },
-  {
-    "text": "Bay Area prepping for Super Bowl 2026",
-    "query": "local"
-  }
-]
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429
+
+✅ Draft generation completed
+Iteration complete. Sleeping...
+
+--- Iteration 12 (01:29:07 UTC) ---
+Drafts in queue: 1/5
+Current persona focus: insider
+📢 Generating viral draft (2/5)...
+Fetching X/Twitter trends...
 Warning: Input is not a terminal (fd=0).
 ────────────────────────────────────────────────────────────────────────────────
 Aider v0.86.1
@@ -997,3 +1009,1480 @@ https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more
 details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
 The API provider has rate limited you. Try again later or check your quotas.
 Retrying in 8.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 16.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 32.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429
+
+✅ Draft generation completed
+Iteration complete. Sleeping...
+
+--- Iteration 13 (01:31:19 UTC) ---
+Drafts in queue: 2/5
+Current persona focus: insider
+📢 Generating viral draft (3/5)...
+Fetching X/Twitter trends...
+Warning: Input is not a terminal (fd=0).
+────────────────────────────────────────────────────────────────────────────────
+Aider v0.86.1
+Model: vertex_ai/gemini-3-pro-preview with whole edit format
+Git repo: .git with 69 files
+Repo-map: using 4096 tokens, auto refresh
+Added .ralph/state.json to the chat.
+Added .ralph/trends.json to the chat.
+Added _posts/2026-01-29-welcome-to-sb60-intel.md to the chat.
+Added _posts/2026-01-30-01-21-draft-20260130-manual.md to the chat.
+Added _posts/2026-01-30-06-00-mvp-shift.md to the chat.
+Added personas.json to the chat.
+
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 0.2 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 0.5 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 1.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 2.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 4.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 8.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 16.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 32.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429
+
+✅ Draft generation completed
+Iteration complete. Sleeping...
+
+--- Iteration 14 (01:33:31 UTC) ---
+Drafts in queue: 2/5
+Current persona focus: insider
+📢 Generating viral draft (3/5)...
+Fetching X/Twitter trends...
+Warning: Input is not a terminal (fd=0).
+────────────────────────────────────────────────────────────────────────────────
+Aider v0.86.1
+Model: vertex_ai/gemini-3-pro-preview with whole edit format
+Git repo: .git with 69 files
+Repo-map: using 4096 tokens, auto refresh
+Added .ralph/state.json to the chat.
+Added .ralph/trends.json to the chat.
+Added _posts/2026-01-29-welcome-to-sb60-intel.md to the chat.
+Added _posts/2026-01-30-01-21-draft-20260130-manual.md to the chat.
+Added _posts/2026-01-30-06-00-mvp-shift.md to the chat.
+Added personas.json to the chat.
+
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 0.2 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 0.5 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 1.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 2.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 4.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 8.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 16.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 32.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429
+
+✅ Draft generation completed
+Iteration complete. Sleeping...
+
+--- Iteration 15 (01:35:43 UTC) ---
+Drafts in queue: 2/5
+Current persona focus: insider
+📢 Generating viral draft (3/5)...
+Fetching X/Twitter trends...
+Warning: Input is not a terminal (fd=0).
+────────────────────────────────────────────────────────────────────────────────
+Aider v0.86.1
+Model: vertex_ai/gemini-3-pro-preview with whole edit format
+Git repo: .git with 69 files
+Repo-map: using 4096 tokens, auto refresh
+Added .ralph/state.json to the chat.
+Added .ralph/trends.json to the chat.
+Added _posts/2026-01-29-welcome-to-sb60-intel.md to the chat.
+Added _posts/2026-01-30-01-21-draft-20260130-manual.md to the chat.
+Added _posts/2026-01-30-06-00-mvp-shift.md to the chat.
+Added personas.json to the chat.
+
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 0.2 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 0.5 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 1.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 2.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 4.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 8.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 16.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 32.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429
+
+✅ Draft generation completed
+Iteration complete. Sleeping...
+
+--- Iteration 16 (01:37:55 UTC) ---
+Drafts in queue: 2/5
+Current persona focus: insider
+📢 Generating viral draft (3/5)...
+Fetching X/Twitter trends...
+Warning: Input is not a terminal (fd=0).
+────────────────────────────────────────────────────────────────────────────────
+Aider v0.86.1
+Model: vertex_ai/gemini-3-pro-preview with whole edit format
+Git repo: .git with 69 files
+Repo-map: using 4096 tokens, auto refresh
+Added .ralph/state.json to the chat.
+Added .ralph/trends.json to the chat.
+Added _posts/2026-01-29-welcome-to-sb60-intel.md to the chat.
+Added _posts/2026-01-30-01-21-draft-20260130-manual.md to the chat.
+Added _posts/2026-01-30-06-00-mvp-shift.md to the chat.
+Added personas.json to the chat.
+
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 0.2 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 0.5 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 1.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 2.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 4.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 8.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 16.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 32.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429
+
+✅ Draft generation completed
+Iteration complete. Sleeping...
+
+--- Iteration 17 (01:40:07 UTC) ---
+Drafts in queue: 2/5
+Current persona focus: insider
+📢 Generating viral draft (3/5)...
+Fetching X/Twitter trends...
+Warning: Input is not a terminal (fd=0).
+────────────────────────────────────────────────────────────────────────────────
+Aider v0.86.1
+Model: vertex_ai/gemini-3-pro-preview with whole edit format
+Git repo: .git with 69 files
+Repo-map: using 4096 tokens, auto refresh
+Added .ralph/state.json to the chat.
+Added .ralph/trends.json to the chat.
+Added _posts/2026-01-29-welcome-to-sb60-intel.md to the chat.
+Added _posts/2026-01-30-01-21-draft-20260130-manual.md to the chat.
+Added _posts/2026-01-30-06-00-mvp-shift.md to the chat.
+Added personas.json to the chat.
+
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 0.2 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 0.5 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 1.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 2.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 4.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 8.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 16.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 32.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429
+
+✅ Draft generation completed
+Iteration complete. Sleeping...
+
+--- Iteration 18 (01:42:19 UTC) ---
+Drafts in queue: 3/5
+Current persona focus: insider
+📢 Generating viral draft (4/5)...
+Fetching X/Twitter trends...
+Warning: Input is not a terminal (fd=0).
+────────────────────────────────────────────────────────────────────────────────
+Aider v0.86.1
+Model: vertex_ai/gemini-3-pro-preview with whole edit format
+Git repo: .git with 70 files
+Repo-map: using 4096 tokens, auto refresh
+Added .ralph/state.json to the chat.
+Added .ralph/trends.json to the chat.
+Added _posts/2026-01-29-welcome-to-sb60-intel.md to the chat.
+Added _posts/2026-01-30-01-21-draft-20260130-manual.md to the chat.
+Added _posts/2026-01-30-06-00-mvp-shift.md to the chat.
+Added personas.json to the chat.
+
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 0.2 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 0.5 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 1.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 2.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 4.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 8.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 16.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 32.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429
+
+✅ Draft generation completed
+Iteration complete. Sleeping...
+
+--- Iteration 19 (01:44:31 UTC) ---
+Drafts in queue: 3/5
+Current persona focus: insider
+📢 Generating viral draft (4/5)...
+Fetching X/Twitter trends...
+Warning: Input is not a terminal (fd=0).
+────────────────────────────────────────────────────────────────────────────────
+Aider v0.86.1
+Model: vertex_ai/gemini-3-pro-preview with whole edit format
+Git repo: .git with 70 files
+Repo-map: using 4096 tokens, auto refresh
+Added .ralph/state.json to the chat.
+Added .ralph/trends.json to the chat.
+Added _posts/2026-01-29-welcome-to-sb60-intel.md to the chat.
+Added _posts/2026-01-30-01-21-draft-20260130-manual.md to the chat.
+Added _posts/2026-01-30-06-00-mvp-shift.md to the chat.
+Added personas.json to the chat.
+
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 0.2 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 0.5 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 1.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 2.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 4.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 8.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 16.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 32.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429
+
+✅ Draft generation completed
+Iteration complete. Sleeping...
+
+--- Iteration 20 (01:46:42 UTC) ---
+Drafts in queue: 3/5
+Current persona focus: insider
+📢 Generating viral draft (4/5)...
+Fetching X/Twitter trends...
+Warning: Input is not a terminal (fd=0).
+────────────────────────────────────────────────────────────────────────────────
+Aider v0.86.1
+Model: vertex_ai/gemini-3-pro-preview with whole edit format
+Git repo: .git with 70 files
+Repo-map: using 4096 tokens, auto refresh
+Added .ralph/state.json to the chat.
+Added .ralph/trends.json to the chat.
+Added _posts/2026-01-29-welcome-to-sb60-intel.md to the chat.
+Added _posts/2026-01-30-01-21-draft-20260130-manual.md to the chat.
+Added _posts/2026-01-30-06-00-mvp-shift.md to the chat.
+Added personas.json to the chat.
+
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 0.2 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 0.5 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 1.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 2.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 4.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 8.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 16.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 32.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429
+
+✅ Draft generation completed
+Iteration complete. Sleeping...
+
+--- Iteration 21 (01:48:54 UTC) ---
+Drafts in queue: 3/5
+Current persona focus: insider
+📢 Generating viral draft (4/5)...
+Fetching X/Twitter trends...
+Warning: Input is not a terminal (fd=0).
+────────────────────────────────────────────────────────────────────────────────
+Aider v0.86.1
+Model: vertex_ai/gemini-3-pro-preview with whole edit format
+Git repo: .git with 70 files
+Repo-map: using 4096 tokens, auto refresh
+Added .ralph/state.json to the chat.
+Added .ralph/trends.json to the chat.
+Added _posts/2026-01-29-welcome-to-sb60-intel.md to the chat.
+Added _posts/2026-01-30-01-21-draft-20260130-manual.md to the chat.
+Added _posts/2026-01-30-06-00-mvp-shift.md to the chat.
+Added personas.json to the chat.
+
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 0.2 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 0.5 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 1.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 2.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 4.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 8.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 16.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 32.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429
+
+✅ Draft generation completed
+Iteration complete. Sleeping...
+
+--- Iteration 22 (01:51:05 UTC) ---
+Drafts in queue: 4/5
+Current persona focus: insider
+📢 Generating viral draft (5/5)...
+Fetching X/Twitter trends...
+Warning: Input is not a terminal (fd=0).
+────────────────────────────────────────────────────────────────────────────────
+Aider v0.86.1
+Model: vertex_ai/gemini-3-pro-preview with whole edit format
+Git repo: .git with 71 files
+Repo-map: using 4096 tokens, auto refresh
+Added .ralph/state.json to the chat.
+Added .ralph/trends.json to the chat.
+Added _posts/2026-01-29-welcome-to-sb60-intel.md to the chat.
+Added _posts/2026-01-30-01-21-draft-20260130-manual.md to the chat.
+Added _posts/2026-01-30-06-00-mvp-shift.md to the chat.
+Added personas.json to the chat.
+
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 0.2 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 0.5 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 1.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 2.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 4.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 8.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 16.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 32.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429
+
+✅ Draft generation completed
+Iteration complete. Sleeping...
+
+--- Iteration 23 (01:53:19 UTC) ---
+Drafts in queue: 4/5
+Current persona focus: insider
+📢 Generating viral draft (5/5)...
+Fetching X/Twitter trends...
+Warning: Input is not a terminal (fd=0).
+────────────────────────────────────────────────────────────────────────────────
+Aider v0.86.1
+Model: vertex_ai/gemini-3-pro-preview with whole edit format
+Git repo: .git with 71 files
+Repo-map: using 4096 tokens, auto refresh
+Added .ralph/state.json to the chat.
+Added .ralph/trends.json to the chat.
+Added _posts/2026-01-29-welcome-to-sb60-intel.md to the chat.
+Added _posts/2026-01-30-01-21-draft-20260130-manual.md to the chat.
+Added _posts/2026-01-30-06-00-mvp-shift.md to the chat.
+Added personas.json to the chat.
+
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 0.2 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 0.5 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 1.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 2.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 4.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 8.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 16.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 32.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429
+
+✅ Draft generation completed
+Iteration complete. Sleeping...
+
+--- Iteration 24 (01:55:33 UTC) ---
+Drafts in queue: 4/5
+Current persona focus: insider
+📢 Generating viral draft (5/5)...
+Fetching X/Twitter trends...
+Warning: Input is not a terminal (fd=0).
+────────────────────────────────────────────────────────────────────────────────
+Aider v0.86.1
+Model: vertex_ai/gemini-3-pro-preview with whole edit format
+Git repo: .git with 71 files
+Repo-map: using 4096 tokens, auto refresh
+Added .ralph/state.json to the chat.
+Added .ralph/trends.json to the chat.
+Added _posts/2026-01-29-welcome-to-sb60-intel.md to the chat.
+Added _posts/2026-01-30-01-21-draft-20260130-manual.md to the chat.
+Added _posts/2026-01-30-06-00-mvp-shift.md to the chat.
+Added personas.json to the chat.
+
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 0.2 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 0.5 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 1.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 2.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 4.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 8.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 16.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 32.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429
+
+✅ Draft generation completed
+Iteration complete. Sleeping...
+
+--- Iteration 25 (01:57:48 UTC) ---
+Drafts in queue: 4/5
+Current persona focus: insider
+📢 Generating viral draft (5/5)...
+Fetching X/Twitter trends...
+Warning: Input is not a terminal (fd=0).
+────────────────────────────────────────────────────────────────────────────────
+Aider v0.86.1
+Model: vertex_ai/gemini-3-pro-preview with whole edit format
+Git repo: .git with 71 files
+Repo-map: using 4096 tokens, auto refresh
+Added .ralph/state.json to the chat.
+Added .ralph/trends.json to the chat.
+Added _posts/2026-01-29-welcome-to-sb60-intel.md to the chat.
+Added _posts/2026-01-30-01-21-draft-20260130-manual.md to the chat.
+Added _posts/2026-01-30-06-00-mvp-shift.md to the chat.
+Added personas.json to the chat.
+
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 0.2 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 0.5 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 1.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 2.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 4.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 8.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 16.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 32.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429
+
+✅ Draft generation completed
+Iteration complete. Sleeping...
+
+--- Iteration 26 (02:00:00 UTC) ---
+Drafts in queue: 4/5
+Current persona focus: insider
+📢 Generating viral draft (5/5)...
+Fetching X/Twitter trends...
+Warning: Input is not a terminal (fd=0).
+────────────────────────────────────────────────────────────────────────────────
+Aider v0.86.1
+Model: vertex_ai/gemini-3-pro-preview with whole edit format
+Git repo: .git with 71 files
+Repo-map: using 4096 tokens, auto refresh
+Added .ralph/state.json to the chat.
+Added .ralph/trends.json to the chat.
+Added _posts/2026-01-29-welcome-to-sb60-intel.md to the chat.
+Added _posts/2026-01-30-01-21-draft-20260130-manual.md to the chat.
+Added _posts/2026-01-30-06-00-mvp-shift.md to the chat.
+Added personas.json to the chat.
+
+Repo-map can't include 
+/Users/jackwallner/clawd/ralph-sb60/.ralph/drafts/draft-20260130-0140-insider-to
+pic.md
+Has it been deleted from the file system but not from git?
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 0.2 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 0.5 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 1.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 2.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 4.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 8.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 16.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 32.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429
+
+✅ Draft generation completed
+Iteration complete. Sleeping...
+
+--- Iteration 27 (02:02:14 UTC) ---
+Drafts in queue: 4/5
+Current persona focus: insider
+📢 Generating viral draft (5/5)...
+Fetching X/Twitter trends...
+Warning: Input is not a terminal (fd=0).
+────────────────────────────────────────────────────────────────────────────────
+Aider v0.86.1
+Model: vertex_ai/gemini-3-pro-preview with whole edit format
+Git repo: .git with 72 files
+Repo-map: using 4096 tokens, auto refresh
+Added .ralph/state.json to the chat.
+Added .ralph/trends.json to the chat.
+Added _posts/2026-01-30-01-21-draft-20260130-manual.md to the chat.
+Added _posts/2026-01-30-02-00-insider-topic.md to the chat.
+Added _posts/2026-01-30-06-00-mvp-shift.md to the chat.
+Added personas.json to the chat.
+
+Repo-map can't include 
+/Users/jackwallner/clawd/ralph-sb60/.ralph/drafts/draft-20260130-0140-insider-to
+pic.md
+Has it been deleted from the file system but not from git?
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 0.2 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 0.5 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 1.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 2.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 4.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 8.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 16.0 seconds...
+��────────────────────────────────────
+Aider v0.86.1
+Model: vertex_ai/gemini-3-pro-preview with whole edit format
+Git repo: .git with 71 files
+Repo-map: using 4096 tokens, auto refresh
+Added .ralph/state.json to the chat.
+Added .ralph/trends.json to the chat.
+Added _posts/2026-01-29-welcome-to-sb60-intel.md to the chat.
+Added _posts/2026-01-30-01-21-draft-20260130-manual.md to the chat.
+Added _posts/2026-01-30-06-00-mvp-shift.md to the chat.
+Added personas.json to the chat.
+
+Repo-map can't include 
+/Users/jackwallner/clawd/ralph-sb60/.ralph/drafts/draft-20260130-0140-insider-to
+pic.md
+Has it been deleted from the file system but not from git?
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 0.2 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 0.5 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 1.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 2.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 4.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 8.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 16.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 32.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429
+
+✅ Draft generation completed
+Iteration complete. Sleeping...
+
+--- Iteration 27 (02:02:14 UTC) ---
+Drafts in queue: 4/5
+Current persona focus: insider
+📢 Generating viral draft (5/5)...
+Fetching X/Twitter trends...
+
+📊 Found 3 trending topics
+Using cached trends (fresh)
+[
+  {
+    "text": "Looking forward to Super Bowl 60 at Levi's Stadium",
+    "query": "general"
+  },
+  {
+    "text": "NFL playoff picture taking shape for SB60",
+    "query": "playoffs"
+  },
+  {
+    "text": "Bay Area prepping for Super Bowl 2026",
+    "query": "local"
+  }
+]
+Warning: Input is not a terminal (fd=0).
+────────────────────────────────────────────────────────────────────────────────
+Aider v0.86.1
+Model: vertex_ai/gemini-3-pro-preview with whole edit format
+Git repo: .git with 72 files
+Repo-map: using 4096 tokens, auto refresh
+Added .ralph/state.json to the chat.
+Added .ralph/trends.json to the chat.
+Added _posts/2026-01-30-01-21-draft-20260130-manual.md to the chat.
+Added _posts/2026-01-30-02-00-insider-topic.md to the chat.
+Added _posts/2026-01-30-06-00-mvp-shift.md to the chat.
+Added personas.json to the chat.
+
+Repo-map can't include 
+/Users/jackwallner/clawd/ralph-sb60/.ralph/drafts/draft-20260130-0140-insider-to
+pic.md
+Has it been deleted from the file system but not from git?
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 0.2 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 0.5 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 1.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 2.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 4.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 8.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 16.0 seconds...

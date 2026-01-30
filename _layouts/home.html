@@ -38,7 +38,6 @@
       overflow-x: hidden;
     }
 
-    /* Animated Background */
     .bg-animated {
       position: fixed;
       top: 0;
@@ -59,7 +58,6 @@
       50% { transform: scale(1.05); }
     }
 
-    /* Header - Glassmorphism */
     .site-header {
       position: sticky;
       top: 0;
@@ -88,19 +86,6 @@
       color: var(--text-primary);
       text-decoration: none;
       letter-spacing: -0.02em;
-      transition: transform 0.3s ease;
-    }
-
-    .logo:hover {
-      transform: scale(1.02);
-    }
-
-    .logo-icon {
-      width: 40px;
-      height: 40px;
-      border-radius: 12px;
-      object-fit: cover;
-      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
     }
 
     .logo-box {
@@ -114,7 +99,6 @@
       font-weight: 900;
       border-radius: 12px;
       font-size: 1.2rem;
-      box-shadow: 0 4px 15px rgba(0,0,0,0.1);
     }
 
     .logo span {
@@ -158,7 +142,7 @@
       width: 100%;
     }
 
-    /* ===== ARTICLES FIRST - HERO SECTION ===== */
+    /* Hero Section */
     .articles-hero {
       max-width: 1400px;
       margin: 0 auto;
@@ -169,40 +153,17 @@
       align-items: start;
     }
 
-    /* Featured Article - Big Card */
     .featured-article {
       background: var(--bg-card);
       border-radius: 24px;
       overflow: hidden;
-      box-shadow: 
-        0 20px 60px rgba(0,0,0,0.1),
-        0 0 0 1px rgba(255,255,255,0.5) inset;
+      box-shadow: 0 20px 60px rgba(0,0,0,0.1), 0 0 0 1px rgba(255,255,255,0.5) inset;
       transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-      position: relative;
-    }
-
-    .featured-article::before {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      height: 4px;
-      background: linear-gradient(90deg, var(--accent-green), var(--accent-gold), var(--accent-orange));
-      opacity: 0;
-      transition: opacity 0.4s ease;
     }
 
     .featured-article:hover {
-      transform: translateY(-8px) scale(1.01);
-      box-shadow: 
-        0 30px 80px rgba(0,0,0,0.15),
-        0 0 0 1px rgba(255,255,255,0.5) inset,
-        0 0 40px rgba(45, 125, 50, 0.1);
-    }
-
-    .featured-article:hover::before {
-      opacity: 1;
+      transform: translateY(-4px);
+      box-shadow: 0 30px 80px rgba(0,0,0,0.15);
     }
 
     .featured-image {
@@ -215,22 +176,11 @@
       width: 100%;
       height: 100%;
       object-fit: cover;
-      transition: transform 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+      transition: transform 0.6s ease;
     }
 
     .featured-article:hover .featured-image img {
-      transform: scale(1.08);
-    }
-
-    .featured-image::after {
-      content: '';
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      height: 150px;
-      background: linear-gradient(transparent, rgba(0,0,0,0.4));
-      pointer-events: none;
+      transform: scale(1.05);
     }
 
     .featured-content {
@@ -251,22 +201,6 @@
       text-transform: uppercase;
       letter-spacing: 0.05em;
       margin-bottom: 1rem;
-      position: relative;
-      overflow: hidden;
-    }
-
-    .featured-label::before {
-      content: '';
-      width: 8px;
-      height: 8px;
-      background: var(--accent-green);
-      border-radius: 50%;
-      animation: pulse 2s ease-in-out infinite;
-    }
-
-    @keyframes pulse {
-      0%, 100% { opacity: 1; transform: scale(1); box-shadow: 0 0 0 0 rgba(45, 125, 50, 0.4); }
-      50% { opacity: 0.7; transform: scale(0.9); box-shadow: 0 0 0 8px rgba(45, 125, 50, 0); }
     }
 
     .featured-title {
@@ -275,7 +209,6 @@
       line-height: 1.2;
       margin-bottom: 1rem;
       color: var(--navy-primary);
-      letter-spacing: -0.02em;
     }
 
     .featured-excerpt {
@@ -314,18 +247,16 @@
       color: var(--navy-primary);
     }
 
-    /* Side Panel - Countdown & Quick Links */
+    /* Side Panel */
     .side-panel {
       display: flex;
       flex-direction: column;
       gap: 1.5rem;
     }
 
-    /* Countdown Card - Glassmorphism */
     .countdown-card {
       background: var(--glass-bg);
       backdrop-filter: blur(20px) saturate(180%);
-      -webkit-backdrop-filter: blur(20px) saturate(180%);
       border: 1px solid var(--glass-border);
       border-radius: 20px;
       padding: 2rem;
@@ -356,11 +287,6 @@
       border-radius: 16px;
       color: white;
       box-shadow: 0 10px 30px rgba(26, 54, 93, 0.3);
-      transition: transform 0.3s ease;
-    }
-
-    .countdown-item:hover {
-      transform: translateY(-4px);
     }
 
     .countdown-value {
@@ -368,7 +294,6 @@
       font-size: 2.5rem;
       font-weight: 800;
       line-height: 1;
-      font-variant-numeric: tabular-nums;
     }
 
     .countdown-label {
@@ -380,69 +305,32 @@
       opacity: 0.8;
     }
 
-    /* Action Buttons */
-    .action-buttons {
-      display: flex;
-      flex-direction: column;
-      gap: 0.75rem;
+    .latest-drafts {
+      background: var(--bg-card);
+      border-radius: 16px;
+      padding: 1.5rem;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.06);
     }
 
-    .btn {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      gap: 0.5rem;
-      padding: 1rem 1.5rem;
-      border-radius: 12px;
-      font-weight: 600;
+    .latest-drafts h3 {
+      font-size: 0.875rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--text-muted);
+      margin-bottom: 1rem;
+    }
+
+    .draft-item {
+      padding: 0.75rem 0;
+      border-bottom: 1px solid var(--border-light);
       font-size: 0.9375rem;
-      text-decoration: none;
-      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-      cursor: pointer;
-      border: none;
-      position: relative;
-      overflow: hidden;
     }
 
-    .btn::before {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: -100%;
-      width: 100%;
-      height: 100%;
-      background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
-      transition: left 0.5s ease;
+    .draft-item:last-child {
+      border-bottom: none;
     }
 
-    .btn:hover::before {
-      left: 100%;
-    }
-
-    .btn-primary {
-      background: linear-gradient(135deg, var(--accent-green), var(--accent-green-light));
-      color: white;
-      box-shadow: 0 4px 20px rgba(45, 125, 50, 0.3);
-    }
-
-    .btn-primary:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 8px 30px rgba(45, 125, 50, 0.4);
-    }
-
-    .btn-secondary {
-      background: var(--glass-bg);
-      color: var(--text-primary);
-      border: 1px solid var(--glass-border);
-      backdrop-filter: blur(10px);
-    }
-
-    .btn-secondary:hover {
-      background: rgba(255,255,255,0.95);
-      transform: translateY(-2px);
-    }
-
-    /* ===== MORE ARTICLES GRID ===== */
+    /* More Articles Grid */
     .more-articles {
       max-width: 1400px;
       margin: 0 auto;
@@ -460,16 +348,6 @@
       font-size: 1.5rem;
       font-weight: 800;
       color: var(--navy-primary);
-      display: flex;
-      align-items: center;
-      gap: 0.75rem;
-    }
-
-    .section-title-icon {
-      width: 32px;
-      height: 32px;
-      border-radius: 8px;
-      object-fit: cover;
     }
 
     .section-link {
@@ -477,14 +355,6 @@
       text-decoration: none;
       font-weight: 600;
       font-size: 0.9375rem;
-      display: flex;
-      align-items: center;
-      gap: 0.25rem;
-      transition: gap 0.2s ease;
-    }
-
-    .section-link:hover {
-      gap: 0.5rem;
     }
 
     .articles-grid {
@@ -498,15 +368,13 @@
       border-radius: 20px;
       overflow: hidden;
       box-shadow: 0 4px 20px rgba(0,0,0,0.06);
-      transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+      transition: all 0.4s ease;
       border: 1px solid rgba(255,255,255,0.5);
     }
 
     .article-card:hover {
-      transform: translateY(-8px) scale(1.02);
-      box-shadow: 
-        0 20px 50px rgba(0,0,0,0.12),
-        0 0 0 1px rgba(255,255,255,0.8) inset;
+      transform: translateY(-8px);
+      box-shadow: 0 20px 50px rgba(0,0,0,0.12);
     }
 
     .article-image {
@@ -519,12 +387,17 @@
       width: 100%;
       height: 100%;
       object-fit: cover;
-      transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+      transition: transform 0.5s ease;
     }
 
     .article-card:hover .article-image img {
       transform: scale(1.1);
     }
+
+    /* Persona-specific image backgrounds */
+    .article-image.insider { background: linear-gradient(135deg, #1a365d 0%, #2d3748 100%); }
+    .article-image.analyst { background: linear-gradient(135deg, #2d7d32 0%, #1b5e20 100%); }
+    .article-image.local { background: linear-gradient(135deg, #dd6b20 0%, #c05621 100%); }
 
     .article-content {
       padding: 1.5rem;
@@ -551,7 +424,6 @@
       width: 20px;
       height: 20px;
       border-radius: 50%;
-      object-fit: cover;
     }
 
     .article-title {
@@ -568,7 +440,7 @@
       line-height: 1.6;
     }
 
-    /* ===== TEAM SECTION ===== */
+    /* Team Section */
     .team-section {
       background: linear-gradient(180deg, var(--bg-secondary) 0%, var(--bg-primary) 100%);
       padding: 4rem 2rem;
@@ -594,30 +466,12 @@
       border-radius: 20px;
       padding: 2rem;
       text-align: center;
-      transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-      position: relative;
-      overflow: hidden;
-    }
-
-    .persona-card::before {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      height: 3px;
-      background: linear-gradient(90deg, var(--accent-green), var(--accent-gold));
-      transform: scaleX(0);
-      transition: transform 0.4s ease;
+      transition: all 0.4s ease;
     }
 
     .persona-card:hover {
       transform: translateY(-8px);
       box-shadow: 0 20px 50px rgba(0,0,0,0.1);
-    }
-
-    .persona-card:hover::before {
-      transform: scaleX(1);
     }
 
     .persona-avatar {
@@ -628,12 +482,6 @@
       margin-bottom: 1rem;
       border: 3px solid white;
       box-shadow: 0 8px 25px rgba(0,0,0,0.15);
-      transition: all 0.4s ease;
-    }
-
-    .persona-card:hover .persona-avatar {
-      transform: scale(1.1) rotate(3deg);
-      box-shadow: 0 12px 35px rgba(0,0,0,0.2);
     }
 
     .persona-name {
@@ -666,6 +514,50 @@
       font-weight: 500;
     }
 
+    /* RSS Section - BOTTOM */
+    .rss-section {
+      background: var(--bg-secondary);
+      padding: 3rem 2rem;
+      border-top: 1px solid var(--border-light);
+    }
+
+    .rss-inner {
+      max-width: 1400px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .rss-text h3 {
+      font-size: 1.25rem;
+      color: var(--navy-primary);
+      margin-bottom: 0.5rem;
+    }
+
+    .rss-text p {
+      color: var(--text-secondary);
+      font-size: 0.9375rem;
+    }
+
+    .rss-button {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 1rem 1.5rem;
+      background: linear-gradient(135deg, var(--accent-orange), #ff8c42);
+      color: white;
+      border-radius: 12px;
+      font-weight: 600;
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+
+    .rss-button:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 25px rgba(255, 107, 53, 0.3);
+    }
+
     /* Footer */
     .site-footer {
       background: linear-gradient(135deg, var(--navy-primary), var(--navy-deep));
@@ -683,16 +575,6 @@
       font-weight: 800;
       color: white;
       margin-bottom: 1rem;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 0.75rem;
-    }
-
-    .footer-logo img {
-      width: 36px;
-      height: 36px;
-      border-radius: 10px;
     }
 
     .footer-desc {
@@ -724,50 +606,17 @@
 
     /* Responsive */
     @media (max-width: 1024px) {
-      .articles-hero {
-        grid-template-columns: 1fr;
-      }
-      
-      .articles-grid,
-      .persona-grid {
-        grid-template-columns: repeat(2, 1fr);
-      }
+      .articles-hero { grid-template-columns: 1fr; }
+      .articles-grid, .persona-grid { grid-template-columns: repeat(2, 1fr); }
+      .rss-inner { flex-direction: column; gap: 1rem; text-align: center; }
     }
 
     @media (max-width: 768px) {
-      .articles-grid,
-      .persona-grid {
-        grid-template-columns: 1fr;
-      }
-      
-      .featured-image {
-        height: 250px;
-      }
-      
-      .countdown {
-        flex-wrap: wrap;
-      }
-      
-      .countdown-item {
-        min-width: 60px;
-        padding: 0.75rem;
-      }
-      
-      .countdown-value {
-        font-size: 1.75rem;
-      }
-    }
-
-    /* Scroll Animations */
-    .fade-in {
-      opacity: 0;
-      transform: translateY(30px);
-      transition: all 0.6s cubic-bezier(0.4, 0, 0.2, 1);
-    }
-
-    .fade-in.visible {
-      opacity: 1;
-      transform: translateY(0);
+      .articles-grid, .persona-grid { grid-template-columns: 1fr; }
+      .featured-image { height: 250px; }
+      .countdown { flex-wrap: wrap; }
+      .countdown-item { min-width: 60px; padding: 0.75rem; }
+      .countdown-value { font-size: 1.75rem; }
     }
   </style>
 </head>
@@ -789,19 +638,26 @@
   </header>
 
   <main>
-    <!-- ARTICLES FIRST - Hero Section -->
+    <!-- Hero Section -->
     <section class="articles-hero">
       {% assign featured_post = site.posts.first %}
       {% if featured_post %}
-      <!-- Big Featured Article -->
-      <article class="featured-article fade-in">
+      <article class="featured-article">
         <div class="featured-image">
           <a href="{{ featured_post.url | relative_url }}">
+            {% if featured_post.author == 'insider' %}
+            <img src="https://images.unsplash.com/photo-1577223625816-7546f13df25d?w=1200&h=800&fit=crop" alt="Stadium">
+            {% elsif featured_post.author == 'analyst' %}
+            <img src="https://images.unsplash.com/photo-1504450758481-7338eba7524a?w=1200&h=800&fit=crop" alt="Football">
+            {% elsif featured_post.author == 'local' %}
+            <img src="https://images.unsplash.com/photo-1506146332389-18140dc7b2fb?w=1200&h=800&fit=crop" alt="San Francisco">
+            {% else %}
             <img src="https://images.unsplash.com/photo-1577223625816-7546f13df25d?w=1200&h=800&fit=crop" alt="{{ featured_post.title }}">
+            {% endif %}
           </a>
         </div>
         <div class="featured-content">
-          <span class="featured-label">Featured Story</span>
+          <span class="featured-label">Latest Story</span>
           <h2 class="featured-title">
             <a href="{{ featured_post.url | relative_url }}" style="color: inherit; text-decoration: none;">
               {{ featured_post.title }}
@@ -811,7 +667,7 @@
           <div class="featured-meta">
             {% assign author = site.data.personas | where: "id", featured_post.author | first %}
             <span class="author-badge">
-              <img src="{{ author.avatar }}" alt="{{ author.name }}" class="author-avatar">
+              <span style="font-size: 1.2rem;">{{ author.avatar }}</span>
               <span class="author-name">{{ author.name }}</span>
             </span>
             <span>{{ featured_post.date | date: "%b %d, %Y" }}</span>
@@ -823,60 +679,62 @@
       <!-- Side Panel -->
       <aside class="side-panel">
         <!-- Countdown -->
-        <div class="countdown-card fade-in">
+        <div class="countdown-card">
           <div class="countdown-title">Kickoff Countdown</div>
           <div class="countdown">
             <div class="countdown-item">
-              <span class="countdown-value" id="days">372</span>
+              <span class="countdown-value" id="days">--</span>
               <span class="countdown-label">Days</span>
             </div>
             <div class="countdown-item">
-              <span class="countdown-value" id="hours">14</span>
+              <span class="countdown-value" id="hours">--</span>
               <span class="countdown-label">Hours</span>
             </div>
             <div class="countdown-item">
-              <span class="countdown-value" id="minutes">33</span>
+              <span class="countdown-value" id="minutes">--</span>
               <span class="countdown-label">Mins</span>
             </div>
           </div>
         </div>
 
-        <div class="action-buttons fade-in">
-          <a href="{{ '/feed.xml' | relative_url }}" class="btn btn-primary">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 11a9 9 0 0 1 9 9"/><path d="M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1"/></svg>
-            Subscribe via RSS
-          </a>
-          <a href="https://twitter.com/sb60intel" class="btn btn-secondary">
-            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
-            Follow @sb60intel
-          </a>
+        <!-- Latest Drafts -->
+        <div class="latest-drafts">
+          <h3>📝 In The Works</h3>
+          <div class="draft-item">Security perimeter expansion analysis...</div>
+          <div class="draft-item">MVP odds breakdown...</div>
+          <div class="draft-item">Santa Clara food guide...</div>
         </div>
       </aside>
     </section>
 
     <!-- More Articles Grid -->
     <section class="more-articles">
-      <div class="section-header fade-in">
-        <h2 class="section-title">
-          <img src="https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=64&h=64&fit=crop" alt="News" class="section-title-icon">
-          More Stories
-        </h2>
+      <div class="section-header">
+        <h2 class="section-title">More Stories</h2>
         <a href="{{ '/archive' | relative_url }}" class="section-link">View all →</a>
       </div>
 
       <div class="articles-grid">
         {% for post in site.posts offset:1 limit:6 %}
-        <article class="article-card fade-in">
-          <div class="article-image">
+        <article class="article-card">
+          <div class="article-image {{ post.author }}">
             <a href="{{ post.url | relative_url }}">
-              <img src="https://images.unsplash.com/photo-1566577739112-5180d4bf9390?w=600&h=400&fit=crop" alt="{{ post.title }}">
+              {% if post.author == 'insider' %}
+              <img src="https://images.unsplash.com/photo-1577223625816-7546f13df25d?w=600&h=400&fit=crop" alt="Stadium">
+              {% elsif post.author == 'analyst' %}
+              <img src="https://images.unsplash.com/photo-1504450758481-7338eba7524a?w=600&h=400&fit=crop" alt="Football">
+              {% elsif post.author == 'local' %}
+              <img src="https://images.unsplash.com/photo-1506146332389-18140dc7b2fb?w=600&h=400&fit=crop" alt="SF">
+              {% else %}
+              <img src="https://images.unsplash.com/photo-1577223625816-7546f13df25d?w=600&h=400&fit=crop" alt="">
+              {% endif %}
             </a>
           </div>
           <div class="article-content">
             <div class="article-meta">
               {% assign author = site.data.personas | where: "id", post.author | first %}
               <span class="article-author">
-                <img src="{{ author.avatar }}" alt="{{ author.name }}">
+                <span style="font-size: 1rem;">{{ author.avatar }}</span>
                 {{ author.name }}
               </span>
               <span>·</span>
@@ -887,7 +745,7 @@
                 {{ post.title }}
               </a>
             </h3>
-            <p class="article-excerpt">{{ post.excerpt | strip_html | truncatewords: 20 }}</p>
+            <p class="article-excerpt">{{ post.excerpt | strip_html | truncatewords: 15 }}</p>
           </div>
         </article>
         {% endfor %}
@@ -897,62 +755,49 @@
     <!-- Team Section -->
     <section class="team-section">
       <div class="team-inner">
-        <div class="section-header fade-in">
-          <h2 class="section-title">
-            <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?w=64&h=64&fit=crop" alt="Team" class="section-title-icon">
-            Meet Our Team
-          </h2>
+        <div class="section-header">
+          <h2 class="section-title">Meet Our Team</h2>
           <a href="{{ '/authors' | relative_url }}" class="section-link">View all authors →</a>
         </div>
 
         <div class="persona-grid">
-          <article class="persona-card fade-in">
-            <img src="https://images.unsplash.com/photo-1581065178047-8ee15951ede6?auto=format&fit=crop&w=200&h=200" alt="Sarah Jenkins" class="persona-avatar">
-            <h3 class="persona-name">Sarah Jenkins</h3>
-            <p class="persona-bio">Behind-the-scenes access to the NFL machine. Stadium logistics, broadcast details, locker room whispers.</p>
+          {% for persona in site.data.personas %}
+          <article class="persona-card">
+            <div style="font-size: 4rem; margin-bottom: 0.5rem;">{{ persona[1].avatar }}</div>
+            <h3 class="persona-name">{{ persona[1].name }}</h3>
+            <p class="persona-bio">{{ persona[1].bio }}</p>
             <div class="persona-topics">
-              <span class="topic-tag">Stadium</span>
-              <span class="topic-tag">Broadcast</span>
-              <span class="topic-tag">Security</span>
+              {% for topic in persona[1].topics limit:3 %}
+              <span class="topic-tag">{{ topic | split: ' ' | first }}</span>
+              {% endfor %}
             </div>
           </article>
-
-          <article class="persona-card fade-in">
-            <img src="https://plus.unsplash.com/premium_photo-1682095969640-cade58e5c561?auto=format&fit=crop&w=200&h=200" alt="Marcus Chen" class="persona-avatar">
-            <h3 class="persona-name">Marcus Chen</h3>
-            <p class="persona-bio">Numbers don't lie. Breaking down matchups, odds, and what the data says about SB60.</p>
-            <div class="persona-topics">
-              <span class="topic-tag">Stats</span>
-              <span class="topic-tag">Odds</span>
-              <span class="topic-tag">History</span>
-            </div>
-          </article>
-
-          <article class="persona-card fade-in">
-            <img src="https://plus.unsplash.com/premium_photo-1722945641420-86765656a2af?auto=format&fit=crop&w=200&h=200" alt="Tony Moretti" class="persona-avatar">
-            <h3 class="persona-name">Tony Moretti</h3>
-            <p class="persona-bio">Born and raised in the Bay. Your guide to SF, Santa Clara, and the ultimate fan experience.</p>
-            <div class="persona-topics">
-              <span class="topic-tag">Food</span>
-              <span class="topic-tag">Transit</span>
-              <span class="topic-tag">Events</span>
-            </div>
-          </article>
+          {% endfor %}
         </div>
+      </div>
+    </section>
+
+    <!-- RSS Section - AT BOTTOM -->
+    <section class="rss-section">
+      <div class="rss-inner">
+        <div class="rss-text">
+          <h3>📡 Stay Updated</h3>
+          <p>Get the latest SB60 intel delivered to your RSS reader.</p>
+        </div>
+        <a href="{{ '/feed.xml' | relative_url }}" class="rss-button">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 11a9 9 0 0 1 9 9"/><path d="M4 4a16 16 0 0 1 16 16"/><circle cx="5" cy="19" r="1"/></svg>
+          Subscribe via RSS
+        </a>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
     <div class="footer-inner">
-      <div class="footer-logo">
-        <div class="logo-box" style="width: 36px; height: 36px; border-radius: 10px; margin-right: 0.75rem;">SB</div>
-        SB60 Intel
-      </div>
+      <div class="footer-logo">SB60 Intel</div>
       <p class="footer-desc">Your source for everything Super Bowl 60. Coverage from The Insider, The Analyst, and The Local.</p>
       <div class="footer-links">
         <a href="{{ '/feed.xml' | relative_url }}">RSS Feed</a>
-        <a href="https://twitter.com/sb60intel">Twitter/X</a>
         <a href="{{ '/about' | relative_url }}">About</a>
         <a href="{{ '/authors' | relative_url }}">Authors</a>
       </div>
@@ -980,22 +825,6 @@
     
     updateCountdown();
     setInterval(updateCountdown, 60000);
-
-    // Scroll Animations
-    const observerOptions = {
-      threshold: 0.1,
-      rootMargin: '0px 0px -50px 0px'
-    };
-
-    const observer = new IntersectionObserver((entries) => {
-      entries.forEach(entry => {
-        if (entry.isIntersecting) {
-          entry.target.classList.add('visible');
-        }
-      });
-    }, observerOptions);
-
-    document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
   </script>
 </body>
 </html>
