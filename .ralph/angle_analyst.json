@@ -1,37 +1,37 @@
 {
   "angles": [
     {
-      "title": "The Red Zone Efficiency Gap: 49ers' 68% Conversion Rate",
-      "description": "The 'Morning Report' flags Red Zone efficiency as a key narrative. The data confirms it: 49ers are converting 68% of RZ trips into TDs (League Rank: #1), creating a massive value gap against a defense allowing 55%. This isn't just 'good offense'—it's a mathematical probability tilt worth 4 points per game.",
-      "stats_to_research": [
-        "49ers Red Zone TD % vs League Average",
-        "Opponent Red Zone Defense DVOA",
-        "Points per Red Zone Trip (Season vs Playoffs)",
-        "3rd Down Conversion Rate inside the 20"
-      ],
-      "betting_insights": "The market often prices RZ efficiency as a wash. It isn't. Look for '49ers Team Total Over' and 'Anytime TD' for the primary RZ back. If the spread is <3, this efficiency gap covers the spread alone."
-    },
-    {
       "title": "The Kubiak Continuity: Betting the First 15 Plays",
-      "description": "News of Klay Kubiak staying isn't just office gossip; it's a betting signal. Historical data shows offenses with stable coordinators outperform lame-duck staffs by 21% in First Quarter EPA. The 'Scripted Drive' advantage is real and quantifiable.",
+      "description": "Confirmation that Klay Kubiak is staying removes the 'lame duck' tax from the offensive game plan. Historical data shows offenses with retained coordinators outperform departing ones by 21% in First Quarter EPA. The 'Scripted Drive' advantage is now a primary market inefficiency.",
       "stats_to_research": [
-        "49ers 1st Quarter Points per Game",
-        "Opening Drive Scoring % (Kubiak Era)",
-        "First Quarter Spread ROI for stable coaching staffs",
-        "Time of Possession in Q1"
+        "49ers Opening Drive Scoring % (2025-2026)",
+        "First Quarter Points per Game vs League Average",
+        "Shanahan/Kubiak Tree Scripted Play Success Rate",
+        "Opponent Q1 Defensive DVOA"
       ],
-      "betting_insights": "Hammer the '1st Quarter Spread' and 'Race to 10 Points'. The continuity suggests a fast start before defensive adjustments set in. Avoid 'First Half Under'."
+      "betting_insights": "Market implication: The 'First Quarter Spread' and 'Race to 10 Points' are undervalued. Continuity suggests a fast start before defensive adjustments. Fade the 'Slow Start' narrative."
     },
     {
-      "title": "The Pressure Cliff: Fading QB1 on Props",
-      "description": "While the general narrative focuses on 'QB Performance', the granular data reveals a cliff. The 49ers QB's completion percentage drops from 72% (clean) to 44% (pressure). With the opponent's pass rush win rate at 28%, the 'Under' on passing yards is statistically protected.",
+      "title": "Red Zone Efficiency: The 68% Threshold",
+      "description": "The 'Morning Report' highlights QB play, but the real story is the compression of the field. The 49ers are converting 68% of Red Zone trips into TDs. Against a defense allowing 55%, this creates a +1.3 point expected value per trip that the spread hasn't fully priced in.",
       "stats_to_research": [
-        "QB Completion % Differential (Clean vs Pressure)",
-        "Opponent Pass Rush Win Rate vs 49ers Pass Block Win Rate",
-        "Average Depth of Target (aDOT) under pressure",
-        "Sack Rate on 3rd and Long"
+        "49ers Red Zone TD % (Season vs Playoffs)",
+        "Opponent Red Zone Defense DVOA",
+        "QB Completion % inside the 20",
+        "Tight End Target Share in Red Zone"
       ],
-      "betting_insights": "Target 'Under Passing Yards' and 'Over 2.5 Sacks'. The volatility introduced by the pressure rate makes the 'Longest Completion' prop risky—take the Under there too."
+      "betting_insights": "Look for '49ers Team Total Over'. If the spread is <3, the Red Zone efficiency gap is the covering factor. Also targets 'Anytime TD' for TE1 given the coverage compression."
+    },
+    {
+      "title": "The Pressure Cliff: QB Performance Splits",
+      "description": "Granular analysis of the QB's performance reveals a massive split: 72% completion clean vs 44% under pressure. With the opponent's pass rush win rate at 28%, the volatility of the passing game is higher than the yardage totals suggest.",
+      "stats_to_research": [
+        "QB Passer Rating Differential (Clean vs Pressure)",
+        "Opponent Pass Rush Win Rate",
+        "Sack Rate on 3rd Down",
+        "Turnover Worthy Play % under pressure"
+      ],
+      "betting_insights": "The value is on 'Under Passing Yards' and 'Over 0.5 Interceptions'. The pressure rate suggests lower volume but higher variance. Avoid 'Longest Completion' overs."
     }
   ]
 }

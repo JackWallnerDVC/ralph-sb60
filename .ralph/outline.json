@@ -1,75 +1,75 @@
 {
-  "hook": "If your game plan involves driving down Tasman Drive this week, you aren't driving to the Super Bowl—you're driving into a concrete wall.",
+  "hook": "While the media obsesses over quarterback duels, the Super Bowl will actually be decided by a 12.8% statistical gap that appears only inside the 20-yard line.",
   "sections": [
     {
-      "title": "The Phase III Lockdown",
+      "title": "The 12.8% Mismatch",
       "key_points": [
-        "Define the 'Hard Zone' closure scope and timeline.",
-        "Explain why GPS apps cannot be trusted for this specific closure.",
-        "Describe the physical reality of the K-rail barriers."
+        "Define the massive efficiency gap between the 49ers offense and the opponent's defense.",
+        "Explain why Red Zone efficiency is more predictive than total yardage.",
+        "Highlight the Expected Value (EV) difference per trip."
       ],
       "stats_facts": [
-        "Tasman Drive is fully closed between Convention Center and Great America Parkway (Jan 28 - Feb 13).",
-        "Phase III security barriers (concrete K-rails) were installed last night.",
-        "GPS apps often show the road as 'slow' rather than 'closed' until you are trapped."
+        "49ers Red Zone Touchdown Percentage: 68.2% (Rank #1).",
+        "Opponent Red Zone Defense: 55.4% (Rank #14).",
+        "This creates a +1.3 point expected value per trip not priced into the spread."
       ],
-      "transition": "Once you realize you can't drive through, your instinct is to call a rideshare, but that is exactly where the second trap lies."
+      "transition": "But raw percentages only tell half the story; the venue itself amplifies this advantage."
     },
     {
-      "title": "The Rideshare Mirage",
+      "title": "The Geometry of Levi's Stadium",
       "key_points": [
-        "Highlight the inconvenience of the official drop-off point.",
-        "Explain why drivers are cancelling rides into the zone.",
-        "Contrast the official wait times with walking times."
+        "Analyze the physical constraints of the North End Zone.",
+        "Explain how visual deception impacts decision making.",
+        "Discuss why this favors the offense over the defense."
       ],
       "stats_facts": [
-        "Official rideshare drop-off has moved to Red Lot 7, a 25-minute walk to the gates.",
-        "Drivers are cancelling rides with 'Soft Zone' pins to avoid getting stuck in checkpoints.",
-        "Wait times in the official queue are averaging 45 minutes."
+        "Levi's North End Zone measures just 8 yards deep (standard is 10).",
+        "Visual walls are closer to the back line, altering QB depth perception.",
+        "Compressed field forces linebackers to freeze, favoring quick-game concepts."
       ],
-      "transition": "Forget the official lots and the frustrated drivers; to beat the perimeter, you need to use the 'Mercado Hack'."
+      "transition": "In this compressed space, personnel groupings become the ultimate cheat code."
     },
     {
-      "title": "The Mercado Hack",
+      "title": "The '21 Personnel' Cheat Code",
       "key_points": [
-        "Identify the specific shopping center to use as a staging ground.",
-        "Explain the route from Mission College Blvd.",
-        "Detail why this bypasses the main gridlock nodes."
+        "Break down the 49ers' unique usage of 2 RB, 1 TE, 2 WR sets.",
+        "Explain how this specific grouping exploits the opponent's defensive rules.",
+        "Connect the run game success to the pass game setup."
       ],
       "stats_facts": [
-        "Mercado Shopping Center allows for 'unofficial' drop-offs outside the security cordon.",
-        "The walk from Mercado takes 18 minutes, which is time-invariant.",
-        "This route completely avoids the Great America Parkway standstill."
+        "49ers use '21 Personnel' on 42% of Red Zone snaps (Highest in NFL).",
+        "Opponent allows 6.1 yards per carry when defending 21 personnel in the Red Zone.",
+        "Lateral motion forces A-gap expansion."
       ],
-      "transition": "Once you are on foot at Mercado, you connect to the one piece of infrastructure that traffic control can't shut down."
+      "transition": "This specific weakness in the defensive front creates a betting opportunity that the books have overlooked."
     },
     {
-      "title": "The Creek Trail Bypass",
+      "title": "Debunking the 'Defense Travels' Myth",
       "key_points": [
-        "Describe the San Tomas Aquino Creek Trail route.",
-        "Explain how it cuts through the security perimeter.",
-        "Mention the VTA exception for context."
+        "Address the narrative that the opponent's defense tightens in playoffs.",
+        "Use recent data to counter the reputation.",
+        "Compare EPA efficiency inside vs. outside the 20."
       ],
       "stats_facts": [
-        "The trail runs below street level, bypassing the 'Tasman Crush' entirely.",
-        "VTA Light Rail is the *only* motorized vehicle allowed to cross the 'Hard Zone'.",
-        "Walking the trail provides direct access to Gate C."
+        "Opponent has allowed a 71% TD rate in their last two playoff games.",
+        "49ers average +0.44 EPA/play inside the 20 vs +0.12 between the 20s.",
+        "Settling for FGs reduces win probability by 18%."
       ],
-      "transition": "Getting in is half the battle, but the real pro move is knowing how to escape when the game ends."
+      "transition": "When you combine the math, the geography, and the personnel, the betting value becomes clear."
     },
     {
-      "title": "The Exit Strategy",
+      "title": "The Betting Implications",
       "key_points": [
-        "Warn against using official shuttles post-game.",
-        "Explain the surge pricing geofence advantage.",
-        "Reiterate the duration of the lockdown."
+        "Translate the efficiency gap into specific wagers.",
+        "Identify the player props most correlated with this data.",
+        "Final recommendation on the Team Total."
       ],
       "stats_facts": [
-        "Official Fan Express Shuttles sit in the same traffic as general parking.",
-        "Walking south to Mercado puts you outside the primary surge pricing geofence.",
-        "Tasman remains a fortress until Feb 13—there is no 'waiting it out'."
+        "Primary Target: 49ers Team Total Over (based on RZ conversion rate).",
+        "Prop Target: Tight End Anytime TD (primary target in compressed zones).",
+        "Avoid: Field Goal props (aggressive 4th down math favors TDs)."
       ],
-      "transition": "The map you used last year is worthless; trust the physical barriers, trust the trail, and trust your feet."
+      "transition": "The spread is tight, but the Red Zone math declares a clear winner."
     }
   ]
 }
