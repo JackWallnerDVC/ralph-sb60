@@ -630,7 +630,26 @@
       <article class="featured-article">
         <div class="featured-image">
           <a href="{{ featured_post.url | relative_url }}">
-            <img src="{{ '/assets/images/sb60-featured.jpg' | relative_url }}" alt="{{ featured_post.title }}">
+            {% if featured_post.image %}
+            <img src="{{ featured_post.image | relative_url }}" alt="{{ featured_post.title }}" fetchpriority="high">
+            {% else %}
+            {% assign ai_topics = site.data.ai_images.topics %}
+            {% assign ai_featured = site.data.ai_images.featured %}
+            {% assign topic_match = nil %}
+            {% for tag in featured_post.tags %}
+              {% if ai_topics[tag] and topic_match == nil %}
+                {% assign topic_match = ai_topics[tag] %}
+              {% endif %}
+            {% endfor %}
+            {% if topic_match %}
+            <img src="{{ topic_match }}" alt="{{ featured_post.title }}" fetchpriority="high">
+            {% elsif ai_featured[featured_post.persona] %}
+            <img src="{{ ai_featured[featured_post.persona] }}" alt="{{ featured_post.title }}" fetchpriority="high">
+            {% else %}
+            {% assign fallback = site.data.ai_images.persona_fallbacks[featured_post.persona] %}
+            <img src="{{ fallback }}" alt="{{ featured_post.title }}" fetchpriority="high">
+            {% endif %}
+            {% endif %}
           </a>
         </div>
         <div class="featured-content">
@@ -644,7 +663,7 @@
           <div class="featured-meta">
             {% assign author = site.data.personas | where: "id", featured_post.persona | first %}
             <span class="author-badge">
-              <span class="author-avatar"><img src="{{ author.avatar | relative_url }}" alt="{{ author.name }}"></span>
+              <span class="author-avatar"><img src="{{ author.avatar | relative_url }}" alt="{{ author.name }}" loading="lazy"></span>
               <span class="author-name">{{ author.name }}</span>
             </span>
             <span class="post-time" data-time="{{ featured_post.date | date: '%Y-%m-%dT%H:%M:%S%z' }}">{{ featured_post.date | date: "%B %d, %Y at %I:%M %p %Z" }}</span>
@@ -666,14 +685,22 @@
         <article class="article-card">
           <div class="article-image">
             <a href="{{ post.url | relative_url }}">
-              {% if post.author == 'insider' %}
-              <img src="https://images.unsplash.com/photo-1577223625816-7546f13df25d?w=600&h=400&fit=crop" alt="Stadium">
-              {% elsif post.author == 'analyst' %}
-              <img src="https://images.unsplash.com/photo-1504450758481-7338eba7524a?w=600&h=400&fit=crop" alt="Football">
-              {% elsif post.author == 'local' %}
-              <img src="https://images.unsplash.com/photo-1506146332389-18140dc7b2fb?w=600&h=400&fit=crop" alt="SF">
+              {% if post.image %}
+              <img src="{{ post.image | relative_url }}" alt="{{ post.title }}" loading="lazy">
               {% else %}
-              <img src="https://images.unsplash.com/photo-1577223625816-7546f13df25d?w=600&h=400&fit=crop" alt="">
+              {% assign ai_topics = site.data.ai_images.topics %}
+              {% assign topic_match = nil %}
+              {% for tag in post.tags %}
+                {% if ai_topics[tag] and topic_match == nil %}
+                  {% assign topic_match = ai_topics[tag] %}
+                {% endif %}
+              {% endfor %}
+              {% if topic_match %}
+              <img src="{{ topic_match }}" alt="{{ post.title }}" loading="lazy">
+              {% else %}
+              {% assign fallback = site.data.ai_images.persona_fallbacks[post.persona] %}
+              <img src="{{ fallback }}" alt="{{ post.title }}" loading="lazy">
+              {% endif %}
               {% endif %}
             </a>
           </div>
@@ -681,7 +708,7 @@
             <div class="article-meta">
               {% assign author = site.data.personas | where: "id", post.persona | first %}
               <span class="article-author">
-                <img src="{{ author.avatar | relative_url }}" alt="{{ author.name }}" style="width: 20px; height: 20px; border-radius: 50%; object-fit: cover;">
+                <img src="{{ author.avatar | relative_url }}" alt="{{ author.name }}" style="width: 20px; height: 20px; border-radius: 50%; object-fit: cover;" loading="lazy">
                 {{ author.name }}
               </span>
               <span>·</span>
@@ -710,7 +737,7 @@
         <div class="persona-grid">
           {% for persona in site.data.personas %}
           <article class="persona-card">
-            <div class="persona-avatar-img"><img src="{{ persona[1].avatar | relative_url }}" alt="{{ persona[1].name }}"></div>
+            <div class="persona-avatar-img"><img src="{{ persona[1].avatar | relative_url }}" alt="{{ persona[1].name }}" loading="lazy"></div>
             <h3 class="persona-name">{{ persona[1].name }}</h3>
             <p class="persona-bio">{{ persona[1].bio }}</p>
             <div class="persona-topics">
@@ -842,6 +869,17 @@
     updateLastPublished();
     setInterval(updateCountdown, 60000);
     setInterval(updateLastPublished, 60000);
+    
+    // Store last published time in localStorage for other pages
+    (function() {
+      const featuredMeta = document.querySelector('.featured-meta .post-time');
+      if (featuredMeta) {
+        const timeData = featuredMeta.getAttribute('data-time');
+        if (timeData) {
+          localStorage.setItem('sb60_last_published', timeData);
+        }
+      }
+    })();
   </script>
 </body>
 </html>

@@ -1,0 +1,46 @@
+# AI-Generated Images for SB60 Intel
+# These images are themed per persona and topic area
+# Using Pollinations.ai for AI-generated images (free, no API key needed)
+
+# Generic fallback images by persona
+persona_fallbacks:
+  insider: "https://image.pollinations.ai/prompt/NFL%20stadium%20operations%20command%20center%20professional%20photography%20cinematic%20lighting%20high%20detail?width=600&height=400&seed=1&nologo=true"
+  analyst: "https://image.pollinations.ai/prompt/sports%20analytics%20data%20visualization%20charts%20football%20strategy%20professional%20clean%20modern?width=600&height=400&seed=2&nologo=true"
+  local: "https://image.pollinations.ai/prompt/San%20Francisco%20Bay%20Area%20cityscape%20golden%20hour%20Levi%20stadium%20distant%20vibrant%20colors?width=600&height=400&seed=3&nologo=true"
+
+# Topic-specific AI-generated images
+# Format: keyword -> image URL
+topics:
+  # Stadium & Logistics (Insider)
+  stadium: "https://image.pollinations.ai/prompt/Levi%20stadium%20aerial%20view%20football%20field%20preparation%20professional%20photography?width=600&height=400&seed=10&nologo=true"
+  logistics: "https://image.pollinations.ai/prompt/NFL%20stadium%20behind%20scenes%20operations%20crew%20preparing%20professional%20photojournalism?width=600&height=400&seed=11&nologo=true"
+  security: "https://image.pollinations.ai/prompt/stadium%20security%20command%20center%20monitors%20surveillance%20professional%20technology?width=600&height=400&seed=12&nologo=true"
+  locker: "https://image.pollinations.ai/prompt/football%20locker%20room%20interior%20jerseys%20equipment%20professional%20sports%20photography?width=600&height=400&seed=13&nologo=true"
+  broadcast: "https://image.pollinations.ai/prompt/sports%20broadcast%20control%20room%20cameras%20director%20professional%20television%20production?width=600&height=400&seed=14&nologo=true"
+  halftime: "https://image.pollinations.ai/prompt/stadium%20halftime%20show%20stage%20setup%20lights%20production%20professional%20photography?width=600&height=400&seed=15&nologo=true"
+  
+  # Data & Analysis (Analyst)
+  betting: "https://image.pollinations.ai/prompt/sports%20betting%20data%20analytics%20screens%20charts%20football%20statistics%20modern%20office?width=600&height=400&seed=20&nologo=true"
+  statistics: "https://image.pollinations.ai/prompt/football%20analytics%20dashboard%203D%20charts%20graphs%20data%20visualization%20futuristic?width=600&height=400&seed=21&nologo=true"
+  weather: "https://image.pollinations.ai/prompt/weather%20radar%20map%20San%20Francisco%20Bay%20Area%20meteorology%20professional%20data%20viz?width=600&height=400&seed=22&nologo=true"
+  odds: "https://image.pollinations.ai/prompt/sportsbook%20odds%20board%20LED%20displays%20numbers%20professional%20casino%20atmosphere?width=600&height=400&seed=23&nologo=true"
+  matchup: "https://image.pollinations.ai/prompt/football%20tactical%20play%20diagram%20X%20and%20O%20strategy%20chalkboard%20coaching?width=600&height=400&seed=24&nologo=true"
+  
+  # Local & Experience (Local)
+  food: "https://image.pollinations.ai/prompt/San%20Francisco%20gourmet%20food%20truck%20tacos%20vibrant%20street%20food%20photography?width=600&height=400&seed=30&nologo=true"
+  tailgate: "https://image.pollinations.ai/prompt/football%20tailgate%20party%20grill%20fans%20parking%20lot%20festive%20sunny%20day?width=600&height=400&seed=31&nologo=true"
+  bar: "https://image.pollinations.ai/prompt/sports%20bar%20interior%20TV%20screens%20football%20fans%20craft%20beer%20warm%20lighting?width=600&height=400&seed=32&nologo=true"
+  commute: "https://image.pollinations.ai/prompt/San%20Francisco%20BART%20train%20platform%20commuters%20urban%20transit%20professional%20photo?width=600&height=400&seed=33&nologo=true"
+  hotel: "https://image.pollinations.ai/prompt/luxury%20hotel%20lobby%20San%20Francisco%20modern%20interior%20design%20elegant?width=600&height=400&seed=34&nologo=true"
+  attractions: "https://image.pollinations.ai/prompt/Golden%20Gate%20Bridge%20San%20Francisco%20viewpoint%20tourists%20sunny%20day%20professional?width=600&height=400&seed=35&nologo=true"
+  
+  # Game Day
+  gameday: "https://image.pollinations.ai/prompt/Super%20Bowl%20football%20stadium%20crowd%20excitement%20kickoff%20aerial%20view%20epic?width=600&height=400&seed=40&nologo=true"
+  fans: "https://image.pollinations.ai/prompt/football%20fans%20crowd%20cheering%20stadium%20seats%20team%20colors%20energy%20excitement?width=600&height=400&seed=41&nologo=true"
+  confetti: "https://image.pollinations.ai/prompt/confetti%20falling%20stadium%20celebration%20championship%20moment%20colorful%20dynamic?width=600&height=400&seed=42&nologo=true"
+
+# Featured/hero images (larger size)
+featured:
+  insider: "https://image.pollinations.ai/prompt/NFL%20stadium%20operations%20command%20center%20professional%20photography%20cinematic%20lighting%20high%20detail?width=1200&height=600&seed=100&nologo=true"
+  analyst: "https://image.pollinations.ai/prompt/sports%20analytics%20data%20visualization%20charts%20football%20strategy%20professional%20clean%20modern?width=1200&height=600&seed=101&nologo=true"
+  local: "https://image.pollinations.ai/prompt/San%20Francisco%20Bay%20Area%20cityscape%20golden%20hour%20Levi%20stadium%20distant%20vibrant%20colors?width=1200&height=600&seed=102&nologo=true"

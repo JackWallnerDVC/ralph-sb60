@@ -9,6 +9,27 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | relative_url }}">
+  
+  <!-- Preload featured image for post pages -->
+  {% if page.layout == 'post' %}
+    {% if page.image %}
+    <link rel="preload" as="image" href="{{ page.image | relative_url }}">
+    {% else %}
+      {% assign ai_topics = site.data.ai_images.topics %}
+      {% assign topic_match = nil %}
+      {% for tag in page.tags %}
+        {% if ai_topics[tag] and topic_match == nil %}
+          {% assign topic_match = ai_topics[tag] %}
+        {% endif %}
+      {% endfor %}
+      {% if topic_match %}
+      <link rel="preload" as="image" href="{{ topic_match }}">
+      {% elsif site.data.ai_images.featured[page.persona] %}
+      <link rel="preload" as="image" href="{{ site.data.ai_images.featured[page.persona] }}">
+      {% endif %}
+    {% endif %}
+  {% endif %}
+  
   <style>
     .logo-box {
       width: 40px;
@@ -41,36 +62,63 @@
       color: white;
     }
     
-    .countdown-label {
+    .header-countdown .countdown-label {
       font-size: 0.6875rem;
       text-transform: uppercase;
       letter-spacing: 0.1em;
-      opacity: 0.8;
+      opacity: 0.9;
       margin-right: 0.5rem;
+      color: rgba(255, 255, 255, 0.9);
     }
     
-    .countdown-item {
+    .header-countdown .countdown-item {
       text-align: center;
       min-width: 40px;
     }
     
-    .countdown-value {
+    .header-countdown .countdown-value {
       display: block;
       font-size: 1.25rem;
       font-weight: 800;
       line-height: 1;
       font-variant-numeric: tabular-nums;
+      color: #ffffff;
     }
     
-    .countdown-unit {
+    .header-countdown .countdown-unit {
       display: block;
       font-size: 0.625rem;
       text-transform: uppercase;
-      opacity: 0.7;
+      color: rgba(255, 255, 255, 0.7);
+    }
+    
+    /* Last Published badge */
+    .last-published-badge {
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+      padding: 0.5rem 1rem;
+      background: linear-gradient(135deg, #2d7d32, #1b5e20);
+      border-radius: 12px;
+      color: white;
+    }
+    
+    .last-published-badge .countdown-label {
+      font-size: 0.6875rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      opacity: 0.9;
+      color: rgba(255, 255, 255, 0.9);
+    }
+    
+    .last-published-badge #last-published {
+      font-weight: 600;
+      font-size: 0.9375rem;
     }
     
     @media (max-width: 768px) {
-      .header-countdown {
+      .header-countdown,
+      .last-published-badge {
         display: none;
       }
     }
@@ -102,6 +150,12 @@
             <span class="countdown-value" id="minutes">--</span>
             <span class="countdown-unit">Min</span>
           </div>
+        </div>
+        
+        <!-- Last Published - Unified with home layout -->
+        <div class="last-published-badge">
+          <span class="countdown-label">Last Story</span>
+          <span id="last-published">--</span>
         </div>
       </div>
       
@@ -154,8 +208,67 @@
       }
     }
     
+    // Update last published time from site posts data
+    function updateLastPublished() {
+      // Try to get from localStorage first (set by home page)
+      let lastPublished = localStorage.getItem('sb60_last_published');
+      
+      // If not in localStorage, try to parse from page data
+      if (!lastPublished) {
+        // Look for any post-time elements on the page
+        const postTimes = Array.from(document.querySelectorAll('.post-time, [data-post-time]')).map(el => {
+          return new Date(el.getAttribute('data-time') || el.getAttribute('data-post-time'));
+        }).filter(d => !isNaN(d));
+        
+        if (postTimes.length > 0) {
+          lastPublished = new Date(Math.max(...postTimes));
+          localStorage.setItem('sb60_last_published', lastPublished.toISOString());
+        }
+      } else {
+        lastPublished = new Date(lastPublished);
+      }
+      
+      if (!lastPublished || isNaN(lastPublished)) {
+        document.getElementById('last-published').textContent = '--';
+        return;
+      }
+      
+      const now = new Date();
+      const diffMs = now - lastPublished;
+      const diffMins = Math.floor(diffMs / (1000 * 60));
+      const diffHours = Math.floor(diffMs / (1000 * 60 * 60));
+      const diffDays = Math.floor(diffMs / (1000 * 60 * 60 * 24));
+      
+      let text;
+      if (diffMins < 1) {
+        text = 'Just now';
+      } else if (diffMins < 60) {
+        text = diffMins + 'm ago';
+      } else if (diffHours < 24) {
+        text = diffHours + 'h ago';
+      } else {
+        text = diffDays + 'd ago';
+      }
+      
+      const el = document.getElementById('last-published');
+      if (el) el.textContent = text;
+    }
+    
     updateCountdown();
+    updateLastPublished();
     setInterval(updateCountdown, 60000);
+    setInterval(updateLastPublished, 60000);
+    
+    // Store last published time when on home page for other pages to access
+    document.addEventListener('DOMContentLoaded', function() {
+      const featuredTime = document.querySelector('.featured-meta .post-time');
+      if (featuredTime) {
+        const timeData = featuredTime.getAttribute('data-time');
+        if (timeData) {
+          localStorage.setItem('sb60_last_published', timeData);
+        }
+      }
+    });
   </script>
 </body>
 </html>
