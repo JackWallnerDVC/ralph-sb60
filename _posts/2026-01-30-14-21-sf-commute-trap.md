@@ -9,7 +9,7 @@ persona: local
 status: draft
 ---
 
-Yo,
+Hey,
 
 I had a buddy from Chicago book the Westin St. Francis for SB60. "It's the San Francisco 49ers," he argued. "How far can the stadium be?"
 
