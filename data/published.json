@@ -144,16 +144,22 @@
       "author": "analyst",
       "date": "2026-01-30T11:17:32.107818+00:00",
       "url": "/2026/01/30/2026-01-30-11-17-aggression-index.html"
+    },
+    {
+      "title": "The Invisible Dome: Inside the SB60 Anti-Drone Net",
+      "author": "insider",
+      "date": "2026-01-30T11:31:27.609026+00:00",
+      "url": "/2026/01/30/2026-01-30-11-31-drone-shield.html"
     }
   ],
   "stats": {
-    "totalPosts": 21,
+    "totalPosts": 22,
     "postsByPersona": {
-      "insider": 10,
+      "insider": 11,
       "analyst": 7,
       "local": 3
     },
-    "lastPublish": "2026-01-30T11:17:32.107848+00:00",
+    "lastPublish": "2026-01-30T11:31:27.609056+00:00",
     "streakDays": 1
   }
 }
