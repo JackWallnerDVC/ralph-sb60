@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-# Ralph Publish Job - Publishes one draft every 6 hours
-# Triggered by cron, evaluates and publishes best draft
+# Ralph Publish Job - Evaluates drafts and publishes the best one
+# Uses AI to humanize/polish if rate limit allows
+# Runs every 6 hours via cron
 
 REPO_DIR="/Users/jackwallner/clawd/ralph-sb60"
 SCRIPT_DIR="/Users/jackwallner/clawd/skills/sb60-blog/scripts"
@@ -15,18 +16,17 @@ echo "Timestamp: $(date -u +"%Y-%m-%dT%H:%M:%SZ")" | tee -a "$LOG_FILE"
 
 cd "$REPO_DIR"
 
-# Check if we have drafts
+# Check draft count
 DRAFT_COUNT=$(ls -1 "$DRAFTS_DIR"/draft-*.md 2>/dev/null | wc -l | tr -d '[:space:]' || echo "0")
 echo "Drafts available: $DRAFT_COUNT" | tee -a "$LOG_FILE"
 
 if [[ "$DRAFT_COUNT" -eq 0 ]]; then
     echo "⚠️ No drafts to publish!" | tee -a "$LOG_FILE"
-    # Send alert to Discord/webhook here if configured
     echo "" | tee -a "$LOG_FILE"
     exit 1
 fi
 
-# Determine persona for this publish slot
+# Determine target persona for this time slot
 HOUR=$(date -u +"%H")
 case "$HOUR" in
     00|01|02|03|04|05) TARGET_PERSONA="insider" ;;
@@ -34,33 +34,41 @@ case "$HOUR" in
     12|13|14|15|16|17) TARGET_PERSONA="local" ;;
     *) TARGET_PERSONA="insider" ;;
 esac
-echo "Target persona for this slot: $TARGET_PERSONA" | tee -a "$LOG_FILE"
+echo "Target persona: $TARGET_PERSONA" | tee -a "$LOG_FILE"
 
-# Check rate limit for humanization/polish
+# Check rate limit for optional humanization
 RATE_STATUS=$($GATEWAY check)
-if [[ "$RATE_STATUS" == ALLOW ]]; then
-    echo "🎯 Rate limit clear. Running evaluate_and_publish with humanization..." | tee -a "$LOG_FILE"
+if [[ "$RATE_STATUS" == ALLOW && "$DRAFT_COUNT" -ge 2 ]]; then
+    # Plenty of drafts and rate limit clear - use AI to evaluate and polish
+    echo "🎯 Rate limit clear. Using AI to evaluate and humanize..." | tee -a "$LOG_FILE"
     $GATEWAY record
+    
+    # Run evaluate_and_publish which uses AI
     python3 "$SCRIPT_DIR/evaluate_and_publish.py" --persona "$TARGET_PERSONA" 2>&1 | tee -a "$LOG_FILE"
 else
-    echo "⚡ Rate limit active ($RATE_STATUS). Running publish without humanization..." | tee -a "$LOG_FILE"
-    # Fallback: publish best draft without AI polish
+    if [[ "$RATE_STATUS" == WAIT:* ]]; then
+        echo "⏳ Rate limit active. Publishing best draft without AI polish..." | tee -a "$LOG_FILE"
+    else
+        echo "📰 Only 1 draft. Publishing without AI polish to preserve it..." | tee -a "$LOG_FILE"
+    fi
+    
+    # Fallback: simple publish without AI
     python3 "$SCRIPT_DIR/publish_simple.py" --persona "$TARGET_PERSONA" 2>&1 | tee -a "$LOG_FILE" || true
 fi
 
-# Pull, build, commit, push
-echo "Building and deploying..." | tee -a "$LOG_FILE"
+# Build and deploy
+echo "🏗️ Building site..." | tee -a "$LOG_FILE"
 git pull origin main 2>&1 | tee -a "$LOG_FILE" || true
 
 if bundle exec jekyll build 2>&1 | tee -a "$LOG_FILE"; then
-    echo "✅ Jekyll build successful" | tee -a "$LOG_FILE"
+    echo "✅ Build successful" | tee -a "$LOG_FILE"
     
     git add _posts/ data/ .ralph/
     git commit -m "publish: Scheduled post - $(date -u +"%H:%M UTC")" 2>&1 | tee -a "$LOG_FILE" || true
     git push origin main 2>&1 | tee -a "$LOG_FILE"
-    echo "✅ Published and pushed!" | tee -a "$LOG_FILE"
+    echo "✅ Published and deployed!" | tee -a "$LOG_FILE"
 else
-    echo "❌ Jekyll build failed" | tee -a "$LOG_FILE"
+    echo "❌ Build failed" | tee -a "$LOG_FILE"
 fi
 
 echo "" | tee -a "$LOG_FILE"
