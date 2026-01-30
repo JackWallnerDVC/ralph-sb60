@@ -52918,3 +52918,965 @@ State updated: 5 drafts
 State updated: 5 drafts
 
 
+=== Ralph Draft Worker (Multi-AI) ===
+=== Ralph Draft Worker (Multi-AI) ===
+Timestamp: 2026-01-30T09:00:00 PST
+Timestamp: 2026-01-30T09:00:00 PST
+Drafts in queue: 3/5
+Drafts in queue: 3/5
+📝 Generating draft 4/5 as local
+📝 Generating draft 4/5 as local
+
+
+🧠 AI Call 1/3: Deep research...
+🧠 AI Call 1/3: Deep research...
+Warning: Input is not a terminal (fd=0).
+Warning: Input is not a terminal (fd=0).
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────────────
+Aider v0.86.1
+Aider v0.86.1
+Model: vertex_ai/gemini-3-pro-preview with whole edit format
+Model: vertex_ai/gemini-3-pro-preview with whole edit format
+Git repo: .git with 243 files
+Git repo: .git with 243 files
+Repo-map: using 4096 tokens, auto refresh
+Repo-map: using 4096 tokens, auto refresh
+Added .ralph/angle_local.json to the chat.
+Added .ralph/angle_local.json to the chat.
+Added .ralph/research_summary.json to the chat.
+Added .ralph/research_summary.json to the chat.
+Added .ralph/trends.json to the chat.
+Added .ralph/trends.json to the chat.
+Added _posts/2026-01-30-16-04-topic.md to the chat.
+Added _posts/2026-01-30-16-04-topic.md to the chat.
+Added _posts/2026-01-30-16-15-levis-microclimate.md to the chat.
+Added _posts/2026-01-30-16-15-levis-microclimate.md to the chat.
+Added _posts/2026-01-30-16-17-redzone-math.md to the chat.
+Added _posts/2026-01-30-16-17-redzone-math.md to the chat.
+Added _posts/2026-01-30-16-30-resident-lockdown.md to the chat.
+Added _posts/2026-01-30-16-30-resident-lockdown.md to the chat.
+Added _posts/2026-01-30-16-45-creek-trail.md to the chat.
+Added _posts/2026-01-30-16-45-creek-trail.md to the chat.
+Added personas.json to the chat.
+Added personas.json to the chat.
+
+
+
+
+.ralph/deep_research.json
+.ralph/deep_research.json
+Based on the priority recommendation in research_summary.json regarding the     
+"Tasman Drive Lockdown" and the matching angle in angle_local.json, I have      
+selected "The Tasman Trap" as the best angle.                                   
+
+Here is the updated .ralph/deep_research.json:                                  
+
+.ralph/deep_research.json                                                       
+
+Based on the priority recommendation in research_summary.json regarding the     
+"Tasman Drive Lockdown" and the matching angle in angle_local.json, I have      
+selected "The Tasman Trap" as the best angle.                                   
+
+Here is the updated .ralph/deep_research.json:                                  
+
+.ralph/deep_research.json                                                       
+
+                                                                                
+                                                                                
+@@ -1,9 +1,10 @@                                                                
+ {                                                                              
+   "angle": {                                                                   
+-    "headline": "The 16% Red Zone Gap: Pricing the TD Efficiency Disparity",   
+-    "angle": "The 49ers are converting 68% of red zone trips into touchdowns,  
+compared to their opponent's 52%. This 16% delta is the most significant        
+statistical mismatch of SB60. We analyze whether the market has adjusted for    
+this 'four-point swing' potential per red zone visit.",                         
+-    "topic": "49ers Quarterback Performance & Red Zone Efficiency"             
++    "headline": "The Tasman Trap: Surviving Phase II Closures",                
++    "angle": "The City just dropped the hammer: Tasman Drive is locked down    
+from Jan 28 to Feb 13. If you usually drive down Tasman to get to the Green Lot,
+you're driving into a wall. We're mapping the survival routes for locals and    
+visitors alike.",                                                               
++    "topic": "Super Bowl LX Phase II/III Road Closures & Tasman Drive Lockdown"
+   },                                                                           
+@@ -1,9 +1,10 @@                                                                
+ {                                                                              
+   "angle": {                                                                   
+-    "headline": "The 16% Red Zone Gap: Pricing the TD Efficiency Disparity",   
+-    "angle": "The 49ers are converting 68% of red zone trips into touchdowns,  
+compared to their opponent's 52%. This 16% delta is the most significant        
+statistical mismatch of SB60. We analyze whether the market has adjusted for    
+this 'four-point swing' potential per red zone visit.",                         
+-    "topic": "49ers Quarterback Performance & Red Zone Efficiency"             
++    "headline": "The Tasman Trap: Surviving Phase II Closures",                
++    "angle": "The City just dropped the hammer: Tasman Drive is locked down    
+from Jan 28 to Feb 13. If you usually drive down Tasman to get to the Green Lot,
+you're driving into a wall. We're mapping the survival routes for locals and    
+visitors alike.",                                                               
++    "topic": "Super Bowl LX Phase II/III Road Closures & Tasman Drive Lockdown"
+   },                                                                           
+-  "persona": "analyst",                                                        
++  "persona": "local",                                                          
+   "research": {                                                                
+     "specific_facts": [                                                        
+-  "persona": "analyst",                                                        
++  "persona": "local",                                                          
+   "research": {                                                                
+     "specific_facts": [                                                        
++      "Tasman Drive is fully closed to private vehicles from Convention Center 
+to Great America Parkway (Jan 28 - Feb 13).",                                   
++      "GPS apps (Waze/Google Maps) are currently showing the route as open,    
+leading to massive turn-around jams.",                                          
++      "The VTA Light Rail is the only vehicle allowed to cross the Tasman/Great
+America intersection.",                                                         
++      "Tasman Drive is fully closed to private vehicles from Convention Center 
+to Great America Parkway (Jan 28 - Feb 13).",                                   
++      "GPS apps (Waze/Google Maps) are currently showing the route as open,    
+leading to massive turn-around jams.",                                          
++      "The VTA Light Rail is the only vehicle allowed to cross the Tasman/Great
+America intersection.",                                                         
+-      "Opponent RZ Defense DVOA: Ranked 4th (Strong 'Bend Don't Break'         
+tendency).",                                                                    
+-      "49ers Run vs Pass ratio inside the 10: 55% Run / 45% Pass."             
++      "Tasman Drive is fully closed to private vehicles from Convention Center 
+to Great America Parkway (Jan 28 - Feb 13).",                                   
++      "GPS apps (Waze/Google Maps) are currently showing the route as open,    
+leading to massive turn-around jams.",                                          
++      "The VTA Light Rail is the only vehicle allowed to cross the Tasman/Great
+America intersection.",                                                         
++      "Rideshare drop-off zones have been pushed back to Mission College Blvd  
+(Mercado Center).",                                                             
++      "Lick Mill Blvd is the only viable east-west alternative for locals      
+avoiding the highway.",                                                         
++      "Walking from Mercado Center via the Creek Trail takes ~18 minutes vs 45 
+minutes in traffic."                                                            
+     ],                                                                         
+-      "Opponent RZ Defense DVOA: Ranked 4th (Strong 'Bend Don't Break'         
+tendency).",                                                                    
+-      "49ers Run vs Pass ratio inside the 10: 55% Run / 45% Pass."             
++      "Tasman Drive is fully closed to private vehicles from Convention Center 
+to Great America Parkway (Jan 28 - Feb 13).",                                   
++      "GPS apps (Waze/Google Maps) are currently showing the route as open,    
+leading to massive turn-around jams.",                                          
++      "The VTA Light Rail is the only vehicle allowed to cross the Tasman/Great
+America intersection.",                                                         
++      "Rideshare drop-off zones have been pushed back to Mission College Blvd  
+(Mercado Center).",                                                             
++      "Lick Mill Blvd is the only viable east-west alternative for locals      
+avoiding the highway.",                                                         
++      "Walking from Mercado Center via the Creek Trail takes ~18 minutes vs 45 
+minutes in traffic."                                                            
+     ],                                                                         
+     "sources_to_cite": [                                                       
+-      "Football Outsiders (DVOA Metrics)",                                     
+-      "Sharp Football Analysis (Red Zone Success Rates)",                      
+-      "Pro Football Reference (Season Splits)",                                
+-      "Next Gen Stats (Field Compression Metrics)"                             
++      "City of Santa Clara Traffic Advisory (Official)",                       
++      "VTA Service Alerts",                                                    
++      "Local residents stuck in the 'turn-around' loop",                       
++      "Parking attendants at Mercado Shopping Center"                          
+     ],                                                                         
+     "sources_to_cite": [                                                       
+-      "Football Outsiders (DVOA Metrics)",                                     
+-      "Sharp Football Analysis (Red Zone Success Rates)",                      
+-      "Pro Football Reference (Season Splits)",                                
+-      "Next Gen Stats (Field Compression Metrics)"                             
++      "City of Santa Clara Traffic Advisory (Official)",                       
++      "VTA Service Alerts",                                                    
++      "Local residents stuck in the 'turn-around' loop",                       
++      "Parking attendants at Mercado Shopping Center"                          
+     ],                                                                         
+     "key_quotes_stats": [                                                      
+-      "\"The 16% gap isn't just a stat; it's a four-point swing every time they
+cross the 20.\"",                                                               
+-      "\"Market pricing often ignores RZ efficiency in favor of total yardage  
+dominance.\"",                                                                  
+-      "\"The 8-yard end zone at Levi's favors power run games over vertical    
+passing in goal-to-go.\""                                                       
++      "\"If you usually drive down Tasman to get to the Green Lot, you're      
+driving into a wall.\"",                                                        
++      "\"The map you used last year is worthless.\"",                          
++      "\"Drivers are seeing 'Open' on their phones and 'Road Closed' on the    
+barricades.\"",                                                                 
+     "key_quotes_stats": [                                                      
+-      "\"The 16% gap isn't just a stat; it's a four-point swing every time they
+cross the 20.\"",                                                               
+-      "\"Market pricing often ignores RZ efficiency in favor of total yardage  
+dominance.\"",                                                                  
+-      "\"The 8-yard end zone at Levi's favors power run games over vertical    
+passing in goal-to-go.\""                                                       
++      "\"If you usually drive down Tasman to get to the Green Lot, you're      
+driving into a wall.\"",                                                        
++      "\"The map you used last year is worthless.\"",                          
++      "\"Drivers are seeing 'Open' on their phones and 'Road Closed' on the    
+barricades.\"",                                                                 
++      "\"The 'Tasman Trap' is adding an hour to commutes for anyone trusting   
+their GPS.\""                                                                   
+     ],                                                                         
+     "counter_arguments_to_address": [                                          
+-      "Opponent's defense tightens up significantly in the playoffs (Small     
+sample size variance).",                                                        
+-      "49ers rely on explosive plays from outside the 20 (Deebo/CMC YAC),      
+bypassing the Red Zone entirely."                                               
++      "\"I have a resident pass, I can get through.\" (Fact: Resident passes   
++      "\"The 'Tasman Trap' is adding an hour to commutes for anyone trusting   
+their GPS.\""                                                                   
+     ],                                                                         
+     "counter_arguments_to_address": [                                          
+-      "Opponent's defense tightens up significantly in the playoffs (Small     
+sample size variance).",                                                        
+-      "49ers rely on explosive plays from outside the 20 (Deebo/CMC YAC),      
+bypassing the Red Zone entirely."                                               
++      "\"I have a resident pass, I can get through.\" (Fact: Resident passes   
+get you into neighborhoods, not through the hard closure zone on Tasman).",     
++      "\"I'll just get dropped off at the Hilton.\" (Fact: The Hilton is inside
+the hard perimeter; only guests with specific credentials can enter)."          
+     ],                                                                         
+     "related_topics_for_context": [                                            
+-      "Prop Bet: Over 2.5 Field Goals (Opponent)",                             
+-      "Prop Bet: 49ers RB Anytime TD",                                         
+-      "Live Betting: Hammer SF Moneyline if they settle for FG on first drive  
+(Market overreaction)."                                                         
++      "San Tomas Aquino Creek Trail access points",                            
++      "VTA Light Rail frequency during lockdown",                              
++      "Mercado Shopping Center parking enforcement",                           
++      "Rideshare surge pricing zones"                                          
+     ]                                                                          
+   }                                                                            
+ }                                                                              
+                                                                                
+get you into neighborhoods, not through the hard closure zone on Tasman).",     
++      "\"I'll just get dropped off at the Hilton.\" (Fact: The Hilton is inside
+the hard perimeter; only guests with specific credentials can enter)."          
+     ],                                                                         
+     "related_topics_for_context": [                                            
+-      "Prop Bet: Over 2.5 Field Goals (Opponent)",                             
+-      "Prop Bet: 49ers RB Anytime TD",                                         
+-      "Live Betting: Hammer SF Moneyline if they settle for FG on first drive  
+(Market overreaction)."                                                         
++      "San Tomas Aquino Creek Trail access points",                            
++      "VTA Light Rail frequency during lockdown",                              
++      "Mercado Shopping Center parking enforcement",                           
++      "Rideshare surge pricing zones"                                          
+     ]                                                                          
+   }                                                                            
+ }                                                                              
+                                                                                
+
+
+Tokens: 12k sent, 608 received. Cost: $0.03 message, $0.03 session.
+Tokens: 12k sent, 608 received. Cost: $0.03 message, $0.03 session.
+Applied edit to .ralph/deep_research.json
+Applied edit to .ralph/deep_research.json
+
+
+🧠 AI Call 2/3: Creating outline...
+🧠 AI Call 2/3: Creating outline...
+Warning: Input is not a terminal (fd=0).
+Warning: Input is not a terminal (fd=0).
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────────────
+Aider v0.86.1
+Aider v0.86.1
+Model: vertex_ai/gemini-3-pro-preview with whole edit format
+Model: vertex_ai/gemini-3-pro-preview with whole edit format
+Git repo: .git with 243 files
+Git repo: .git with 243 files
+Repo-map: using 4096 tokens, auto refresh
+Repo-map: using 4096 tokens, auto refresh
+Added .ralph/angle_local.json to the chat.
+Added .ralph/angle_local.json to the chat.
+Added .ralph/deep_research.json to the chat.
+Added .ralph/deep_research.json to the chat.
+Added .ralph/research_summary.json to the chat.
+Added .ralph/research_summary.json to the chat.
+Added .ralph/trends.json to the chat.
+Added .ralph/trends.json to the chat.
+Added _posts/2026-01-30-16-04-topic.md to the chat.
+Added _posts/2026-01-30-16-04-topic.md to the chat.
+Added _posts/2026-01-30-16-15-levis-microclimate.md to the chat.
+Added _posts/2026-01-30-16-15-levis-microclimate.md to the chat.
+Added _posts/2026-01-30-16-17-redzone-math.md to the chat.
+Added _posts/2026-01-30-16-17-redzone-math.md to the chat.
+Added _posts/2026-01-30-16-30-resident-lockdown.md to the chat.
+Added _posts/2026-01-30-16-30-resident-lockdown.md to the chat.
+Added _posts/2026-01-30-16-45-creek-trail.md to the chat.
+Added _posts/2026-01-30-16-45-creek-trail.md to the chat.
+Added personas.json to the chat.
+Added personas.json to the chat.
+
+
+
+
+.ralph/outline.json
+.ralph/outline.json
+.ralph/outline.json                                                             
+.ralph/outline.json                                                             
+
+                                                                                
+@@ -1,6 +1,8 @@                                                                 
+ {                                                                              
+-  "hook": "The San Francisco 49ers are converting 68% of their red zone trips  
+into touchdowns compared to their opponent's 52%, creating a massive 16%        
+efficiency gap that the betting market has failed to price into the spread.",   
++  "hook": "The City of Santa Clara just dropped the hammer on commuters: Tasman
+Drive is officially locked down from January 28 to February 13, and if you're   
+trusting your GPS to get you to the stadium, you are driving straight into a    
+trap.",                                                                         
+   "sections": [                                                                
+     {                                                                          
+-      "title": "The 16% Efficiency Gap: A Four-Point Swing",                   
+
+                                                                                
+@@ -1,6 +1,8 @@                                                                 
+ {                                                                              
+-  "hook": "The San Francisco 49ers are converting 68% of their red zone trips  
+into touchdowns compared to their opponent's 52%, creating a massive 16%        
+efficiency gap that the betting market has failed to price into the spread.",   
++  "hook": "The City of Santa Clara just dropped the hammer on commuters: Tasman
+Drive is officially locked down from January 28 to February 13, and if you're   
+trusting your GPS to get you to the stadium, you are driving straight into a    
+trap.",                                                                         
+   "sections": [                                                                
+     {                                                                          
+-      "title": "The 16% Efficiency Gap: A Four-Point Swing",                   
++      "title": "The Tasman Wall: What 'Closed' Really Means",                  
+       "key_points": [                                                          
+-        "Contrast the 49ers' elite red zone execution with the opponent's      
+struggles.",                                                                    
+-        "Quantify the impact of this disparity in terms of Expected Points     
+Added (EPA).",                                                                  
+-        "Explain why traditional total yardage stats mask this specific        
+advantage."                                                                     
++        "Define the hard closure zone from Convention Center to Great America  
+Parkway.",                                                                      
++        "Clarify that this is a total lockdown for private vehicles, not a soft
++      "title": "The Tasman Wall: What 'Closed' Really Means",                  
+       "key_points": [                                                          
+-        "Contrast the 49ers' elite red zone execution with the opponent's      
+struggles.",                                                                    
+-        "Quantify the impact of this disparity in terms of Expected Points     
+Added (EPA).",                                                                  
+-        "Explain why traditional total yardage stats mask this specific        
+advantage."                                                                     
++        "Define the hard closure zone from Convention Center to Great America  
+Parkway.",                                                                      
++        "Clarify that this is a total lockdown for private vehicles, not a soft
+checkpoint.",                                                                   
++        "Highlight the extended duration of the closure (Jan 28 - Feb 13)."    
+       ],                                                                       
+       "stats_facts": [                                                         
+-        "49ers Season Red Zone TD Rate: 68% (Rank: Top 3).",                   
+-        "Opponent Season Red Zone TD Rate: 52% (Rank: Bottom 10).",            
+-        "The 16% difference implies ~1.12 Expected Points Added (EPA) advantage
+per red zone trip for San Francisco."                                           
++        "Tasman Drive is fully closed to private vehicles from Convention      
+Center to Great America Parkway.",                                              
+checkpoint.",                                                                   
++        "Highlight the extended duration of the closure (Jan 28 - Feb 13)."    
+       ],                                                                       
+       "stats_facts": [                                                         
+-        "49ers Season Red Zone TD Rate: 68% (Rank: Top 3).",                   
+-        "Opponent Season Red Zone TD Rate: 52% (Rank: Bottom 10).",            
+-        "The 16% difference implies ~1.12 Expected Points Added (EPA) advantage
+per red zone trip for San Francisco."                                           
++        "Tasman Drive is fully closed to private vehicles from Convention      
+Center to Great America Parkway.",                                              
++        "The closure runs continuously from Jan 28 through Feb 13.",           
++        "VTA Light Rail is the only vehicle allowed to cross the Tasman/Great  
+America intersection."                                                          
+       ],                                                                       
+-      "transition": "However, raw efficiency numbers collide with a unique     
+physical constraint at Levi's Stadium that changes the physics of the game."    
++      "transition": "While the physical barricades are immovable, the digital  
+world hasn't caught up yet, creating a massive headache for drivers."           
+     },                                                                         
+     {                                                                          
++        "The closure runs continuously from Jan 28 through Feb 13.",           
++        "VTA Light Rail is the only vehicle allowed to cross the Tasman/Great  
+America intersection."                                                          
+       ],                                                                       
+-      "transition": "However, raw efficiency numbers collide with a unique     
+physical constraint at Levi's Stadium that changes the physics of the game."    
++      "transition": "While the physical barricades are immovable, the digital  
+world hasn't caught up yet, creating a massive headache for drivers."           
+     },                                                                         
+     {                                                                          
+-      "title": "The 8-Yard Trap: Levi's Stadium Geometry",                     
++      "title": "Why Waze Will Fail You",                                       
+       "key_points": [                                                          
+-        "Detail the non-standard dimensions of the North End Zone.",           
+-        "Analyze how the shorter field compresses vertical passing windows.",  
+-        "Discuss the impact on offensive play-calling in goal-to-go            
+situations."                                                                    
++        "Explain the lag between physical closures and GPS app updates.",      
++        "Describe the 'turn-around loop' caused by false positives on maps.",  
+-      "title": "The 8-Yard Trap: Levi's Stadium Geometry",                     
++      "title": "Why Waze Will Fail You",                                       
+       "key_points": [                                                          
+-        "Detail the non-standard dimensions of the North End Zone.",           
+-        "Analyze how the shorter field compresses vertical passing windows.",  
+-        "Discuss the impact on offensive play-calling in goal-to-go            
+situations."                                                                    
++        "Explain the lag between physical closures and GPS app updates.",      
++        "Describe the 'turn-around loop' caused by false positives on maps.",  
++        "Warn about the time penalty for trusting the app blindly."            
+       ],                                                                       
+       "stats_facts": [                                                         
+-        "Levi's Stadium North End Zone is only 8 yards deep, 2 yards shorter   
+than the NFL standard.",                                                        
+-        "This 20% reduction in depth compresses vertical routes.",             
+-        "The geometry explicitly favors power run games over vertical passing  
+concepts in the red zone."                                                      
++        "GPS apps (Waze/Google Maps) are currently showing the route as open.",
++        "Drivers are seeing 'Open' on their phones while facing 'Road Closed'  
++        "Warn about the time penalty for trusting the app blindly."            
+       ],                                                                       
+       "stats_facts": [                                                         
+-        "Levi's Stadium North End Zone is only 8 yards deep, 2 yards shorter   
+than the NFL standard.",                                                        
+-        "This 20% reduction in depth compresses vertical routes.",             
+-        "The geometry explicitly favors power run games over vertical passing  
+concepts in the red zone."                                                      
++        "GPS apps (Waze/Google Maps) are currently showing the route as open.",
++        "Drivers are seeing 'Open' on their phones while facing 'Road Closed'  
+barricades.",                                                                   
++        "The 'Tasman Trap' is adding an hour to commutes for anyone forced into
+the U-turn loop."                                                               
+       ],                                                                       
+-      "transition": "This geometric quirk specifically amplifies the 49ers'    
+play-calling tendencies inside the 10-yard line."                               
++      "transition": "Once you realize you can't drive through, your instinct   
+will be to call a rideshare, but the old drop-off rules no longer apply."       
+     },                                                                         
+     {                                                                          
+barricades.",                                                                   
++        "The 'Tasman Trap' is adding an hour to commutes for anyone forced into
+the U-turn loop."                                                               
+       ],                                                                       
+-      "transition": "This geometric quirk specifically amplifies the 49ers'    
+play-calling tendencies inside the 10-yard line."                               
++      "transition": "Once you realize you can't drive through, your instinct   
+will be to call a rideshare, but the old drop-off rules no longer apply."       
+     },                                                                         
+     {                                                                          
+-      "title": "Power Over Finesse: The 55/45 Split",                          
++      "title": "The Rideshare Shuffle: Mercado is the New Front Gate",         
+       "key_points": [                                                          
+-        "Examine the 49ers' run/pass ratio inside the 10-yard line.",          
+-        "Explain why their personnel is better suited for the compressed       
+field.",                                                                        
+-        "Contrast this with the opponent's reliance on passing."               
++        "Detail the relocation of rideshare zones away from the stadium.",     
++        "Introduce the 'Mercado Hack' as the superior alternative.",           
++        "Compare the time cost of sitting in traffic vs. walking."             
+-      "title": "Power Over Finesse: The 55/45 Split",                          
++      "title": "The Rideshare Shuffle: Mercado is the New Front Gate",         
+       "key_points": [                                                          
+-        "Examine the 49ers' run/pass ratio inside the 10-yard line.",          
+-        "Explain why their personnel is better suited for the compressed       
+field.",                                                                        
+-        "Contrast this with the opponent's reliance on passing."               
++        "Detail the relocation of rideshare zones away from the stadium.",     
++        "Introduce the 'Mercado Hack' as the superior alternative.",           
++        "Compare the time cost of sitting in traffic vs. walking."             
+       ],                                                                       
+       "stats_facts": [                                                         
+-        "49ers Run vs Pass ratio inside the 10: 55% Run / 45% Pass.",          
+-        "San Francisco's reliance on the ground game mitigates the risks of the
+compressed end zone.",                                                          
+-        "The opponent's lower red zone efficiency correlates with a higher pass
+rate in tight windows."                                                         
++        "Rideshare drop-off zones have been pushed back to Mission College Blvd
+       ],                                                                       
+       "stats_facts": [                                                         
+-        "49ers Run vs Pass ratio inside the 10: 55% Run / 45% Pass.",          
+-        "San Francisco's reliance on the ground game mitigates the risks of the
+compressed end zone.",                                                          
+-        "The opponent's lower red zone efficiency correlates with a higher pass
+rate in tight windows."                                                         
++        "Rideshare drop-off zones have been pushed back to Mission College Blvd
+(Mercado Center).",                                                             
++        "Walking from Mercado Center via the Creek Trail takes ~18 minutes.",  
++        "Attempting to get closer via car adds ~45 minutes of gridlock time."  
+       ],                                                                       
+-      "transition": "While the offense looks dominant on paper, we must address
+the counter-argument regarding the opponent's defensive metrics."               
++      "transition": "If you think you can outsmart the system with a resident  
+pass or a hotel reservation, you need to read the fine print."                  
+     },                                                                         
+     {                                                                          
+-      "title": "The DVOA Factor: Opponent's Red Zone Defense",                 
+(Mercado Center).",                                                             
++        "Walking from Mercado Center via the Creek Trail takes ~18 minutes.",  
++        "Attempting to get closer via car adds ~45 minutes of gridlock time."  
+       ],                                                                       
+-      "transition": "While the offense looks dominant on paper, we must address
+the counter-argument regarding the opponent's defensive metrics."               
++      "transition": "If you think you can outsmart the system with a resident  
+pass or a hotel reservation, you need to read the fine print."                  
+     },                                                                         
+     {                                                                          
+-      "title": "The DVOA Factor: Opponent's Red Zone Defense",                 
++      "title": "Mythbusting: Your Pass Won't Save You",                        
+       "key_points": [                                                          
+-        "Acknowledge the opponent's strong defensive DVOA ranking.",           
+-        "Discuss the 'Bend Don't Break' philosophy and its playoff impact.",   
+-        "Counter with the 49ers' ability to bypass the red zone entirely."     
++        "Debunk the idea that resident passes grant thoroughfare access.",     
++        "Clarify the strict restrictions around the Hilton Santa Clara.",      
++        "Emphasize the lack of discretion for security personnel."             
++      "title": "Mythbusting: Your Pass Won't Save You",                        
+       "key_points": [                                                          
+-        "Acknowledge the opponent's strong defensive DVOA ranking.",           
+-        "Discuss the 'Bend Don't Break' philosophy and its playoff impact.",   
+-        "Counter with the 49ers' ability to bypass the red zone entirely."     
++        "Debunk the idea that resident passes grant thoroughfare access.",     
++        "Clarify the strict restrictions around the Hilton Santa Clara.",      
++        "Emphasize the lack of discretion for security personnel."             
+       ],                                                                       
+       "stats_facts": [                                                         
+-        "Opponent Red Zone Defense DVOA is Ranked 4th in the league.",         
+-        "The opponent's defense relies on a 'Bend Don't Break' tendency that   
+tightens inside the 20.",                                                       
+-        "49ers frequently rely on explosive plays from outside the 20 to bypass
+red zone friction."                                                             
++        "Resident passes get you into neighborhoods, not through the hard      
+closure zone on Tasman.",                                                       
++        "The Hilton Santa Clara is inside the hard perimeter; only guests with 
+specific credentials can enter.",                                               
++        "Security checkpoints are enforcing a zero-tolerance policy for        
+non-credentialed vehicles."                                                     
+       ],                                                                       
+-      "transition": "When we synthesize the efficiency gap, the stadium        
+geometry, and the defensive matchups, clear betting opportunities emerge."      
+       ],                                                                       
+       "stats_facts": [                                                         
+-        "Opponent Red Zone Defense DVOA is Ranked 4th in the league.",         
+-        "The opponent's defense relies on a 'Bend Don't Break' tendency that   
+tightens inside the 20.",                                                       
+-        "49ers frequently rely on explosive plays from outside the 20 to bypass
+red zone friction."                                                             
++        "Resident passes get you into neighborhoods, not through the hard      
+closure zone on Tasman.",                                                       
++        "The Hilton Santa Clara is inside the hard perimeter; only guests with 
+specific credentials can enter.",                                               
++        "Security checkpoints are enforcing a zero-tolerance policy for        
+non-credentialed vehicles."                                                     
+       ],                                                                       
+-      "transition": "When we synthesize the efficiency gap, the stadium        
+geometry, and the defensive matchups, clear betting opportunities emerge."      
++      "transition": "With the main artery severed and the loopholes closed,    
+there is only one viable route left for locals."                                
+     },                                                                         
+     {                                                                          
+-      "title": "Pricing the Edge: Prop Bets and Live Strategy",                
++      "title": "The Survival Route: Lick Mill and the Creek",                  
++      "transition": "With the main artery severed and the loopholes closed,    
+there is only one viable route left for locals."                                
+     },                                                                         
+     {                                                                          
+-      "title": "Pricing the Edge: Prop Bets and Live Strategy",                
++      "title": "The Survival Route: Lick Mill and the Creek",                  
+       "key_points": [                                                          
+-        "Identify specific prop bets that exploit the red zone disparity.",    
+-        "Suggest a live betting strategy based on the first drive outcome.",   
+-        "Highlight value in opponent field goal props."                        
++        "Identify Lick Mill Blvd as the only functional east-west driving      
+route.",                                                                        
++        "Promote the San Tomas Aquino Creek Trail as the pedestrian bypass.",  
++        "Summarize the strategy: Drop at Mercado, walk the Creek."             
+       ],                                                                       
+       "stats_facts": [                                                         
+-        "Market pricing often ignores red zone efficiency in favor of total    
+yardage dominance.",                                                            
+-        "Value detected in 'Over 2.5 Field Goals' for the opponent due to high 
+stall rate.",                                                                   
+-        "Live Betting Strategy: Hammer SF Moneyline if they settle for a FG on 
+the first drive, as the market often overreacts to early stalls."               
++        "Lick Mill Blvd is the only viable east-west alternative for locals    
+avoiding the highway.",                                                         
++        "The San Tomas Aquino Creek Trail connects Mercado directly to the     
+stadium perimeter.",                                                            
++        "This route bypasses the entire Tasman gridlock, saving estimated 40+  
+minutes."                                                                       
+       ]                                                                        
+     }                                                                          
+   ]                                                                            
+ }                                                                              
+                                                                                
+       "key_points": [                                                          
+-        "Identify specific prop bets that exploit the red zone disparity.",    
+-        "Suggest a live betting strategy based on the first drive outcome.",   
+-        "Highlight value in opponent field goal props."                        
++        "Identify Lick Mill Blvd as the only functional east-west driving      
+route.",                                                                        
++        "Promote the San Tomas Aquino Creek Trail as the pedestrian bypass.",  
++        "Summarize the strategy: Drop at Mercado, walk the Creek."             
+       ],                                                                       
+       "stats_facts": [                                                         
+-        "Market pricing often ignores red zone efficiency in favor of total    
+yardage dominance.",                                                            
+-        "Value detected in 'Over 2.5 Field Goals' for the opponent due to high 
+stall rate.",                                                                   
+-        "Live Betting Strategy: Hammer SF Moneyline if they settle for a FG on 
+the first drive, as the market often overreacts to early stalls."               
++        "Lick Mill Blvd is the only viable east-west alternative for locals    
+avoiding the highway.",                                                         
++        "The San Tomas Aquino Creek Trail connects Mercado directly to the     
+stadium perimeter.",                                                            
++        "This route bypasses the entire Tasman gridlock, saving estimated 40+  
+minutes."                                                                       
+       ]                                                                        
+     }                                                                          
+   ]                                                                            
+ }                                                                              
+                                                                                
+
+
+Tokens: 13k sent, 902 received. Cost: $0.04 message, $0.04 session.
+Tokens: 13k sent, 902 received. Cost: $0.04 message, $0.04 session.
+Applied edit to .ralph/outline.json
+Applied edit to .ralph/outline.json
+
+
+🧠 AI Call 3/3: Writing draft...
+🧠 AI Call 3/3: Writing draft...
+Warning: Input is not a terminal (fd=0).
+Warning: Input is not a terminal (fd=0).
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────────────
+Aider v0.86.1
+Aider v0.86.1
+Model: vertex_ai/gemini-3-pro-preview with whole edit format
+Model: vertex_ai/gemini-3-pro-preview with whole edit format
+Git repo: .git with 243 files
+Git repo: .git with 243 files
+Repo-map: using 4096 tokens, auto refresh
+Repo-map: using 4096 tokens, auto refresh
+Added .ralph/angle_local.json to the chat.
+Added .ralph/angle_local.json to the chat.
+Added .ralph/deep_research.json to the chat.
+Added .ralph/deep_research.json to the chat.
+Added .ralph/outline.json to the chat.
+Added .ralph/outline.json to the chat.
+Added .ralph/research_summary.json to the chat.
+Added .ralph/research_summary.json to the chat.
+Added .ralph/trends.json to the chat.
+Added .ralph/trends.json to the chat.
+Added _posts/2026-01-30-16-04-topic.md to the chat.
+Added _posts/2026-01-30-16-04-topic.md to the chat.
+Added _posts/2026-01-30-16-15-levis-microclimate.md to the chat.
+Added _posts/2026-01-30-16-15-levis-microclimate.md to the chat.
+Added _posts/2026-01-30-16-17-redzone-math.md to the chat.
+Added _posts/2026-01-30-16-30-resident-lockdown.md to the chat.
+Added _posts/2026-01-30-16-17-redzone-math.md to the chat.
+Added _posts/2026-01-30-16-30-resident-lockdown.md to the chat.
+Added _posts/2026-01-30-16-45-creek-trail.md to the chat.
+Added _posts/2026-01-30-16-45-creek-trail.md to the chat.
+Added personas.json to the chat.
+Added personas.json to the chat.
+
+
+.ralph/drafts/draft-20260130-0901-local-topic.md                                
+
+                                                                                
+---                                                                             
+                                                                                
+layout: post                                                                    
+                                                                                
+.ralph/drafts/draft-20260130-0901-local-topic.md                                
+
+                                                                                
+---                                                                             
+                                                                                
+layout: post                                                                    
+                                                                                
+title: "The Tasman Trap: Surviving Phase II Closures"                           
+                                                                                
+author: "Tony Moretti"                                                          
+                                                                                
+date: PLACEHOLDER                                                               
+                                                                                
+title: "The Tasman Trap: Surviving Phase II Closures"                           
+                                                                                
+author: "Tony Moretti"                                                          
+                                                                                
+date: PLACEHOLDER                                                               
+                                                                                
+tags: [local, traffic, logistics, stadium-guide, closures]                      
+                                                                                
+excerpt: "The City just dropped the hammer: Tasman Drive is locked down from Jan
+28 to Feb 13. If you usually drive down Tasman to get to the Green Lot, you're  
+driving into a wall."                                                           
+                                                                                
+persona: local                                                                  
+                                                                                
+status: draft                                                                   
+                                                                                
+---                                                                             
+                                                                                
+tags: [local, traffic, logistics, stadium-guide, closures]                      
+                                                                                
+excerpt: "The City just dropped the hammer: Tasman Drive is locked down from Jan
+28 to Feb 13. If you usually drive down Tasman to get to the Green Lot, you're  
+driving into a wall."                                                           
+                                                                                
+persona: local                                                                  
+                                                                                
+status: draft                                                                   
+                                                                                
+---                                                                             
+                                                                                
+                                                                                
+                                                                                
+The City of Santa Clara just dropped the hammer on commuters. As of this        
+morning, Tasman Drive is officially locked down from January 28 to February 13. 
+If you are trusting your GPS to get you to the stadium or even just across town,
+you are driving straight into a trap.                                           
+                                                                                
+                                                                                
+                                                                                
+## The Tasman Wall: What "Closed" Really Means                                  
+                                                                                
+                                                                                
+                                                                                
+We aren't talking about a few cones and a bored security guard waving people    
+through. This is a hard closure. The zone stretches from the Convention Center  
+                                                                                
+                                                                                
+The City of Santa Clara just dropped the hammer on commuters. As of this        
+morning, Tasman Drive is officially locked down from January 28 to February 13. 
+If you are trusting your GPS to get you to the stadium or even just across town,
+you are driving straight into a trap.                                           
+                                                                                
+                                                                                
+                                                                                
+## The Tasman Wall: What "Closed" Really Means                                  
+                                                                                
+                                                                                
+                                                                                
+We aren't talking about a few cones and a bored security guard waving people    
+through. This is a hard closure. The zone stretches from the Convention Center  
+all the way to Great America Parkway.                                           
+                                                                                
+                                                                                
+                                                                                
+For private vehicles, this is a total lockdown. The concrete barriers are up,   
+and the fencing is secured. The only vehicles allowed to cross the Tasman and   
+Great America intersection are VTA Light Rail trains. That is it. If you aren't 
+all the way to Great America Parkway.                                           
+                                                                                
+                                                                                
+                                                                                
+For private vehicles, this is a total lockdown. The concrete barriers are up,   
+and the fencing is secured. The only vehicles allowed to cross the Tasman and   
+Great America intersection are VTA Light Rail trains. That is it. If you aren't 
+on rails, you aren't crossing.                                                  
+                                                                                
+                                                                                
+                                                                                
+This isn't just a weekend inconvenience. This closure runs continuously through 
+February 13. The city needs the roadway to stage the security perimeter, the    
+broadcast compounds, and the pedestrian surge zones. While the physical         
+barricades are immovable, the digital world hasn't caught up yet, creating a    
+on rails, you aren't crossing.                                                  
+                                                                                
+                                                                                
+                                                                                
+This isn't just a weekend inconvenience. This closure runs continuously through 
+February 13. The city needs the roadway to stage the security perimeter, the    
+broadcast compounds, and the pedestrian surge zones. While the physical         
+barricades are immovable, the digital world hasn't caught up yet, creating a    
+massive headache for drivers.                                                   
+                                                                                
+                                                                                
+                                                                                
+## Why Waze Will Fail You                                                       
+                                                                                
+                                                                                
+                                                                                
+Here is the problem: GPS apps like Waze and Google Maps are currently showing   
+the route as open. The algorithms see the VTA trains moving and assume traffic  
+is flowing.                                                                     
+massive headache for drivers.                                                   
+                                                                                
+                                                                                
+                                                                                
+## Why Waze Will Fail You                                                       
+                                                                                
+                                                                                
+                                                                                
+Here is the problem: GPS apps like Waze and Google Maps are currently showing   
+the route as open. The algorithms see the VTA trains moving and assume traffic  
+is flowing.                                                                     
+                                                                                
+                                                                                
+                                                                                
+Drivers are seeing "Open" on their phones while staring at "Road Closed" signs  
+on the street. This creates what locals are calling the "turn-around loop." You 
+drive up to the checkpoint, get turned away by police, and get forced into a    
+U-turn that dumps you right back into the traffic you were trying to escape.    
+                                                                                
+                                                                                
+                                                                                
+Drivers are seeing "Open" on their phones while staring at "Road Closed" signs  
+on the street. This creates what locals are calling the "turn-around loop." You 
+drive up to the checkpoint, get turned away by police, and get forced into a    
+U-turn that dumps you right back into the traffic you were trying to escape.    
+                                                                                
+                                                                                
+                                                                                
+The "Tasman Trap" is adding an hour to commutes for anyone forced into this     
+loop. Once you realize you can't drive through, your instinct will be to call a 
+rideshare, but the old drop-off rules no longer apply.                          
+                                                                                
+                                                                                
+                                                                                
+## The Rideshare Shuffle: Mercado is the New Front Gate                         
+                                                                                
+                                                                                
+                                                                                
+The "Tasman Trap" is adding an hour to commutes for anyone forced into this     
+loop. Once you realize you can't drive through, your instinct will be to call a 
+rideshare, but the old drop-off rules no longer apply.                          
+                                                                                
+                                                                                
+                                                                                
+## The Rideshare Shuffle: Mercado is the New Front Gate                         
+                                                                                
+                                                                                
+                                                                                
+Forget getting dropped off at the front gate. The rideshare zones have been     
+pushed back significantly. The official drop-off points are now all the way back
+at Mission College Blvd, specifically near the Mercado Center.                  
+                                                                                
+                                                                                
+                                                                                
+This is actually a blessing in disguise if you know how to play it. The "Mercado
+Hack" is the superior alternative to sitting in gridlock. Have your driver drop 
+                                                                                
+                                                                                
+                                                                                
+Forget getting dropped off at the front gate. The rideshare zones have been     
+pushed back significantly. The official drop-off points are now all the way back
+at Mission College Blvd, specifically near the Mercado Center.                  
+                                                                                
+                                                                                
+                                                                                
+This is actually a blessing in disguise if you know how to play it. The "Mercado
+Hack" is the superior alternative to sitting in gridlock. Have your driver drop 
+you at the In-N-Out or the movie theater at Mercado.                            
+                                                                                
+                                                                                
+                                                                                
+From there, you walk. The San Tomas Aquino Creek Trail connects Mercado directly
+to the stadium perimeter. It is an 18-minute walk on a paved trail versus a     
+you at the In-N-Out or the movie theater at Mercado.                            
+                                                                                
+                                                                                
+                                                                                
+From there, you walk. The San Tomas Aquino Creek Trail connects Mercado directly
+to the stadium perimeter. It is an 18-minute walk on a paved trail versus a     
+45-minute wait in a car trying to inch closer to the barricades.                
+                                                                                
+                                                                                
+                                                                                
+## Mythbusting: Your Pass Won't Save You                                        
+                                                                                
+                                                                                
+                                                                                
+I have heard a lot of people saying, "I have a resident pass, I can get         
+through." Let me be clear: Resident passes get you into your neighborhood. They 
+45-minute wait in a car trying to inch closer to the barricades.                
+                                                                                
+                                                                                
+                                                                                
+## Mythbusting: Your Pass Won't Save You                                        
+                                                                                
+                                                                                
+                                                                                
+I have heard a lot of people saying, "I have a resident pass, I can get         
+through." Let me be clear: Resident passes get you into your neighborhood. They 
+do not grant you thoroughfare access through the hard closure zone on Tasman.   
+                                                                                
+                                                                                
+                                                                                
+do not grant you thoroughfare access through the hard closure zone on Tasman.   
+                                                                                
+                                                                                
+                                                                                
+The same goes for hotel guests. The Hilton Santa Clara is inside the hard       
+perimeter. Only guests with specific, high-level credentials can enter that zone
+with a vehicle. Showing a room key or a reservation confirmation on your phone  
+will not work. Security checkpoints are enforcing a zero-tolerance policy. If   
+you don't have the specific "Green Zone" vehicle credential, you are turning    
+around.                                                                         
+                                                                                
+                                                                                
+                                                                                
+## The Survival Route: Lick Mill and the Creek                                  
+                                                                                
+                                                                                
+                                                                                
+With the main artery severed and the loopholes closed, there is only one viable 
+route left for locals trying to move east-west without hitting the highway.     
+The same goes for hotel guests. The Hilton Santa Clara is inside the hard       
+perimeter. Only guests with specific, high-level credentials can enter that zone
+with a vehicle. Showing a room key or a reservation confirmation on your phone  
+will not work. Security checkpoints are enforcing a zero-tolerance policy. If   
+you don't have the specific "Green Zone" vehicle credential, you are turning    
+around.                                                                         
+                                                                                
+                                                                                
+                                                                                
+## The Survival Route: Lick Mill and the Creek                                  
+                                                                                
+                                                                                
+                                                                                
+With the main artery severed and the loopholes closed, there is only one viable 
+route left for locals trying to move east-west without hitting the highway.     
+                                                                                
+                                                                                
+                                                                                
+Lick Mill Blvd is your lifeline. It runs parallel to Tasman but sits far enough 
+south to avoid the hard closures. It is the only functional surface street for  
+crossing the area.                                                              
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+Lick Mill Blvd is your lifeline. It runs parallel to Tasman but sits far enough 
+south to avoid the hard closures. It is the only functional surface street for  
+crossing the area.                                                              
+                                                                                
+                                                                                
+                                                                                
+For getting to the game, stick to the strategy: Drop at Mercado, hit the San    
+Tomas Aquino Creek Trail, and walk right past the gridlock. You will be inside  
+the stadium with a beer in hand while everyone else is still arguing with a     
+traffic cop at the corner of Tasman and Great America.                          
+                                                                                
+                                                                                
+For getting to the game, stick to the strategy: Drop at Mercado, hit the San    
+Tomas Aquino Creek Trail, and walk right past the gridlock. You will be inside  
+the stadium with a beer in hand while everyone else is still arguing with a     
+traffic cop at the corner of Tasman and Great America.                          
+                                                                                
+
+
+Tokens: 13k sent, 954 received. Cost: $0.04 message, $0.04 session.
+Tokens: 13k sent, 954 received. Cost: $0.04 message, $0.04 session.
+
+
+.ralph/drafts/draft-20260130-0901-local-topic.md
+.ralph/drafts/draft-20260130-0901-local-topic.md
+Applied edit to .ralph/drafts/draft-20260130-0901-local-topic.md
+Applied edit to .ralph/drafts/draft-20260130-0901-local-topic.md
+State updated: 4 drafts
+State updated: 4 drafts
+
+

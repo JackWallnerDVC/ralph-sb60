@@ -240,16 +240,22 @@
       "author": "analyst",
       "date": "2026-01-30T08:48:52.902020-08:00",
       "url": "/2026/01/30/2026-01-30-08-48-over-under-trap.html"
+    },
+    {
+      "title": "The Tasman Trap: Surviving Phase II Closures",
+      "author": "local",
+      "date": "2026-01-30T09:05:01.852996-08:00",
+      "url": "/2026/01/30/2026-01-30-09-05-topic.html"
     }
   ],
   "stats": {
-    "totalPosts": 37,
+    "totalPosts": 38,
     "postsByPersona": {
       "insider": 14,
       "analyst": 11,
-      "local": 10
+      "local": 11
     },
-    "lastPublish": "2026-01-30T08:48:52.902085-08:00",
+    "lastPublish": "2026-01-30T09:05:01.853054-08:00",
     "streakDays": 1
   }
 }

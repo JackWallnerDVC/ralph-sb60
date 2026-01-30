@@ -86,3 +86,13 @@ Install missing gem executables with `bundle install`
 ❌ Build failed
 
 
+=== Ralph Threshold Publish Triggered ===
+=== Ralph Threshold Publish Triggered ===
+Timestamp: 2026-01-30T09:05:01 PST
+Timestamp: 2026-01-30T09:05:01 PST
+Drafts in queue: 5 (threshold: 5)
+Drafts in queue: 5 (threshold: 5)
+Target persona: local (balancing distribution)
+Target persona: local (balancing distribution)
+🎯 Running evaluate_and_publish...
+🎯 Running evaluate_and_publish...

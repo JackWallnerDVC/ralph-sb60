@@ -13800,3 +13800,1042 @@ The API provider has rate limited you. Try again later or check your quotas.
 The API provider has rate limited you. Try again later or check your quotas.
 Retrying in 0.2 seconds...
 Retrying in 0.2 seconds...
+.ralph/angle_local.json                                                         
+
+                                                                                
+@@ -1,4 +1,5 @@                                                                 
+.ralph/angle_local.json                                                         
+
+                                                                                
+@@ -1,4 +1,5 @@                                                                 
+     {                                                                          
+       "angle": "The Tasman Trap: Surviving Phase II Closures",                 
+       "description": "The City just dropped the hammer: Tasman Drive is locked 
+down from Jan 28 to Feb 13. If you usually drive down Tasman to get to the Green
+     {                                                                          
+       "angle": "The Tasman Trap: Surviving Phase II Closures",                 
+       "description": "The City just dropped the hammer: Tasman Drive is locked 
+down from Jan 28 to Feb 13. If you usually drive down Tasman to get to the Green
+                                                                                                                                                                
+
+Tokens: 8.7k sent, 671 received. Cost: $0.03 message, $0.03 session.
+Tokens: 8.7k sent, 671 received. Cost: $0.03 message, $0.03 session.
+Applied edit to .ralph/angle_local.json
+Applied edit to .ralph/angle_local.json
+
+
+📝 Compiling research summary...
+📝 Compiling research summary...
+✅ Research complete: 5 topics, 6 angles
+✅ Research complete: 5 topics, 6 angles
+
+
+=== Ralph Research Job (Multi-AI) ===
+=== Ralph Research Job (Multi-AI) ===
+Timestamp: 2026-01-30T08:50:01 PST
+Timestamp: 2026-01-30T08:50:01 PST
+🔍 Fetching raw data...
+🔍 Fetching raw data...
+
+📊 Found 3 trending topics
+
+📊 Found 3 trending topics
+Using cached trends (fresh)
+[
+  {
+    "text": "Looking forward to Super Bowl 60 at Levi's Stadium",
+    "query": "general"
+  },
+  {
+    "text": "NFL playoff picture taking shape for SB60",
+    "query": "playoffs"
+  },
+  {
+    "text": "Bay Area prepping for Super Bowl 2026",
+    "query": "local"
+  }
+]
+Using cached trends (fresh)
+[
+  {
+    "text": "Looking forward to Super Bowl 60 at Levi's Stadium",
+    "query": "general"
+  },
+  {
+    "text": "NFL playoff picture taking shape for SB60",
+    "query": "playoffs"
+  },
+  {
+    "text": "Bay Area prepping for Super Bowl 2026",
+    "query": "local"
+  }
+]
+🕵️‍♂️ Ralph is digging for real intel...
+   Checking Santa Clara City News...
+   Checking NFL Football Operations...
+⚠️ Failed to fetch NFL Football Operations: HTTP Error 404: Not Found
+   Checking 49ers Official News...
+✅ Secured 6 verified intelligence items.
+🕵️‍♂️ Ralph is digging for real intel...
+   Checking Santa Clara City News...
+   Checking NFL Football Operations...
+⚠️ Failed to fetch NFL Football Operations: HTTP Error 404: Not Found
+   Checking 49ers Official News...
+✅ Secured 6 verified intelligence items.
+
+
+🧠 AI Call 1/4: Analyzing trends...
+🧠 AI Call 1/4: Analyzing trends...
+Warning: Input is not a terminal (fd=0).
+Warning: Input is not a terminal (fd=0).
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────────────
+Aider v0.86.1
+Aider v0.86.1
+Model: vertex_ai/gemini-3-pro-preview with whole edit format
+Model: vertex_ai/gemini-3-pro-preview with whole edit format
+Git repo: .git with 240 files
+Git repo: .git with 240 files
+Repo-map: using 4096 tokens, auto refresh
+Repo-map: using 4096 tokens, auto refresh
+Added .ralph/real_intel.json to the chat.
+Added .ralph/real_intel.json to the chat.
+Added .ralph/trends.json to the chat.
+Added .ralph/trends.json to the chat.
+Added _posts/2026-01-30-16-17-redzone-math.md to the chat.
+Added _posts/2026-01-30-16-17-redzone-math.md to the chat.
+Added _posts/2026-01-30-16-30-resident-lockdown.md to the chat.
+Added _posts/2026-01-30-16-30-resident-lockdown.md to the chat.
+Added _posts/2026-01-30-16-45-creek-trail.md to the chat.
+Added _posts/2026-01-30-16-45-creek-trail.md to the chat.
+Added personas.json to the chat.
+Added personas.json to the chat.
+
+
+
+
+.ralph/analysis_1_topics.json
+.ralph/analysis_1_topics.json
+Based on the analysis of .ralph/trends.json (showing interest in local prep,    
+playoffs, and the event itself) and .ralph/real_intel.json (containing specific 
+news on road closures, security coordination, and team staffing), here is the   
+updated topics file.                                                            
+
+.ralph/analysis_1_topics.json                                                   
+
+                                                                                
+@@ -1,4 +1,5 @@                                                                 
+ {                                                                              
+Based on the analysis of .ralph/trends.json (showing interest in local prep,    
+playoffs, and the event itself) and .ralph/real_intel.json (containing specific 
+news on road closures, security coordination, and team staffing), here is the   
+updated topics file.                                                            
+
+.ralph/analysis_1_topics.json                                                   
+
+                                                                                
+@@ -1,4 +1,5 @@                                                                 
+ {                                                                              
+       "persona": "local",                                                      
+       "reason": "Specific intel on Tasman Drive closures starting Jan 28       
+       "persona": "local",                                                      
+       "reason": "Specific intel on Tasman Drive closures starting Jan 28       
+directly impacts the 'Local' persona's audience (residents/commuters). Matches  
+the 'Bay Area prepping' trend."                                                 
+     },                                                                         
+     {                                                                          
++   9 /  34 lines [███████░░░░░░░░░░░░░░░░░░░░░░░]  26%                         
+                                                                                directly impacts the 'Local' persona's audience (residents/commuters). Matches  
+the 'Bay Area prepping' trend."                                                 
+     },                                                                         
+     {                                                                          
++   9 /  34 lines [███████░░░░░░░░░░░░░░░░░░░░░░░]  26%                         
+                                                                                
+
+Tokens: 8.0k sent, 450 received. Cost: $0.02 message, $0.02 session.
+Tokens: 8.0k sent, 450 received. Cost: $0.02 message, $0.02 session.
+Applied edit to .ralph/analysis_1_topics.json
+Applied edit to .ralph/analysis_1_topics.json
+
+
+🧠 AI Call 2/4: Insider angles...
+🧠 AI Call 2/4: Insider angles...
+Warning: Input is not a terminal (fd=0).
+Warning: Input is not a terminal (fd=0).
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────────────
+Aider v0.86.1
+Model: vertex_ai/gemini-3-pro-preview with whole edit format
+Git repo: .git with 241 files
+Repo-map: using 4096 tokens, auto refresh
+Added .ralph/analysis_1_topics.json to the chat.
+Added .ralph/real_intel.json to the chat.
+Added .ralph/trends.json to the chat.
+Added _posts/2026-01-30-16-17-redzone-math.md to the chat.
+Added _posts/2026-01-30-16-30-resident-lockdown.md to the chat.
+Added _posts/2026-01-30-16-45-creek-trail.md to the chat.
+Added personas.json to the chat.
+Aider v0.86.1
+Model: vertex_ai/gemini-3-pro-preview with whole edit format
+Git repo: .git with 241 files
+Repo-map: using 4096 tokens, auto refresh
+Added .ralph/analysis_1_topics.json to the chat.
+Added .ralph/real_intel.json to the chat.
+Added .ralph/trends.json to the chat.
+Added _posts/2026-01-30-16-17-redzone-math.md to the chat.
+Added _posts/2026-01-30-16-30-resident-lockdown.md to the chat.
+Added _posts/2026-01-30-16-45-creek-trail.md to the chat.
+Added personas.json to the chat.
+
+
+
+
+.ralph/angle_insider.json
+.ralph/angle_insider.json
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 0.2 seconds...
+Retrying in 0.2 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 0.5 seconds...
+Retrying in 0.5 seconds...
+.ralph/angle_insider.json                                                       
+
+                                                                                
+@@ -1,4 +1,5 @@                                                                 
+.ralph/angle_insider.json                                                       
+
+                                                                                
+@@ -1,4 +1,5 @@                                                                 
+       "angle": "While the press release sings 'unity' between SF, San Mateo,   
+and Santa Clara agencies, my sources on the ground describe a turf war over     
+motorcade jurisdiction. The 'handshake' protocols for team buses crossing county
+lines are still being debated, which is unheard of this close to kickoff. If    
+they don't resolve the comms channel dispute, we could see a team bus stalled at
+a county line for 'security verification'.",                                    
+       "angle": "While the press release sings 'unity' between SF, San Mateo,   
+and Santa Clara agencies, my sources on the ground describe a turf war over     
+motorcade jurisdiction. The 'handshake' protocols for team buses crossing county
+lines are still being debated, which is unheard of this close to kickoff. If    
+they don't resolve the comms channel dispute, we could see a team bus stalled at
+a county line for 'security verification'.",                                    
+                                                                                                                                                                
+
+Tokens: 8.4k sent, 401 received. Cost: $0.02 message, $0.02 session.
+Tokens: 8.4k sent, 401 received. Cost: $0.02 message, $0.02 session.
+Applied edit to .ralph/angle_insider.json
+Applied edit to .ralph/angle_insider.json
+
+
+🧠 AI Call 3/4: Analyst angles...
+🧠 AI Call 3/4: Analyst angles...
+Warning: Input is not a terminal (fd=0).
+Warning: Input is not a terminal (fd=0).
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────────────
+Aider v0.86.1
+Aider v0.86.1
+Model: vertex_ai/gemini-3-pro-preview with whole edit format
+Model: vertex_ai/gemini-3-pro-preview with whole edit format
+Git repo: .git with 241 files
+Git repo: .git with 241 files
+Repo-map: using 4096 tokens, auto refresh
+Repo-map: using 4096 tokens, auto refresh
+Added .ralph/analysis_1_topics.json to the chat.
+Added .ralph/analysis_1_topics.json to the chat.
+Added .ralph/real_intel.json to the chat.
+Added .ralph/real_intel.json to the chat.
+Added .ralph/trends.json to the chat.
+Added .ralph/trends.json to the chat.
+Added _posts/2026-01-30-16-17-redzone-math.md to the chat.
+Added _posts/2026-01-30-16-17-redzone-math.md to the chat.
+Added _posts/2026-01-30-16-30-resident-lockdown.md to the chat.
+Added _posts/2026-01-30-16-30-resident-lockdown.md to the chat.
+Added _posts/2026-01-30-16-45-creek-trail.md to the chat.
+Added _posts/2026-01-30-16-45-creek-trail.md to the chat.
+Added personas.json to the chat.
+Added personas.json to the chat.
+
+
+
+
+.ralph/angle_analyst.json
+.ralph/angle_analyst.json
+.ralph/angle_analyst.json                                                       
+
+                                                                                
+@@ -1,4 +1,5 @@                                                                 
+.ralph/angle_analyst.json                                                       
+
+                                                                                
+@@ -1,4 +1,5 @@                                                                 
+       "title": "The 16% Red Zone Gap: Pricing the TD Efficiency Disparity",    
+       "description": "The 49ers are converting 68% of red zone trips into      
+touchdowns, compared to their opponent's 52%. This 16% delta is the most        
+significant statistical mismatch of SB60. We analyze whether the market has     
+       "title": "The 16% Red Zone Gap: Pricing the TD Efficiency Disparity",    
+       "description": "The 49ers are converting 68% of red zone trips into      
+touchdowns, compared to their opponent's 52%. This 16% delta is the most        
+significant statistical mismatch of SB60. We analyze whether the market has     
+                                                                                                                                                                
+
+Tokens: 8.7k sent, 669 received. Cost: $0.03 message, $0.03 session.
+Tokens: 8.7k sent, 669 received. Cost: $0.03 message, $0.03 session.
+Applied edit to .ralph/angle_analyst.json
+Applied edit to .ralph/angle_analyst.json
+
+
+🧠 AI Call 4/4: Local angles...
+🧠 AI Call 4/4: Local angles...
+Warning: Input is not a terminal (fd=0).
+Warning: Input is not a terminal (fd=0).
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────────────
+Aider v0.86.1
+Aider v0.86.1
+Model: vertex_ai/gemini-3-pro-preview with whole edit format
+Model: vertex_ai/gemini-3-pro-preview with whole edit format
+Git repo: .git with 241 files
+Git repo: .git with 241 files
+Repo-map: using 4096 tokens, auto refresh
+Repo-map: using 4096 tokens, auto refresh
+Added .ralph/analysis_1_topics.json to the chat.
+Added .ralph/analysis_1_topics.json to the chat.
+Added .ralph/real_intel.json to the chat.
+Added .ralph/real_intel.json to the chat.
+Added .ralph/trends.json to the chat.
+Added .ralph/trends.json to the chat.
+Added _posts/2026-01-30-16-17-redzone-math.md to the chat.
+Added _posts/2026-01-30-16-17-redzone-math.md to the chat.
+Added _posts/2026-01-30-16-30-resident-lockdown.md to the chat.
+Added _posts/2026-01-30-16-30-resident-lockdown.md to the chat.
+Added _posts/2026-01-30-16-45-creek-trail.md to the chat.
+Added _posts/2026-01-30-16-45-creek-trail.md to the chat.
+Added personas.json to the chat.
+Added personas.json to the chat.
+
+
+
+
+.ralph/angle_local.json
+.ralph/angle_local.json
+Based on the analysis in .ralph/analysis_1_topics.json, here is the updated     
+.ralph/angle_local.json focusing on the Tasman Drive lockdown, the security     
+perimeter's impact on dining, and the shifting tailgate landscape due to        
+infrastructure changes.                                                         
+
+.ralph/angle_local.json                                                         
+
+                                                                                
+@@ -1,4 +1,5 @@                                                                 
+Based on the analysis in .ralph/analysis_1_topics.json, here is the updated     
+.ralph/angle_local.json focusing on the Tasman Drive lockdown, the security     
+perimeter's impact on dining, and the shifting tailgate landscape due to        
+infrastructure changes.                                                         
+
+.ralph/angle_local.json                                                         
+
+                                                                                
+@@ -1,4 +1,5 @@                                                                 
+   "local_angles": [                                                            
+     {                                                                          
+       "angle": "The Tasman Trap: Surviving Phase II Closures",                 
+       "description": "The City just dropped the hammer: Tasman Drive is locked 
+   "local_angles": [                                                            
+     {                                                                          
+       "angle": "The Tasman Trap: Surviving Phase II Closures",                 
+       "description": "The City just dropped the hammer: Tasman Drive is locked 
+down from Jan 28 to Feb 13. If you usually drive down Tasman to get to the Green
+Lot, you're driving into a wall. We're mapping the survival routes for locals   
+and visitors alike.",                                                           
+       "venues": [                                                              
++   6 /  41 lines [████░░░░░░░░░░░░░░░░░░░░░░░░░░]  15%                         
+                                                                                down from Jan 28 to Feb 13. If you usually drive down Tasman to get to the Green
+Lot, you're driving into a wall. We're mapping the survival routes for locals   
+and visitors alike.",                                                           
+       "venues": [                                                              
++   6 /  41 lines [████░░░░░░░░░░░░░░░░░░░░░░░░░░]  15%                         
+                                                                                
+
+Tokens: 8.7k sent, 726 received. Cost: $0.03 message, $0.03 session.
+Tokens: 8.7k sent, 726 received. Cost: $0.03 message, $0.03 session.
+Applied edit to .ralph/angle_local.json
+Applied edit to .ralph/angle_local.json
+
+
+📝 Compiling research summary...
+📝 Compiling research summary...
+✅ Research complete: 5 topics, 6 angles
+✅ Research complete: 5 topics, 6 angles
+
+
+=== Ralph Research Job (Multi-AI) ===
+=== Ralph Research Job (Multi-AI) ===
+Timestamp: 2026-01-30T08:55:00 PST
+Timestamp: 2026-01-30T08:55:00 PST
+🔍 Fetching raw data...
+🔍 Fetching raw data...
+
+📊 Found 3 trending topics
+
+📊 Found 3 trending topics
+Using cached trends (fresh)
+[
+  {
+    "text": "Looking forward to Super Bowl 60 at Levi's Stadium",
+    "query": "general"
+  },
+  {
+    "text": "NFL playoff picture taking shape for SB60",
+    "query": "playoffs"
+  },
+  {
+    "text": "Bay Area prepping for Super Bowl 2026",
+    "query": "local"
+  }
+]
+Using cached trends (fresh)
+[
+  {
+    "text": "Looking forward to Super Bowl 60 at Levi's Stadium",
+    "query": "general"
+  },
+  {
+    "text": "NFL playoff picture taking shape for SB60",
+    "query": "playoffs"
+  },
+  {
+    "text": "Bay Area prepping for Super Bowl 2026",
+    "query": "local"
+  }
+]
+🕵️‍♂️ Ralph is digging for real intel...
+   Checking Santa Clara City News...
+   Checking NFL Football Operations...
+⚠️ Failed to fetch NFL Football Operations: HTTP Error 404: Not Found
+   Checking 49ers Official News...
+✅ Secured 6 verified intelligence items.
+🕵️‍♂️ Ralph is digging for real intel...
+   Checking Santa Clara City News...
+   Checking NFL Football Operations...
+⚠️ Failed to fetch NFL Football Operations: HTTP Error 404: Not Found
+   Checking 49ers Official News...
+✅ Secured 6 verified intelligence items.
+
+
+🧠 AI Call 1/4: Analyzing trends...
+🧠 AI Call 1/4: Analyzing trends...
+Warning: Input is not a terminal (fd=0).
+Warning: Input is not a terminal (fd=0).
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────────────
+Aider v0.86.1
+Aider v0.86.1
+Model: vertex_ai/gemini-3-pro-preview with whole edit format
+Model: vertex_ai/gemini-3-pro-preview with whole edit format
+Git repo: .git with 242 files
+Git repo: .git with 242 files
+Repo-map: using 4096 tokens, auto refresh
+Repo-map: using 4096 tokens, auto refresh
+Added .ralph/real_intel.json to the chat.
+Added .ralph/real_intel.json to the chat.
+Added .ralph/trends.json to the chat.
+Added .ralph/trends.json to the chat.
+Added _posts/2026-01-30-16-17-redzone-math.md to the chat.
+Added _posts/2026-01-30-16-17-redzone-math.md to the chat.
+Added _posts/2026-01-30-16-30-resident-lockdown.md to the chat.
+Added _posts/2026-01-30-16-30-resident-lockdown.md to the chat.
+Added _posts/2026-01-30-16-45-creek-trail.md to the chat.
+Added _posts/2026-01-30-16-45-creek-trail.md to the chat.
+Added personas.json to the chat.
+Added personas.json to the chat.
+
+
+
+
+.ralph/analysis_1_topics.json
+.ralph/analysis_1_topics.json
+Based on the analysis of .ralph/trends.json and .ralph/real_intel.json, here is 
+the updated topic analysis file.                                                
+
+.ralph/analysis_1_topics.json                                                   
+
+                                                                                
+@@ -1,4 +1,5 @@                                                                 
+ {                                                                              
+Based on the analysis of .ralph/trends.json and .ralph/real_intel.json, here is 
+the updated topic analysis file.                                                
+
+.ralph/analysis_1_topics.json                                                   
+
+                                                                                
+@@ -1,4 +1,5 @@                                                                 
+ {                                                                              
+       "persona": "local",                                                      
+       "reason": "Specific intel on Tasman Drive closures starting Jan 28       
+       "persona": "local",                                                      
+       "reason": "Specific intel on Tasman Drive closures starting Jan 28       
+directly impacts the 'Local' persona's audience (residents/commuters). Matches  
+the 'Bay Area prepping' trend."                                                 
+     },                                                                         
+     {                                                                          
++   9 /  34 lines [███████░░░░░░░░░░░░░░░░░░░░░░░]  26%                         
+                                                                                directly impacts the 'Local' persona's audience (residents/commuters). Matches  
+the 'Bay Area prepping' trend."                                                 
+     },                                                                         
+     {                                                                          
++   9 /  34 lines [███████░░░░░░░░░░░░░░░░░░░░░░░]  26%                         
+                                                                                
+
+Tokens: 8.0k sent, 420 received. Cost: $0.02 message, $0.02 session.
+Tokens: 8.0k sent, 420 received. Cost: $0.02 message, $0.02 session.
+Applied edit to .ralph/analysis_1_topics.json
+Applied edit to .ralph/analysis_1_topics.json
+
+
+🧠 AI Call 2/4: Insider angles...
+🧠 AI Call 2/4: Insider angles...
+Warning: Input is not a terminal (fd=0).
+Warning: Input is not a terminal (fd=0).
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────────────
+Aider v0.86.1
+Aider v0.86.1
+Model: vertex_ai/gemini-3-pro-preview with whole edit format
+Model: vertex_ai/gemini-3-pro-preview with whole edit format
+Git repo: .git with 243 files
+Git repo: .git with 243 files
+Repo-map: using 4096 tokens, auto refresh
+Repo-map: using 4096 tokens, auto refresh
+Added .ralph/analysis_1_topics.json to the chat.
+Added .ralph/analysis_1_topics.json to the chat.
+Added .ralph/real_intel.json to the chat.
+Added .ralph/real_intel.json to the chat.
+Added .ralph/trends.json to the chat.
+Added .ralph/trends.json to the chat.
+Added _posts/2026-01-30-16-17-redzone-math.md to the chat.
+Added _posts/2026-01-30-16-17-redzone-math.md to the chat.
+Added _posts/2026-01-30-16-30-resident-lockdown.md to the chat.
+Added _posts/2026-01-30-16-30-resident-lockdown.md to the chat.
+Added _posts/2026-01-30-16-45-creek-trail.md to the chat.
+Added _posts/2026-01-30-16-45-creek-trail.md to the chat.
+Added personas.json to the chat.
+Added personas.json to the chat.
+
+
+
+
+.ralph/angle_insider.json
+.ralph/angle_insider.json
+.ralph/angle_insider.json                                                       
+
+                                                                                
+.ralph/angle_insider.json                                                       
+
+                                                                                
+@@ -1,4 +1,5 @@                                                                 
+@@ -1,4 +1,5 @@                                                                 
+   "angles": [                                                                  
+     {                                                                          
+       "headline": "Sources: The 'Unified Command' Friction Behind the Scenes", 
+       "angle": "While the press release sings 'unity' between SF, San Mateo,   
+and Santa Clara agencies, my sources on the ground describe a turf war over     
+motorcade jurisdiction. The 'handshake' protocols for team buses crossing county
+   "angles": [                                                                  
+     {                                                                          
+       "headline": "Sources: The 'Unified Command' Friction Behind the Scenes", 
+       "angle": "While the press release sings 'unity' between SF, San Mateo,   
+and Santa Clara agencies, my sources on the ground describe a turf war over     
+motorcade jurisdiction. The 'handshake' protocols for team buses crossing county
+                                                                                                                                                                
+
+Tokens: 8.4k sent, 401 received. Cost: $0.02 message, $0.02 session.
+Tokens: 8.4k sent, 401 received. Cost: $0.02 message, $0.02 session.
+Applied edit to .ralph/angle_insider.json
+Applied edit to .ralph/angle_insider.json
+
+
+🧠 AI Call 3/4: Analyst angles...
+🧠 AI Call 3/4: Analyst angles...
+Warning: Input is not a terminal (fd=0).
+Warning: Input is not a terminal (fd=0).
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────────────
+Aider v0.86.1
+Aider v0.86.1
+Model: vertex_ai/gemini-3-pro-preview with whole edit format
+Model: vertex_ai/gemini-3-pro-preview with whole edit format
+Git repo: .git with 243 files
+Git repo: .git with 243 files
+Repo-map: using 4096 tokens, auto refresh
+Repo-map: using 4096 tokens, auto refresh
+Added .ralph/analysis_1_topics.json to the chat.
+Added .ralph/analysis_1_topics.json to the chat.
+Added .ralph/real_intel.json to the chat.
+Added .ralph/real_intel.json to the chat.
+Added .ralph/trends.json to the chat.
+Added .ralph/trends.json to the chat.
+Added _posts/2026-01-30-16-17-redzone-math.md to the chat.
+Added _posts/2026-01-30-16-17-redzone-math.md to the chat.
+Added _posts/2026-01-30-16-30-resident-lockdown.md to the chat.
+Added _posts/2026-01-30-16-30-resident-lockdown.md to the chat.
+Added _posts/2026-01-30-16-45-creek-trail.md to the chat.
+Added _posts/2026-01-30-16-45-creek-trail.md to the chat.
+Added personas.json to the chat.
+Added personas.json to the chat.
+
+
+
+
+.ralph/angle_analyst.json
+.ralph/angle_analyst.json
+.ralph/angle_analyst.json                                                       
+
+                                                                                
+@@ -1,4 +1,5 @@                                                                 
+.ralph/angle_analyst.json                                                       
+
+                                                                                
+@@ -1,4 +1,5 @@                                                                 
+       "title": "The 16% Red Zone Gap: Pricing the TD Efficiency Disparity",    
+       "description": "The 49ers are converting 68% of red zone trips into      
+touchdowns, compared to their opponent's 52%. This 16% delta is the most        
+significant statistical mismatch of SB60. We analyze whether the market has     
+       "title": "The 16% Red Zone Gap: Pricing the TD Efficiency Disparity",    
+       "description": "The 49ers are converting 68% of red zone trips into      
+touchdowns, compared to their opponent's 52%. This 16% delta is the most        
+significant statistical mismatch of SB60. We analyze whether the market has     
+     },                                                                         
+     {                                                                          
+       "title": "The Kubiak Continuity: Betting the 'Scripted' First Quarter",  
+     },                                                                         
+     {                                                                          
+       "title": "The Kubiak Continuity: Betting the 'Scripted' First Quarter",  
+                                                                                                                                                                
+
+Tokens: 8.7k sent, 669 received. Cost: $0.03 message, $0.03 session.
+Tokens: 8.7k sent, 669 received. Cost: $0.03 message, $0.03 session.
+Applied edit to .ralph/angle_analyst.json
+Applied edit to .ralph/angle_analyst.json
+
+
+🧠 AI Call 4/4: Local angles...
+🧠 AI Call 4/4: Local angles...
+Warning: Input is not a terminal (fd=0).
+Warning: Input is not a terminal (fd=0).
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────────────
+Aider v0.86.1
+Aider v0.86.1
+Model: vertex_ai/gemini-3-pro-preview with whole edit format
+Model: vertex_ai/gemini-3-pro-preview with whole edit format
+Git repo: .git with 243 files
+Git repo: .git with 243 files
+Repo-map: using 4096 tokens, auto refresh
+Repo-map: using 4096 tokens, auto refresh
+Added .ralph/analysis_1_topics.json to the chat.
+Added .ralph/analysis_1_topics.json to the chat.
+Added .ralph/real_intel.json to the chat.
+Added .ralph/real_intel.json to the chat.
+Added .ralph/trends.json to the chat.
+Added .ralph/trends.json to the chat.
+Added _posts/2026-01-30-16-17-redzone-math.md to the chat.
+Added _posts/2026-01-30-16-17-redzone-math.md to the chat.
+Added _posts/2026-01-30-16-30-resident-lockdown.md to the chat.
+Added _posts/2026-01-30-16-30-resident-lockdown.md to the chat.
+Added _posts/2026-01-30-16-45-creek-trail.md to the chat.
+Added _posts/2026-01-30-16-45-creek-trail.md to the chat.
+Added personas.json to the chat.
+Added personas.json to the chat.
+
+
+
+
+.ralph/angle_local.json
+.ralph/angle_local.json
+.ralph/angle_local.json                                                         
+
+                                                                                
+.ralph/angle_local.json                                                         
+
+                                                                                
+@@ -1,4 +1,5 @@                                                                 
+@@ -1,4 +1,5 @@                                                                 
+       "description": "The City just dropped the hammer: Tasman Drive is locked 
+down from Jan 28 to Feb 13. If you usually drive down Tasman to get to the Green
+Lot, you're driving into a wall. We're mapping the survival routes for locals   
+and visitors alike.",                                                           
+       "description": "The City just dropped the hammer: Tasman Drive is locked 
+down from Jan 28 to Feb 13. If you usually drive down Tasman to get to the Green
+Lot, you're driving into a wall. We're mapping the survival routes for locals   
+and visitors alike.",                                                           
+                                                                                                                                                                
+
+Tokens: 8.7k sent, 671 received. Cost: $0.03 message, $0.03 session.
+Tokens: 8.7k sent, 671 received. Cost: $0.03 message, $0.03 session.
+Applied edit to .ralph/angle_local.json
+Applied edit to .ralph/angle_local.json
+
+
+📝 Compiling research summary...
+📝 Compiling research summary...
+✅ Research complete: 5 topics, 6 angles
+✅ Research complete: 5 topics, 6 angles
+
+
+=== Ralph Research Job (Multi-AI) ===
+=== Ralph Research Job (Multi-AI) ===
+Timestamp: 2026-01-30T09:00:00 PST
+Timestamp: 2026-01-30T09:00:00 PST
+🔍 Fetching raw data...
+🔍 Fetching raw data...
+
+📊 Found 3 trending topics
+
+📊 Found 3 trending topics
+Using cached trends (fresh)
+[
+  {
+    "text": "Looking forward to Super Bowl 60 at Levi's Stadium",
+    "query": "general"
+  },
+  {
+    "text": "NFL playoff picture taking shape for SB60",
+    "query": "playoffs"
+  },
+  {
+    "text": "Bay Area prepping for Super Bowl 2026",
+    "query": "local"
+  }
+]
+Using cached trends (fresh)
+[
+  {
+    "text": "Looking forward to Super Bowl 60 at Levi's Stadium",
+    "query": "general"
+  },
+  {
+    "text": "NFL playoff picture taking shape for SB60",
+    "query": "playoffs"
+  },
+  {
+    "text": "Bay Area prepping for Super Bowl 2026",
+    "query": "local"
+  }
+]
+🕵️‍♂️ Ralph is digging for real intel...
+   Checking Santa Clara City News...
+   Checking NFL Football Operations...
+⚠️ Failed to fetch NFL Football Operations: HTTP Error 404: Not Found
+   Checking 49ers Official News...
+✅ Secured 6 verified intelligence items.
+🕵️‍♂️ Ralph is digging for real intel...
+   Checking Santa Clara City News...
+   Checking NFL Football Operations...
+⚠️ Failed to fetch NFL Football Operations: HTTP Error 404: Not Found
+   Checking 49ers Official News...
+✅ Secured 6 verified intelligence items.
+
+
+🧠 AI Call 1/4: Analyzing trends...
+🧠 AI Call 1/4: Analyzing trends...
+  ⏱️  Waiting 13s for rate limit...
+Warning: Input is not a terminal (fd=0).
+Warning: Input is not a terminal (fd=0).
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────────────
+Aider v0.86.1
+Model: vertex_ai/gemini-3-pro-preview with whole edit format
+Git repo: .git with 243 files
+Repo-map: using 4096 tokens, auto refresh
+Added .ralph/real_intel.json to the chat.
+Added .ralph/trends.json to the chat.
+Added _posts/2026-01-30-16-17-redzone-math.md to the chat.
+Added _posts/2026-01-30-16-30-resident-lockdown.md to the chat.
+Added _posts/2026-01-30-16-45-creek-trail.md to the chat.
+Added personas.json to the chat.
+Aider v0.86.1
+Model: vertex_ai/gemini-3-pro-preview with whole edit format
+Git repo: .git with 243 files
+Repo-map: using 4096 tokens, auto refresh
+Added .ralph/real_intel.json to the chat.
+Added .ralph/trends.json to the chat.
+Added _posts/2026-01-30-16-17-redzone-math.md to the chat.
+Added _posts/2026-01-30-16-30-resident-lockdown.md to the chat.
+Added _posts/2026-01-30-16-45-creek-trail.md to the chat.
+Added personas.json to the chat.
+
+
+
+
+.ralph/analysis_1_topics.json
+.ralph/analysis_1_topics.json
+.ralph/analysis_1_topics.json                                                   
+.ralph/analysis_1_topics.json                                                   
+
+                                                                                
+@@ -2,5 +2,6 @@                                                                 
+   "top_topics": [                                                              
+     {                                                                          
+
+                                                                                
+@@ -2,5 +2,6 @@                                                                 
+   "top_topics": [                                                              
+     {                                                                          
+uniting for security protocols fits the 'Insider' focus on stadium logistics and
+uniting for security protocols fits the 'Insider' focus on stadium logistics and
+                                                                                                                                                                
+
+Tokens: 8.0k sent, 390 received. Cost: $0.02 message, $0.02 session.
+Tokens: 8.0k sent, 390 received. Cost: $0.02 message, $0.02 session.
+Applied edit to .ralph/analysis_1_topics.json
+Applied edit to .ralph/analysis_1_topics.json
+
+
+🧠 AI Call 2/4: Insider angles...
+🧠 AI Call 2/4: Insider angles...
+  ⏱️  Waiting 5s for rate limit...
+Warning: Input is not a terminal (fd=0).
+Warning: Input is not a terminal (fd=0).
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────────────
+Aider v0.86.1
+Aider v0.86.1
+Model: vertex_ai/gemini-3-pro-preview with whole edit format
+Model: vertex_ai/gemini-3-pro-preview with whole edit format
+Git repo: .git with 243 files
+Git repo: .git with 243 files
+Repo-map: using 4096 tokens, auto refresh
+Repo-map: using 4096 tokens, auto refresh
+Added .ralph/analysis_1_topics.json to the chat.
+Added .ralph/analysis_1_topics.json to the chat.
+Added .ralph/real_intel.json to the chat.
+Added .ralph/real_intel.json to the chat.
+Added .ralph/trends.json to the chat.
+Added .ralph/trends.json to the chat.
+Added _posts/2026-01-30-16-17-redzone-math.md to the chat.
+Added _posts/2026-01-30-16-17-redzone-math.md to the chat.
+Added _posts/2026-01-30-16-30-resident-lockdown.md to the chat.
+Added _posts/2026-01-30-16-30-resident-lockdown.md to the chat.
+Added _posts/2026-01-30-16-45-creek-trail.md to the chat.
+Added _posts/2026-01-30-16-45-creek-trail.md to the chat.
+Added personas.json to the chat.
+Added personas.json to the chat.
+
+
+
+
+.ralph/angle_insider.json
+.ralph/angle_insider.json
+.ralph/angle_insider.json                                                       
+
+                                                                                
+@@ -1,4 +1,5 @@                                                                 
+.ralph/angle_insider.json                                                       
+
+                                                                                
+@@ -1,4 +1,5 @@                                                                 
+       "angle": "While the press release sings 'unity' between SF, San Mateo,   
+and Santa Clara agencies, my sources on the ground describe a turf war over     
+motorcade jurisdiction. The 'handshake' protocols for team buses crossing county
+lines are still being debated, which is unheard of this close to kickoff. If    
+they don't resolve the comms channel dispute, we could see a team bus stalled at
+a county line for 'security verification'.",                                    
+       "angle": "While the press release sings 'unity' between SF, San Mateo,   
+and Santa Clara agencies, my sources on the ground describe a turf war over     
+motorcade jurisdiction. The 'handshake' protocols for team buses crossing county
+lines are still being debated, which is unheard of this close to kickoff. If    
+they don't resolve the comms channel dispute, we could see a team bus stalled at
+a county line for 'security verification'.",                                    
+                                                                                                                                                                
+
+Tokens: 8.4k sent, 402 received. Cost: $0.02 message, $0.02 session.
+Tokens: 8.4k sent, 402 received. Cost: $0.02 message, $0.02 session.
+Applied edit to .ralph/angle_insider.json
+Applied edit to .ralph/angle_insider.json
+
+
+🧠 AI Call 3/4: Analyst angles...
+🧠 AI Call 3/4: Analyst angles...
+  ⏱️  Waiting 14s for rate limit...
+Warning: Input is not a terminal (fd=0).
+Warning: Input is not a terminal (fd=0).
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────────────
+Aider v0.86.1
+Aider v0.86.1
+Model: vertex_ai/gemini-3-pro-preview with whole edit format
+Model: vertex_ai/gemini-3-pro-preview with whole edit format
+Git repo: .git with 243 files
+Git repo: .git with 243 files
+Repo-map: using 4096 tokens, auto refresh
+Repo-map: using 4096 tokens, auto refresh
+Added .ralph/analysis_1_topics.json to the chat.
+Added .ralph/analysis_1_topics.json to the chat.
+Added .ralph/real_intel.json to the chat.
+Added .ralph/real_intel.json to the chat.
+Added .ralph/trends.json to the chat.
+Added .ralph/trends.json to the chat.
+Added _posts/2026-01-30-16-17-redzone-math.md to the chat.
+Added _posts/2026-01-30-16-17-redzone-math.md to the chat.
+Added _posts/2026-01-30-16-30-resident-lockdown.md to the chat.
+Added _posts/2026-01-30-16-30-resident-lockdown.md to the chat.
+Added _posts/2026-01-30-16-45-creek-trail.md to the chat.
+Added _posts/2026-01-30-16-45-creek-trail.md to the chat.
+Added personas.json to the chat.
+Added personas.json to the chat.
+
+
+
+
+.ralph/angle_analyst.json
+.ralph/angle_analyst.json
+.ralph/angle_analyst.json                                                       
+
+.ralph/angle_analyst.json                                                       
+
+                                                                                
+@@ -1,4 +1,5 @@                                                                 
+                                                                                
+@@ -1,4 +1,5 @@                                                                 
+     {                                                                          
+       "title": "The 16% Red Zone Gap: Pricing the TD Efficiency Disparity",    
+       "description": "The 49ers are converting 68% of red zone trips into      
+touchdowns, compared to their opponent's 52%. This 16% delta is the most        
+     {                                                                          
+       "title": "The 16% Red Zone Gap: Pricing the TD Efficiency Disparity",    
+       "description": "The 49ers are converting 68% of red zone trips into      
+touchdowns, compared to their opponent's 52%. This 16% delta is the most        
+                                                                                                                                                                
+
+Tokens: 8.7k sent, 669 received. Cost: $0.03 message, $0.03 session.
+Tokens: 8.7k sent, 669 received. Cost: $0.03 message, $0.03 session.
+Applied edit to .ralph/angle_analyst.json
+Applied edit to .ralph/angle_analyst.json
+
+
+🧠 AI Call 4/4: Local angles...
+🧠 AI Call 4/4: Local angles...
+Warning: Input is not a terminal (fd=0).
+Warning: Input is not a terminal (fd=0).
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────────────
+Aider v0.86.1
+Aider v0.86.1
+Model: vertex_ai/gemini-3-pro-preview with whole edit format
+Model: vertex_ai/gemini-3-pro-preview with whole edit format
+Git repo: .git with 245 files
+Git repo: .git with 245 files
+Repo-map: using 4096 tokens, auto refresh
+Repo-map: using 4096 tokens, auto refresh
+Added .ralph/analysis_1_topics.json to the chat.
+Added .ralph/analysis_1_topics.json to the chat.
+Added .ralph/real_intel.json to the chat.
+Added .ralph/real_intel.json to the chat.
+Added .ralph/trends.json to the chat.
+Added .ralph/trends.json to the chat.
+Added _posts/2026-01-30-16-17-redzone-math.md to the chat.
+Added _posts/2026-01-30-16-17-redzone-math.md to the chat.
+Added _posts/2026-01-30-16-30-resident-lockdown.md to the chat.
+Added _posts/2026-01-30-16-30-resident-lockdown.md to the chat.
+Added _posts/2026-01-30-16-45-creek-trail.md to the chat.
+Added _posts/2026-01-30-16-45-creek-trail.md to the chat.
+Added personas.json to the chat.
+Added personas.json to the chat.
+
+
+
+
+.ralph/angle_local.json
+.ralph/angle_local.json
+.ralph/angle_local.json                                                         
+
+                                                                                
+@@ -1,4 +1,5 @@                                                                 
+.ralph/angle_local.json                                                         
+
+                                                                                
+@@ -1,4 +1,5 @@                                                                 
+     {                                                                          
+       "angle": "The Tasman Trap: Surviving Phase II Closures",                 
+       "description": "The City just dropped the hammer: Tasman Drive is locked 
+down from Jan 28 to Feb 13. If you usually drive down Tasman to get to the Green
+     {                                                                          
+       "angle": "The Tasman Trap: Surviving Phase II Closures",                 
+       "description": "The City just dropped the hammer: Tasman Drive is locked 
+down from Jan 28 to Feb 13. If you usually drive down Tasman to get to the Green
+                                                                                                                                                                
+
+Tokens: 8.8k sent, 672 received. Cost: $0.03 message, $0.03 session.
+Tokens: 8.8k sent, 672 received. Cost: $0.03 message, $0.03 session.
+Applied edit to .ralph/angle_local.json
+Applied edit to .ralph/angle_local.json
+
+
+📝 Compiling research summary...
+📝 Compiling research summary...
+✅ Research complete: 5 topics, 6 angles
+✅ Research complete: 5 topics, 6 angles
+
+
+=== Ralph Research Job (Multi-AI) ===
+=== Ralph Research Job (Multi-AI) ===
+Timestamp: 2026-01-30T09:05:01 PST
+Timestamp: 2026-01-30T09:05:01 PST
+🔍 Fetching raw data...
+🔍 Fetching raw data...
+
+📊 Found 3 trending topics
+
+📊 Found 3 trending topics
+Using cached trends (fresh)
+[
+  {
+    "text": "Looking forward to Super Bowl 60 at Levi's Stadium",
+    "query": "general"
+  },
+  {
+    "text": "NFL playoff picture taking shape for SB60",
+    "query": "playoffs"
+  },
+  {
+    "text": "Bay Area prepping for Super Bowl 2026",
+    "query": "local"
+  }
+]
+Using cached trends (fresh)
+[
+  {
+    "text": "Looking forward to Super Bowl 60 at Levi's Stadium",
+    "query": "general"
+  },
+  {
+    "text": "NFL playoff picture taking shape for SB60",
+    "query": "playoffs"
+  },
+  {
+    "text": "Bay Area prepping for Super Bowl 2026",
+    "query": "local"
+  }
+]
