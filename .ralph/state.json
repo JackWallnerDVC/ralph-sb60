@@ -1,9 +1,9 @@
 {
   "mode": "job_based",
-  "lastActivity": "2026-01-30T10:45:59+0000",
+  "lastActivity": "2026-01-30T11:01:38+0000",
   "draftsInQueue": 0,
   "drafts": [],
-  "lastPublish": "2026-01-30T10:46:00.185887+00:00",
+  "lastPublish": "2026-01-30T11:01:38.363175+00:00",
   "targetQueueSize": 5,
   "currentPersona": "analyst",
   "researchTopics": [
@@ -35,7 +35,7 @@
   "lastTransition": "2026-01-30T00:57:15.103424Z",
   "apiCooldownSeconds": 180,
   "targetDrafts": 5,
-  "lastDraftAt": "2026-01-30T17:30:00+0000",
+  "lastDraftAt": "2026-01-30T11:00:38.178312Z",
   "lastResearch": "2026-01-30T01:00:04.204689Z",
   "trendsAvailable": true
 }
