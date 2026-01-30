@@ -1,0 +1,40 @@
+{
+  "angles": [
+    {
+      "title": "Super Bowl 60 MVP: The Overlooked Running Back Value",
+      "description": "Dig into historical MVP trends, weather impact on passing vs. rushing EPA, and usage rate anomalies to identify undervalued running back MVP candidates. Explore prop bet opportunities.",
+      "stats_to_research": [
+        "Historical Super Bowl MVP winners (position, stats)",
+        "Weather data impact on passing/rushing EPA",
+        "Running back usage rates in specific weather conditions",
+        "Red zone target share for running backs",
+        "Current MVP odds for quarterbacks vs. running backs"
+      ],
+      "betting_insights": "Identify discrepancies between implied probability and actual player usage/performance projections. Focus on +EV (expected value) prop bets related to rushing yards, touchdowns, and receptions."
+    },
+    {
+      "title": "The Underdog Advantage: Identifying Historical Betting Patterns",
+      "description": "Analyze historical Super Bowl betting data to uncover patterns related to underdog performance. Examine point spreads, money lines, and over/under trends to identify potential edges.",
+      "stats_to_research": [
+        "Super Bowl underdog win/loss records",
+        "Average point spread differential in Super Bowl games",
+        "Over/under performance in Super Bowls with similar weather conditions",
+        "Impact of key injuries on betting lines",
+        "Public betting percentages vs. final outcomes"
+      ],
+      "betting_insights": "Determine if there are statistically significant advantages to betting on underdogs in specific Super Bowl scenarios. Quantify the potential ROI (return on investment) based on historical data."
+    },
+    {
+      "title": "The Coaching Strategy X-Factor: Quantifying Aggressiveness",
+      "description": "Develop a data-driven approach to quantify coaching aggressiveness (4th down attempts, play-calling tendencies). Correlate coaching style with team performance and betting outcomes.",
+      "stats_to_research": [
+        "4th down conversion rates for each team",
+        "Play-calling tendencies in various game situations (down, distance, score)",
+        "Historical data on coaching decisions in Super Bowls",
+        "Correlation between coaching aggressiveness and win probability",
+        "Impact of coaching changes on team performance"
+      ],
+      "betting_insights": "Assess how coaching decisions influence in-game betting opportunities. Identify situations where a team's coaching style creates a predictable betting edge."
+    }
+  ]
+}

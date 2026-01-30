@@ -1,0 +1,34 @@
+{
+  "top_topics": [
+    {
+      "topic": "Super Bowl 60 at Levi's Stadium",
+      "momentum": "rising",
+      "persona": "local",
+      "reason": "Multiple news sources and general excitement point to increasing interest in the event itself, fitting the 'local' persona's focus on the fan experience and Santa Clara."
+    },
+    {
+      "topic": "NFL playoff picture for SB60",
+      "momentum": "rising",
+      "persona": "analyst",
+      "reason": "The 'analyst' persona focuses on team statistics, comparisons, and odds, which are directly related to the evolving playoff picture."
+    },
+    {
+      "topic": "Bay Area prepping for Super Bowl 2026",
+      "momentum": "rising",
+      "persona": "insider",
+      "reason": "The 'insider' persona covers stadium logistics, operations, and the broader impact on the Bay Area, aligning with preparations for the event."
+    },
+    {
+      "topic": "49ers RedZone Runners",
+      "momentum": "stable",
+      "persona": "analyst",
+      "reason": "Recent articles highlight the 49ers' running game, which can be analyzed statistically, fitting the 'analyst' persona."
+    },
+    {
+      "topic": "Super Bowl LX Emergency Preparedness",
+      "momentum": "stable",
+      "persona": "insider",
+      "reason": "Emergency preparedness falls under the 'insider' persona's coverage of security, operations, and logistics surrounding the Super Bowl."
+    }
+  ]
+}

@@ -43,7 +43,7 @@ esac
 
 echo "📝 Generating draft $((DRAFT_COUNT + 1))/5 as $PERSONA" | tee -a "$LOG_FILE"
 
-AIDER_CMD="aider --model vertex_ai/gemini-2.0-flash-exp --no-auto-commits --no-show-model-warnings --yes-always --exit"
+AIDER_CMD="/usr/local/bin/aider --model vertex_ai/gemini-2.0-flash-exp --no-auto-commits --no-show-model-warnings --yes-always --exit"
 RESEARCH_FILES=".ralph/research_summary.json .ralph/angle_${PERSONA}.json .ralph/trends.json personas.json"
 for f in $(ls -1 _posts/*.md 2>/dev/null | tail -5); do
     RESEARCH_FILES="$RESEARCH_FILES $f"
@@ -77,7 +77,7 @@ $AIDER_CMD $RESEARCH_FILES .ralph/deep_research.json .ralph/outline.json --messa
 
 # Update state
 NEW_COUNT=$(ls -1 "$DRAFTS_DIR"/draft-*.md 2>/dev/null | wc -l | tr -d '[:space:]')
-python3 << EOF 2>&1 | tee -a "$LOG_FILE"
+python3 -c "
 import json
 import datetime
 
@@ -93,7 +93,7 @@ state['lastDraftAt'] = datetime.datetime.utcnow().isoformat() + 'Z'
 with open('.ralph/state.json', 'w') as f:
     json.dump(state, f, indent=2)
 
-print(f"✅ Draft worker complete: {NEW_COUNT} drafts in queue")
-EOF
+print(f'State updated: $NEW_COUNT drafts')
+" 2>&1 | tee -a "$LOG_FILE"
 
 echo "" | tee -a "$LOG_FILE"

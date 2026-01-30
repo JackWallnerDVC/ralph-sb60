@@ -47,7 +47,7 @@ if [[ "$RATE_STATUS" == ALLOW && "$DRAFT_COUNT" -ge 2 ]]; then
     $GATEWAY record
     
     # Run evaluate_and_publish which uses AI
-    python3 "$SCRIPT_DIR/evaluate_and_publish.py" --persona "$TARGET_PERSONA" 2>&1 | tee -a "$LOG_FILE"
+    /Library/Frameworks/Python.framework/Versions/3.8/bin/python3 "$SCRIPT_DIR/evaluate_and_publish.py" --persona "$TARGET_PERSONA" 2>&1 | tee -a "$LOG_FILE"
 else
     if [[ "$RATE_STATUS" == WAIT:* ]]; then
         echo "⏳ Rate limit active. Publishing best draft without AI polish..." | tee -a "$LOG_FILE"

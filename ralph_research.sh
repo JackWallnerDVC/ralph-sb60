@@ -25,7 +25,7 @@ echo "🔍 Fetching raw data..." | tee -a "$LOG_FILE"
 python3 "$SCRIPT_DIR/get_trends.py" --no-ai 2>&1 | tee -a "$LOG_FILE" || true
 python3 "$SCRIPT_DIR/fetch_intel.py" 2>&1 | tee -a "$LOG_FILE" || true
 
-AIDER_CMD="aider --model vertex_ai/gemini-2.0-flash-exp --no-auto-commits --no-show-model-warnings --yes-always --exit"
+AIDER_CMD="/usr/local/bin/aider --model vertex_ai/gemini-2.0-flash-exp --no-auto-commits --no-show-model-warnings --yes-always --exit"
 FILES=".ralph/trends.json .ralph/real_intel.json personas.json"
 for f in $(ls -1 _posts/*.md 2>/dev/null | tail -3); do
     FILES="$FILES $f"
