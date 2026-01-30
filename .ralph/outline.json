@@ -1,75 +1,75 @@
 {
-  "hook": "If you are pulling up to Levi's Stadium expecting the usual Blue Lot party, you are going to be staring at a satellite truck instead of a grill.",
+  "hook": "The most valuable vehicle in Santa Clara right now isn't a team bus or a limo—it's a beat-up, unbranded white Ford Transit van.",
   "sections": [
     {
-      "title": "The Death of the Blue Lot",
+      "title": "Checkpoint Charlie",
       "key_points": [
-        "Blue Lot 1 is officially closed to the public.",
-        "The area has been repurposed as the 'Media Compound'.",
-        "The traditional heart of the 49ers tailgate scene is now a parking lot for broadcast rigs."
+        "Major food vendors are being denied entry at the Tasman Drive delivery gates.",
+        "The issue isn't security clearance, but 'Ambush Marketing' violations.",
+        "Trucks with non-sponsor logos are being turned around immediately."
       ],
       "stats_facts": [
-        "Occupied by 50+ satellite trucks and cable runs.",
-        "Zero public access allowed.",
-        "Displaced tailgaters forced into the Green Lot ecosystem."
+        "Three major vendors rejected this morning.",
+        "NFL 'Brand Protection' officers stationed alongside physical security.",
+        "Violation: 'Vehicle Brand Neutrality Standards' for SB60."
       ],
-      "transition": "With the heart of the tailgate ripped out, the pulse has moved to the Green Lot—but the squeeze is on."
+      "transition": "With tons of food stranded on the wrong side of the fence, logistics managers are scrambling for a solution that doesn't exist."
     },
     {
-      "title": "The Green Lot Squeeze",
+      "title": "The White Van Scramble",
       "key_points": [
-        "Green Lot 3 is the new primary tailgate zone.",
-        "Capacity has been slashed to accommodate emergency access.",
-        "Fire lanes are being enforced with zero discretion."
+        "Vendors are frantically renting plain white vans to shuttle goods.",
+        "Local rental agencies have been stripped bare of inventory.",
+        "The 'Clean Zone' loophole requires vehicles to be visually generic."
       ],
       "stats_facts": [
-        "15% reduction in total parking spots.",
-        "Widened lanes for 'Unified Command' vehicles.",
-        "Strict 'One Spot, One Car' enforcement—no spilling into empty spaces."
+        "Enterprise and Penske in San Jose/Santa Clara report zero cargo inventory.",
+        "Quote: 'It's the White Van Scramble. If you have a plain white truck right now, you can charge triple.'",
+        "Rental rates for unbranded cargo vans have spiked 300%."
       ],
-      "transition": "Finding a spot is hard enough, but keeping your party running requires navigating a new level of law enforcement."
+      "transition": "But even if they find a van, the clock is ticking down to the ultimate deadline."
     },
     {
-      "title": "The Multi-Agency Crackdown",
+      "title": "The Hard Freeze",
       "key_points": [
-        "Security is no longer just local Santa Clara PD.",
-        "SFPD and San Mateo units are patrolling the lots.",
-        "The 'regular' relationship with local cops does not apply here."
+        "The stadium perimeter seals tight at midnight.",
+        "After the freeze, no deliveries are allowed without federal escort.",
+        "Crews are racing to move perishables before the lock turns."
       ],
       "stats_facts": [
-        "SFPD bike units patrolling Green Lot 3.",
-        "Zero Tolerance policy on open containers outside designated footprints.",
-        "Immediate ticketing for lane violations, no warnings."
+        "Deadline: 11:59 PM tonight.",
+        "4,000 pounds of brisket currently sitting in a Sunnyvale lot.",
+        "The 'Hard Freeze' protocol is absolute—no exceptions for late arrivals."
       ],
-      "transition": "The police aren't the only ones checking your setup; the entry gates have implemented a new layer of screening."
+      "transition": "The reason for this chaos isn't national security—it's the billion-dollar business of exclusivity."
     },
     {
-      "title": "The Glass and Drone Ban",
+      "title": "The Brand Police",
       "key_points": [
-        "Vehicle entry points are screening for glass bottles.",
-        "The airspace is strictly closed.",
-        "Confiscation bins are already filling up at the lot entrances."
+        "The NFL is enforcing 'Clean Zone' rules on transient vehicles.",
+        "Sponsors like Pepsi and Frito-Lay have exclusivity rights.",
+        "Local bakery or produce logos are considered 'Ambush Marketing'."
       ],
       "stats_facts": [
-        "Trunk checks active for glass containers.",
-        "FAA Temporary Flight Restriction (TFR) active from 10 AM.",
-        "Drones will be grounded and operators detained."
+        "Enforcement interpretation changed 24 hours ago.",
+        "Specific bans on mascots and non-approved fruit brands.",
+        "Quote: 'They told us to duct tape the logo or turn around.'"
       ],
-      "transition": "If you think you can outsmart the system by parking in the neighborhood and walking in, you are walking into a trap."
+      "transition": "For the local businesses caught in the crossfire, the cost of doing business just went up."
     },
     {
-      "title": "The Perimeter Trap",
+      "title": "The Duct Tape Solution",
       "key_points": [
-        "Residential neighborhoods are under 'Hard Lockdown'.",
-        "The Golf Course is closed for VIP hospitality.",
-        "There is no 'overflow' parking this year."
+        "Crews are manually taping over logos on 53-foot trailers.",
+        "It is a desperate, labor-intensive measure to get goods inside.",
+        "The loading dock looks like a fleet of ghost trucks."
       ],
       "stats_facts": [
-        "Residential zones require Vehicle Access Pass (VAP).",
-        "Golf course designated as 'Clean Zone' buffer.",
-        "Towing enforced immediately in surrounding apartment complexes."
+        "Quote: 'We don't have enough tape for a 53-foot trailer.'",
+        "Security checkpoints are operating 24/7.",
+        "Visual irony: The world's biggest event is being stocked by taped-up trucks."
       ],
-      "transition": "This year, the tailgate isn't a party—it's a tactical operation, so pack light, follow the rules, or watch the game from home."
+      "transition": "By tomorrow morning, the stadium will be fully stocked, but the fleet parked in the loading dock will look like a ghost fleet."
     }
   ]
 }

@@ -282,16 +282,22 @@
       "author": "local",
       "date": "2026-01-30T14:06:08.111165-08:00",
       "url": "/2026/01/30/2026-01-30-14-06-topic.html"
+    },
+    {
+      "title": "The Halftime Freeze: Why the 3rd Quarter is a Scoring Wasteland",
+      "author": "analyst",
+      "date": "2026-01-30T14:42:21.771501-08:00",
+      "url": "/2026/01/30/2026-01-30-14-42-halftime-freeze.html"
     }
   ],
   "stats": {
-    "totalPosts": 44,
+    "totalPosts": 45,
     "postsByPersona": {
       "insider": 14,
-      "analyst": 14,
+      "analyst": 15,
       "local": 14
     },
-    "lastPublish": "2026-01-30T14:06:08.111206-08:00",
+    "lastPublish": "2026-01-30T14:42:21.771529-08:00",
     "streakDays": 1
   }
 }

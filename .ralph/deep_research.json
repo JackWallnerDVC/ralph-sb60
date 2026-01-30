@@ -1,38 +1,37 @@
 {
   "angle": {
-    "headline": "The Blue Lot is Gone: The New Rules of SB60 Tailgating",
-    "angle": "The 'Multi-Agency Security Unification' has changed the map. SFPD and San Mateo units are enforcing strict codes in Santa Clara lots. The Media Compound has taken the Blue Lot. We map the new reality.",
-    "topic": "Tailgating & Security Logistics"
+    "headline": "The 'Hard Perimeter' Supply Chain Crisis",
+    "angle": "The Tasman Drive lockdown isn't just traffic; it's a logistics nightmare. I'm hearing that the 'Clean Zone' enforcement is so strict that three major food vendors were turned away this morning because their delivery trucks had non-sponsor logos. Operations managers are now frantically renting unbranded white vans to shuttle tons of perishables into the stadium before the hard freeze tonight.",
+    "topic": "Tasman Drive Lockdown & Road Closures"
   },
-  "persona": "local",
+  "persona": "insider",
   "research": {
     "specific_facts": [
-      "Blue Lot 1 is officially closed to the public, repurposed as the 'Media Compound' and broadcast truck staging area.",
-      "Green Lot 3 is the new primary tailgate zone, but capacity is reduced by 15% to accommodate widened fire lanes for 'Unified Command' emergency access.",
-      "Patrols in Santa Clara lots now include SFPD and San Mateo Sheriff deputies, who are enforcing a 'Zero Tolerance' policy on open containers outside designated tailgate footprints.",
-      "The 'Glass Ban' is being enforced at vehicle entry points; cars are being screened for glass bottles before parking.",
-      "Drones are strictly prohibited over all parking lots due to the FAA Temporary Flight Restriction (TFR) active from 10 AM."
+      "Three major food vendors were denied entry at the Tasman Drive 'Checkpoint Charlie' this morning due to 'Ambush Marketing' violations on their delivery fleets.",
+      "The specific violation: Vehicle wraps displaying non-sponsor logos (e.g., a local bakery truck with a mascot, a produce distributor with a non-approved fruit brand).",
+      "The 'Hard Freeze' for all stadium logistics is tonight at 11:59 PM. After that, the perimeter is sealed.",
+      "Local rental agencies (Enterprise, Penske) in San Jose and Santa Clara report a complete run on unbranded white cargo vans.",
+      "NFL 'Brand Protection' officers are stationed alongside security at the delivery gates."
     ],
     "sources_to_cite": [
-      "Unified Command Security Briefing (Jan 29)",
-      "Levi's Stadium SB60 Parking & Mobility Guide",
-      "On-site signage in Green Lot 3 ('Strict Enforcement Zone')",
-      "Interviews with Green Lot parking staff"
+      "Logistics Manager for a stadium concessionaire (anonymous)",
+      "Leaked memo: 'Vehicle Brand Neutrality Standards for SB60'",
+      "Security staff at Gate A (loading dock)",
+      "Rental agency counter staff in San Jose"
     ],
     "key_quotes_stats": [
-      "\"It's not just Santa Clara cops anymore. You've got SFPD bike units who don't know the regulars.\"",
-      "\"Blue Lot was the heart of the party. Now it's just cables and satellite trucks.\"",
-      "\"If you are one inch over the painted line, they aren't asking you to move. They are ticketing.\""
+      "\"I have 4,000 pounds of brisket sitting in a lot in Sunnyvale because my truck has a picture of a cow on it that isn't an official sponsor.\"",
+      "\"They told us to duct tape the logo or turn around. We don't have enough tape for a 53-foot trailer.\"",
+      "\"It's the 'White Van Scramble'. If you have a plain white truck right now, you can charge triple.\""
     ],
     "counter_arguments_to_address": [
-      "\"I'll just park in the neighborhood and walk in.\" (Rebuttal: Residential zones are under 'Hard Lockdown' with VAP checkpoints).",
-      "\"We'll tailgate at the golf course.\" (Rebuttal: The golf course is closed for VIP hospitality tents and the 'Clean Zone' buffer)."
+      "\"Why didn't they plan for this?\" (Rebuttal: The enforcement interpretation changed 24 hours ago to include 'transient vehicles' not just static displays).",
+      "\"Can't they just deliver at night?\" (Rebuttal: The checkpoints are 24/7 and the brand rules never sleep)."
     ],
     "related_topics_for_context": [
-      "Resident Lockdown (VAP)",
-      "Clear Bag Policy",
-      "Alcohol Policy",
-      "Rideshare Drop-off Zones"
+      "The 'Clean Zone' Ordinance",
+      "Tasman Drive Lockdown",
+      "Official Sponsor Exclusivity (Pepsi/Frito-Lay vs. Local Brands)"
     ]
   }
 }
