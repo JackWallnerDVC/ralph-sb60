@@ -228,16 +228,22 @@
       "author": "local",
       "date": "2026-01-30T16:04:25.804268+00:00",
       "url": "/2026/01/30/2026-01-30-16-04-topic.html"
+    },
+    {
+      "title": "The Red Zone Math That Decides Championships",
+      "author": "analyst",
+      "date": "2026-01-30T16:17:36.482135+00:00",
+      "url": "/2026/01/30/2026-01-30-16-17-redzone-math.html"
     }
   ],
   "stats": {
-    "totalPosts": 35,
+    "totalPosts": 36,
     "postsByPersona": {
       "insider": 14,
-      "analyst": 9,
+      "analyst": 10,
       "local": 10
     },
-    "lastPublish": "2026-01-30T16:04:25.804296+00:00",
+    "lastPublish": "2026-01-30T16:17:36.482190+00:00",
     "streakDays": 1
   }
 }

@@ -55342,108 +55342,105 @@ DRAFT QUEUED: draft-20260130-1730-insider-power-grid.md
 Tokens: 8.6k sent, 1.1k received. Cost: $0.03 message, $0.03 session.
 
 .ralph/drafts/draft-20260130-1700-local-santana-row.md
-                                                          
-                                                                                
+I've reviewed the files. Based on the state.json, I am missing                  
+draft-20260130-1645-local-san-pedro-square.md. If you want me to process or     
+review that draft, please add it to the chat.                                   
 
-DRAFT QUEUED: draft-20260130-1800-local-merch-hustle.md                         
+Regarding .ralph/drafts/draft-20260130-1700-local-santana-row.md, I've updated  
+it to better match Tony Moretti's "Local" persona. The original text was a bit  
+too formal ("It is", "That is"). I've switched to contractions and added a more 
+direct opening to align with his conversational voice.                          
 
-Tokens: 8.9k sent, 1.4k received. Cost: $0.04 message, $0.04 session.
-
-.ralph/drafts/draft-20260130-1615-local-levis-microclimate.md
-
-.ralph/drafts/draft-20260130-1700-insider-rf-coordination.md
-
-.ralph/drafts/draft-20260130-1730-analyst-halftime-freeze.md
-I have enough context to proceed with the current queue.                        
-
-I noticed that draft-20260130-1645-local-menu-inflation.md and                  
-draft-20260130-1715-local-geography-trap.md are listed in .ralph/state.json but 
-are not currently in the chat. If you want me to work on those specific files   
-later, please add them.                                                         
-
-For now, I will publish the first draft in the queue                            
-(draft-20260130-1615-local-levis-microclimate.md) since it is ready and         
-available.                                                                      
-
-Here are the changes:                                                           
-
- 1 Create the new post file in _posts/.                                         
- 2 Update .ralph/state.json to remove the draft from the queue and update the   
-   publish timestamps.                                                          
-
-_posts/2026-01-30-16-15-levis-microclimate.md                                   
+.ralph/drafts/draft-20260130-1700-local-santana-row.md                          
 
                                                                                 
----                                                                             
+@@ -1,4 +1,5 @@                                                                 
+ layout: post                                                                   
+ title: "Santana Row: The Unofficial SB60 Headquarters"                         
+ author: Tony Moretti                                                           
+ date: 2026-01-30 17:00:00 +0000                                                
+ tags: [local, nightlife, celebrity-spotting, logistics, santana-row]           
+-excerpt: "Forget the media center. The real action is at Santana Row. Here is  
+how to navigate the luxury trap where the NFL elite actually hang out."         
++excerpt: "Forget the media center. The real action is at Santana Row. Here's   
+how to navigate the luxury trap where the NFL elite actually hang out."         
+ persona: local                                                                 
+ status: draft                                                                  
+ ---                                                                            
                                                                                 
-layout: post                                                                    
+-If you are standing in line at Fisherman's Wharf hoping to see a starting      
+quarterback, you are in the wrong zip code. The 49ers don't hang out in San     
+Francisco, and neither do the visiting teams during the week.                   
++Listen up. If you're standing in line at Fisherman's Wharf hoping to see a     
+starting quarterback, you're in the wrong zip code. The 49ers don't hang out in 
+San Francisco, and neither do the visiting teams during the week.               
                                                                                 
-title: "The Levi's Microclimate: Why Your Jersey Isn't Enough"                  
+-The center of gravity for the NFL elite this week is Santana Row in San Jose.  
+It is a manufactured European-style luxury district, and for the next 72 hours, 
+it is the highest concentration of wealth in the Bay Area.                      
++The center of gravity for the NFL elite this week is Santana Row in San Jose.  
+It's a manufactured European-style luxury district, and for the next 72 hours,  
+it's the highest concentration of wealth in the Bay Area.                       
                                                                                 
-author: Tony Moretti                                                            
+ ## The Hotel Valencia Fortress                                                 
+-The Hotel Valencia is the anchor. It is where the agents, the network          
+executives, and the players who aren't on lockdown stay. Security here is tight.
+You won't get into the lobby without a room key or a wristband, but the         
+courtyard bar (Vbar) spills out onto the balcony. If you are walking on the     
+street below, look up. That is where the deals are happening.                   
++The Hotel Valencia is the anchor. It's where the agents, the network           
+executives, and the players who aren't on lockdown stay. Security here is tight.
+You won't get into the lobby without a room key or a wristband, but the         
+courtyard bar (Vbar) spills out onto the balcony. If you're walking on the      
+street below, look up. That's where the deals are happening.                    
                                                                                 
-date: 2026-01-30 16:15:00 +0000                                                 
+ ## The "See and Be Seen" Spots                                                 
+ There are two main patios you need to know about: **LB Steak** and **Straits**.
+-LB Steak is the power lunch spot. I walked by yesterday and saw three different
+agents working phones while nursing $28 cocktails. If you want a table here for 
+dinner, you are already too late unless you know the maitre d' personally.      
++LB Steak is the power lunch spot. I walked by yesterday and saw three different
+agents working phones while nursing $28 cocktails. If you want a table here for 
+dinner, you're already too late unless you know the maitre d' personally.       
+ Straits is louder, younger, and where the entourage hangs out.                 
                                                                                 
-tags: [local, weather, stadium-guide, logistics]                                
+ ## The Parking Trap                                                            
+-Do not drive down Olin Avenue. It is a gridlock of black SUVs and confused     
+Ubers. The "Winchester" parking garage fills up by 4:00 PM.                     
+-Here is the local hack: Park across the street at the Westfield Valley Fair    
+mall. It is a short walk across Stevens Creek Boulevard, and you avoid the      
+hour-long exit queue that plagues the Row garages on Friday nights.             
++Do not drive down Olin Avenue. It's a gridlock of black SUVs and confused      
+Ubers. The "Winchester" parking garage fills up by 4:00 PM.                     
++Here's the local hack: Park across the street at the Westfield Valley Fair     
+mall. It's a short walk across Stevens Creek Boulevard, and you avoid the       
+hour-long exit queue that plagues the Row garages on Friday nights.             
                                                                                 
-excerpt: "Outsiders think California means beach weather. Locals know the Santa 
-Clara temperature drop is a rookie trap. Here is how to layer for the East vs.  
-West stand dynamic."                                                            
+ ## The Price of Admission                                                      
+-Santana Row is not cheap. During Super Bowl week, the "tourist tax" is in full 
+effect. Valet pricing has surged to $60 flat rate at some stands. Drinks are    
+pouring at New York City prices. But if you want to see the spectacle—the       
+Lamborghinis, the paparazzi, and the actual NFL ecosystem—this is the arena.    
+Just dress the part. Jerseys are fine, but this crowd leans towards designer    
+hoodies and five-figure watches.                                                
++Santana Row isn't cheap. During Super Bowl week, the "tourist tax" is in full  
+effect. Valet pricing has surged to $60 flat rate at some stands. Drinks are    
+pouring at New York City prices. But if you want to see the spectacle—the       
+Lamborghinis, the paparazzi, and the actual NFL ecosystem—this is the arena.    
+Just dress the part. Jerseys are fine, but this crowd leans towards designer    
+hoodies and five-figure watches.                                                
                                                                                 
-persona: local                                                                  
-                                                                                
-status: published                                                               
-                                                                                
----                                                                             
-                                                                                
-                                                                                
-                                                                                
-I see it every time we host a big game in February. Fans fly in from the East   
-Coast, see "California" on the ticket, and pack shorts and a single layer. By   
-the third quarter, they are shivering in the concession line buying a $120      
-hoodie they don't even like just to stop their teeth from chattering.           
-                                                                                
-                                                                                
-                                                                                
-Santa Clara is not Los Angeles. We are in a valley, and the microclimate at     
-Levi's Stadium is aggressive. If you are heading to the game, you need to       
-understand the physics of the venue before you get dressed.                     
-                                                                                
-                                                                                
-                                                                                
-## The East Side Oven                                                           
-                                                                                
-If your tickets are in the 100 or 200 sections on the East side of the stadium  
-(the visitor sideline), you are walking into a solar trap. For the 3:30 PM      
-kickoff, the sun is positioned directly across from you. It beats down          
-relentlessly.                                                                   
-                                                                                
-                                                                                
-                                                                                
-I have seen people pass out from heat exhaustion in February because the        
-concrete reflects the heat and there is zero shade. You need high-SPF sunscreen 
-and polarized sunglasses. A baseball cap isn't a fashion statement here; it's   
-survival gear. If you don't have a hat, you will spend the first half squinting 
-into a blinding glare while sweating through your jersey.                       
-                                                                                
-                                                                                
-                                                                                
-## The Sunset Drop                                                              
-                                                                                
-Here is the part that catches everyone off guard. Sunset in Santa Clara in early
-February is around 5:40 PM. That hits right around halftime or the start of the 
-third quarter.                                                                  
-                                                                                
-                                                                                
-                                                                                
-The second the sun dips behind the luxury suites on the West side, the          
-temperature plummets. We aren't talking a gentle cool-down. I'm talking about a 
-15 to 20-degree drop in about 45 minutes. The dry air here doesn't hold heat. It
-goes from a pleasant 68 degrees to a biting 48 degrees fast.                    
-                                                                                
-                                                                                
-                                                                                
-## The Wind Tunnel Effect                                                       
+
+Tokens: 10k sent, 731 received. Cost: $0.03 message, $0.06 session.
+Applied edit to .ralph/drafts/draft-20260130-1700-local-santana-row.md
+✅ Draft generation completed
+Iteration complete. Sleeping...
+
+--- Iteration 335 (16:17:35 UTC) ---
+Drafts in queue: 6/5
+Current persona focus: local
+🎯 Queue full (5 drafts). Evaluating for virality...
+                                               
                                                                                 
 Levi's has open corners. When the marine air starts pulling in from the Bay in  
 the evening, it funnels through those corners. If you are in the upper decks    
@@ -56955,3 +56952,101 @@ DRAFT QUEUED: draft-20260130-1730-insider-power-grid.md
 Tokens: 8.6k sent, 1.1k received. Cost: $0.03 message, $0.03 session.
 
 .ralph/drafts/draft-20260130-1700-local-santana-row.md
+I've reviewed the files. Based on the state.json, I am missing                  
+draft-20260130-1645-local-san-pedro-square.md. If you want me to process or     
+review that draft, please add it to the chat.                                   
+
+Regarding .ralph/drafts/draft-20260130-1700-local-santana-row.md, I've updated  
+it to better match Tony Moretti's "Local" persona. The original text was a bit  
+too formal ("It is", "That is"). I've switched to contractions and added a more 
+direct opening to align with his conversational voice.                          
+
+.ralph/drafts/draft-20260130-1700-local-santana-row.md                          
+
+                                                                                
+@@ -1,4 +1,5 @@                                                                 
+ layout: post                                                                   
+ title: "Santana Row: The Unofficial SB60 Headquarters"                         
+ author: Tony Moretti                                                           
+ date: 2026-01-30 17:00:00 +0000                                                
+ tags: [local, nightlife, celebrity-spotting, logistics, santana-row]           
+-excerpt: "Forget the media center. The real action is at Santana Row. Here is  
+how to navigate the luxury trap where the NFL elite actually hang out."         
++excerpt: "Forget the media center. The real action is at Santana Row. Here's   
+how to navigate the luxury trap where the NFL elite actually hang out."         
+ persona: local                                                                 
+ status: draft                                                                  
+ ---                                                                            
+                                                                                
+-If you are standing in line at Fisherman's Wharf hoping to see a starting      
+quarterback, you are in the wrong zip code. The 49ers don't hang out in San     
+Francisco, and neither do the visiting teams during the week.                   
++Listen up. If you're standing in line at Fisherman's Wharf hoping to see a     
+starting quarterback, you're in the wrong zip code. The 49ers don't hang out in 
+San Francisco, and neither do the visiting teams during the week.               
+                                                                                
+-The center of gravity for the NFL elite this week is Santana Row in San Jose.  
+It is a manufactured European-style luxury district, and for the next 72 hours, 
+it is the highest concentration of wealth in the Bay Area.                      
++The center of gravity for the NFL elite this week is Santana Row in San Jose.  
+It's a manufactured European-style luxury district, and for the next 72 hours,  
+it's the highest concentration of wealth in the Bay Area.                       
+                                                                                
+ ## The Hotel Valencia Fortress                                                 
+-The Hotel Valencia is the anchor. It is where the agents, the network          
+executives, and the players who aren't on lockdown stay. Security here is tight.
+You won't get into the lobby without a room key or a wristband, but the         
+courtyard bar (Vbar) spills out onto the balcony. If you are walking on the     
+street below, look up. That is where the deals are happening.                   
++The Hotel Valencia is the anchor. It's where the agents, the network           
+executives, and the players who aren't on lockdown stay. Security here is tight.
+You won't get into the lobby without a room key or a wristband, but the         
+courtyard bar (Vbar) spills out onto the balcony. If you're walking on the      
+street below, look up. That's where the deals are happening.                    
+                                                                                
+ ## The "See and Be Seen" Spots                                                 
+ There are two main patios you need to know about: **LB Steak** and **Straits**.
+-LB Steak is the power lunch spot. I walked by yesterday and saw three different
+agents working phones while nursing $28 cocktails. If you want a table here for 
+dinner, you are already too late unless you know the maitre d' personally.      
++LB Steak is the power lunch spot. I walked by yesterday and saw three different
+agents working phones while nursing $28 cocktails. If you want a table here for 
+dinner, you're already too late unless you know the maitre d' personally.       
+ Straits is louder, younger, and where the entourage hangs out.                 
+                                                                                
+ ## The Parking Trap                                                            
+-Do not drive down Olin Avenue. It is a gridlock of black SUVs and confused     
+Ubers. The "Winchester" parking garage fills up by 4:00 PM.                     
+-Here is the local hack: Park across the street at the Westfield Valley Fair    
+mall. It is a short walk across Stevens Creek Boulevard, and you avoid the      
+hour-long exit queue that plagues the Row garages on Friday nights.             
++Do not drive down Olin Avenue. It's a gridlock of black SUVs and confused      
+Ubers. The "Winchester" parking garage fills up by 4:00 PM.                     
++Here's the local hack: Park across the street at the Westfield Valley Fair     
+mall. It's a short walk across Stevens Creek Boulevard, and you avoid the       
+hour-long exit queue that plagues the Row garages on Friday nights.             
+                                                                                
+ ## The Price of Admission                                                      
+-Santana Row is not cheap. During Super Bowl week, the "tourist tax" is in full 
+effect. Valet pricing has surged to $60 flat rate at some stands. Drinks are    
+pouring at New York City prices. But if you want to see the spectacle—the       
+Lamborghinis, the paparazzi, and the actual NFL ecosystem—this is the arena.    
+Just dress the part. Jerseys are fine, but this crowd leans towards designer    
+hoodies and five-figure watches.                                                
++Santana Row isn't cheap. During Super Bowl week, the "tourist tax" is in full  
+effect. Valet pricing has surged to $60 flat rate at some stands. Drinks are    
+pouring at New York City prices. But if you want to see the spectacle—the       
+Lamborghinis, the paparazzi, and the actual NFL ecosystem—this is the arena.    
+Just dress the part. Jerseys are fine, but this crowd leans towards designer    
+hoodies and five-figure watches.                                                
+                                                                                
+
+Tokens: 10k sent, 731 received. Cost: $0.03 message, $0.06 session.
+Applied edit to .ralph/drafts/draft-20260130-1700-local-santana-row.md
+✅ Draft generation completed
+Iteration complete. Sleeping...
+
+--- Iteration 335 (16:17:35 UTC) ---
+Drafts in queue: 6/5
+Current persona focus: local
+🎯 Queue full (5 drafts). Evaluating for virality...

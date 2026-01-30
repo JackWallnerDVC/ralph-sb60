@@ -1,16 +1,9 @@
 {
   "mode": "job_based",
-  "lastActivity": "2026-01-30T16:15:58+0000",
-  "draftsInQueue": 6,
-  "drafts": [
-    "draft-20260130-1700-analyst-redzone-math.md",
-    "draft-20260130-1611-local-topic.md",
-    "draft-20260130-1630-local-resident-lockdown.md",
-    "draft-20260130-1700-local-santana-row.md",
-    "draft-20260130-1715-insider-credential-wars.md",
-    "draft-20260130-1730-local-food-truck-intel.md"
-  ],
-  "lastPublish": "2026-01-30T16:30:00+0000",
+  "lastActivity": "2026-01-30T16:17:35+0000",
+  "draftsInQueue": 0,
+  "drafts": [],
+  "lastPublish": "2026-01-30T16:17:36.481266+00:00",
   "targetQueueSize": 5,
   "currentPersona": "local",
   "researchTopics": [
