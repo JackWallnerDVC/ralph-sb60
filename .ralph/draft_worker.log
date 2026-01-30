@@ -32900,3 +32900,347 @@ The API provider has rate limited you. Try again later or check your quotas.
 The API provider has rate limited you. Try again later or check your quotas.
 Retrying in 2.0 seconds...
 Retrying in 2.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Quota exceeded for 
+aiplatform.googleapis.com/global_generate_content_requests_per_minute_per_projec
+t_per_base_model with base model: gemini-experimental. Please submit a quota 
+increase request. 
+https://cloud.google.com/vertex-ai/docs/generative-ai/quotas-genai.",\n    
+"status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Quota exceeded for 
+aiplatform.googleapis.com/global_generate_content_requests_per_minute_per_projec
+t_per_base_model with base model: gemini-experimental. Please submit a quota 
+increase request. 
+https://cloud.google.com/vertex-ai/docs/generative-ai/quotas-genai.",\n    
+"status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 4.0 seconds...
+Retrying in 4.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Quota exceeded for 
+aiplatform.googleapis.com/global_generate_content_requests_per_minute_per_projec
+t_per_base_model with base model: gemini-experimental. Please submit a quota 
+increase request. 
+https://cloud.google.com/vertex-ai/docs/generative-ai/quotas-genai.",\n    
+"status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Quota exceeded for 
+aiplatform.googleapis.com/global_generate_content_requests_per_minute_per_projec
+t_per_base_model with base model: gemini-experimental. Please submit a quota 
+increase request. 
+https://cloud.google.com/vertex-ai/docs/generative-ai/quotas-genai.",\n    
+"status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 8.0 seconds...
+Retrying in 8.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Quota exceeded for 
+aiplatform.googleapis.com/global_generate_content_requests_per_minute_per_projec
+t_per_base_model with base model: gemini-experimental. Please submit a quota 
+increase request. 
+https://cloud.google.com/vertex-ai/docs/generative-ai/quotas-genai.",\n    
+"status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Quota exceeded for 
+aiplatform.googleapis.com/global_generate_content_requests_per_minute_per_projec
+t_per_base_model with base model: gemini-experimental. Please submit a quota 
+increase request. 
+https://cloud.google.com/vertex-ai/docs/generative-ai/quotas-genai.",\n    
+"status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 16.0 seconds...
+Retrying in 16.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Quota exceeded for 
+aiplatform.googleapis.com/global_generate_content_requests_per_minute_per_projec
+t_per_base_model with base model: gemini-experimental. Please submit a quota 
+increase request. 
+https://cloud.google.com/vertex-ai/docs/generative-ai/quotas-genai.",\n    
+"status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Quota exceeded for 
+aiplatform.googleapis.com/global_generate_content_requests_per_minute_per_projec
+t_per_base_model with base model: gemini-experimental. Please submit a quota 
+increase request. 
+https://cloud.google.com/vertex-ai/docs/generative-ai/quotas-genai.",\n    
+"status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 32.0 seconds...
+Retrying in 32.0 seconds...
+.ralph/outline.json                                                             
+
+                                                                                
+@@ -1,5 +1,6 @@                                                                 
+ {                                                                              
+.ralph/outline.json                                                             
+
+                                                                                
+@@ -1,5 +1,6 @@                                                                 
+ {                                                                              
+     {                                                                          
+     {                                                                          
+         "Determine the average number of red zone opportunities per game during
+the regular season.",                                                           
+         "Determine the average number of red zone opportunities per game during
+the regular season.",                                                           
+                                                                                                                                                                
+
+Tokens: 13k sent, 1.0k received. Cost: $0.0026 message, $0.0026 session.
+Tokens: 13k sent, 1.0k received. Cost: $0.0026 message, $0.0026 session.
+Applied edit to .ralph/outline.json
+Applied edit to .ralph/outline.json
+
+
+🧠 AI Call 3/3: Writing draft...
+🧠 AI Call 3/3: Writing draft...
+Warning: Input is not a terminal (fd=0).
+Warning: Input is not a terminal (fd=0).
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────────────
+Aider v0.86.1
+Aider v0.86.1
+Model: vertex_ai/gemini-2.0-flash-exp with whole edit format
+Model: vertex_ai/gemini-2.0-flash-exp with whole edit format
+Git repo: .git with 158 files
+Git repo: .git with 158 files
+Repo-map: using 4096 tokens, auto refresh
+Repo-map: using 4096 tokens, auto refresh
+Added .ralph/angle_analyst.json to the chat.
+Added .ralph/angle_analyst.json to the chat.
+Added .ralph/deep_research.json to the chat.
+Added .ralph/deep_research.json to the chat.
+Added .ralph/outline.json to the chat.
+Added .ralph/outline.json to the chat.
+Added .ralph/research_summary.json to the chat.
+Added .ralph/research_summary.json to the chat.
+Added .ralph/trends.json to the chat.
+Added .ralph/trends.json to the chat.
+Added _posts/2026-01-30-10-15-food-hacks.md to the chat.
+Added _posts/2026-01-30-10-15-food-hacks.md to the chat.
+Added _posts/2026-01-30-10-46-halftime-logistics.md to the chat.
+Added _posts/2026-01-30-10-46-halftime-logistics.md to the chat.
+Added _posts/2026-01-30-11-00-ticket-squeeze.md to the chat.
+Added _posts/2026-01-30-11-00-ticket-squeeze.md to the chat.
+Added _posts/2026-01-30-11-01-topic.md to the chat.
+Added _posts/2026-01-30-11-01-topic.md to the chat.
+Added _posts/2026-01-30-11-17-aggression-index.md to the chat.
+Added _posts/2026-01-30-11-17-aggression-index.md to the chat.
+Added personas.json to the chat.
+Added personas.json to the chat.
+
+
+.ralph/drafts/draft-20260130-1132-analyst-topic.md                              
+
+                                                                                
+---                                                                             
+.ralph/drafts/draft-20260130-1132-analyst-topic.md                              
+
+                                                                                
+---                                                                             
+                                                                                
+layout: post                                                                    
+                                                                                
+title: "SB60: 49ers' Red Zone Regression: Quantifying the Odds of a Postseason  
+                                                                                
+layout: post                                                                    
+                                                                                
+title: "SB60: 49ers' Red Zone Regression: Quantifying the Odds of a Postseason  
+Collapse"                                                                       
+                                                                                
+author: Marcus Chen                                                             
+                                                                                
+date: 2026-01-30 11:32:00 +0000                                                 
+Collapse"                                                                       
+                                                                                
+author: Marcus Chen                                                             
+                                                                                
+date: 2026-01-30 11:32:00 +0000                                                 
+                                                                                
+tags: [analyst, red zone, 49ers, Super Bowl, betting, statistics]               
+                                                                                
+excerpt: "Will the 49ers' red zone efficiency hold up in the Super Bowl? A      
+data-driven analysis of their playoff performance against regular season        
+numbers, identifying key statistical indicators and projecting the impact on    
+SB60 scoring outcomes."                                                         
+                                                                                
+persona: analyst                                                                
+                                                                                
+status: draft                                                                   
+                                                                                
+                                                                                
+tags: [analyst, red zone, 49ers, Super Bowl, betting, statistics]               
+                                                                                
+excerpt: "Will the 49ers' red zone efficiency hold up in the Super Bowl? A      
+data-driven analysis of their playoff performance against regular season        
+numbers, identifying key statistical indicators and projecting the impact on    
+SB60 scoring outcomes."                                                         
+                                                                                
+persona: analyst                                                                
+                                                                                
+status: draft                                                                   
+                                                                                
+---                                                                             
+                                                                                
+                                                                                
+                                                                                
+Will the 49ers' red zone efficiency hold up in the Super Bowl? A look at their  
+playoff performance against regular season numbers reveals key statistical      
+indicators and projects the impact on SB60 scoring outcomes.                    
+                                                                                
+                                                                                
+                                                                                
+## Quantifying Regular Season Dominance                                         
+---                                                                             
+                                                                                
+                                                                                
+                                                                                
+Will the 49ers' red zone efficiency hold up in the Super Bowl? A look at their  
+playoff performance against regular season numbers reveals key statistical      
+indicators and projects the impact on SB60 scoring outcomes.                    
+                                                                                
+                                                                                
+                                                                                
+## Quantifying Regular Season Dominance                                         
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+During the regular season, the 49ers showcased a potent red zone offense. They  
+converted 65% of their red zone trips into touchdowns and 15% into field goals. 
+On average, they had 3.5 red zone opportunities per game, resulting in a        
+touchdown to field goal ratio of approximately 4.3:1. This dominance established
+them as a top-tier scoring threat inside the 20-yard line.                      
+                                                                                
+                                                                                
+                                                                                
+## Playoff Performance: A Statistical Dive                                      
+                                                                                
+During the regular season, the 49ers showcased a potent red zone offense. They  
+converted 65% of their red zone trips into touchdowns and 15% into field goals. 
+On average, they had 3.5 red zone opportunities per game, resulting in a        
+touchdown to field goal ratio of approximately 4.3:1. This dominance established
+them as a top-tier scoring threat inside the 20-yard line.                      
+                                                                                
+                                                                                
+                                                                                
+## Playoff Performance: A Statistical Dive                                      
+                                                                                
+                                                                                
+                                                                                
+The playoffs present a different challenge. The 49ers' red zone touchdown       
+conversion rate dropped to 45%, a 20% decrease from the regular season. Their   
+red zone opportunities decreased to 2.0 per game. The touchdown to field goal   
+ratio shifted to 3:1, indicating a greater reliance on field goals. This data   
+suggests a potential regression in their ability to capitalize on scoring       
+chances in high-pressure situations.                                            
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+The playoffs present a different challenge. The 49ers' red zone touchdown       
+conversion rate dropped to 45%, a 20% decrease from the regular season. Their   
+red zone opportunities decreased to 2.0 per game. The touchdown to field goal   
+ratio shifted to 3:1, indicating a greater reliance on field goals. This data   
+suggests a potential regression in their ability to capitalize on scoring       
+chances in high-pressure situations.                                            
+                                                                                
+                                                                                
+                                                                                
+## Opponent's Defensive Strength: A Matchup Analysis                            
+                                                                                
+                                                                                
+                                                                                
+## Opponent's Defensive Strength: A Matchup Analysis                            
+                                                                                
+                                                                                
+                                                                                
+The Super Bowl opponent's defensive capabilities are a critical factor. The     
+opponent's defense ranks 12th in red zone DVOA and EPA. The 49ers' red zone     
+touchdown conversion rate against top 10 defenses was 52% during the regular    
+season, lower than their overall rate. The opponent allows a touchdown to field 
+goal ratio of 1.8:1 in the red zone. This indicates a stout defense capable of  
+limiting touchdown opportunities.                                               
+                                                                                
+                                                                                
+                                                                                
+## Strategic Play-Calling and Key Personnel                                     
+The Super Bowl opponent's defensive capabilities are a critical factor. The     
+opponent's defense ranks 12th in red zone DVOA and EPA. The 49ers' red zone     
+touchdown conversion rate against top 10 defenses was 52% during the regular    
+season, lower than their overall rate. The opponent allows a touchdown to field 
+goal ratio of 1.8:1 in the red zone. This indicates a stout defense capable of  
+limiting touchdown opportunities.                                               
+                                                                                
+                                                                                
+                                                                                
+## Strategic Play-Calling and Key Personnel                                     
+                                                                                
+                                                                                
+                                                                                
+Strategic decisions and player health play a key role. The 49ers' red zone      
+play-calling is approximately 60% run and 40% pass. Historically, injuries to   
+key offensive linemen have resulted in an estimated 8% decrease in red zone     
+efficiency. The offensive coordinator has overseen a 62% red zone scoring       
+percentage over the past three seasons. These elements influence their ability  
+to execute in critical situations.                                              
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+Strategic decisions and player health play a key role. The 49ers' red zone      
+play-calling is approximately 60% run and 40% pass. Historically, injuries to   
+key offensive linemen have resulted in an estimated 8% decrease in red zone     
+efficiency. The offensive coordinator has overseen a 62% red zone scoring       
+percentage over the past three seasons. These elements influence their ability  
+to execute in critical situations.                                              
+                                                                                
+                                                                                
+                                                                                
+## Historical Super Bowl Trends and Predictions                                 
+                                                                                
+                                                                                
+                                                                                
+## Historical Super Bowl Trends and Predictions                                 
+                                                                                
+                                                                                
+                                                                                
+Examining past Super Bowls provides context. Teams with similar offensive       
+profiles to the 49ers convert approximately 58% of red zone opportunities in the
+Examining past Super Bowls provides context. Teams with similar offensive       
+profiles to the 49ers convert approximately 58% of red zone opportunities in the
+Super Bowl. There is a moderate positive correlation (0.45) between red zone    
+touchdown percentage and Super Bowl victory. The 49ers' red zone conversion rate
+has trended downward by 5% over the last 5 games, suggesting a potential area of
+concern. Historical data suggests red zone performance is a predictor of        
+success, but not a guarantee.                                                   
+                                                                                
+Super Bowl. There is a moderate positive correlation (0.45) between red zone    
+touchdown percentage and Super Bowl victory. The 49ers' red zone conversion rate
+has trended downward by 5% over the last 5 games, suggesting a potential area of
+concern. Historical data suggests red zone performance is a predictor of        
+success, but not a guarantee.                                                   
+                                                                                
+
+
+Tokens: 13k sent, 688 received. Cost: $0.0024 message, $0.0024 session.
+Tokens: 13k sent, 688 received. Cost: $0.0024 message, $0.0024 session.
+
+
+.ralph/drafts/draft-20260130-1132-analyst-topic.md
+.ralph/drafts/draft-20260130-1132-analyst-topic.md
+Applied edit to .ralph/drafts/draft-20260130-1132-analyst-topic.md
+Applied edit to .ralph/drafts/draft-20260130-1132-analyst-topic.md
+State updated: 2 drafts
+State updated: 2 drafts
+
+
