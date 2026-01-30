@@ -138,16 +138,22 @@
       "author": "analyst",
       "date": "2026-01-30T11:01:38.363650+00:00",
       "url": "/2026/01/30/2026-01-30-11-01-topic.html"
+    },
+    {
+      "title": "The Death of the Punt: Modeling Fourth-Down Aggression in SB60",
+      "author": "analyst",
+      "date": "2026-01-30T11:17:32.107818+00:00",
+      "url": "/2026/01/30/2026-01-30-11-17-aggression-index.html"
     }
   ],
   "stats": {
-    "totalPosts": 20,
+    "totalPosts": 21,
     "postsByPersona": {
       "insider": 10,
-      "analyst": 6,
+      "analyst": 7,
       "local": 3
     },
-    "lastPublish": "2026-01-30T11:01:38.363679+00:00",
+    "lastPublish": "2026-01-30T11:17:32.107848+00:00",
     "streakDays": 1
   }
 }
