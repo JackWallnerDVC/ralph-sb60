@@ -1,9 +1,11 @@
 {
   "mode": "job_based",
-  "lastActivity": "2026-01-30T16:26:45+0000",
-  "draftsInQueue": 1,
+  "lastActivity": "2026-01-30T16:29:18+0000",
+  "draftsInQueue": 2,
   "drafts": [
-    ".ralph/drafts/draft-20260130-1645-local-creek-trail.md"
+    ".ralph/drafts/draft-20260130-1645-local-creek-trail.md",
+    ".ralph/drafts/draft-20260130-1700-insider-rf-coordination.md",
+    ".ralph/drafts/draft-20260130-1715-analyst-over-under-trap.md"
   ],
   "lastPublish": "2026-01-30T16:17:36.481266+00:00",
   "targetQueueSize": 5,
@@ -37,7 +39,7 @@
   "lastTransition": "2026-01-30T00:57:15.103424Z",
   "apiCooldownSeconds": 180,
   "targetDrafts": 5,
-  "lastDraftAt": "2026-01-30T16:45:00.000000Z",
+  "lastDraftAt": "2026-01-30T17:15:00.000000Z",
   "lastResearch": "2026-01-30T01:00:04.204689Z",
   "trendsAvailable": true
 }
