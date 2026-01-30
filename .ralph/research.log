@@ -6173,3 +6173,951 @@ Bowl? We'll quantify their playoff red zone performance against regular season
 Postseason Collapse",                                                           
        "description": "Will the 49ers' red zone efficiency hold up in the Super 
 Bowl? We'll quantify their playoff red zone performance against regular season  
+       "stats_to_research": [                                                   
+       "stats_to_research": [                                                   
+run defense DVOA)",                                                             
+run defense DVOA)",                                                             
+         "Projected usage rates for key running backs (snap counts, carries, red
+zone touches)",                                                                 
+         "Historical prop bet payouts for similar statistical outcomes          
+(regression analysis, focusing on rushing props)",                              
++  35 /  43 lines [████████████████████████░░░░░░]  81%                         
+                                                                                         "Projected usage rates for key running backs (snap counts, carries, red
+zone touches)",                                                                 
+         "Historical prop bet payouts for similar statistical outcomes          
+(regression analysis, focusing on rushing props)",                              
++  35 /  43 lines [████████████████████████░░░░░░]  81%                         
+                                                                                
+
+Tokens: 6.8k sent, 948 received. Cost: $0.0016 message, $0.0016 session.
+Tokens: 6.8k sent, 948 received. Cost: $0.0016 message, $0.0016 session.
+Applied edit to .ralph/angle_analyst.json
+Applied edit to .ralph/angle_analyst.json
+
+
+🧠 AI Call 4/4: Local angles...
+🧠 AI Call 4/4: Local angles...
+Warning: Input is not a terminal (fd=0).
+Warning: Input is not a terminal (fd=0).
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────────────
+Aider v0.86.1
+Aider v0.86.1
+Model: vertex_ai/gemini-2.0-flash-exp with whole edit format
+Model: vertex_ai/gemini-2.0-flash-exp with whole edit format
+Git repo: .git with 79 files
+Git repo: .git with 79 files
+Repo-map: using 4096 tokens, auto refresh
+Repo-map: using 4096 tokens, auto refresh
+Added .ralph/analysis_1_topics.json to the chat.
+Added .ralph/analysis_1_topics.json to the chat.
+Added .ralph/real_intel.json to the chat.
+Added .ralph/real_intel.json to the chat.
+Added .ralph/trends.json to the chat.
+Added .ralph/trends.json to the chat.
+Added _posts/2026-01-30-02-00-insider-topic.md to the chat.
+Added _posts/2026-01-30-02-00-insider-topic.md to the chat.
+Added _posts/2026-01-30-02-17-topic.md to the chat.
+Added _posts/2026-01-30-02-17-topic.md to the chat.
+Added _posts/2026-01-30-06-00-mvp-shift.md to the chat.
+Added _posts/2026-01-30-06-00-mvp-shift.md to the chat.
+Added personas.json to the chat.
+Added personas.json to the chat.
+
+
+
+
+.ralph/angle_local.json
+.ralph/angle_local.json
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Quota exceeded for 
+aiplatform.googleapis.com/global_generate_content_requests_per_minute_per_projec
+t_per_base_model with base model: gemini-experimental. Please submit a quota 
+increase request. 
+https://cloud.google.com/vertex-ai/docs/generative-ai/quotas-genai.",\n    
+"status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Quota exceeded for 
+aiplatform.googleapis.com/global_generate_content_requests_per_minute_per_projec
+t_per_base_model with base model: gemini-experimental. Please submit a quota 
+increase request. 
+https://cloud.google.com/vertex-ai/docs/generative-ai/quotas-genai.",\n    
+"status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 0.2 seconds...
+Retrying in 0.2 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Quota exceeded for 
+aiplatform.googleapis.com/global_generate_content_requests_per_minute_per_projec
+t_per_base_model with base model: gemini-experimental. Please submit a quota 
+increase request. 
+https://cloud.google.com/vertex-ai/docs/generative-ai/quotas-genai.",\n    
+"status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Quota exceeded for 
+aiplatform.googleapis.com/global_generate_content_requests_per_minute_per_projec
+t_per_base_model with base model: gemini-experimental. Please submit a quota 
+increase request. 
+https://cloud.google.com/vertex-ai/docs/generative-ai/quotas-genai.",\n    
+"status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 0.5 seconds...
+Retrying in 0.5 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Quota exceeded for 
+aiplatform.googleapis.com/global_generate_content_requests_per_minute_per_projec
+t_per_base_model with base model: gemini-experimental. Please submit a quota 
+increase request. 
+https://cloud.google.com/vertex-ai/docs/generative-ai/quotas-genai.",\n    
+"status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Quota exceeded for 
+aiplatform.googleapis.com/global_generate_content_requests_per_minute_per_projec
+t_per_base_model with base model: gemini-experimental. Please submit a quota 
+increase request. 
+https://cloud.google.com/vertex-ai/docs/generative-ai/quotas-genai.",\n    
+"status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 1.0 seconds...
+Retrying in 1.0 seconds...
+I will create a new .ralph/angle_local.json file with 3 local angles focused on 
+the Bay Area experience for Super Bowl 60, incorporating Santa Clara,           
+transportation, food, and tailgating, based on the analysis_1_topics.json file. 
+
+.ralph/angle_local.json                                                         
+
+                                                                                
+I will create a new .ralph/angle_local.json file with 3 local angles focused on 
+the Bay Area experience for Super Bowl 60, incorporating Santa Clara,           
+transportation, food, and tailgating, based on the analysis_1_topics.json file. 
+
+.ralph/angle_local.json                                                         
+
+                                                                                
+@@ -1,4 +1,5 @@                                                                 
+ {                                                                              
+@@ -1,4 +1,5 @@                                                                 
+ {                                                                              
+       "angle": "Super Bowl 60 Tailgate Domination: Your Guide to the Ultimate  
+Pre-Game Party",                                                                
+       "description": "Unlock the secrets to the best Super Bowl 60 tailgating  
+       "angle": "Super Bowl 60 Tailgate Domination: Your Guide to the Ultimate  
+Pre-Game Party",                                                                
+       "description": "Unlock the secrets to the best Super Bowl 60 tailgating  
+guide to pre-game glory starts here!"                                           
+guide to pre-game glory starts here!"                                           
+Clara Like a Pro",                                                              
+Clara Like a Pro",                                                              
+       "description": "Master the art of getting around Santa Clara during Super
+Bowl 60 with our comprehensive transportation guide. Discover the best public   
+transportation options, ride-sharing strategies, parking tips, and alternative  
+routes to minimize traffic headaches.",                                         
++  32 /  44 lines [█████████████████████░░░░░░░░░]  73%                         
+                                                                                       "description": "Master the art of getting around Santa Clara during Super
+Bowl 60 with our comprehensive transportation guide. Discover the best public   
+transportation options, ride-sharing strategies, parking tips, and alternative  
+routes to minimize traffic headaches.",                                         
++  32 /  44 lines [█████████████████████░░░░░░░░░]  73%                         
+                                                                                
+
+Tokens: 6.6k sent, 747 received. Cost: $0.0014 message, $0.0014 session.
+Tokens: 6.6k sent, 747 received. Cost: $0.0014 message, $0.0014 session.
+Applied edit to .ralph/angle_local.json
+Applied edit to .ralph/angle_local.json
+
+
+📝 Compiling research summary...
+📝 Compiling research summary...
+✅ Research complete: 5 topics, 18 angles
+✅ Research complete: 5 topics, 18 angles
+
+
+=== Ralph Research Job (Multi-AI) ===
+=== Ralph Research Job (Multi-AI) ===
+Timestamp: 2026-01-30T02:30:00Z
+Timestamp: 2026-01-30T02:30:00Z
+🔍 Fetching raw data...
+🔍 Fetching raw data...
+
+📊 Found 3 trending topics
+
+📊 Found 3 trending topics
+Using cached trends (fresh)
+[
+  {
+    "text": "Looking forward to Super Bowl 60 at Levi's Stadium",
+    "query": "general"
+  },
+  {
+    "text": "NFL playoff picture taking shape for SB60",
+    "query": "playoffs"
+  },
+  {
+    "text": "Bay Area prepping for Super Bowl 2026",
+    "query": "local"
+  }
+]
+Using cached trends (fresh)
+[
+  {
+    "text": "Looking forward to Super Bowl 60 at Levi's Stadium",
+    "query": "general"
+  },
+  {
+    "text": "NFL playoff picture taking shape for SB60",
+    "query": "playoffs"
+  },
+  {
+    "text": "Bay Area prepping for Super Bowl 2026",
+    "query": "local"
+  }
+]
+🕵️‍♂️ Ralph is digging for real intel...
+   Checking Santa Clara City News...
+   Checking NFL Football Operations...
+⚠️ Failed to fetch NFL Football Operations: HTTP Error 404: Not Found
+   Checking 49ers Official News...
+✅ Secured 6 verified intelligence items.
+🕵️‍♂️ Ralph is digging for real intel...
+   Checking Santa Clara City News...
+   Checking NFL Football Operations...
+⚠️ Failed to fetch NFL Football Operations: HTTP Error 404: Not Found
+   Checking 49ers Official News...
+✅ Secured 6 verified intelligence items.
+
+
+🧠 AI Call 1/4: Analyzing trends...
+🧠 AI Call 1/4: Analyzing trends...
+  ⏱️  Waiting 9s for rate limit...
+Warning: Input is not a terminal (fd=0).
+Warning: Input is not a terminal (fd=0).
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────────────
+Aider v0.86.1
+Aider v0.86.1
+Model: vertex_ai/gemini-2.0-flash-exp with whole edit format
+Model: vertex_ai/gemini-2.0-flash-exp with whole edit format
+Git repo: .git with 79 files
+Git repo: .git with 79 files
+Repo-map: using 4096 tokens, auto refresh
+Repo-map: using 4096 tokens, auto refresh
+Added .ralph/real_intel.json to the chat.
+Added .ralph/real_intel.json to the chat.
+Added .ralph/trends.json to the chat.
+Added .ralph/trends.json to the chat.
+Added _posts/2026-01-30-02-00-insider-topic.md to the chat.
+Added _posts/2026-01-30-02-00-insider-topic.md to the chat.
+Added _posts/2026-01-30-02-17-topic.md to the chat.
+Added _posts/2026-01-30-02-17-topic.md to the chat.
+Added _posts/2026-01-30-06-00-mvp-shift.md to the chat.
+Added _posts/2026-01-30-06-00-mvp-shift.md to the chat.
+Added personas.json to the chat.
+Added personas.json to the chat.
+
+
+
+
+.ralph/analysis_1_topics.json
+.ralph/analysis_1_topics.json
+Okay, I will analyze .ralph/trends.json and .ralph/real_intel.json to create    
+.ralph/analysis_1_topics.json with the top 5 trending topics, their momentum    
+(rising/stable/falling), the persona each fits best, and a reason for the fit.  
+
+.ralph/analysis_1_topics.json                                                   
+
+                                                                                
+Okay, I will analyze .ralph/trends.json and .ralph/real_intel.json to create    
+.ralph/analysis_1_topics.json with the top 5 trending topics, their momentum    
+(rising/stable/falling), the persona each fits best, and a reason for the fit.  
+
+.ralph/analysis_1_topics.json                                                   
+
+                                                                                
+@@ -2,5 +2,6 @@                                                                 
+   "top_topics": [                                                              
+     {                                                                          
+@@ -2,5 +2,6 @@                                                                 
+   "top_topics": [                                                              
+     {                                                                          
+       "reason": "The evolving playoff picture and the 49ers' RedZone           
+performance directly impacts team statistics, comparisons, and potential betting
+       "reason": "The evolving playoff picture and the 49ers' RedZone           
+performance directly impacts team statistics, comparisons, and potential betting
+odds. This aligns with Marcus Chen's focus on data-driven analysis of team      
+performance and historical trends."                                             
+     },                                                                         
+     {                                                                          
++  15 /  34 lines [█████████████░░░░░░░░░░░░░░░░░]  44%                         
+                                                                                odds. This aligns with Marcus Chen's focus on data-driven analysis of team      
+performance and historical trends."                                             
+     },                                                                         
+     {                                                                          
++  15 /  34 lines [█████████████░░░░░░░░░░░░░░░░░]  44%                         
+                                                                                
+
+Tokens: 6.2k sent, 565 received. Cost: $0.0013 message, $0.0013 session.
+Tokens: 6.2k sent, 565 received. Cost: $0.0013 message, $0.0013 session.
+Applied edit to .ralph/analysis_1_topics.json
+Applied edit to .ralph/analysis_1_topics.json
+
+
+🧠 AI Call 2/4: Insider angles...
+🧠 AI Call 2/4: Insider angles...
+Warning: Input is not a terminal (fd=0).
+Warning: Input is not a terminal (fd=0).
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────────────
+Aider v0.86.1
+Aider v0.86.1
+Model: vertex_ai/gemini-2.0-flash-exp with whole edit format
+Model: vertex_ai/gemini-2.0-flash-exp with whole edit format
+Git repo: .git with 79 files
+Git repo: .git with 79 files
+Repo-map: using 4096 tokens, auto refresh
+Repo-map: using 4096 tokens, auto refresh
+Added .ralph/analysis_1_topics.json to the chat.
+Added .ralph/analysis_1_topics.json to the chat.
+Added .ralph/real_intel.json to the chat.
+Added .ralph/real_intel.json to the chat.
+Added .ralph/trends.json to the chat.
+Added .ralph/trends.json to the chat.
+Added _posts/2026-01-30-02-00-insider-topic.md to the chat.
+Added _posts/2026-01-30-02-00-insider-topic.md to the chat.
+Added _posts/2026-01-30-02-17-topic.md to the chat.
+Added _posts/2026-01-30-02-17-topic.md to the chat.
+Added _posts/2026-01-30-06-00-mvp-shift.md to the chat.
+Added _posts/2026-01-30-06-00-mvp-shift.md to the chat.
+Added personas.json to the chat.
+Added personas.json to the chat.
+
+
+
+
+.ralph/angle_insider.json
+.ralph/angle_insider.json
+I will update .ralph/angle_insider.json to include three new angles based on the
+provided analysis_1_topics.json and tailored to the insider persona. The angles 
+will focus on logistics, security, stadium operations, and team movements, with 
+behind-the-scenes details, source-style hooks, and exclusive-feel headlines.    
+
+.ralph/angle_insider.json                                                       
+
+                                                                                
+I will update .ralph/angle_insider.json to include three new angles based on the
+provided analysis_1_topics.json and tailored to the insider persona. The angles 
+will focus on logistics, security, stadium operations, and team movements, with 
+behind-the-scenes details, source-style hooks, and exclusive-feel headlines.    
+
+.ralph/angle_insider.json                                                       
+
+                                                                                
+@@ -1,4 +1,5 @@                                                                 
+@@ -1,4 +1,5 @@                                                                 
+     {                                                                          
+       "headline": "Exclusive: Super Bowl LX Security Command Center Unveiled", 
+       "angle": "My sources just gave me a peek inside the Super Bowl LX        
+Security Command Center. It's a multi-agency hub with real-time feeds from      
+hundreds of cameras, including drones. Expect cutting-edge threat detection and 
+     {                                                                          
+       "headline": "Exclusive: Super Bowl LX Security Command Center Unveiled", 
+       "angle": "My sources just gave me a peek inside the Super Bowl LX        
+Security Command Center. It's a multi-agency hub with real-time feeds from      
+hundreds of cameras, including drones. Expect cutting-edge threat detection and 
+Area"                                                                           
+Area"                                                                           
+       "angle": "Sources say the NFL is in talks with several high-end hotels in
+       "angle": "Sources say the NFL is in talks with several high-end hotels in
+       "topic": "Super Bowl 60 Security and Logistical Preparations in the Bay  
+       "topic": "Super Bowl 60 Security and Logistical Preparations in the Bay  
+Area"                                                                           
++    },                                                                         
++    {                                                                          
++      "headline": "Insider: Road Closure Intel - Key Routes Impacted",         
++      "angle": "I'm hearing from city officials that the road closures around  
+Area"                                                                           
++    },                                                                         
++    {                                                                          
++      "headline": "Insider: Road Closure Intel - Key Routes Impacted",         
++      "angle": "I'm hearing from city officials that the road closures around  
+Levi's Stadium will be more extensive than previously announced. Tasman Drive   
+will be closed for nearly two weeks, impacting traffic flow and local           
+businesses. The NFL is working with the city to mitigate the impact, but expect 
+delays.",                                                                       
++      "topic": "Super Bowl 60 Security and Logistical Preparations in the Bay  
+Levi's Stadium will be more extensive than previously announced. Tasman Drive   
+will be closed for nearly two weeks, impacting traffic flow and local           
+businesses. The NFL is working with the city to mitigate the impact, but expect 
+delays.",                                                                       
++      "topic": "Super Bowl 60 Security and Logistical Preparations in the Bay  
+Area"                                                                           
++    },                                                                         
++    {                                                                          
++      "headline": "Exclusive: Emergency Preparedness Drill Underway",          
++      "angle": "My sources say that a multi-agency emergency preparedness drill
+is currently underway in Santa Clara. This includes simulations of various      
+scenarios, from crowd surges to security breaches. The goal is to ensure that   
+all agencies are prepared to respond effectively to any potential incident.",   
+Area"                                                                           
++    },                                                                         
++    {                                                                          
++      "headline": "Exclusive: Emergency Preparedness Drill Underway",          
++      "angle": "My sources say that a multi-agency emergency preparedness drill
+is currently underway in Santa Clara. This includes simulations of various      
+scenarios, from crowd surges to security breaches. The goal is to ensure that   
+all agencies are prepared to respond effectively to any potential incident.",   
++      "topic": "Super Bowl 60 Security and Emergency Preparedness in the Bay   
+Area"                                                                           
++      "topic": "Super Bowl 60 Security and Emergency Preparedness in the Bay   
+Area"                                                                           
++    },                                                                         
++    {                                                                          
++      "headline": "Insider Tip: Expect Heightened Security at Transportation   
+Hubs",                                                                          
++      "angle": "I'm told to expect heightened security measures at all major   
+transportation hubs in the Bay Area, including SJC, SFO, and Caltrain stations. 
+This includes increased patrols, K-9 units, and random security checks. The NFL 
+is working with local authorities to ensure the safety of fans and personnel    
+traveling to and from the game.",                                               
++    },                                                                         
++    {                                                                          
++      "headline": "Insider Tip: Expect Heightened Security at Transportation   
+Hubs",                                                                          
++      "angle": "I'm told to expect heightened security measures at all major   
+transportation hubs in the Bay Area, including SJC, SFO, and Caltrain stations. 
+This includes increased patrols, K-9 units, and random security checks. The NFL 
+is working with local authorities to ensure the safety of fans and personnel    
+traveling to and from the game.",                                               
++      "topic": "Super Bowl 60 Security and Logistical Preparations in the Bay  
+Area"                                                                           
+     }                                                                          
+   ]                                                                            
+ }                                                                              
+                                                                                
++      "topic": "Super Bowl 60 Security and Logistical Preparations in the Bay  
+Area"                                                                           
+     }                                                                          
+   ]                                                                            
+ }                                                                              
+                                                                                
+
+
+Tokens: 7.7k sent, 1.8k received. Cost: $0.0023 message, $0.0023 session.
+Tokens: 7.7k sent, 1.8k received. Cost: $0.0023 message, $0.0023 session.
+Applied edit to .ralph/angle_insider.json
+Applied edit to .ralph/angle_insider.json
+
+
+🧠 AI Call 3/4: Analyst angles...
+🧠 AI Call 3/4: Analyst angles...
+  ⏱️  Waiting 5s for rate limit...
+Warning: Input is not a terminal (fd=0).
+Warning: Input is not a terminal (fd=0).
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────────────
+Aider v0.86.1
+Aider v0.86.1
+Model: vertex_ai/gemini-2.0-flash-exp with whole edit format
+Model: vertex_ai/gemini-2.0-flash-exp with whole edit format
+Git repo: .git with 80 files
+Git repo: .git with 80 files
+Repo-map: using 4096 tokens, auto refresh
+Repo-map: using 4096 tokens, auto refresh
+Added .ralph/analysis_1_topics.json to the chat.
+Added .ralph/analysis_1_topics.json to the chat.
+Added .ralph/real_intel.json to the chat.
+Added .ralph/real_intel.json to the chat.
+Added .ralph/trends.json to the chat.
+Added .ralph/trends.json to the chat.
+Added _posts/2026-01-30-02-00-insider-topic.md to the chat.
+Added _posts/2026-01-30-02-00-insider-topic.md to the chat.
+Added _posts/2026-01-30-02-17-topic.md to the chat.
+Added _posts/2026-01-30-02-17-topic.md to the chat.
+Added _posts/2026-01-30-06-00-mvp-shift.md to the chat.
+Added _posts/2026-01-30-06-00-mvp-shift.md to the chat.
+Added personas.json to the chat.
+Added personas.json to the chat.
+
+
+
+
+.ralph/angle_analyst.json
+.ralph/angle_analyst.json
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Quota exceeded for 
+aiplatform.googleapis.com/global_generate_content_requests_per_minute_per_projec
+t_per_base_model with base model: gemini-experimental. Please submit a quota 
+increase request. 
+https://cloud.google.com/vertex-ai/docs/generative-ai/quotas-genai.",\n    
+"status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Quota exceeded for 
+aiplatform.googleapis.com/global_generate_content_requests_per_minute_per_projec
+t_per_base_model with base model: gemini-experimental. Please submit a quota 
+increase request. 
+https://cloud.google.com/vertex-ai/docs/generative-ai/quotas-genai.",\n    
+"status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 0.2 seconds...
+Retrying in 0.2 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Quota exceeded for 
+aiplatform.googleapis.com/global_generate_content_requests_per_minute_per_projec
+t_per_base_model with base model: gemini-experimental. Please submit a quota 
+increase request. 
+https://cloud.google.com/vertex-ai/docs/generative-ai/quotas-genai.",\n    
+"status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Quota exceeded for 
+aiplatform.googleapis.com/global_generate_content_requests_per_minute_per_projec
+t_per_base_model with base model: gemini-experimental. Please submit a quota 
+increase request. 
+https://cloud.google.com/vertex-ai/docs/generative-ai/quotas-genai.",\n    
+"status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 0.5 seconds...
+Retrying in 0.5 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Quota exceeded for 
+aiplatform.googleapis.com/global_generate_content_requests_per_minute_per_projec
+t_per_base_model with base model: gemini-experimental. Please submit a quota 
+increase request. 
+https://cloud.google.com/vertex-ai/docs/generative-ai/quotas-genai.",\n    
+"status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Quota exceeded for 
+aiplatform.googleapis.com/global_generate_content_requests_per_minute_per_projec
+t_per_base_model with base model: gemini-experimental. Please submit a quota 
+increase request. 
+https://cloud.google.com/vertex-ai/docs/generative-ai/quotas-genai.",\n    
+"status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 1.0 seconds...
+Retrying in 1.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Quota exceeded for 
+aiplatform.googleapis.com/global_generate_content_requests_per_minute_per_projec
+t_per_base_model with base model: gemini-experimental. Please submit a quota 
+increase request. 
+https://cloud.google.com/vertex-ai/docs/generative-ai/quotas-genai.",\n    
+"status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Quota exceeded for 
+aiplatform.googleapis.com/global_generate_content_requests_per_minute_per_projec
+t_per_base_model with base model: gemini-experimental. Please submit a quota 
+increase request. 
+https://cloud.google.com/vertex-ai/docs/generative-ai/quotas-genai.",\n    
+"status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 2.0 seconds...
+Retrying in 2.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Quota exceeded for 
+aiplatform.googleapis.com/global_generate_content_requests_per_minute_per_projec
+t_per_base_model with base model: gemini-experimental. Please submit a quota 
+increase request. 
+https://cloud.google.com/vertex-ai/docs/generative-ai/quotas-genai.",\n    
+"status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Quota exceeded for 
+aiplatform.googleapis.com/global_generate_content_requests_per_minute_per_projec
+t_per_base_model with base model: gemini-experimental. Please submit a quota 
+increase request. 
+https://cloud.google.com/vertex-ai/docs/generative-ai/quotas-genai.",\n    
+"status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 4.0 seconds...
+Retrying in 4.0 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Quota exceeded for 
+aiplatform.googleapis.com/global_generate_content_requests_per_minute_per_projec
+t_per_base_model with base model: gemini-experimental. Please submit a quota 
+increase request. 
+https://cloud.google.com/vertex-ai/docs/generative-ai/quotas-genai.",\n    
+"status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Quota exceeded for 
+aiplatform.googleapis.com/global_generate_content_requests_per_minute_per_projec
+t_per_base_model with base model: gemini-experimental. Please submit a quota 
+increase request. 
+https://cloud.google.com/vertex-ai/docs/generative-ai/quotas-genai.",\n    
+"status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 8.0 seconds...
+Retrying in 8.0 seconds...
+Okay, I will create a new .ralph/angle_analyst.json file with three data-driven 
+angles focused on odds, trends, historical patterns, and prop bet value,        
+tailored to the "analyst" persona.                                              
+
+.ralph/angle_analyst.json                                                       
+Okay, I will create a new .ralph/angle_analyst.json file with three data-driven 
+angles focused on odds, trends, historical patterns, and prop bet value,        
+tailored to the "analyst" persona.                                              
+
+.ralph/angle_analyst.json                                                       
+
+                                                                                
+
+                                                                                
+@@ -1,4 +1,5 @@                                                                 
+ {                                                                              
+@@ -1,4 +1,5 @@                                                                 
+ {                                                                              
+     {                                                                          
+       "title": "SB60: 49ers' Red Zone Regression: Quantifying the Odds of a    
+Postseason Collapse",                                                           
+       "description": "Will the 49ers' red zone efficiency hold up in the Super 
+Bowl? We'll quantify their playoff red zone performance against regular season  
+     {                                                                          
+       "title": "SB60: 49ers' Red Zone Regression: Quantifying the Odds of a    
+Postseason Collapse",                                                           
+       "description": "Will the 49ers' red zone efficiency hold up in the Super 
+Bowl? We'll quantify their playoff red zone performance against regular season  
+     {                                                                          
+       "title": "SB60: The Underdog's Edge: Identifying Market Inefficiencies   
+with Advanced Metrics and Historical Data",                                     
+     {                                                                          
+       "title": "SB60: The Underdog's Edge: Identifying Market Inefficiencies   
+with Advanced Metrics and Historical Data",                                     
+       "description": "Uncover undervalued underdog teams using advanced metrics
+like DVOA, EPA, and win probability models. Quantify the historical             
+profitability of betting on underdogs with specific statistical profiles in the 
+Super Bowl era. Can data reveal an edge the market is missing?",                
++  18 /  43 lines [████████████░░░░░░░░░░░░░░░░░░]  42%                         
+                                                                                       "description": "Uncover undervalued underdog teams using advanced metrics
+like DVOA, EPA, and win probability models. Quantify the historical             
+profitability of betting on underdogs with specific statistical profiles in the 
+Super Bowl era. Can data reveal an edge the market is missing?",                
++  18 /  43 lines [████████████░░░░░░░░░░░░░░░░░░]  42%                         
+                                                                                
+
+Tokens: 7.1k sent, 934 received. Cost: $0.0016 message, $0.0016 session.
+Tokens: 7.1k sent, 934 received. Cost: $0.0016 message, $0.0016 session.
+Applied edit to .ralph/angle_analyst.json
+Applied edit to .ralph/angle_analyst.json
+
+
+🧠 AI Call 4/4: Local angles...
+🧠 AI Call 4/4: Local angles...
+Warning: Input is not a terminal (fd=0).
+Warning: Input is not a terminal (fd=0).
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────────────
+Aider v0.86.1
+Aider v0.86.1
+Model: vertex_ai/gemini-2.0-flash-exp with whole edit format
+Model: vertex_ai/gemini-2.0-flash-exp with whole edit format
+Git repo: .git with 80 files
+Git repo: .git with 80 files
+Repo-map: using 4096 tokens, auto refresh
+Repo-map: using 4096 tokens, auto refresh
+Added .ralph/analysis_1_topics.json to the chat.
+Added .ralph/analysis_1_topics.json to the chat.
+Added .ralph/real_intel.json to the chat.
+Added .ralph/real_intel.json to the chat.
+Added .ralph/trends.json to the chat.
+Added .ralph/trends.json to the chat.
+Added _posts/2026-01-30-02-00-insider-topic.md to the chat.
+Added _posts/2026-01-30-02-00-insider-topic.md to the chat.
+Added _posts/2026-01-30-02-17-topic.md to the chat.
+Added _posts/2026-01-30-02-17-topic.md to the chat.
+Added _posts/2026-01-30-06-00-mvp-shift.md to the chat.
+Added _posts/2026-01-30-06-00-mvp-shift.md to the chat.
+Added personas.json to the chat.
+Added personas.json to the chat.
+
+
+
+
+.ralph/angle_local.json
+.ralph/angle_local.json
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Quota exceeded for 
+aiplatform.googleapis.com/global_generate_content_requests_per_minute_per_projec
+t_per_base_model with base model: gemini-experimental. Please submit a quota 
+increase request. 
+https://cloud.google.com/vertex-ai/docs/generative-ai/quotas-genai.",\n    
+"status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Quota exceeded for 
+aiplatform.googleapis.com/global_generate_content_requests_per_minute_per_projec
+t_per_base_model with base model: gemini-experimental. Please submit a quota 
+increase request. 
+https://cloud.google.com/vertex-ai/docs/generative-ai/quotas-genai.",\n    
+"status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 0.2 seconds...
+Retrying in 0.2 seconds...
+Okay, I will update .ralph/angle_local.json to reflect the top local topic from 
+.ralph/analysis_1_topics.json, which is "Super Bowl 60 at Levi's Stadium: Fan   
+Experience and Local Impact in Santa Clara". I will create three angles related 
+to Bay Area experiences, focusing on Santa Clara, transportation, food, and     
+tailgating. I will include specific venues/restaurants/events, insider tips, and
+fan-focused hooks.                                                              
+
+.ralph/angle_local.json                                                         
+
+                                                                                
+Okay, I will update .ralph/angle_local.json to reflect the top local topic from 
+.ralph/analysis_1_topics.json, which is "Super Bowl 60 at Levi's Stadium: Fan   
+Experience and Local Impact in Santa Clara". I will create three angles related 
+to Bay Area experiences, focusing on Santa Clara, transportation, food, and     
+tailgating. I will include specific venues/restaurants/events, insider tips, and
+fan-focused hooks.                                                              
+
+.ralph/angle_local.json                                                         
+
+                                                                                
+@@ -1,3 +1,5 @@                                                                 
+ {                                                                              
+@@ -1,3 +1,5 @@                                                                 
+ {                                                                              
+   "local_angles": [                                                            
+     {                                                                          
+-      "angle": "Super Bowl 60 Tailgate Domination: Your Guide to the Ultimate  
+Pre-Game Party",                                                                
+-      "description": "Unlock the secrets to the best Super Bowl 60 tailgating  
+experience near Levi's Stadium. Discover top-rated parking lots, essential gear,
+and local craft beer pairings for an unforgettable pre-game celebration.",      
++      "angle": "Super Bowl 60 Tailgate Throwdown: Your Guide to Pre-Game       
+Paradise",                                                                      
++      "description": "Get ready to rumble in the parking lots of Levi's        
+Stadium! We're serving up the ultimate guide to Super Bowl 60 tailgating, from  
+the best spots to park your rig to the must-have gear for grilling and chilling 
+before the big game.",                                                          
+   "local_angles": [                                                            
+     {                                                                          
+-      "angle": "Super Bowl 60 Tailgate Domination: Your Guide to the Ultimate  
+Pre-Game Party",                                                                
+-      "description": "Unlock the secrets to the best Super Bowl 60 tailgating  
+experience near Levi's Stadium. Discover top-rated parking lots, essential gear,
+and local craft beer pairings for an unforgettable pre-game celebration.",      
++      "angle": "Super Bowl 60 Tailgate Throwdown: Your Guide to Pre-Game       
+Paradise",                                                                      
++      "description": "Get ready to rumble in the parking lots of Levi's        
+Stadium! We're serving up the ultimate guide to Super Bowl 60 tailgating, from  
+the best spots to park your rig to the must-have gear for grilling and chilling 
+before the big game.",                                                          
+       "venues": [                                                              
+-        "Blue Lot 1 (known for lively atmosphere)",                            
+-        "Green Lot 4 (close to stadium entrance)",                             
+-        "Red Lot 7 (close to the stadium but further walk)",                   
+-        "Santa Clara Valley Brewing (local craft beer)",                       
+-        "Off the Rails Brewing (another great local option)"                   
++        "Blue Lot 1 (the OG tailgate zone)",                                   
++        "Green Lot 4 (close to the action)",                                   
+       "venues": [                                                              
+-        "Blue Lot 1 (known for lively atmosphere)",                            
+-        "Green Lot 4 (close to stadium entrance)",                             
+-        "Red Lot 7 (close to the stadium but further walk)",                   
+-        "Santa Clara Valley Brewing (local craft beer)",                       
+-        "Off the Rails Brewing (another great local option)"                   
++        "Blue Lot 1 (the OG tailgate zone)",                                   
++        "Green Lot 4 (close to the action)",                                   
++        "Red Lot 7 (for the serious tailgater)",                               
++        "Santa Clara Valley Brewing (craft brews for the discerning fan)",     
++        "Off the Rails Brewing (another local favorite)"                       
+       ],                                                                       
+-      "insider_tip": "Arrive at least 4 hours before kickoff to snag a prime   
+tailgating spot. Bring a portable grill, games like cornhole, and plenty of     
+local craft beer to share! Check local ordinances for tailgating rules.",       
+-      "fan_hook": "Ready to own the Super Bowl 60 tailgate scene? Your ultimate
+guide to pre-game glory starts here!"                                           
++      "insider_tip": "Pro Tip: Arrive EARLY – like, sunrise early – to snag the
+best spot. BYO everything, but don't forget to check the stadium's tailgating   
+rules. And for the love of football, bring a portable charger!",                
++        "Red Lot 7 (for the serious tailgater)",                               
++        "Santa Clara Valley Brewing (craft brews for the discerning fan)",     
++        "Off the Rails Brewing (another local favorite)"                       
+       ],                                                                       
+-      "insider_tip": "Arrive at least 4 hours before kickoff to snag a prime   
+tailgating spot. Bring a portable grill, games like cornhole, and plenty of     
+local craft beer to share! Check local ordinances for tailgating rules.",       
+-      "fan_hook": "Ready to own the Super Bowl 60 tailgate scene? Your ultimate
+guide to pre-game glory starts here!"                                           
++      "insider_tip": "Pro Tip: Arrive EARLY – like, sunrise early – to snag the
+best spot. BYO everything, but don't forget to check the stadium's tailgating   
+rules. And for the love of football, bring a portable charger!",                
++      "fan_hook": "Ready to turn Levi's Stadium into your personal tailgate    
+kingdom? Let's get this party started!"                                         
+     },                                                                         
+     {                                                                          
+-      "angle": "Santa Clara Culinary Adventure: Must-Try Restaurants Near      
+Levi's Stadium",                                                                
+-      "description": "Embark on a culinary journey through Santa Clara with our
+curated list of must-try restaurants near Levi's Stadium. From upscale dining to
+casual bites, discover local specialties and game-day deals to satisfy every    
+craving.",                                                                      
++      "angle": "Santa Clara Chow Down: Your Guide to Super Bowl 60 Eats",      
++      "fan_hook": "Ready to turn Levi's Stadium into your personal tailgate    
+kingdom? Let's get this party started!"                                         
+     },                                                                         
+     {                                                                          
+-      "angle": "Santa Clara Culinary Adventure: Must-Try Restaurants Near      
+Levi's Stadium",                                                                
+-      "description": "Embark on a culinary journey through Santa Clara with our
+curated list of must-try restaurants near Levi's Stadium. From upscale dining to
+casual bites, discover local specialties and game-day deals to satisfy every    
+craving.",                                                                      
++      "angle": "Santa Clara Chow Down: Your Guide to Super Bowl 60 Eats",      
++      "description": "Forget stadium food – we're diving into the delicious    
+world of Santa Clara cuisine! From upscale dining experiences to quick bites    
+that won't break the bank, we've got your culinary game plan covered.",         
+       "venues": [                                                              
++        "Parcel 104 (fancy pants dining)",                                     
++      "description": "Forget stadium food – we're diving into the delicious    
+world of Santa Clara cuisine! From upscale dining experiences to quick bites    
+that won't break the bank, we've got your culinary game plan covered.",         
+       "venues": [                                                              
++        "Parcel 104 (fancy pants dining)",                                     
+-        "Birks Restaurant (classic American cuisine)",                         
+-        "Ike's Love & Sandwiches (delicious and unique sandwiches)",           
+-        "Smoking Pig BBQ Company (authentic BBQ)",                             
+-        "Dishdash (Middle Eastern flavors)",                                   
+-        "Konjoe Burger Bar (gourmet burgers)"                                  
++        "Parcel 104 (fancy pants dining)",                                     
++        "Birks Restaurant (classic American with a twist)",                    
++        "Ike's Love & Sandwiches (sandwich heaven)",                           
++        "Smoking Pig BBQ Company (finger-licking good BBQ)",                   
++        "Dishdash (Middle Eastern magic)",                                     
++        "Konjoe Burger Bar (gourmet burgers that will blow your mind)"         
+-        "Birks Restaurant (classic American cuisine)",                         
+-        "Ike's Love & Sandwiches (delicious and unique sandwiches)",           
+-        "Smoking Pig BBQ Company (authentic BBQ)",                             
+-        "Dishdash (Middle Eastern flavors)",                                   
+-        "Konjoe Burger Bar (gourmet burgers)"                                  
++        "Parcel 104 (fancy pants dining)",                                     
++        "Birks Restaurant (classic American with a twist)",                    
++        "Ike's Love & Sandwiches (sandwich heaven)",                           
++        "Smoking Pig BBQ Company (finger-licking good BBQ)",                   
++        "Dishdash (Middle Eastern magic)",                                     
++        "Konjoe Burger Bar (gourmet burgers that will blow your mind)"         
+       ],                                                                       
+-      "insider_tip": "Make reservations well in advance, especially for dinner.
+Explore restaurants slightly further from the stadium for potentially better    
+availability and a more local experience. Check for Super Bowl specials!",      
+-      "fan_hook": "Fuel your Super Bowl 60 experience with the best eats in    
+Santa Clara! Your culinary adventure awaits."                                   
++      "insider_tip": "Reservations are your best friend, especially for dinner.
+Venture a bit outside the stadium zone for hidden gems and local favorites. And 
+always check for Super Bowl specials!",                                         
++      "fan_hook": "Ditch the hot dogs and discover the real taste of Santa     
+Clara! Your Super Bowl culinary adventure begins now."                          
+       ],                                                                       
+-      "insider_tip": "Make reservations well in advance, especially for dinner.
+Explore restaurants slightly further from the stadium for potentially better    
+availability and a more local experience. Check for Super Bowl specials!",      
+-      "fan_hook": "Fuel your Super Bowl 60 experience with the best eats in    
+Santa Clara! Your culinary adventure awaits."                                   
++      "insider_tip": "Reservations are your best friend, especially for dinner.
+Venture a bit outside the stadium zone for hidden gems and local favorites. And 
+always check for Super Bowl specials!",                                         
++      "fan_hook": "Ditch the hot dogs and discover the real taste of Santa     
+Clara! Your Super Bowl culinary adventure begins now."                          
+     },                                                                         
+     {                                                                          
+-      "angle": "Super Bowl 60 Transportation Survival Guide: Navigating Santa  
+Clara Like a Pro",                                                              
+-      "description": "Master the art of getting around Santa Clara during Super
+Bowl 60 with our comprehensive transportation guide. Discover the best public   
+transportation options, ride-sharing strategies, parking tips, and alternative  
+routes to minimize traffic headaches.",                                         
++      "angle": "Super Bowl 60 Transit Triumph: Your Guide to Getting Around    
+Santa Clara",                                                                   
++      "description": "Navigating Santa Clara during Super Bowl 60 doesn't have 
+to be a nightmare. We're breaking down the best transportation options, from    
+     },                                                                         
+     {                                                                          
+-      "angle": "Super Bowl 60 Transportation Survival Guide: Navigating Santa  
+Clara Like a Pro",                                                              
+-      "description": "Master the art of getting around Santa Clara during Super
+Bowl 60 with our comprehensive transportation guide. Discover the best public   
+transportation options, ride-sharing strategies, parking tips, and alternative  
+routes to minimize traffic headaches.",                                         
++      "angle": "Super Bowl 60 Transit Triumph: Your Guide to Getting Around    
+Santa Clara",                                                                   
++      "description": "Navigating Santa Clara during Super Bowl 60 doesn't have 
+to be a nightmare. We're breaking down the best transportation options, from    
+public transit to ride-sharing hacks, so you can arrive at the stadium          
+stress-free and ready to cheer.",                                               
+       "venues": [                                                              
+-        "VTA Light Rail (direct access to Levi's Stadium)",                    
+-        "Caltrain (connects to VTA)",                                          
+-        "Ride-sharing pick-up/drop-off zones (designated areas)",              
+-        "Santa Clara free shuttle (game day service)",                         
+-        "ACE Train (connects to the wider Bay Area)"                           
++        "VTA Light Rail (your ticket to the stadium)",                         
++        "Caltrain (connecting you from the Peninsula)",                        
+public transit to ride-sharing hacks, so you can arrive at the stadium          
+stress-free and ready to cheer.",                                               
+       "venues": [                                                              
+-        "VTA Light Rail (direct access to Levi's Stadium)",                    
+-        "Caltrain (connects to VTA)",                                          
+-        "Ride-sharing pick-up/drop-off zones (designated areas)",              
+-        "Santa Clara free shuttle (game day service)",                         
+-        "ACE Train (connects to the wider Bay Area)"                           
++        "VTA Light Rail (your ticket to the stadium)",                         
++        "Caltrain (connecting you from the Peninsula)",                        
++        "Ride-sharing zones (designated pick-up/drop-off spots)",              
++        "Santa Clara free shuttle (game day hero)",                            
++        "ACE Train (for those coming from afar)"                               
+       ],                                                                       
++        "Ride-sharing zones (designated pick-up/drop-off spots)",              
++        "Santa Clara free shuttle (game day hero)",                            
++        "ACE Train (for those coming from afar)"                               
+       ],                                                                       
+-      "insider_tip": "Download the VTA mobile app for real-time schedules and  
+fare payment. Consider biking or walking if you're staying close to the stadium 
+to avoid traffic altogether. Purchase a Clipper card in advance for easy access 
+to public transportation. Plan your route in advance!",                         
+-      "fan_hook": "Conquer Santa Clara traffic and arrive at Super Bowl 60     
+stress-free! Your ultimate transportation survival guide is here."              
++      "insider_tip": "Download the VTA app for real-time updates and easy fare 
+payment. Consider biking or walking if you're close enough – it's a great way to
+beat the traffic. And snag a Clipper card in advance for seamless public transit
+access.",                                                                       
+-      "insider_tip": "Download the VTA mobile app for real-time schedules and  
+fare payment. Consider biking or walking if you're staying close to the stadium 
+to avoid traffic altogether. Purchase a Clipper card in advance for easy access 
+to public transportation. Plan your route in advance!",                         
+-      "fan_hook": "Conquer Santa Clara traffic and arrive at Super Bowl 60     
+stress-free! Your ultimate transportation survival guide is here."              
++      "insider_tip": "Download the VTA app for real-time updates and easy fare 
+payment. Consider biking or walking if you're close enough – it's a great way to
+beat the traffic. And snag a Clipper card in advance for seamless public transit
+access.",                                                                       
++      "fan_hook": "Conquer Santa Clara traffic like a pro! Your ultimate Super 
+Bowl 60 transportation guide is here to save the day."                          
+     }                                                                          
+   ]                                                                            
+ }                                                                              
+                                                                                
++      "fan_hook": "Conquer Santa Clara traffic like a pro! Your ultimate Super 
+Bowl 60 transportation guide is here to save the day."                          
+     }                                                                          
+   ]                                                                            
+ }                                                                              
+                                                                                
+
+
+Tokens: 6.9k sent, 806 received. Cost: $0.0015 message, $0.0015 session.
+Tokens: 6.9k sent, 806 received. Cost: $0.0015 message, $0.0015 session.
+Applied edit to .ralph/angle_local.json
+Applied edit to .ralph/angle_local.json
+
+
+📝 Compiling research summary...
+📝 Compiling research summary...
+✅ Research complete: 5 topics, 21 angles
+✅ Research complete: 5 topics, 21 angles
+
+

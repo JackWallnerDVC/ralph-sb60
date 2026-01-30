@@ -5,10 +5,15 @@ permalink: /authors/insider/
 ---
 
 <div style="text-align: center; margin-bottom: 2rem;">
-  <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop&crop=face" alt="The Insider" class="persona-avatar" style="width: 120px; height: 120px; margin-bottom: 1rem;">
-  <h1 style="color: var(--navy-primary);">The Insider</h1>
-  <p style="color: var(--text-secondary); max-width: 500px; margin: 0 auto;">Behind-the-scenes access to the NFL machine. Stadium logistics, broadcast details, locker room whispers.</p>
+  <img src="/assets/images/authors/sarah-jenkins.jpg" alt="Sarah Jenkins" class="persona-avatar" style="width: 150px; height: 150px; border-radius: 50%; margin-bottom: 1rem; object-fit: cover;">
+  <h1 style="color: var(--navy-primary);">Sarah Jenkins</h1>
+  <p style="color: var(--text-secondary); font-size: 1.125rem; margin-bottom: 0.5rem;">The Insider</p>
+  <p style="color: #718096; font-size: 0.9375rem;">📍 New York City, NY</p>
 </div>
+
+## About Sarah
+
+Sarah spent eight years at ESPN covering the NFL beat before moving to Sports Illustrated as a senior writer. Her Rolodex includes GMs, agents, and players who trust her with the stories they won't tell anyone else. When news breaks on Super Bowl Sunday, Sarah already knew about it yesterday.
 
 ## My Beat
 
@@ -19,11 +24,15 @@ permalink: /authors/insider/
 - Security and crowd flow
 - Halftime show production
 
-## Latest from The Insider
+## Writing Style
+
+> Short, punchy paragraphs. "Sources say..." "I'm hearing..." Exclusive feel.
+
+## Latest from Sarah
 
 {% assign insider_posts = site.posts | where: "author", "insider" %}
 {% for post in insider_posts limit:5 %}
 - [{{ post.title }}]({{ post.url }}) — {{ post.date | date: "%B %d, %Y" }}
 {% endfor %}
 
-[View all posts by The Insider &rarr;](/)
+[View all posts by Sarah &rarr;](/)

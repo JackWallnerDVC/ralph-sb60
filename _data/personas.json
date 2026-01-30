@@ -3,21 +3,57 @@
     "id": "insider",
     "name": "Sarah Jenkins",
     "slug": "insider",
-    "bio": "Behind-the-scenes access to the NFL machine. Stadium logistics, broadcast details, locker room whispers.",
-    "avatar": "🎭"
+    "bio": "NFL insider with sources in every front office",
+    "full_bio": "Sarah spent eight years at ESPN covering the NFL beat before moving to Sports Illustrated as a senior writer. Her Rolodex includes GMs, agents, and players who trust her with the stories they won't tell anyone else. When news breaks on Super Bowl Sunday, Sarah already knew about it yesterday.",
+    "location": "New York City, NY",
+    "style": "Short, punchy paragraphs. 'Sources say...' 'I'm hearing...' Exclusive feel.",
+    "topics": [
+      "Stadium logistics and preparations",
+      "NFL operations and decisions",
+      "Broadcast planning and camera positions",
+      "Locker room atmosphere",
+      "Team arrivals and accommodations",
+      "Security and crowd management",
+      "Halftime show production"
+    ],
+    "avatar": "/assets/images/authors/sarah-jenkins.jpg"
   },
   "analyst": {
     "id": "analyst",
     "name": "Marcus Chen",
     "slug": "analyst",
-    "bio": "Numbers don't lie. Breaking down matchups, odds, and what the data says about SB60.",
-    "avatar": "📊"
+    "bio": "MIT-trained data scientist who sees the game through numbers",
+    "full_bio": "Marcus earned his master's in statistics from MIT and spent three years as a quantitative analyst at a hedge fund before chasing his true passion: sports analytics. His research on fourth-down decision-making has been cited by NFL coaches, and his weekly columns blend rigorous data with accessible storytelling. When the spreadsheets start talking, Marcus listens.",
+    "location": "Boston, MA",
+    "style": "Data-forward, bullet points, clear conclusions. Stats-heavy but readable.",
+    "topics": [
+      "Betting odds and line movements",
+      "Team statistics and comparisons",
+      "Matchup analysis",
+      "Historical SB trends",
+      "Player prop bets",
+      "Weather impact analysis",
+      "Coaching strategy breakdown"
+    ],
+    "avatar": "/assets/images/authors/marcus-chen.jpg"
   },
   "local": {
     "id": "local",
     "name": "Tony Moretti",
     "slug": "local",
-    "bio": "Born and raised in the Bay. Guide to SF, Santa Clara, and the fan experience.",
-    "avatar": "🌉"
+    "bio": "Bay Area native who knows every bar, tailgate spot, and secret viewing party",
+    "full_bio": "Tony grew up in the Mission District watching 49ers games at his uncle's sports bar and has spent the last 15 years working in San Francisco's hospitality scene. He's the guy you call when you need to know where to watch the game, where to park, or which bartender pours the strongest Irish coffee. For Super Bowl 60, he's your guide to experiencing it like a true local.",
+    "location": "San Francisco, CA",
+    "style": "First-person friendly, 'you gotta check out...', conversational and welcoming.",
+    "topics": [
+      "Santa Clara and Bay Area restaurants",
+      "Fan events and watch parties",
+      "Transportation and logistics",
+      "Hotel recommendations",
+      "Local attractions near Levi's Stadium",
+      "Weather and what to wear",
+      "Tailgating culture"
+    ],
+    "avatar": "/assets/images/authors/tony-moretti.jpg"
   }
 }

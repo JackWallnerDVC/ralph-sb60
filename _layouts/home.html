@@ -283,7 +283,15 @@
     }
 
     .author-avatar {
-      font-size: 1.5rem;
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      overflow: hidden;
+    }
+    .author-avatar img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
     }
 
     .author-name {
@@ -427,9 +435,17 @@
       transform: translateY(-6px);
     }
 
-    .persona-emoji {
-      font-size: 4rem;
-      margin-bottom: 1rem;
+    .persona-avatar-img {
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      margin: 0 auto 1rem;
+      overflow: hidden;
+    }
+    .persona-avatar-img img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
     }
 
     .persona-name {
@@ -622,7 +638,7 @@
           <div class="featured-meta">
             {% assign author = site.data.personas | where: "id", featured_post.author | first %}
             <span class="author-badge">
-              <span class="author-avatar">{{ author.avatar }}</span>
+              <span class="author-avatar"><img src="{{ author.avatar }}" alt="{{ author.name }}"></span>
               <span class="author-name">{{ author.name }}</span>
             </span>
             <span>{{ featured_post.date | date: "%B %d, %Y" }}</span>
@@ -659,7 +675,7 @@
             <div class="article-meta">
               {% assign author = site.data.personas | where: "id", post.author | first %}
               <span class="article-author">
-                <span style="font-size: 1rem;">{{ author.avatar }}</span>
+                <img src="{{ author.avatar }}" alt="{{ author.name }}" style="width: 20px; height: 20px; border-radius: 50%; object-fit: cover;">
                 {{ author.name }}
               </span>
               <span>·</span>
@@ -688,7 +704,7 @@
         <div class="persona-grid">
           {% for persona in site.data.personas %}
           <article class="persona-card">
-            <div class="persona-emoji">{{ persona[1].avatar }}</div>
+            <div class="persona-avatar-img"><img src="{{ persona[1].avatar }}" alt="{{ persona[1].name }}"></div>
             <h3 class="persona-name">{{ persona[1].name }}</h3>
             <p class="persona-bio">{{ persona[1].bio }}</p>
             <div class="persona-topics">

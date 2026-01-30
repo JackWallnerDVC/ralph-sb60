@@ -1,7 +1,7 @@
 {
   "mode": "job_based",
-  "lastActivity": "2026-01-30T02:24:34+0000",
-  "draftsInQueue": 0,
+  "lastActivity": "2026-01-30T02:31:10+0000",
+  "draftsInQueue": 1,
   "drafts": [],
   "lastPublish": "2026-01-30T02:17:58.185918+00:00",
   "targetQueueSize": 5,
@@ -35,7 +35,7 @@
   "lastTransition": "2026-01-30T00:57:15.103424Z",
   "apiCooldownSeconds": 180,
   "targetDrafts": 5,
-  "lastDraftAt": "2026-01-30T02:16:02.192468Z",
+  "lastDraftAt": "2026-01-30T02:30:49.301971Z",
   "lastResearch": "2026-01-30T01:00:04.204689Z",
   "trendsAvailable": true
 }

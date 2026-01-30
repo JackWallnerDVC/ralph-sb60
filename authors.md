@@ -57,17 +57,20 @@ permalink: /authors/
   width: 120px;
   height: 120px;
   border-radius: 24px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 5rem;
+  overflow: hidden;
   background: linear-gradient(135deg, #f0f4f8 0%, #e2e8f0 100%);
-  line-height: 1;
+  flex-shrink: 0;
+}
+
+.author-avatar img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .author-info h2 {
   color: #1a365d;
-  margin-bottom: 0.75rem;
+  margin-bottom: 0.5rem;
   display: flex;
   align-items: center;
   gap: 0.75rem;
@@ -84,22 +87,35 @@ permalink: /authors/
   letter-spacing: 0.05em;
 }
 
+.author-location {
+  font-size: 0.875rem;
+  color: #718096;
+  margin-bottom: 0.75rem;
+}
+
 .author-bio {
   color: #4a5568;
   line-height: 1.7;
-  margin-bottom: 1.25rem;
+  margin-bottom: 1rem;
   font-size: 1.0625rem;
+}
+
+.author-full-bio {
+  color: #4a5568;
+  line-height: 1.7;
+  margin-bottom: 1.25rem;
+  font-size: 0.9375rem;
+  padding: 1rem 1.25rem;
+  background: #f7fafc;
+  border-radius: 12px;
+  border-left: 3px solid #2d7d32;
 }
 
 .author-style {
   font-size: 0.9375rem;
   color: #718096;
   font-style: italic;
-  padding: 1rem 1.25rem;
-  background: #f7fafc;
-  border-radius: 12px;
   margin-bottom: 1.25rem;
-  border-left: 3px solid #2d7d32;
 }
 
 .author-topics {
@@ -117,72 +133,6 @@ permalink: /authors/
   font-weight: 600;
 }
 
-.schedule-section {
-  background: #f7fafc;
-  border-radius: 20px;
-  padding: 2.5rem;
-}
-
-.schedule-section h2 {
-  color: #1a365d;
-  margin-bottom: 2rem;
-  text-align: center;
-  font-size: 1.75rem;
-}
-
-.schedule-table {
-  width: 100%;
-  border-collapse: collapse;
-}
-
-.schedule-table th,
-.schedule-table td {
-  padding: 1.25rem 1rem;
-  text-align: left;
-  border-bottom: 1px solid #e2e8f0;
-}
-
-.schedule-table th {
-  color: #718096;
-  font-weight: 700;
-  font-size: 0.8125rem;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
-}
-
-.schedule-table tr:last-child td {
-  border-bottom: none;
-}
-
-.schedule-table tr:hover {
-  background: white;
-  border-radius: 8px;
-}
-
-.time-cell {
-  font-weight: 800;
-  color: #1a365d;
-  font-family: 'SF Mono', monospace;
-  font-size: 1.25rem;
-}
-
-.author-cell {
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-  font-weight: 600;
-  font-size: 1.0625rem;
-}
-
-.author-cell span {
-  font-size: 1.5rem;
-}
-
-.what-cell {
-  color: #4a5568;
-  font-size: 1rem;
-}
-
 @media (max-width: 768px) {
   .author-card {
     grid-template-columns: 1fr;
@@ -192,7 +142,6 @@ permalink: /authors/
     margin: 0 auto;
     width: 100px;
     height: 100px;
-    font-size: 4rem;
   }
   .author-info h2 {
     justify-content: center;
@@ -203,14 +152,6 @@ permalink: /authors/
   }
   .author-hero h1 {
     font-size: 2rem;
-  }
-  .schedule-table th,
-  .schedule-table td {
-    padding: 1rem 0.75rem;
-    font-size: 0.9375rem;
-  }
-  .time-cell {
-    font-size: 1.1rem;
   }
 }
 </style>
@@ -224,14 +165,18 @@ permalink: /authors/
   <div class="authors-grid">
     {% for persona in site.data.personas %}
     <div class="author-card">
-      <div class="author-avatar">{{ persona[1].avatar }}</div>
+      <div class="author-avatar">
+        <img src="{{ persona[1].avatar }}" alt="{{ persona[1].name }}">
+      </div>
       <div class="author-info">
         <h2>
           {{ persona[1].name }}
           <span class="author-badge">{{ persona[0] | upcase }}</span>
         </h2>
+        <p class="author-location">📍 {{ persona[1].location }}</p>
         <p class="author-bio">{{ persona[1].bio }}</p>
-        <p class="author-style">"{{ persona[1].style }}"</p>
+        <p class="author-full-bio">{{ persona[1].full_bio }}</p>
+        <p class="author-style">Voice: "{{ persona[1].style }}"</p>
         <div class="author-topics">
           {% for topic in persona[1].topics %}
           <span class="topic-pill">{{ topic }}</span>
@@ -240,43 +185,5 @@ permalink: /authors/
       </div>
     </div>
     {% endfor %}
-  </div>
-
-  <div class="schedule-section">
-    <h2>📅 Publishing Schedule</h2>
-    <table class="schedule-table">
-      <thead>
-        <tr>
-          <th>Time (UTC)</th>
-          <th>Author</th>
-          <th>What to Expect</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td class="time-cell">00:00</td>
-          <td class="author-cell"><span>🎭</span> Sarah Jenkins</td>
-          <td class="what-cell">Overnight intelligence drops. Sources say...</td>
-        </tr>
-        <tr>
-          <td class="time-cell">06:00</td>
-          <td class="author-cell"><span>📊</span> Marcus Chen</td>
-          <td class="what-cell">Morning numbers. Stats, odds, and analysis.</td>
-        </tr>
-        <tr>
-          <td class="time-cell">12:00</td>
-          <td class="author-cell"><span>🌉</span> Tony Moretti</td>
-          <td class="what-cell">Midday Bay Area guide. Food, transit, events.</td>
-        </tr>
-        <tr>
-          <td class="time-cell">18:00</td>
-          <td class="author-cell"><span>🎲</span> Rotating</td>
-          <td class="what-cell">Evening bonus. Best story of the day wins.</td>
-        </tr>
-      </tbody>
-    </table>
-    <p style="text-align: center; margin-top: 1.5rem; color: #718096; font-size: 0.9375rem;">
-      All times UTC. <a href="https://www.worldtimebuddy.com/" target="_blank" style="color: #2d7d32; font-weight: 600;">Convert to your timezone →</a>
-    </p>
   </div>
 </div>

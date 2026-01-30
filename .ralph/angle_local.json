@@ -1,44 +1,44 @@
 {
   "local_angles": [
     {
-      "angle": "Super Bowl 60 Tailgate Domination: Your Guide to the Ultimate Pre-Game Party",
-      "description": "Unlock the secrets to the best Super Bowl 60 tailgating experience near Levi's Stadium. Discover top-rated parking lots, essential gear, and local craft beer pairings for an unforgettable pre-game celebration.",
+      "angle": "Super Bowl 60 Tailgate Throwdown: Your Guide to Pre-Game Paradise",
+      "description": "Get ready to rumble in the parking lots of Levi's Stadium! We're serving up the ultimate guide to Super Bowl 60 tailgating, from the best spots to park your rig to the must-have gear for grilling and chilling before the big game.",
       "venues": [
-        "Blue Lot 1 (known for lively atmosphere)",
-        "Green Lot 4 (close to stadium entrance)",
-        "Red Lot 7 (close to the stadium but further walk)",
-        "Santa Clara Valley Brewing (local craft beer)",
-        "Off the Rails Brewing (another great local option)"
+        "Blue Lot 1 (the OG tailgate zone)",
+        "Green Lot 4 (close to the action)",
+        "Red Lot 7 (for the serious tailgater)",
+        "Santa Clara Valley Brewing (craft brews for the discerning fan)",
+        "Off the Rails Brewing (another local favorite)"
       ],
-      "insider_tip": "Arrive at least 4 hours before kickoff to snag a prime tailgating spot. Bring a portable grill, games like cornhole, and plenty of local craft beer to share! Check local ordinances for tailgating rules.",
-      "fan_hook": "Ready to own the Super Bowl 60 tailgate scene? Your ultimate guide to pre-game glory starts here!"
+      "insider_tip": "Pro Tip: Arrive EARLY – like, sunrise early – to snag the best spot. BYO everything, but don't forget to check the stadium's tailgating rules. And for the love of football, bring a portable charger!",
+      "fan_hook": "Ready to turn Levi's Stadium into your personal tailgate kingdom? Let's get this party started!"
     },
     {
-      "angle": "Santa Clara Culinary Adventure: Must-Try Restaurants Near Levi's Stadium",
-      "description": "Embark on a culinary journey through Santa Clara with our curated list of must-try restaurants near Levi's Stadium. From upscale dining to casual bites, discover local specialties and game-day deals to satisfy every craving.",
+      "angle": "Santa Clara Chow Down: Your Guide to Super Bowl 60 Eats",
+      "description": "Forget stadium food – we're diving into the delicious world of Santa Clara cuisine! From upscale dining experiences to quick bites that won't break the bank, we've got your culinary game plan covered.",
       "venues": [
-        "Parcel 104 (upscale dining experience)",
-        "Birks Restaurant (classic American cuisine)",
-        "Ike's Love & Sandwiches (delicious and unique sandwiches)",
-        "Smoking Pig BBQ Company (authentic BBQ)",
-        "Dishdash (Middle Eastern flavors)",
-        "Konjoe Burger Bar (gourmet burgers)"
+        "Parcel 104 (fancy pants dining)",
+        "Birks Restaurant (classic American with a twist)",
+        "Ike's Love & Sandwiches (sandwich heaven)",
+        "Smoking Pig BBQ Company (finger-licking good BBQ)",
+        "Dishdash (Middle Eastern magic)",
+        "Konjoe Burger Bar (gourmet burgers that will blow your mind)"
       ],
-      "insider_tip": "Make reservations well in advance, especially for dinner. Explore restaurants slightly further from the stadium for potentially better availability and a more local experience. Check for Super Bowl specials!",
-      "fan_hook": "Fuel your Super Bowl 60 experience with the best eats in Santa Clara! Your culinary adventure awaits."
+      "insider_tip": "Reservations are your best friend, especially for dinner. Venture a bit outside the stadium zone for hidden gems and local favorites. And always check for Super Bowl specials!",
+      "fan_hook": "Ditch the hot dogs and discover the real taste of Santa Clara! Your Super Bowl culinary adventure begins now."
     },
     {
-      "angle": "Super Bowl 60 Transportation Survival Guide: Navigating Santa Clara Like a Pro",
-      "description": "Master the art of getting around Santa Clara during Super Bowl 60 with our comprehensive transportation guide. Discover the best public transportation options, ride-sharing strategies, parking tips, and alternative routes to minimize traffic headaches.",
+      "angle": "Super Bowl 60 Transit Triumph: Your Guide to Getting Around Santa Clara",
+      "description": "Navigating Santa Clara during Super Bowl 60 doesn't have to be a nightmare. We're breaking down the best transportation options, from public transit to ride-sharing hacks, so you can arrive at the stadium stress-free and ready to cheer.",
       "venues": [
-        "VTA Light Rail (direct access to Levi's Stadium)",
-        "Caltrain (connects to VTA)",
-        "Ride-sharing pick-up/drop-off zones (designated areas)",
-        "Santa Clara free shuttle (game day service)",
-        "ACE Train (connects to the wider Bay Area)"
+        "VTA Light Rail (your ticket to the stadium)",
+        "Caltrain (connecting you from the Peninsula)",
+        "Ride-sharing zones (designated pick-up/drop-off spots)",
+        "Santa Clara free shuttle (game day hero)",
+        "ACE Train (for those coming from afar)"
       ],
-      "insider_tip": "Download the VTA mobile app for real-time schedules and fare payment. Consider biking or walking if you're staying close to the stadium to avoid traffic altogether. Purchase a Clipper card in advance for easy access to public transportation. Plan your route in advance!",
-      "fan_hook": "Conquer Santa Clara traffic and arrive at Super Bowl 60 stress-free! Your ultimate transportation survival guide is here."
+      "insider_tip": "Download the VTA app for real-time updates and easy fare payment. Consider biking or walking if you're close enough – it's a great way to beat the traffic. And snag a Clipper card in advance for seamless public transit access.",
+      "fan_hook": "Conquer Santa Clara traffic like a pro! Your ultimate Super Bowl 60 transportation guide is here to save the day."
     }
   ]
 }
