@@ -638,10 +638,10 @@
           <div class="featured-meta">
             {% assign author = site.data.personas | where: "id", featured_post.author | first %}
             <span class="author-badge">
-              <span class="author-avatar"><img src="{{ author.avatar }}" alt="{{ author.name }}"></span>
+              <span class="author-avatar"><img src="{{ author.avatar | relative_url }}" alt="{{ author.name }}"></span>
               <span class="author-name">{{ author.name }}</span>
             </span>
-            <span>{{ featured_post.date | date: "%B %d, %Y" }}</span>
+            <span>{{ featured_post.date | date: "%B %d, %Y at %I:%M %p %Z" }}</span>
           </div>
         </div>
       </article>
@@ -675,11 +675,11 @@
             <div class="article-meta">
               {% assign author = site.data.personas | where: "id", post.author | first %}
               <span class="article-author">
-                <img src="{{ author.avatar }}" alt="{{ author.name }}" style="width: 20px; height: 20px; border-radius: 50%; object-fit: cover;">
+                <img src="{{ author.avatar | relative_url }}" alt="{{ author.name }}" style="width: 20px; height: 20px; border-radius: 50%; object-fit: cover;">
                 {{ author.name }}
               </span>
               <span>·</span>
-              <span>{{ post.date | date: "%b %d" }}</span>
+              <span>{{ post.date | date: "%b %d, %I:%M %p" }}</span>
             </div>
             <h3 class="article-title">
               <a href="{{ post.url | relative_url }}">
@@ -704,7 +704,7 @@
         <div class="persona-grid">
           {% for persona in site.data.personas %}
           <article class="persona-card">
-            <div class="persona-avatar-img"><img src="{{ persona[1].avatar }}" alt="{{ persona[1].name }}"></div>
+            <div class="persona-avatar-img"><img src="{{ persona[1].avatar | relative_url }}" alt="{{ persona[1].name }}"></div>
             <h3 class="persona-name">{{ persona[1].name }}</h3>
             <p class="persona-bio">{{ persona[1].bio }}</p>
             <div class="persona-topics">
