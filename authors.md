@@ -166,7 +166,7 @@ permalink: /authors/
     {% for persona in site.data.personas %}
     <div class="author-card">
       <div class="author-avatar">
-        <img src="{{ persona[1].avatar }}" alt="{{ persona[1].name }}">
+        <img src="{{ persona[1].avatar | relative_url }}" alt="{{ persona[1].name }}">
       </div>
       <div class="author-info">
         <h2>

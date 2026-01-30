@@ -1,8 +1,8 @@
 {
   "local_angles": [
     {
-      "angle": "Super Bowl 60 Tailgate Throwdown: Your Guide to Pre-Game Paradise",
-      "description": "Get ready to rumble in the parking lots of Levi's Stadium! We're serving up the ultimate guide to Super Bowl 60 tailgating, from the best spots to park your rig to the must-have gear for grilling and chilling before the big game.",
+      "angle": "Super Bowl LX Tailgate Throwdown: Your Guide to Pre-Game Paradise",
+      "description": "Get ready to rumble in the parking lots of Levi's Stadium! We're serving up the ultimate guide to Super Bowl LX tailgating, from the best spots to park your rig to the must-have gear for grilling and chilling before the big game.",
       "venues": [
         "Blue Lot 1 (the OG tailgate zone)",
         "Green Lot 4 (close to the action)",
@@ -14,7 +14,7 @@
       "fan_hook": "Ready to turn Levi's Stadium into your personal tailgate kingdom? Let's get this party started!"
     },
     {
-      "angle": "Santa Clara Chow Down: Your Guide to Super Bowl 60 Eats",
+      "angle": "Santa Clara Chow Down: Your Guide to Super Bowl LX Eats",
       "description": "Forget stadium food – we're diving into the delicious world of Santa Clara cuisine! From upscale dining experiences to quick bites that won't break the bank, we've got your culinary game plan covered.",
       "venues": [
         "Parcel 104 (fancy pants dining)",
@@ -28,8 +28,8 @@
       "fan_hook": "Ditch the hot dogs and discover the real taste of Santa Clara! Your Super Bowl culinary adventure begins now."
     },
     {
-      "angle": "Super Bowl 60 Transit Triumph: Your Guide to Getting Around Santa Clara",
-      "description": "Navigating Santa Clara during Super Bowl 60 doesn't have to be a nightmare. We're breaking down the best transportation options, from public transit to ride-sharing hacks, so you can arrive at the stadium stress-free and ready to cheer.",
+      "angle": "Super Bowl LX Transit Triumph: Your Guide to Getting Around Santa Clara",
+      "description": "Navigating Santa Clara during Super Bowl LX doesn't have to be a nightmare. We're breaking down the best transportation options, from public transit to ride-sharing hacks, so you can arrive at the stadium stress-free and ready to cheer.",
       "venues": [
         "VTA Light Rail (your ticket to the stadium)",
         "Caltrain (connecting you from the Peninsula)",
@@ -38,7 +38,7 @@
         "ACE Train (for those coming from afar)"
       ],
       "insider_tip": "Download the VTA app for real-time updates and easy fare payment. Consider biking or walking if you're close enough – it's a great way to beat the traffic. And snag a Clipper card in advance for seamless public transit access.",
-      "fan_hook": "Conquer Santa Clara traffic like a pro! Your ultimate Super Bowl 60 transportation guide is here to save the day."
+      "fan_hook": "Conquer Santa Clara traffic like a pro! Your ultimate Super Bowl LX transportation guide is here to save the day."
     }
   ]
 }

@@ -7121,3 +7121,1579 @@ Applied edit to .ralph/angle_local.json
 ✅ Research complete: 5 topics, 21 angles
 
 
+=== Ralph Research Job (Multi-AI) ===
+=== Ralph Research Job (Multi-AI) ===
+Timestamp: 2026-01-30T02:35:00Z
+Timestamp: 2026-01-30T02:35:00Z
+🔍 Fetching raw data...
+🔍 Fetching raw data...
+
+📊 Found 3 trending topics
+
+📊 Found 3 trending topics
+Using cached trends (fresh)
+[
+  {
+    "text": "Looking forward to Super Bowl 60 at Levi's Stadium",
+    "query": "general"
+  },
+  {
+    "text": "NFL playoff picture taking shape for SB60",
+    "query": "playoffs"
+  },
+  {
+    "text": "Bay Area prepping for Super Bowl 2026",
+    "query": "local"
+  }
+]
+Using cached trends (fresh)
+[
+  {
+    "text": "Looking forward to Super Bowl 60 at Levi's Stadium",
+    "query": "general"
+  },
+  {
+    "text": "NFL playoff picture taking shape for SB60",
+    "query": "playoffs"
+  },
+  {
+    "text": "Bay Area prepping for Super Bowl 2026",
+    "query": "local"
+  }
+]
+🕵️‍♂️ Ralph is digging for real intel...
+   Checking Santa Clara City News...
+   Checking NFL Football Operations...
+⚠️ Failed to fetch NFL Football Operations: HTTP Error 404: Not Found
+   Checking 49ers Official News...
+✅ Secured 6 verified intelligence items.
+🕵️‍♂️ Ralph is digging for real intel...
+   Checking Santa Clara City News...
+   Checking NFL Football Operations...
+⚠️ Failed to fetch NFL Football Operations: HTTP Error 404: Not Found
+   Checking 49ers Official News...
+✅ Secured 6 verified intelligence items.
+
+
+🧠 AI Call 1/4: Analyzing trends...
+🧠 AI Call 1/4: Analyzing trends...
+Warning: Input is not a terminal (fd=0).
+Warning: Input is not a terminal (fd=0).
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────────────
+Aider v0.86.1
+Aider v0.86.1
+Model: vertex_ai/gemini-2.0-flash-exp with whole edit format
+Model: vertex_ai/gemini-2.0-flash-exp with whole edit format
+Git repo: .git with 83 files
+Git repo: .git with 83 files
+Repo-map: using 4096 tokens, auto refresh
+Repo-map: using 4096 tokens, auto refresh
+Added .ralph/real_intel.json to the chat.
+Added .ralph/real_intel.json to the chat.
+Added .ralph/trends.json to the chat.
+Added .ralph/trends.json to the chat.
+Added _posts/2026-01-30-02-00-insider-topic.md to the chat.
+Added _posts/2026-01-30-02-00-insider-topic.md to the chat.
+Added _posts/2026-01-30-02-17-topic.md to the chat.
+Added _posts/2026-01-30-02-17-topic.md to the chat.
+Added _posts/2026-01-30-06-00-mvp-shift.md to the chat.
+Added _posts/2026-01-30-06-00-mvp-shift.md to the chat.
+Added personas.json to the chat.
+Added personas.json to the chat.
+
+
+
+
+.ralph/analysis_1_topics.json
+.ralph/analysis_1_topics.json
+Okay, I will analyze .ralph/trends.json and .ralph/real_intel.json to create    
+.ralph/analysis_1_topics.json with the top 5 trending topics, their momentum    
+(rising/falling), and the persona each fits best.                               
+
+.ralph/analysis_1_topics.json                                                   
+
+Okay, I will analyze .ralph/trends.json and .ralph/real_intel.json to create    
+.ralph/analysis_1_topics.json with the top 5 trending topics, their momentum    
+(rising/falling), and the persona each fits best.                               
+
+.ralph/analysis_1_topics.json                                                   
+
+                                                                                
+@@ -1,4 +1,5 @@                                                                 
+ {                                                                              
+                                                                                
+@@ -1,4 +1,5 @@                                                                 
+ {                                                                              
+     {                                                                          
+     {                                                                          
+       "reason": "The general trend of looking forward to Super Bowl 60 in the  
+Bay Area, combined with the Santa Clara City News regarding road closures and   
+       "reason": "The general trend of looking forward to Super Bowl 60 in the  
+Bay Area, combined with the Santa Clara City News regarding road closures and   
+transportation impacts, aligns with Tony Moretti's focus on the fan experience, 
+local attractions, and logistics."                                              
+     },                                                                         
+     {                                                                          
++   9 /  34 lines [███████░░░░░░░░░░░░░░░░░░░░░░░]  26%                         
+                                                                                transportation impacts, aligns with Tony Moretti's focus on the fan experience, 
+local attractions, and logistics."                                              
+     },                                                                         
+     {                                                                          
++   9 /  34 lines [███████░░░░░░░░░░░░░░░░░░░░░░░]  26%                         
+                                                                                
+
+Tokens: 6.2k sent, 557 received. Cost: $0.0013 message, $0.0013 session.
+Tokens: 6.2k sent, 557 received. Cost: $0.0013 message, $0.0013 session.
+Applied edit to .ralph/analysis_1_topics.json
+Applied edit to .ralph/analysis_1_topics.json
+
+
+🧠 AI Call 2/4: Insider angles...
+🧠 AI Call 2/4: Insider angles...
+Warning: Input is not a terminal (fd=0).
+Warning: Input is not a terminal (fd=0).
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────────────
+Aider v0.86.1
+Aider v0.86.1
+Model: vertex_ai/gemini-2.0-flash-exp with whole edit format
+Model: vertex_ai/gemini-2.0-flash-exp with whole edit format
+Git repo: .git with 83 files
+Git repo: .git with 83 files
+Repo-map: using 4096 tokens, auto refresh
+Repo-map: using 4096 tokens, auto refresh
+Added .ralph/analysis_1_topics.json to the chat.
+Added .ralph/analysis_1_topics.json to the chat.
+Added .ralph/real_intel.json to the chat.
+Added .ralph/real_intel.json to the chat.
+Added .ralph/trends.json to the chat.
+Added .ralph/trends.json to the chat.
+Added _posts/2026-01-30-02-00-insider-topic.md to the chat.
+Added _posts/2026-01-30-02-00-insider-topic.md to the chat.
+Added _posts/2026-01-30-02-17-topic.md to the chat.
+Added _posts/2026-01-30-02-17-topic.md to the chat.
+Added _posts/2026-01-30-06-00-mvp-shift.md to the chat.
+Added _posts/2026-01-30-06-00-mvp-shift.md to the chat.
+Added personas.json to the chat.
+Added personas.json to the chat.
+
+
+
+
+.ralph/angle_insider.json
+.ralph/angle_insider.json
+I will update .ralph/angle_insider.json to focus on logistics, security, stadium
+ops, and team movements, drawing inspiration from analysis_1_topics.json to     
+ensure relevance.                                                               
+
+.ralph/angle_insider.json                                                       
+
+I will update .ralph/angle_insider.json to focus on logistics, security, stadium
+ops, and team movements, drawing inspiration from analysis_1_topics.json to     
+ensure relevance.                                                               
+
+.ralph/angle_insider.json                                                       
+
+                                                                                
+@@ -1,3 +1,5 @@                                                                 
+ {                                                                              
+                                                                                
+@@ -1,3 +1,5 @@                                                                 
+ {                                                                              
+   "angles": [                                                                  
+     {                                                                          
++      "headline": "Insider Exclusive: SB60 Security to Deploy AI-Powered       
+Perimeter Monitoring",                                                          
+   "angles": [                                                                  
+     {                                                                          
++      "headline": "Insider Exclusive: SB60 Security to Deploy AI-Powered       
+Perimeter Monitoring",                                                          
+Security Command Center. It's a multi-agency hub with real-time feeds from      
+hundreds of cameras, including drones. Expect cutting-edge threat detection and 
+rapid response teams on standby.",                                              
++      "headline": "Insider Exclusive: SB60 Security to Deploy AI-Powered       
+Perimeter Monitoring",                                                          
++      "angle": "My sources reveal that the expanded security perimeter for     
+Super Bowl LX will incorporate AI-powered monitoring. Expect real-time analysis 
+of crowd behavior and automated threat detection. This is a game-changer for    
+stadium security.",                                                             
+       "topic": "Super Bowl 60 Security and Emergency Preparedness in the Bay   
+Area"                                                                           
+Security Command Center. It's a multi-agency hub with real-time feeds from      
+hundreds of cameras, including drones. Expect cutting-edge threat detection and 
+rapid response teams on standby.",                                              
++      "headline": "Insider Exclusive: SB60 Security to Deploy AI-Powered       
+Perimeter Monitoring",                                                          
++      "angle": "My sources reveal that the expanded security perimeter for     
+Super Bowl LX will incorporate AI-powered monitoring. Expect real-time analysis 
+of crowd behavior and automated threat detection. This is a game-changer for    
+stadium security.",                                                             
+       "topic": "Super Bowl 60 Security and Emergency Preparedness in the Bay   
+Area"                                                                           
+     },                                                                         
+     {                                                                          
++      "headline": "Behind the Scenes: NFL's Secret Team Arrival Protocols for  
+SB60",                                                                          
+     },                                                                         
+     {                                                                          
++      "headline": "Behind the Scenes: NFL's Secret Team Arrival Protocols for  
+SB60",                                                                          
+from SJC and SFO to protect teams arriving for Super Bowl LX. Dedicated security
+teams will shadow each team, and alternative routes are mapped out in case of   
+traffic incidents.",                                                            
++      "headline": "Behind the Scenes: NFL's Secret Team Arrival Protocols for  
+SB60",                                                                          
++      "angle": "I'm hearing the NFL is using decoy convoys and secure routes   
+from SJC and SFO to protect teams arriving for Super Bowl LX. Dedicated security
+teams will shadow each team, and alternative routes are mapped out in case of   
+traffic incidents. The goal is to minimize disruptions and ensure team safety.",
+       "topic": "Super Bowl 60 Security and Logistical Preparations in the Bay  
+Area"                                                                           
+from SJC and SFO to protect teams arriving for Super Bowl LX. Dedicated security
+teams will shadow each team, and alternative routes are mapped out in case of   
+traffic incidents.",                                                            
++      "headline": "Behind the Scenes: NFL's Secret Team Arrival Protocols for  
+SB60",                                                                          
++      "angle": "I'm hearing the NFL is using decoy convoys and secure routes   
+from SJC and SFO to protect teams arriving for Super Bowl LX. Dedicated security
+teams will shadow each team, and alternative routes are mapped out in case of   
+traffic incidents. The goal is to minimize disruptions and ensure team safety.",
+       "topic": "Super Bowl 60 Security and Logistical Preparations in the Bay  
+Area"                                                                           
+     },                                                                         
+     {                                                                          
+-      "headline": "Breaking: Levi's Stadium 'Ops Room' Gets AI Upgrade",       
+-      "angle": "I'm told Levi's Stadium's 'Ops Room,' the nerve center for     
+Super Bowl LX, is getting an AI-powered upgrade. The system will predict crowd  
+flow and potential bottlenecks, allowing for dynamic adjustments to security and
+traffic management.",                                                           
+-      "topic": "Super Bowl 60 Security and Emergency Preparedness in the Bay   
+Area"                                                                           
+-    },                                                                         
+-    {                                                                          
+-      "headline": "Exclusive: Super Bowl LX Security Perimeter to Include      
+Facial Recognition",                                                            
+-      "angle": "My sources tell me the expanded security perimeter will        
+incorporate facial recognition technology at all entry points. This is a pilot  
+program, and its success could redefine stadium security protocols. Expect      
+quicker entry, but also potential privacy concerns.",                           
+-      "topic": "Super Bowl 60 Security and Emergency Preparedness in the Bay   
+Area"                                                                           
+-    },                                                                         
+-    {                                                                          
+-      "headline": "Insider: NFL Mulls Express Fan Lanes to Ease Stadium Entry",
+-      "angle": "I'm hearing the NFL is considering 'express fan lanes' at      
+Levi's Stadium to expedite entry. These lanes would use facial recognition tech 
+to pre-screen attendees, reducing wait times. However, privacy concerns are     
+being debated, and a pilot program may precede full implementation.",           
+-      "topic": "Super Bowl 60 at Levi's Stadium: Fan Experience and Local      
+Impact in Santa Clara"                                                          
+-    },                                                                         
+-    {                                                                          
+-      "headline": "Breaking: 49ers Request Custom Field Markings for Super Bowl
+LX",                                                                            
+-      "angle": "Sources reveal the 49ers have requested custom field markings  
+for Super Bowl LX, optimized for their offensive play style. This includes      
+subtle adjustments to yard lines and hash marks. The NFL is reviewing the       
+request, balancing competitive fairness with team preferences.",                
+-      "topic": "NFL Playoff Picture and Potential SB60 Matchups: Analyzing the 
+San Francisco 49ers' Performance"                                               
+-    },                                                                         
+-    {                                                                          
+-      "headline": "Insider Alert: Security Perimeter Expansion Includes New    
+Tech",                                                                          
+-      "angle": "I'm hearing whispers that the expanded security perimeter isn't
+just about physical barriers. New drone detection tech and advanced sensor      
+networks are being deployed to monitor the area. Expect increased surveillance  
+and quicker responses to potential threats.",                                   
+-      "topic": "Super Bowl 60 Security and Emergency Preparedness in the Bay   
+Area"                                                                           
+-    },                                                                         
+-    {                                                                          
+-      "headline": "Behind the Scenes: NFL Negotiating Exclusive Hotel          
+Partnerships",                                                                  
+-      "angle": "Sources say the NFL is in talks with several high-end hotels in
+Santa Clara for exclusive partnerships during Super Bowl LX. This includes      
+dedicated team floors, private security details, and customized catering        
+options. The goal is to create a secure and comfortable environment for players 
+and staff.",                                                                    
+-      "topic": "Super Bowl 60 at Levi's Stadium: Fan Experience and Local      
+Impact in Santa Clara"                                                          
+-    },                                                                         
+-    {                                                                          
+-      "headline": "Breaking: Transportation Command Center Goes Live",         
+-      "angle": "I'm getting word that the multi-agency transportation command  
+center is now operational. Real-time traffic monitoring, shuttle coordination,  
+and emergency response protocols are being managed from this central hub. Expect
+smoother traffic flow and quicker responses to any transportation-related       
+incidents.",                                                                    
+-      "topic": "Super Bowl 60 Security and Logistical Preparations in the Bay  
+Area"                                                                           
+-    },                                                                         
+-    {                                                                          
+-      "headline": "Exclusive: NFL's SB60 Contingency Plans for Team Arrivals", 
+-      "angle": "My sources tell me the NFL has detailed contingency plans for  
+team arrivals at SB60, including secure routes from SJC and SFO, decoy convoys, 
+and dedicated security teams for each team. They're even mapping out alternative
+routes in case of unexpected traffic incidents.",                               
+-      "topic": "Super Bowl 60 Security and Logistical Preparations in the Bay  
+Area"                                                                           
+-    },                                                                         
+-    {                                                                          
+-      "headline": "Insider Look: Levi's Stadium's Secret Weapon - The 'Ops     
+Room'",                                                                         
++      "headline": "Insider Look: Levi's Stadium 'Ops Room' Gets Real-Time      
+Upgrade for SB60",                                                              
+     },                                                                         
+     {                                                                          
+-      "headline": "Breaking: Levi's Stadium 'Ops Room' Gets AI Upgrade",       
+-      "angle": "I'm told Levi's Stadium's 'Ops Room,' the nerve center for     
+Super Bowl LX, is getting an AI-powered upgrade. The system will predict crowd  
+flow and potential bottlenecks, allowing for dynamic adjustments to security and
+traffic management.",                                                           
+-      "topic": "Super Bowl 60 Security and Emergency Preparedness in the Bay   
+Area"                                                                           
+-    },                                                                         
+-    {                                                                          
+-      "headline": "Exclusive: Super Bowl LX Security Perimeter to Include      
+Facial Recognition",                                                            
+-      "angle": "My sources tell me the expanded security perimeter will        
+incorporate facial recognition technology at all entry points. This is a pilot  
+program, and its success could redefine stadium security protocols. Expect      
+quicker entry, but also potential privacy concerns.",                           
+-      "topic": "Super Bowl 60 Security and Emergency Preparedness in the Bay   
+Area"                                                                           
+-    },                                                                         
+-    {                                                                          
+-      "headline": "Insider: NFL Mulls Express Fan Lanes to Ease Stadium Entry",
+-      "angle": "I'm hearing the NFL is considering 'express fan lanes' at      
+Levi's Stadium to expedite entry. These lanes would use facial recognition tech 
+to pre-screen attendees, reducing wait times. However, privacy concerns are     
+being debated, and a pilot program may precede full implementation.",           
+-      "topic": "Super Bowl 60 at Levi's Stadium: Fan Experience and Local      
+Impact in Santa Clara"                                                          
+-    },                                                                         
+-    {                                                                          
+-      "headline": "Breaking: 49ers Request Custom Field Markings for Super Bowl
+LX",                                                                            
+-      "angle": "Sources reveal the 49ers have requested custom field markings  
+for Super Bowl LX, optimized for their offensive play style. This includes      
+subtle adjustments to yard lines and hash marks. The NFL is reviewing the       
+request, balancing competitive fairness with team preferences.",                
+-      "topic": "NFL Playoff Picture and Potential SB60 Matchups: Analyzing the 
+San Francisco 49ers' Performance"                                               
+-    },                                                                         
+-    {                                                                          
+-      "headline": "Insider Alert: Security Perimeter Expansion Includes New    
+Tech",                                                                          
+-      "angle": "I'm hearing whispers that the expanded security perimeter isn't
+just about physical barriers. New drone detection tech and advanced sensor      
+networks are being deployed to monitor the area. Expect increased surveillance  
+and quicker responses to potential threats.",                                   
+-      "topic": "Super Bowl 60 Security and Emergency Preparedness in the Bay   
+Area"                                                                           
+-    },                                                                         
+-    {                                                                          
+-      "headline": "Behind the Scenes: NFL Negotiating Exclusive Hotel          
+Partnerships",                                                                  
+-      "angle": "Sources say the NFL is in talks with several high-end hotels in
+Santa Clara for exclusive partnerships during Super Bowl LX. This includes      
+dedicated team floors, private security details, and customized catering        
+options. The goal is to create a secure and comfortable environment for players 
+and staff.",                                                                    
+-      "topic": "Super Bowl 60 at Levi's Stadium: Fan Experience and Local      
+Impact in Santa Clara"                                                          
+-    },                                                                         
+-    {                                                                          
+-      "headline": "Breaking: Transportation Command Center Goes Live",         
+-      "angle": "I'm getting word that the multi-agency transportation command  
+center is now operational. Real-time traffic monitoring, shuttle coordination,  
+and emergency response protocols are being managed from this central hub. Expect
+smoother traffic flow and quicker responses to any transportation-related       
+incidents.",                                                                    
+-      "topic": "Super Bowl 60 Security and Logistical Preparations in the Bay  
+Area"                                                                           
+-    },                                                                         
+-    {                                                                          
+-      "headline": "Exclusive: NFL's SB60 Contingency Plans for Team Arrivals", 
+-      "angle": "My sources tell me the NFL has detailed contingency plans for  
+team arrivals at SB60, including secure routes from SJC and SFO, decoy convoys, 
+and dedicated security teams for each team. They're even mapping out alternative
+routes in case of unexpected traffic incidents.",                               
+-      "topic": "Super Bowl 60 Security and Logistical Preparations in the Bay  
+Area"                                                                           
+-    },                                                                         
+-    {                                                                          
+-      "headline": "Insider Look: Levi's Stadium's Secret Weapon - The 'Ops     
+Room'",                                                                         
++      "headline": "Insider Look: Levi's Stadium 'Ops Room' Gets Real-Time      
+Upgrade for SB60",                                                              
+       "angle": "I got a peek inside Levi's Stadium's 'Ops Room,' the nerve     
+center for Super Bowl LX. It's a real-time monitoring hub where key personnel   
+from security, facilities, and event management coordinate. They're using       
+AI-powered analytics to predict crowd flow and potential bottlenecks.",         
+       "topic": "Super Bowl 60 Security and Emergency Preparedness in the Bay   
+Area"                                                                           
+-    },                                                                         
+-    {                                                                          
+-      "headline": "Breaking: NFL Testing New Crowd Management Tech at SB60",   
+-      "angle": "I'm hearing the NFL is piloting new crowd management tech at   
+Super Bowl LX, including advanced sensor networks and real-time data analytics. 
+This will allow them to dynamically adjust security personnel and optimize      
+traffic flow based on actual crowd behavior.",                                  
+-      "topic": "Super Bowl 60 at Levi's Stadium: Fan Experience and Local      
+Impact in Santa Clara"                                                          
+-    },                                                                         
+-    {                                                                          
+-      "headline": "Insider Scoop: Security Dogs to Patrol Tailgate Zones",     
+-      "angle": "My sources indicate that specially trained K-9 units will be   
+patrolling the tailgate zones outside Levi's Stadium. These dogs are trained to 
+detect explosives and other potential threats. Expect a visible presence and    
+increased security in these areas.",                                            
+-      "topic": "Super Bowl 60 Security and Emergency Preparedness in the Bay   
+Area"                                                                           
+-    },                                                                         
+-    {                                                                          
+-      "headline": "Behind the Scenes: NFL Rehearsing Halftime Show Logistics", 
+-      "angle": "I'm hearing that the NFL is conducting secret rehearsals of the
+halftime show logistics at a nearby warehouse. This includes stage setup,       
+equipment testing, and performer coordination. The goal is to ensure a seamless 
+and spectacular performance on game day.",                                      
+-      "topic": "Super Bowl 60 at Levi's Stadium: Fan Experience and Local      
+Impact in Santa Clara"                                                          
+-    },                                                                         
+-    {                                                                          
+-      "headline": "Breaking: Team Hotels Undergo Security Sweeps",             
+-      "angle": "Sources tell me that all hotels housing NFL teams are          
+undergoing comprehensive security sweeps. This includes bomb detection,         
+electronic surveillance countermeasures, and background checks on all staff. The
+NFL is leaving nothing to chance when it comes to team safety.",                
+-      "topic": "Super Bowl 60 Security and Logistical Preparations in the Bay  
+Area"                                                                           
+-    },                                                                         
+-    {                                                                          
+-      "headline": "Insider: Road Closure Intel - Key Routes Impacted",         
+-      "angle": "I'm hearing from city officials that the road closures around  
+Levi's Stadium will be more extensive than previously announced. Tasman Drive   
+will be closed for nearly two weeks, impacting traffic flow and local           
+businesses. The NFL is working with the city to mitigate the impact, but expect 
+delays.",                                                                       
+-      "topic": "Super Bowl 60 Security and Logistical Preparations in the Bay  
+Area"                                                                           
+-    },                                                                         
+-    {                                                                          
+-      "headline": "Exclusive: Emergency Preparedness Drill Underway",          
+-      "angle": "My sources say that a multi-agency emergency preparedness drill
+is currently underway in Santa Clara. This includes simulations of various      
+scenarios, from crowd surges to security breaches. The goal is to ensure that   
+all agencies are prepared to respond effectively to any potential incident.",   
+-      "topic": "Super Bowl 60 Security and Emergency Preparedness in the Bay   
+Area"                                                                           
+-    },                                                                         
+-    {                                                                          
+-      "headline": "Insider Tip: Expect Heightened Security at Transportation   
+Hubs",                                                                          
+-      "angle": "I'm told to expect heightened security measures at all major   
+transportation hubs in the Bay Area, including SJC, SFO, and Caltrain stations. 
+This includes increased patrols, K-9 units, and random security checks. The NFL 
+is working with local authorities to ensure the safety of fans and personnel    
+traveling to and from the game.",                                               
+-      "topic": "Super Bowl 60 Security and Logistical Preparations in the Bay  
+Area"                                                                           
+     }                                                                          
+   ]                                                                            
+ }                                                                              
+                                                                                
+       "angle": "I got a peek inside Levi's Stadium's 'Ops Room,' the nerve     
+center for Super Bowl LX. It's a real-time monitoring hub where key personnel   
+from security, facilities, and event management coordinate. They're using       
+AI-powered analytics to predict crowd flow and potential bottlenecks.",         
+       "topic": "Super Bowl 60 Security and Emergency Preparedness in the Bay   
+Area"                                                                           
+-    },                                                                         
+-    {                                                                          
+-      "headline": "Breaking: NFL Testing New Crowd Management Tech at SB60",   
+-      "angle": "I'm hearing the NFL is piloting new crowd management tech at   
+Super Bowl LX, including advanced sensor networks and real-time data analytics. 
+This will allow them to dynamically adjust security personnel and optimize      
+traffic flow based on actual crowd behavior.",                                  
+-      "topic": "Super Bowl 60 at Levi's Stadium: Fan Experience and Local      
+Impact in Santa Clara"                                                          
+-    },                                                                         
+-    {                                                                          
+-      "headline": "Insider Scoop: Security Dogs to Patrol Tailgate Zones",     
+-      "angle": "My sources indicate that specially trained K-9 units will be   
+patrolling the tailgate zones outside Levi's Stadium. These dogs are trained to 
+detect explosives and other potential threats. Expect a visible presence and    
+increased security in these areas.",                                            
+-      "topic": "Super Bowl 60 Security and Emergency Preparedness in the Bay   
+Area"                                                                           
+-    },                                                                         
+-    {                                                                          
+-      "headline": "Behind the Scenes: NFL Rehearsing Halftime Show Logistics", 
+-      "angle": "I'm hearing that the NFL is conducting secret rehearsals of the
+halftime show logistics at a nearby warehouse. This includes stage setup,       
+equipment testing, and performer coordination. The goal is to ensure a seamless 
+and spectacular performance on game day.",                                      
+-      "topic": "Super Bowl 60 at Levi's Stadium: Fan Experience and Local      
+Impact in Santa Clara"                                                          
+-    },                                                                         
+-    {                                                                          
+-      "headline": "Breaking: Team Hotels Undergo Security Sweeps",             
+-      "angle": "Sources tell me that all hotels housing NFL teams are          
+undergoing comprehensive security sweeps. This includes bomb detection,         
+electronic surveillance countermeasures, and background checks on all staff. The
+NFL is leaving nothing to chance when it comes to team safety.",                
+-      "topic": "Super Bowl 60 Security and Logistical Preparations in the Bay  
+Area"                                                                           
+-    },                                                                         
+-    {                                                                          
+-      "headline": "Insider: Road Closure Intel - Key Routes Impacted",         
+-      "angle": "I'm hearing from city officials that the road closures around  
+Levi's Stadium will be more extensive than previously announced. Tasman Drive   
+will be closed for nearly two weeks, impacting traffic flow and local           
+businesses. The NFL is working with the city to mitigate the impact, but expect 
+delays.",                                                                       
+-      "topic": "Super Bowl 60 Security and Logistical Preparations in the Bay  
+Area"                                                                           
+-    },                                                                         
+-    {                                                                          
+-      "headline": "Exclusive: Emergency Preparedness Drill Underway",          
+-      "angle": "My sources say that a multi-agency emergency preparedness drill
+is currently underway in Santa Clara. This includes simulations of various      
+scenarios, from crowd surges to security breaches. The goal is to ensure that   
+all agencies are prepared to respond effectively to any potential incident.",   
+-      "topic": "Super Bowl 60 Security and Emergency Preparedness in the Bay   
+Area"                                                                           
+-    },                                                                         
+-    {                                                                          
+-      "headline": "Insider Tip: Expect Heightened Security at Transportation   
+Hubs",                                                                          
+-      "angle": "I'm told to expect heightened security measures at all major   
+transportation hubs in the Bay Area, including SJC, SFO, and Caltrain stations. 
+This includes increased patrols, K-9 units, and random security checks. The NFL 
+is working with local authorities to ensure the safety of fans and personnel    
+traveling to and from the game.",                                               
+-      "topic": "Super Bowl 60 Security and Logistical Preparations in the Bay  
+Area"                                                                           
+     }                                                                          
+   ]                                                                            
+ }                                                                              
+                                                                                
+
+
+Tokens: 8.0k sent, 368 received. Cost: $0.0014 message, $0.0014 session.
+Tokens: 8.0k sent, 368 received. Cost: $0.0014 message, $0.0014 session.
+Applied edit to .ralph/angle_insider.json
+Applied edit to .ralph/angle_insider.json
+
+
+🧠 AI Call 3/4: Analyst angles...
+🧠 AI Call 3/4: Analyst angles...
+Warning: Input is not a terminal (fd=0).
+Warning: Input is not a terminal (fd=0).
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────────────
+Aider v0.86.1
+Aider v0.86.1
+Model: vertex_ai/gemini-2.0-flash-exp with whole edit format
+Model: vertex_ai/gemini-2.0-flash-exp with whole edit format
+Git repo: .git with 83 files
+Git repo: .git with 83 files
+Repo-map: using 4096 tokens, auto refresh
+Repo-map: using 4096 tokens, auto refresh
+Added .ralph/analysis_1_topics.json to the chat.
+Added .ralph/analysis_1_topics.json to the chat.
+Added .ralph/real_intel.json to the chat.
+Added .ralph/real_intel.json to the chat.
+Added .ralph/trends.json to the chat.
+Added .ralph/trends.json to the chat.
+Added _posts/2026-01-30-02-00-insider-topic.md to the chat.
+Added _posts/2026-01-30-02-00-insider-topic.md to the chat.
+Added _posts/2026-01-30-02-17-topic.md to the chat.
+Added _posts/2026-01-30-02-17-topic.md to the chat.
+Added _posts/2026-01-30-06-00-mvp-shift.md to the chat.
+Added _posts/2026-01-30-06-00-mvp-shift.md to the chat.
+Added personas.json to the chat.
+Added personas.json to the chat.
+
+
+
+
+.ralph/angle_analyst.json
+.ralph/angle_analyst.json
+I will create a new .ralph/angle_analyst.json file with 3 data-driven angles,   
+specific stats to research, betting/market insights, and numbers-heavy hooks,   
+based on the analysis_1_topics.json file.                                       
+
+.ralph/angle_analyst.json                                                       
+
+                                                                                
+I will create a new .ralph/angle_analyst.json file with 3 data-driven angles,   
+specific stats to research, betting/market insights, and numbers-heavy hooks,   
+based on the analysis_1_topics.json file.                                       
+
+.ralph/angle_analyst.json                                                       
+
+                                                                                
+@@ -1,4 +1,5 @@                                                                 
+ {                                                                              
+@@ -1,4 +1,5 @@                                                                 
+ {                                                                              
+     {                                                                          
+       "title": "SB60: 49ers' Red Zone Regression: Quantifying the Odds of a    
+Postseason Collapse",                                                           
+       "description": "Will the 49ers' red zone efficiency hold up in the Super 
+Bowl? We'll quantify their playoff red zone performance against regular season  
+     {                                                                          
+       "title": "SB60: 49ers' Red Zone Regression: Quantifying the Odds of a    
+Postseason Collapse",                                                           
+       "description": "Will the 49ers' red zone efficiency hold up in the Super 
+Bowl? We'll quantify their playoff red zone performance against regular season  
+       "stats_to_research": [                                                   
+       "stats_to_research": [                                                   
+run defense DVOA)",                                                             
+run defense DVOA)",                                                             
+         "Projected usage rates for key running backs (snap counts, carries, red
+zone touches)",                                                                 
+         "Historical prop bet payouts for similar statistical outcomes          
+(regression analysis, focusing on rushing props)",                              
++  35 /  43 lines [████████████████████████░░░░░░]  81%                         
+                                                                                         "Projected usage rates for key running backs (snap counts, carries, red
+zone touches)",                                                                 
+         "Historical prop bet payouts for similar statistical outcomes          
+(regression analysis, focusing on rushing props)",                              
++  35 /  43 lines [████████████████████████░░░░░░]  81%                         
+                                                                                
+
+Tokens: 7.1k sent, 938 received. Cost: $0.0016 message, $0.0016 session.
+Tokens: 7.1k sent, 938 received. Cost: $0.0016 message, $0.0016 session.
+Applied edit to .ralph/angle_analyst.json
+Applied edit to .ralph/angle_analyst.json
+
+
+🧠 AI Call 4/4: Local angles...
+🧠 AI Call 4/4: Local angles...
+Warning: Input is not a terminal (fd=0).
+Warning: Input is not a terminal (fd=0).
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────────────
+Aider v0.86.1
+Aider v0.86.1
+Model: vertex_ai/gemini-2.0-flash-exp with whole edit format
+Model: vertex_ai/gemini-2.0-flash-exp with whole edit format
+Git repo: .git with 83 files
+Git repo: .git with 83 files
+Repo-map: using 4096 tokens, auto refresh
+Repo-map: using 4096 tokens, auto refresh
+Added .ralph/analysis_1_topics.json to the chat.
+Added .ralph/analysis_1_topics.json to the chat.
+Added .ralph/real_intel.json to the chat.
+Added .ralph/real_intel.json to the chat.
+Added .ralph/trends.json to the chat.
+Added .ralph/trends.json to the chat.
+Added _posts/2026-01-30-02-00-insider-topic.md to the chat.
+Added _posts/2026-01-30-02-00-insider-topic.md to the chat.
+Added _posts/2026-01-30-02-17-topic.md to the chat.
+Added _posts/2026-01-30-02-17-topic.md to the chat.
+Added _posts/2026-01-30-06-00-mvp-shift.md to the chat.
+Added _posts/2026-01-30-06-00-mvp-shift.md to the chat.
+Added personas.json to the chat.
+Added personas.json to the chat.
+
+
+
+
+.ralph/angle_local.json
+.ralph/angle_local.json
+I will update .ralph/angle_local.json to include three new angles focused on the
+Bay Area experience, specifically Santa Clara, transportation, food, and        
+tailgating, based on the analysis_1_topics.json file.                           
+
+.ralph/angle_local.json                                                         
+
+                                                                                
+I will update .ralph/angle_local.json to include three new angles focused on the
+Bay Area experience, specifically Santa Clara, transportation, food, and        
+tailgating, based on the analysis_1_topics.json file.                           
+
+.ralph/angle_local.json                                                         
+
+                                                                                
+@@ -1,4 +1,5 @@                                                                 
+ {                                                                              
+@@ -1,4 +1,5 @@                                                                 
+ {                                                                              
+       "angle": "Super Bowl 60 Tailgate Throwdown: Your Guide to Pre-Game       
+Paradise",                                                                      
+       "description": "Get ready to rumble in the parking lots of Levi's        
+Stadium! We're serving up the ultimate guide to Super Bowl 60 tailgating, from  
+       "angle": "Super Bowl 60 Tailgate Throwdown: Your Guide to Pre-Game       
+Paradise",                                                                      
+       "description": "Get ready to rumble in the parking lots of Levi's        
+Stadium! We're serving up the ultimate guide to Super Bowl 60 tailgating, from  
+beat the traffic. And snag a Clipper card in advance for seamless public transit
+access.",                                                                       
+beat the traffic. And snag a Clipper card in advance for seamless public transit
+access.",                                                                       
+       "fan_hook": "Conquer Santa Clara traffic like a pro! Your ultimate Super 
+Bowl 60 transportation guide is here to save the day."                          
++    },                                                                         
++    {                                                                          
++      "angle": "SB60's Hidden Gems: Exploring Santa Clara Beyond the Stadium", 
+       "fan_hook": "Conquer Santa Clara traffic like a pro! Your ultimate Super 
+Bowl 60 transportation guide is here to save the day."                          
++    },                                                                         
++    {                                                                          
++      "angle": "SB60's Hidden Gems: Exploring Santa Clara Beyond the Stadium", 
++      "description": "Super Bowl 60 is more than just the game! Discover Santa 
+Clara's local attractions, from tech museums to serene parks, for a complete Bay
+Area experience.",                                                              
++      "venues": [                                                              
++        "Intel Museum (geek out with tech history)",                           
++        "Great America (thrill rides and family fun)",                         
++      "description": "Super Bowl 60 is more than just the game! Discover Santa 
+Clara's local attractions, from tech museums to serene parks, for a complete Bay
+Area experience.",                                                              
++      "venues": [                                                              
++        "Intel Museum (geek out with tech history)",                           
++        "Great America (thrill rides and family fun)",                         
++        "Central Park (relax and recharge)",                                   
++        "Santa Clara University (historic campus)",                            
++        "Winchester Mystery House (a quirky Victorian mansion)"                
++        "Central Park (relax and recharge)",                                   
++        "Santa Clara University (historic campus)",                            
++        "Winchester Mystery House (a quirky Victorian mansion)"                
++      ],                                                                       
++      "insider_tip": "Skip the stadium crowds and explore Santa Clara's hidden 
+gems. Check websites for hours and ticket info. Public transport or ride-sharing
+are your best bets for getting around.",                                        
++      "fan_hook": "Ready to explore Santa Clara beyond the gridiron? Let's     
++      ],                                                                       
++      "insider_tip": "Skip the stadium crowds and explore Santa Clara's hidden 
+gems. Check websites for hours and ticket info. Public transport or ride-sharing
+are your best bets for getting around.",                                        
++      "fan_hook": "Ready to explore Santa Clara beyond the gridiron? Let's     
+uncover the city's best-kept secrets!"                                          
++    },                                                                         
++    {                                                                          
++      "angle": "Tailgate Like a Champion: SB60 Edition",                       
++      "description": "Elevate your Super Bowl 60 tailgate game with these      
+insider tips! From gourmet grilling to high-tech setups, we'll show you how to  
+throw the ultimate pre-game party.",                                            
++      "venues": [                                                              
+uncover the city's best-kept secrets!"                                          
++    },                                                                         
++    {                                                                          
++      "angle": "Tailgate Like a Champion: SB60 Edition",                       
++      "description": "Elevate your Super Bowl 60 tailgate game with these      
+insider tips! From gourmet grilling to high-tech setups, we'll show you how to  
+throw the ultimate pre-game party.",                                            
++      "venues": [                                                              
++        "Your parking spot (the heart of the action)",                         
++        "Local butcher shops (for premium meats)",                             
++        "Your parking spot (the heart of the action)",                         
++        "Local butcher shops (for premium meats)",                             
++        "Specialty grocery stores (for gourmet snacks)",                       
++        "Online retailers (for tailgate gadgets)",                             
++        "BevMo! (for drinks and mixers)"                                       
++      ],                                                                       
++      "insider_tip": "Plan your menu in advance and prep as much as possible at
+home. Invest in a portable grill and a high-quality cooler. Don't forget the    
+entertainment – music, games, and a big-screen TV are essential!",              
++      "fan_hook": "Ready to become a tailgate legend? Let's turn your parking  
+spot into the hottest party in Santa Clara!"                                    
++        "Specialty grocery stores (for gourmet snacks)",                       
++        "Online retailers (for tailgate gadgets)",                             
++        "BevMo! (for drinks and mixers)"                                       
++      ],                                                                       
++      "insider_tip": "Plan your menu in advance and prep as much as possible at
+home. Invest in a portable grill and a high-quality cooler. Don't forget the    
+entertainment – music, games, and a big-screen TV are essential!",              
++      "fan_hook": "Ready to become a tailgate legend? Let's turn your parking  
+spot into the hottest party in Santa Clara!"                                    
++    },                                                                         
++    {                                                                          
++      "angle": "Santa Clara's Super Bowl Survival Guide: Transportation, Tech, 
+and Tasty Bites",                                                               
++      "description": "Navigate Super Bowl 60 like a pro with our guide to Santa
++    },                                                                         
++    {                                                                          
++      "angle": "Santa Clara's Super Bowl Survival Guide: Transportation, Tech, 
+and Tasty Bites",                                                               
++      "description": "Navigate Super Bowl 60 like a pro with our guide to Santa
+Clara's transportation, tech, and food scene. From ride-sharing hacks to        
+must-try restaurants, we've got you covered.",                                  
++      "venues": [                                                              
++        "VTA Light Rail (your stadium connection)",                            
++        "Uber/Lyft zones (convenient pick-up spots)",                          
+Clara's transportation, tech, and food scene. From ride-sharing hacks to        
+must-try restaurants, we've got you covered.",                                  
++      "venues": [                                                              
++        "VTA Light Rail (your stadium connection)",                            
++        "Uber/Lyft zones (convenient pick-up spots)",                          
++        "Local food trucks (quick and tasty eats)",                            
++        "Sports bars (for game-day atmosphere)",                               
++        "Coffee shops (for a caffeine boost)"                                  
++      ],                                                                       
++      "insider_tip": "Download ride-sharing apps and set your location in      
+advance. Explore Santa Clara's diverse food scene beyond the stadium. Stay      
++        "Local food trucks (quick and tasty eats)",                            
++        "Sports bars (for game-day atmosphere)",                               
++        "Coffee shops (for a caffeine boost)"                                  
++      ],                                                                       
++      "insider_tip": "Download ride-sharing apps and set your location in      
+advance. Explore Santa Clara's diverse food scene beyond the stadium. Stay      
+connected with portable chargers and local Wi-Fi hotspots.",                    
++      "fan_hook": "Ready to conquer Santa Clara and experience Super Bowl 60   
+like a local? Let's dive in!"                                                   
+     }                                                                          
+   ]                                                                            
+ }                                                                              
+                                                                                
+connected with portable chargers and local Wi-Fi hotspots.",                    
++      "fan_hook": "Ready to conquer Santa Clara and experience Super Bowl 60   
+like a local? Let's dive in!"                                                   
+     }                                                                          
+   ]                                                                            
+ }                                                                              
+                                                                                
+
+
+Tokens: 7.0k sent, 1.4k received. Cost: $0.0019 message, $0.0019 session.
+Tokens: 7.0k sent, 1.4k received. Cost: $0.0019 message, $0.0019 session.
+Applied edit to .ralph/angle_local.json
+Applied edit to .ralph/angle_local.json
+
+
+📝 Compiling research summary...
+📝 Compiling research summary...
+✅ Research complete: 5 topics, 6 angles
+✅ Research complete: 5 topics, 6 angles
+
+
+=== Ralph Research Job (Multi-AI) ===
+=== Ralph Research Job (Multi-AI) ===
+Timestamp: 2026-01-30T02:40:00Z
+Timestamp: 2026-01-30T02:40:00Z
+🔍 Fetching raw data...
+🔍 Fetching raw data...
+
+📊 Found 3 trending topics
+📊 Found 3 trending topics
+
+Using cached trends (fresh)
+[
+  {
+    "text": "Looking forward to Super Bowl 60 at Levi's Stadium",
+    "query": "general"
+  },
+  {
+    "text": "NFL playoff picture taking shape for SB60",
+    "query": "playoffs"
+  },
+  {
+    "text": "Bay Area prepping for Super Bowl 2026",
+    "query": "local"
+  }
+]
+Using cached trends (fresh)
+[
+  {
+    "text": "Looking forward to Super Bowl 60 at Levi's Stadium",
+    "query": "general"
+  },
+  {
+    "text": "NFL playoff picture taking shape for SB60",
+    "query": "playoffs"
+  },
+  {
+    "text": "Bay Area prepping for Super Bowl 2026",
+    "query": "local"
+  }
+]
+🕵️‍♂️ Ralph is digging for real intel...
+   Checking Santa Clara City News...
+   Checking NFL Football Operations...
+⚠️ Failed to fetch NFL Football Operations: HTTP Error 404: Not Found
+   Checking 49ers Official News...
+✅ Secured 6 verified intelligence items.
+🕵️‍♂️ Ralph is digging for real intel...
+   Checking Santa Clara City News...
+   Checking NFL Football Operations...
+⚠️ Failed to fetch NFL Football Operations: HTTP Error 404: Not Found
+   Checking 49ers Official News...
+✅ Secured 6 verified intelligence items.
+
+
+🧠 AI Call 1/4: Analyzing trends...
+🧠 AI Call 1/4: Analyzing trends...
+Warning: Input is not a terminal (fd=0).
+Warning: Input is not a terminal (fd=0).
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────────────
+Aider v0.86.1
+Aider v0.86.1
+Model: vertex_ai/gemini-2.0-flash-exp with whole edit format
+Model: vertex_ai/gemini-2.0-flash-exp with whole edit format
+Git repo: .git with 83 files
+Git repo: .git with 83 files
+Repo-map: using 4096 tokens, auto refresh
+Repo-map: using 4096 tokens, auto refresh
+Added .ralph/real_intel.json to the chat.
+Added .ralph/real_intel.json to the chat.
+Added .ralph/trends.json to the chat.
+Added .ralph/trends.json to the chat.
+Added _posts/2026-01-30-02-00-insider-topic.md to the chat.
+Added _posts/2026-01-30-02-00-insider-topic.md to the chat.
+Added _posts/2026-01-30-02-17-topic.md to the chat.
+Added _posts/2026-01-30-02-17-topic.md to the chat.
+Added _posts/2026-01-30-06-00-mvp-shift.md to the chat.
+Added _posts/2026-01-30-06-00-mvp-shift.md to the chat.
+Added personas.json to the chat.
+Added personas.json to the chat.
+
+
+
+
+.ralph/analysis_1_topics.json
+.ralph/analysis_1_topics.json
+Okay, I will create a file named .ralph/analysis_1_topics.json with the top 5   
+trending topics, their momentum (rising/falling), and the persona each fits     
+best, based on the content of .ralph/trends.json and .ralph/real_intel.json.    
+
+.ralph/analysis_1_topics.json                                                   
+
+                                                                                
+Okay, I will create a file named .ralph/analysis_1_topics.json with the top 5   
+trending topics, their momentum (rising/falling), and the persona each fits     
+best, based on the content of .ralph/trends.json and .ralph/real_intel.json.    
+
+.ralph/analysis_1_topics.json                                                   
+
+                                                                                
+@@ -2,5 +2,6 @@                                                                 
+   "top_topics": [                                                              
+     {                                                                          
+@@ -2,5 +2,6 @@                                                                 
+   "top_topics": [                                                              
+     {                                                                          
+       "momentum": "rising",                                                    
+       "persona": "local",                                                      
+       "reason": "The general trend of looking forward to Super Bowl 60 in the  
+       "momentum": "rising",                                                    
+       "persona": "local",                                                      
+       "reason": "The general trend of looking forward to Super Bowl 60 in the  
+Bay Area, combined with the Santa Clara City News regarding road closures and   
+transportation impacts, aligns with Tony Moretti's focus on the fan experience, 
+local attractions, and logistics."                                              
+     },                                                                         
++   8 /  34 lines [███████░░░░░░░░░░░░░░░░░░░░░░░]  24%                         
+                                                                                Bay Area, combined with the Santa Clara City News regarding road closures and   
+transportation impacts, aligns with Tony Moretti's focus on the fan experience, 
+local attractions, and logistics."                                              
+     },                                                                         
++   8 /  34 lines [███████░░░░░░░░░░░░░░░░░░░░░░░]  24%                         
+                                                                                
+
+Tokens: 6.2k sent, 563 received. Cost: $0.0013 message, $0.0013 session.
+Tokens: 6.2k sent, 563 received. Cost: $0.0013 message, $0.0013 session.
+Applied edit to .ralph/analysis_1_topics.json
+Applied edit to .ralph/analysis_1_topics.json
+
+
+🧠 AI Call 2/4: Insider angles...
+🧠 AI Call 2/4: Insider angles...
+Warning: Input is not a terminal (fd=0).
+Warning: Input is not a terminal (fd=0).
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────────────
+Aider v0.86.1
+Aider v0.86.1
+Model: vertex_ai/gemini-2.0-flash-exp with whole edit format
+Model: vertex_ai/gemini-2.0-flash-exp with whole edit format
+Git repo: .git with 83 files
+Git repo: .git with 83 files
+Repo-map: using 4096 tokens, auto refresh
+Repo-map: using 4096 tokens, auto refresh
+Added .ralph/analysis_1_topics.json to the chat.
+Added .ralph/analysis_1_topics.json to the chat.
+Added .ralph/real_intel.json to the chat.
+Added .ralph/real_intel.json to the chat.
+Added .ralph/trends.json to the chat.
+Added .ralph/trends.json to the chat.
+Added _posts/2026-01-30-02-00-insider-topic.md to the chat.
+Added _posts/2026-01-30-02-00-insider-topic.md to the chat.
+Added _posts/2026-01-30-02-17-topic.md to the chat.
+Added _posts/2026-01-30-02-17-topic.md to the chat.
+Added _posts/2026-01-30-06-00-mvp-shift.md to the chat.
+Added _posts/2026-01-30-06-00-mvp-shift.md to the chat.
+Added personas.json to the chat.
+Added personas.json to the chat.
+
+
+
+
+.ralph/angle_insider.json
+.ralph/angle_insider.json
+Okay, I will create a new .ralph/angle_insider.json file with three angles      
+focused on logistics, security, stadium operations, and team movements, based on
+the provided analysis_1_topics.json and tailored to the "insider" persona.      
+
+.ralph/angle_insider.json                                                       
+
+                                                                                
+Okay, I will create a new .ralph/angle_insider.json file with three angles      
+focused on logistics, security, stadium operations, and team movements, based on
+the provided analysis_1_topics.json and tailored to the "insider" persona.      
+
+.ralph/angle_insider.json                                                       
+
+                                                                                
+@@ -1,4 +1,5 @@                                                                 
+ {                                                                              
+@@ -1,4 +1,5 @@                                                                 
+ {                                                                              
+Perimeter Monitoring",                                                          
+       "angle": "My sources reveal that the expanded security perimeter for     
+Super Bowl LX will incorporate AI-powered monitoring. Expect real-time analysis 
+of crowd behavior and automated threat detection. This is a game-changer for    
+stadium security.",                                                             
+Perimeter Monitoring",                                                          
+       "angle": "My sources reveal that the expanded security perimeter for     
+Super Bowl LX will incorporate AI-powered monitoring. Expect real-time analysis 
+of crowd behavior and automated threat detection. This is a game-changer for    
+stadium security.",                                                             
+       "topic": "Super Bowl 60 Security and Emergency Preparedness in the Bay   
+Area"                                                                           
+     },                                                                         
+     {                                                                          
++   8 /  19 lines [████████████░░░░░░░░░░░░░░░░░░]  42%                         
+                                                                                       "topic": "Super Bowl 60 Security and Emergency Preparedness in the Bay   
+Area"                                                                           
+     },                                                                         
+     {                                                                          
++   8 /  19 lines [████████████░░░░░░░░░░░░░░░░░░]  42%                         
+                                                                                
+
+Tokens: 6.6k sent, 382 received. Cost: $0.0012 message, $0.0012 session.
+Tokens: 6.6k sent, 382 received. Cost: $0.0012 message, $0.0012 session.
+Applied edit to .ralph/angle_insider.json
+Applied edit to .ralph/angle_insider.json
+
+
+🧠 AI Call 3/4: Analyst angles...
+🧠 AI Call 3/4: Analyst angles...
+  ⏱️  Waiting 2s for rate limit...
+Warning: Input is not a terminal (fd=0).
+Warning: Input is not a terminal (fd=0).
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────────────
+Aider v0.86.1
+Aider v0.86.1
+Model: vertex_ai/gemini-2.0-flash-exp with whole edit format
+Model: vertex_ai/gemini-2.0-flash-exp with whole edit format
+Git repo: .git with 83 files
+Git repo: .git with 83 files
+Repo-map: using 4096 tokens, auto refresh
+Repo-map: using 4096 tokens, auto refresh
+Added .ralph/analysis_1_topics.json to the chat.
+Added .ralph/analysis_1_topics.json to the chat.
+Added .ralph/real_intel.json to the chat.
+Added .ralph/real_intel.json to the chat.
+Added .ralph/trends.json to the chat.
+Added .ralph/trends.json to the chat.
+Added _posts/2026-01-30-02-00-insider-topic.md to the chat.
+Added _posts/2026-01-30-02-00-insider-topic.md to the chat.
+Added _posts/2026-01-30-02-17-topic.md to the chat.
+Added _posts/2026-01-30-02-17-topic.md to the chat.
+Added _posts/2026-01-30-06-00-mvp-shift.md to the chat.
+Added _posts/2026-01-30-06-00-mvp-shift.md to the chat.
+Added personas.json to the chat.
+Added personas.json to the chat.
+
+
+
+
+.ralph/angle_analyst.json
+.ralph/angle_analyst.json
+Based on the provided analysis_1_topics.json and the persona guidelines for the 
+"analyst," I will generate three data-driven angles for angle_analyst.json. The 
+angles will focus on odds, trends, historical patterns, and prop bet value, with
+specific stats to research and betting/market insights.                         
+
+.ralph/angle_analyst.json                                                       
+
+                                                                                
+Based on the provided analysis_1_topics.json and the persona guidelines for the 
+"analyst," I will generate three data-driven angles for angle_analyst.json. The 
+angles will focus on odds, trends, historical patterns, and prop bet value, with
+specific stats to research and betting/market insights.                         
+
+.ralph/angle_analyst.json                                                       
+
+                                                                                
+@@ -1,4 +1,5 @@                                                                 
+ {                                                                              
+@@ -1,4 +1,5 @@                                                                 
+ {                                                                              
+   "angles": [                                                                  
+     {                                                                          
+       "title": "SB60: 49ers' Red Zone Regression: Quantifying the Odds of a    
+Postseason Collapse",                                                           
+       "description": "Will the 49ers' red zone efficiency hold up in the Super 
+   "angles": [                                                                  
+     {                                                                          
+       "title": "SB60: 49ers' Red Zone Regression: Quantifying the Odds of a    
+Postseason Collapse",                                                           
+       "description": "Will the 49ers' red zone efficiency hold up in the Super 
+         "49ers' red zone conversion rate (Weeks 1-18 vs. Playoffs)",           
+         "49ers' red zone conversion rate (Weeks 1-18 vs. Playoffs)",           
+       "title": "SB60 Prop Bet Goldmine: Leveraging Player Usage and Matchup    
+Data for +EV Bets on the Ground Game",                                          
+       "description": "Develop a projection model for player performance,       
+       "title": "SB60 Prop Bet Goldmine: Leveraging Player Usage and Matchup    
+Data for +EV Bets on the Ground Game",                                          
+       "description": "Develop a projection model for player performance,       
+focusing on rushing props, based on opponent matchups, historical usage rates,  
+and game script simulations. Identify player prop bets with a significant       
+positive expected value (+EV) based on rigorous statistical analysis, with a    
+focus on rushing yards and attempts.",                                          
++  31 /  43 lines [█████████████████████░░░░░░░░░]  72%                         
+                                                                                focusing on rushing props, based on opponent matchups, historical usage rates,  
+and game script simulations. Identify player prop bets with a significant       
+positive expected value (+EV) based on rigorous statistical analysis, with a    
+focus on rushing yards and attempts.",                                          
++  31 /  43 lines [█████████████████████░░░░░░░░░]  72%                         
+                                                                                
+
+Tokens: 7.1k sent, 952 received. Cost: $0.0016 message, $0.0016 session.
+Tokens: 7.1k sent, 952 received. Cost: $0.0016 message, $0.0016 session.
+Applied edit to .ralph/angle_analyst.json
+Applied edit to .ralph/angle_analyst.json
+
+
+🧠 AI Call 4/4: Local angles...
+🧠 AI Call 4/4: Local angles...
+Warning: Input is not a terminal (fd=0).
+Warning: Input is not a terminal (fd=0).
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────────────
+Aider v0.86.1
+Aider v0.86.1
+Model: vertex_ai/gemini-2.0-flash-exp with whole edit format
+Model: vertex_ai/gemini-2.0-flash-exp with whole edit format
+Git repo: .git with 83 files
+Git repo: .git with 83 files
+Repo-map: using 4096 tokens, auto refresh
+Repo-map: using 4096 tokens, auto refresh
+Added .ralph/analysis_1_topics.json to the chat.
+Added .ralph/analysis_1_topics.json to the chat.
+Added .ralph/real_intel.json to the chat.
+Added .ralph/real_intel.json to the chat.
+Added .ralph/trends.json to the chat.
+Added .ralph/trends.json to the chat.
+Added _posts/2026-01-30-02-00-insider-topic.md to the chat.
+Added _posts/2026-01-30-02-00-insider-topic.md to the chat.
+Added _posts/2026-01-30-02-17-topic.md to the chat.
+Added _posts/2026-01-30-02-17-topic.md to the chat.
+Added _posts/2026-01-30-06-00-mvp-shift.md to the chat.
+Added _posts/2026-01-30-06-00-mvp-shift.md to the chat.
+Added personas.json to the chat.
+Added personas.json to the chat.
+
+
+
+
+.ralph/angle_local.json
+.ralph/angle_local.json
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Resource exhausted. Please try 
+again later. Please refer to 
+https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more 
+details.",\n    "status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 0.2 seconds...
+Retrying in 0.2 seconds...
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Quota exceeded for 
+aiplatform.googleapis.com/global_generate_content_requests_per_minute_per_projec
+t_per_base_model with base model: gemini-experimental. Please submit a quota 
+increase request. 
+https://cloud.google.com/vertex-ai/docs/generative-ai/quotas-genai.",\n    
+"status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+litellm.RateLimitError: litellm.RateLimitError: VertexAIException - b'{\n  
+"error": {\n    "code": 429,\n    "message": "Quota exceeded for 
+aiplatform.googleapis.com/global_generate_content_requests_per_minute_per_projec
+t_per_base_model with base model: gemini-experimental. Please submit a quota 
+increase request. 
+https://cloud.google.com/vertex-ai/docs/generative-ai/quotas-genai.",\n    
+"status": "RESOURCE_EXHAUSTED"\n  }\n}\n'
+The API provider has rate limited you. Try again later or check your quotas.
+The API provider has rate limited you. Try again later or check your quotas.
+Retrying in 0.5 seconds...
+Retrying in 0.5 seconds...
+I will update .ralph/angle_local.json to include 3 angles focused on the Bay    
+Area experience, Santa Clara, transportation, food, and tailgating, with        
+specific venues/restaurants/events, insider tips, and fan-focused hooks.        
+
+.ralph/angle_local.json                                                         
+I will update .ralph/angle_local.json to include 3 angles focused on the Bay    
+Area experience, Santa Clara, transportation, food, and tailgating, with        
+specific venues/restaurants/events, insider tips, and fan-focused hooks.        
+
+.ralph/angle_local.json                                                         
+
+                                                                                
+@@ -1,3 +1,5 @@                                                                 
+ {                                                                              
+
+                                                                                
+@@ -1,3 +1,5 @@                                                                 
+ {                                                                              
+   "local_angles": [                                                            
+     {                                                                          
+-      "angle": "Super Bowl 60 Tailgate Throwdown: Your Guide to Pre-Game       
+Paradise",                                                                      
+-      "description": "Get ready to rumble in the parking lots of Levi's        
+Stadium! We're serving up the ultimate guide to Super Bowl 60 tailgating, from  
+the best spots to park your rig to the must-have gear for grilling and chilling 
+before the big game.",                                                          
++      "angle": "Super Bowl LX Tailgate Throwdown: Your Guide to Pre-Game       
+Paradise",                                                                      
++      "description": "Get ready to rumble in the parking lots of Levi's        
+Stadium! We're serving up the ultimate guide to Super Bowl LX tailgating, from  
+the best spots to park your rig to the must-have gear for grilling and chilling 
+   "local_angles": [                                                            
+     {                                                                          
+-      "angle": "Super Bowl 60 Tailgate Throwdown: Your Guide to Pre-Game       
+Paradise",                                                                      
+-      "description": "Get ready to rumble in the parking lots of Levi's        
+Stadium! We're serving up the ultimate guide to Super Bowl 60 tailgating, from  
+the best spots to park your rig to the must-have gear for grilling and chilling 
+before the big game.",                                                          
++      "angle": "Super Bowl LX Tailgate Throwdown: Your Guide to Pre-Game       
+Paradise",                                                                      
++      "description": "Get ready to rumble in the parking lots of Levi's        
+Stadium! We're serving up the ultimate guide to Super Bowl LX tailgating, from  
+the best spots to park your rig to the must-have gear for grilling and chilling 
+before the big game.",                                                          
+       "venues": [                                                              
+         "Blue Lot 1 (the OG tailgate zone)",                                   
+         "Green Lot 4 (close to the action)",                                   
+before the big game.",                                                          
+       "venues": [                                                              
+         "Blue Lot 1 (the OG tailgate zone)",                                   
+         "Green Lot 4 (close to the action)",                                   
+         "Red Lot 7 (for the serious tailgater)",                               
+         "Santa Clara Valley Brewing (craft brews for the discerning fan)",     
+         "Off the Rails Brewing (another local favorite)"                       
+       ],                                                                       
+       "insider_tip": "Pro Tip: Arrive EARLY – like, sunrise early – to snag the
+         "Red Lot 7 (for the serious tailgater)",                               
+         "Santa Clara Valley Brewing (craft brews for the discerning fan)",     
+         "Off the Rails Brewing (another local favorite)"                       
+       ],                                                                       
+       "insider_tip": "Pro Tip: Arrive EARLY – like, sunrise early – to snag the
+best spot. BYO everything, but don't forget to check the stadium's tailgating   
+rules. And for the love of football, bring a portable charger!",                
+       "fan_hook": "Ready to turn Levi's Stadium into your personal tailgate    
+best spot. BYO everything, but don't forget to check the stadium's tailgating   
+rules. And for the love of football, bring a portable charger!",                
+       "fan_hook": "Ready to turn Levi's Stadium into your personal tailgate    
+kingdom? Let's get this party started!"                                         
+     },                                                                         
+     {                                                                          
+-      "angle": "Santa Clara Chow Down: Your Guide to Super Bowl 60 Eats",      
++      "angle": "Santa Clara Chow Down: Your Guide to Super Bowl LX Eats",      
+       "description": "Forget stadium food – we're diving into the delicious    
+world of Santa Clara cuisine! From upscale dining experiences to quick bites    
+that won't break the bank, we've got your culinary game plan covered.",         
+kingdom? Let's get this party started!"                                         
+     },                                                                         
+     {                                                                          
+-      "angle": "Santa Clara Chow Down: Your Guide to Super Bowl 60 Eats",      
++      "angle": "Santa Clara Chow Down: Your Guide to Super Bowl LX Eats",      
+       "description": "Forget stadium food – we're diving into the delicious    
+world of Santa Clara cuisine! From upscale dining experiences to quick bites    
+that won't break the bank, we've got your culinary game plan covered.",         
+       "venues": [                                                              
+         "Parcel 104 (fancy pants dining)",                                     
+         "Birks Restaurant (classic American with a twist)",                    
+         "Ike's Love & Sandwiches (sandwich heaven)",                           
+       "venues": [                                                              
+         "Parcel 104 (fancy pants dining)",                                     
+         "Birks Restaurant (classic American with a twist)",                    
+         "Ike's Love & Sandwiches (sandwich heaven)",                           
+@@ -26,5 +26,6 @@                                                               
+       ],                                                                       
+       "insider_tip": "Reservations are your best friend, especially for dinner.
+Venture a bit outside the stadium zone for hidden gems and local favorites. And 
+always check for Super Bowl specials!",                                         
+@@ -26,5 +26,6 @@                                                               
+       ],                                                                       
+       "insider_tip": "Reservations are your best friend, especially for dinner.
+Venture a bit outside the stadium zone for hidden gems and local favorites. And 
+always check for Super Bowl specials!",                                         
+       "fan_hook": "Ditch the hot dogs and discover the real taste of Santa     
+Clara! Your Super Bowl culinary adventure begins now."                          
+     },                                                                         
+     {                                                                          
++      "angle": "Super Bowl LX Transit Triumph: Your Guide to Getting Around    
+Santa Clara",                                                                   
+       "fan_hook": "Ditch the hot dogs and discover the real taste of Santa     
+Clara! Your Super Bowl culinary adventure begins now."                          
+     },                                                                         
+     {                                                                          
++      "angle": "Super Bowl LX Transit Triumph: Your Guide to Getting Around    
+Santa Clara",                                                                   
+-      "description": "Navigating Santa Clara during Super Bowl 60 doesn't have 
+to be a nightmare. We're breaking down the best transportation options, from    
+public transit to ride-sharing hacks, so you can arrive at the stadium          
+stress-free and ready to cheer.",                                               
++      "angle": "Super Bowl LX Transit Triumph: Your Guide to Getting Around    
+Santa Clara",                                                                   
++      "description": "Navigating Santa Clara during Super Bowl LX doesn't have 
+to be a nightmare. We're breaking down the best transportation options, from    
+public transit to ride-sharing hacks, so you can arrive at the stadium          
+stress-free and ready to cheer.",                                               
+       "venues": [                                                              
+-      "description": "Navigating Santa Clara during Super Bowl 60 doesn't have 
+to be a nightmare. We're breaking down the best transportation options, from    
+public transit to ride-sharing hacks, so you can arrive at the stadium          
+stress-free and ready to cheer.",                                               
++      "angle": "Super Bowl LX Transit Triumph: Your Guide to Getting Around    
+Santa Clara",                                                                   
++      "description": "Navigating Santa Clara during Super Bowl LX doesn't have 
+to be a nightmare. We're breaking down the best transportation options, from    
+public transit to ride-sharing hacks, so you can arrive at the stadium          
+stress-free and ready to cheer.",                                               
+       "venues": [                                                              
+         "VTA Light Rail (your ticket to the stadium)",                         
+         "Caltrain (connecting you from the Peninsula)",                        
+         "VTA Light Rail (your ticket to the stadium)",                         
+         "Caltrain (connecting you from the Peninsula)",                        
+         "Ride-sharing zones (designated pick-up/drop-off spots)",              
+         "Santa Clara free shuttle (game day hero)",                            
+         "ACE Train (for those coming from afar)"                               
+       ],                                                                       
+       "insider_tip": "Download the VTA app for real-time updates and easy fare 
+payment. Consider biking or walking if you're close enough – it's a great way to
+beat the traffic. And snag a Clipper card in advance for seamless public transit
+access.",                                                                       
+-      "fan_hook": "Conquer Santa Clara traffic like a pro! Your ultimate Super 
+Bowl 60 transportation guide is here to save the day."                          
+-    },                                                                         
+-    {                                                                          
+-      "angle": "SB60's Hidden Gems: Exploring Santa Clara Beyond the Stadium", 
+-      "description": "Super Bowl 60 is more than just the game! Discover Santa 
+Clara's local attractions, from tech museums to serene parks, for a complete Bay
+Area experience.",                                                              
+-      "venues": [                                                              
+-        "Intel Museum (geek out with tech history)",                           
+-        "Great America (thrill rides and family fun)",                         
+-        "Central Park (relax and recharge)",                                   
+-        "Santa Clara University (historic campus)",                            
+-        "Winchester Mystery House (a quirky Victorian mansion)"                
+-      ],                                                                       
+-      "insider_tip": "Skip the stadium crowds and explore Santa Clara's hidden 
+gems. Check websites for hours and ticket info. Public transport or ride-sharing
+are your best bets for getting around.",                                        
+-      "fan_hook": "Ready to explore Santa Clara beyond the gridiron? Let's     
+uncover the city's best-kept secrets!"                                          
+-    },                                                                         
+-    {                                                                          
+-      "angle": "Tailgate Like a Champion: SB60 Edition",                       
+-      "description": "Elevate your Super Bowl 60 tailgate game with these      
+insider tips! From gourmet grilling to high-tech setups, we'll show you how to  
+throw the ultimate pre-game party.",                                            
+-      "venues": [                                                              
+-        "Your parking spot (the heart of the action)",                         
+-        "Local butcher shops (for premium meats)",                             
+-        "Specialty grocery stores (for gourmet snacks)",                       
+-        "Online retailers (for tailgate gadgets)",                             
+-        "BevMo! (for drinks and mixers)"                                       
+-      ],                                                                       
+-      "insider_tip": "Plan your menu in advance and prep as much as possible at
+home. Invest in a portable grill and a high-quality cooler. Don't forget the    
+entertainment – music, games, and a big-screen TV are essential!",              
+-      "fan_hook": "Ready to become a tailgate legend? Let's turn your parking  
+spot into the hottest party in Santa Clara!"                                    
+-    },                                                                         
+-    {                                                                          
+-      "angle": "Santa Clara's Super Bowl Survival Guide: Transportation, Tech, 
+and Tasty Bites",                                                               
+-      "description": "Navigate Super Bowl 60 like a pro with our guide to Santa
+Clara's transportation, tech, and food scene. From ride-sharing hacks to        
+must-try restaurants, we've got you covered.",                                  
+-      "venues": [                                                              
+-        "VTA Light Rail (your stadium connection)",                            
+-        "Uber/Lyft zones (convenient pick-up spots)",                          
+-        "Local food trucks (quick and tasty eats)",                            
+-        "Sports bars (for game-day atmosphere)",                               
+-        "Coffee shops (for a caffeine boost)"                                  
+-      ],                                                                       
+-      "insider_tip": "Download ride-sharing apps and set your location in      
+advance. Explore Santa Clara's diverse food scene beyond the stadium. Stay      
+connected with portable chargers and local Wi-Fi hotspots.",                    
+-      "fan_hook": "Ready to conquer Santa Clara and experience Super Bowl 60   
+like a local? Let's dive in!"                                                   
+         "Ride-sharing zones (designated pick-up/drop-off spots)",              
+         "Santa Clara free shuttle (game day hero)",                            
+         "ACE Train (for those coming from afar)"                               
+       ],                                                                       
+       "insider_tip": "Download the VTA app for real-time updates and easy fare 
+payment. Consider biking or walking if you're close enough – it's a great way to
+beat the traffic. And snag a Clipper card in advance for seamless public transit
+access.",                                                                       
+-      "fan_hook": "Conquer Santa Clara traffic like a pro! Your ultimate Super 
+Bowl 60 transportation guide is here to save the day."                          
+-    },                                                                         
+-    {                                                                          
+-      "angle": "SB60's Hidden Gems: Exploring Santa Clara Beyond the Stadium", 
+-      "description": "Super Bowl 60 is more than just the game! Discover Santa 
+Clara's local attractions, from tech museums to serene parks, for a complete Bay
+Area experience.",                                                              
+-      "venues": [                                                              
+-        "Intel Museum (geek out with tech history)",                           
+-        "Great America (thrill rides and family fun)",                         
+-        "Central Park (relax and recharge)",                                   
+-        "Santa Clara University (historic campus)",                            
+-        "Winchester Mystery House (a quirky Victorian mansion)"                
+-      ],                                                                       
+-      "insider_tip": "Skip the stadium crowds and explore Santa Clara's hidden 
+gems. Check websites for hours and ticket info. Public transport or ride-sharing
+are your best bets for getting around.",                                        
+-      "fan_hook": "Ready to explore Santa Clara beyond the gridiron? Let's     
+uncover the city's best-kept secrets!"                                          
+-    },                                                                         
+-    {                                                                          
+-      "angle": "Tailgate Like a Champion: SB60 Edition",                       
+-      "description": "Elevate your Super Bowl 60 tailgate game with these      
+insider tips! From gourmet grilling to high-tech setups, we'll show you how to  
+throw the ultimate pre-game party.",                                            
+-      "venues": [                                                              
+-        "Your parking spot (the heart of the action)",                         
+-        "Local butcher shops (for premium meats)",                             
+-        "Specialty grocery stores (for gourmet snacks)",                       
+-        "Online retailers (for tailgate gadgets)",                             
+-        "BevMo! (for drinks and mixers)"                                       
+-      ],                                                                       
+-      "insider_tip": "Plan your menu in advance and prep as much as possible at
+home. Invest in a portable grill and a high-quality cooler. Don't forget the    
+entertainment – music, games, and a big-screen TV are essential!",              
+-      "fan_hook": "Ready to become a tailgate legend? Let's turn your parking  
+spot into the hottest party in Santa Clara!"                                    
+-    },                                                                         
+-    {                                                                          
+-      "angle": "Santa Clara's Super Bowl Survival Guide: Transportation, Tech, 
+and Tasty Bites",                                                               
+-      "description": "Navigate Super Bowl 60 like a pro with our guide to Santa
+Clara's transportation, tech, and food scene. From ride-sharing hacks to        
+must-try restaurants, we've got you covered.",                                  
+-      "venues": [                                                              
+-        "VTA Light Rail (your stadium connection)",                            
+-        "Uber/Lyft zones (convenient pick-up spots)",                          
+-        "Local food trucks (quick and tasty eats)",                            
+-        "Sports bars (for game-day atmosphere)",                               
+-        "Coffee shops (for a caffeine boost)"                                  
+-      ],                                                                       
+-      "insider_tip": "Download ride-sharing apps and set your location in      
+advance. Explore Santa Clara's diverse food scene beyond the stadium. Stay      
+connected with portable chargers and local Wi-Fi hotspots.",                    
+-      "fan_hook": "Ready to conquer Santa Clara and experience Super Bowl 60   
+like a local? Let's dive in!"                                                   
++      "fan_hook": "Conquer Santa Clara traffic like a pro! Your ultimate Super 
+Bowl LX transportation guide is here to save the day."                          
+     }                                                                          
+   ]                                                                            
+ }                                                                              
+                                                                                
++      "fan_hook": "Conquer Santa Clara traffic like a pro! Your ultimate Super 
+Bowl LX transportation guide is here to save the day."                          
+     }                                                                          
+   ]                                                                            
+ }                                                                              
+                                                                                
+
+
+Tokens: 7.5k sent, 757 received. Cost: $0.0016 message, $0.0016 session.
+Tokens: 7.5k sent, 757 received. Cost: $0.0016 message, $0.0016 session.
+Applied edit to .ralph/angle_local.json
+Applied edit to .ralph/angle_local.json
+
+
+📝 Compiling research summary...
+📝 Compiling research summary...
+✅ Research complete: 5 topics, 6 angles
+✅ Research complete: 5 topics, 6 angles
+
+
+=== Ralph Research Job (Multi-AI) ===
+=== Ralph Research Job (Multi-AI) ===
+Timestamp: 2026-01-30T02:45:00Z
+Timestamp: 2026-01-30T02:45:00Z
+🔍 Fetching raw data...
+🔍 Fetching raw data...
+
+📊 Found 3 trending topics
+
+📊 Found 3 trending topics
+Using cached trends (fresh)
+[
+  {
+    "text": "Looking forward to Super Bowl 60 at Levi's Stadium",
+    "query": "general"
+  },
+  {
+    "text": "NFL playoff picture taking shape for SB60",
+    "query": "playoffs"
+  },
+  {
+    "text": "Bay Area prepping for Super Bowl 2026",
+    "query": "local"
+  }
+]
+Using cached trends (fresh)
+[
+  {
+    "text": "Looking forward to Super Bowl 60 at Levi's Stadium",
+    "query": "general"
+  },
+  {
+    "text": "NFL playoff picture taking shape for SB60",
+    "query": "playoffs"
+  },
+  {
+    "text": "Bay Area prepping for Super Bowl 2026",
+    "query": "local"
+  }
+]
+🕵️‍♂️ Ralph is digging for real intel...
+   Checking Santa Clara City News...
+   Checking NFL Football Operations...
+⚠️ Failed to fetch NFL Football Operations: HTTP Error 404: Not Found
+   Checking 49ers Official News...
+✅ Secured 6 verified intelligence items.
+🕵️‍♂️ Ralph is digging for real intel...
+   Checking Santa Clara City News...
+   Checking NFL Football Operations...
+⚠️ Failed to fetch NFL Football Operations: HTTP Error 404: Not Found
+   Checking 49ers Official News...
+✅ Secured 6 verified intelligence items.
+
+
+🧠 AI Call 1/4: Analyzing trends...
+🧠 AI Call 1/4: Analyzing trends...
+  ⏱️  Waiting 8s for rate limit...
+Warning: Input is not a terminal (fd=0).
+Warning: Input is not a terminal (fd=0).
+────────────────────────────────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────────────────
