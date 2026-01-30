@@ -174,16 +174,22 @@
       "author": "analyst",
       "date": "2026-01-30T12:47:49.356264+00:00",
       "url": "/2026/01/30/2026-01-30-12-47-middle-eight.html"
+    },
+    {
+      "title": "The Confetti Contingency: Inside the 3,000-Pound Celebration Plan",
+      "author": "insider",
+      "date": "2026-01-30T13:12:46.305059+00:00",
+      "url": "/2026/01/30/2026-01-30-13-12-confetti-logistics.html"
     }
   ],
   "stats": {
-    "totalPosts": 26,
+    "totalPosts": 27,
     "postsByPersona": {
-      "insider": 11,
+      "insider": 12,
       "analyst": 9,
       "local": 5
     },
-    "lastPublish": "2026-01-30T12:47:49.356299+00:00",
+    "lastPublish": "2026-01-30T13:12:46.305087+00:00",
     "streakDays": 1
   }
 }
