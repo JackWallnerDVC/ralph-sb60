@@ -410,3 +410,31 @@ Target persona: analyst (balancing distribution)
 ✅ Publish cycle complete at 11:35 AM PST
 
 
+=== Ralph Publish Job ===
+=== Ralph Publish Job ===
+Timestamp: 2026-01-30T18:00:00 PST
+Timestamp: 2026-01-30T18:00:00 PST
+Drafts available: 1
+Drafts available: 1
+Target persona: local (balancing distribution)
+Target persona: local (balancing distribution)
+📰 Only 1 draft. Publishing without AI polish to preserve it...
+📰 Only 1 draft. Publishing without AI polish to preserve it...
+Publishing: draft-20260131-0100-insider-vip-convoy.md
+✅ Published: 2026-01-30-18-00-insider-vip-convoy.md
+Publishing: draft-20260131-0100-insider-vip-convoy.md
+✅ Published: 2026-01-30-18-00-insider-vip-convoy.md
+🏗️ Building site...
+🏗️ Building site...
+From https://github.com/JackWallnerDVC/ralph-sb60
+ * branch            main       -> FETCH_HEAD
+From https://github.com/JackWallnerDVC/ralph-sb60
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+Already up to date.
+bundler: command not found: jekyll
+bundler: command not found: jekyll
+Install missing gem executables with `bundle install`
+Install missing gem executables with `bundle install`
+⚠️ Local build skipped (GitHub Pages will build on push)
+⚠️ Local build skipped (GitHub Pages will build on push)

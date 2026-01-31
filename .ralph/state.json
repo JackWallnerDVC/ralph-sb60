@@ -1,8 +1,10 @@
 {
   "mode": "job_based",
-  "lastActivity": "2026-01-30T23:31:22+0000",
-  "draftsInQueue": 0,
-  "drafts": [],
+  "lastActivity": "2026-01-31T01:59:43+0000",
+  "draftsInQueue": 1,
+  "drafts": [
+    "draft-20260131-0100-insider-vip-convoy.md"
+  ],
   "lastPublish": "2026-01-30T15:31:23.092796-08:00",
   "targetQueueSize": 5,
   "currentPersona": "insider",
@@ -35,7 +37,7 @@
   "lastTransition": "2026-01-30T00:57:15.103424Z",
   "apiCooldownSeconds": 180,
   "targetDrafts": 5,
-  "lastDraftAt": "2026-01-31T00:30:00.000000+00:00",
+  "lastDraftAt": "2026-01-30T17:46:02.488678-08:00",
   "lastResearch": "2026-01-30T01:00:04.204689Z",
   "trendsAvailable": true
 }
